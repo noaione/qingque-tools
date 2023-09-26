@@ -9,3 +9,7 @@ Made with Vue.js
 ## Max Scoring Calculation
 
 See: https://github.com/noaione/qingque-scoring/blob/master/src/utils/scoring.ts
+
+## LICENSE
+
+MIT License
