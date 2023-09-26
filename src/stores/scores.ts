@@ -6,7 +6,7 @@ import type {
   StatsTypeDict
 } from "@/models";
 import charactersModels from "@/assets/characters.json";
-import { calculateMaximumPossibleValues, isNone } from "@/utils";
+import { calculateMaximumPossibleValues } from "@/utils";
 import { defineStore } from "pinia";
 
 export interface SCStore {
@@ -114,23 +114,6 @@ export const useScoresStore = defineStore("scores", {
       score.data.weight = weights;
       score.max = calculateMaximumPossibleValues(score.data);
       this.scores[index] = score;
-
-      if (!isNone(id)) return;
-
-      switch (score.id) {
-        case "8001":
-          this.updateCurrentWeight(weights, "8002");
-          break;
-        case "8002":
-          this.updateCurrentWeight(weights, "8001");
-          break;
-        case "8003":
-          this.updateCurrentWeight(weights, "8004");
-          break;
-        case "8004":
-          this.updateCurrentWeight(weights, "8003");
-          break;
-      }
     },
     /**
      * Update the current/selected character's main stats weights
@@ -147,23 +130,6 @@ export const useScoresStore = defineStore("scores", {
       score.data.main[index as MainAffixKey] = weights;
       score.max = calculateMaximumPossibleValues(score.data);
       this.scores[scoreIdx] = score;
-
-      if (!isNone(id)) return;
-
-      switch (score.id) {
-        case "8001":
-          this.updateCurrentMain(index, weights, "8002");
-          break;
-        case "8002":
-          this.updateCurrentMain(index, weights, "8001");
-          break;
-        case "8003":
-          this.updateCurrentMain(index, weights, "8004");
-          break;
-        case "8004":
-          this.updateCurrentMain(index, weights, "8003");
-          break;
-      }
     },
     removeCharacter(id: string) {
       const index = this.scores.findIndex((score) => score.id === id);

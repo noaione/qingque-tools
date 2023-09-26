@@ -18,6 +18,32 @@ function saveScores() {
       ...data,
       max: calculateMaximumPossibleValues(data)
     };
+    switch (id) {
+      case "8001":
+        scoreJSON["8002"] = {
+          ...data,
+          max: calculateMaximumPossibleValues(data)
+        };
+        break;
+      case "8002":
+        scoreJSON["8001"] = {
+          ...data,
+          max: calculateMaximumPossibleValues(data)
+        };
+        break;
+      case "8003":
+        scoreJSON["8004"] = {
+          ...data,
+          max: calculateMaximumPossibleValues(data)
+        };
+        break;
+      case "8004":
+        scoreJSON["8003"] = {
+          ...data,
+          max: calculateMaximumPossibleValues(data)
+        };
+        break;
+    }
   }
 
   const blob = new Blob([JSON.stringify(scoreJSON, undefined, 4)], { type: "application/json" });
