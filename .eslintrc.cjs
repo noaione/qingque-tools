@@ -67,5 +67,13 @@ module.exports = {
         allowSeparatedGroups: true
       }
     ]
-  }
+  },
+  overrides: [
+    {
+      files: ["src/routes/**/*.vue"],
+      rules: {
+        "vue/multi-word-component-names": "off"
+      }
+    }
+  ]
 };

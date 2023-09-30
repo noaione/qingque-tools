@@ -19,5 +19,6 @@
         "editor.formatOnSave": true
     },
     "editor.tabSize": 2,
-    "editor.rulers": [100]
+    "editor.rulers": [100],
+    "typescript.preferences.autoImportFileExcludePatterns": ["vue-router"]
 }
