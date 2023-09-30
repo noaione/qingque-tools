@@ -9,6 +9,7 @@
       :disabled="loading"
     />
   </div>
+  <button class="upload-url-btn" :disabled="loading" @click="loadFromURL">Load from URL</button>
 </template>
 
 <script setup lang="ts">
@@ -70,6 +71,45 @@ function onFileLoad(ev: HandleFileInput) {
     loading.value = false;
   });
 }
+
+function loadFromURL() {
+  const url = prompt("Enter the URL of the score JSON file:");
+  if (!url) return;
+
+  // Download first
+  loading.value = true;
+
+  fetch(url)
+    .then((res) => res.text())
+    .then((rawData) => {
+      let scoreJSON: any;
+      try {
+        scoreJSON = JSON.parse(rawData);
+      } catch (e) {
+        props.onLoadError("Invalid JSON file.");
+        return;
+      }
+
+      try {
+        validateScoreJSON(scoreJSON);
+        scores.fromJSON(scoreJSON);
+      } catch (e) {
+        if (e instanceof ScoreValidationError) {
+          props.onLoadError(e.message);
+          return;
+        } else {
+          props.onLoadError("An unknown error occurred.");
+        }
+      } finally {
+        loading.value = false;
+      }
+    })
+    .catch((e) => {
+      props.onLoadError("An unknown error occurred, check console!");
+      console.error(e);
+      loading.value = false;
+    });
+}
 </script>
 
 <style scoped lang="postcss">
@@ -83,5 +123,10 @@ function onFileLoad(ev: HandleFileInput) {
 }
 .upload-area > input[type="file"] {
   display: none;
+}
+
+.upload-url-btn {
+  @apply bg-cyan-700 hover:bg-cyan-600 active:bg-cyan-600 hover:text-gray-50 disabled:bg-cyan-600;
+  @apply transition-colors px-4 py-2 rounded-md font-bold;
 }
 </style>
