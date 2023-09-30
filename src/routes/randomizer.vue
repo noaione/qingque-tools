@@ -1,4 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { definePage } from "vue-router/auto";
+
+definePage({
+  meta: {
+    title: "Qingque Gamba",
+    description: "Gamble your MoC progress with this character randomizer."
+  }
+});
+</script>
 
 <template>
   <main class="pt-2 pb-8">
