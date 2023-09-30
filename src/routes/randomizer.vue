@@ -1,0 +1,23 @@
+<script setup lang="ts"></script>
+
+<template>
+  <main class="pt-2 pb-8">
+    <div class="flex flex-col mt-4 mb-4 items-center">
+      <img src="/assets/qingque.png" class="w-32 h-auto" />
+    </div>
+    <div class="flex flex-col mt-4 mb-5 items-center">
+      <h1 class="text-3xl font-bold">Qingque Gamba</h1>
+      <p class="text-lg mt-2">Gamble your MoC progress with this character randomizer.</p>
+    </div>
+    <div class="flex flex-col mt-4 mb-5 items-center">
+      <GambaSlots />
+    </div>
+    <div class="flex flex-col mt-6 mb-5 items-center">
+      <h1 class="text-xl font-semibold">Owned Characters</h1>
+      <p class="font-medium mt-1">
+        You can tap/click on characters to includes/remove from randomizer
+      </p>
+      <GambaCharacters />
+    </div>
+  </main>
+</template>
