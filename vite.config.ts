@@ -6,6 +6,7 @@ import vueJsx from "@vitejs/plugin-vue-jsx";
 import Components from "unplugin-vue-components/vite";
 import VueRouter from "unplugin-vue-router/vite";
 import { VueRouterAutoImports } from "unplugin-vue-router";
+import { unheadVueComposablesImports } from "@unhead/vue";
 import AutoImport from "unplugin-auto-import/vite";
 import type { ManualChunkMeta } from "rollup";
 
@@ -45,7 +46,7 @@ export default defineConfig({
     vueJsx(),
     Components({ dts: "./src/types/components.d.ts" }),
     AutoImport({
-      imports: ["vue", VueRouterAutoImports],
+      imports: ["vue", VueRouterAutoImports, unheadVueComposablesImports],
       dts: "./src/types/imports.d.ts"
     })
   ],
@@ -58,8 +59,12 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: (id, getModuleInfo) => {
-          if (id.includes("src/assets/characters.json")) {
-            return "meta.characters";
+          if (id.includes("src/assets/")) {
+            // get everything after "src/assets/"
+            const [, assetPath] = id.split("src/assets/");
+            // remove the extension
+            const [assetName] = assetPath.split(".");
+            return `meta/${assetName.replace("/", ".")}`;
           }
 
           if (id.includes("/routes")) {

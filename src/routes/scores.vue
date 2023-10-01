@@ -1,14 +1,16 @@
 <script setup lang="ts">
 import { useScoresStore } from "@/stores";
-import { definePage } from "vue-router/auto";
 
 const scores = useScoresStore();
 
-definePage({
-  meta: {
-    title: "Qingque Scoring",
-    description: "A web editor for scoring system used by Qingque Bot"
-  }
+useHead({
+  title: "Qingque Scoring",
+  meta: [
+    {
+      name: "description",
+      content: "A web editor for scoring system used by Qingque Bot"
+    }
+  ]
 });
 </script>
 
