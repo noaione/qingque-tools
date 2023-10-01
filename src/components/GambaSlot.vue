@@ -29,9 +29,6 @@
 
 <script setup lang="ts">
 import type { Character } from "@/models";
-import { ref } from "vue";
-import { watch } from "vue";
-import { computed } from "vue";
 
 const props = defineProps<{
   character?: Character;

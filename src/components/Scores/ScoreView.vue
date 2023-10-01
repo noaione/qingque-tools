@@ -9,42 +9,42 @@
     <ScoreMainStats
       name="Head"
       alt="Relic Head Icon"
-      icon="/assets/icon/RelicHead.png"
+      icon="/assets/icon/RelicHead.webp"
       index="1"
       :score="scoresStore.currentWithModel.data.main[1]"
     />
     <ScoreMainStats
       name="Hand"
       alt="Relic Hand Icon"
-      icon="/assets/icon/RelicHand.png"
+      icon="/assets/icon/RelicHand.webp"
       index="2"
       :score="scoresStore.currentWithModel.data.main[2]"
     />
     <ScoreMainStats
       name="Body"
       alt="Relic Body Icon"
-      icon="/assets/icon/RelicBody.png"
+      icon="/assets/icon/RelicBody.webp"
       index="3"
       :score="scoresStore.currentWithModel.data.main[3]"
     />
     <ScoreMainStats
       name="Foot"
       alt="Relic Foot Icon"
-      icon="/assets/icon/RelicFoot.png"
+      icon="/assets/icon/RelicFoot.webp"
       index="4"
       :score="scoresStore.currentWithModel.data.main[4]"
     />
     <ScoreMainStats
       name="Planar Orb"
       alt="Relic Planar Orb Icon"
-      icon="/assets/icon/RelicPlanarOrb.png"
+      icon="/assets/icon/RelicPlanarOrb.webp"
       index="5"
       :score="scoresStore.currentWithModel.data.main[5]"
     />
     <ScoreMainStats
       name="Planar Rope"
       alt="Relic Planar Rope Icon"
-      icon="/assets/icon/RelicPlanarRope.png"
+      icon="/assets/icon/RelicPlanarRope.webp"
       index="6"
       :score="scoresStore.currentWithModel.data.main[6]"
     />

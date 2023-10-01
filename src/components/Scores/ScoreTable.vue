@@ -32,10 +32,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
 import { type StatsType, type StatsTypeDict, statsTypeToName } from "@/models";
 import { useScoresStore } from "@/stores";
-import { watch } from "vue";
 
 const props = defineProps<{
   score: StatsTypeDict;

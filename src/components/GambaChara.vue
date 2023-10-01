@@ -11,7 +11,6 @@
 
 <script setup lang="ts">
 import type { Character } from "@/models";
-import { computed } from "vue";
 
 const props = defineProps<{
   character: Character;

@@ -20,7 +20,6 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue";
 import { getCharacterElement, getCharacterPath } from "@/models";
 import type { SCStoreWithModel } from "@/stores";
 

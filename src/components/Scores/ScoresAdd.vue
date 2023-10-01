@@ -39,9 +39,6 @@
 import characterJSON from "@/assets/characters.json";
 import { useScoresStore } from "@/stores";
 import { isNone } from "@/utils";
-import { computed } from "vue";
-import { watch } from "vue";
-import { ref } from "vue";
 
 const props = defineProps<{
   show: boolean;

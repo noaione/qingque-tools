@@ -45,7 +45,6 @@
 
 <script setup lang="ts">
 import { useScoresStore } from "@/stores";
-import { ref } from "vue";
 
 const scores = useScoresStore();
 

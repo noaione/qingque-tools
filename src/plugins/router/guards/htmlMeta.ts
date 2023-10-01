@@ -1,4 +1,3 @@
-import { nextTick } from "vue";
 import type { RouteLocationNormalized } from "vue-router";
 
 const DEFAULT_TITLE = "Qingque Tools";

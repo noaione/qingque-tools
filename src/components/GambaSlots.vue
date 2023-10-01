@@ -39,7 +39,6 @@
 <script setup lang="ts">
 import type { Character } from "@/models";
 import { useGambaStore } from "@/stores/gamba";
-import { ref } from "vue";
 
 const gambaStore = useGambaStore();
 const randomizing = ref(false);

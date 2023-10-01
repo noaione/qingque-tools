@@ -28,7 +28,6 @@
 import type { Character } from "@/models";
 import charactersJSON from "@/assets/characters.json";
 import { useGambaStore } from "@/stores/gamba";
-import { computed } from "vue";
 import sortBy from "lodash.sortby";
 
 const gambaStore = useGambaStore();
