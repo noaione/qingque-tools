@@ -3,7 +3,7 @@
     <QingqueIcon />
     <div class="flex flex-col mt-4 mb-5 items-center">
       <h1 class="text-3xl font-bold">Qingque Tools</h1>
-      <p class="text-lg mt-2">A collection of tools for Honkai: Star Rail</p>
+      <p class="text-lg mt-2 text-center">A collection of tools for Honkai: Star Rail</p>
     </div>
     <hr class="border-gray-500 mt-2" />
     <div class="flex flex-row justify-center items-center mt-4 gap-8 mx-2">

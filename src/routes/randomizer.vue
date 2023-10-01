@@ -14,7 +14,9 @@ definePage({
     <QingqueIcon navigateable />
     <div class="flex flex-col mt-4 mb-5 items-center">
       <h1 class="text-3xl font-bold">Qingque Gamba</h1>
-      <p class="text-lg mt-2">Gamble your MoC progress with this character randomizer.</p>
+      <p class="text-lg mt-2 text-center">
+        Gamble your MoC progress with this character randomizer.
+      </p>
     </div>
     <div class="flex flex-col mt-4 mb-5 items-center">
       <GambaSlots />

@@ -9,7 +9,12 @@
         enter ? '' : 'swoop-in'
       ]"
     >
-      <img v-if="charaImg !== null" class="object-cover" :src="charaImg" />
+      <img
+        v-if="charaImg !== null"
+        class="object-cover"
+        :src="charaImg"
+        :alt="charaName ?? 'None' + ' Icon'"
+      />
       <div
         class="gamba-text bg-black opacity-0 group-hover:opacity-50 transition-opacity"
         @touchend="mobileClick = !mobileClick"
@@ -36,7 +41,7 @@ const props = defineProps<{
   index: number;
 }>();
 const enter = ref(true);
-const IMGBASE = "https://raw.githubusercontent.com/naoTimesdev/qingque-data/master/";
+const IMGBASE = "/assets/";
 const timeoutId = ref<number | null>(null);
 
 const mobileClick = ref(false);
@@ -57,7 +62,7 @@ const charaName = computed(() => {
 });
 const charaImg = computed(() => {
   if (props.character) {
-    return IMGBASE + props.character.icon;
+    return IMGBASE + props.character.icon.replace(".png", ".webp");
   }
 
   return null;

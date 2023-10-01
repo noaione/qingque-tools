@@ -27,8 +27,6 @@ const props = defineProps<{
   data: SCStoreWithModel;
 }>();
 
-const IMGBASE = "https://raw.githubusercontent.com/naoTimesdev/qingque-data/master/";
-
 // make a proper getter for this
 const parsedModel = computed(() => {
   if (props.data) {
@@ -41,10 +39,10 @@ const parsedModel = computed(() => {
     return {
       name,
       tag: props.data.model.tag,
-      icon: `${IMGBASE}${props.data.model.icon}`,
-      elementImg: `${IMGBASE}icon/element/${element}.png`,
+      icon: `/assets/${props.data.model.icon.replace(".png", ".webp")}`,
+      elementImg: `/assets/icon/element/${element}.webp`,
       element,
-      pathImg: `${IMGBASE}icon/path/${path}.png`,
+      pathImg: `/assets/icon/path/${path}.webp`,
       path
     };
   }

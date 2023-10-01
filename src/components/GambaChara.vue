@@ -5,7 +5,12 @@
     }`"
     @click="emit('toggle', character.id)"
   >
-    <img v-if="charaImg !== null" class="object-cover" :src="charaImg" />
+    <img
+      v-if="charaImg !== null"
+      class="object-cover"
+      :src="charaImg"
+      :alt="`${character.name} Icon`"
+    />
   </div>
 </template>
 
@@ -19,7 +24,7 @@ const props = defineProps<{
 const emit = defineEmits<{
   (e: "toggle", charaId: string): void;
 }>();
-const IMGBASE = "https://raw.githubusercontent.com/naoTimesdev/qingque-data/master/";
+const IMGBASE = "/assets/";
 
 const charaGrad = computed(() => {
   if (props.character) {
@@ -30,7 +35,7 @@ const charaGrad = computed(() => {
 });
 const charaImg = computed(() => {
   if (props.character) {
-    return IMGBASE + props.character.icon;
+    return IMGBASE + props.character.icon.replace(".png", ".webp");
   }
 
   return null;
