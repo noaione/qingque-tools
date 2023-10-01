@@ -29,13 +29,17 @@ import type { Character } from "@/models";
 import charactersJSON from "@/assets/characters.json";
 import { useGambaStore } from "@/stores/gamba";
 import { computed } from "vue";
+import sortBy from "lodash.sortby";
 
 const gambaStore = useGambaStore();
 
 const characters = computed(() => {
   const DUPES = ["8002", "8003", "8004"];
   const characters = Object.values(charactersJSON) as Character[];
-  return characters.filter((chara) => !DUPES.includes(chara.id));
+  return sortBy(
+    characters.filter((chara) => !DUPES.includes(chara.id)),
+    ["rarity", "id"]
+  ).reverse();
 });
 
 function toggleCharacter(charaId: string) {

@@ -2,9 +2,9 @@
   <div class="inline relative">
     <div v-if="!enter" class="gamba-base gamba-back" />
     <div
+      class="group gamba-base"
       :class="[
         charaGrad,
-        'group gamba-base',
         rightSide ? `swr-delay-${props.index + 1}` : `sw-delay-${$props.index + 1}`,
         enter ? '' : 'swoop-in'
       ]"
@@ -12,9 +12,14 @@
       <img v-if="charaImg !== null" class="object-cover" :src="charaImg" />
       <div
         class="gamba-text bg-black opacity-0 group-hover:opacity-50 transition-opacity"
+        @touchend="mobileClick = !mobileClick"
+        :aria-selected="mobileClick ? 'true' : 'false'"
         v-if="charaName !== null"
       >
-        <p class="gamba-text-in opacity-0 group-hover:opacity-100 transition-opacity">
+        <p
+          class="gamba-text-in opacity-0 group-hover:opacity-100 transition-opacity"
+          :aria-selected="mobileClick ? 'true' : 'false'"
+        >
           {{ charaName }}
         </p>
       </div>
@@ -36,6 +41,8 @@ const props = defineProps<{
 const enter = ref(true);
 const IMGBASE = "https://raw.githubusercontent.com/naoTimesdev/qingque-data/master/";
 const timeoutId = ref<number | null>(null);
+
+const mobileClick = ref(false);
 
 const charaGrad = computed(() => {
   if (props.character) {
@@ -80,12 +87,21 @@ watch(
   @apply flex relative bg-gradient-to-bl rounded-tr-lg border-2;
   @apply z-[80] w-[7rem] h-[10rem] xl:w-[9rem] xl:h-[12rem];
 }
+
 .gamba-text {
   @apply w-full h-full absolute flex flex-col-reverse;
 }
+.gamba-text[aria-selected="true"] {
+  @apply opacity-50;
+}
+
 .gamba-text-in {
   @apply text-white font-bold text-center select-none mb-2;
 }
+.gamba-text-in[aria-selected="true"] {
+  @apply opacity-100;
+}
+
 .rarity-none {
   @apply from-[#343642] to-[#808187];
   @apply border-[#a3a4ac];
