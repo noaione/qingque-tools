@@ -1,13 +1,8 @@
-import type {
-  Character,
-  MainAffixKey,
-  ScoreCharacter,
-  ScoreCharacterJSON,
-  StatsTypeDict
-} from "@/models";
+import type { Character } from "@/models";
 import charactersModels from "@/assets/characters.json";
-import { calculateMaximumPossibleValues, isNone } from "@/utils";
+import { isNone } from "@/utils";
 import { defineStore } from "pinia";
+import sampleSize from "lodash.samplesize";
 
 interface GambaStore {
   // Active character ID that is selected.
@@ -20,10 +15,22 @@ interface GambaStore {
 const DUPLICATES = ["8002", "8003", "8004"];
 const defaultActives = Object.keys(charactersModels).filter((id) => !DUPLICATES.includes(id));
 
+function setStorageData(actives: string[]) {
+  localStorage.setItem("qqgamba.actives", JSON.stringify(actives));
+}
+
+function getStorageDataOrDefaults(): string[] {
+  const actives = localStorage.getItem("qqgamba.actives");
+  if (actives) {
+    return JSON.parse(actives);
+  }
+  return defaultActives;
+}
+
 export const useGambaStore = defineStore("gamba", {
   state: (): GambaStore => {
     return {
-      actives: defaultActives,
+      actives: getStorageDataOrDefaults(),
       selected: []
     };
   },
@@ -38,9 +45,10 @@ export const useGambaStore = defineStore("gamba", {
     defaults() {
       this.actives = defaultActives;
       this.selected = [];
+      setStorageData(this.actives);
     },
     randomize() {
-      this.selected = this.actives.sort(() => Math.random() - 0.5).slice(0, 8);
+      this.selected = sampleSize(this.actives, 8);
     },
     reset() {
       this.selected = [];
@@ -51,6 +59,8 @@ export const useGambaStore = defineStore("gamba", {
       } else {
         this.actives.push(id);
       }
+      // Update local storage.
+      setStorageData(this.actives);
     }
   }
 });
