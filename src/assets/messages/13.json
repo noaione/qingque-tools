@@ -1,0 +1,526 @@
+{
+  "id": 13,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1150800,
+      "startIds": [
+        115080000
+      ],
+      "messages": {
+        "115080000": {
+          "type": "Image",
+          "id": 115080000,
+          "sectionId": 1150800,
+          "senderId": null,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            115080001
+          ],
+          "kind": "PlayerAuto",
+          "image": {
+            "id": 30103,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_30103.png"
+          }
+        },
+        "115080001": {
+          "type": "Text",
+          "id": 115080001,
+          "sectionId": 1150800,
+          "senderId": null,
+          "text": "Found some strange items...",
+          "option": "Found some strange items...",
+          "nextIds": [
+            115080002
+          ],
+          "kind": "Player"
+        },
+        "115080002": {
+          "type": "Text",
+          "id": 115080002,
+          "sectionId": 1150800,
+          "senderId": 1002,
+          "text": "Relics.",
+          "option": null,
+          "nextIds": [
+            115080003
+          ],
+          "kind": "NPC"
+        },
+        "115080003": {
+          "type": "Text",
+          "id": 115080003,
+          "sectionId": 1150800,
+          "senderId": 1001,
+          "text": "Relics",
+          "option": null,
+          "nextIds": [
+            115080004
+          ],
+          "kind": "NPC"
+        },
+        "115080004": {
+          "type": "Text",
+          "id": 115080004,
+          "sectionId": 1150800,
+          "senderId": 1003,
+          "text": "Relics",
+          "option": null,
+          "nextIds": [
+            115080005
+          ],
+          "kind": "NPC"
+        },
+        "115080005": {
+          "type": "Text",
+          "id": 115080005,
+          "sectionId": 1150800,
+          "senderId": 1004,
+          "text": "These are Relics.",
+          "option": null,
+          "nextIds": [
+            115080006
+          ],
+          "kind": "NPC"
+        },
+        "115080006": {
+          "type": "Text",
+          "id": 115080006,
+          "sectionId": 1150800,
+          "senderId": null,
+          "text": "Thanks.",
+          "option": "Thanks.",
+          "nextIds": [
+            115080007
+          ],
+          "kind": "Player"
+        },
+        "115080007": {
+          "type": "Text",
+          "id": 115080007,
+          "sectionId": 1150800,
+          "senderId": null,
+          "text": "So what's a relic!?",
+          "option": "So what's a relic!?",
+          "nextIds": [
+            115080008
+          ],
+          "kind": "Player"
+        },
+        "115080008": {
+          "type": "Text",
+          "id": 115080008,
+          "sectionId": 1150800,
+          "senderId": 1004,
+          "text": "A construct made from a data stream. Many believe they're linked to Stellarons and the Fragmentum phenomenon.",
+          "option": null,
+          "nextIds": [
+            115080009
+          ],
+          "kind": "NPC"
+        },
+        "115080009": {
+          "type": "Text",
+          "id": 115080009,
+          "sectionId": 1150800,
+          "senderId": 1004,
+          "text": "What we refer to as relics are objects corroded by the Fragmentum whose data is saved and then reconstructed.",
+          "option": null,
+          "nextIds": [
+            115080010
+          ],
+          "kind": "NPC"
+        },
+        "115080010": {
+          "type": "Text",
+          "id": 115080010,
+          "sectionId": 1150800,
+          "senderId": null,
+          "text": "Thanks.",
+          "option": "Thanks.",
+          "nextIds": [
+            115080011
+          ],
+          "kind": "Player"
+        },
+        "115080011": {
+          "type": "Text",
+          "id": 115080011,
+          "sectionId": 1150800,
+          "senderId": null,
+          "text": "So what's a relic!?",
+          "option": "So what's a relic!?",
+          "nextIds": [
+            115080012
+          ],
+          "kind": "Player"
+        },
+        "115080012": {
+          "type": "Text",
+          "id": 115080012,
+          "sectionId": 1150800,
+          "senderId": 1004,
+          "text": "...You could consult Herta. She's an expert in relic research.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1110900,
+      "startIds": [
+        111090000
+      ],
+      "messages": {
+        "111090000": {
+          "type": "Text",
+          "id": 111090000,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "@{NICKNAME} @March 7th @Dan Heng, the sealing of the Stellaron is complete, and the spatial distortion is dissipating. Good job.",
+          "option": null,
+          "nextIds": [
+            111090001,
+            111090002
+          ],
+          "kind": "NPC"
+        },
+        "111090001": {
+          "type": "Text",
+          "id": 111090001,
+          "sectionId": 1110900,
+          "senderId": null,
+          "text": "We should be back soon",
+          "option": "We should be back soon",
+          "nextIds": [
+            111090003
+          ],
+          "kind": "Player"
+        },
+        "111090003": {
+          "type": "Text",
+          "id": 111090003,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "Don't rush, go at your own pace. The Express will be here, before you're ready to leave.",
+          "option": null,
+          "nextIds": [
+            111090004
+          ],
+          "kind": "NPC"
+        },
+        "111090004": {
+          "type": "Text",
+          "id": 111090004,
+          "sectionId": 1110900,
+          "senderId": 1001,
+          "text": "Great!",
+          "option": null,
+          "nextIds": [
+            111090005
+          ],
+          "kind": "NPC"
+        },
+        "111090005": {
+          "type": "Text",
+          "id": 111090005,
+          "sectionId": 1110900,
+          "senderId": 1001,
+          "text": "I'm craving some juice... Pom-Pom still owes me a glass!",
+          "option": null,
+          "nextIds": [
+            111090006
+          ],
+          "kind": "NPC"
+        },
+        "111090006": {
+          "type": "Text",
+          "id": 111090006,
+          "sectionId": 1110900,
+          "senderId": 1002,
+          "text": "How is Jarilo-VI?",
+          "option": null,
+          "nextIds": [
+            111090007
+          ],
+          "kind": "NPC"
+        },
+        "111090007": {
+          "type": "Text",
+          "id": 111090007,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "Not great. Even though the influence of the Stellaron has basically subsided, the existing Fragmentum is too deeply rooted.",
+          "option": null,
+          "nextIds": [
+            111090008
+          ],
+          "kind": "NPC"
+        },
+        "111090008": {
+          "type": "Text",
+          "id": 111090008,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "The Eternal Freeze has lasted a very long time, enough to severely impact the ecology of the planet.",
+          "option": null,
+          "nextIds": [
+            111090009
+          ],
+          "kind": "NPC"
+        },
+        "111090009": {
+          "type": "Text",
+          "id": 111090009,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "In short, the planet probably won't regain the vitality that it once had a thousand years ago in such a short time.",
+          "option": null,
+          "nextIds": [
+            111090010
+          ],
+          "kind": "NPC"
+        },
+        "111090010": {
+          "type": "Text",
+          "id": 111090010,
+          "sectionId": 1110900,
+          "senderId": 1001,
+          "text": "Oh... How could this be?",
+          "option": null,
+          "nextIds": [
+            111090011
+          ],
+          "kind": "NPC"
+        },
+        "111090011": {
+          "type": "Text",
+          "id": 111090011,
+          "sectionId": 1110900,
+          "senderId": null,
+          "text": "Is there anything else we can do?",
+          "option": "Is there anything else we can do?",
+          "nextIds": [
+            111090012
+          ],
+          "kind": "Player"
+        },
+        "111090012": {
+          "type": "Text",
+          "id": 111090012,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "...As Trailblazers, our mission has already concluded successfully. The fate of this world should be handed back to its inhabitants.",
+          "option": null,
+          "nextIds": [
+            111090013
+          ],
+          "kind": "NPC"
+        },
+        "111090013": {
+          "type": "Text",
+          "id": 111090013,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "Humankind has always struggled against austere conditions and had always managed to thrive in spite of it. Now that the Eternal Freeze is gone, the Fragmentum has lost its momentum to expand.",
+          "option": null,
+          "nextIds": [
+            111090014
+          ],
+          "kind": "NPC"
+        },
+        "111090014": {
+          "type": "Text",
+          "id": 111090014,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "Jarilo-VI will be revitalized. Believe in the perseverance of her people.",
+          "option": null,
+          "nextIds": [
+            111090015
+          ],
+          "kind": "NPC"
+        },
+        "111090015": {
+          "type": "Text",
+          "id": 111090015,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "I detected a high-frequency spatial energy surge in the north of Jarilo-VI. You might be interested in checking it out.",
+          "option": null,
+          "nextIds": [
+            111090016
+          ],
+          "kind": "NPC"
+        },
+        "111090016": {
+          "type": "Text",
+          "id": 111090016,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "Don't worry. That energy is not related to the Stellaron. It's only an Echo left behind after spatial distortions fade away.",
+          "option": null,
+          "nextIds": [
+            111090017
+          ],
+          "kind": "NPC"
+        },
+        "111090017": {
+          "type": "Text",
+          "id": 111090017,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "Inside the Echo, our perceptions of space and time that we are used to will become radically altered, to the point where it might even reconstruct certain scenes from our own past experiences.",
+          "option": null,
+          "nextIds": [
+            111090018
+          ],
+          "kind": "NPC"
+        },
+        "111090018": {
+          "type": "Text",
+          "id": 111090018,
+          "sectionId": 1110900,
+          "senderId": 1004,
+          "text": "If you're in the mood and wish to re-live those memorable adventures, you can try your luck at places where Echoes can be found.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111090002": {
+          "type": "Text",
+          "id": 111090002,
+          "sectionId": 1110900,
+          "senderId": null,
+          "text": "We'll need to stay here a little longer",
+          "option": "We'll need to stay here a little longer",
+          "nextIds": [
+            111090003
+          ],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1111100,
+      "startIds": [
+        111110000
+      ],
+      "messages": {
+        "111110000": {
+          "type": "Text",
+          "id": 111110000,
+          "sectionId": 1111100,
+          "senderId": 1003,
+          "text": "{NICKNAME}, March, Dan Heng... How was your rest?",
+          "option": null,
+          "nextIds": [
+            111110001
+          ],
+          "kind": "NPC"
+        },
+        "111110001": {
+          "type": "Text",
+          "id": 111110001,
+          "sectionId": 1111100,
+          "senderId": 1003,
+          "text": "Pom-Pom has completed the routine pre-departure inspection, so the Nameless is ready to move on to the next world. Come back to the Express when you've tied up all the loose ends",
+          "option": null,
+          "nextIds": [
+            111110002
+          ],
+          "kind": "NPC"
+        },
+        "111110002": {
+          "type": "Text",
+          "id": 111110002,
+          "sectionId": 1111100,
+          "senderId": 1003,
+          "text": "Oh, right. You must have so many questions about that final battle with the Supreme Guardian of Belobog. Welt and I made some simple analyses that might help shed some light on it for you",
+          "option": null,
+          "nextIds": [
+            111110003
+          ],
+          "kind": "NPC"
+        },
+        "111110003": {
+          "type": "Text",
+          "id": 111110003,
+          "sectionId": 1111100,
+          "senderId": 1001,
+          "text": "Got it! We will start our preparations now",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1200100,
+      "startIds": [
+        120010000
+      ],
+      "messages": {
+        "120010000": {
+          "type": "Text",
+          "id": 120010000,
+          "sectionId": 1200100,
+          "senderId": 1002,
+          "text": "{NICKNAME}, March, where are you?",
+          "option": null,
+          "nextIds": [
+            120010002
+          ],
+          "kind": "PlayerAuto"
+        },
+        "120010002": {
+          "type": "Text",
+          "id": 120010002,
+          "sectionId": 1200100,
+          "senderId": null,
+          "text": "Message failed to send",
+          "option": null,
+          "nextIds": [
+            120010001
+          ],
+          "kind": "System"
+        },
+        "120010001": {
+          "type": "Text",
+          "id": 120010001,
+          "sectionId": 1200100,
+          "senderId": 1002,
+          "text": "I'll go find you folks.",
+          "option": "I'll go find you folks",
+          "nextIds": [
+            120010003
+          ],
+          "kind": "Player"
+        },
+        "120010003": {
+          "type": "Text",
+          "id": 120010003,
+          "sectionId": 1200100,
+          "senderId": null,
+          "text": "Message failed to send",
+          "option": null,
+          "nextIds": [],
+          "kind": "System"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 13,
+    "name": "The Astral Express Family",
+    "signature": null,
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Train.png",
+    "type": 3,
+    "camp": 1
+  }
+}

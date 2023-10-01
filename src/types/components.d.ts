@@ -13,6 +13,7 @@ declare module 'vue' {
     GambaSlot: typeof import('./../components/GambaSlot.vue')['default']
     GambaSlots: typeof import('./../components/GambaSlots.vue')['default']
     LoadBtn: typeof import('./../components/Buttons/LoadBtn.vue')['default']
+    MessageView: typeof import('./../components/Messages/MessageView.vue')['default']
     ModalView: typeof import('./../components/Modals/ModalView.vue')['default']
     NavButton: typeof import('./../components/NavButton.vue')['default']
     QingqueIcon: typeof import('./../components/QingqueIcon.vue')['default']

@@ -1,0 +1,201 @@
+{
+  "id": 60,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1212601,
+      "startIds": [
+        121260101
+      ],
+      "messages": {
+        "121260101": {
+          "type": "Text",
+          "id": 121260101,
+          "sectionId": 1212601,
+          "senderId": 60,
+          "text": "{NICKNAME}, is everything going well?",
+          "option": null,
+          "nextIds": [
+            121260102,
+            121260104
+          ],
+          "kind": "NPC"
+        },
+        "121260102": {
+          "type": "Text",
+          "id": 121260102,
+          "sectionId": 1212601,
+          "senderId": null,
+          "text": "It is. Unbelievably well, actually",
+          "option": "Very well...",
+          "nextIds": [
+            121260103
+          ],
+          "kind": "Player"
+        },
+        "121260103": {
+          "type": "Text",
+          "id": 121260103,
+          "sectionId": 1212601,
+          "senderId": 60,
+          "text": "That's good. I've always believed in your abilities",
+          "option": null,
+          "nextIds": [
+            121260107
+          ],
+          "kind": "NPC"
+        },
+        "121260107": {
+          "type": "Text",
+          "id": 121260107,
+          "sectionId": 1212601,
+          "senderId": 60,
+          "text": "Someone just reported in... did you save a Cloud Knight?",
+          "option": null,
+          "nextIds": [
+            121260108
+          ],
+          "kind": "NPC"
+        },
+        "121260108": {
+          "type": "Text",
+          "id": 121260108,
+          "sectionId": 1212601,
+          "senderId": null,
+          "text": "It was nothing",
+          "option": "It was nothing",
+          "nextIds": [
+            121260109
+          ],
+          "kind": "Player"
+        },
+        "121260109": {
+          "type": "Text",
+          "id": 121260109,
+          "sectionId": 1212601,
+          "senderId": null,
+          "text": "I wouldn't call it saving. We had a successful collaboration",
+          "option": null,
+          "nextIds": [
+            121260110
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121260110": {
+          "type": "Text",
+          "id": 121260110,
+          "sectionId": 1212601,
+          "senderId": 60,
+          "text": "Thank you very much for your help. That Cloud Knight had handed over all his intel to the Seat of Divine Foresight",
+          "option": null,
+          "nextIds": [
+            121260111
+          ],
+          "kind": "NPC"
+        },
+        "121260111": {
+          "type": "Text",
+          "id": 121260111,
+          "sectionId": 1212601,
+          "senderId": 60,
+          "text": "If it weren't for your help, he'd have had a hard time getting away",
+          "option": null,
+          "nextIds": [
+            121260113
+          ],
+          "kind": "NPC"
+        },
+        "121260113": {
+          "type": "Text",
+          "id": 121260113,
+          "sectionId": 1212601,
+          "senderId": 60,
+          "text": "As you've already infiltrated the Disciples of Sanctus Medicus, please keep monitoring their activities",
+          "option": null,
+          "nextIds": [
+            121260118
+          ],
+          "kind": "NPC"
+        },
+        "121260118": {
+          "type": "Text",
+          "id": 121260118,
+          "sectionId": 1212601,
+          "senderId": null,
+          "text": "Is there anything I should focus on?",
+          "option": "Anything I should focus on?",
+          "nextIds": [
+            121260114
+          ],
+          "kind": "Player"
+        },
+        "121260114": {
+          "type": "Text",
+          "id": 121260114,
+          "sectionId": 1212601,
+          "senderId": 60,
+          "text": "I've mentioned before that a Cloud Knight named Zhixin went missing a few months ago",
+          "option": null,
+          "nextIds": [
+            121260115
+          ],
+          "kind": "NPC"
+        },
+        "121260115": {
+          "type": "Text",
+          "id": 121260115,
+          "sectionId": 1212601,
+          "senderId": 60,
+          "text": "I want to know what happened to him, dead or alive... so I can give an answer to his family.",
+          "option": null,
+          "nextIds": [
+            121260116
+          ],
+          "kind": "NPC"
+        },
+        "121260116": {
+          "type": "Text",
+          "id": 121260116,
+          "sectionId": 1212601,
+          "senderId": 60,
+          "text": "Let's avoid contacting each other from here on. If you are seen going in and out of the Seat of Divine Foresight, those disciples are sure to become suspicious of you",
+          "option": null,
+          "nextIds": [
+            121260117
+          ],
+          "kind": "NPC"
+        },
+        "121260117": {
+          "type": "Text",
+          "id": 121260117,
+          "sectionId": 1212601,
+          "senderId": 60,
+          "text": "Please come back in one piece. Otherwise, the general will be quite upset with me",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121260104": {
+          "type": "Text",
+          "id": 121260104,
+          "sectionId": 1212601,
+          "senderId": null,
+          "text": "Very well. I'm now a member of the Disciples of Sanctus Medicus",
+          "option": "I've successfully infiltrated the Disciples of Sanctus Medicus",
+          "nextIds": [
+            121260103
+          ],
+          "kind": "Player"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 60,
+    "name": "Qingzu",
+    "signature": null,
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Qingzu.png",
+    "type": 2,
+    "camp": 4
+  }
+}

@@ -1,0 +1,1100 @@
+{
+  "id": 1003,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1111600,
+      "startIds": [
+        111160000
+      ],
+      "messages": {
+        "111160000": {
+          "type": "Text",
+          "id": 111160000,
+          "sectionId": 1111600,
+          "senderId": null,
+          "text": "Miss Himeko, I have a question...",
+          "option": null,
+          "nextIds": [
+            111160003
+          ],
+          "kind": "PlayerAuto"
+        },
+        "111160003": {
+          "type": "Text",
+          "id": 111160003,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "Ask away, {NICKNAME}",
+          "option": null,
+          "nextIds": [
+            111160004,
+            111160005,
+            111160006
+          ],
+          "kind": "NPC"
+        },
+        "111160004": {
+          "type": "Text",
+          "id": 111160004,
+          "sectionId": 1111600,
+          "senderId": null,
+          "text": "Does our Express welcome new members?",
+          "option": "Does the Express welcome new members?",
+          "nextIds": [
+            111160007
+          ],
+          "kind": "Player"
+        },
+        "111160007": {
+          "type": "Text",
+          "id": 111160007,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "New members? Of course. So long as they are willing to travel with us, the Express's door will always be open",
+          "option": null,
+          "nextIds": [
+            111160010
+          ],
+          "kind": "NPC"
+        },
+        "111160010": {
+          "type": "Text",
+          "id": 111160010,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "But, I would like to know more about your friend",
+          "option": null,
+          "nextIds": [
+            111160011
+          ],
+          "kind": "NPC"
+        },
+        "111160011": {
+          "type": "Text",
+          "id": 111160011,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "In your experience, what kind of person are they?",
+          "option": null,
+          "nextIds": [
+            111160012,
+            111160013,
+            111160014
+          ],
+          "kind": "NPC"
+        },
+        "111160012": {
+          "type": "Text",
+          "id": 111160012,
+          "sectionId": 1111600,
+          "senderId": null,
+          "text": "She's a mechanical prodigy with a meticulous mind",
+          "option": "She's meticulous...",
+          "nextIds": [
+            111160015
+          ],
+          "kind": "Player"
+        },
+        "111160015": {
+          "type": "Text",
+          "id": 111160015,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "That's pretty good, maybe she and I will have a lot in common",
+          "option": null,
+          "nextIds": [
+            111160018
+          ],
+          "kind": "NPC"
+        },
+        "111160018": {
+          "type": "Text",
+          "id": 111160018,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "What I'm saying is, I agree with letting your friend on the Express",
+          "option": null,
+          "nextIds": [
+            111160019
+          ],
+          "kind": "NPC"
+        },
+        "111160019": {
+          "type": "Text",
+          "id": 111160019,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "Ask her to take her time packing her stuff. Our Express will always welcome new passengers",
+          "option": null,
+          "nextIds": [
+            111160020,
+            111160021
+          ],
+          "kind": "NPC"
+        },
+        "111160020": {
+          "type": "Text",
+          "id": 111160020,
+          "sectionId": 1111600,
+          "senderId": null,
+          "text": "Thank you for your time, Miss Himeko",
+          "option": "Thank you, Himeko",
+          "nextIds": [
+            111160022
+          ],
+          "kind": "Player"
+        },
+        "111160022": {
+          "type": "Text",
+          "id": 111160022,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "Don't worry about it. If there are other issues along the way, feel free to let me know",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111160021": {
+          "type": "Text",
+          "id": 111160021,
+          "sectionId": 1111600,
+          "senderId": null,
+          "text": "I understand, thanks Himeko!",
+          "option": "Thanks Himeko!",
+          "nextIds": [
+            111160022
+          ],
+          "kind": "Player"
+        },
+        "111160013": {
+          "type": "Text",
+          "id": 111160013,
+          "sectionId": 1111600,
+          "senderId": null,
+          "text": "She's a rock star with an uninhibited personality",
+          "option": "She's uninhibited...",
+          "nextIds": [
+            111160016
+          ],
+          "kind": "Player"
+        },
+        "111160016": {
+          "type": "Text",
+          "id": 111160016,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "Sounds like a hobby young people would like. Maybe the Express will become livelier now",
+          "option": null,
+          "nextIds": [
+            111160018
+          ],
+          "kind": "NPC"
+        },
+        "111160014": {
+          "type": "Text",
+          "id": 111160014,
+          "sectionId": 1111600,
+          "senderId": null,
+          "text": "She's... I can't say for sure",
+          "option": "I can't say...",
+          "nextIds": [
+            111160017
+          ],
+          "kind": "Player"
+        },
+        "111160017": {
+          "type": "Text",
+          "id": 111160017,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "No worries. Everything will become clearer after spending some time together",
+          "option": null,
+          "nextIds": [
+            111160018
+          ],
+          "kind": "NPC"
+        },
+        "111160005": {
+          "type": "Text",
+          "id": 111160005,
+          "sectionId": 1111600,
+          "senderId": null,
+          "text": "It's just... I have a friend who wants to join...",
+          "option": "I have a friend who wants to join...",
+          "nextIds": [
+            111160008
+          ],
+          "kind": "Player"
+        },
+        "111160008": {
+          "type": "Text",
+          "id": 111160008,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "A potential new crew mate? Of course. So long as they are willing to travel with us, the Express's door will always be open",
+          "option": null,
+          "nextIds": [
+            111160010
+          ],
+          "kind": "NPC"
+        },
+        "111160006": {
+          "type": "Text",
+          "id": 111160006,
+          "sectionId": 1111600,
+          "senderId": null,
+          "text": "I have a friend who wants to have the coffee you brew!",
+          "option": "My friend wants coffee...",
+          "nextIds": [
+            111160009
+          ],
+          "kind": "Player"
+        },
+        "111160009": {
+          "type": "Text",
+          "id": 111160009,
+          "sectionId": 1111600,
+          "senderId": 1003,
+          "text": "Oh? This is new, there's no reason for me to refuse",
+          "option": null,
+          "nextIds": [
+            111160010
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2000700,
+      "startIds": [
+        200070000
+      ],
+      "messages": {
+        "200070000": {
+          "type": "Text",
+          "id": 200070000,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "Let's make sure we get back to the Express in time for dinner.",
+          "option": null,
+          "nextIds": [
+            200070002
+          ],
+          "kind": "NPC"
+        },
+        "200070002": {
+          "type": "Text",
+          "id": 200070002,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "We just got a new shipment of fresh supplies. Anything strike your fancy?",
+          "option": null,
+          "nextIds": [
+            200070003,
+            200070004,
+            200070005
+          ],
+          "kind": "NPC"
+        },
+        "200070003": {
+          "type": "Text",
+          "id": 200070003,
+          "sectionId": 2000700,
+          "senderId": null,
+          "text": "Not a picky eater, anything edible strikes my fancy.",
+          "option": "Not a picky eater, anything edible strikes my fancy.",
+          "nextIds": [
+            200070006
+          ],
+          "kind": "Player"
+        },
+        "200070006": {
+          "type": "Sticker",
+          "id": 200070006,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "[Confused]",
+          "option": null,
+          "nextIds": [
+            200070007
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200070007": {
+          "type": "Text",
+          "id": 200070007,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "You say you're not picky, and Dan Heng says he's good with whatever... Guess I'll just have to cook whatever I feel like.",
+          "option": null,
+          "nextIds": [
+            200070008
+          ],
+          "kind": "NPC"
+        },
+        "200070008": {
+          "type": "Text",
+          "id": 200070008,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "Today's meal orders:\\nPom-Pom: Crispy Crumbly Pom-Pom Pie\\nMarch 7th: Tomato fried egg and rice, without the tomato\\nDan Heng: Whatever\\nWelt: Assorted salt-roasted fish with onion rings\\n{NICKNAME}: Anything edible\\nHimeko: The \"whatever I feel like\" special",
+          "option": null,
+          "nextIds": [
+            200070015
+          ],
+          "kind": "NPC"
+        },
+        "200070015": {
+          "type": "Sticker",
+          "id": 200070015,
+          "sectionId": 2000700,
+          "senderId": null,
+          "text": "[thanks]",
+          "option": null,
+          "nextIds": [],
+          "kind": "Player",
+          "sticker": {
+            "id": 20002,
+            "path": "SpriteOutput/Emoji/20002.png",
+            "keywords": "Finger Heart"
+          }
+        },
+        "200070004": {
+          "type": "Text",
+          "id": 200070004,
+          "sectionId": 2000700,
+          "senderId": null,
+          "text": "Meat! Load me up on meat!",
+          "option": "Meat! Load me up on meat!",
+          "nextIds": [
+            200070009
+          ],
+          "kind": "Player"
+        },
+        "200070009": {
+          "type": "Sticker",
+          "id": 200070009,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "[Okay]",
+          "option": null,
+          "nextIds": [
+            200070010
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20004,
+            "path": "SpriteOutput/Emoji/20004.png",
+            "keywords": "Understood"
+          }
+        },
+        "200070010": {
+          "type": "Text",
+          "id": 200070010,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "You've had a long day, better let your body refuel!",
+          "option": null,
+          "nextIds": [
+            200070011
+          ],
+          "kind": "NPC"
+        },
+        "200070011": {
+          "type": "Text",
+          "id": 200070011,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "Today's meal orders:\\nPom-Pom: Crispy Crumbly Pom-Pom Pie\\nMarch 7th: Tomato fried egg and rice, without the tomato\\nDan Heng: Whatever\\nWelt: Assorted salt-roasted fish with onion rings\\n{NICKNAME}: Loads of meat\\nHimeko: The Express Special Supreme",
+          "option": null,
+          "nextIds": [
+            200070015
+          ],
+          "kind": "NPC"
+        },
+        "200070005": {
+          "type": "Text",
+          "id": 200070005,
+          "sectionId": 2000700,
+          "senderId": null,
+          "text": "I can't imagine a life without milk tea.",
+          "option": "I can't imagine a life without milk tea.",
+          "nextIds": [
+            200070012
+          ],
+          "kind": "Player"
+        },
+        "200070012": {
+          "type": "Sticker",
+          "id": 200070012,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "[Shocked]",
+          "option": null,
+          "nextIds": [
+            200070013
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20008,
+            "path": "SpriteOutput/Emoji/20008.png",
+            "keywords": "Shocked"
+          }
+        },
+        "200070013": {
+          "type": "Text",
+          "id": 200070013,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "But milk tea doesn't count as a meal... Well, I'll whip something up.",
+          "option": null,
+          "nextIds": [
+            200070014
+          ],
+          "kind": "NPC"
+        },
+        "200070014": {
+          "type": "Text",
+          "id": 200070014,
+          "sectionId": 2000700,
+          "senderId": 1003,
+          "text": "Today's meal orders:\\nPom-Pom: Crispy Crumbly Pom-Pom Pie\\nMarch 7th: Tomato fried egg and rice, without the tomato\\nDan Heng: Whatever\\nWelt: Assorted salt-roasted fish with onion rings\\n{NICKNAME}: Milk tea\\nHimeko: The Express Special with milk tea soup base",
+          "option": null,
+          "nextIds": [
+            200070015
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2000800,
+      "startIds": [
+        200080000
+      ],
+      "messages": {
+        "200080000": {
+          "type": "Text",
+          "id": 200080000,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "(Congratulations on beginning your new journey)",
+          "option": null,
+          "nextIds": [
+            200080001
+          ],
+          "kind": "NPC"
+        },
+        "200080001": {
+          "type": "Sticker",
+          "id": 200080001,
+          "sectionId": 2000800,
+          "senderId": null,
+          "text": "[Thumbs Up]",
+          "option": null,
+          "nextIds": [
+            200080002
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200080002": {
+          "type": "Text",
+          "id": 200080002,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "A little surprise for our new passenger~",
+          "option": null,
+          "nextIds": [
+            200080003,
+            200080004,
+            200080005
+          ],
+          "kind": "NPC"
+        },
+        "200080003": {
+          "type": "Text",
+          "id": 200080003,
+          "sectionId": 2000800,
+          "senderId": null,
+          "text": "I could never accept such a nice gift!",
+          "option": "I could never accept such a nice gift!",
+          "nextIds": [
+            200080006
+          ],
+          "kind": "Player"
+        },
+        "200080006": {
+          "type": "Text",
+          "id": 200080006,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "Haha, even if you refuse, I'll just slip it into your backpack.",
+          "option": null,
+          "nextIds": [
+            200080007
+          ],
+          "kind": "NPC"
+        },
+        "200080007": {
+          "type": "Text",
+          "id": 200080007,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "From now on you'll be receiving red packets every New Year's, so you may as well get used to it.",
+          "option": null,
+          "nextIds": [
+            200080012
+          ],
+          "kind": "NPC"
+        },
+        "200080012": {
+          "type": "Text",
+          "id": 200080012,
+          "sectionId": 2000800,
+          "senderId": null,
+          "text": "I'll make sure to bring some coffee beans back for Himeko~",
+          "option": "I'll give you coffee beans next time",
+          "nextIds": [
+            200080013
+          ],
+          "kind": "Player"
+        },
+        "200080013": {
+          "type": "Text",
+          "id": 200080013,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "Oh really? Don't keep me waiting for too long~",
+          "option": null,
+          "nextIds": [
+            200080014
+          ],
+          "kind": "NPC"
+        },
+        "200080014": {
+          "type": "Text",
+          "id": 200080014,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "In fact, I also wanted to give you a few Light Cones, but unfortunately the train has a budget...",
+          "option": null,
+          "nextIds": [
+            200080015,
+            200080016
+          ],
+          "kind": "NPC"
+        },
+        "200080015": {
+          "type": "Text",
+          "id": 200080015,
+          "sectionId": 2000800,
+          "senderId": null,
+          "text": "Next time I'll be the one giving you a red packet!",
+          "option": "Next time I'll be the one giving you a red packet!",
+          "nextIds": [
+            200080017
+          ],
+          "kind": "Player"
+        },
+        "200080017": {
+          "type": "Text",
+          "id": 200080017,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "Haha, I'll take you for your word then!",
+          "option": null,
+          "nextIds": [
+            200080018
+          ],
+          "kind": "NPC"
+        },
+        "200080018": {
+          "type": "Text",
+          "id": 200080018,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "I'm kidding~",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200080016": {
+          "type": "Text",
+          "id": 200080016,
+          "sectionId": 2000800,
+          "senderId": null,
+          "text": "Would there be any to spare...?",
+          "option": "Would there be any to spare...?",
+          "nextIds": [
+            200080019
+          ],
+          "kind": "Player"
+        },
+        "200080019": {
+          "type": "Text",
+          "id": 200080019,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "Of course! It takes two, after all.",
+          "option": null,
+          "nextIds": [
+            200080020
+          ],
+          "kind": "NPC"
+        },
+        "200080020": {
+          "type": "Text",
+          "id": 200080020,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "We'll see who's the best at this game~",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200080004": {
+          "type": "Text",
+          "id": 200080004,
+          "sectionId": 2000800,
+          "senderId": null,
+          "text": "I'm moved to tears!",
+          "option": "I'm moved to tears!",
+          "nextIds": [
+            200080008
+          ],
+          "kind": "Player"
+        },
+        "200080008": {
+          "type": "Text",
+          "id": 200080008,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "Haha relax, it's just a little surprise.",
+          "option": null,
+          "nextIds": [
+            200080009
+          ],
+          "kind": "NPC"
+        },
+        "200080009": {
+          "type": "Text",
+          "id": 200080009,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "From now on you'll be receiving red packets every New Year's, so you may as well get used to it.",
+          "option": null,
+          "nextIds": [
+            200080012
+          ],
+          "kind": "NPC"
+        },
+        "200080005": {
+          "type": "Text",
+          "id": 200080005,
+          "sectionId": 2000800,
+          "senderId": null,
+          "text": "Himeko, you really shouldn't have...",
+          "option": "Himeko, you really shouldn't have...",
+          "nextIds": [
+            200080010
+          ],
+          "kind": "Player"
+        },
+        "200080010": {
+          "type": "Text",
+          "id": 200080010,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "Well! If I had known you were such a sweet talker, I would have prepared an even bigger one~",
+          "option": null,
+          "nextIds": [
+            200080011
+          ],
+          "kind": "NPC"
+        },
+        "200080011": {
+          "type": "Text",
+          "id": 200080011,
+          "sectionId": 2000800,
+          "senderId": 1003,
+          "text": "From now on you'll be receiving red packets every New Year's, so you may as well get used to it.",
+          "option": null,
+          "nextIds": [
+            200080012
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2000900,
+      "startIds": [
+        200090000
+      ],
+      "messages": {
+        "200090000": {
+          "type": "Text",
+          "id": 200090000,
+          "sectionId": 2000900,
+          "senderId": 1003,
+          "text": "I tried the coffee beans you brought me last time",
+          "option": null,
+          "nextIds": [
+            200090001
+          ],
+          "kind": "NPC"
+        },
+        "200090001": {
+          "type": "Image",
+          "id": 200090001,
+          "sectionId": 2000900,
+          "senderId": 1003,
+          "text": "[image]",
+          "option": null,
+          "nextIds": [
+            200090002
+          ],
+          "kind": "NPC",
+          "image": {
+            "id": 10009,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10009.png"
+          }
+        },
+        "200090002": {
+          "type": "Text",
+          "id": 200090002,
+          "sectionId": 2000900,
+          "senderId": null,
+          "text": "Looks like a nice brew",
+          "option": "Looks like a nice brew",
+          "nextIds": [
+            200090003
+          ],
+          "kind": "Player"
+        },
+        "200090003": {
+          "type": "Text",
+          "id": 200090003,
+          "sectionId": 2000900,
+          "senderId": 1003,
+          "text": "Maybe it is indeed a nice brew",
+          "option": null,
+          "nextIds": [
+            200090004,
+            200090005
+          ],
+          "kind": "NPC"
+        },
+        "200090004": {
+          "type": "Text",
+          "id": 200090004,
+          "sectionId": 2000900,
+          "senderId": null,
+          "text": "Anyone else got a taste?",
+          "option": "Anyone else got a taste?",
+          "nextIds": [
+            200090006
+          ],
+          "kind": "Player"
+        },
+        "200090006": {
+          "type": "Sticker",
+          "id": 200090006,
+          "sectionId": 2000900,
+          "senderId": null,
+          "text": "[Shocked]",
+          "option": null,
+          "nextIds": [
+            200090007
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20008,
+            "path": "SpriteOutput/Emoji/20008.png",
+            "keywords": "Shocked"
+          }
+        },
+        "200090007": {
+          "type": "Text",
+          "id": 200090007,
+          "sectionId": 2000900,
+          "senderId": 1003,
+          "text": "Not yet, everyone's still out and about",
+          "option": null,
+          "nextIds": [
+            200090010
+          ],
+          "kind": "NPC"
+        },
+        "200090010": {
+          "type": "Text",
+          "id": 200090010,
+          "sectionId": 2000900,
+          "senderId": 1003,
+          "text": "I would like to hear your opinion first. When are you free?",
+          "option": null,
+          "nextIds": [
+            200090011,
+            200090012
+          ],
+          "kind": "NPC"
+        },
+        "200090011": {
+          "type": "Text",
+          "id": 200090011,
+          "sectionId": 2000900,
+          "senderId": null,
+          "text": "Maybe I'm too busy as well",
+          "option": "I don't have time either",
+          "nextIds": [
+            200090013
+          ],
+          "kind": "Player"
+        },
+        "200090013": {
+          "type": "Text",
+          "id": 200090013,
+          "sectionId": 2000900,
+          "senderId": 1003,
+          "text": "Maybe I see you outside my door",
+          "option": null,
+          "nextIds": [
+            200090014
+          ],
+          "kind": "NPC"
+        },
+        "200090014": {
+          "type": "Text",
+          "id": 200090014,
+          "sectionId": 2000900,
+          "senderId": 1003,
+          "text": "Come on, brave {M#young man}{F#young lady}",
+          "option": null,
+          "nextIds": [
+            200090015
+          ],
+          "kind": "NPC"
+        },
+        "200090015": {
+          "type": "Sticker",
+          "id": 200090015,
+          "sectionId": 2000900,
+          "senderId": null,
+          "text": "[decline]",
+          "option": null,
+          "nextIds": [],
+          "kind": "Player",
+          "sticker": {
+            "id": 20003,
+            "path": "SpriteOutput/Emoji/20003.png",
+            "keywords": "No No"
+          }
+        },
+        "200090012": {
+          "type": "Text",
+          "id": 200090012,
+          "sectionId": 2000900,
+          "senderId": null,
+          "text": "Maybe I'm outside your door right now",
+          "option": "I'm outside your door",
+          "nextIds": [
+            200090016
+          ],
+          "kind": "Player"
+        },
+        "200090016": {
+          "type": "Sticker",
+          "id": 200090016,
+          "sectionId": 2000900,
+          "senderId": 1003,
+          "text": "[Thumbs Up]",
+          "option": null,
+          "nextIds": [
+            200090017
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200090017": {
+          "type": "Text",
+          "id": 200090017,
+          "sectionId": 2000900,
+          "senderId": 1003,
+          "text": "Come on, you lucky {M#young man}{F#young lady}",
+          "option": null,
+          "nextIds": [
+            200090018
+          ],
+          "kind": "NPC"
+        },
+        "200090018": {
+          "type": "Sticker",
+          "id": 200090018,
+          "sectionId": 2000900,
+          "senderId": null,
+          "text": "[thanks]",
+          "option": null,
+          "nextIds": [],
+          "kind": "Player",
+          "sticker": {
+            "id": 20002,
+            "path": "SpriteOutput/Emoji/20002.png",
+            "keywords": "Finger Heart"
+          }
+        },
+        "200090005": {
+          "type": "Text",
+          "id": 200090005,
+          "sectionId": 2000900,
+          "senderId": null,
+          "text": "That's what you said last time...",
+          "option": "That's what you said last time...",
+          "nextIds": [
+            200090008
+          ],
+          "kind": "Player"
+        },
+        "200090008": {
+          "type": "Sticker",
+          "id": 200090008,
+          "sectionId": 2000900,
+          "senderId": null,
+          "text": "[cry]",
+          "option": null,
+          "nextIds": [
+            200090009
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20005,
+            "path": "SpriteOutput/Emoji/20005.png",
+            "keywords": "Crying"
+          }
+        },
+        "200090009": {
+          "type": "Text",
+          "id": 200090009,
+          "sectionId": 2000900,
+          "senderId": 1003,
+          "text": "I'm telling the truth. Everyone else is too busy to come try the coffee.",
+          "option": null,
+          "nextIds": [
+            200090010
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "MissionMessage",
+      "id": 5000800,
+      "startIds": [
+        500080000
+      ],
+      "messages": {
+        "500080000": {
+          "type": "Text",
+          "id": 500080000,
+          "sectionId": 5000800,
+          "senderId": 1003,
+          "text": "Uh, {NICKNAME}... Herta said she's got something good for you, and wants you to go back and try the Simulated Universe.",
+          "option": null,
+          "nextIds": [
+            500080001
+          ],
+          "kind": "NPC"
+        },
+        "500080001": {
+          "type": "Text",
+          "id": 500080001,
+          "sectionId": 5000800,
+          "senderId": 1003,
+          "text": "She also asked if you blocked her.",
+          "option": null,
+          "nextIds": [
+            500080002
+          ],
+          "kind": "NPC"
+        },
+        "500080002": {
+          "type": "Text",
+          "id": 500080002,
+          "sectionId": 5000800,
+          "senderId": 1003,
+          "text": "Why don't you go see her. She seems excited.",
+          "option": null,
+          "nextIds": [
+            500080003,
+            500080004
+          ],
+          "kind": "NPC"
+        },
+        "500080003": {
+          "type": "Text",
+          "id": 500080003,
+          "sectionId": 5000800,
+          "senderId": null,
+          "text": "OK",
+          "option": "OK",
+          "nextIds": [
+            500080005
+          ],
+          "kind": "Player"
+        },
+        "500080005": {
+          "type": "Text",
+          "id": 500080005,
+          "sectionId": 5000800,
+          "senderId": 1003,
+          "text": "Haha, it's all good. She promised not to bully you.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "500080004": {
+          "type": "Text",
+          "id": 500080004,
+          "sectionId": 5000800,
+          "senderId": null,
+          "text": "I'm scared",
+          "option": "I'm scared",
+          "nextIds": [
+            500080005
+          ],
+          "kind": "Player"
+        }
+      },
+      "mission": {
+        "id": 4030009,
+        "name": "Good Stuff",
+        "type": "Branch"
+      }
+    }
+  ],
+  "info": {
+    "id": 1003,
+    "name": "Himeko",
+    "signature": "I can survive without water, but coffee is my lifeblood",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/1003.png",
+    "type": 1,
+    "camp": 1
+  }
+}

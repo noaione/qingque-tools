@@ -1,0 +1,111 @@
+{
+  "id": 5,
+  "sections": [
+    {
+      "type": "MissionMessage",
+      "id": 1010400,
+      "startIds": [
+        101040001
+      ],
+      "messages": {
+        "101040001": {
+          "type": "Text",
+          "id": 101040001,
+          "sectionId": 1010400,
+          "senderId": 5,
+          "text": "Ley, are you alright? Why don't you text back?",
+          "option": null,
+          "nextIds": [
+            101040002,
+            101040003,
+            101040004
+          ],
+          "kind": "NPC"
+        },
+        "101040002": {
+          "type": "Text",
+          "id": 101040002,
+          "sectionId": 1010400,
+          "senderId": null,
+          "text": "Who's Ley?",
+          "option": "Who's Ley?",
+          "nextIds": [
+            101040005
+          ],
+          "kind": "Player"
+        },
+        "101040005": {
+          "type": "Text",
+          "id": 101040005,
+          "sectionId": 1010400,
+          "senderId": 5,
+          "text": "Oh sorry, but whoever is reading this, please tell Ley when you meet her that Rocky will be waiting for her at the space station",
+          "option": null,
+          "nextIds": [
+            101040006
+          ],
+          "kind": "NPC"
+        },
+        "101040006": {
+          "type": "Text",
+          "id": 101040006,
+          "sectionId": 1010400,
+          "senderId": null,
+          "text": "So who's Ley?",
+          "option": "So who's Ley?",
+          "nextIds": [
+            101040007
+          ],
+          "kind": "Player"
+        },
+        "101040007": {
+          "type": "Text",
+          "id": 101040007,
+          "sectionId": 1010400,
+          "senderId": null,
+          "text": "???",
+          "option": "???",
+          "nextIds": [],
+          "kind": "Player"
+        },
+        "101040003": {
+          "type": "Text",
+          "id": 101040003,
+          "sectionId": 1010400,
+          "senderId": null,
+          "text": "Wrong number?",
+          "option": "Wrong number?",
+          "nextIds": [
+            101040005
+          ],
+          "kind": "Player"
+        },
+        "101040004": {
+          "type": "Text",
+          "id": 101040004,
+          "sectionId": 1010400,
+          "senderId": null,
+          "text": "I'm {NICKNAME}",
+          "option": "I'm {NICKNAME}",
+          "nextIds": [
+            101040005
+          ],
+          "kind": "Player"
+        }
+      },
+      "mission": {
+        "id": 2000110,
+        "name": "To: The Faint Star",
+        "type": "Branch"
+      }
+    }
+  ],
+  "info": {
+    "id": 5,
+    "name": "Rocky",
+    "signature": "Lesley, the light of my life",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Rocky.png",
+    "type": 2,
+    "camp": 2
+  }
+}

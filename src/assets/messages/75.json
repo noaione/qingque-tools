@@ -1,0 +1,118 @@
+{
+  "id": 75,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1211801,
+      "startIds": [
+        121180101
+      ],
+      "messages": {
+        "121180101": {
+          "type": "Text",
+          "id": 121180101,
+          "sectionId": 1211801,
+          "senderId": 75,
+          "text": "{NICKNAME}, I'm Kafka",
+          "option": null,
+          "nextIds": [
+            121180102
+          ],
+          "kind": "NPC"
+        },
+        "121180102": {
+          "type": "Text",
+          "id": 121180102,
+          "sectionId": 1211801,
+          "senderId": 75,
+          "text": "Just FYI, it's been a journey, but I'm unharmed",
+          "option": null,
+          "nextIds": [
+            121180103
+          ],
+          "kind": "NPC"
+        },
+        "121180103": {
+          "type": "Text",
+          "id": 121180103,
+          "sectionId": 1211801,
+          "senderId": 75,
+          "text": "Does free will exist? I can't say for sure, but you've made your own choice, transforming a nascent possibility into reality.",
+          "option": null,
+          "nextIds": [
+            121180104
+          ],
+          "kind": "NPC"
+        },
+        "121180104": {
+          "type": "Text",
+          "id": 121180104,
+          "sectionId": 1211801,
+          "senderId": 75,
+          "text": "This is wonderful to you and I, two people both enslaved by fate",
+          "option": null,
+          "nextIds": [
+            121180105,
+            121180106,
+            121180107
+          ],
+          "kind": "NPC"
+        },
+        "121180105": {
+          "type": "Text",
+          "id": 121180105,
+          "sectionId": 1211801,
+          "senderId": null,
+          "text": "Take care, Kafka",
+          "option": "Take care",
+          "nextIds": [
+            121180108
+          ],
+          "kind": "Player"
+        },
+        "121180108": {
+          "type": "Text",
+          "id": 121180108,
+          "sectionId": 1211801,
+          "senderId": null,
+          "text": "Error: Recipient does not exist",
+          "option": null,
+          "nextIds": [],
+          "kind": "System"
+        },
+        "121180106": {
+          "type": "Text",
+          "id": 121180106,
+          "sectionId": 1211801,
+          "senderId": null,
+          "text": "Thank you. Stop contacting me",
+          "option": "Stop contacting me",
+          "nextIds": [
+            121180108
+          ],
+          "kind": "Player"
+        },
+        "121180107": {
+          "type": "Text",
+          "id": 121180107,
+          "sectionId": 1211801,
+          "senderId": null,
+          "text": "Gone again, huh?",
+          "option": "Gone again, huh?",
+          "nextIds": [
+            121180108
+          ],
+          "kind": "Player"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 75,
+    "name": "Anonymous",
+    "signature": null,
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
+    "type": 2,
+    "camp": 4
+  }
+}

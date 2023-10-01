@@ -1,0 +1,684 @@
+{
+  "id": 69,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1113600,
+      "startIds": [
+        111360000
+      ],
+      "messages": {
+        "111360000": {
+          "type": "Text",
+          "id": 111360000,
+          "sectionId": 1113600,
+          "senderId": 69,
+          "text": "How is it, my friend? Did you find anything odd?",
+          "option": null,
+          "nextIds": [
+            111360001,
+            111360002
+          ],
+          "kind": "NPC"
+        },
+        "111360001": {
+          "type": "Text",
+          "id": 111360001,
+          "sectionId": 1113600,
+          "senderId": null,
+          "text": "I found a weird vending machine near the coordinates that turned into a Trotter...",
+          "option": "There was a weird vending machine...",
+          "nextIds": [
+            111360003
+          ],
+          "kind": "Player"
+        },
+        "111360003": {
+          "type": "Text",
+          "id": 111360003,
+          "sectionId": 1113600,
+          "senderId": 69,
+          "text": "Huh? Shapeshifting? Trotter? You're such a layman. What you're saying is harder to understand than those old timers",
+          "option": null,
+          "nextIds": [
+            111360004
+          ],
+          "kind": "NPC"
+        },
+        "111360004": {
+          "type": "Text",
+          "id": 111360004,
+          "sectionId": 1113600,
+          "senderId": 69,
+          "text": "Never mind. Come back, we'll go through this in detail!",
+          "option": null,
+          "nextIds": [
+            111360005
+          ],
+          "kind": "NPC"
+        },
+        "111360005": {
+          "type": "Text",
+          "id": 111360005,
+          "sectionId": 1113600,
+          "senderId": 69,
+          "text": "I've sent the compensation to you. Aren't I a reliable employer?",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111360002": {
+          "type": "Text",
+          "id": 111360002,
+          "sectionId": 1113600,
+          "senderId": null,
+          "text": "I found a Trotter near the coordinates that pretended to be a vending machine...",
+          "option": "There was a weird Trotter...",
+          "nextIds": [
+            111360003
+          ],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1113900,
+      "startIds": [
+        111390000
+      ],
+      "messages": {
+        "111390000": {
+          "type": "Text",
+          "id": 111390000,
+          "sectionId": 1113900,
+          "senderId": 69,
+          "text": "How is it this time? Did the sensor give out a false reading?",
+          "option": null,
+          "nextIds": [
+            111390001,
+            111390002
+          ],
+          "kind": "NPC"
+        },
+        "111390001": {
+          "type": "Text",
+          "id": 111390001,
+          "sectionId": 1113900,
+          "senderId": null,
+          "text": "The advertisement poster here is indeed abnormal. I didn't think this little critter would be so good at hiding",
+          "option": "There are abnormalities here",
+          "nextIds": [
+            111390003
+          ],
+          "kind": "Player"
+        },
+        "111390003": {
+          "type": "Text",
+          "id": 111390003,
+          "sectionId": 1113900,
+          "senderId": 69,
+          "text": "An ad poster? So it's got some level of art appreciation? That's vital!",
+          "option": null,
+          "nextIds": [
+            111390004
+          ],
+          "kind": "NPC"
+        },
+        "111390004": {
+          "type": "Text",
+          "id": 111390004,
+          "sectionId": 1113900,
+          "senderId": 69,
+          "text": "Make sure you rest if you've got nothing else going on. I can't tell when the sensor will find something again. You need to be prepared!",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111390002": {
+          "type": "Text",
+          "id": 111390002,
+          "sectionId": 1113900,
+          "senderId": null,
+          "text": "It's not a false reading, but there's nothing new here. It just picked a new place to hide in the advertisement image",
+          "option": "It's not a false reading",
+          "nextIds": [
+            111390003
+          ],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1113700,
+      "startIds": [
+        111370000
+      ],
+      "messages": {
+        "111370000": {
+          "type": "Text",
+          "id": 111370000,
+          "sectionId": 1113700,
+          "senderId": 69,
+          "text": "Are you alright, friend? Did your fingers get frostbite? Did you run into any weird stuff?",
+          "option": null,
+          "nextIds": [
+            111370001,
+            111370002
+          ],
+          "kind": "NPC"
+        },
+        "111370001": {
+          "type": "Text",
+          "id": 111370001,
+          "sectionId": 1113700,
+          "senderId": null,
+          "text": "It was so cold! I almost got frozen solid! You've gotta give me more compensation this time",
+          "option": "My hands are frozen solid!",
+          "nextIds": [
+            111370003
+          ],
+          "kind": "Player"
+        },
+        "111370003": {
+          "type": "Text",
+          "id": 111370003,
+          "sectionId": 1113700,
+          "senderId": 69,
+          "text": "If you're still in the mood to bargain with me, then you've gotta be alright. Now, tell me about the investigation",
+          "option": null,
+          "nextIds": [
+            111370009
+          ],
+          "kind": "NPC"
+        },
+        "111370009": {
+          "type": "Text",
+          "id": 111370009,
+          "sectionId": 1113700,
+          "senderId": 69,
+          "text": "I ran into some clues about that Trotter you mentioned last time. We can probably get some deeper insights by combining it with your findings this time",
+          "option": null,
+          "nextIds": [
+            111370004,
+            111370006
+          ],
+          "kind": "NPC"
+        },
+        "111370004": {
+          "type": "Text",
+          "id": 111370004,
+          "sectionId": 1113700,
+          "senderId": null,
+          "text": "It hid in a Snow Drift this time. Nothing special",
+          "option": "It hid in a Snow Drift this time",
+          "nextIds": [
+            111370005
+          ],
+          "kind": "Player"
+        },
+        "111370005": {
+          "type": "Text",
+          "id": 111370005,
+          "sectionId": 1113700,
+          "senderId": 69,
+          "text": "Huh? That's it? Ah... I was expecting something extraordinary!",
+          "option": null,
+          "nextIds": [
+            111370008
+          ],
+          "kind": "NPC"
+        },
+        "111370008": {
+          "type": "Text",
+          "id": 111370008,
+          "sectionId": 1113700,
+          "senderId": 69,
+          "text": "Come back soon and don't catch a cold! Cover up and get warm, I'll call out for you when there's a reading!",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111370006": {
+          "type": "Text",
+          "id": 111370006,
+          "sectionId": 1113700,
+          "senderId": null,
+          "text": "It was concealed in the cold and ice... As if proclaiming some sort of destiny and omen!",
+          "option": "It was concealed in the cold and ice...",
+          "nextIds": [
+            111370007
+          ],
+          "kind": "Player"
+        },
+        "111370007": {
+          "type": "Text",
+          "id": 111370007,
+          "sectionId": 1113700,
+          "senderId": 69,
+          "text": "Oh, it was hiding in a Snow Drift, huh? That's pretty cold resistant...",
+          "option": null,
+          "nextIds": [
+            111370008
+          ],
+          "kind": "NPC"
+        },
+        "111370002": {
+          "type": "Text",
+          "id": 111370002,
+          "sectionId": 1113700,
+          "senderId": null,
+          "text": "The task was completed without a hitch, and I overcame lots of difficulties. There should be extra compensation",
+          "option": "All done without a hitch",
+          "nextIds": [
+            111370003
+          ],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1114100,
+      "startIds": [
+        111410000
+      ],
+      "messages": {
+        "111410000": {
+          "type": "Text",
+          "id": 111410000,
+          "sectionId": 1114100,
+          "senderId": 69,
+          "text": "Hello? Hello? Any news? I'm getting antsy over here!!!",
+          "option": null,
+          "nextIds": [
+            111410001,
+            111410002
+          ],
+          "kind": "NPC"
+        },
+        "111410001": {
+          "type": "Text",
+          "id": 111410001,
+          "sectionId": 1114100,
+          "senderId": null,
+          "text": "I know you're anxious about it, but hold on. The anomaly this time is in the projections of a movie projector. That's something new",
+          "option": "Firstly, hold on",
+          "nextIds": [
+            111410004
+          ],
+          "kind": "Player"
+        },
+        "111410004": {
+          "type": "Text",
+          "id": 111410004,
+          "sectionId": 1114100,
+          "senderId": 69,
+          "text": "The anomaly this time is kinda cute. I feel like I could package it a bit and use it for my dear sensor",
+          "option": null,
+          "nextIds": [
+            111410005
+          ],
+          "kind": "NPC"
+        },
+        "111410005": {
+          "type": "Text",
+          "id": 111410005,
+          "sectionId": 1114100,
+          "senderId": 69,
+          "text": "You come back soon as well. If you have time, have a look at my research plan. If we get a new signal in the mean time, you can head out immediately",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111410002": {
+          "type": "Text",
+          "id": 111410002,
+          "sectionId": 1114100,
+          "senderId": null,
+          "text": "It was hiding in the movie projector this time! I only realized it after seeing the projection! It was amazing!!! That's the news this time!",
+          "option": "I've got news!",
+          "nextIds": [
+            111410003
+          ],
+          "kind": "Player"
+        },
+        "111410003": {
+          "type": "Text",
+          "id": 111410003,
+          "sectionId": 1114100,
+          "senderId": 69,
+          "text": "Whoa, you slow down yourself... You scared me!",
+          "option": null,
+          "nextIds": [
+            111410004
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1114000,
+      "startIds": [
+        111400000
+      ],
+      "messages": {
+        "111400000": {
+          "type": "Text",
+          "id": 111400000,
+          "sectionId": 1114000,
+          "senderId": 69,
+          "text": "The location it's displaying this time is kinda weird. I've never been there. Is everything okay?",
+          "option": null,
+          "nextIds": [
+            111400001,
+            111400002
+          ],
+          "kind": "NPC"
+        },
+        "111400001": {
+          "type": "Text",
+          "id": 111400001,
+          "sectionId": 1114000,
+          "senderId": null,
+          "text": "There are so many things here. I took so long to find it and got so much dust on my clothes. You gotta give me some dry cleaning funds",
+          "option": "It took so long...",
+          "nextIds": [
+            111400003
+          ],
+          "kind": "Player"
+        },
+        "111400003": {
+          "type": "Text",
+          "id": 111400003,
+          "sectionId": 1114000,
+          "senderId": 69,
+          "text": "Don't you go raising the price on the spot! I don't have a lot of research funds either! Tell me, where's the anomaly this time?",
+          "option": null,
+          "nextIds": [
+            111400004,
+            111400005
+          ],
+          "kind": "NPC"
+        },
+        "111400004": {
+          "type": "Text",
+          "id": 111400004,
+          "sectionId": 1114000,
+          "senderId": null,
+          "text": "It was in a large wardrobe. Not very innovative when it comes to hide-and-seek",
+          "option": "In a wardrobe",
+          "nextIds": [
+            111400006
+          ],
+          "kind": "Player"
+        },
+        "111400006": {
+          "type": "Text",
+          "id": 111400006,
+          "sectionId": 1114000,
+          "senderId": 69,
+          "text": "Oh... In a wardrobe, huh. Yeah, that's not very creative",
+          "option": null,
+          "nextIds": [
+            111400007
+          ],
+          "kind": "NPC"
+        },
+        "111400007": {
+          "type": "Text",
+          "id": 111400007,
+          "sectionId": 1114000,
+          "senderId": 69,
+          "text": "Come back soon! Maybe the sensor is close to detecting something again! You'll need to head out quickly in that case!",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111400005": {
+          "type": "Text",
+          "id": 111400005,
+          "sectionId": 1114000,
+          "senderId": null,
+          "text": "In the end of uttermost darkness... Where not a single shred of light shines in!",
+          "option": "In a place of utter darkness...",
+          "nextIds": [
+            111400006
+          ],
+          "kind": "Player"
+        },
+        "111400002": {
+          "type": "Text",
+          "id": 111400002,
+          "sectionId": 1114000,
+          "senderId": null,
+          "text": "With me running the show, of course everything is okay! It was just such a hassle. I feel I need to charge you more...",
+          "option": "Of course everything is okay!",
+          "nextIds": [
+            111400003
+          ],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1114200,
+      "startIds": [
+        111420000
+      ],
+      "messages": {
+        "111420000": {
+          "type": "Text",
+          "id": 111420000,
+          "sectionId": 1114200,
+          "senderId": 69,
+          "text": "Is it going well with you? It's okay if you really can't find it... Science allows for failures!",
+          "option": null,
+          "nextIds": [
+            111420001,
+            111420002
+          ],
+          "kind": "NPC"
+        },
+        "111420001": {
+          "type": "Text",
+          "id": 111420001,
+          "sectionId": 1114200,
+          "senderId": null,
+          "text": "Sorry for disappointing you. No failures this time. The anomaly was inside a tent. It didn't get any better at concealing itself",
+          "option": "But I succeeded",
+          "nextIds": [
+            111420003
+          ],
+          "kind": "Player"
+        },
+        "111420003": {
+          "type": "Text",
+          "id": 111420003,
+          "sectionId": 1114200,
+          "senderId": 69,
+          "text": "That's good! To be honest, after so many successes, I felt it was about time the sensor experiences a failure or two...",
+          "option": null,
+          "nextIds": [
+            111420004
+          ],
+          "kind": "NPC"
+        },
+        "111420004": {
+          "type": "Text",
+          "id": 111420004,
+          "sectionId": 1114200,
+          "senderId": 69,
+          "text": "But who could've known that my dear sensor is so good? It's hard to get it to fail even once!",
+          "option": null,
+          "nextIds": [
+            111420005
+          ],
+          "kind": "NPC"
+        },
+        "111420005": {
+          "type": "Text",
+          "id": 111420005,
+          "sectionId": 1114200,
+          "senderId": 69,
+          "text": "I'll let you know asap if I get another ping. You should hurry and bring back the fruit of victory, too!",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111420002": {
+          "type": "Text",
+          "id": 111420002,
+          "sectionId": 1114200,
+          "senderId": null,
+          "text": "I already found it. The anomaly is in a tent this time. Wasn't easy to find it",
+          "option": "Already found it",
+          "nextIds": [
+            111420003
+          ],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1114300,
+      "startIds": [
+        111430000
+      ],
+      "messages": {
+        "111430000": {
+          "type": "Text",
+          "id": 111430000,
+          "sectionId": 1114300,
+          "senderId": 69,
+          "text": "I tried to send you lots of texts but none of them went through. Are you getting a bad signal at your location?",
+          "option": null,
+          "nextIds": [
+            111430001,
+            111430003
+          ],
+          "kind": "NPC"
+        },
+        "111430001": {
+          "type": "Text",
+          "id": 111430001,
+          "sectionId": 1114300,
+          "senderId": null,
+          "text": "Are you the real Regin? I'm kinda doubting your identity right now. After all, I can't see your face when we are texting!",
+          "option": "Are you the real Regin?",
+          "nextIds": [
+            111430002
+          ],
+          "kind": "Player"
+        },
+        "111430002": {
+          "type": "Text",
+          "id": 111430002,
+          "sectionId": 1114300,
+          "senderId": 69,
+          "text": "Huh? What are you talking about? How can there be a fake Regin in this world? Did you hit your head too hard?",
+          "option": null,
+          "nextIds": [
+            111430005
+          ],
+          "kind": "NPC"
+        },
+        "111430005": {
+          "type": "Text",
+          "id": 111430005,
+          "sectionId": 1114300,
+          "senderId": 69,
+          "text": "What happened to you? Did you have an accident? Don't go anywhere! I'll send you some money right now!",
+          "option": null,
+          "nextIds": [
+            111430006,
+            111430007
+          ],
+          "kind": "NPC"
+        },
+        "111430006": {
+          "type": "Text",
+          "id": 111430006,
+          "sectionId": 1114300,
+          "senderId": null,
+          "text": "I didn't think you'd be such a good friend. I'm so touched... You're definitely the real Regin!",
+          "option": "I'm so touched...",
+          "nextIds": [
+            111430008
+          ],
+          "kind": "Player"
+        },
+        "111430008": {
+          "type": "Text",
+          "id": 111430008,
+          "sectionId": 1114300,
+          "senderId": 69,
+          "text": "You seem fine to me as well...? Never mind. I won't press you for what happened this time. Just come back and have a rest!",
+          "option": null,
+          "nextIds": [
+            111430009
+          ],
+          "kind": "NPC"
+        },
+        "111430009": {
+          "type": "Text",
+          "id": 111430009,
+          "sectionId": 1114300,
+          "senderId": 69,
+          "text": "When you have time, can you come back after resting up so we can have a chat face-to-face?",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111430007": {
+          "type": "Text",
+          "id": 111430007,
+          "sectionId": 1114300,
+          "senderId": null,
+          "text": "Adding compensation when there's danger... Seems like you're the real deal. Appraisal complete.",
+          "option": "Seems like you're the real deal",
+          "nextIds": [
+            111430008
+          ],
+          "kind": "Player"
+        },
+        "111430003": {
+          "type": "Text",
+          "id": 111430003,
+          "sectionId": 1114300,
+          "senderId": null,
+          "text": "I won't tell you anything unless you give me the passphrase we agreed on.",
+          "option": "Tell me the passphrase first!",
+          "nextIds": [
+            111430004
+          ],
+          "kind": "Player"
+        },
+        "111430004": {
+          "type": "Text",
+          "id": 111430004,
+          "sectionId": 1114300,
+          "senderId": 69,
+          "text": "Passphrase? What passphrase? \"Long Live the Supreme Guardian\"? \"I wanna be a Silvermane Guard too\"? Hold on. We never agreed on something like that!",
+          "option": null,
+          "nextIds": [
+            111430005
+          ],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 69,
+    "name": "Regin",
+    "signature": "Do not contact for non-research funding matters",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Regin.png",
+    "type": 2,
+    "camp": 3
+  }
+}

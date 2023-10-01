@@ -1,0 +1,1017 @@
+{
+  "id": 1211,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 2005200,
+      "startIds": [
+        200520000
+      ],
+      "messages": {
+        "200520000": {
+          "type": "Text",
+          "id": 200520000,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "{NICKNAME}!",
+          "option": null,
+          "nextIds": [
+            200520001
+          ],
+          "kind": "NPC"
+        },
+        "200520001": {
+          "type": "Text",
+          "id": 200520001,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "I have made a huge discovery!",
+          "option": null,
+          "nextIds": [
+            200520003
+          ],
+          "kind": "NPC"
+        },
+        "200520003": {
+          "type": "Text",
+          "id": 200520003,
+          "sectionId": 2005200,
+          "senderId": null,
+          "text": "Please elaborate, O miracle doctor",
+          "option": "Please elaborate, O miracle doctor",
+          "nextIds": [
+            200520004
+          ],
+          "kind": "Player"
+        },
+        "200520004": {
+          "type": "Text",
+          "id": 200520004,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "So",
+          "option": null,
+          "nextIds": [
+            200520005
+          ],
+          "kind": "NPC"
+        },
+        "200520005": {
+          "type": "Text",
+          "id": 200520005,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "berrypheasant skewers",
+          "option": null,
+          "nextIds": [
+            200520006
+          ],
+          "kind": "NPC"
+        },
+        "200520006": {
+          "type": "Text",
+          "id": 200520006,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "are vegetarian!",
+          "option": null,
+          "nextIds": [
+            200520007,
+            200520010
+          ],
+          "kind": "NPC"
+        },
+        "200520007": {
+          "type": "Text",
+          "id": 200520007,
+          "sectionId": 2005200,
+          "senderId": null,
+          "text": "I see, trivia gained",
+          "option": "I see",
+          "nextIds": [
+            200520008
+          ],
+          "kind": "Player"
+        },
+        "200520008": {
+          "type": "Text",
+          "id": 200520008,
+          "sectionId": 2005200,
+          "senderId": null,
+          "text": "But what does this mean",
+          "option": null,
+          "nextIds": [
+            200520009
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200520009": {
+          "type": "Text",
+          "id": 200520009,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "This means",
+          "option": null,
+          "nextIds": [
+            200520014
+          ],
+          "kind": "NPC"
+        },
+        "200520014": {
+          "type": "Text",
+          "id": 200520014,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "I can finally eat it without remorse!",
+          "option": null,
+          "nextIds": [
+            200520015
+          ],
+          "kind": "NPC"
+        },
+        "200520015": {
+          "type": "Text",
+          "id": 200520015,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "Bwahahaha",
+          "option": null,
+          "nextIds": [
+            200520016
+          ],
+          "kind": "NPC"
+        },
+        "200520016": {
+          "type": "Text",
+          "id": 200520016,
+          "sectionId": 2005200,
+          "senderId": null,
+          "text": "Why do you say that",
+          "option": "Why do you say that",
+          "nextIds": [
+            200520017
+          ],
+          "kind": "Player"
+        },
+        "200520017": {
+          "type": "Sticker",
+          "id": 200520017,
+          "sectionId": 2005200,
+          "senderId": null,
+          "text": "[Shocked]",
+          "option": null,
+          "nextIds": [
+            200520018
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20008,
+            "path": "SpriteOutput/Emoji/20008.png",
+            "keywords": "Shocked"
+          }
+        },
+        "200520018": {
+          "type": "Text",
+          "id": 200520018,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "I like sweet things, but I can't have sweet meats",
+          "option": null,
+          "nextIds": [
+            200520019
+          ],
+          "kind": "NPC"
+        },
+        "200520019": {
+          "type": "Text",
+          "id": 200520019,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "So no matter how alluring the honey-colored caramel syrup covering the berrypheasant skewers looked, I didn't dare take a step closer",
+          "option": null,
+          "nextIds": [
+            200520020
+          ],
+          "kind": "NPC"
+        },
+        "200520020": {
+          "type": "Text",
+          "id": 200520020,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "But the situation is different now",
+          "option": null,
+          "nextIds": [
+            200520021
+          ],
+          "kind": "NPC"
+        },
+        "200520021": {
+          "type": "Text",
+          "id": 200520021,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "Look at those mouthwatering colors...",
+          "option": null,
+          "nextIds": [
+            200520022
+          ],
+          "kind": "NPC"
+        },
+        "200520022": {
+          "type": "Text",
+          "id": 200520022,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "I can't take it, I'm getting hungry",
+          "option": null,
+          "nextIds": [
+            200520023
+          ],
+          "kind": "NPC"
+        },
+        "200520023": {
+          "type": "Text",
+          "id": 200520023,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "I'm sneaking out to buy some! Bahahaha",
+          "option": null,
+          "nextIds": [
+            200520024
+          ],
+          "kind": "NPC"
+        },
+        "200520024": {
+          "type": "Text",
+          "id": 200520024,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "Talk to you soon!",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200520010": {
+          "type": "Text",
+          "id": 200520010,
+          "sectionId": 2005200,
+          "senderId": null,
+          "text": "What's a berrypheasant skewer",
+          "option": "What's that",
+          "nextIds": [
+            200520011
+          ],
+          "kind": "Player"
+        },
+        "200520011": {
+          "type": "Text",
+          "id": 200520011,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "I thought it's a meat skewer made from berrypheasant meat",
+          "option": null,
+          "nextIds": [
+            200520012
+          ],
+          "kind": "NPC"
+        },
+        "200520012": {
+          "type": "Text",
+          "id": 200520012,
+          "sectionId": 2005200,
+          "senderId": 1211,
+          "text": "But it was just a berry skewer called berrypheasant!",
+          "option": null,
+          "nextIds": [
+            200520013
+          ],
+          "kind": "NPC"
+        },
+        "200520013": {
+          "type": "Text",
+          "id": 200520013,
+          "sectionId": 2005200,
+          "senderId": null,
+          "text": "Wow!",
+          "option": null,
+          "nextIds": [
+            200520014
+          ],
+          "kind": "PlayerAuto"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2005300,
+      "startIds": [
+        200530000
+      ],
+      "messages": {
+        "200530000": {
+          "type": "Text",
+          "id": 200530000,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "Hey {NICKNAME}!",
+          "option": null,
+          "nextIds": [
+            200530001
+          ],
+          "kind": "NPC"
+        },
+        "200530001": {
+          "type": "Text",
+          "id": 200530001,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "Didn't you say you were getting nightmares lately?",
+          "option": null,
+          "nextIds": [
+            200530002
+          ],
+          "kind": "NPC"
+        },
+        "200530002": {
+          "type": "Text",
+          "id": 200530002,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "I have a treatment plan for you, this is the prescription!",
+          "option": null,
+          "nextIds": [
+            200530003,
+            200530007
+          ],
+          "kind": "NPC"
+        },
+        "200530003": {
+          "type": "Text",
+          "id": 200530003,
+          "sectionId": 2005300,
+          "senderId": null,
+          "text": "Thank you miracle doctor!",
+          "option": "Thank you miracle doctor",
+          "nextIds": [
+            200530004
+          ],
+          "kind": "Player"
+        },
+        "200530004": {
+          "type": "Text",
+          "id": 200530004,
+          "sectionId": 2005300,
+          "senderId": null,
+          "text": "You're my savior!",
+          "option": null,
+          "nextIds": [
+            200530005
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200530005": {
+          "type": "Text",
+          "id": 200530005,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "I'm just doing my job!",
+          "option": null,
+          "nextIds": [
+            200530006
+          ],
+          "kind": "NPC"
+        },
+        "200530006": {
+          "type": "Text",
+          "id": 200530006,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "Breakfast — A bowl of puffergoat stomach-calming soup, two pieces of hashbrowns, and a deep fried dough stick (with one tael of grilled chicken drumstick meat)\\nLunch — Half a catty of fragrant white rice, a plate of Granny Chen's Tofu, two tuskpir wraps, a large cup of Immortal's Delight\\nDinner — A serving of General's Grilled Stone Calf Burger, a serving of deep fried chicken wings, two taels of Yellow Boulder Cheese Fries",
+          "option": null,
+          "nextIds": [
+            200530013
+          ],
+          "kind": "NPC"
+        },
+        "200530013": {
+          "type": "Text",
+          "id": 200530013,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "Save it, and remember to take your medicine according to time!",
+          "option": null,
+          "nextIds": [
+            200530015
+          ],
+          "kind": "NPC"
+        },
+        "200530015": {
+          "type": "Text",
+          "id": 200530015,
+          "sectionId": 2005300,
+          "senderId": null,
+          "text": "Isn't this just a meal plan?",
+          "option": "Isn't this just a meal plan?",
+          "nextIds": [
+            200530014
+          ],
+          "kind": "Player"
+        },
+        "200530014": {
+          "type": "Sticker",
+          "id": 200530014,
+          "sectionId": 2005300,
+          "senderId": null,
+          "text": "[Confused]",
+          "option": "Isn't this just a meal plan?",
+          "nextIds": [
+            200530016
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200530016": {
+          "type": "Text",
+          "id": 200530016,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "Tsk, am I the healer, or are you the healer?",
+          "option": null,
+          "nextIds": [
+            200530017
+          ],
+          "kind": "NPC"
+        },
+        "200530017": {
+          "type": "Text",
+          "id": 200530017,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "This is food therapy!",
+          "option": null,
+          "nextIds": [
+            200530018
+          ],
+          "kind": "NPC"
+        },
+        "200530018": {
+          "type": "Text",
+          "id": 200530018,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "I guarantee you will be happy for an entire day post-treatment, and happy people just don't have nightmares!",
+          "option": null,
+          "nextIds": [
+            200530019
+          ],
+          "kind": "NPC"
+        },
+        "200530019": {
+          "type": "Sticker",
+          "id": 200530019,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "[Thumbs Up]",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200530007": {
+          "type": "Text",
+          "id": 200530007,
+          "sectionId": 2005300,
+          "senderId": null,
+          "text": "Oh, I completely forgot about it",
+          "option": "I forgot",
+          "nextIds": [
+            200530008
+          ],
+          "kind": "Player"
+        },
+        "200530008": {
+          "type": "Text",
+          "id": 200530008,
+          "sectionId": 2005300,
+          "senderId": null,
+          "text": "I didn't think you'd remember it",
+          "option": null,
+          "nextIds": [
+            200530009
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200530009": {
+          "type": "Text",
+          "id": 200530009,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "Tsk",
+          "option": null,
+          "nextIds": [
+            200530010
+          ],
+          "kind": "NPC"
+        },
+        "200530010": {
+          "type": "Text",
+          "id": 200530010,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "You're so young, why are you so forgetful",
+          "option": null,
+          "nextIds": [
+            200530011
+          ],
+          "kind": "NPC"
+        },
+        "200530011": {
+          "type": "Text",
+          "id": 200530011,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "Wait, I have to change the prescription, adding something to it!",
+          "option": null,
+          "nextIds": [
+            200530012
+          ],
+          "kind": "NPC"
+        },
+        "200530012": {
+          "type": "Text",
+          "id": 200530012,
+          "sectionId": 2005300,
+          "senderId": 1211,
+          "text": "Breakfast — A bowl of puffergoat stomach-calming soup, two pieces of hashbrowns, and a deep fried dough stick (with one tael of grilled chicken drumstick meat)\\nLunch — Half a catty of fragrant white rice, a plate of Granny Chen's Tofu, two tuskpir wraps, a large cup of Immortal's Delight\\nDinner — A serving of General's Grilled Stone Calf Burger, a serving of deep fried chicken wings, two taels of Yellow Boulder Cheese Fries\\nBefore sleep — A bowl of Peilin Walnut Paste",
+          "option": null,
+          "nextIds": [
+            200530013
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2005400,
+      "startIds": [
+        200540000
+      ],
+      "messages": {
+        "200540000": {
+          "type": "Text",
+          "id": 200540000,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "{NICKNAME}",
+          "option": null,
+          "nextIds": [
+            200540001
+          ],
+          "kind": "NPC"
+        },
+        "200540001": {
+          "type": "Text",
+          "id": 200540001,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "I wanna ask",
+          "option": null,
+          "nextIds": [
+            200540002
+          ],
+          "kind": "NPC"
+        },
+        "200540002": {
+          "type": "Text",
+          "id": 200540002,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "Do you know of any ways to grow taller?",
+          "option": null,
+          "nextIds": [
+            200540003
+          ],
+          "kind": "NPC"
+        },
+        "200540003": {
+          "type": "Text",
+          "id": 200540003,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "I'm not the one asking, okay? I'm asking for a patient",
+          "option": null,
+          "nextIds": [
+            200540005,
+            200540008
+          ],
+          "kind": "NPC"
+        },
+        "200540005": {
+          "type": "Text",
+          "id": 200540005,
+          "sectionId": 2005400,
+          "senderId": null,
+          "text": "Am I the doctor or are you the doctor?",
+          "option": "Who's the healer here?",
+          "nextIds": [
+            200540004
+          ],
+          "kind": "Player"
+        },
+        "200540004": {
+          "type": "Sticker",
+          "id": 200540004,
+          "sectionId": 2005400,
+          "senderId": null,
+          "text": "[confused]",
+          "option": "Who's the healer here?",
+          "nextIds": [
+            200540006
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200540006": {
+          "type": "Text",
+          "id": 200540006,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "Stop interrupting!",
+          "option": null,
+          "nextIds": [
+            200540010
+          ],
+          "kind": "NPC"
+        },
+        "200540010": {
+          "type": "Sticker",
+          "id": 200540010,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "[decline]",
+          "option": null,
+          "nextIds": [
+            200540011
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20003,
+            "path": "SpriteOutput/Emoji/20003.png",
+            "keywords": "No No"
+          }
+        },
+        "200540011": {
+          "type": "Text",
+          "id": 200540011,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "I'm the one asking here! Just give me an answer!",
+          "option": null,
+          "nextIds": [
+            200540012,
+            200540016,
+            200540019
+          ],
+          "kind": "NPC"
+        },
+        "200540012": {
+          "type": "Text",
+          "id": 200540012,
+          "sectionId": 2005400,
+          "senderId": null,
+          "text": "Try to exercise more?",
+          "option": "Exercise more",
+          "nextIds": [
+            200540013
+          ],
+          "kind": "Player"
+        },
+        "200540013": {
+          "type": "Text",
+          "id": 200540013,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "I tried, it didn't work!",
+          "option": null,
+          "nextIds": [
+            200540014
+          ],
+          "kind": "NPC"
+        },
+        "200540014": {
+          "type": "Text",
+          "id": 200540014,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "My rivalry in wits and valor with the healers at the Alchemy Commission takes me all over the place every day",
+          "option": null,
+          "nextIds": [
+            200540015
+          ],
+          "kind": "NPC"
+        },
+        "200540015": {
+          "type": "Text",
+          "id": 200540015,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "I've put in my fair share of exercise",
+          "option": null,
+          "nextIds": [
+            200540022
+          ],
+          "kind": "NPC"
+        },
+        "200540022": {
+          "type": "Text",
+          "id": 200540022,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "I have grown a total of zilch!",
+          "option": null,
+          "nextIds": [
+            200540023
+          ],
+          "kind": "NPC"
+        },
+        "200540023": {
+          "type": "Text",
+          "id": 200540023,
+          "sectionId": 2005400,
+          "senderId": null,
+          "text": "Hmm, seems like you've tried it all",
+          "option": "You've tried everything",
+          "nextIds": [
+            200540024
+          ],
+          "kind": "Player"
+        },
+        "200540024": {
+          "type": "Text",
+          "id": 200540024,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "...Not really",
+          "option": null,
+          "nextIds": [
+            200540025
+          ],
+          "kind": "NPC"
+        },
+        "200540025": {
+          "type": "Text",
+          "id": 200540025,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "That patient tried it, nothing worked!",
+          "option": null,
+          "nextIds": [
+            200540026
+          ],
+          "kind": "NPC"
+        },
+        "200540026": {
+          "type": "Text",
+          "id": 200540026,
+          "sectionId": 2005400,
+          "senderId": null,
+          "text": "I understand, I understand",
+          "option": "I understand",
+          "nextIds": [
+            200540027
+          ],
+          "kind": "Player"
+        },
+        "200540027": {
+          "type": "Sticker",
+          "id": 200540027,
+          "sectionId": 2005400,
+          "senderId": null,
+          "text": "[finger heart]",
+          "option": null,
+          "nextIds": [
+            200540028
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20002,
+            "path": "SpriteOutput/Emoji/20002.png",
+            "keywords": "Finger Heart"
+          }
+        },
+        "200540028": {
+          "type": "Text",
+          "id": 200540028,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "Hmph",
+          "option": null,
+          "nextIds": [
+            200540029
+          ],
+          "kind": "NPC"
+        },
+        "200540029": {
+          "type": "Text",
+          "id": 200540029,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "Lalalala ignoring you",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200540016": {
+          "type": "Text",
+          "id": 200540016,
+          "sectionId": 2005400,
+          "senderId": null,
+          "text": "It's important to go to bed and rise early",
+          "option": "Sleep and rise early",
+          "nextIds": [
+            200540017
+          ],
+          "kind": "Player"
+        },
+        "200540017": {
+          "type": "Text",
+          "id": 200540017,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "I tried this one as well! Does nothing to me",
+          "option": null,
+          "nextIds": [
+            200540018
+          ],
+          "kind": "NPC"
+        },
+        "200540018": {
+          "type": "Text",
+          "id": 200540018,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "My daily schedule is so strict",
+          "option": null,
+          "nextIds": [
+            200540022
+          ],
+          "kind": "NPC"
+        },
+        "200540019": {
+          "type": "Text",
+          "id": 200540019,
+          "sectionId": 2005400,
+          "senderId": null,
+          "text": "I heard you just need to drink more milk...",
+          "option": "Drink more milk",
+          "nextIds": [
+            200540020
+          ],
+          "kind": "Player"
+        },
+        "200540020": {
+          "type": "Text",
+          "id": 200540020,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "That's a myth! I already tried",
+          "option": null,
+          "nextIds": [
+            200540021
+          ],
+          "kind": "NPC"
+        },
+        "200540021": {
+          "type": "Text",
+          "id": 200540021,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "I drink puffergoat milk in all three meals",
+          "option": null,
+          "nextIds": [
+            200540022
+          ],
+          "kind": "NPC"
+        },
+        "200540008": {
+          "type": "Text",
+          "id": 200540008,
+          "sectionId": 2005400,
+          "senderId": null,
+          "text": "Is this patient perhaps... yourself?",
+          "option": "Is this patient...",
+          "nextIds": [
+            200540007
+          ],
+          "kind": "Player"
+        },
+        "200540007": {
+          "type": "Sticker",
+          "id": 200540007,
+          "sectionId": 2005400,
+          "senderId": null,
+          "text": "[Confused]",
+          "option": "Is this patient...",
+          "nextIds": [
+            200540009
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200540009": {
+          "type": "Text",
+          "id": 200540009,
+          "sectionId": 2005400,
+          "senderId": 1211,
+          "text": "Don't stick your nose into the Healer Lady's affairs!",
+          "option": null,
+          "nextIds": [
+            200540010
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1211000,
+      "startIds": [
+        121100001
+      ],
+      "messages": {
+        "121100001": {
+          "type": "Text",
+          "id": 121100001,
+          "sectionId": 1211000,
+          "senderId": null,
+          "text": "Hey, miracle doctor",
+          "option": null,
+          "nextIds": [
+            121100002
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121100002": {
+          "type": "Text",
+          "id": 121100002,
+          "sectionId": 1211000,
+          "senderId": null,
+          "text": "There's a package for Banxia. I want to unwrap it with you, if that's okay",
+          "option": "There's a package",
+          "nextIds": [
+            121100003
+          ],
+          "kind": "Player"
+        },
+        "121100003": {
+          "type": "Text",
+          "id": 121100003,
+          "sectionId": 1211000,
+          "senderId": 1211,
+          "text": "Okay! Let's meet at Starskiff Haven!",
+          "option": null,
+          "nextIds": [
+            121100004
+          ],
+          "kind": "NPC"
+        },
+        "121100004": {
+          "type": "Text",
+          "id": 121100004,
+          "sectionId": 1211000,
+          "senderId": 1211,
+          "text": "Banxia shouldn't mind if we unwrap these gifts for her",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 1211,
+    "name": "Bailu",
+    "signature": "Drink more warm water and get fewer tempers!",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/1211.png",
+    "type": 1,
+    "camp": 4
+  }
+}

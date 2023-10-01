@@ -71,6 +71,11 @@ export default defineConfig({
             return "routes";
           }
 
+          if (id.includes("src/assets/messages/")) {
+            const messageId = id.match(/src\/assets\/messages\/(\d+)\.json/)?.[1];
+            return "meta/messages." + messageId;
+          }
+
           return splitMoreVendorChunk(id, getModuleInfo, (intId) => {
             const isVueRelated = ["@vue", "vue-i18n", "@intlify", "vue-router"].some((name) => {
               return intId.includes(name);

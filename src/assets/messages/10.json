@@ -1,0 +1,87 @@
+{
+  "id": 10,
+  "sections": [
+    {
+      "type": "MissionMessage",
+      "id": 1110600,
+      "startIds": [
+        111060000
+      ],
+      "messages": {
+        "111060000": {
+          "type": "Text",
+          "id": 111060000,
+          "sectionId": 1110600,
+          "senderId": 10,
+          "text": "Hello? Hello? Anyone? How do I use this thing... \"Send all\"? What's that supposed to mean...",
+          "option": null,
+          "nextIds": [
+            111060001,
+            111060002,
+            111060003
+          ],
+          "kind": "NPC"
+        },
+        "111060001": {
+          "type": "Text",
+          "id": 111060001,
+          "sectionId": 1110600,
+          "senderId": null,
+          "text": "Who is this?",
+          "option": "Who are you again?",
+          "nextIds": [
+            111060004
+          ],
+          "kind": "Player"
+        },
+        "111060004": {
+          "type": "Text",
+          "id": 111060004,
+          "sectionId": 1110600,
+          "senderId": 10,
+          "text": "What? Someone actually replied? Are you a real person or a bot? Anyhow, listen, I'm Julian, the Chief Intelligence Officer of The Moles. I need some extra help right now. If you are free, come find me at the entrance of the Great Mine!",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111060002": {
+          "type": "Text",
+          "id": 111060002,
+          "sectionId": 1110600,
+          "senderId": null,
+          "text": "Allow me to give you a tutorial on how to send money...",
+          "option": "Allow me to give you a tutorial on how to send money...",
+          "nextIds": [
+            111060004
+          ],
+          "kind": "Player"
+        },
+        "111060003": {
+          "type": "Text",
+          "id": 111060003,
+          "sectionId": 1110600,
+          "senderId": null,
+          "text": "This is the money transfer function. Please transfer <unbreak>200</unbreak> credits",
+          "option": "This is the money transfer function. Please transfer <unbreak>200</unbreak> credits",
+          "nextIds": [
+            111060004
+          ],
+          "kind": "Player"
+        }
+      },
+      "mission": {
+        "id": 2010501,
+        "name": "Old Foreman's Treasure",
+        "type": "Companion"
+      }
+    }
+  ],
+  "info": {
+    "id": 10,
+    "name": "Julian",
+    "signature": "Click here to change your signature — What is this?",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Julian.png",
+    "type": 2,
+    "camp": 3
+  }
+}

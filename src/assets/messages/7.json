@@ -1,0 +1,190 @@
+{
+  "id": 7,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1010800,
+      "startIds": [
+        101080001
+      ],
+      "messages": {
+        "101080001": {
+          "type": "Text",
+          "id": 101080001,
+          "sectionId": 1010800,
+          "senderId": 7,
+          "text": "Special access card detected, 3 in total, classification level unclear",
+          "option": null,
+          "nextIds": [
+            101080002
+          ],
+          "kind": "NPC"
+        },
+        "101080002": {
+          "type": "Text",
+          "id": 101080002,
+          "sectionId": 1010800,
+          "senderId": 7,
+          "text": "Triple authentication is enabled by the system. Welcome back, it's in the usual spot",
+          "option": null,
+          "nextIds": [
+            101080003,
+            101080004,
+            101080005
+          ],
+          "kind": "NPC"
+        },
+        "101080003": {
+          "type": "Text",
+          "id": 101080003,
+          "sectionId": 1010800,
+          "senderId": null,
+          "text": "Where's the usual spot?",
+          "option": "Where's the usual spot?",
+          "nextIds": [
+            101080006
+          ],
+          "kind": "Player"
+        },
+        "101080006": {
+          "type": "Text",
+          "id": 101080006,
+          "sectionId": 1010800,
+          "senderId": 7,
+          "text": "Response authenticator invalid. Triple authentication is enabled by the system. Welcome back, it's in the usual spot",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "101080004": {
+          "type": "Text",
+          "id": 101080004,
+          "sectionId": 1010800,
+          "senderId": null,
+          "text": "When did I ever have three special access cards for authentication?",
+          "option": "When did I ever have three special access cards for authentication?",
+          "nextIds": [
+            101080006
+          ],
+          "kind": "Player"
+        },
+        "101080005": {
+          "type": "Text",
+          "id": 101080005,
+          "sectionId": 1010800,
+          "senderId": null,
+          "text": "Is this some kind of VIP deal?",
+          "option": "Is this some kind of VIP deal?",
+          "nextIds": [
+            101080006
+          ],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "MissionMessage",
+      "id": 1012000,
+      "startIds": [
+        101200000
+      ],
+      "messages": {
+        "101200000": {
+          "type": "Text",
+          "id": 101200000,
+          "sectionId": 1012000,
+          "senderId": 7,
+          "text": "I met a mysterious big fellow, and I just ran for my life!",
+          "option": null,
+          "nextIds": [
+            101200001
+          ],
+          "kind": "NPC"
+        },
+        "101200001": {
+          "type": "Image",
+          "id": 101200001,
+          "sectionId": 1012000,
+          "senderId": 7,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            101200002
+          ],
+          "kind": "NPC",
+          "image": {
+            "id": 10007,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10007.png"
+          }
+        },
+        "101200002": {
+          "type": "Text",
+          "id": 101200002,
+          "sectionId": 1012000,
+          "senderId": 7,
+          "text": "I was just developing the photo of our research group from a few days ago. Everyone, come and have a look. I think something is in this photo!",
+          "option": null,
+          "nextIds": [
+            101200003
+          ],
+          "kind": "NPC"
+        },
+        "101200003": {
+          "type": "Image",
+          "id": 101200003,
+          "sectionId": 1012000,
+          "senderId": 7,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            101200004
+          ],
+          "kind": "NPC",
+          "image": {
+            "id": 10006,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10006.png"
+          }
+        },
+        "101200004": {
+          "type": "Text",
+          "id": 101200004,
+          "sectionId": 1012000,
+          "senderId": 7,
+          "text": "I was maintaining lab equipment routinely a few nights ago, but I walked into the scene of an assembly of strange creatures!",
+          "option": null,
+          "nextIds": [
+            101200005
+          ],
+          "kind": "NPC"
+        },
+        "101200005": {
+          "type": "Image",
+          "id": 101200005,
+          "sectionId": 1012000,
+          "senderId": 7,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC",
+          "image": {
+            "id": 10005,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10005.png"
+          }
+        }
+      },
+      "mission": {
+        "id": 2000116,
+        "name": "Requiem Mass",
+        "type": "Branch"
+      }
+    }
+  ],
+  "info": {
+    "id": 7,
+    "name": "Herta Panopticon System",
+    "signature": "The almighty Nous is watching over you",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
+    "type": 2,
+    "camp": 2
+  }
+}

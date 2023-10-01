@@ -1,0 +1,903 @@
+{
+  "id": 1209,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 2004900,
+      "startIds": [
+        200490000
+      ],
+      "messages": {
+        "200490000": {
+          "type": "Sticker",
+          "id": 200490000,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "[Greet]",
+          "option": null,
+          "nextIds": [
+            200490023
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20001,
+            "path": "SpriteOutput/Emoji/20001.png",
+            "keywords": "Hey"
+          }
+        },
+        "200490023": {
+          "type": "Text",
+          "id": 200490023,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "Hi, Teacher {NICKNAME}!",
+          "option": null,
+          "nextIds": [
+            200490024
+          ],
+          "kind": "NPC"
+        },
+        "200490024": {
+          "type": "Text",
+          "id": 200490024,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "The general said you travel all over the place",
+          "option": null,
+          "nextIds": [
+            200490025
+          ],
+          "kind": "NPC"
+        },
+        "200490025": {
+          "type": "Text",
+          "id": 200490025,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "I spotted two new swords from the Artisanship Commission",
+          "option": null,
+          "nextIds": [
+            200490002
+          ],
+          "kind": "NPC"
+        },
+        "200490002": {
+          "type": "Text",
+          "id": 200490002,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "I'm spoiled for choice and am having trouble choosing",
+          "option": null,
+          "nextIds": [
+            200490003
+          ],
+          "kind": "NPC"
+        },
+        "200490003": {
+          "type": "Text",
+          "id": 200490003,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "Can you help take a look and give some comments?",
+          "option": null,
+          "nextIds": [
+            200490004
+          ],
+          "kind": "NPC"
+        },
+        "200490004": {
+          "type": "Text",
+          "id": 200490004,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "Sure, what do they look like?",
+          "option": "Sure",
+          "nextIds": [
+            200490005
+          ],
+          "kind": "Player"
+        },
+        "200490005": {
+          "type": "Text",
+          "id": 200490005,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "One of them is of Vidyadhara make, forged with the exotic corallium metal of Scalegorge Waterscape and tempered with thaumaspring water, it can be wielded as normal under many extreme circumstances",
+          "option": null,
+          "nextIds": [
+            200490006
+          ],
+          "kind": "NPC"
+        },
+        "200490006": {
+          "type": "Text",
+          "id": 200490006,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "It's a masterpiece!",
+          "option": null,
+          "nextIds": [
+            200490007
+          ],
+          "kind": "NPC"
+        },
+        "200490007": {
+          "type": "Text",
+          "id": 200490007,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "The other one is Shadeslink Sword, forged by the Furnace Master himself using an outworld crystal jade. Its luster is compelling, and it's fitted with the newest flight component. It can be connected with the wielder's consciousness and sent flying across the battlefield",
+          "option": null,
+          "nextIds": [
+            200490008
+          ],
+          "kind": "NPC"
+        },
+        "200490008": {
+          "type": "Text",
+          "id": 200490008,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "It's so cool!",
+          "option": null,
+          "nextIds": [
+            200490009,
+            200490011,
+            200490013
+          ],
+          "kind": "NPC"
+        },
+        "200490009": {
+          "type": "Text",
+          "id": 200490009,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "Get the first one",
+          "option": "The first one",
+          "nextIds": [
+            200490010
+          ],
+          "kind": "Player"
+        },
+        "200490010": {
+          "type": "Text",
+          "id": 200490010,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "Function trumps form when it comes to battling with all kinds of abominations and monsters",
+          "option": null,
+          "nextIds": [
+            200490015
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200490015": {
+          "type": "Text",
+          "id": 200490015,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "Your friend Yanqing has gone offline",
+          "option": null,
+          "nextIds": [
+            200490016
+          ],
+          "kind": "System"
+        },
+        "200490016": {
+          "type": "Sticker",
+          "id": 200490016,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "[confused]",
+          "option": "?",
+          "nextIds": [
+            200490017
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200490017": {
+          "type": "Text",
+          "id": 200490017,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "Your friend Yanqing has come online",
+          "option": null,
+          "nextIds": [
+            200490018
+          ],
+          "kind": "System"
+        },
+        "200490018": {
+          "type": "Text",
+          "id": 200490018,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "Bought!",
+          "option": null,
+          "nextIds": [
+            200490019
+          ],
+          "kind": "NPC"
+        },
+        "200490019": {
+          "type": "Text",
+          "id": 200490019,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "I don't care, whatever comes, I'll deal with them at the end of the month!",
+          "option": null,
+          "nextIds": [
+            200490020
+          ],
+          "kind": "NPC"
+        },
+        "200490020": {
+          "type": "Text",
+          "id": 200490020,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "Just don't care!",
+          "option": "Just don't care!",
+          "nextIds": [
+            200490021
+          ],
+          "kind": "Player"
+        },
+        "200490021": {
+          "type": "Text",
+          "id": 200490021,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "You can admire it a little when we meet!",
+          "option": null,
+          "nextIds": [
+            200490022
+          ],
+          "kind": "NPC"
+        },
+        "200490022": {
+          "type": "Text",
+          "id": 200490022,
+          "sectionId": 2004900,
+          "senderId": 1209,
+          "text": "Thank you for the advice, {NICKNAME}!",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200490011": {
+          "type": "Text",
+          "id": 200490011,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "Buy the second one",
+          "option": "The second one",
+          "nextIds": [
+            200490012
+          ],
+          "kind": "Player"
+        },
+        "200490012": {
+          "type": "Text",
+          "id": 200490012,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "Coolness lasts for a lifetime!",
+          "option": null,
+          "nextIds": [
+            200490015
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200490013": {
+          "type": "Text",
+          "id": 200490013,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "Only children have to make a choice",
+          "option": "Get both",
+          "nextIds": [
+            200490014
+          ],
+          "kind": "Player"
+        },
+        "200490014": {
+          "type": "Text",
+          "id": 200490014,
+          "sectionId": 2004900,
+          "senderId": null,
+          "text": "Just get both!",
+          "option": null,
+          "nextIds": [
+            200490015
+          ],
+          "kind": "PlayerAuto"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2005000,
+      "startIds": [
+        200500000
+      ],
+      "messages": {
+        "200500000": {
+          "type": "Text",
+          "id": 200500000,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "{NICKNAME}",
+          "option": null,
+          "nextIds": [
+            200500001
+          ],
+          "kind": "NPC"
+        },
+        "200500001": {
+          "type": "Text",
+          "id": 200500001,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "I'm a little curious",
+          "option": null,
+          "nextIds": [
+            200500002
+          ],
+          "kind": "NPC"
+        },
+        "200500002": {
+          "type": "Text",
+          "id": 200500002,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "In your journeys, have you ever met opponents who left lasting impressions on you?",
+          "option": null,
+          "nextIds": [
+            200500003,
+            200500009,
+            200500016
+          ],
+          "kind": "NPC"
+        },
+        "200500003": {
+          "type": "Text",
+          "id": 200500003,
+          "sectionId": 2005000,
+          "senderId": null,
+          "text": "I defeated the Antimatter Legion's Doomsday Beast at the Herta Space Station",
+          "option": "Doomsday Beast",
+          "nextIds": [
+            200500004
+          ],
+          "kind": "Player"
+        },
+        "200500004": {
+          "type": "Text",
+          "id": 200500004,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "Doomsday Beast? I may have read about it in one of the Cloud Knight martial almanacs, but I don't remember exactly...",
+          "option": null,
+          "nextIds": [
+            200500005
+          ],
+          "kind": "NPC"
+        },
+        "200500005": {
+          "type": "Text",
+          "id": 200500005,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "After all, Xianzhou has not clashed with the Antimatter Legion for a long time",
+          "option": null,
+          "nextIds": [
+            200500006
+          ],
+          "kind": "NPC"
+        },
+        "200500006": {
+          "type": "Text",
+          "id": 200500006,
+          "sectionId": 2005000,
+          "senderId": null,
+          "text": "Just imagine a huge lizard with wings",
+          "option": "Imagine a huge lizard",
+          "nextIds": [
+            200500007
+          ],
+          "kind": "Player"
+        },
+        "200500007": {
+          "type": "Text",
+          "id": 200500007,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "I see, I think I get it...",
+          "option": null,
+          "nextIds": [
+            200500008
+          ],
+          "kind": "NPC"
+        },
+        "200500008": {
+          "type": "Text",
+          "id": 200500008,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "I'm jealous of you, there are so many monsters to sharpen sword skills with outside of the Xianzhou",
+          "option": null,
+          "nextIds": [
+            200500019
+          ],
+          "kind": "NPC"
+        },
+        "200500019": {
+          "type": "Text",
+          "id": 200500019,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "The general thinks my swordsmanship can still be improved, so I will continue to train hard",
+          "option": null,
+          "nextIds": [
+            200500020
+          ],
+          "kind": "NPC"
+        },
+        "200500020": {
+          "type": "Text",
+          "id": 200500020,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "If you have time, do you mind having a few bouts of matches with me?",
+          "option": null,
+          "nextIds": [
+            200500021
+          ],
+          "kind": "NPC"
+        },
+        "200500021": {
+          "type": "Text",
+          "id": 200500021,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "I shall take my leave, see you!",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200500009": {
+          "type": "Text",
+          "id": 200500009,
+          "sectionId": 2005000,
+          "senderId": null,
+          "text": "I've combated a very strong martial captain in Jarilo-VI",
+          "option": "Gepard",
+          "nextIds": [
+            200500010
+          ],
+          "kind": "Player"
+        },
+        "200500010": {
+          "type": "Text",
+          "id": 200500010,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "Martial captain? What's that?",
+          "option": null,
+          "nextIds": [
+            200500011
+          ],
+          "kind": "NPC"
+        },
+        "200500011": {
+          "type": "Text",
+          "id": 200500011,
+          "sectionId": 2005000,
+          "senderId": null,
+          "text": "It's similar to the Commander of the Cloud Knights on the Luofu",
+          "option": "Imagine a Cloud Knight Commander",
+          "nextIds": [
+            200500012
+          ],
+          "kind": "Player"
+        },
+        "200500012": {
+          "type": "Text",
+          "id": 200500012,
+          "sectionId": 2005000,
+          "senderId": null,
+          "text": "His punches were as hard as a glacier, and his weapon was unconventional, a shield made out of an instrument case",
+          "option": null,
+          "nextIds": [
+            200500013
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200500013": {
+          "type": "Text",
+          "id": 200500013,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "Instrument case!",
+          "option": null,
+          "nextIds": [
+            200500014
+          ],
+          "kind": "NPC"
+        },
+        "200500014": {
+          "type": "Text",
+          "id": 200500014,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "Indeed, in the hands of the powerful, even a blade of grass or a stick of branch can be used as a weapon",
+          "option": null,
+          "nextIds": [
+            200500015
+          ],
+          "kind": "NPC"
+        },
+        "200500015": {
+          "type": "Text",
+          "id": 200500015,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "What a fun opponent, I would like to have a match with him!",
+          "option": null,
+          "nextIds": [
+            200500019
+          ],
+          "kind": "NPC"
+        },
+        "200500016": {
+          "type": "Text",
+          "id": 200500016,
+          "sectionId": 2005000,
+          "senderId": null,
+          "text": "Indeed, but they were all defeated by me!",
+          "option": "Not as strong as me",
+          "nextIds": [
+            200500017
+          ],
+          "kind": "Player"
+        },
+        "200500017": {
+          "type": "Text",
+          "id": 200500017,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "Haha, you are truly someone respectable! I hope I can meet with you on the stage of the Luminary Martial Showcase",
+          "option": null,
+          "nextIds": [
+            200500018
+          ],
+          "kind": "NPC"
+        },
+        "200500018": {
+          "type": "Text",
+          "id": 200500018,
+          "sectionId": 2005000,
+          "senderId": 1209,
+          "text": "However, I will definitely take the title of Sword Champion when that time comes!",
+          "option": null,
+          "nextIds": [
+            200500019
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2005100,
+      "startIds": [
+        200510000
+      ],
+      "messages": {
+        "200510000": {
+          "type": "Text",
+          "id": 200510000,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "{NICKNAME}, SOS!",
+          "option": null,
+          "nextIds": [
+            200510001
+          ],
+          "kind": "NPC"
+        },
+        "200510001": {
+          "type": "Text",
+          "id": 200510001,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "It's raining and I saw a litter of white kittens without their mom, what should I do?",
+          "option": null,
+          "nextIds": [
+            200510002,
+            200510005,
+            200510008
+          ],
+          "kind": "NPC"
+        },
+        "200510002": {
+          "type": "Text",
+          "id": 200510002,
+          "sectionId": 2005100,
+          "senderId": null,
+          "text": "Maybe wait for their mom to return? She could've been out to hunt food",
+          "option": "Wait for their mom",
+          "nextIds": [
+            200510003
+          ],
+          "kind": "Player"
+        },
+        "200510003": {
+          "type": "Text",
+          "id": 200510003,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "I thought so too, so I've been holding an oil-paper umbrella for them",
+          "option": null,
+          "nextIds": [
+            200510004
+          ],
+          "kind": "NPC"
+        },
+        "200510004": {
+          "type": "Text",
+          "id": 200510004,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "I don't dare to move them, it would be bad if their mom came back and couldn't find them",
+          "option": null,
+          "nextIds": [
+            200510011
+          ],
+          "kind": "NPC"
+        },
+        "200510011": {
+          "type": "Text",
+          "id": 200510011,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "Looking at them, sigh...",
+          "option": null,
+          "nextIds": [
+            200510012
+          ],
+          "kind": "NPC"
+        },
+        "200510012": {
+          "type": "Text",
+          "id": 200510012,
+          "sectionId": 2005100,
+          "senderId": null,
+          "text": "Something the matter?",
+          "option": "Something the matter?",
+          "nextIds": [
+            200510013
+          ],
+          "kind": "Player"
+        },
+        "200510013": {
+          "type": "Text",
+          "id": 200510013,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "I just thought how I never saw my birth parents. I don't even know if they didn't want me, or if they're already gone...",
+          "option": null,
+          "nextIds": [
+            200510014
+          ],
+          "kind": "NPC"
+        },
+        "200510014": {
+          "type": "Text",
+          "id": 200510014,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "But then again, I don't have many memories anyway, so... I'm okay",
+          "option": null,
+          "nextIds": [
+            200510015
+          ],
+          "kind": "NPC"
+        },
+        "200510015": {
+          "type": "Text",
+          "id": 200510015,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "My earliest memory is the general teaching me",
+          "option": null,
+          "nextIds": [
+            200510016,
+            200510018
+          ],
+          "kind": "NPC"
+        },
+        "200510016": {
+          "type": "Text",
+          "id": 200510016,
+          "sectionId": 2005100,
+          "senderId": null,
+          "text": "It must have been difficult for you",
+          "option": "Must be difficult",
+          "nextIds": [
+            200510017
+          ],
+          "kind": "Player"
+        },
+        "200510017": {
+          "type": "Text",
+          "id": 200510017,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "I'm okay, the general had it harder, I think",
+          "option": null,
+          "nextIds": [
+            200510020
+          ],
+          "kind": "NPC"
+        },
+        "200510020": {
+          "type": "Text",
+          "id": 200510020,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "Oh, cat mommy is back",
+          "option": null,
+          "nextIds": [
+            200510021
+          ],
+          "kind": "NPC"
+        },
+        "200510021": {
+          "type": "Text",
+          "id": 200510021,
+          "sectionId": 2005100,
+          "senderId": null,
+          "text": "That's good!",
+          "option": "That's good!",
+          "nextIds": [
+            200510022
+          ],
+          "kind": "Player"
+        },
+        "200510022": {
+          "type": "Text",
+          "id": 200510022,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "I'm going now, thank you for listening",
+          "option": null,
+          "nextIds": [
+            200510023
+          ],
+          "kind": "NPC"
+        },
+        "200510023": {
+          "type": "Text",
+          "id": 200510023,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "Remember to keep it a secret! I'm a big boy now, so no pinkie swears are needed",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200510018": {
+          "type": "Text",
+          "id": 200510018,
+          "sectionId": 2005100,
+          "senderId": null,
+          "text": "He has his work cut out for him",
+          "option": "He has his work cut out for him",
+          "nextIds": [
+            200510019
+          ],
+          "kind": "Player"
+        },
+        "200510019": {
+          "type": "Text",
+          "id": 200510019,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "Yeah, he must've put in so much effort",
+          "option": null,
+          "nextIds": [
+            200510020
+          ],
+          "kind": "NPC"
+        },
+        "200510005": {
+          "type": "Text",
+          "id": 200510005,
+          "sectionId": 2005100,
+          "senderId": null,
+          "text": "Move them somewhere with cover, they'll get sick at this rate",
+          "option": "Move them under shelter",
+          "nextIds": [
+            200510006
+          ],
+          "kind": "Player"
+        },
+        "200510006": {
+          "type": "Text",
+          "id": 200510006,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "I don't dare to move them, it would be bad if their mom came back and couldn't find them",
+          "option": null,
+          "nextIds": [
+            200510007
+          ],
+          "kind": "NPC"
+        },
+        "200510007": {
+          "type": "Text",
+          "id": 200510007,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "Luckily, I bought a paper umbrella, I can keep them under it for a while",
+          "option": null,
+          "nextIds": [
+            200510011
+          ],
+          "kind": "NPC"
+        },
+        "200510008": {
+          "type": "Text",
+          "id": 200510008,
+          "sectionId": 2005100,
+          "senderId": null,
+          "text": "Take them home and become a cat dad",
+          "option": "Become a cat dad",
+          "nextIds": [
+            200510009
+          ],
+          "kind": "Player"
+        },
+        "200510009": {
+          "type": "Text",
+          "id": 200510009,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "I'll wait for their mom to return, she could've gone away to hunt food. It would be bad if she can't find the kitten when she comes back",
+          "option": null,
+          "nextIds": [
+            200510010
+          ],
+          "kind": "NPC"
+        },
+        "200510010": {
+          "type": "Text",
+          "id": 200510010,
+          "sectionId": 2005100,
+          "senderId": 1209,
+          "text": "Luckily, I bought a paper umbrella, I can keep them under it for a while",
+          "option": null,
+          "nextIds": [
+            200510011
+          ],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 1209,
+    "name": "Yanqing",
+    "signature": "Did the Artisanship Commission have new products today? No",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/1209.png",
+    "type": 1,
+    "camp": 4
+  }
+}

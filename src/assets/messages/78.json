@@ -1,0 +1,1458 @@
+{
+  "id": 78,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1215501,
+      "startIds": [
+        121550101
+      ],
+      "messages": {
+        "121550101": {
+          "type": "Text",
+          "id": 121550101,
+          "sectionId": 1215501,
+          "senderId": 1206,
+          "text": "Hey {NICKNAME}, do you still remember meeting the IPC rep at the docks?",
+          "option": null,
+          "nextIds": [
+            121550102,
+            121550104
+          ],
+          "kind": "NPC"
+        },
+        "121550102": {
+          "type": "Text",
+          "id": 121550102,
+          "sectionId": 1215501,
+          "senderId": null,
+          "text": "The one who wants you to apologize publicly and bark like a dog?",
+          "option": "I remember",
+          "nextIds": [
+            121550103
+          ],
+          "kind": "Player"
+        },
+        "121550103": {
+          "type": "Text",
+          "id": 121550103,
+          "sectionId": 1215501,
+          "senderId": 1206,
+          "text": "Yeah, that dirtbag",
+          "option": null,
+          "nextIds": [
+            121550106
+          ],
+          "kind": "NPC"
+        },
+        "121550106": {
+          "type": "Text",
+          "id": 121550106,
+          "sectionId": 1215501,
+          "senderId": 79,
+          "text": "I heard there have been cases of goods being damaged during transportation in the last few days",
+          "option": null,
+          "nextIds": [
+            121550107
+          ],
+          "kind": "NPC"
+        },
+        "121550107": {
+          "type": "Text",
+          "id": 121550107,
+          "sectionId": 1215501,
+          "senderId": 79,
+          "text": "Is he the saboteur?",
+          "option": null,
+          "nextIds": [
+            121550108
+          ],
+          "kind": "NPC"
+        },
+        "121550108": {
+          "type": "Text",
+          "id": 121550108,
+          "sectionId": 1215501,
+          "senderId": 1206,
+          "text": "That's him. We caught him, and he's right here at the docks",
+          "option": null,
+          "nextIds": [
+            121550109
+          ],
+          "kind": "NPC"
+        },
+        "121550109": {
+          "type": "Text",
+          "id": 121550109,
+          "sectionId": 1215501,
+          "senderId": 79,
+          "text": "Be right over",
+          "option": null,
+          "nextIds": [
+            121550110,
+            121550112
+          ],
+          "kind": "NPC"
+        },
+        "121550110": {
+          "type": "Text",
+          "id": 121550110,
+          "sectionId": 1215501,
+          "senderId": null,
+          "text": "Be right over",
+          "option": "Be right over",
+          "nextIds": [
+            121550111
+          ],
+          "kind": "Player"
+        },
+        "121550111": {
+          "type": "Sticker",
+          "id": 121550111,
+          "sectionId": 1215501,
+          "senderId": null,
+          "text": "",
+          "option": null,
+          "nextIds": [],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20004,
+            "path": "SpriteOutput/Emoji/20004.png",
+            "keywords": "Understood"
+          }
+        },
+        "121550112": {
+          "type": "Sticker",
+          "id": 121550112,
+          "sectionId": 1215501,
+          "senderId": null,
+          "text": "",
+          "option": "Heehee, I love watching drama unfold.",
+          "nextIds": [],
+          "kind": "Player",
+          "sticker": {
+            "id": 103004,
+            "path": "SpriteOutput/Emoji/103004.png",
+            "keywords": "Melon"
+          }
+        },
+        "121550104": {
+          "type": "Text",
+          "id": 121550104,
+          "sectionId": 1215501,
+          "senderId": null,
+          "text": "Not really, you mean the IPC salesperson?",
+          "option": "I don't remember",
+          "nextIds": [
+            121550105
+          ],
+          "kind": "Player"
+        },
+        "121550105": {
+          "type": "Text",
+          "id": 121550105,
+          "sectionId": 1215501,
+          "senderId": 1206,
+          "text": "The one who tried to make me bark like a dog, remember?",
+          "option": null,
+          "nextIds": [
+            121550106
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1215701,
+      "startIds": [
+        121570101
+      ],
+      "messages": {
+        "121570101": {
+          "type": "Text",
+          "id": 121570101,
+          "sectionId": 1215701,
+          "senderId": null,
+          "text": "Mingxi added Yukong to the group chat",
+          "option": null,
+          "nextIds": [
+            121570102
+          ],
+          "kind": "System"
+        },
+        "121570102": {
+          "type": "Text",
+          "id": 121570102,
+          "sectionId": 1215701,
+          "senderId": 79,
+          "text": "I added Madam Yukong",
+          "option": null,
+          "nextIds": [
+            121570103
+          ],
+          "kind": "NPC"
+        },
+        "121570103": {
+          "type": "Text",
+          "id": 121570103,
+          "sectionId": 1215701,
+          "senderId": 1207,
+          "text": "Oh, there's a group chat?",
+          "option": null,
+          "nextIds": [
+            121570104
+          ],
+          "kind": "NPC"
+        },
+        "121570104": {
+          "type": "Text",
+          "id": 121570104,
+          "sectionId": 1215701,
+          "senderId": 1206,
+          "text": "Welcome",
+          "option": null,
+          "nextIds": [
+            121570105,
+            121570107
+          ],
+          "kind": "NPC"
+        },
+        "121570105": {
+          "type": "Text",
+          "id": 121570105,
+          "sectionId": 1215701,
+          "senderId": null,
+          "text": "Welcome newcomer, please pay the membership fee",
+          "option": "Welcome, newcomer",
+          "nextIds": [
+            121570106
+          ],
+          "kind": "Player"
+        },
+        "121570106": {
+          "type": "Text",
+          "id": 121570106,
+          "sectionId": 1215701,
+          "senderId": 1207,
+          "text": "Thanks, go ahead and send me the fee",
+          "option": null,
+          "nextIds": [
+            121570109
+          ],
+          "kind": "NPC"
+        },
+        "121570109": {
+          "type": "Sticker",
+          "id": 121570109,
+          "sectionId": 1215701,
+          "senderId": 1207,
+          "text": "",
+          "option": null,
+          "nextIds": [
+            121570110
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 103007,
+            "path": "SpriteOutput/Emoji/103007.png",
+            "keywords": "Sigh"
+          }
+        },
+        "121570110": {
+          "type": "Text",
+          "id": 121570110,
+          "sectionId": 1215701,
+          "senderId": 1207,
+          "text": "Don't worry, I don't usually look at group chats",
+          "option": null,
+          "nextIds": [
+            121570111
+          ],
+          "kind": "NPC"
+        },
+        "121570111": {
+          "type": "Text",
+          "id": 121570111,
+          "sectionId": 1215701,
+          "senderId": 1207,
+          "text": "Remember to go to Artistry Hardware",
+          "option": null,
+          "nextIds": [
+            121570112
+          ],
+          "kind": "NPC"
+        },
+        "121570112": {
+          "type": "Text",
+          "id": 121570112,
+          "sectionId": 1215701,
+          "senderId": 1206,
+          "text": "Yes Ma'am",
+          "option": null,
+          "nextIds": [
+            121570113
+          ],
+          "kind": "NPC"
+        },
+        "121570113": {
+          "type": "Text",
+          "id": 121570113,
+          "sectionId": 1215701,
+          "senderId": 79,
+          "text": "Yes Ma'am",
+          "option": null,
+          "nextIds": [
+            121570114,
+            121570115
+          ],
+          "kind": "NPC"
+        },
+        "121570114": {
+          "type": "Text",
+          "id": 121570114,
+          "sectionId": 1215701,
+          "senderId": null,
+          "text": "Yes Ma'am",
+          "option": "Yes Ma'am",
+          "nextIds": [
+            121570116
+          ],
+          "kind": "Player"
+        },
+        "121570116": {
+          "type": "Text",
+          "id": 121570116,
+          "sectionId": 1215701,
+          "senderId": 1207,
+          "text": "This is not a work group chat, no need to be so formal",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121570115": {
+          "type": "Text",
+          "id": 121570115,
+          "sectionId": 1215701,
+          "senderId": null,
+          "text": "Be there in a sec",
+          "option": "Be there in a sec",
+          "nextIds": [
+            121570116
+          ],
+          "kind": "Player"
+        },
+        "121570107": {
+          "type": "Text",
+          "id": 121570107,
+          "sectionId": 1215701,
+          "senderId": null,
+          "text": "Shoot, the Sky-Faring Commission has entered the chat!",
+          "option": "Darn it, a mod in the house!",
+          "nextIds": [
+            121570108
+          ],
+          "kind": "Player"
+        },
+        "121570108": {
+          "type": "Text",
+          "id": 121570108,
+          "sectionId": 1215701,
+          "senderId": 1207,
+          "text": "Did you do something wrong?",
+          "option": null,
+          "nextIds": [
+            121570109
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1215801,
+      "startIds": [
+        121580101
+      ],
+      "messages": {
+        "121580101": {
+          "type": "Text",
+          "id": 121580101,
+          "sectionId": 1215801,
+          "senderId": null,
+          "text": "Mingxi added Xiaohan to the group chat",
+          "option": null,
+          "nextIds": [
+            121580102
+          ],
+          "kind": "System"
+        },
+        "121580102": {
+          "type": "Text",
+          "id": 121580102,
+          "sectionId": 1215801,
+          "senderId": 79,
+          "text": "I added the young master",
+          "option": null,
+          "nextIds": [
+            121580103
+          ],
+          "kind": "NPC"
+        },
+        "121580103": {
+          "type": "Text",
+          "id": 121580103,
+          "sectionId": 1215801,
+          "senderId": 80,
+          "text": "Hi guys",
+          "option": null,
+          "nextIds": [
+            121580104
+          ],
+          "kind": "NPC"
+        },
+        "121580104": {
+          "type": "Text",
+          "id": 121580104,
+          "sectionId": 1215801,
+          "senderId": 1207,
+          "text": "Fancy seeing you here in this chat",
+          "option": null,
+          "nextIds": [
+            121580105
+          ],
+          "kind": "NPC"
+        },
+        "121580105": {
+          "type": "Text",
+          "id": 121580105,
+          "sectionId": 1215801,
+          "senderId": 80,
+          "text": "Madam Yukong, please don't tease me. You know I really want Aurum Alley to thrive",
+          "option": null,
+          "nextIds": [
+            121580106
+          ],
+          "kind": "NPC"
+        },
+        "121580106": {
+          "type": "Text",
+          "id": 121580106,
+          "sectionId": 1215801,
+          "senderId": 1206,
+          "text": "Welcome welcome!",
+          "option": null,
+          "nextIds": [
+            121580107,
+            121580108
+          ],
+          "kind": "NPC"
+        },
+        "121580107": {
+          "type": "Text",
+          "id": 121580107,
+          "sectionId": 1215801,
+          "senderId": null,
+          "text": "Welcome newcomer, please pay the membership fee",
+          "option": "Welcome, newcomer",
+          "nextIds": [
+            121580111
+          ],
+          "kind": "Player"
+        },
+        "121580111": {
+          "type": "Text",
+          "id": 121580111,
+          "sectionId": 1215801,
+          "senderId": 79,
+          "text": "We will continue to push forward with Inventory Arrangement and Logistics Planning",
+          "option": null,
+          "nextIds": [
+            121580112,
+            121580114
+          ],
+          "kind": "NPC"
+        },
+        "121580112": {
+          "type": "Sticker",
+          "id": 121580112,
+          "sectionId": 1215801,
+          "senderId": null,
+          "text": "",
+          "option": null,
+          "nextIds": [
+            121580113
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20004,
+            "path": "SpriteOutput/Emoji/20004.png",
+            "keywords": "Understood"
+          }
+        },
+        "121580113": {
+          "type": "Text",
+          "id": 121580113,
+          "sectionId": 1215801,
+          "senderId": 1206,
+          "text": "So dependable",
+          "option": null,
+          "nextIds": [
+            121580116
+          ],
+          "kind": "NPC"
+        },
+        "121580116": {
+          "type": "Text",
+          "id": 121580116,
+          "sectionId": 1215801,
+          "senderId": 79,
+          "text": "Basically, we need results, people! We gotta give the president a little wow factor from Aurum Alley",
+          "option": null,
+          "nextIds": [
+            121580117
+          ],
+          "kind": "NPC"
+        },
+        "121580117": {
+          "type": "Sticker",
+          "id": 121580117,
+          "sectionId": 1215801,
+          "senderId": 1206,
+          "text": "",
+          "option": null,
+          "nextIds": [
+            121580118
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20004,
+            "path": "SpriteOutput/Emoji/20004.png",
+            "keywords": "Understood"
+          }
+        },
+        "121580118": {
+          "type": "Sticker",
+          "id": 121580118,
+          "sectionId": 1215801,
+          "senderId": 80,
+          "text": "",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20004,
+            "path": "SpriteOutput/Emoji/20004.png",
+            "keywords": "Understood"
+          }
+        },
+        "121580114": {
+          "type": "Sticker",
+          "id": 121580114,
+          "sectionId": 1215801,
+          "senderId": null,
+          "text": "",
+          "option": null,
+          "nextIds": [
+            121580115
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20005,
+            "path": "SpriteOutput/Emoji/20005.png",
+            "keywords": "Crying"
+          }
+        },
+        "121580115": {
+          "type": "Text",
+          "id": 121580115,
+          "sectionId": 1215801,
+          "senderId": 1206,
+          "text": "Stop crying, I'll help",
+          "option": null,
+          "nextIds": [
+            121580116
+          ],
+          "kind": "NPC"
+        },
+        "121580108": {
+          "type": "Text",
+          "id": 121580108,
+          "sectionId": 1215801,
+          "senderId": null,
+          "text": "This group follows a last-in-first-out policy, and we're going to kick 1 member now. I'm so happy to have met all of you. I will miss you, whoever it is",
+          "option": "Last member gets kicked out",
+          "nextIds": [
+            121580109
+          ],
+          "kind": "Player"
+        },
+        "121580109": {
+          "type": "Text",
+          "id": 121580109,
+          "sectionId": 1215801,
+          "senderId": 1206,
+          "text": "Alas, the cruelty of the Aurum Alley revival project!",
+          "option": null,
+          "nextIds": [
+            121580110
+          ],
+          "kind": "NPC"
+        },
+        "121580110": {
+          "type": "Text",
+          "id": 121580110,
+          "sectionId": 1215801,
+          "senderId": 79,
+          "text": "Stop horsing around, you two",
+          "option": null,
+          "nextIds": [
+            121580111
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1215901,
+      "startIds": [
+        121590101
+      ],
+      "messages": {
+        "121590101": {
+          "type": "Text",
+          "id": 121590101,
+          "sectionId": 1215901,
+          "senderId": 79,
+          "text": "The president asked me to plan a public meeting of the merchant guild!",
+          "option": null,
+          "nextIds": [
+            121590102
+          ],
+          "kind": "NPC"
+        },
+        "121590102": {
+          "type": "Text",
+          "id": 121590102,
+          "sectionId": 1215901,
+          "senderId": 80,
+          "text": "In order to help defeat the old president, I prepared a little something. Where are we meeting?",
+          "option": null,
+          "nextIds": [
+            121590103
+          ],
+          "kind": "NPC"
+        },
+        "121590103": {
+          "type": "Text",
+          "id": 121590103,
+          "sectionId": 1215901,
+          "senderId": 1206,
+          "text": "O young master, so dependable",
+          "option": null,
+          "nextIds": [
+            121590104
+          ],
+          "kind": "NPC"
+        },
+        "121590104": {
+          "type": "Text",
+          "id": 121590104,
+          "sectionId": 1215901,
+          "senderId": 79,
+          "text": "Let's make it at the docks. Madam Yukong will be there today too",
+          "option": null,
+          "nextIds": [
+            121590105
+          ],
+          "kind": "NPC"
+        },
+        "121590105": {
+          "type": "Sticker",
+          "id": 121590105,
+          "sectionId": 1215901,
+          "senderId": 1207,
+          "text": "",
+          "option": null,
+          "nextIds": [
+            121590106
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 103007,
+            "path": "SpriteOutput/Emoji/103007.png",
+            "keywords": "Sigh"
+          }
+        },
+        "121590106": {
+          "type": "Text",
+          "id": 121590106,
+          "sectionId": 1215901,
+          "senderId": 1207,
+          "text": "I won't choose sides, so do your best",
+          "option": null,
+          "nextIds": [
+            121590107
+          ],
+          "kind": "NPC"
+        },
+        "121590107": {
+          "type": "Text",
+          "id": 121590107,
+          "sectionId": 1215901,
+          "senderId": 79,
+          "text": "We will win the president over completely!",
+          "option": null,
+          "nextIds": [
+            121590108
+          ],
+          "kind": "NPC"
+        },
+        "121590108": {
+          "type": "Text",
+          "id": 121590108,
+          "sectionId": 1215901,
+          "senderId": 1206,
+          "text": "Say, the president will definitely show up today, right?",
+          "option": null,
+          "nextIds": [
+            121590109
+          ],
+          "kind": "NPC"
+        },
+        "121590109": {
+          "type": "Text",
+          "id": 121590109,
+          "sectionId": 1215901,
+          "senderId": 79,
+          "text": "Should be",
+          "option": null,
+          "nextIds": [
+            121590110
+          ],
+          "kind": "NPC"
+        },
+        "121590110": {
+          "type": "Text",
+          "id": 121590110,
+          "sectionId": 1215901,
+          "senderId": 1206,
+          "text": "Great, I wanna witness this",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1216001,
+      "startIds": [
+        121600101
+      ],
+      "messages": {
+        "121600101": {
+          "type": "Text",
+          "id": 121600101,
+          "sectionId": 1216001,
+          "senderId": 80,
+          "text": "As much as I appreciate spending time with you guys, I shall excuse myself from this group to avoid controversy",
+          "option": null,
+          "nextIds": [
+            121600102
+          ],
+          "kind": "NPC"
+        },
+        "121600102": {
+          "type": "Text",
+          "id": 121600102,
+          "sectionId": 1216001,
+          "senderId": 80,
+          "text": "So for now, farewell!",
+          "option": null,
+          "nextIds": [
+            121600103
+          ],
+          "kind": "NPC"
+        },
+        "121600103": {
+          "type": "Text",
+          "id": 121600103,
+          "sectionId": 1216001,
+          "senderId": null,
+          "text": "Xiaohan has left the group \"Aurum Alley Revival Project\"",
+          "option": null,
+          "nextIds": [
+            121600104
+          ],
+          "kind": "System"
+        },
+        "121600104": {
+          "type": "Sticker",
+          "id": 121600104,
+          "sectionId": 1216001,
+          "senderId": 1207,
+          "text": "",
+          "option": null,
+          "nextIds": [
+            121600105
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 103007,
+            "path": "SpriteOutput/Emoji/103007.png",
+            "keywords": "Sigh"
+          }
+        },
+        "121600105": {
+          "type": "Text",
+          "id": 121600105,
+          "sectionId": 1216001,
+          "senderId": 1207,
+          "text": "Although you have different positions at the negotiation table, your goals are the same",
+          "option": null,
+          "nextIds": [
+            121600106
+          ],
+          "kind": "NPC"
+        },
+        "121600106": {
+          "type": "Text",
+          "id": 121600106,
+          "sectionId": 1216001,
+          "senderId": 1207,
+          "text": "Therefore, you should engage in a thorough debate to have a chance to supplement your own perspectives from each other's viewpoints",
+          "option": null,
+          "nextIds": [
+            121600107
+          ],
+          "kind": "NPC"
+        },
+        "121600107": {
+          "type": "Text",
+          "id": 121600107,
+          "sectionId": 1216001,
+          "senderId": 1207,
+          "text": "An open-minded perspective is more valuable than any singular viewpoint",
+          "option": null,
+          "nextIds": [
+            121600108
+          ],
+          "kind": "NPC"
+        },
+        "121600108": {
+          "type": "Text",
+          "id": 121600108,
+          "sectionId": 1216001,
+          "senderId": 79,
+          "text": "Yes ma'am",
+          "option": null,
+          "nextIds": [
+            121600109,
+            121600110,
+            121600111
+          ],
+          "kind": "NPC"
+        },
+        "121600109": {
+          "type": "Sticker",
+          "id": 121600109,
+          "sectionId": 1216001,
+          "senderId": null,
+          "text": "",
+          "option": null,
+          "nextIds": [],
+          "kind": "Player",
+          "sticker": {
+            "id": 20002,
+            "path": "SpriteOutput/Emoji/20002.png",
+            "keywords": "Finger Heart"
+          }
+        },
+        "121600110": {
+          "type": "Sticker",
+          "id": 121600110,
+          "sectionId": 1216001,
+          "senderId": null,
+          "text": "",
+          "option": null,
+          "nextIds": [],
+          "kind": "Player",
+          "sticker": {
+            "id": 20004,
+            "path": "SpriteOutput/Emoji/20004.png",
+            "keywords": "Understood"
+          }
+        },
+        "121600111": {
+          "type": "Sticker",
+          "id": 121600111,
+          "sectionId": 1216001,
+          "senderId": null,
+          "text": "",
+          "option": null,
+          "nextIds": [],
+          "kind": "Player",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1216101,
+      "startIds": [
+        121610101
+      ],
+      "messages": {
+        "121610101": {
+          "type": "Text",
+          "id": 121610101,
+          "sectionId": 1216101,
+          "senderId": 79,
+          "text": "Before the bidding begins, there's something the president wants to tell us",
+          "option": null,
+          "nextIds": [
+            121610102
+          ],
+          "kind": "NPC"
+        },
+        "121610102": {
+          "type": "Text",
+          "id": 121610102,
+          "sectionId": 1216101,
+          "senderId": 1206,
+          "text": "Why does it feel like a BBEG situation?",
+          "option": null,
+          "nextIds": [
+            121610103,
+            121610106
+          ],
+          "kind": "NPC"
+        },
+        "121610103": {
+          "type": "Text",
+          "id": 121610103,
+          "sectionId": 1216101,
+          "senderId": null,
+          "text": "What a long trip it has been! It really makes you feel all sorts of emotions looking back on how far we've come.",
+          "option": "What a long trip...",
+          "nextIds": [
+            121610104
+          ],
+          "kind": "Player"
+        },
+        "121610104": {
+          "type": "Text",
+          "id": 121610104,
+          "sectionId": 1216101,
+          "senderId": 1206,
+          "text": "Too soon",
+          "option": null,
+          "nextIds": [
+            121610105
+          ],
+          "kind": "NPC"
+        },
+        "121610105": {
+          "type": "Text",
+          "id": 121610105,
+          "sectionId": 1216101,
+          "senderId": 79,
+          "text": "Wait till we've won",
+          "option": null,
+          "nextIds": [
+            121610109
+          ],
+          "kind": "NPC"
+        },
+        "121610109": {
+          "type": "Text",
+          "id": 121610109,
+          "sectionId": 1216101,
+          "senderId": 79,
+          "text": "Oldies Depot, see you there",
+          "option": null,
+          "nextIds": [
+            121610110
+          ],
+          "kind": "NPC"
+        },
+        "121610110": {
+          "type": "Text",
+          "id": 121610110,
+          "sectionId": 1216101,
+          "senderId": 1206,
+          "text": "Kay",
+          "option": null,
+          "nextIds": [
+            121610111,
+            121610112
+          ],
+          "kind": "NPC"
+        },
+        "121610111": {
+          "type": "Text",
+          "id": 121610111,
+          "sectionId": 1216101,
+          "senderId": null,
+          "text": "See you there",
+          "option": "See you there",
+          "nextIds": [],
+          "kind": "Player"
+        },
+        "121610112": {
+          "type": "Text",
+          "id": 121610112,
+          "sectionId": 1216101,
+          "senderId": null,
+          "text": "I'll take my sweet time",
+          "option": "I'll take my sweet time",
+          "nextIds": [],
+          "kind": "Player"
+        },
+        "121610106": {
+          "type": "Text",
+          "id": 121610106,
+          "sectionId": 1216101,
+          "senderId": null,
+          "text": "When this battle is over, I'm going back to my homeland to get married",
+          "option": "I'm going home to get married...",
+          "nextIds": [
+            121610107
+          ],
+          "kind": "Player"
+        },
+        "121610107": {
+          "type": "Text",
+          "id": 121610107,
+          "sectionId": 1216101,
+          "senderId": 1206,
+          "text": "Stay alive",
+          "option": null,
+          "nextIds": [
+            121610108
+          ],
+          "kind": "NPC"
+        },
+        "121610108": {
+          "type": "Text",
+          "id": 121610108,
+          "sectionId": 1216101,
+          "senderId": 79,
+          "text": "Stay alive",
+          "option": null,
+          "nextIds": [
+            121610109
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1216401,
+      "startIds": [
+        121640101
+      ],
+      "messages": {
+        "121640101": {
+          "type": "Text",
+          "id": 121640101,
+          "sectionId": 1216401,
+          "senderId": null,
+          "text": "Mingxi added Xiaohan to the group chat",
+          "option": null,
+          "nextIds": [
+            121640102
+          ],
+          "kind": "System"
+        },
+        "121640102": {
+          "type": "Text",
+          "id": 121640102,
+          "sectionId": 1216401,
+          "senderId": 79,
+          "text": "I added the young master again",
+          "option": null,
+          "nextIds": [
+            121640103
+          ],
+          "kind": "NPC"
+        },
+        "121640103": {
+          "type": "Text",
+          "id": 121640103,
+          "sectionId": 1216401,
+          "senderId": 80,
+          "text": "Ohai",
+          "option": null,
+          "nextIds": [
+            121640120
+          ],
+          "kind": "NPC"
+        },
+        "121640120": {
+          "type": "Text",
+          "id": 121640120,
+          "sectionId": 1216401,
+          "senderId": 79,
+          "text": "The bids resulted a while back",
+          "option": null,
+          "nextIds": [
+            121640121
+          ],
+          "kind": "NPC"
+        },
+        "121640121": {
+          "type": "Text",
+          "id": 121640121,
+          "sectionId": 1216401,
+          "senderId": 79,
+          "text": "I received news from the Sky-Faring Commission. We got it",
+          "option": null,
+          "nextIds": [
+            121640122
+          ],
+          "kind": "NPC"
+        },
+        "121640122": {
+          "type": "Text",
+          "id": 121640122,
+          "sectionId": 1216401,
+          "senderId": 1206,
+          "text": "Wow",
+          "option": null,
+          "nextIds": [
+            121640123
+          ],
+          "kind": "NPC"
+        },
+        "121640123": {
+          "type": "Text",
+          "id": 121640123,
+          "sectionId": 1216401,
+          "senderId": 1207,
+          "text": "Wow",
+          "option": null,
+          "nextIds": [
+            121640124,
+            121640125
+          ],
+          "kind": "NPC"
+        },
+        "121640124": {
+          "type": "Text",
+          "id": 121640124,
+          "sectionId": 1216401,
+          "senderId": null,
+          "text": "Wow",
+          "option": "Wow",
+          "nextIds": [
+            121640105
+          ],
+          "kind": "Player"
+        },
+        "121640105": {
+          "type": "Text",
+          "id": 121640105,
+          "sectionId": 1216401,
+          "senderId": 79,
+          "text": "The merchant guild will continue to manage the Aurum Alley commercial district",
+          "option": null,
+          "nextIds": [
+            121640106
+          ],
+          "kind": "NPC"
+        },
+        "121640106": {
+          "type": "Text",
+          "id": 121640106,
+          "sectionId": 1216401,
+          "senderId": 80,
+          "text": "You could've said all that before adding me to the group",
+          "option": null,
+          "nextIds": [
+            121640107
+          ],
+          "kind": "NPC"
+        },
+        "121640107": {
+          "type": "Text",
+          "id": 121640107,
+          "sectionId": 1216401,
+          "senderId": 80,
+          "text": "We lost to you",
+          "option": null,
+          "nextIds": [
+            121640108,
+            121640109
+          ],
+          "kind": "NPC"
+        },
+        "121640108": {
+          "type": "Text",
+          "id": 121640108,
+          "sectionId": 1216401,
+          "senderId": null,
+          "text": "We won? Unbelievable",
+          "option": "We won!?",
+          "nextIds": [
+            121640126
+          ],
+          "kind": "Player"
+        },
+        "121640126": {
+          "type": "Text",
+          "id": 121640126,
+          "sectionId": 1216401,
+          "senderId": 1206,
+          "text": "Is it true, Madam Yukong?",
+          "option": null,
+          "nextIds": [
+            121640110
+          ],
+          "kind": "NPC"
+        },
+        "121640110": {
+          "type": "Text",
+          "id": 121640110,
+          "sectionId": 1216401,
+          "senderId": 1207,
+          "text": "This is the result from the Sky-Faring Commission's evaluation panel, I was not involved.",
+          "option": null,
+          "nextIds": [
+            121640111
+          ],
+          "kind": "NPC"
+        },
+        "121640111": {
+          "type": "Sticker",
+          "id": 121640111,
+          "sectionId": 1216401,
+          "senderId": 1207,
+          "text": "",
+          "option": null,
+          "nextIds": [
+            121640112
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20003,
+            "path": "SpriteOutput/Emoji/20003.png",
+            "keywords": "No No"
+          }
+        },
+        "121640112": {
+          "type": "Text",
+          "id": 121640112,
+          "sectionId": 1216401,
+          "senderId": 1206,
+          "text": "Yippeeee!",
+          "option": null,
+          "nextIds": [
+            121640113
+          ],
+          "kind": "NPC"
+        },
+        "121640113": {
+          "type": "Text",
+          "id": 121640113,
+          "sectionId": 1216401,
+          "senderId": 1206,
+          "text": "Don't be sad, young master",
+          "option": null,
+          "nextIds": [
+            121640114
+          ],
+          "kind": "NPC"
+        },
+        "121640114": {
+          "type": "Text",
+          "id": 121640114,
+          "sectionId": 1216401,
+          "senderId": 80,
+          "text": "*sob*",
+          "option": null,
+          "nextIds": [
+            121640115
+          ],
+          "kind": "NPC"
+        },
+        "121640115": {
+          "type": "Text",
+          "id": 121640115,
+          "sectionId": 1216401,
+          "senderId": 79,
+          "text": "One more thing, the Exalting Sanctum branch of the IPC will join the guild as a retailer",
+          "option": null,
+          "nextIds": [
+            121640116,
+            121640117
+          ],
+          "kind": "NPC"
+        },
+        "121640116": {
+          "type": "Text",
+          "id": 121640116,
+          "sectionId": 1216401,
+          "senderId": null,
+          "text": "The IPC is such a huge franchise. It counts as a retailer?",
+          "option": "The IPC counts!?",
+          "nextIds": [
+            121640118
+          ],
+          "kind": "Player"
+        },
+        "121640118": {
+          "type": "Text",
+          "id": 121640118,
+          "sectionId": 1216401,
+          "senderId": 80,
+          "text": "As the regional manager of the corporation, I already had plans to establish connections with the local business community",
+          "option": null,
+          "nextIds": [
+            121640119
+          ],
+          "kind": "NPC"
+        },
+        "121640119": {
+          "type": "Text",
+          "id": 121640119,
+          "sectionId": 1216401,
+          "senderId": 80,
+          "text": "In the future, I kindly request your assistance to work together in rejuvenating Aurum Alley",
+          "option": null,
+          "nextIds": [
+            121640127
+          ],
+          "kind": "NPC"
+        },
+        "121640127": {
+          "type": "Text",
+          "id": 121640127,
+          "sectionId": 1216401,
+          "senderId": 79,
+          "text": "Oh. {NICKNAME}, Sushang, can you come to the docks?",
+          "option": null,
+          "nextIds": [
+            121750102
+          ],
+          "kind": "NPC"
+        },
+        "121750102": {
+          "type": "Text",
+          "id": 121750102,
+          "sectionId": 1216401,
+          "senderId": 79,
+          "text": "I have something to tell you",
+          "option": null,
+          "nextIds": [
+            121750103
+          ],
+          "kind": "NPC"
+        },
+        "121750103": {
+          "type": "Text",
+          "id": 121750103,
+          "sectionId": 1216401,
+          "senderId": 1206,
+          "text": "Sure, on my way",
+          "option": null,
+          "nextIds": [
+            121750104,
+            121750105
+          ],
+          "kind": "NPC"
+        },
+        "121750104": {
+          "type": "Text",
+          "id": 121750104,
+          "sectionId": 1216401,
+          "senderId": null,
+          "text": "I'll be right there",
+          "option": "Be there right away",
+          "nextIds": [],
+          "kind": "Player"
+        },
+        "121750105": {
+          "type": "Text",
+          "id": 121750105,
+          "sectionId": 1216401,
+          "senderId": null,
+          "text": "Imma legit gonna be late",
+          "option": "Imma legit gonna be late",
+          "nextIds": [],
+          "kind": "Player"
+        },
+        "121640117": {
+          "type": "Text",
+          "id": 121640117,
+          "sectionId": 1216401,
+          "senderId": null,
+          "text": "In the case, doesn't that mean Xiaohan is also part of the guild?",
+          "option": "In that case...",
+          "nextIds": [
+            121640118
+          ],
+          "kind": "Player"
+        },
+        "121640109": {
+          "type": "Text",
+          "id": 121640109,
+          "sectionId": 1216401,
+          "senderId": null,
+          "text": "Say \"thank you\" to Madam Yukong, quickly!",
+          "option": "Thank Madam Yukong! Quickly!",
+          "nextIds": [
+            121640110
+          ],
+          "kind": "Player"
+        },
+        "121640125": {
+          "type": "Text",
+          "id": 121640125,
+          "sectionId": 1216401,
+          "senderId": null,
+          "text": "Didn't see that coming",
+          "option": "Didn't see that coming",
+          "nextIds": [
+            121640105
+          ],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1217501,
+      "startIds": [
+        121750101
+      ],
+      "messages": {
+        "121750101": {
+          "type": "Text",
+          "id": 121750101,
+          "sectionId": 1217501,
+          "senderId": 79,
+          "text": "{NICKNAME}, Sushang, can you come to the dock?",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 78,
+    "name": "Aurum Alley Revival Project",
+    "signature": null,
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
+    "type": 3,
+    "camp": 6
+  }
+}

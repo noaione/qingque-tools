@@ -1,0 +1,1876 @@
+{
+  "id": 1004,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1150300,
+      "startIds": [
+        115030004
+      ],
+      "messages": {
+        "115030004": {
+          "type": "Text",
+          "id": 115030004,
+          "sectionId": 1150300,
+          "senderId": 1004,
+          "text": "The initial results are back. This entity born out of space distortions is called a Calyx",
+          "option": null,
+          "nextIds": [
+            115030005
+          ],
+          "kind": "NPC"
+        },
+        "115030005": {
+          "type": "Text",
+          "id": 115030005,
+          "sectionId": 1150300,
+          "senderId": 1004,
+          "text": "Such entities may contain reality data that has practical value. Exercise extreme caution when you come into contact with it. The very nature of spatial distortion is inexplicable chaos, and it's quite difficult to tell if there are any elements of danger hidden within",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1150400,
+      "startIds": [
+        115040000
+      ],
+      "messages": {
+        "115040000": {
+          "type": "Text",
+          "id": 115040000,
+          "sectionId": 1150400,
+          "senderId": null,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            115040001
+          ],
+          "kind": "PlayerAuto"
+        },
+        "115040001": {
+          "type": "Text",
+          "id": 115040001,
+          "sectionId": 1150400,
+          "senderId": null,
+          "text": "Mr. Yang, this one looks different from the normal Calyxes...",
+          "option": "Mr. Yang, this one looks different from the normal Calyxes...",
+          "nextIds": [
+            115040002
+          ],
+          "kind": "Player"
+        },
+        "115040002": {
+          "type": "Text",
+          "id": 115040002,
+          "sectionId": 1150400,
+          "senderId": 1004,
+          "text": "Hmm, the spawns from this one are of a different species. The materials they produce are actually worth a lot of money",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1150500,
+      "startIds": [
+        115050000
+      ],
+      "messages": {
+        "115050000": {
+          "type": "Text",
+          "id": 115050000,
+          "sectionId": 1150500,
+          "senderId": null,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            115050001
+          ],
+          "kind": "PlayerAuto"
+        },
+        "115050001": {
+          "type": "Text",
+          "id": 115050001,
+          "sectionId": 1150500,
+          "senderId": null,
+          "text": "What do we have here?",
+          "option": "What do we have here?",
+          "nextIds": [
+            115050002
+          ],
+          "kind": "Player"
+        },
+        "115050002": {
+          "type": "Text",
+          "id": 115050002,
+          "sectionId": 1150500,
+          "senderId": 1004,
+          "text": "This type of Calyx is very sought-after. It exudes a substance that can stabilize Light Cones",
+          "option": null,
+          "nextIds": [
+            115050003
+          ],
+          "kind": "NPC"
+        },
+        "115050003": {
+          "type": "Text",
+          "id": 115050003,
+          "sectionId": 1150500,
+          "senderId": 1004,
+          "text": "If you find anything curious during your adventure, show it to me. The things you've found so far are all very interesting...",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1151000,
+      "startIds": [
+        115100000
+      ],
+      "messages": {
+        "115100000": {
+          "type": "Image",
+          "id": 115100000,
+          "sectionId": 1151000,
+          "senderId": null,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            115100001
+          ],
+          "kind": "PlayerAuto",
+          "image": {
+            "id": 10002,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10002.png"
+          }
+        },
+        "115100001": {
+          "type": "Text",
+          "id": 115100001,
+          "sectionId": 1151000,
+          "senderId": null,
+          "text": "Mr. Yang, is this also a Calyx?",
+          "option": "Found another new Calyx mutation",
+          "nextIds": [
+            115100002
+          ],
+          "kind": "Player"
+        },
+        "115100002": {
+          "type": "Text",
+          "id": 115100002,
+          "sectionId": 1151000,
+          "senderId": 1004,
+          "text": "Yes. Remember, I mentioned that there are many different kinds of Calyxes, and the reality data stored in them may vary",
+          "option": null,
+          "nextIds": [
+            115100003
+          ],
+          "kind": "NPC"
+        },
+        "115100003": {
+          "type": "Text",
+          "id": 115100003,
+          "sectionId": 1151000,
+          "senderId": 1004,
+          "text": "Remember to be thoroughly prepared before you make physical contact with them. It's not gonna be worth it if you get yourself hurt out of avarice",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1151100,
+      "startIds": [
+        115110000
+      ],
+      "messages": {
+        "115110000": {
+          "type": "Image",
+          "id": 115110000,
+          "sectionId": 1151100,
+          "senderId": null,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            115110001
+          ],
+          "kind": "PlayerAuto",
+          "image": {
+            "id": 10004,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10004.png"
+          }
+        },
+        "115110001": {
+          "type": "Text",
+          "id": 115110001,
+          "sectionId": 1151100,
+          "senderId": null,
+          "text": "What is this, Mr. Yang?",
+          "option": "What is this, Mr. Yang?",
+          "nextIds": [
+            115110002
+          ],
+          "kind": "Player"
+        },
+        "115110002": {
+          "type": "Text",
+          "id": 115110002,
+          "sectionId": 1151100,
+          "senderId": 1004,
+          "text": "Stagnant Shadows are entities that have been influenced by Fragmentum energy and are confined within static space-time",
+          "option": null,
+          "nextIds": [
+            115110003
+          ],
+          "kind": "NPC"
+        },
+        "115110003": {
+          "type": "Text",
+          "id": 115110003,
+          "sectionId": 1151100,
+          "senderId": 1004,
+          "text": "Once external forces get involved, the space-time within the Shadows will start to flow again, meaning the imprisoned creature or monster may regain activity",
+          "option": null,
+          "nextIds": [
+            115110004
+          ],
+          "kind": "NPC"
+        },
+        "115110004": {
+          "type": "Text",
+          "id": 115110004,
+          "sectionId": 1151100,
+          "senderId": 1004,
+          "text": "I wouldn't recommend anyone to make contact with the Shadows unless they are genuinely interested in certain priceless relics captured by the Shadows. Just be careful, {NICKNAME}",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1151200,
+      "startIds": [
+        115120000
+      ],
+      "messages": {
+        "115120000": {
+          "type": "Image",
+          "id": 115120000,
+          "sectionId": 1151200,
+          "senderId": null,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            115120001
+          ],
+          "kind": "PlayerAuto",
+          "image": {
+            "id": 10003,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10003.png"
+          }
+        },
+        "115120001": {
+          "type": "Text",
+          "id": 115120001,
+          "sectionId": 1151200,
+          "senderId": null,
+          "text": "What is this, Mr. Yang?",
+          "option": "What is this, Mr. Yang?",
+          "nextIds": [
+            115120002
+          ],
+          "kind": "Player"
+        },
+        "115120002": {
+          "type": "Text",
+          "id": 115120002,
+          "sectionId": 1151200,
+          "senderId": 1004,
+          "text": "It appears to be a rift in space, torn open by the Fragmentum as it erodes reality. The scientific name for this phenomenon is \"Cavern of Corrosion\"",
+          "option": null,
+          "nextIds": [
+            115120003
+          ],
+          "kind": "NPC"
+        },
+        "115120003": {
+          "type": "Text",
+          "id": 115120003,
+          "sectionId": 1151200,
+          "senderId": 1004,
+          "text": "No one knows for sure what kind of space the Caverns are connected to. However, research does indicate that valuable reality data is often scattered within these Caverns",
+          "option": null,
+          "nextIds": [
+            115120004
+          ],
+          "kind": "NPC"
+        },
+        "115120004": {
+          "type": "Text",
+          "id": 115120004,
+          "sectionId": 1151200,
+          "senderId": 1004,
+          "text": "As with the Calyxes, the derivatives of the Fragmentum always carry unidentified risks. Please exercise extra caution if you wish to explore further",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1151400,
+      "startIds": [
+        115140000
+      ],
+      "messages": {
+        "115140000": {
+          "type": "Text",
+          "id": 115140000,
+          "sectionId": 1151400,
+          "senderId": 1004,
+          "text": "{NICKNAME}, we've received some assignments. Looks like some planets could use our help.",
+          "option": null,
+          "nextIds": [
+            115140001
+          ],
+          "kind": "NPC"
+        },
+        "115140001": {
+          "type": "Text",
+          "id": 115140001,
+          "sectionId": 1151400,
+          "senderId": 1004,
+          "text": "Maybe you're interested?",
+          "option": null,
+          "nextIds": [
+            115140002
+          ],
+          "kind": "NPC"
+        },
+        "115140002": {
+          "type": "Text",
+          "id": 115140002,
+          "sectionId": 1151400,
+          "senderId": null,
+          "text": "Assignments?",
+          "option": "Assignments?",
+          "nextIds": [
+            115140003
+          ],
+          "kind": "Player"
+        },
+        "115140003": {
+          "type": "Text",
+          "id": 115140003,
+          "sectionId": 1151400,
+          "senderId": 1004,
+          "text": "The Nameless are always happy to help those in need.",
+          "option": null,
+          "nextIds": [
+            115140004
+          ],
+          "kind": "NPC"
+        },
+        "115140004": {
+          "type": "Text",
+          "id": 115140004,
+          "sectionId": 1151400,
+          "senderId": 1004,
+          "text": "[Laugh]",
+          "option": null,
+          "nextIds": [
+            115140005
+          ],
+          "kind": "NPC"
+        },
+        "115140005": {
+          "type": "Text",
+          "id": 115140005,
+          "sectionId": 1151400,
+          "senderId": 1004,
+          "text": "And we do so without taking any credit.",
+          "option": null,
+          "nextIds": [
+            115140006
+          ],
+          "kind": "NPC"
+        },
+        "115140006": {
+          "type": "Text",
+          "id": 115140006,
+          "sectionId": 1151400,
+          "senderId": null,
+          "text": "[Embarrassed]",
+          "option": "[Embarrassed]",
+          "nextIds": [],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1151700,
+      "startIds": [
+        115170000
+      ],
+      "messages": {
+        "115170000": {
+          "type": "Text",
+          "id": 115170000,
+          "sectionId": 1151700,
+          "senderId": 1004,
+          "text": "{NICKNAME}, it's time to teach you how to better wield the power of your Path.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1151800,
+      "startIds": [
+        115180000
+      ],
+      "messages": {
+        "115180000": {
+          "type": "Text",
+          "id": 115180000,
+          "sectionId": 1151800,
+          "senderId": 1004,
+          "text": "Do you feel like you are stuck? You've reached what people call a \"plateau,\" {NICKNAME}.",
+          "option": null,
+          "nextIds": [
+            115180001
+          ],
+          "kind": "NPC"
+        },
+        "115180001": {
+          "type": "Text",
+          "id": 115180001,
+          "sectionId": 1151800,
+          "senderId": 1004,
+          "text": "While I don't claim to be an expert in this, I do have some tips to share.",
+          "option": null,
+          "nextIds": [
+            115180002
+          ],
+          "kind": "NPC"
+        },
+        "115180002": {
+          "type": "Text",
+          "id": 115180002,
+          "sectionId": 1151800,
+          "senderId": 1004,
+          "text": "Try it out. Have faith in yourself. I'm sure you can surpass even your greatest expectations.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1151900,
+      "startIds": [
+        115190000
+      ],
+      "messages": {
+        "115190000": {
+          "type": "Text",
+          "id": 115190000,
+          "sectionId": 1151900,
+          "senderId": 1004,
+          "text": "Light Cones are sections of time. They possess great power.",
+          "option": null,
+          "nextIds": [
+            115190001
+          ],
+          "kind": "NPC"
+        },
+        "115190001": {
+          "type": "Text",
+          "id": 115190001,
+          "sectionId": 1151900,
+          "senderId": 1004,
+          "text": "I think you're ready to learn how to use Light Cones.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1111700,
+      "startIds": [
+        111170000
+      ],
+      "messages": {
+        "111170000": {
+          "type": "Text",
+          "id": 111170000,
+          "sectionId": 1111700,
+          "senderId": null,
+          "text": "Mr. Yang, are you there? Mr. Yaaaang~",
+          "option": null,
+          "nextIds": [
+            111170003
+          ],
+          "kind": "PlayerAuto"
+        },
+        "111170003": {
+          "type": "Text",
+          "id": 111170003,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "I have been here the entire time. What's the matter, {NICKNAME}?",
+          "option": null,
+          "nextIds": [
+            111170004,
+            111170005
+          ],
+          "kind": "NPC"
+        },
+        "111170004": {
+          "type": "Text",
+          "id": 111170004,
+          "sectionId": 1111700,
+          "senderId": null,
+          "text": "Does our Express welcome new members?",
+          "option": "Does the Express welcome new members?",
+          "nextIds": [
+            111170006
+          ],
+          "kind": "Player"
+        },
+        "111170006": {
+          "type": "Text",
+          "id": 111170006,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "Oh? I'd, of course, welcome them",
+          "option": null,
+          "nextIds": [
+            111170008
+          ],
+          "kind": "NPC"
+        },
+        "111170008": {
+          "type": "Text",
+          "id": 111170008,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "However, do you mind if I ask some questions?",
+          "option": null,
+          "nextIds": [
+            111170009
+          ],
+          "kind": "NPC"
+        },
+        "111170009": {
+          "type": "Text",
+          "id": 111170009,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "I'm curious. What kind of friend did you make, {NICKNAME}?",
+          "option": null,
+          "nextIds": [
+            111170010,
+            111170011,
+            111170012
+          ],
+          "kind": "NPC"
+        },
+        "111170010": {
+          "type": "Text",
+          "id": 111170010,
+          "sectionId": 1111700,
+          "senderId": null,
+          "text": "She's a mechanical prodigy with a meticulous mind",
+          "option": "She's meticulous...",
+          "nextIds": [
+            111170013
+          ],
+          "kind": "Player"
+        },
+        "111170013": {
+          "type": "Text",
+          "id": 111170013,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "I suppose that means she will have a lot in common with Himeko. That's not bad",
+          "option": null,
+          "nextIds": [
+            111170016
+          ],
+          "kind": "NPC"
+        },
+        "111170016": {
+          "type": "Text",
+          "id": 111170016,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "Anyhow, I would like to welcome your friend",
+          "option": null,
+          "nextIds": [
+            111170017
+          ],
+          "kind": "NPC"
+        },
+        "111170017": {
+          "type": "Text",
+          "id": 111170017,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "However, I'm not the decision maker here, but I will put in a good word for you with Himeko",
+          "option": null,
+          "nextIds": [
+            111170018
+          ],
+          "kind": "NPC"
+        },
+        "111170018": {
+          "type": "Text",
+          "id": 111170018,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "In my experience, she shouldn't have much objection. So don't worry",
+          "option": null,
+          "nextIds": [
+            111170019,
+            111170020
+          ],
+          "kind": "NPC"
+        },
+        "111170019": {
+          "type": "Text",
+          "id": 111170019,
+          "sectionId": 1111700,
+          "senderId": null,
+          "text": "Thank you, Mr. Yang",
+          "option": "Thank you, Mr. Yang",
+          "nextIds": [
+            111170021
+          ],
+          "kind": "Player"
+        },
+        "111170021": {
+          "type": "Text",
+          "id": 111170021,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "No need to thank me. It's the least I can do",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111170020": {
+          "type": "Text",
+          "id": 111170020,
+          "sectionId": 1111700,
+          "senderId": null,
+          "text": "Hooray! Thanks, Mr. Yang!",
+          "option": "Hooray! Thanks, Mr. Yang!",
+          "nextIds": [
+            111170021
+          ],
+          "kind": "Player"
+        },
+        "111170011": {
+          "type": "Text",
+          "id": 111170011,
+          "sectionId": 1111700,
+          "senderId": null,
+          "text": "She's a rock star with an uninhibited personality",
+          "option": "She's uninhibited...",
+          "nextIds": [
+            111170014
+          ],
+          "kind": "Player"
+        },
+        "111170014": {
+          "type": "Text",
+          "id": 111170014,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "Oh? That's a pretty good hobby. I myself am interested as well",
+          "option": null,
+          "nextIds": [
+            111170016
+          ],
+          "kind": "NPC"
+        },
+        "111170012": {
+          "type": "Text",
+          "id": 111170012,
+          "sectionId": 1111700,
+          "senderId": null,
+          "text": "She's... I can't say for sure",
+          "option": "I can't say...",
+          "nextIds": [
+            111170015
+          ],
+          "kind": "Player"
+        },
+        "111170015": {
+          "type": "Text",
+          "id": 111170015,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "It matters not. I trust your judgment of character, it shouldn't be too far off",
+          "option": null,
+          "nextIds": [
+            111170016
+          ],
+          "kind": "NPC"
+        },
+        "111170005": {
+          "type": "Text",
+          "id": 111170005,
+          "sectionId": 1111700,
+          "senderId": null,
+          "text": "I have a friend who wants to board the Express. What do you think, Mr. Yang?",
+          "option": "I have a friend who wants to join...",
+          "nextIds": [
+            111170007
+          ],
+          "kind": "Player"
+        },
+        "111170007": {
+          "type": "Text",
+          "id": 111170007,
+          "sectionId": 1111700,
+          "senderId": 1004,
+          "text": "Oh? Making friends here is always a wonderful thing. I welcome any addition of new members",
+          "option": null,
+          "nextIds": [
+            111170008
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "MissionMessage",
+      "id": 1112400,
+      "startIds": [
+        111240000
+      ],
+      "messages": {
+        "111240000": {
+          "type": "Text",
+          "id": 111240000,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "{NICKNAME}, are you there?",
+          "option": null,
+          "nextIds": [
+            111240001
+          ],
+          "kind": "NPC"
+        },
+        "111240001": {
+          "type": "Text",
+          "id": 111240001,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "I have a question for you.\\nDid March, Dan Heng, and you see anything extraordinary in the mountains north of Belobog?",
+          "option": null,
+          "nextIds": [
+            111240002,
+            111240006,
+            111240010
+          ],
+          "kind": "NPC"
+        },
+        "111240002": {
+          "type": "Text",
+          "id": 111240002,
+          "sectionId": 1112400,
+          "senderId": null,
+          "text": "There was a giant robot called the Engine of Creation",
+          "option": "We saw the Engine of Creation",
+          "nextIds": [
+            111240003
+          ],
+          "kind": "Player"
+        },
+        "111240003": {
+          "type": "Text",
+          "id": 111240003,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "That might be what we are looking for. It would be good if I can witness it with my own eyes.\\nMaybe it's possible to get it re-activated",
+          "option": null,
+          "nextIds": [
+            111240004
+          ],
+          "kind": "NPC"
+        },
+        "111240004": {
+          "type": "Text",
+          "id": 111240004,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "If possible, I would like to drive it around...",
+          "option": null,
+          "nextIds": [
+            111240005
+          ],
+          "kind": "NPC"
+        },
+        "111240005": {
+          "type": "Text",
+          "id": 111240005,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "I'm sorry. I went off on a tangent",
+          "option": null,
+          "nextIds": [
+            111240013
+          ],
+          "kind": "NPC"
+        },
+        "111240013": {
+          "type": "Text",
+          "id": 111240013,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "After the blizzard on Jarilo-VI weakened, Himeko and I detected an unidentified signal there but were unable to decipher its contents",
+          "option": null,
+          "nextIds": [
+            111240014
+          ],
+          "kind": "NPC"
+        },
+        "111240014": {
+          "type": "Text",
+          "id": 111240014,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "Considering the fact that this planet has just gone through the crisis of Stellaron and is still not stable yet, it would be troubling if this signal were to attract malicious parties to this location.\\nWould you kindly go have a look when you've got the chance?",
+          "option": null,
+          "nextIds": [
+            111240015,
+            111240017
+          ],
+          "kind": "NPC"
+        },
+        "111240015": {
+          "type": "Text",
+          "id": 111240015,
+          "sectionId": 1112400,
+          "senderId": null,
+          "text": "No problem. I'll go have a look.",
+          "option": "No problem",
+          "nextIds": [
+            111240016
+          ],
+          "kind": "Player"
+        },
+        "111240016": {
+          "type": "Text",
+          "id": 111240016,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "Thank you. Himeko and I will have some rewards ready for you once you get back",
+          "option": null,
+          "nextIds": [
+            111240019
+          ],
+          "kind": "NPC"
+        },
+        "111240019": {
+          "type": "Text",
+          "id": 111240019,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "I have sent the rough coordinates of the signal to you. Thank you for your trouble",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111240017": {
+          "type": "Text",
+          "id": 111240017,
+          "sectionId": 1112400,
+          "senderId": null,
+          "text": "It's so far and so much hassle. Will Mr. Yang and Himeko at least offer me some modest benefits?",
+          "option": "Any rewards?",
+          "nextIds": [
+            111240018
+          ],
+          "kind": "Player"
+        },
+        "111240018": {
+          "type": "Text",
+          "id": 111240018,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "Hahaha, don't worry.\\nHimeko and I will get some rewards ready by the time you return",
+          "option": null,
+          "nextIds": [
+            111240019
+          ],
+          "kind": "NPC"
+        },
+        "111240006": {
+          "type": "Text",
+          "id": 111240006,
+          "sectionId": 1112400,
+          "senderId": null,
+          "text": "I recall that there was a device to imprison the Stellaron",
+          "option": "We saw a device to imprison the Stellaron",
+          "nextIds": [
+            111240007
+          ],
+          "kind": "Player"
+        },
+        "111240007": {
+          "type": "Text",
+          "id": 111240007,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "The Stellaron is indeed capable of releasing unusual electromagnetic waves. Maybe that is what we are looking for",
+          "option": null,
+          "nextIds": [
+            111240013
+          ],
+          "kind": "NPC"
+        },
+        "111240010": {
+          "type": "Text",
+          "id": 111240010,
+          "sectionId": 1112400,
+          "senderId": null,
+          "text": "I think I saw lots of March 8ths",
+          "option": "We saw March 8th",
+          "nextIds": [
+            111240011
+          ],
+          "kind": "Player"
+        },
+        "111240011": {
+          "type": "Text",
+          "id": 111240011,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "March 8th?",
+          "option": null,
+          "nextIds": [
+            111240012
+          ],
+          "kind": "NPC"
+        },
+        "111240012": {
+          "type": "Text",
+          "id": 111240012,
+          "sectionId": 1112400,
+          "senderId": 1004,
+          "text": "Oh. Dan Heng may have indeed mentioned this in the records. It's the Antimatter Legion frozen in the Eternal Freeze, right?\\nIt is indeed extraordinary, but probably not what we are looking for",
+          "option": null,
+          "nextIds": [
+            111240013
+          ],
+          "kind": "NPC"
+        }
+      },
+      "mission": {
+        "id": 2011501,
+        "name": "When Business Comes Knocking",
+        "type": "Branch"
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2001000,
+      "startIds": [
+        200100000
+      ],
+      "messages": {
+        "200100000": {
+          "type": "Text",
+          "id": 200100000,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "{NICKNAME}, do you have a moment? I have a favor to ask.",
+          "option": null,
+          "nextIds": [
+            200100001
+          ],
+          "kind": "NPC"
+        },
+        "200100001": {
+          "type": "Text",
+          "id": 200100001,
+          "sectionId": 2001000,
+          "senderId": null,
+          "text": "Okay Mr. Yang, let's hear it",
+          "option": "Okay Mr. Yang, let's hear it",
+          "nextIds": [
+            200100002
+          ],
+          "kind": "Player"
+        },
+        "200100002": {
+          "type": "Text",
+          "id": 200100002,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "Do you know how to change your profile picture?",
+          "option": null,
+          "nextIds": [
+            200100003,
+            200100004
+          ],
+          "kind": "NPC"
+        },
+        "200100003": {
+          "type": "Text",
+          "id": 200100003,
+          "sectionId": 2001000,
+          "senderId": null,
+          "text": "I don't know either",
+          "option": "I don't know either",
+          "nextIds": [
+            200100005
+          ],
+          "kind": "Player"
+        },
+        "200100005": {
+          "type": "Text",
+          "id": 200100005,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "If {NICKNAME} doesn't know, then I doubt anyone does.",
+          "option": null,
+          "nextIds": [
+            200100007
+          ],
+          "kind": "NPC"
+        },
+        "200100007": {
+          "type": "Sticker",
+          "id": 200100007,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "[cry]",
+          "option": null,
+          "nextIds": [
+            200100008,
+            200100009
+          ],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20005,
+            "path": "SpriteOutput/Emoji/20005.png",
+            "keywords": "Crying"
+          }
+        },
+        "200100008": {
+          "type": "Text",
+          "id": 200100008,
+          "sectionId": 2001000,
+          "senderId": null,
+          "text": "What do you want to change your profile picture to, Mr. Yang?",
+          "option": "What do you want to change your profile picture to?",
+          "nextIds": [
+            200100011
+          ],
+          "kind": "Player"
+        },
+        "200100011": {
+          "type": "Image",
+          "id": 200100011,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "[image]",
+          "option": null,
+          "nextIds": [
+            200100012
+          ],
+          "kind": "NPC",
+          "image": {
+            "id": 10010,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10010.png"
+          }
+        },
+        "200100012": {
+          "type": "Text",
+          "id": 200100012,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "This is the earliest version of the animation.",
+          "option": null,
+          "nextIds": [
+            200100017
+          ],
+          "kind": "NPC"
+        },
+        "200100017": {
+          "type": "Text",
+          "id": 200100017,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "Although the calendar here is different from that of my hometown, I have calculated that the anniversary of the premiere of Arahato is coming up soon.",
+          "option": null,
+          "nextIds": [
+            200100018
+          ],
+          "kind": "NPC"
+        },
+        "200100018": {
+          "type": "Text",
+          "id": 200100018,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "I did so many takes to get my new profile picture ready for the anniversary, but I never imagined that...",
+          "option": null,
+          "nextIds": [
+            200100020
+          ],
+          "kind": "NPC"
+        },
+        "200100020": {
+          "type": "Text",
+          "id": 200100020,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "It's time for the Express to have its own internal communication app.",
+          "option": null,
+          "nextIds": [
+            200100021
+          ],
+          "kind": "NPC"
+        },
+        "200100021": {
+          "type": "Text",
+          "id": 200100021,
+          "sectionId": 2001000,
+          "senderId": null,
+          "text": "Indeed",
+          "option": "Indeed",
+          "nextIds": [],
+          "kind": "Player"
+        },
+        "200100009": {
+          "type": "Text",
+          "id": 200100009,
+          "sectionId": 2001000,
+          "senderId": null,
+          "text": "Is changing your profile picture important?",
+          "option": "Are profile pictures important?",
+          "nextIds": [
+            200100010
+          ],
+          "kind": "Player"
+        },
+        "200100010": {
+          "type": "Text",
+          "id": 200100010,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "Absolutely! And extraordinarily so to me.",
+          "option": null,
+          "nextIds": [
+            200100011
+          ],
+          "kind": "NPC"
+        },
+        "200100004": {
+          "type": "Text",
+          "id": 200100004,
+          "sectionId": 2001000,
+          "senderId": null,
+          "text": "Maybe try asking Customer Service",
+          "option": "Maybe try asking Customer Service",
+          "nextIds": [
+            200100006
+          ],
+          "kind": "Player"
+        },
+        "200100006": {
+          "type": "Text",
+          "id": 200100006,
+          "sectionId": 2001000,
+          "senderId": 1004,
+          "text": "Ah, I can't find the Customer Service function either.",
+          "option": null,
+          "nextIds": [
+            200100007
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2001100,
+      "startIds": [
+        200110000
+      ],
+      "messages": {
+        "200110000": {
+          "type": "Text",
+          "id": 200110000,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "It's another new day today, {NICKNAME}.",
+          "option": null,
+          "nextIds": [
+            200110001
+          ],
+          "kind": "NPC"
+        },
+        "200110001": {
+          "type": "Text",
+          "id": 200110001,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "When we step on the Express and follow in the footsteps of the Nameless, it means that we will become accustomed to things that are not of the ordinary.",
+          "option": null,
+          "nextIds": [
+            200110002
+          ],
+          "kind": "NPC"
+        },
+        "200110002": {
+          "type": "Text",
+          "id": 200110002,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "You will push beyond your limits without even realizing it.",
+          "option": null,
+          "nextIds": [
+            200110003
+          ],
+          "kind": "NPC"
+        },
+        "200110003": {
+          "type": "Text",
+          "id": 200110003,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "{NICKNAME}, have you experienced anything like that before?",
+          "option": null,
+          "nextIds": [
+            200110004,
+            200110005
+          ],
+          "kind": "NPC"
+        },
+        "200110004": {
+          "type": "Text",
+          "id": 200110004,
+          "sectionId": 2001100,
+          "senderId": null,
+          "text": "Indeed, I have suddenly started receiving a huge volume of messages",
+          "option": "I have suddenly started receiving a huge volume of messages.",
+          "nextIds": [
+            200110006
+          ],
+          "kind": "Player"
+        },
+        "200110006": {
+          "type": "Text",
+          "id": 200110006,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "Messages represent the connection between people.",
+          "option": null,
+          "nextIds": [
+            200110007
+          ],
+          "kind": "NPC"
+        },
+        "200110007": {
+          "type": "Text",
+          "id": 200110007,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "If you receive messages every day, it means that the connection between you and others has deepened during your Trailblaze journey.",
+          "option": null,
+          "nextIds": [
+            200110008
+          ],
+          "kind": "NPC"
+        },
+        "200110008": {
+          "type": "Text",
+          "id": 200110008,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "But connections also need to be maintained. Take care to manage your time wisely.",
+          "option": null,
+          "nextIds": [
+            200110012,
+            200110013
+          ],
+          "kind": "NPC"
+        },
+        "200110012": {
+          "type": "Text",
+          "id": 200110012,
+          "sectionId": 2001100,
+          "senderId": null,
+          "text": "Sounds like you're a seasoned veteran, Mr. Yang!",
+          "option": "Sounds like you're a seasoned veteran",
+          "nextIds": [
+            200110014
+          ],
+          "kind": "Player"
+        },
+        "200110014": {
+          "type": "Text",
+          "id": 200110014,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "The experience of the Nameless is but a lesson of sweat and blood.",
+          "option": null,
+          "nextIds": [
+            200110015
+          ],
+          "kind": "NPC"
+        },
+        "200110015": {
+          "type": "Sticker",
+          "id": 200110015,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "[Okay]",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20004,
+            "path": "SpriteOutput/Emoji/20004.png",
+            "keywords": "Understood"
+          }
+        },
+        "200110013": {
+          "type": "Text",
+          "id": 200110013,
+          "sectionId": 2001100,
+          "senderId": null,
+          "text": "If this is the price of following Trailblaze, I'm willing to pay it!",
+          "option": "Such is the price of following Trailblaze",
+          "nextIds": [
+            200110016
+          ],
+          "kind": "Player"
+        },
+        "200110016": {
+          "type": "Text",
+          "id": 200110016,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "To have attained such enlightenment at such a young age.",
+          "option": null,
+          "nextIds": [
+            200110017
+          ],
+          "kind": "NPC"
+        },
+        "200110017": {
+          "type": "Sticker",
+          "id": 200110017,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "[thumbs up]",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200110005": {
+          "type": "Text",
+          "id": 200110005,
+          "sectionId": 2001100,
+          "senderId": null,
+          "text": "Indeed, I have suddenly started receiving many new assignments",
+          "option": "I have suddenly started receiving many new assignments.",
+          "nextIds": [
+            200110009
+          ],
+          "kind": "Player"
+        },
+        "200110009": {
+          "type": "Text",
+          "id": 200110009,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "You can't count yourself as worthy of the Nameless if you can't handle several assignments at the same time.",
+          "option": null,
+          "nextIds": [
+            200110010
+          ],
+          "kind": "NPC"
+        },
+        "200110010": {
+          "type": "Text",
+          "id": 200110010,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "Plan your route efficiently so that you won't run around the same circle twice. Otherwise, you're just doing extra work.",
+          "option": null,
+          "nextIds": [
+            200110011
+          ],
+          "kind": "NPC"
+        },
+        "200110011": {
+          "type": "Text",
+          "id": 200110011,
+          "sectionId": 2001100,
+          "senderId": 1004,
+          "text": "Before you know it, you'll have already developed the muscle memory for it.",
+          "option": null,
+          "nextIds": [
+            200110012,
+            200110013
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2001200,
+      "startIds": [
+        200120000
+      ],
+      "messages": {
+        "200120000": {
+          "type": "Text",
+          "id": 200120000,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "{NICKNAME}, I just got a great idea!",
+          "option": null,
+          "nextIds": [
+            200120001
+          ],
+          "kind": "NPC"
+        },
+        "200120001": {
+          "type": "Text",
+          "id": 200120001,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "We can make an animation based on the Express!",
+          "option": null,
+          "nextIds": [
+            200120002,
+            200120003,
+            200120004
+          ],
+          "kind": "NPC"
+        },
+        "200120002": {
+          "type": "Sticker",
+          "id": 200120002,
+          "sectionId": 2001200,
+          "senderId": null,
+          "text": "[Shocked]",
+          "option": "[Shocked]",
+          "nextIds": [
+            200120006
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20008,
+            "path": "SpriteOutput/Emoji/20008.png",
+            "keywords": "Shocked"
+          }
+        },
+        "200120006": {
+          "type": "Text",
+          "id": 200120006,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "Of course, the story would take place in the distant past.",
+          "option": null,
+          "nextIds": [
+            200120007
+          ],
+          "kind": "NPC"
+        },
+        "200120007": {
+          "type": "Text",
+          "id": 200120007,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "And for obvious, practical reasons, we will most likely need to modify most of the plot in the end... but that's just an afterthought.",
+          "option": null,
+          "nextIds": [
+            200120008
+          ],
+          "kind": "NPC"
+        },
+        "200120008": {
+          "type": "Text",
+          "id": 200120008,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "I've been out of the industry for a long time now, and frankly, I'm especially interested in hearing what you young people think.",
+          "option": null,
+          "nextIds": [
+            200120009
+          ],
+          "kind": "NPC"
+        },
+        "200120009": {
+          "type": "Text",
+          "id": 200120009,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "For example, what would you find most compelling in such a story?",
+          "option": null,
+          "nextIds": [
+            200120010,
+            200120011,
+            200120012
+          ],
+          "kind": "NPC"
+        },
+        "200120010": {
+          "type": "Text",
+          "id": 200120010,
+          "sectionId": 2001200,
+          "senderId": null,
+          "text": "It should be an adventure with ups and downs",
+          "option": "An adventure with ups and downs",
+          "nextIds": [
+            200120013
+          ],
+          "kind": "Player"
+        },
+        "200120013": {
+          "type": "Text",
+          "id": 200120013,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "Unique settings and a collision of destinies — can't do without either of those.",
+          "option": null,
+          "nextIds": [
+            200120016
+          ],
+          "kind": "NPC"
+        },
+        "200120016": {
+          "type": "Text",
+          "id": 200120016,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "Next question: When do you think this story should end?",
+          "option": null,
+          "nextIds": [
+            200120017,
+            200120018,
+            200120019
+          ],
+          "kind": "NPC"
+        },
+        "200120017": {
+          "type": "Text",
+          "id": 200120017,
+          "sectionId": 2001200,
+          "senderId": null,
+          "text": "I hope it never ends",
+          "option": "I hope it never ends",
+          "nextIds": [
+            200120020
+          ],
+          "kind": "Player"
+        },
+        "200120020": {
+          "type": "Text",
+          "id": 200120020,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "Maybe you could serialize it? That sort of thing has been done before.",
+          "option": null,
+          "nextIds": [
+            200120023
+          ],
+          "kind": "NPC"
+        },
+        "200120023": {
+          "type": "Text",
+          "id": 200120023,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "I'm actually really glad that you see our journey that way.",
+          "option": null,
+          "nextIds": [
+            200120024
+          ],
+          "kind": "NPC"
+        },
+        "200120024": {
+          "type": "Text",
+          "id": 200120024,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "Looks like I'll have to make this dream come true after my next retirement...",
+          "option": null,
+          "nextIds": [
+            200120025
+          ],
+          "kind": "NPC"
+        },
+        "200120025": {
+          "type": "Text",
+          "id": 200120025,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "{NICKNAME}, wait until that time comes, and then we'll have a nice chat again.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200120018": {
+          "type": "Text",
+          "id": 200120018,
+          "sectionId": 2001200,
+          "senderId": null,
+          "text": "When everyone's wishes come true",
+          "option": "When everyone's wishes come true",
+          "nextIds": [
+            200120021
+          ],
+          "kind": "Player"
+        },
+        "200120021": {
+          "type": "Text",
+          "id": 200120021,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "After reaching a satisfying conclusion... stories like that have been told before in animation.",
+          "option": null,
+          "nextIds": [
+            200120023
+          ],
+          "kind": "NPC"
+        },
+        "200120019": {
+          "type": "Text",
+          "id": 200120019,
+          "sectionId": 2001200,
+          "senderId": null,
+          "text": "When everyone's equipment is fully upgraded",
+          "option": "When everyone's equipment is fully upgraded",
+          "nextIds": [
+            200120022
+          ],
+          "kind": "Player"
+        },
+        "200120022": {
+          "type": "Text",
+          "id": 200120022,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "If the story is forced to continue after everyone's equipment has been fully upgraded, the battles may become unbalanced.",
+          "option": null,
+          "nextIds": [
+            200120023
+          ],
+          "kind": "NPC"
+        },
+        "200120011": {
+          "type": "Text",
+          "id": 200120011,
+          "sectionId": 2001200,
+          "senderId": null,
+          "text": "It should be a thrilling, relentless battle",
+          "option": "A thrilling, relentless battle",
+          "nextIds": [
+            200120014
+          ],
+          "kind": "Player"
+        },
+        "200120014": {
+          "type": "Text",
+          "id": 200120014,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "Companions who have each other's backs, and powerful enemies — can't do without either of those.",
+          "option": null,
+          "nextIds": [
+            200120016
+          ],
+          "kind": "NPC"
+        },
+        "200120012": {
+          "type": "Text",
+          "id": 200120012,
+          "sectionId": 2001200,
+          "senderId": null,
+          "text": "In truth, I just want to see the protagonist fully upgrade their equipment",
+          "option": "I want to see the protagonist fully upgrade their equipment",
+          "nextIds": [
+            200120015
+          ],
+          "kind": "Player"
+        },
+        "200120015": {
+          "type": "Text",
+          "id": 200120015,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "That is, the protagonist keeps getting upgrades and getting stronger, right?",
+          "option": null,
+          "nextIds": [
+            200120016
+          ],
+          "kind": "NPC"
+        },
+        "200120003": {
+          "type": "Sticker",
+          "id": 200120003,
+          "sectionId": 2001200,
+          "senderId": null,
+          "text": "[Thumbs Up]",
+          "option": "[Thumbs Up]",
+          "nextIds": [
+            200120006
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200120004": {
+          "type": "Sticker",
+          "id": 200120004,
+          "sectionId": 2001200,
+          "senderId": null,
+          "text": "[decline]",
+          "option": "[decline]",
+          "nextIds": [
+            200120005
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20003,
+            "path": "SpriteOutput/Emoji/20003.png",
+            "keywords": "No No"
+          }
+        },
+        "200120005": {
+          "type": "Text",
+          "id": 200120005,
+          "sectionId": 2001200,
+          "senderId": 1004,
+          "text": "Hear me out on this one.",
+          "option": null,
+          "nextIds": [
+            200120006
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 5000600,
+      "startIds": [
+        115030000
+      ],
+      "messages": {
+        "115030000": {
+          "type": "Image",
+          "id": 115030000,
+          "sectionId": 5000600,
+          "senderId": null,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            115030001
+          ],
+          "kind": "PlayerAuto",
+          "image": {
+            "id": 10001,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10001.png"
+          }
+        },
+        "115030001": {
+          "type": "Text",
+          "id": 115030001,
+          "sectionId": 5000600,
+          "senderId": null,
+          "text": "What is this, Mr. Yang?",
+          "option": "What is this, Mr. Yang?",
+          "nextIds": [
+            115030002
+          ],
+          "kind": "Player"
+        },
+        "115030002": {
+          "type": "Text",
+          "id": 115030002,
+          "sectionId": 5000600,
+          "senderId": 1004,
+          "text": "It is a Calyx, a strange entity born from the phenomenon of space distortion.",
+          "option": null,
+          "nextIds": [
+            115030003
+          ],
+          "kind": "NPC"
+        },
+        "115030003": {
+          "type": "Text",
+          "id": 115030003,
+          "sectionId": 5000600,
+          "senderId": 1004,
+          "text": "There are some reality data in the Calyxes that might come in handy, but please be careful when coming in contact with them. The existence of these Calyxes is still a mystery to us, and the danger within is incalculable.",
+          "option": null,
+          "nextIds": [
+            115030006
+          ],
+          "kind": "NPC"
+        },
+        "115030006": {
+          "type": "Text",
+          "id": 115030006,
+          "sectionId": 5000600,
+          "senderId": 1004,
+          "text": "In your coming journey, you might come across other Calyxes like this, and the reality data stored in different Calyxes may vary, so look out for that.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 1004,
+    "name": "Welt",
+    "signature": "Everyone on the Express, please constantly keep in touch",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/1004.png",
+    "type": 1,
+    "camp": 1
+  }
+}

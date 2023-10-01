@@ -1,0 +1,1045 @@
+{
+  "id": 1105,
+  "sections": [
+    {
+      "type": "MissionMessage",
+      "id": 1110800,
+      "startIds": [
+        111080000
+      ],
+      "messages": {
+        "111080000": {
+          "type": "Text",
+          "id": 111080000,
+          "sectionId": 1110800,
+          "senderId": 1105,
+          "text": "Sorry to bother you, {NICKNAME}, I haven't quite got the hang of this little thing yet. Can you come down to the clinic when you have time? I have some personal things that I want to talk to you about",
+          "option": null,
+          "nextIds": [
+            111080001,
+            111080002
+          ],
+          "kind": "NPC"
+        },
+        "111080001": {
+          "type": "Text",
+          "id": 111080001,
+          "sectionId": 1110800,
+          "senderId": null,
+          "text": "No problem. I'll come now",
+          "option": "No problem. I'll come now",
+          "nextIds": [
+            111080003
+          ],
+          "kind": "Player"
+        },
+        "111080003": {
+          "type": "Text",
+          "id": 111080003,
+          "sectionId": 1110800,
+          "senderId": 1105,
+          "text": "Thank you, {NICKNAME}. When you're leading an organization like Wildfire, it's easy to forget that everyone needs someone to rely on. Thanks for making me have this feeling again",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111080002": {
+          "type": "Text",
+          "id": 111080002,
+          "sectionId": 1110800,
+          "senderId": null,
+          "text": "Okay, just let me wrap up some other work first",
+          "option": "Okay, just let me wrap up some other work first",
+          "nextIds": [
+            111080003
+          ],
+          "kind": "Player"
+        }
+      },
+      "mission": {
+        "id": 2011401,
+        "name": "Blizzard Immunity",
+        "type": "Companion"
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2001700,
+      "startIds": [
+        200170000
+      ],
+      "messages": {
+        "200170000": {
+          "type": "Text",
+          "id": 200170000,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "Doing outpatient rounds today. Replies may be delayed.",
+          "option": null,
+          "nextIds": [
+            200170001
+          ],
+          "kind": "NPC"
+        },
+        "200170001": {
+          "type": "Text",
+          "id": 200170001,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "Please leave a message if you have a fever, a headache, or other similar symptoms.",
+          "option": null,
+          "nextIds": [
+            200170002
+          ],
+          "kind": "NPC"
+        },
+        "200170002": {
+          "type": "Text",
+          "id": 200170002,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "The online consultation bot Nat the Little Doc will reply to you based on your keywords.",
+          "option": null,
+          "nextIds": [
+            200170003,
+            200170015
+          ],
+          "kind": "NPC"
+        },
+        "200170003": {
+          "type": "Text",
+          "id": 200170003,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "My phone has a fever",
+          "option": "My phone has a fever",
+          "nextIds": [
+            200170004
+          ],
+          "kind": "Player"
+        },
+        "200170004": {
+          "type": "Text",
+          "id": 200170004,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "Thank you. I've received your symptoms.",
+          "option": null,
+          "nextIds": [
+            200170005
+          ],
+          "kind": "NPC"
+        },
+        "200170005": {
+          "type": "Text",
+          "id": 200170005,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "If your phone has a fever in Bebolog, make sure to keep it warm. Do not attempt to cool it with cold air, as it may result in getting a cold.",
+          "option": null,
+          "nextIds": [
+            200170006
+          ],
+          "kind": "NPC"
+        },
+        "200170006": {
+          "type": "Sticker",
+          "id": 200170006,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "[Shocked]",
+          "option": "[Shocked]",
+          "nextIds": [
+            200170007
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20008,
+            "path": "SpriteOutput/Emoji/20008.png",
+            "keywords": "Shocked"
+          }
+        },
+        "200170007": {
+          "type": "Text",
+          "id": 200170007,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "...I just saw your message",
+          "option": null,
+          "nextIds": [
+            200170008
+          ],
+          "kind": "NPC"
+        },
+        "200170008": {
+          "type": "Text",
+          "id": 200170008,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "Please don't tease Nat the Little Doc.",
+          "option": null,
+          "nextIds": [
+            200170010
+          ],
+          "kind": "NPC"
+        },
+        "200170010": {
+          "type": "Text",
+          "id": 200170010,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "So, does Dr. Natasha have any suggestions for a phone with a fever?",
+          "option": "Do you have any suggestions?",
+          "nextIds": [
+            200170009
+          ],
+          "kind": "Player"
+        },
+        "200170009": {
+          "type": "Sticker",
+          "id": 200170009,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "[Okay]",
+          "option": "Do you have any suggestions?",
+          "nextIds": [
+            200170011
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20004,
+            "path": "SpriteOutput/Emoji/20004.png",
+            "keywords": "Understood"
+          }
+        },
+        "200170011": {
+          "type": "Text",
+          "id": 200170011,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "Stop using your phone",
+          "option": null,
+          "nextIds": [
+            200170012
+          ],
+          "kind": "NPC"
+        },
+        "200170012": {
+          "type": "Text",
+          "id": 200170012,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "Simple, right?",
+          "option": null,
+          "nextIds": [
+            200170013
+          ],
+          "kind": "NPC"
+        },
+        "200170013": {
+          "type": "Text",
+          "id": 200170013,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "No such thing as simple in a Trailblazer's life",
+          "option": "No such thing as simple in a Trailblazer's life",
+          "nextIds": [
+            200170014
+          ],
+          "kind": "Player"
+        },
+        "200170014": {
+          "type": "Sticker",
+          "id": 200170014,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "[cry]",
+          "option": null,
+          "nextIds": [],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20005,
+            "path": "SpriteOutput/Emoji/20005.png",
+            "keywords": "Crying"
+          }
+        },
+        "200170015": {
+          "type": "Text",
+          "id": 200170015,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "My toe hurts",
+          "option": "My toe hurts",
+          "nextIds": [
+            200170016
+          ],
+          "kind": "Player"
+        },
+        "200170016": {
+          "type": "Text",
+          "id": 200170016,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "Thank you. I've received your symptoms.",
+          "option": null,
+          "nextIds": [
+            200170017
+          ],
+          "kind": "NPC"
+        },
+        "200170017": {
+          "type": "Text",
+          "id": 200170017,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "If your toe hurts in Belobog, a warm compress is still recommended. Do not use a cold compress as it may result in getting a cold",
+          "option": null,
+          "nextIds": [
+            200170018
+          ],
+          "kind": "NPC"
+        },
+        "200170018": {
+          "type": "Sticker",
+          "id": 200170018,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "[Shocked]",
+          "option": "[Shocked]",
+          "nextIds": [
+            200170019
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20008,
+            "path": "SpriteOutput/Emoji/20008.png",
+            "keywords": "Shocked"
+          }
+        },
+        "200170019": {
+          "type": "Text",
+          "id": 200170019,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "...I just saw your message",
+          "option": null,
+          "nextIds": [
+            200170020
+          ],
+          "kind": "NPC"
+        },
+        "200170020": {
+          "type": "Text",
+          "id": 200170020,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "Please don't tease Nat the Little Doc.",
+          "option": null,
+          "nextIds": [
+            200170021
+          ],
+          "kind": "NPC"
+        },
+        "200170021": {
+          "type": "Sticker",
+          "id": 200170021,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "[Okay]",
+          "option": "Do you have any suggestions?",
+          "nextIds": [
+            200170022
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20004,
+            "path": "SpriteOutput/Emoji/20004.png",
+            "keywords": "Understood"
+          }
+        },
+        "200170022": {
+          "type": "Text",
+          "id": 200170022,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "So, does Dr. Natasha have any suggestions for a painful toe?",
+          "option": "Do you have any suggestions?",
+          "nextIds": [
+            200170023
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200170023": {
+          "type": "Text",
+          "id": 200170023,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "Walk less",
+          "option": null,
+          "nextIds": [
+            200170024
+          ],
+          "kind": "NPC"
+        },
+        "200170024": {
+          "type": "Text",
+          "id": 200170024,
+          "sectionId": 2001700,
+          "senderId": 1105,
+          "text": "Simple, right?",
+          "option": null,
+          "nextIds": [
+            200170025
+          ],
+          "kind": "NPC"
+        },
+        "200170025": {
+          "type": "Text",
+          "id": 200170025,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "No such thing as simple in a Trailblazer's life",
+          "option": "No such thing as simple in a Trailblazer's life",
+          "nextIds": [
+            200170026
+          ],
+          "kind": "Player"
+        },
+        "200170026": {
+          "type": "Sticker",
+          "id": 200170026,
+          "sectionId": 2001700,
+          "senderId": null,
+          "text": "[cry]",
+          "option": null,
+          "nextIds": [],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20005,
+            "path": "SpriteOutput/Emoji/20005.png",
+            "keywords": "Crying"
+          }
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2003300,
+      "startIds": [
+        200330000
+      ],
+      "messages": {
+        "200330000": {
+          "type": "Text",
+          "id": 200330000,
+          "sectionId": 2003300,
+          "senderId": 1105,
+          "text": "{NICKNAME}, did your cold get better?",
+          "option": null,
+          "nextIds": [
+            200330001
+          ],
+          "kind": "NPC"
+        },
+        "200330001": {
+          "type": "Text",
+          "id": 200330001,
+          "sectionId": 2003300,
+          "senderId": 1105,
+          "text": "Did you take the medicine according to my prescription?",
+          "option": null,
+          "nextIds": [
+            200330002
+          ],
+          "kind": "NPC"
+        },
+        "200330002": {
+          "type": "Text",
+          "id": 200330002,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "My cold is gone",
+          "option": "My cold is gone",
+          "nextIds": [
+            200330003
+          ],
+          "kind": "Player"
+        },
+        "200330003": {
+          "type": "Text",
+          "id": 200330003,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "But I didn't get some of the ingredients in your prescription",
+          "option": null,
+          "nextIds": [
+            200330004
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200330004": {
+          "type": "Text",
+          "id": 200330004,
+          "sectionId": 2003300,
+          "senderId": 1105,
+          "text": "Which ingredients?",
+          "option": null,
+          "nextIds": [
+            200330005,
+            200330007,
+            200330009
+          ],
+          "kind": "NPC"
+        },
+        "200330005": {
+          "type": "Text",
+          "id": 200330005,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "Rock Crab shell powder",
+          "option": "Rock Crab shell powder",
+          "nextIds": [
+            200330006
+          ],
+          "kind": "Player"
+        },
+        "200330006": {
+          "type": "Text",
+          "id": 200330006,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "This seems to be a Belobog specialty",
+          "option": null,
+          "nextIds": [
+            200330011
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200330011": {
+          "type": "Text",
+          "id": 200330011,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "I am on the Express and can't get my hands on them...",
+          "option": "They don't have these on the Express",
+          "nextIds": [
+            200330012
+          ],
+          "kind": "Player"
+        },
+        "200330012": {
+          "type": "Sticker",
+          "id": 200330012,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "[cry]",
+          "option": null,
+          "nextIds": [
+            200330013
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20005,
+            "path": "SpriteOutput/Emoji/20005.png",
+            "keywords": "Crying"
+          }
+        },
+        "200330013": {
+          "type": "Text",
+          "id": 200330013,
+          "sectionId": 2003300,
+          "senderId": 1105,
+          "text": "...",
+          "option": null,
+          "nextIds": [
+            200330014
+          ],
+          "kind": "NPC"
+        },
+        "200330014": {
+          "type": "Text",
+          "id": 200330014,
+          "sectionId": 2003300,
+          "senderId": 1105,
+          "text": "It's my mistake. Sorry",
+          "option": null,
+          "nextIds": [
+            200330015
+          ],
+          "kind": "NPC"
+        },
+        "200330015": {
+          "type": "Text",
+          "id": 200330015,
+          "sectionId": 2003300,
+          "senderId": 1105,
+          "text": "Come to the clinic later. I will prepare some medicines for you to use on the road",
+          "option": null,
+          "nextIds": [
+            200330016
+          ],
+          "kind": "NPC"
+        },
+        "200330016": {
+          "type": "Text",
+          "id": 200330016,
+          "sectionId": 2003300,
+          "senderId": 1105,
+          "text": "As a Trailblazer, the health of your body is of utmost importance",
+          "option": null,
+          "nextIds": [
+            200330017
+          ],
+          "kind": "NPC"
+        },
+        "200330017": {
+          "type": "Text",
+          "id": 200330017,
+          "sectionId": 2003300,
+          "senderId": 1105,
+          "text": "You must take care of yourself",
+          "option": null,
+          "nextIds": [
+            200330019
+          ],
+          "kind": "NPC"
+        },
+        "200330019": {
+          "type": "Text",
+          "id": 200330019,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "I will! Thank you, Nat!",
+          "option": "Thank you, Nat",
+          "nextIds": [
+            200330018
+          ],
+          "kind": "Player"
+        },
+        "200330018": {
+          "type": "Sticker",
+          "id": 200330018,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "[Thumbs Up]",
+          "option": "Thank you, Nat",
+          "nextIds": [
+            200330020
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200330020": {
+          "type": "Text",
+          "id": 200330020,
+          "sectionId": 2003300,
+          "senderId": 1105,
+          "text": "Don't mention it",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200330007": {
+          "type": "Text",
+          "id": 200330007,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "I didn't get the Olm oil",
+          "option": "Olm oil",
+          "nextIds": [
+            200330008
+          ],
+          "kind": "Player"
+        },
+        "200330008": {
+          "type": "Text",
+          "id": 200330008,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "This seems to be a Belobog specialty",
+          "option": null,
+          "nextIds": [
+            200330011
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200330009": {
+          "type": "Text",
+          "id": 200330009,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "Rock Crab shell powder and Olm oil",
+          "option": "All of them",
+          "nextIds": [
+            200330010
+          ],
+          "kind": "Player"
+        },
+        "200330010": {
+          "type": "Text",
+          "id": 200330010,
+          "sectionId": 2003300,
+          "senderId": null,
+          "text": "These ingredients seem to be Belobog specialties",
+          "option": null,
+          "nextIds": [
+            200330011
+          ],
+          "kind": "PlayerAuto"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2003400,
+      "startIds": [
+        200340000
+      ],
+      "messages": {
+        "200340000": {
+          "type": "Text",
+          "id": 200340000,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "{NICKNAME}, are you there?",
+          "option": null,
+          "nextIds": [
+            200340001
+          ],
+          "kind": "NPC"
+        },
+        "200340001": {
+          "type": "Text",
+          "id": 200340001,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "Sorry to bother you, but the kids at the clinic are clamoring to see you...",
+          "option": null,
+          "nextIds": [
+            200340002
+          ],
+          "kind": "NPC"
+        },
+        "200340002": {
+          "type": "Text",
+          "id": 200340002,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "Is this a bad time? If it's not convenient for you, I can ask the kids to call you next time",
+          "option": null,
+          "nextIds": [
+            200340003,
+            200340020
+          ],
+          "kind": "NPC"
+        },
+        "200340003": {
+          "type": "Text",
+          "id": 200340003,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "I can answer the phone anytime",
+          "option": "You can call me anytime",
+          "nextIds": [
+            200340004
+          ],
+          "kind": "Player"
+        },
+        "200340004": {
+          "type": "Text",
+          "id": 200340004,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "How should we do this?",
+          "option": null,
+          "nextIds": [
+            200340005
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200340005": {
+          "type": "Sticker",
+          "id": 200340005,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "[confused]",
+          "option": null,
+          "nextIds": [
+            200340006
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200340006": {
+          "type": "Text",
+          "id": 200340006,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "I'll start a video call",
+          "option": null,
+          "nextIds": [
+            200340007
+          ],
+          "kind": "NPC"
+        },
+        "200340007": {
+          "type": "Text",
+          "id": 200340007,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "Receiving a video call from Natasha",
+          "option": null,
+          "nextIds": [
+            200340008
+          ],
+          "kind": "System"
+        },
+        "200340008": {
+          "type": "Text",
+          "id": 200340008,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "Video call failed",
+          "option": null,
+          "nextIds": [
+            200340009
+          ],
+          "kind": "System"
+        },
+        "200340009": {
+          "type": "Text",
+          "id": 200340009,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "Huh? What's going on?",
+          "option": null,
+          "nextIds": [
+            200340010
+          ],
+          "kind": "NPC"
+        },
+        "200340010": {
+          "type": "Text",
+          "id": 200340010,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "Sorry, I'll try again",
+          "option": null,
+          "nextIds": [
+            200340011
+          ],
+          "kind": "NPC"
+        },
+        "200340011": {
+          "type": "Text",
+          "id": 200340011,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "Receiving a video call from Natasha",
+          "option": null,
+          "nextIds": [
+            200340012
+          ],
+          "kind": "System"
+        },
+        "200340012": {
+          "type": "Text",
+          "id": 200340012,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "Video call failed",
+          "option": null,
+          "nextIds": [
+            200340013
+          ],
+          "kind": "System"
+        },
+        "200340013": {
+          "type": "Text",
+          "id": 200340013,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "...",
+          "option": null,
+          "nextIds": [
+            200340014
+          ],
+          "kind": "NPC"
+        },
+        "200340014": {
+          "type": "Text",
+          "id": 200340014,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "I'm not very familiar with this... Seele taught me how to use it before.",
+          "option": null,
+          "nextIds": [
+            200340015
+          ],
+          "kind": "NPC"
+        },
+        "200340015": {
+          "type": "Text",
+          "id": 200340015,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "I'll go ask her how to start a video call later. Sorry to have bothered you today",
+          "option": null,
+          "nextIds": [
+            200340017
+          ],
+          "kind": "NPC"
+        },
+        "200340017": {
+          "type": "Text",
+          "id": 200340017,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "No worries. I am free all the time. Call me when you are ready",
+          "option": "You can call me anytime",
+          "nextIds": [
+            200340018
+          ],
+          "kind": "Player"
+        },
+        "200340018": {
+          "type": "Text",
+          "id": 200340018,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "Or I can go to the clinic next time",
+          "option": null,
+          "nextIds": [
+            200340019
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200340019": {
+          "type": "Text",
+          "id": 200340019,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "You are welcome at anytime",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200340020": {
+          "type": "Text",
+          "id": 200340020,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "I'm a little busy. Now is not a good time",
+          "option": "Now is not a good time",
+          "nextIds": [
+            200340021
+          ],
+          "kind": "Player"
+        },
+        "200340021": {
+          "type": "Text",
+          "id": 200340021,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "Sorry",
+          "option": null,
+          "nextIds": [
+            200340022
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200340022": {
+          "type": "Sticker",
+          "id": 200340022,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "[cry]",
+          "option": null,
+          "nextIds": [
+            200340023
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20005,
+            "path": "SpriteOutput/Emoji/20005.png",
+            "keywords": "Crying"
+          }
+        },
+        "200340023": {
+          "type": "Text",
+          "id": 200340023,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "It's okay. It's just, the kids are a bit willful...",
+          "option": null,
+          "nextIds": [
+            200340024
+          ],
+          "kind": "NPC"
+        },
+        "200340024": {
+          "type": "Text",
+          "id": 200340024,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "Sorry to interrupt. I'll let you get back to work",
+          "option": null,
+          "nextIds": [
+            200340025
+          ],
+          "kind": "NPC"
+        },
+        "200340025": {
+          "type": "Text",
+          "id": 200340025,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "I'll explain it to the kids",
+          "option": null,
+          "nextIds": [
+            200340026
+          ],
+          "kind": "NPC"
+        },
+        "200340026": {
+          "type": "Text",
+          "id": 200340026,
+          "sectionId": 2003400,
+          "senderId": null,
+          "text": "I'll go to the clinic next time",
+          "option": "I'll visit them next time",
+          "nextIds": [
+            200340027
+          ],
+          "kind": "Player"
+        },
+        "200340027": {
+          "type": "Text",
+          "id": 200340027,
+          "sectionId": 2003400,
+          "senderId": 1105,
+          "text": "You are welcome at anytime",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 1105,
+    "name": "Natasha",
+    "signature": "Doing outpatient runs at the Robot Settlement. Check my availability before you visit",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/1105.png",
+    "type": 1,
+    "camp": 3
+  }
+}

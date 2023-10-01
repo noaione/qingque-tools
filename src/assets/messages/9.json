@@ -1,0 +1,92 @@
+{
+  "id": 9,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1151300,
+      "startIds": [
+        115130000
+      ],
+      "messages": {
+        "115130000": {
+          "type": "Text",
+          "id": 115130000,
+          "sectionId": 1151300,
+          "senderId": 9,
+          "text": "Your memory is worth a lot. If used properly, it can be even more valuable",
+          "option": null,
+          "nextIds": [
+            115130001
+          ],
+          "kind": "NPC"
+        },
+        "115130001": {
+          "type": "Text",
+          "id": 115130001,
+          "sectionId": 1151300,
+          "senderId": null,
+          "text": "Who are you?",
+          "option": "Who are you?",
+          "nextIds": [
+            115130002
+          ],
+          "kind": "Player"
+        },
+        "115130002": {
+          "type": "Text",
+          "id": 115130002,
+          "sectionId": 1151300,
+          "senderId": 9,
+          "text": "I collect fragments of the past and piece them together into a blueprint of the future",
+          "option": null,
+          "nextIds": [
+            115130003
+          ],
+          "kind": "NPC"
+        },
+        "115130003": {
+          "type": "Text",
+          "id": 115130003,
+          "sectionId": 1151300,
+          "senderId": null,
+          "text": "...The Riddlers?",
+          "option": "...The Riddlers?",
+          "nextIds": [
+            115130004
+          ],
+          "kind": "Player"
+        },
+        "115130004": {
+          "type": "Text",
+          "id": 115130004,
+          "sectionId": 1151300,
+          "senderId": 9,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            115130005
+          ],
+          "kind": "NPC"
+        },
+        "115130005": {
+          "type": "Text",
+          "id": 115130005,
+          "sectionId": 1151300,
+          "senderId": 9,
+          "text": "Here you can relive the past and obtain treasures of the future from your past memories",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 9,
+    "name": "???",
+    "signature": null,
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
+    "type": 2,
+    "camp": 6
+  }
+}

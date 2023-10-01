@@ -1,0 +1,407 @@
+{
+  "id": 67,
+  "sections": [
+    {
+      "type": "MissionMessage",
+      "id": 1213700,
+      "startIds": [
+        121370001
+      ],
+      "messages": {
+        "121370001": {
+          "type": "Text",
+          "id": 121370001,
+          "sectionId": 1213700,
+          "senderId": 1103,
+          "text": "{NICKNAME}!",
+          "option": null,
+          "nextIds": [
+            121370002
+          ],
+          "kind": "NPC"
+        },
+        "121370002": {
+          "type": "Text",
+          "id": 121370002,
+          "sectionId": 1213700,
+          "senderId": 1104,
+          "text": "You there?",
+          "option": null,
+          "nextIds": [
+            121370003,
+            121370005,
+            121370008
+          ],
+          "kind": "NPC"
+        },
+        "121370003": {
+          "type": "Text",
+          "id": 121370003,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "Yeah",
+          "option": "Yes.",
+          "nextIds": [
+            121370004
+          ],
+          "kind": "Player"
+        },
+        "121370004": {
+          "type": "Text",
+          "id": 121370004,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "What is it?",
+          "option": null,
+          "nextIds": [
+            121370010
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121370010": {
+          "type": "Text",
+          "id": 121370010,
+          "sectionId": 1213700,
+          "senderId": 1103,
+          "text": "Um, you've probably guessed...",
+          "option": null,
+          "nextIds": [
+            121370011
+          ],
+          "kind": "NPC"
+        },
+        "121370011": {
+          "type": "Text",
+          "id": 121370011,
+          "sectionId": 1213700,
+          "senderId": 1104,
+          "text": "We want to ask you for help",
+          "option": null,
+          "nextIds": [
+            121370012,
+            121370013,
+            121370017
+          ],
+          "kind": "NPC"
+        },
+        "121370012": {
+          "type": "Text",
+          "id": 121370012,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "Fine. Tell me what you need",
+          "option": "Sure.",
+          "nextIds": [
+            121370018
+          ],
+          "kind": "Player"
+        },
+        "121370018": {
+          "type": "Text",
+          "id": 121370018,
+          "sectionId": 1213700,
+          "senderId": 1104,
+          "text": "Can you please come to the Belobog Museum's Finishing Room? We can have a chat there",
+          "option": null,
+          "nextIds": [
+            121370019,
+            121370021
+          ],
+          "kind": "NPC"
+        },
+        "121370019": {
+          "type": "Text",
+          "id": 121370019,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "Sure thing. I'll be there soon",
+          "option": "Okay, be right there.",
+          "nextIds": [
+            121370020
+          ],
+          "kind": "Player"
+        },
+        "121370020": {
+          "type": "Text",
+          "id": 121370020,
+          "sectionId": 1213700,
+          "senderId": 1103,
+          "text": "As expected from you! We're gonna wait for you there",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121370021": {
+          "type": "Text",
+          "id": 121370021,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "Why so secretive about it...",
+          "option": "You can't tell me now?",
+          "nextIds": [
+            121370022
+          ],
+          "kind": "Player"
+        },
+        "121370022": {
+          "type": "Text",
+          "id": 121370022,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "Just say what you have to say over text!",
+          "option": null,
+          "nextIds": [
+            121370023
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121370023": {
+          "type": "Text",
+          "id": 121370023,
+          "sectionId": 1213700,
+          "senderId": 1103,
+          "text": "Hehehe, it's more fun this way.",
+          "option": null,
+          "nextIds": [
+            121370024
+          ],
+          "kind": "NPC"
+        },
+        "121370024": {
+          "type": "Text",
+          "id": 121370024,
+          "sectionId": 1213700,
+          "senderId": 1104,
+          "text": "... We'll be waiting for you there",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121370013": {
+          "type": "Text",
+          "id": 121370013,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "Hello. The number you're trying to reach is currently not afaikable",
+          "option": "Nope.",
+          "nextIds": [
+            121370014
+          ],
+          "kind": "Player"
+        },
+        "121370014": {
+          "type": "Text",
+          "id": 121370014,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "*available",
+          "option": null,
+          "nextIds": [
+            121370015
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121370015": {
+          "type": "Text",
+          "id": 121370015,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "...",
+          "option": null,
+          "nextIds": [
+            121370016
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121370016": {
+          "type": "Text",
+          "id": 121370016,
+          "sectionId": 1213700,
+          "senderId": 1103,
+          "text": "Please stop! This is actually really serious",
+          "option": null,
+          "nextIds": [
+            121370018
+          ],
+          "kind": "NPC"
+        },
+        "121370017": {
+          "type": "Text",
+          "id": 121370017,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "What is it?",
+          "option": "Help with what?",
+          "nextIds": [
+            121370018
+          ],
+          "kind": "Player"
+        },
+        "121370005": {
+          "type": "Text",
+          "id": 121370005,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "Hello. The number you're trying to reach is currently not within the Belobog serface zone",
+          "option": "No.",
+          "nextIds": [
+            121370006
+          ],
+          "kind": "Player"
+        },
+        "121370006": {
+          "type": "Text",
+          "id": 121370006,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "*service zone",
+          "option": null,
+          "nextIds": [
+            121370007
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121370007": {
+          "type": "Text",
+          "id": 121370007,
+          "sectionId": 1213700,
+          "senderId": 1104,
+          "text": "You don't need to do this...",
+          "option": null,
+          "nextIds": [
+            121370010
+          ],
+          "kind": "NPC"
+        },
+        "121370008": {
+          "type": "Text",
+          "id": 121370008,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "Um, why is there a group chat?",
+          "option": "What's this group?",
+          "nextIds": [
+            121370009
+          ],
+          "kind": "Player"
+        },
+        "121370009": {
+          "type": "Text",
+          "id": 121370009,
+          "sectionId": 1213700,
+          "senderId": null,
+          "text": "What do you want!?",
+          "option": null,
+          "nextIds": [
+            121370010
+          ],
+          "kind": "PlayerAuto"
+        }
+      },
+      "mission": {
+        "id": 2011411,
+        "name": "Farther Than The Snow Plains",
+        "type": "Companion"
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1213800,
+      "startIds": [
+        121380001
+      ],
+      "messages": {
+        "121380001": {
+          "type": "Text",
+          "id": 121380001,
+          "sectionId": 1213800,
+          "senderId": 1103,
+          "text": "Hey {NICKNAME}!",
+          "option": null,
+          "nextIds": [
+            121380002
+          ],
+          "kind": "NPC"
+        },
+        "121380002": {
+          "type": "Text",
+          "id": 121380002,
+          "sectionId": 1213800,
+          "senderId": 1104,
+          "text": "How's it going with that thing we talked about before?",
+          "option": null,
+          "nextIds": [
+            121380003
+          ],
+          "kind": "NPC"
+        },
+        "121380003": {
+          "type": "Text",
+          "id": 121380003,
+          "sectionId": 1213800,
+          "senderId": null,
+          "text": "I've pretty much wrapped it up",
+          "option": "It's done for now.",
+          "nextIds": [
+            121380004
+          ],
+          "kind": "Player"
+        },
+        "121380004": {
+          "type": "Text",
+          "id": 121380004,
+          "sectionId": 1213800,
+          "senderId": null,
+          "text": "Are you two at the workshop? I'll come to talk to you in person",
+          "option": null,
+          "nextIds": [
+            121380005
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121380005": {
+          "type": "Text",
+          "id": 121380005,
+          "sectionId": 1213800,
+          "senderId": null,
+          "text": "Texting might not be enough",
+          "option": null,
+          "nextIds": [
+            121380006
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121380006": {
+          "type": "Text",
+          "id": 121380006,
+          "sectionId": 1213800,
+          "senderId": 1103,
+          "text": "Lucky for you, we're both here~",
+          "option": null,
+          "nextIds": [
+            121380007
+          ],
+          "kind": "NPC"
+        },
+        "121380007": {
+          "type": "Text",
+          "id": 121380007,
+          "sectionId": 1213800,
+          "senderId": 1104,
+          "text": "We'll be waiting for you at the workshop then",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 67,
+    "name": "Group chat with Gepard, Serval, and {NICKNAME}",
+    "signature": null,
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
+    "type": 3,
+    "camp": 3
+  }
+}

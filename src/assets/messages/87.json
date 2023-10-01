@@ -1,0 +1,159 @@
+{
+  "id": 87,
+  "sections": [
+    {
+      "type": "MissionMessage",
+      "id": 1217400,
+      "startIds": [
+        121740001
+      ],
+      "messages": {
+        "121740001": {
+          "type": "Text",
+          "id": 121740001,
+          "sectionId": 1217400,
+          "senderId": 87,
+          "text": "Excuse me, is this the deceased {M#Mr.}{F#Miss} {NICKNAME}'s number?",
+          "option": null,
+          "nextIds": [
+            121740002,
+            121740003
+          ],
+          "kind": "NPC"
+        },
+        "121740002": {
+          "type": "Text",
+          "id": 121740002,
+          "sectionId": 1217400,
+          "senderId": null,
+          "text": "I'm very much alive, thanks.",
+          "option": "You want me deceased?",
+          "nextIds": [
+            121740004
+          ],
+          "kind": "Player"
+        },
+        "121740004": {
+          "type": "Text",
+          "id": 121740004,
+          "sectionId": 1217400,
+          "senderId": 87,
+          "text": "My apologies. I meant \"the distinguished.\" This autocorrect is a little morbid...",
+          "option": null,
+          "nextIds": [
+            121740005
+          ],
+          "kind": "NPC"
+        },
+        "121740005": {
+          "type": "Text",
+          "id": 121740005,
+          "sectionId": 1217400,
+          "senderId": 87,
+          "text": "You're a hero of the Xianzhou. I worked hard to get your contact details.",
+          "option": null,
+          "nextIds": [
+            121740006
+          ],
+          "kind": "NPC"
+        },
+        "121740006": {
+          "type": "Text",
+          "id": 121740006,
+          "sectionId": 1217400,
+          "senderId": 87,
+          "text": "In fact, I have some private matter I'm hoping you can help with. I hope it won't be too much trouble.",
+          "option": null,
+          "nextIds": [
+            121740007,
+            121740009
+          ],
+          "kind": "NPC"
+        },
+        "121740007": {
+          "type": "Text",
+          "id": 121740007,
+          "sectionId": 1217400,
+          "senderId": null,
+          "text": "I've heard you tell stories a lot when I went past the tea house. I'd be honored to be able to help you",
+          "option": "It'll be no trouble",
+          "nextIds": [
+            121740008
+          ],
+          "kind": "Player"
+        },
+        "121740008": {
+          "type": "Text",
+          "id": 121740008,
+          "sectionId": 1217400,
+          "senderId": 87,
+          "text": "Oh, you flatter me",
+          "option": null,
+          "nextIds": [
+            121740011
+          ],
+          "kind": "NPC"
+        },
+        "121740011": {
+          "type": "Text",
+          "id": 121740011,
+          "sectionId": 1217400,
+          "senderId": 87,
+          "text": "I usually tell stories on the stage before the Sleepless Earl. You can find me there to discuss this issue face-to-face.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121740009": {
+          "type": "Text",
+          "id": 121740009,
+          "sectionId": 1217400,
+          "senderId": null,
+          "text": "Sir, you should know that time is money",
+          "option": "What's the pay?",
+          "nextIds": [
+            121740010
+          ],
+          "kind": "Player"
+        },
+        "121740010": {
+          "type": "Text",
+          "id": 121740010,
+          "sectionId": 1217400,
+          "senderId": 87,
+          "text": "That I am well aware. I will prepare sufficient compensation.",
+          "option": null,
+          "nextIds": [
+            121740011
+          ],
+          "kind": "NPC"
+        },
+        "121740003": {
+          "type": "Text",
+          "id": 121740003,
+          "sectionId": 1217400,
+          "senderId": null,
+          "text": "Deceased!? What the heck...",
+          "option": "What the heck...",
+          "nextIds": [
+            121740004
+          ],
+          "kind": "Player"
+        }
+      },
+      "mission": {
+        "id": 8002211,
+        "name": "Tales of the Fantastic: Chapter 1",
+        "type": "Branch"
+      }
+    }
+  ],
+  "info": {
+    "id": 87,
+    "name": "Mr. Xiyan",
+    "signature": "Without an understanding ear, words are merely expended breath.",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_MrXiYan.png",
+    "type": 2,
+    "camp": 4
+  }
+}

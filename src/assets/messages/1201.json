@@ -1,0 +1,1683 @@
+{
+  "id": 1201,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1200200,
+      "startIds": [
+        120020000
+      ],
+      "messages": {
+        "120020000": {
+          "type": "Text",
+          "id": 120020000,
+          "sectionId": 1200200,
+          "senderId": 1201,
+          "text": "Greetings, Master Diviner asked me to wait for you.",
+          "option": null,
+          "nextIds": [
+            120020001
+          ],
+          "kind": "NPC"
+        },
+        "120020001": {
+          "type": "Text",
+          "id": 120020001,
+          "sectionId": 1200200,
+          "senderId": 1201,
+          "text": "It's about time.",
+          "option": null,
+          "nextIds": [
+            120020002
+          ],
+          "kind": "NPC"
+        },
+        "120020002": {
+          "type": "Text",
+          "id": 120020002,
+          "sectionId": 1200200,
+          "senderId": 1201,
+          "text": "Can't go. I'm busy right now.",
+          "option": null,
+          "nextIds": [
+            120020003
+          ],
+          "kind": "NPC"
+        },
+        "120020003": {
+          "type": "Image",
+          "id": 120020003,
+          "sectionId": 1200200,
+          "senderId": 1201,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC",
+          "image": {
+            "id": 10201,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10201.png"
+          }
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2005800,
+      "startIds": [
+        200580000
+      ],
+      "messages": {
+        "200580000": {
+          "type": "Text",
+          "id": 200580000,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Hey have you registered for the new immersia that just came out",
+          "option": null,
+          "nextIds": [
+            200580001
+          ],
+          "kind": "NPC"
+        },
+        "200580001": {
+          "type": "Text",
+          "id": 200580001,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Come be my buddy",
+          "option": null,
+          "nextIds": [
+            200580002,
+            200580005
+          ],
+          "kind": "NPC"
+        },
+        "200580002": {
+          "type": "Text",
+          "id": 200580002,
+          "sectionId": 2005800,
+          "senderId": null,
+          "text": "Buddy?",
+          "option": "Buddy?",
+          "nextIds": [
+            200580003
+          ],
+          "kind": "Player"
+        },
+        "200580003": {
+          "type": "Text",
+          "id": 200580003,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Oh, I call those who play games of Celestial Jade with us buddies",
+          "option": null,
+          "nextIds": [
+            200580004
+          ],
+          "kind": "NPC"
+        },
+        "200580004": {
+          "type": "Text",
+          "id": 200580004,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "But I was talking about the new Foxian immersia called Viridian Soul, we call those buddies too",
+          "option": null,
+          "nextIds": [
+            200580008
+          ],
+          "kind": "NPC"
+        },
+        "200580008": {
+          "type": "Text",
+          "id": 200580008,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Long as you have a jade abacus you can join in too, it's very easy",
+          "option": null,
+          "nextIds": [
+            200580009
+          ],
+          "kind": "NPC"
+        },
+        "200580009": {
+          "type": "Text",
+          "id": 200580009,
+          "sectionId": 2005800,
+          "senderId": null,
+          "text": "Ah got it, it's basically a mobile game",
+          "option": "Basically a mobile game",
+          "nextIds": [
+            200580010
+          ],
+          "kind": "Player"
+        },
+        "200580010": {
+          "type": "Text",
+          "id": 200580010,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "? What's a mobile game? I don't understand",
+          "option": null,
+          "nextIds": [
+            200580011
+          ],
+          "kind": "NPC"
+        },
+        "200580011": {
+          "type": "Text",
+          "id": 200580011,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Anyway, I've already registered, it's free",
+          "option": null,
+          "nextIds": [
+            200580012
+          ],
+          "kind": "NPC"
+        },
+        "200580012": {
+          "type": "Text",
+          "id": 200580012,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Now I can play it at work",
+          "option": null,
+          "nextIds": [
+            200580013
+          ],
+          "kind": "NPC"
+        },
+        "200580013": {
+          "type": "Text",
+          "id": 200580013,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "You coming? I'll open up a friend room for us",
+          "option": null,
+          "nextIds": [
+            200580015,
+            200580020
+          ],
+          "kind": "NPC"
+        },
+        "200580015": {
+          "type": "Text",
+          "id": 200580015,
+          "sectionId": 2005800,
+          "senderId": null,
+          "text": "I'd like to",
+          "option": "I don't know how to play",
+          "nextIds": [
+            200580016
+          ],
+          "kind": "Player"
+        },
+        "200580016": {
+          "type": "Text",
+          "id": 200580016,
+          "sectionId": 2005800,
+          "senderId": null,
+          "text": "But I don't know how to play Celestial Jade",
+          "option": null,
+          "nextIds": [
+            200580014
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200580014": {
+          "type": "Sticker",
+          "id": 200580014,
+          "sectionId": 2005800,
+          "senderId": null,
+          "text": "[cry]",
+          "option": "I don't know how to play",
+          "nextIds": [
+            200580017
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20005,
+            "path": "SpriteOutput/Emoji/20005.png",
+            "keywords": "Crying"
+          }
+        },
+        "200580017": {
+          "type": "Text",
+          "id": 200580017,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Oh, it's easy",
+          "option": null,
+          "nextIds": [
+            200580018
+          ],
+          "kind": "NPC"
+        },
+        "200580018": {
+          "type": "Text",
+          "id": 200580018,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Come over to the games parlor when you have time, you'll pick it up in no time",
+          "option": null,
+          "nextIds": [
+            200580023
+          ],
+          "kind": "NPC"
+        },
+        "200580023": {
+          "type": "Text",
+          "id": 200580023,
+          "sectionId": 2005800,
+          "senderId": null,
+          "text": "Really?",
+          "option": "Really?",
+          "nextIds": [
+            200580024
+          ],
+          "kind": "Player"
+        },
+        "200580024": {
+          "type": "Text",
+          "id": 200580024,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "I'm not lying",
+          "option": null,
+          "nextIds": [
+            200580025
+          ],
+          "kind": "NPC"
+        },
+        "200580025": {
+          "type": "Text",
+          "id": 200580025,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "With the number of people on the Express, it should be easy to find enough players",
+          "option": null,
+          "nextIds": [
+            200580026
+          ],
+          "kind": "NPC"
+        },
+        "200580026": {
+          "type": "Text",
+          "id": 200580026,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "You can teach everyone after learning it, then you'll be able to play together",
+          "option": null,
+          "nextIds": [
+            200580027
+          ],
+          "kind": "NPC"
+        },
+        "200580027": {
+          "type": "Text",
+          "id": 200580027,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "I'll send you the invite in a bit",
+          "option": null,
+          "nextIds": [
+            200580028
+          ],
+          "kind": "NPC"
+        },
+        "200580028": {
+          "type": "Sticker",
+          "id": 200580028,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "[Thumbs Up]",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200580020": {
+          "type": "Text",
+          "id": 200580020,
+          "sectionId": 2005800,
+          "senderId": null,
+          "text": "Do you also play Celestial Jade when you're working?",
+          "option": "Playing games while working?",
+          "nextIds": [
+            200580019
+          ],
+          "kind": "Player"
+        },
+        "200580019": {
+          "type": "Sticker",
+          "id": 200580019,
+          "sectionId": 2005800,
+          "senderId": null,
+          "text": "[Confused]",
+          "option": "Playing games while working?",
+          "nextIds": [
+            200580021
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200580021": {
+          "type": "Text",
+          "id": 200580021,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Working is tiring, okay",
+          "option": null,
+          "nextIds": [
+            200580022
+          ],
+          "kind": "NPC"
+        },
+        "200580022": {
+          "type": "Text",
+          "id": 200580022,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "It really releases stress, just try it",
+          "option": null,
+          "nextIds": [
+            200580023
+          ],
+          "kind": "NPC"
+        },
+        "200580005": {
+          "type": "Text",
+          "id": 200580005,
+          "sectionId": 2005800,
+          "senderId": null,
+          "text": "Immersia?",
+          "option": "Immersia?",
+          "nextIds": [
+            200580006
+          ],
+          "kind": "Player"
+        },
+        "200580006": {
+          "type": "Text",
+          "id": 200580006,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Oh it's just a Foxian sympathetic immersia called Viridian Soul",
+          "option": null,
+          "nextIds": [
+            200580007
+          ],
+          "kind": "NPC"
+        },
+        "200580007": {
+          "type": "Text",
+          "id": 200580007,
+          "sectionId": 2005800,
+          "senderId": 1201,
+          "text": "Specifically for playing Celestial Jade, so we call them buddies",
+          "option": null,
+          "nextIds": [
+            200580008
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2005900,
+      "startIds": [
+        200590000
+      ],
+      "messages": {
+        "200590000": {
+          "type": "Text",
+          "id": 200590000,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "Oh right, I wanna ask for a favor",
+          "option": null,
+          "nextIds": [
+            200590001
+          ],
+          "kind": "NPC"
+        },
+        "200590001": {
+          "type": "Text",
+          "id": 200590001,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "I went to listen to Mr. Xiyan's storytelling after work, but he stopped at a cliffhanger, I can't take it",
+          "option": null,
+          "nextIds": [
+            200590002
+          ],
+          "kind": "NPC"
+        },
+        "200590002": {
+          "type": "Text",
+          "id": 200590002,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "He's resuming tomorrow, but at an earlier time",
+          "option": null,
+          "nextIds": [
+            200590003
+          ],
+          "kind": "NPC"
+        },
+        "200590003": {
+          "type": "Text",
+          "id": 200590003,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "I don't know if I'll be able to get there soon enough after work",
+          "option": null,
+          "nextIds": [
+            200590004
+          ],
+          "kind": "NPC"
+        },
+        "200590004": {
+          "type": "Text",
+          "id": 200590004,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "If I can't make it, can you go and listen in my stead?",
+          "option": null,
+          "nextIds": [
+            200590006,
+            200590009
+          ],
+          "kind": "NPC"
+        },
+        "200590006": {
+          "type": "Text",
+          "id": 200590006,
+          "sectionId": 2005900,
+          "senderId": null,
+          "text": "Sure",
+          "option": "No problem",
+          "nextIds": [
+            200590005
+          ],
+          "kind": "Player"
+        },
+        "200590005": {
+          "type": "Sticker",
+          "id": 200590005,
+          "sectionId": 2005900,
+          "senderId": null,
+          "text": "[Thumbs Up]",
+          "option": "No problem",
+          "nextIds": [
+            200590007
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200590007": {
+          "type": "Text",
+          "id": 200590007,
+          "sectionId": 2005900,
+          "senderId": null,
+          "text": "But I haven't heard the story today, would I be able to understand anything tomorrow?",
+          "option": null,
+          "nextIds": [
+            200590011
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200590011": {
+          "type": "Text",
+          "id": 200590011,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "Oh the story today is about the Cloudstrider, and apparently they have a train",
+          "option": null,
+          "nextIds": [
+            200590012
+          ],
+          "kind": "NPC"
+        },
+        "200590012": {
+          "type": "Text",
+          "id": 200590012,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "This train is like the Xianzhou ships and can travel between worlds",
+          "option": null,
+          "nextIds": [
+            200590013
+          ],
+          "kind": "NPC"
+        },
+        "200590013": {
+          "type": "Text",
+          "id": 200590013,
+          "sectionId": 2005900,
+          "senderId": null,
+          "text": "Why does that sound familiar...",
+          "option": "It does sound familiar",
+          "nextIds": [
+            200590014
+          ],
+          "kind": "Player"
+        },
+        "200590014": {
+          "type": "Text",
+          "id": 200590014,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "Right?",
+          "option": null,
+          "nextIds": [
+            200590015
+          ],
+          "kind": "NPC"
+        },
+        "200590015": {
+          "type": "Text",
+          "id": 200590015,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "That's why I'm asking for a favor",
+          "option": null,
+          "nextIds": [
+            200590016
+          ],
+          "kind": "NPC"
+        },
+        "200590016": {
+          "type": "Text",
+          "id": 200590016,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "Mr. Xiyan said the Cloudstrider once arrived at a planet called Harilo",
+          "option": null,
+          "nextIds": [
+            200590017
+          ],
+          "kind": "NPC"
+        },
+        "200590017": {
+          "type": "Text",
+          "id": 200590017,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "But was sucked into a huge conspiracy and even battled a massive aurumaton",
+          "option": null,
+          "nextIds": [
+            200590018
+          ],
+          "kind": "NPC"
+        },
+        "200590018": {
+          "type": "Text",
+          "id": 200590018,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "Don't spoil whatever happens next to me, just tell me what Mr. Xiyan's version is tomorrow",
+          "option": null,
+          "nextIds": [
+            200590019,
+            200590020
+          ],
+          "kind": "NPC"
+        },
+        "200590019": {
+          "type": "Text",
+          "id": 200590019,
+          "sectionId": 2005900,
+          "senderId": null,
+          "text": "Where is Harilo?",
+          "option": "Where is Harilo?",
+          "nextIds": [
+            200590021
+          ],
+          "kind": "Player"
+        },
+        "200590021": {
+          "type": "Text",
+          "id": 200590021,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "...",
+          "option": null,
+          "nextIds": [
+            200590022
+          ],
+          "kind": "NPC"
+        },
+        "200590022": {
+          "type": "Text",
+          "id": 200590022,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "So you don't know?",
+          "option": null,
+          "nextIds": [
+            200590023
+          ],
+          "kind": "NPC"
+        },
+        "200590023": {
+          "type": "Text",
+          "id": 200590023,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "Alright, looks like I still have to be there in person tomorrow to get the story",
+          "option": null,
+          "nextIds": [
+            200590024
+          ],
+          "kind": "NPC"
+        },
+        "200590024": {
+          "type": "Text",
+          "id": 200590024,
+          "sectionId": 2005900,
+          "senderId": null,
+          "text": "I'll tell you my story next time",
+          "option": "I'll tell you my story next time",
+          "nextIds": [
+            200590025
+          ],
+          "kind": "Player"
+        },
+        "200590025": {
+          "type": "Text",
+          "id": 200590025,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "Okay!!!",
+          "option": null,
+          "nextIds": [
+            200590026
+          ],
+          "kind": "NPC"
+        },
+        "200590026": {
+          "type": "Sticker",
+          "id": 200590026,
+          "sectionId": 2005900,
+          "senderId": 1201,
+          "text": "[Thumbs Up]",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200590020": {
+          "type": "Text",
+          "id": 200590020,
+          "sectionId": 2005900,
+          "senderId": null,
+          "text": "What is this massive aurumaton?",
+          "option": "What is this massive aurumaton?",
+          "nextIds": [
+            200590021
+          ],
+          "kind": "Player"
+        },
+        "200590009": {
+          "type": "Text",
+          "id": 200590009,
+          "sectionId": 2005900,
+          "senderId": null,
+          "text": "I'm a little busy tomorrow",
+          "option": "No time",
+          "nextIds": [
+            200590008
+          ],
+          "kind": "Player"
+        },
+        "200590008": {
+          "type": "Sticker",
+          "id": 200590008,
+          "sectionId": 2005900,
+          "senderId": null,
+          "text": "[cry]",
+          "option": "No time",
+          "nextIds": [
+            200590010
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20005,
+            "path": "SpriteOutput/Emoji/20005.png",
+            "keywords": "Crying"
+          }
+        },
+        "200590010": {
+          "type": "Text",
+          "id": 200590010,
+          "sectionId": 2005900,
+          "senderId": null,
+          "text": "And I haven't heard the story today, it's likely I wouldn't be able to understand anything tomorrow",
+          "option": null,
+          "nextIds": [
+            200590011
+          ],
+          "kind": "PlayerAuto"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2006000,
+      "startIds": [
+        200600000
+      ],
+      "messages": {
+        "200600000": {
+          "type": "Text",
+          "id": 200600000,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "Are you busy?",
+          "option": null,
+          "nextIds": [
+            200600001
+          ],
+          "kind": "NPC"
+        },
+        "200600001": {
+          "type": "Sticker",
+          "id": 200600001,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "[confused]",
+          "option": null,
+          "nextIds": [
+            200600002
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200600002": {
+          "type": "Text",
+          "id": 200600002,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "Ya know",
+          "option": null,
+          "nextIds": [
+            200600003
+          ],
+          "kind": "NPC"
+        },
+        "200600003": {
+          "type": "Text",
+          "id": 200600003,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "It's pretty quiet at work today",
+          "option": null,
+          "nextIds": [
+            200600004
+          ],
+          "kind": "NPC"
+        },
+        "200600004": {
+          "type": "Text",
+          "id": 200600004,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "Wanna chat?",
+          "option": null,
+          "nextIds": [
+            200600005
+          ],
+          "kind": "NPC"
+        },
+        "200600005": {
+          "type": "Text",
+          "id": 200600005,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "Your friend Qingque has gone offline",
+          "option": null,
+          "nextIds": [
+            200600006
+          ],
+          "kind": "System"
+        },
+        "200600006": {
+          "type": "Text",
+          "id": 200600006,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "?",
+          "option": null,
+          "nextIds": [
+            200600007
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200600007": {
+          "type": "Text",
+          "id": 200600007,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "Why did you go offline",
+          "option": null,
+          "nextIds": [
+            200600008
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200600008": {
+          "type": "Text",
+          "id": 200600008,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "Are you done with work?",
+          "option": null,
+          "nextIds": [
+            200600009
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200600009": {
+          "type": "Text",
+          "id": 200600009,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "Your friend Qingque has come online",
+          "option": null,
+          "nextIds": [
+            200600010
+          ],
+          "kind": "System"
+        },
+        "200600010": {
+          "type": "Text",
+          "id": 200600010,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "Someone was behind me",
+          "option": null,
+          "nextIds": [
+            200600011
+          ],
+          "kind": "NPC"
+        },
+        "200600011": {
+          "type": "Text",
+          "id": 200600011,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "You know",
+          "option": null,
+          "nextIds": [
+            200600012,
+            200600017
+          ],
+          "kind": "NPC"
+        },
+        "200600012": {
+          "type": "Text",
+          "id": 200600012,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "What would happen",
+          "option": "If you were seen...",
+          "nextIds": [
+            200600013
+          ],
+          "kind": "Player"
+        },
+        "200600013": {
+          "type": "Text",
+          "id": 200600013,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "if you were seen?",
+          "option": null,
+          "nextIds": [
+            200600014
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200600014": {
+          "type": "Text",
+          "id": 200600014,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "I don't know",
+          "option": null,
+          "nextIds": [
+            200600015
+          ],
+          "kind": "NPC"
+        },
+        "200600015": {
+          "type": "Text",
+          "id": 200600015,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "I will never be caught",
+          "option": null,
+          "nextIds": [
+            200600016
+          ],
+          "kind": "NPC"
+        },
+        "200600016": {
+          "type": "Text",
+          "id": 200600016,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "Aren't I awesome?",
+          "option": null,
+          "nextIds": [
+            200600022
+          ],
+          "kind": "NPC"
+        },
+        "200600022": {
+          "type": "Text",
+          "id": 200600022,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "Your friend Qingque has gone offline",
+          "option": null,
+          "nextIds": [
+            200600023
+          ],
+          "kind": "System"
+        },
+        "200600023": {
+          "type": "Text",
+          "id": 200600023,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "...",
+          "option": "...",
+          "nextIds": [
+            200600024
+          ],
+          "kind": "Player"
+        },
+        "200600024": {
+          "type": "Text",
+          "id": 200600024,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "Your friend Qingque has come online",
+          "option": null,
+          "nextIds": [
+            200600025
+          ],
+          "kind": "System"
+        },
+        "200600025": {
+          "type": "Text",
+          "id": 200600025,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "I'm here",
+          "option": null,
+          "nextIds": [
+            200600026
+          ],
+          "kind": "NPC"
+        },
+        "200600026": {
+          "type": "Text",
+          "id": 200600026,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "Your friend Qingque has gone offline",
+          "option": null,
+          "nextIds": [
+            200600027
+          ],
+          "kind": "System"
+        },
+        "200600027": {
+          "type": "Text",
+          "id": 200600027,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "Your friend Qingque has come online",
+          "option": null,
+          "nextIds": [
+            200600028
+          ],
+          "kind": "System"
+        },
+        "200600028": {
+          "type": "Text",
+          "id": 200600028,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "Your friend Qingque has gone offline",
+          "option": null,
+          "nextIds": [
+            200600029
+          ],
+          "kind": "System"
+        },
+        "200600029": {
+          "type": "Text",
+          "id": 200600029,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "...",
+          "option": "Pay attention at work",
+          "nextIds": [
+            200600030
+          ],
+          "kind": "Player"
+        },
+        "200600030": {
+          "type": "Text",
+          "id": 200600030,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "You should pay attention at work!",
+          "option": null,
+          "nextIds": [],
+          "kind": "PlayerAuto"
+        },
+        "200600017": {
+          "type": "Text",
+          "id": 200600017,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "You should pay attention at work",
+          "option": "You should pay attention at work...",
+          "nextIds": [
+            200600018
+          ],
+          "kind": "Player"
+        },
+        "200600018": {
+          "type": "Text",
+          "id": 200600018,
+          "sectionId": 2006000,
+          "senderId": null,
+          "text": "Slacking off has its risks",
+          "option": null,
+          "nextIds": [
+            200600019
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200600019": {
+          "type": "Text",
+          "id": 200600019,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "If I don't slack off",
+          "option": null,
+          "nextIds": [
+            200600020
+          ],
+          "kind": "NPC"
+        },
+        "200600020": {
+          "type": "Text",
+          "id": 200600020,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "A work day is completely wasted",
+          "option": null,
+          "nextIds": [
+            200600021
+          ],
+          "kind": "NPC"
+        },
+        "200600021": {
+          "type": "Text",
+          "id": 200600021,
+          "sectionId": 2006000,
+          "senderId": 1201,
+          "text": "I can't do it",
+          "option": null,
+          "nextIds": [
+            200600022
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1200900,
+      "startIds": [
+        120090000
+      ],
+      "messages": {
+        "120090000": {
+          "type": "Text",
+          "id": 120090000,
+          "sectionId": 1200900,
+          "senderId": 1201,
+          "text": "I'm almost at Cloudford, get there quickly",
+          "option": null,
+          "nextIds": [
+            120090001
+          ],
+          "kind": "NPC"
+        },
+        "120090001": {
+          "type": "Text",
+          "id": 120090001,
+          "sectionId": 1200900,
+          "senderId": 1201,
+          "text": "Don't let a slacker do this alone, chop-chop",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "MissionMessage",
+      "id": 1211600,
+      "startIds": [
+        121160000
+      ],
+      "messages": {
+        "121160000": {
+          "type": "Text",
+          "id": 121160000,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "Hey there. I heard folks from the Artisanship Commission say that you helped clear the Ambrosial Arbor coils. You're indeed as saintly as the general says you are",
+          "option": null,
+          "nextIds": [
+            121160001,
+            121160002,
+            121160003
+          ],
+          "kind": "NPC"
+        },
+        "121160001": {
+          "type": "Text",
+          "id": 121160001,
+          "sectionId": 1211600,
+          "senderId": null,
+          "text": "Saintly? That doesn't sound much like a compliment",
+          "option": "It doesn't sound like a compliment to me.",
+          "nextIds": [
+            121160004
+          ],
+          "kind": "Player"
+        },
+        "121160004": {
+          "type": "Text",
+          "id": 121160004,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "Of course it's a compliment. I thank you from the bottom of my heart. Only when busy people get busy do slackers get a chance to slack off",
+          "option": null,
+          "nextIds": [
+            121160005
+          ],
+          "kind": "NPC"
+        },
+        "121160005": {
+          "type": "Text",
+          "id": 121160005,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "But, based on your past experience, won't you get a sort of a hunch when I message flatteries to you?",
+          "option": null,
+          "nextIds": [
+            121160006
+          ],
+          "kind": "NPC"
+        },
+        "121160006": {
+          "type": "Text",
+          "id": 121160006,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "...A hunch? Like, this person wants something from me?",
+          "option": null,
+          "nextIds": [
+            121160007,
+            121160008
+          ],
+          "kind": "NPC"
+        },
+        "121160007": {
+          "type": "Text",
+          "id": 121160007,
+          "sectionId": 1211600,
+          "senderId": null,
+          "text": "So, what do you want from me?",
+          "option": "What do you want from me?",
+          "nextIds": [
+            121160013
+          ],
+          "kind": "Player"
+        },
+        "121160013": {
+          "type": "Text",
+          "id": 121160013,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "Do you remember the craftsman apprentice named Chengjie from the Artisanship Commission?",
+          "option": null,
+          "nextIds": [
+            121160014,
+            121160015
+          ],
+          "kind": "NPC"
+        },
+        "121160014": {
+          "type": "Text",
+          "id": 121160014,
+          "sectionId": 1211600,
+          "senderId": null,
+          "text": "I don't remember",
+          "option": "I don't remember",
+          "nextIds": [
+            121160016
+          ],
+          "kind": "Player"
+        },
+        "121160016": {
+          "type": "Text",
+          "id": 121160016,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "It's okay if you don't remember. Come to the Artisanship Commission. I'll show him to you",
+          "option": null,
+          "nextIds": [
+            121160017
+          ],
+          "kind": "NPC"
+        },
+        "121160017": {
+          "type": "Text",
+          "id": 121160017,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "I was sent here by the master diviner to assist the Artisanship Commission in assessing the damages",
+          "option": null,
+          "nextIds": [
+            121160018
+          ],
+          "kind": "NPC"
+        },
+        "121160018": {
+          "type": "Text",
+          "id": 121160018,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "Everything was going well, but now the situation with Chengjie is getting beyond my scope of work...",
+          "option": null,
+          "nextIds": [
+            121160019
+          ],
+          "kind": "NPC"
+        },
+        "121160019": {
+          "type": "Text",
+          "id": 121160019,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "Can you come over to find me? I am at the Artisanship Commission's port",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121160015": {
+          "type": "Text",
+          "id": 121160015,
+          "sectionId": 1211600,
+          "senderId": null,
+          "text": "Chengjie, the apprentice... I think I remember him",
+          "option": "I kind of remember",
+          "nextIds": [
+            121160020
+          ],
+          "kind": "Player"
+        },
+        "121160020": {
+          "type": "Text",
+          "id": 121160020,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "Then that's easy",
+          "option": null,
+          "nextIds": [
+            121160017
+          ],
+          "kind": "NPC"
+        },
+        "121160008": {
+          "type": "Text",
+          "id": 121160008,
+          "sectionId": 1211600,
+          "senderId": null,
+          "text": "How about this? You recall the message now, and we forget about the whole thing",
+          "option": "Can I pretend not to know?",
+          "nextIds": [
+            121160009
+          ],
+          "kind": "Player"
+        },
+        "121160009": {
+          "type": "Text",
+          "id": 121160009,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "No!",
+          "option": null,
+          "nextIds": [
+            121160013
+          ],
+          "kind": "NPC"
+        },
+        "121160002": {
+          "type": "Text",
+          "id": 121160002,
+          "sectionId": 1211600,
+          "senderId": null,
+          "text": "Don't beat around the bush. What's the matter?",
+          "option": "Sounds like you need a favor",
+          "nextIds": [
+            121160010
+          ],
+          "kind": "Player"
+        },
+        "121160010": {
+          "type": "Text",
+          "id": 121160010,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "It seems that you are already used to the pleasantries people use on Xianzhou, and know when the work will come.\\nYou will go far, young {F#lady}{M#man}! I believe you will soon understand my three basic principles for happiness at work",
+          "option": null,
+          "nextIds": [
+            121160011
+          ],
+          "kind": "NPC"
+        },
+        "121160011": {
+          "type": "Text",
+          "id": 121160011,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "But the trouble comes from me this time. Please don't shrug it off and do help me",
+          "option": null,
+          "nextIds": [
+            121160013
+          ],
+          "kind": "NPC"
+        },
+        "121160003": {
+          "type": "Text",
+          "id": 121160003,
+          "sectionId": 1211600,
+          "senderId": null,
+          "text": "I am brave and kind, and I love to help others.",
+          "option": "That's me alright!",
+          "nextIds": [
+            121160012
+          ],
+          "kind": "Player"
+        },
+        "121160012": {
+          "type": "Text",
+          "id": 121160012,
+          "sectionId": 1211600,
+          "senderId": 1201,
+          "text": "Great! A brave and kind person like you can definitely help me",
+          "option": null,
+          "nextIds": [
+            121160013
+          ],
+          "kind": "NPC"
+        }
+      },
+      "mission": {
+        "id": 2020401,
+        "name": "A Teacher and a Friend",
+        "type": "Branch"
+      }
+    },
+    {
+      "type": "MissionMessage",
+      "id": 1212400,
+      "startIds": [
+        121240000
+      ],
+      "messages": {
+        "121240000": {
+          "type": "Text",
+          "id": 121240000,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "Hey, I'm gonna cut to the chase",
+          "option": null,
+          "nextIds": [
+            121240001
+          ],
+          "kind": "NPC"
+        },
+        "121240001": {
+          "type": "Text",
+          "id": 121240001,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "Have you heard from Chengjie lately?",
+          "option": null,
+          "nextIds": [
+            121240002,
+            121240011,
+            121240012
+          ],
+          "kind": "NPC"
+        },
+        "121240002": {
+          "type": "Text",
+          "id": 121240002,
+          "sectionId": 1212400,
+          "senderId": null,
+          "text": "Who's Chengjie again?",
+          "option": "Who's Chengjie?",
+          "nextIds": [
+            121240003
+          ],
+          "kind": "Player"
+        },
+        "121240003": {
+          "type": "Text",
+          "id": 121240003,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "Wow, you sure forget things fast",
+          "option": null,
+          "nextIds": [
+            121240004
+          ],
+          "kind": "NPC"
+        },
+        "121240004": {
+          "type": "Text",
+          "id": 121240004,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "Lemme show you some keywords to jog your memory",
+          "option": null,
+          "nextIds": [
+            121240005
+          ],
+          "kind": "NPC"
+        },
+        "121240005": {
+          "type": "Text",
+          "id": 121240005,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "The master's dream",
+          "option": null,
+          "nextIds": [
+            121240006
+          ],
+          "kind": "NPC"
+        },
+        "121240006": {
+          "type": "Text",
+          "id": 121240006,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "Artisanship Commission apprentice",
+          "option": null,
+          "nextIds": [
+            121240007
+          ],
+          "kind": "NPC"
+        },
+        "121240007": {
+          "type": "Text",
+          "id": 121240007,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "The person who only worked on his dream for three days",
+          "option": null,
+          "nextIds": [
+            121240008,
+            121240010
+          ],
+          "kind": "NPC"
+        },
+        "121240008": {
+          "type": "Text",
+          "id": 121240008,
+          "sectionId": 1212400,
+          "senderId": null,
+          "text": "Sorry, I don't know him",
+          "option": "I don't know him",
+          "nextIds": [
+            121240009
+          ],
+          "kind": "Player"
+        },
+        "121240009": {
+          "type": "Text",
+          "id": 121240009,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "You either only have seven seconds of memory, or you haven't talked to him for too long, or your enthusiasm was hurt by his laziness...",
+          "option": null,
+          "nextIds": [
+            121240013
+          ],
+          "kind": "NPC"
+        },
+        "121240013": {
+          "type": "Text",
+          "id": 121240013,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "I'm not a close friend of his, but since he's my game mate, I'm still quite worried whether his mental state is...",
+          "option": null,
+          "nextIds": [
+            121240014
+          ],
+          "kind": "NPC"
+        },
+        "121240014": {
+          "type": "Text",
+          "id": 121240014,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "Is fit to play with me in the future",
+          "option": null,
+          "nextIds": [
+            121240015
+          ],
+          "kind": "NPC"
+        },
+        "121240015": {
+          "type": "Text",
+          "id": 121240015,
+          "sectionId": 1212400,
+          "senderId": 1201,
+          "text": "So, let's go check up on him. I'll see you at the Artisanship Commission",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121240010": {
+          "type": "Text",
+          "id": 121240010,
+          "sectionId": 1212400,
+          "senderId": null,
+          "text": "I remember him now. But we haven't talked for a while",
+          "option": "We haven't talked for a while",
+          "nextIds": [
+            121240013
+          ],
+          "kind": "Player"
+        },
+        "121240011": {
+          "type": "Text",
+          "id": 121240011,
+          "sectionId": 1212400,
+          "senderId": null,
+          "text": "We haven't talked for a while",
+          "option": "We haven't talked for a while",
+          "nextIds": [
+            121240013
+          ],
+          "kind": "Player"
+        },
+        "121240012": {
+          "type": "Text",
+          "id": 121240012,
+          "sectionId": 1212400,
+          "senderId": null,
+          "text": "Chengjie told me to wait for news, but he never sent anything",
+          "option": "He told me to wait for updates",
+          "nextIds": [
+            121240013
+          ],
+          "kind": "Player"
+        }
+      },
+      "mission": {
+        "id": 2020403,
+        "name": "A Teacher and a Friend: Continued",
+        "type": "Branch"
+      }
+    }
+  ],
+  "info": {
+    "id": 1201,
+    "name": "Qingque",
+    "signature": "Go ahead and work, just don't interrupt my game",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/1201.png",
+    "type": 1,
+    "camp": 4
+  }
+}

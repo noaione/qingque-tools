@@ -1,0 +1,1302 @@
+{
+  "id": 1108,
+  "sections": [
+    {
+      "type": "MissionMessage",
+      "id": 1110200,
+      "startIds": [
+        111020000
+      ],
+      "messages": {
+        "111020000": {
+          "type": "Text",
+          "id": 111020000,
+          "sectionId": 1110200,
+          "senderId": 1108,
+          "text": "{NICKNAME}, my hero! I finally got a hold of you! You must save me!",
+          "option": null,
+          "nextIds": [
+            111020001,
+            111020002
+          ],
+          "kind": "NPC"
+        },
+        "111020001": {
+          "type": "Text",
+          "id": 111020001,
+          "sectionId": 1110200,
+          "senderId": null,
+          "text": "And if I don't?",
+          "option": "And if I don't?",
+          "nextIds": [
+            111020003
+          ],
+          "kind": "Player"
+        },
+        "111020003": {
+          "type": "Text",
+          "id": 111020003,
+          "sectionId": 1110200,
+          "senderId": 1108,
+          "text": "Please reply soon! I'm begging you. It's life and death!",
+          "option": null,
+          "nextIds": [
+            111020005
+          ],
+          "kind": "NPC"
+        },
+        "111020005": {
+          "type": "Text",
+          "id": 111020005,
+          "sectionId": 1110200,
+          "senderId": 1108,
+          "text": "When you have a second, meet me at the Great Mine, my valuable patron! Every second matters. My life is in your hands now, friend",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111020002": {
+          "type": "Text",
+          "id": 111020002,
+          "sectionId": 1110200,
+          "senderId": null,
+          "text": "Sorry, your message could not be sent. Please try again later",
+          "option": "Sorry, your message could not be sent. Please try again later",
+          "nextIds": [
+            111020004
+          ],
+          "kind": "Player"
+        },
+        "111020004": {
+          "type": "Text",
+          "id": 111020004,
+          "sectionId": 1110200,
+          "senderId": 1108,
+          "text": "Could not be sent? Does this even work...?",
+          "option": null,
+          "nextIds": [
+            111020005
+          ],
+          "kind": "NPC"
+        }
+      },
+      "mission": {
+        "id": 2010502,
+        "name": "Survival Wisdom",
+        "type": "Branch"
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2002000,
+      "startIds": [
+        200200000
+      ],
+      "messages": {
+        "200200000": {
+          "type": "Text",
+          "id": 200200000,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "Hey fam!",
+          "option": null,
+          "nextIds": [
+            200200001
+          ],
+          "kind": "NPC"
+        },
+        "200200001": {
+          "type": "Text",
+          "id": 200200001,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "Help me forward this link?",
+          "option": null,
+          "nextIds": [
+            200200002
+          ],
+          "kind": "NPC"
+        },
+        "200200002": {
+          "type": "Text",
+          "id": 200200002,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "<u>\"Are you earning money selling ancient relics? With a bear market for the first half of the year, this kind of relic has been the most profitable\"</u>",
+          "option": null,
+          "nextIds": [
+            200200003,
+            200200005,
+            200200008
+          ],
+          "kind": "NPC"
+        },
+        "200200003": {
+          "type": "Text",
+          "id": 200200003,
+          "sectionId": 2002000,
+          "senderId": null,
+          "text": "Consider it done",
+          "option": "Consider it done",
+          "nextIds": [
+            200200004
+          ],
+          "kind": "Player"
+        },
+        "200200004": {
+          "type": "Text",
+          "id": 200200004,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "You are a literal god",
+          "option": null,
+          "nextIds": [
+            200200011
+          ],
+          "kind": "NPC"
+        },
+        "200200011": {
+          "type": "Text",
+          "id": 200200011,
+          "sectionId": 2002000,
+          "senderId": null,
+          "text": "So, which relic was the most profitable?",
+          "option": "Which relic was the most profitable?",
+          "nextIds": [
+            200200012
+          ],
+          "kind": "Player"
+        },
+        "200200012": {
+          "type": "Sticker",
+          "id": 200200012,
+          "sectionId": 2002000,
+          "senderId": null,
+          "text": "[Confused]",
+          "option": null,
+          "nextIds": [
+            200200013
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200200013": {
+          "type": "Text",
+          "id": 200200013,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "The article already wrote about it...",
+          "option": null,
+          "nextIds": [
+            200200014
+          ],
+          "kind": "NPC"
+        },
+        "200200014": {
+          "type": "Text",
+          "id": 200200014,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "It's ancient mobile phones!",
+          "option": null,
+          "nextIds": [
+            200200015
+          ],
+          "kind": "NPC"
+        },
+        "200200015": {
+          "type": "Text",
+          "id": 200200015,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "Those can put you in touch with ancient people, after all",
+          "option": null,
+          "nextIds": [
+            200200028
+          ],
+          "kind": "NPC"
+        },
+        "200200028": {
+          "type": "Text",
+          "id": 200200028,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "Hahahahaha",
+          "option": null,
+          "nextIds": [
+            200200016
+          ],
+          "kind": "NPC"
+        },
+        "200200016": {
+          "type": "Sticker",
+          "id": 200200016,
+          "sectionId": 2002000,
+          "senderId": null,
+          "text": "[Confused]",
+          "option": "?",
+          "nextIds": [
+            200200017
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200200017": {
+          "type": "Text",
+          "id": 200200017,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "And the older the phone is, the more ancient these people are",
+          "option": null,
+          "nextIds": [
+            200200018
+          ],
+          "kind": "NPC"
+        },
+        "200200018": {
+          "type": "Text",
+          "id": 200200018,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "You've earned back your investment the moment you bought one. It'll never go down in value.",
+          "option": null,
+          "nextIds": [
+            200200019
+          ],
+          "kind": "NPC"
+        },
+        "200200019": {
+          "type": "Text",
+          "id": 200200019,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "If you don't believe me, then I can give you one",
+          "option": null,
+          "nextIds": [
+            200200020
+          ],
+          "kind": "NPC"
+        },
+        "200200020": {
+          "type": "Text",
+          "id": 200200020,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "I'll put you on the waiting list, but you have to wait about 7 days",
+          "option": null,
+          "nextIds": [
+            200200021
+          ],
+          "kind": "NPC"
+        },
+        "200200021": {
+          "type": "Text",
+          "id": 200200021,
+          "sectionId": 2002000,
+          "senderId": null,
+          "text": "There is a waiting list for ancient relics?",
+          "option": "There is a waiting list for ancient relics?",
+          "nextIds": [
+            200200022
+          ],
+          "kind": "Player"
+        },
+        "200200022": {
+          "type": "Text",
+          "id": 200200022,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "Yeah. Only after the customer has put in an order can people go make",
+          "option": null,
+          "nextIds": [
+            200200023
+          ],
+          "kind": "NPC"
+        },
+        "200200023": {
+          "type": "Text",
+          "id": 200200023,
+          "sectionId": 2002000,
+          "senderId": null,
+          "text": "Make?",
+          "option": "Make?",
+          "nextIds": [
+            200200024
+          ],
+          "kind": "Player"
+        },
+        "200200024": {
+          "type": "Sticker",
+          "id": 200200024,
+          "sectionId": 2002000,
+          "senderId": null,
+          "text": "[Shocked]",
+          "option": null,
+          "nextIds": [
+            200200025
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20008,
+            "path": "SpriteOutput/Emoji/20008.png",
+            "keywords": "Shocked"
+          }
+        },
+        "200200025": {
+          "type": "Text",
+          "id": 200200025,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "Sorry, typo",
+          "option": null,
+          "nextIds": [
+            200200026
+          ],
+          "kind": "NPC"
+        },
+        "200200026": {
+          "type": "Text",
+          "id": 200200026,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "I meant dig",
+          "option": null,
+          "nextIds": [
+            200200029
+          ],
+          "kind": "NPC"
+        },
+        "200200029": {
+          "type": "Text",
+          "id": 200200029,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "Hahaha",
+          "option": null,
+          "nextIds": [
+            200200027
+          ],
+          "kind": "NPC"
+        },
+        "200200027": {
+          "type": "Sticker",
+          "id": 200200027,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "[finger heart]",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC",
+          "sticker": {
+            "id": 20002,
+            "path": "SpriteOutput/Emoji/20002.png",
+            "keywords": "Finger Heart"
+          }
+        },
+        "200200005": {
+          "type": "Text",
+          "id": 200200005,
+          "sectionId": 2002000,
+          "senderId": null,
+          "text": "What if I refuse",
+          "option": "What if I refuse",
+          "nextIds": [
+            200200006
+          ],
+          "kind": "Player"
+        },
+        "200200006": {
+          "type": "Text",
+          "id": 200200006,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "{F#Miss}{M#Bro}...",
+          "option": null,
+          "nextIds": [
+            200200007
+          ],
+          "kind": "NPC"
+        },
+        "200200007": {
+          "type": "Text",
+          "id": 200200007,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "Won't you help poor Sampo?",
+          "option": null,
+          "nextIds": [
+            200200011
+          ],
+          "kind": "NPC"
+        },
+        "200200008": {
+          "type": "Text",
+          "id": 200200008,
+          "sectionId": 2002000,
+          "senderId": null,
+          "text": "Pay me first",
+          "option": "Pay me first",
+          "nextIds": [
+            200200009
+          ],
+          "kind": "Player"
+        },
+        "200200009": {
+          "type": "Text",
+          "id": 200200009,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "{F#Miss}{M#Bro}, that's too direct.",
+          "option": null,
+          "nextIds": [
+            200200010
+          ],
+          "kind": "NPC"
+        },
+        "200200010": {
+          "type": "Text",
+          "id": 200200010,
+          "sectionId": 2002000,
+          "senderId": 1108,
+          "text": "Won't you help poor Sampo?",
+          "option": null,
+          "nextIds": [
+            200200011
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2003900,
+      "startIds": [
+        200390000
+      ],
+      "messages": {
+        "200390000": {
+          "type": "Text",
+          "id": 200390000,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "Hello good friend, do you require any financial management services? I have a line of products that can help with that",
+          "option": null,
+          "nextIds": [
+            200390001
+          ],
+          "kind": "NPC"
+        },
+        "200390001": {
+          "type": "Text",
+          "id": 200390001,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "They're so versatile and robust, you can recoup your investment in one cycle! Any interest?",
+          "option": null,
+          "nextIds": [
+            200390003,
+            200390020
+          ],
+          "kind": "NPC"
+        },
+        "200390003": {
+          "type": "Text",
+          "id": 200390003,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "Give me one set!",
+          "option": "Say no more, I'll get it!",
+          "nextIds": [
+            200390004
+          ],
+          "kind": "Player"
+        },
+        "200390004": {
+          "type": "Text",
+          "id": 200390004,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "Payment sent!",
+          "option": null,
+          "nextIds": [
+            200390002
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200390002": {
+          "type": "Sticker",
+          "id": 200390002,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "[Thumbs Up]",
+          "option": "Say no more, I'll get it!",
+          "nextIds": [
+            200390005
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200390005": {
+          "type": "Text",
+          "id": 200390005,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "?",
+          "option": null,
+          "nextIds": [
+            200390006
+          ],
+          "kind": "NPC"
+        },
+        "200390006": {
+          "type": "Text",
+          "id": 200390006,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "Whoa, hey there friend, chill out",
+          "option": null,
+          "nextIds": [
+            200390007
+          ],
+          "kind": "NPC"
+        },
+        "200390007": {
+          "type": "Text",
+          "id": 200390007,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "Aren't you going to ask me what kind of new scam this is?",
+          "option": null,
+          "nextIds": [
+            200390008
+          ],
+          "kind": "NPC"
+        },
+        "200390008": {
+          "type": "Sticker",
+          "id": 200390008,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "[confused]",
+          "option": "Are you scared?",
+          "nextIds": [
+            200390009
+          ],
+          "kind": "Player",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200390009": {
+          "type": "Text",
+          "id": 200390009,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "Are you scared?",
+          "option": null,
+          "nextIds": [
+            200390010
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200390010": {
+          "type": "Text",
+          "id": 200390010,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "I'm scared of you, {F#lady}{M#dude}",
+          "option": null,
+          "nextIds": [
+            200390011
+          ],
+          "kind": "NPC"
+        },
+        "200390011": {
+          "type": "Text",
+          "id": 200390011,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "I won't do it again",
+          "option": null,
+          "nextIds": [
+            200390012
+          ],
+          "kind": "NPC"
+        },
+        "200390012": {
+          "type": "Text",
+          "id": 200390012,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "Let's pretend I never sent those to you",
+          "option": null,
+          "nextIds": [
+            200390013
+          ],
+          "kind": "NPC"
+        },
+        "200390013": {
+          "type": "Text",
+          "id": 200390013,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "Please don't report me to the Silvermane Guards, my friend",
+          "option": null,
+          "nextIds": [
+            200390015
+          ],
+          "kind": "NPC"
+        },
+        "200390015": {
+          "type": "Text",
+          "id": 200390015,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "Heehee~",
+          "option": "Heehee~",
+          "nextIds": [
+            200390016
+          ],
+          "kind": "Player"
+        },
+        "200390016": {
+          "type": "Text",
+          "id": 200390016,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "? Don't heehee me, I'm scared out of my pants",
+          "option": null,
+          "nextIds": [
+            200390017
+          ],
+          "kind": "NPC"
+        },
+        "200390017": {
+          "type": "Text",
+          "id": 200390017,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "{F#Miss}{M#Dude}?",
+          "option": null,
+          "nextIds": [
+            200390018
+          ],
+          "kind": "NPC"
+        },
+        "200390018": {
+          "type": "Text",
+          "id": 200390018,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "Dang it, you're not on the way to the guards, are you...",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200390020": {
+          "type": "Text",
+          "id": 200390020,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "What kind of new scam are you pulling this time",
+          "option": "New scam?",
+          "nextIds": [
+            200390021
+          ],
+          "kind": "Player"
+        },
+        "200390021": {
+          "type": "Text",
+          "id": 200390021,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "The Sampo kind?",
+          "option": null,
+          "nextIds": [
+            200390019
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200390019": {
+          "type": "Sticker",
+          "id": 200390019,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "[Confused]",
+          "option": "New scam?",
+          "nextIds": [
+            200390022
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200390022": {
+          "type": "Text",
+          "id": 200390022,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "Hahahahahaha",
+          "option": null,
+          "nextIds": [
+            200390023
+          ],
+          "kind": "NPC"
+        },
+        "200390023": {
+          "type": "Text",
+          "id": 200390023,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "You're funny",
+          "option": null,
+          "nextIds": [
+            200390024
+          ],
+          "kind": "NPC"
+        },
+        "200390024": {
+          "type": "Text",
+          "id": 200390024,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "This is purely an investment plan, it's very stable",
+          "option": null,
+          "nextIds": [
+            200390025
+          ],
+          "kind": "NPC"
+        },
+        "200390025": {
+          "type": "Text",
+          "id": 200390025,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "You can send me some money and try it out, if you lose money, I'll pay you back, how 'bout that?",
+          "option": null,
+          "nextIds": [
+            200390027
+          ],
+          "kind": "NPC"
+        },
+        "200390027": {
+          "type": "Text",
+          "id": 200390027,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "I want to",
+          "option": "I want to",
+          "nextIds": [
+            200390028
+          ],
+          "kind": "Player"
+        },
+        "200390028": {
+          "type": "Text",
+          "id": 200390028,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "But I have no money!",
+          "option": null,
+          "nextIds": [
+            200390029
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200390029": {
+          "type": "Text",
+          "id": 200390029,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "?",
+          "option": null,
+          "nextIds": [
+            200390030
+          ],
+          "kind": "NPC"
+        },
+        "200390030": {
+          "type": "Text",
+          "id": 200390030,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "You should've led with that",
+          "option": null,
+          "nextIds": [
+            200390031
+          ],
+          "kind": "NPC"
+        },
+        "200390031": {
+          "type": "Text",
+          "id": 200390031,
+          "sectionId": 2003900,
+          "senderId": 1108,
+          "text": "I have other business to attend to, catch up soon",
+          "option": null,
+          "nextIds": [
+            200390032
+          ],
+          "kind": "NPC"
+        },
+        "200390032": {
+          "type": "Sticker",
+          "id": 200390032,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "[confused]",
+          "option": null,
+          "nextIds": [
+            200390033
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20007,
+            "path": "SpriteOutput/Emoji/20007.png",
+            "keywords": "Puzzled"
+          }
+        },
+        "200390033": {
+          "type": "Text",
+          "id": 200390033,
+          "sectionId": 2003900,
+          "senderId": null,
+          "text": "Rude!",
+          "option": "Rude!",
+          "nextIds": [],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2004000,
+      "startIds": [
+        200400000
+      ],
+      "messages": {
+        "200400000": {
+          "type": "Text",
+          "id": 200400000,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "Fam",
+          "option": null,
+          "nextIds": [
+            200400001
+          ],
+          "kind": "NPC"
+        },
+        "200400001": {
+          "type": "Text",
+          "id": 200400001,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "I've been thinking about something",
+          "option": null,
+          "nextIds": [
+            200400002
+          ],
+          "kind": "NPC"
+        },
+        "200400002": {
+          "type": "Text",
+          "id": 200400002,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "I think",
+          "option": null,
+          "nextIds": [
+            200400003
+          ],
+          "kind": "NPC"
+        },
+        "200400003": {
+          "type": "Text",
+          "id": 200400003,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "After being in the business for so long",
+          "option": null,
+          "nextIds": [
+            200400004
+          ],
+          "kind": "NPC"
+        },
+        "200400004": {
+          "type": "Text",
+          "id": 200400004,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "I'm really",
+          "option": null,
+          "nextIds": [
+            200400005
+          ],
+          "kind": "NPC"
+        },
+        "200400005": {
+          "type": "Text",
+          "id": 200400005,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "tired",
+          "option": null,
+          "nextIds": [
+            200400006
+          ],
+          "kind": "NPC"
+        },
+        "200400006": {
+          "type": "Text",
+          "id": 200400006,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "I wanna quit",
+          "option": null,
+          "nextIds": [
+            200400007
+          ],
+          "kind": "NPC"
+        },
+        "200400007": {
+          "type": "Text",
+          "id": 200400007,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "What do you think",
+          "option": null,
+          "nextIds": [
+            200400009,
+            200400017,
+            200400024
+          ],
+          "kind": "NPC"
+        },
+        "200400009": {
+          "type": "Text",
+          "id": 200400009,
+          "sectionId": 2004000,
+          "senderId": null,
+          "text": "I think this is a good thing",
+          "option": "This is a good thing",
+          "nextIds": [
+            200400010
+          ],
+          "kind": "Player"
+        },
+        "200400010": {
+          "type": "Text",
+          "id": 200400010,
+          "sectionId": 2004000,
+          "senderId": null,
+          "text": "One fewer person to watch out for",
+          "option": null,
+          "nextIds": [
+            200400011
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200400011": {
+          "type": "Text",
+          "id": 200400011,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "Hahahahaha",
+          "option": null,
+          "nextIds": [
+            200400012
+          ],
+          "kind": "NPC"
+        },
+        "200400012": {
+          "type": "Text",
+          "id": 200400012,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "You're so funny",
+          "option": null,
+          "nextIds": [
+            200400013
+          ],
+          "kind": "NPC"
+        },
+        "200400013": {
+          "type": "Text",
+          "id": 200400013,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "Honestly I thought so too",
+          "option": null,
+          "nextIds": [
+            200400014
+          ],
+          "kind": "NPC"
+        },
+        "200400014": {
+          "type": "Text",
+          "id": 200400014,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "It's not easy to just quit though",
+          "option": null,
+          "nextIds": [
+            200400015
+          ],
+          "kind": "NPC"
+        },
+        "200400015": {
+          "type": "Text",
+          "id": 200400015,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "Gotta do other businesses to feed mouths, right?",
+          "option": null,
+          "nextIds": [
+            200400030
+          ],
+          "kind": "NPC"
+        },
+        "200400030": {
+          "type": "Text",
+          "id": 200400030,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "For that to happen, I have to have a capital",
+          "option": null,
+          "nextIds": [
+            200400031
+          ],
+          "kind": "NPC"
+        },
+        "200400031": {
+          "type": "Text",
+          "id": 200400031,
+          "sectionId": 2004000,
+          "senderId": null,
+          "text": "I gotta shower, talk to you soon",
+          "option": "Gotta shower",
+          "nextIds": [
+            200400032
+          ],
+          "kind": "Player"
+        },
+        "200400032": {
+          "type": "Text",
+          "id": 200400032,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "I haven't finished yet!",
+          "option": null,
+          "nextIds": [
+            200400033
+          ],
+          "kind": "NPC"
+        },
+        "200400033": {
+          "type": "Text",
+          "id": 200400033,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "Friend?",
+          "option": null,
+          "nextIds": [
+            200400034
+          ],
+          "kind": "NPC"
+        },
+        "200400034": {
+          "type": "Text",
+          "id": 200400034,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "Hello?",
+          "option": null,
+          "nextIds": [
+            200400035
+          ],
+          "kind": "NPC"
+        },
+        "200400035": {
+          "type": "Text",
+          "id": 200400035,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "Are you really showering?",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200400017": {
+          "type": "Text",
+          "id": 200400017,
+          "sectionId": 2004000,
+          "senderId": null,
+          "text": "I don't think it's that good an idea",
+          "option": "This is a bad thing",
+          "nextIds": [
+            200400018
+          ],
+          "kind": "Player"
+        },
+        "200400018": {
+          "type": "Text",
+          "id": 200400018,
+          "sectionId": 2004000,
+          "senderId": null,
+          "text": "I can't think of what else you can do aside from scamming people",
+          "option": null,
+          "nextIds": [
+            200400019
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200400019": {
+          "type": "Text",
+          "id": 200400019,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "Hahahahaha",
+          "option": null,
+          "nextIds": [
+            200400020
+          ],
+          "kind": "NPC"
+        },
+        "200400020": {
+          "type": "Text",
+          "id": 200400020,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "You're so funny",
+          "option": null,
+          "nextIds": [
+            200400021
+          ],
+          "kind": "NPC"
+        },
+        "200400021": {
+          "type": "Text",
+          "id": 200400021,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "I am still a traveling merchant in my daily hustle, it's not anything illegal",
+          "option": null,
+          "nextIds": [
+            200400022
+          ],
+          "kind": "NPC"
+        },
+        "200400022": {
+          "type": "Text",
+          "id": 200400022,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "I just want to do a small business and live a simple life, that sounds good to me",
+          "option": null,
+          "nextIds": [
+            200400030
+          ],
+          "kind": "NPC"
+        },
+        "200400024": {
+          "type": "Text",
+          "id": 200400024,
+          "sectionId": 2004000,
+          "senderId": null,
+          "text": "I can't say for sure",
+          "option": "I can't say for sure",
+          "nextIds": [
+            200400025
+          ],
+          "kind": "Player"
+        },
+        "200400025": {
+          "type": "Text",
+          "id": 200400025,
+          "sectionId": 2004000,
+          "senderId": null,
+          "text": "Is this some new kind of scam you're pulling?",
+          "option": null,
+          "nextIds": [
+            200400026
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200400026": {
+          "type": "Text",
+          "id": 200400026,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "Hahahahaha",
+          "option": null,
+          "nextIds": [
+            200400027
+          ],
+          "kind": "NPC"
+        },
+        "200400027": {
+          "type": "Text",
+          "id": 200400027,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "You're so funny",
+          "option": null,
+          "nextIds": [
+            200400028
+          ],
+          "kind": "NPC"
+        },
+        "200400028": {
+          "type": "Text",
+          "id": 200400028,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "Why would I do that? I've always been loyal to my fams!",
+          "option": null,
+          "nextIds": [
+            200400029
+          ],
+          "kind": "NPC"
+        },
+        "200400029": {
+          "type": "Text",
+          "id": 200400029,
+          "sectionId": 2004000,
+          "senderId": 1108,
+          "text": "I just want to do a small business and live a simple life, that sounds good to me",
+          "option": null,
+          "nextIds": [
+            200400030
+          ],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 1108,
+    "name": "Sampo",
+    "signature": "Certified ancient relic agent",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/1108.png",
+    "type": 1,
+    "camp": 3
+  }
+}

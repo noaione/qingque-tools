@@ -1,0 +1,152 @@
+{
+  "id": 51,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1211501,
+      "startIds": [
+        121151001
+      ],
+      "messages": {
+        "121151001": {
+          "type": "Text",
+          "id": 121151001,
+          "sectionId": 1211501,
+          "senderId": 51,
+          "text": "{NICKNAME}, did you learn anything from General Jing Yuan?",
+          "option": null,
+          "nextIds": [
+            121151002
+          ],
+          "kind": "NPC"
+        },
+        "121151002": {
+          "type": "Text",
+          "id": 121151002,
+          "sectionId": 1211501,
+          "senderId": 51,
+          "text": "Xikui said Mom's busy, so I'm headed back to the Sky-Faring Commission",
+          "option": null,
+          "nextIds": [
+            121151003
+          ],
+          "kind": "NPC"
+        },
+        "121151003": {
+          "type": "Text",
+          "id": 121151003,
+          "sectionId": 1211501,
+          "senderId": 51,
+          "text": "If you did learn something, can you come meet up with me?",
+          "option": null,
+          "nextIds": [
+            121151004
+          ],
+          "kind": "NPC"
+        },
+        "121151004": {
+          "type": "Text",
+          "id": 121151004,
+          "sectionId": 1211501,
+          "senderId": 51,
+          "text": "I want to ask my Sky-Faring Commission colleagues as much as I can... but I don't know how to start...",
+          "option": null,
+          "nextIds": [
+            121151005,
+            121151006
+          ],
+          "kind": "NPC"
+        },
+        "121151005": {
+          "type": "Text",
+          "id": 121151005,
+          "sectionId": 1211501,
+          "senderId": null,
+          "text": "Do you know someone called \"Caiyi\"? I heard she was your mother's best friend",
+          "option": "Do you know a \"Caiyi?\"",
+          "nextIds": [
+            121151007
+          ],
+          "kind": "Player"
+        },
+        "121151007": {
+          "type": "Text",
+          "id": 121151007,
+          "sectionId": 1211501,
+          "senderId": 51,
+          "text": "...",
+          "option": null,
+          "nextIds": [
+            121151008
+          ],
+          "kind": "NPC"
+        },
+        "121151008": {
+          "type": "Text",
+          "id": 121151008,
+          "sectionId": 1211501,
+          "senderId": 51,
+          "text": "I actually guessed there would be some connection",
+          "option": null,
+          "nextIds": [
+            121151009
+          ],
+          "kind": "NPC"
+        },
+        "121151009": {
+          "type": "Text",
+          "id": 121151009,
+          "sectionId": 1211501,
+          "senderId": 51,
+          "text": "It's hard to explain over text. Let's meet up",
+          "option": null,
+          "nextIds": [
+            121151010,
+            121151011
+          ],
+          "kind": "NPC"
+        },
+        "121151010": {
+          "type": "Text",
+          "id": 121151010,
+          "sectionId": 1211501,
+          "senderId": null,
+          "text": "See you in a bit",
+          "option": "See you in a bit",
+          "nextIds": [],
+          "kind": "Player"
+        },
+        "121151011": {
+          "type": "Text",
+          "id": 121151011,
+          "sectionId": 1211501,
+          "senderId": null,
+          "text": "See you later",
+          "option": "See you later",
+          "nextIds": [],
+          "kind": "Player"
+        },
+        "121151006": {
+          "type": "Text",
+          "id": 121151006,
+          "sectionId": 1211501,
+          "senderId": null,
+          "text": "Jing Yuan did mention someone named \"Caiyi,\" and said you were very close to her",
+          "option": "He mentioned a \"Caiyi\"...",
+          "nextIds": [
+            121151007
+          ],
+          "kind": "Player"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 51,
+    "name": "Qingni",
+    "signature": "Traversing this vast universe in the blink of an eye",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Qingni.png",
+    "type": 2,
+    "camp": 4
+  }
+}

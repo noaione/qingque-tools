@@ -1,0 +1,286 @@
+{
+  "id": 53,
+  "sections": [
+    {
+      "type": "MissionMessage",
+      "id": 1211800,
+      "startIds": [
+        121180000
+      ],
+      "messages": {
+        "121180000": {
+          "type": "Text",
+          "id": 121180000,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "{NICKNAME}, come to the Divination Commission alone. I'll send you the coordinates",
+          "option": null,
+          "nextIds": [
+            121180001
+          ],
+          "kind": "NPC"
+        },
+        "121180001": {
+          "type": "Text",
+          "id": 121180001,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "Don't tell anyone",
+          "option": null,
+          "nextIds": [
+            121180002
+          ],
+          "kind": "NPC"
+        },
+        "121180002": {
+          "type": "Text",
+          "id": 121180002,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "- Sincerely Yours, Kafka",
+          "option": null,
+          "nextIds": [
+            121180003,
+            121180005,
+            121180008
+          ],
+          "kind": "NPC"
+        },
+        "121180003": {
+          "type": "Text",
+          "id": 121180003,
+          "sectionId": 1211800,
+          "senderId": null,
+          "text": "Kafka... How are you still on the Luofu?",
+          "option": "You're still on the Luofu?",
+          "nextIds": [
+            121180004
+          ],
+          "kind": "Player"
+        },
+        "121180004": {
+          "type": "Text",
+          "id": 121180004,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "I can't leave, need your help",
+          "option": null,
+          "nextIds": [
+            121180010
+          ],
+          "kind": "NPC"
+        },
+        "121180010": {
+          "type": "Text",
+          "id": 121180010,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "Bladie's mara symptoms are getting serious, I can't leave before he recovers",
+          "option": null,
+          "nextIds": [
+            121180011
+          ],
+          "kind": "NPC"
+        },
+        "121180011": {
+          "type": "Text",
+          "id": 121180011,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "But you know, the bounty on his head has not been canceled yet, he is still the top wanted criminal on the Xianzhou",
+          "option": null,
+          "nextIds": [
+            121180012
+          ],
+          "kind": "NPC"
+        },
+        "121180012": {
+          "type": "Text",
+          "id": 121180012,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "I need you {NICKNAME}, come find me",
+          "option": null,
+          "nextIds": [
+            121180013,
+            121180014,
+            121180015
+          ],
+          "kind": "NPC"
+        },
+        "121180013": {
+          "type": "Text",
+          "id": 121180013,
+          "sectionId": 1211800,
+          "senderId": null,
+          "text": "Where are you? Send me your coordinates",
+          "option": "Coordinates",
+          "nextIds": [
+            121180016
+          ],
+          "kind": "Player"
+        },
+        "121180016": {
+          "type": "Text",
+          "id": 121180016,
+          "sectionId": 1211800,
+          "senderId": null,
+          "text": "You have received a location message sent by an anonymous sender.",
+          "option": null,
+          "nextIds": [
+            121180017
+          ],
+          "kind": "System"
+        },
+        "121180017": {
+          "type": "Text",
+          "id": 121180017,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "You'll be here, I'll wait",
+          "option": null,
+          "nextIds": [
+            121180018,
+            121180019
+          ],
+          "kind": "NPC"
+        },
+        "121180018": {
+          "type": "Text",
+          "id": 121180018,
+          "sectionId": 1211800,
+          "senderId": null,
+          "text": "Okay",
+          "option": "Okay",
+          "nextIds": [
+            121180020
+          ],
+          "kind": "Player"
+        },
+        "121180020": {
+          "type": "Text",
+          "id": 121180020,
+          "sectionId": 1211800,
+          "senderId": null,
+          "text": "Error: Recipient does not exist",
+          "option": null,
+          "nextIds": [],
+          "kind": "System"
+        },
+        "121180019": {
+          "type": "Text",
+          "id": 121180019,
+          "sectionId": 1211800,
+          "senderId": null,
+          "text": "Suit yourself",
+          "option": "Suit yourself",
+          "nextIds": [
+            121180020
+          ],
+          "kind": "Player"
+        },
+        "121180014": {
+          "type": "Text",
+          "id": 121180014,
+          "sectionId": 1211800,
+          "senderId": null,
+          "text": "Give up, Kafka, I won't be going",
+          "option": "I won't be going",
+          "nextIds": [
+            121180016
+          ],
+          "kind": "Player"
+        },
+        "121180015": {
+          "type": "Text",
+          "id": 121180015,
+          "sectionId": 1211800,
+          "senderId": null,
+          "text": "I still want to use this number, so don't contact me again",
+          "option": "Don't contact me again",
+          "nextIds": [
+            121180016
+          ],
+          "kind": "Player"
+        },
+        "121180005": {
+          "type": "Text",
+          "id": 121180005,
+          "sectionId": 1211800,
+          "senderId": null,
+          "text": "You say you're Kafka? Where's the proof?",
+          "option": "I don't believe you're Kafka",
+          "nextIds": [
+            121180006
+          ],
+          "kind": "Player"
+        },
+        "121180006": {
+          "type": "Image",
+          "id": 121180006,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "[Image]",
+          "option": null,
+          "nextIds": [
+            121180007
+          ],
+          "kind": "NPC",
+          "image": {
+            "id": 10206,
+            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10202.png"
+          }
+        },
+        "121180007": {
+          "type": "Text",
+          "id": 121180007,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "Is that enough?",
+          "option": null,
+          "nextIds": [
+            121180010
+          ],
+          "kind": "NPC"
+        },
+        "121180008": {
+          "type": "Text",
+          "id": 121180008,
+          "sectionId": 1211800,
+          "senderId": null,
+          "text": "Don't waste your effort, I won't heed your requests",
+          "option": "I won't heed your requests",
+          "nextIds": [
+            121180009
+          ],
+          "kind": "Player"
+        },
+        "121180009": {
+          "type": "Text",
+          "id": 121180009,
+          "sectionId": 1211800,
+          "senderId": 53,
+          "text": "Is that so? But I really need your help",
+          "option": null,
+          "nextIds": [
+            121180010
+          ],
+          "kind": "NPC"
+        }
+      },
+      "mission": {
+        "id": 6020201,
+        "name": "Letter from a Strange Woman",
+        "type": "Companion"
+      }
+    }
+  ],
+  "info": {
+    "id": 53,
+    "name": "Anonymous",
+    "signature": null,
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
+    "type": 2,
+    "camp": 4
+  }
+}

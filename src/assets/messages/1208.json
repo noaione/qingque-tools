@@ -1,0 +1,1286 @@
+{
+  "id": 1208,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 2008800,
+      "startIds": [
+        200880000
+      ],
+      "messages": {
+        "200880000": {
+          "type": "Text",
+          "id": 200880000,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "Say, have you heard of a knowledge-sharing website named Knowfinity?",
+          "option": null,
+          "nextIds": [
+            200880001
+          ],
+          "kind": "NPC"
+        },
+        "200880001": {
+          "type": "Text",
+          "id": 200880001,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "The myriad of topics on this website encompass a diverse range, leaving no stone unturned. Occasionally, I, too, receive invitations to answer some of the questions posted there.",
+          "option": null,
+          "nextIds": [
+            200880002
+          ],
+          "kind": "NPC"
+        },
+        "200880002": {
+          "type": "Text",
+          "id": 200880002,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "Look at this one: <u>How can a leader maximize their direct report's motivation to work</u>.",
+          "option": null,
+          "nextIds": [
+            200880003
+          ],
+          "kind": "NPC"
+        },
+        "200880003": {
+          "type": "Text",
+          "id": 200880003,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "Why exactly do they want to invite me to answer this question...?",
+          "option": null,
+          "nextIds": [
+            200880004,
+            200880019
+          ],
+          "kind": "NPC"
+        },
+        "200880004": {
+          "type": "Text",
+          "id": 200880004,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "You are an outstanding leader... Of course, as the master diviner managing the Divination Commission, a workplace question like this is a piece of cake for you",
+          "option": "Because you're an outstanding leader",
+          "nextIds": [
+            200880005
+          ],
+          "kind": "Player"
+        },
+        "200880005": {
+          "type": "Text",
+          "id": 200880005,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "As the master diviner, you are highly experienced in the workplace, and the other diviners rally around you in unity.",
+          "option": null,
+          "nextIds": [
+            200880006
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200880006": {
+          "type": "Sticker",
+          "id": 200880006,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "",
+          "option": null,
+          "nextIds": [
+            200880007
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200880007": {
+          "type": "Text",
+          "id": 200880007,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "Naturally.",
+          "option": null,
+          "nextIds": [
+            200880008
+          ],
+          "kind": "NPC"
+        },
+        "200880008": {
+          "type": "Text",
+          "id": 200880008,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "\"To govern is to harmonize — higher-ups and underlings must not encroach.\"",
+          "option": null,
+          "nextIds": [
+            200880009
+          ],
+          "kind": "NPC"
+        },
+        "200880009": {
+          "type": "Text",
+          "id": 200880009,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "\"Let those keen of sight be on the lookout, and let those sharp of claws to go on the hunt. Let all use their greatest strength, then all shall attain peace.\"",
+          "option": null,
+          "nextIds": [
+            200880010
+          ],
+          "kind": "NPC"
+        },
+        "200880010": {
+          "type": "Text",
+          "id": 200880010,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "The most important aspect of the workplace is to ensure everyone is employed to do what they do best, and do not intrude upon each other's jobs.",
+          "option": null,
+          "nextIds": [
+            200880011
+          ],
+          "kind": "NPC"
+        },
+        "200880011": {
+          "type": "Text",
+          "id": 200880011,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "\"How can a leader maximize their direct report's motivation to work\" is, in fact, all about \"letting the right person do the right job.\"",
+          "option": null,
+          "nextIds": [
+            200880012,
+            200880013
+          ],
+          "kind": "NPC"
+        },
+        "200880012": {
+          "type": "Text",
+          "id": 200880012,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "This answer is very good as it is. You can probably just copy paste what you just wrote, I think",
+          "option": "That's a pretty good answer",
+          "nextIds": [
+            200880014
+          ],
+          "kind": "Player"
+        },
+        "200880014": {
+          "type": "Text",
+          "id": 200880014,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "I still need to think about this. Since they specifically invited me, they must also want examples from my own circumstances.",
+          "option": null,
+          "nextIds": [
+            200880015
+          ],
+          "kind": "NPC"
+        },
+        "200880015": {
+          "type": "Text",
+          "id": 200880015,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "Can you make diviner Qingque the example?",
+          "option": "Use Qingque as an example?",
+          "nextIds": [
+            200880016
+          ],
+          "kind": "Player"
+        },
+        "200880016": {
+          "type": "Text",
+          "id": 200880016,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "Qingque? She tries her absolute best at being a lazy slacker. Though I have my ways to deal with her...",
+          "option": null,
+          "nextIds": [
+            200880017
+          ],
+          "kind": "NPC"
+        },
+        "200880017": {
+          "type": "Text",
+          "id": 200880017,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "...I fear she is truly lazy to the bone. In fact, she is making me want to post on Knowfinity, \"How can one motivate a habitual slacker to do work\"... No, this example won't do.",
+          "option": null,
+          "nextIds": [
+            200880018
+          ],
+          "kind": "NPC"
+        },
+        "200880018": {
+          "type": "Text",
+          "id": 200880018,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "Hmm... Let me ponder this a bit more...",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200880013": {
+          "type": "Text",
+          "id": 200880013,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "Sounds like you already have your own answer, and I didn't manage to help at all",
+          "option": "I don't think I can help you?",
+          "nextIds": [
+            200880014
+          ],
+          "kind": "Player"
+        },
+        "200880019": {
+          "type": "Text",
+          "id": 200880019,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "You are an outstanding subordinate... Of course, as General Jing Yuan's support staff, a workplace question like this is a piece of cake for you",
+          "option": "Because you're an outstanding subordinate",
+          "nextIds": [
+            200880020
+          ],
+          "kind": "Player"
+        },
+        "200880020": {
+          "type": "Text",
+          "id": 200880020,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "As the master diviner, you are highly experienced in the workplace, and your teamwork with the General of Divine Foresight is flawless in its unity.",
+          "option": null,
+          "nextIds": [
+            200880021
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200880021": {
+          "type": "Sticker",
+          "id": 200880021,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "",
+          "option": null,
+          "nextIds": [
+            200880022
+          ],
+          "kind": "PlayerAuto",
+          "sticker": {
+            "id": 20006,
+            "path": "SpriteOutput/Emoji/20006.png",
+            "keywords": "Like"
+          }
+        },
+        "200880022": {
+          "type": "Text",
+          "id": 200880022,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "...I did not expect you to take this approach.",
+          "option": null,
+          "nextIds": [
+            200880023
+          ],
+          "kind": "NPC"
+        },
+        "200880023": {
+          "type": "Text",
+          "id": 200880023,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "\"To govern is to harmonize — higher-ups and underlings must not encroach.\"",
+          "option": null,
+          "nextIds": [
+            200880024
+          ],
+          "kind": "NPC"
+        },
+        "200880024": {
+          "type": "Text",
+          "id": 200880024,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "\"Let those keen of sight be on the lookout, and let those sharp of claws to go on the hunt. Let all use their greatest strength, then all shall attain peace.\"",
+          "option": null,
+          "nextIds": [
+            200880025
+          ],
+          "kind": "NPC"
+        },
+        "200880025": {
+          "type": "Text",
+          "id": 200880025,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "The general is very perceptive of people, and knows who to use for what task... working with him is indeed a delightful experience. I am not the only one who thinks that about him. I am sure Madam Yukong shares these sentiments.",
+          "option": null,
+          "nextIds": [
+            200880026
+          ],
+          "kind": "NPC"
+        },
+        "200880026": {
+          "type": "Text",
+          "id": 200880026,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "\"How can a leader maximize their direct report's motivation to work\" is, in fact, all about \"letting the right person do the right job.\"",
+          "option": null,
+          "nextIds": [
+            200880027,
+            200880028
+          ],
+          "kind": "NPC"
+        },
+        "200880027": {
+          "type": "Text",
+          "id": 200880027,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "This answer is very good as it is. You can probably just copy paste what you just wrote, I think",
+          "option": "That's a pretty good answer",
+          "nextIds": [
+            200880029
+          ],
+          "kind": "Player"
+        },
+        "200880029": {
+          "type": "Text",
+          "id": 200880029,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "I still need to think about this. Since they specifically invited me, they must also want examples from my own circumstances.",
+          "option": null,
+          "nextIds": [
+            200880030
+          ],
+          "kind": "NPC"
+        },
+        "200880030": {
+          "type": "Text",
+          "id": 200880030,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "Can you make General Jing Yuan the example?",
+          "option": "Use General Jing Yuan as an example?",
+          "nextIds": [
+            200880031
+          ],
+          "kind": "Player"
+        },
+        "200880031": {
+          "type": "Text",
+          "id": 200880031,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "Though I have been working with him for many years, Jing Yuan keeps doing this to make me strategize for him... No, this example won't do.",
+          "option": null,
+          "nextIds": [
+            200880032
+          ],
+          "kind": "NPC"
+        },
+        "200880032": {
+          "type": "Text",
+          "id": 200880032,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "He had merely stirred my motivation in the short term. In the long term... I will not fall for his tricks again.",
+          "option": null,
+          "nextIds": [
+            200880033
+          ],
+          "kind": "NPC"
+        },
+        "200880033": {
+          "type": "Text",
+          "id": 200880033,
+          "sectionId": 2008800,
+          "senderId": 1208,
+          "text": "Hmm... Let me ponder this a bit more...",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200880028": {
+          "type": "Text",
+          "id": 200880028,
+          "sectionId": 2008800,
+          "senderId": null,
+          "text": "Sounds like you already have your own answer, and I didn't manage to help at all",
+          "option": "I don't think I can help you?",
+          "nextIds": [
+            200880029
+          ],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2008900,
+      "startIds": [
+        200890000
+      ],
+      "messages": {
+        "200890000": {
+          "type": "Text",
+          "id": 200890000,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Do you know of The Looking Bronze in Exalting Sanctum? The divination shop ran by Ruoyue?",
+          "option": null,
+          "nextIds": [
+            200890001
+          ],
+          "kind": "NPC"
+        },
+        "200890001": {
+          "type": "Text",
+          "id": 200890001,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "I heard from the other diviners that the shop is quite popular amongst outworlders. Have you been to it? What do you think?",
+          "option": null,
+          "nextIds": [
+            200890002,
+            200890004,
+            200890007
+          ],
+          "kind": "NPC"
+        },
+        "200890002": {
+          "type": "Text",
+          "id": 200890002,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "Ruoyue did a reading for me. She's super accurate",
+          "option": "I've been there. She's way too accurate",
+          "nextIds": [
+            200890003
+          ],
+          "kind": "Player"
+        },
+        "200890003": {
+          "type": "Text",
+          "id": 200890003,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "As expected. After all, she was once a Divination Commission diviner.",
+          "option": null,
+          "nextIds": [
+            200890010
+          ],
+          "kind": "NPC"
+        },
+        "200890010": {
+          "type": "Text",
+          "id": 200890010,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "{NICKNAME}, I have a favor to ask of you.",
+          "option": null,
+          "nextIds": [
+            200890011
+          ],
+          "kind": "NPC"
+        },
+        "200890011": {
+          "type": "Text",
+          "id": 200890011,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Please go do a divination in Ruoyue's shop whenever you pass through Exalting Sanctum, so she will get some business.",
+          "option": null,
+          "nextIds": [
+            200890012
+          ],
+          "kind": "NPC"
+        },
+        "200890012": {
+          "type": "Text",
+          "id": 200890012,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "...That's the least I can do as her former boss.",
+          "option": null,
+          "nextIds": [
+            200890013,
+            200890016,
+            200890019
+          ],
+          "kind": "NPC"
+        },
+        "200890013": {
+          "type": "Text",
+          "id": 200890013,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "You want me to help your old employee's business?",
+          "option": "Can I ask why?",
+          "nextIds": [
+            200890014
+          ],
+          "kind": "Player"
+        },
+        "200890014": {
+          "type": "Text",
+          "id": 200890014,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "Sure, I can do that... but can I ask why?",
+          "option": null,
+          "nextIds": [
+            200890015
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200890015": {
+          "type": "Text",
+          "id": 200890015,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "It's because...",
+          "option": null,
+          "nextIds": [
+            200890023
+          ],
+          "kind": "NPC"
+        },
+        "200890023": {
+          "type": "Text",
+          "id": 200890023,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "*sigh* It was I who personally drove her out of the Divination Commission.",
+          "option": null,
+          "nextIds": [
+            200890024
+          ],
+          "kind": "NPC"
+        },
+        "200890024": {
+          "type": "Text",
+          "id": 200890024,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "The hexagram from the Matrix of Prescience showed that Ruoyue will be driven out of the Divination Commission by my own hands. I fear that implied she might be in mortal danger if she stayed in the Commission.",
+          "option": null,
+          "nextIds": [
+            200890025
+          ],
+          "kind": "NPC"
+        },
+        "200890025": {
+          "type": "Text",
+          "id": 200890025,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Of course, I never told her this. I just told her that I divined this outcome between us.",
+          "option": null,
+          "nextIds": [
+            200890026,
+            200890033
+          ],
+          "kind": "NPC"
+        },
+        "200890026": {
+          "type": "Text",
+          "id": 200890026,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "This is ridiculous",
+          "option": "This is too ridiculous",
+          "nextIds": [
+            200890027
+          ],
+          "kind": "Player"
+        },
+        "200890027": {
+          "type": "Text",
+          "id": 200890027,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "There's no evidence to prove this future will come into being",
+          "option": null,
+          "nextIds": [
+            200890028
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200890028": {
+          "type": "Text",
+          "id": 200890028,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Ruoyue being safe and sound right now is the best evidence.",
+          "option": null,
+          "nextIds": [
+            200890029
+          ],
+          "kind": "NPC"
+        },
+        "200890029": {
+          "type": "Text",
+          "id": 200890029,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "I understand why you are shocked. The ways of divination are obscure and unpredictable. I had a similar reaction to you for the first century during which I studied divination.",
+          "option": null,
+          "nextIds": [
+            200890030
+          ],
+          "kind": "NPC"
+        },
+        "200890030": {
+          "type": "Text",
+          "id": 200890030,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "If one day the Matrix of Prescience told you to quit your job, would you do that?",
+          "option": "What if the Matrix of Prescience wants you to quit?",
+          "nextIds": [
+            200890031
+          ],
+          "kind": "Player"
+        },
+        "200890031": {
+          "type": "Text",
+          "id": 200890031,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "If such a day comes, then I will do it.",
+          "option": null,
+          "nextIds": [
+            200890032
+          ],
+          "kind": "NPC"
+        },
+        "200890032": {
+          "type": "Text",
+          "id": 200890032,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Please make sure you go and see to her business.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200890033": {
+          "type": "Text",
+          "id": 200890033,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "I can understand",
+          "option": "I can understand",
+          "nextIds": [
+            200890034
+          ],
+          "kind": "Player"
+        },
+        "200890034": {
+          "type": "Text",
+          "id": 200890034,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "Factual results determine everything, and there is no way to examine might-have-beens",
+          "option": null,
+          "nextIds": [
+            200890035
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200890035": {
+          "type": "Text",
+          "id": 200890035,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Indeed. Ruoyue being safe and sound right now is the best evidence.",
+          "option": null,
+          "nextIds": [
+            200890036
+          ],
+          "kind": "NPC"
+        },
+        "200890036": {
+          "type": "Text",
+          "id": 200890036,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "I'm impressed that you're not surprised... The ways of divination are obscure and unpredictable. I was constantly confused for the first century during which I studied divination.",
+          "option": null,
+          "nextIds": [
+            200890037
+          ],
+          "kind": "NPC"
+        },
+        "200890037": {
+          "type": "Text",
+          "id": 200890037,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "If one day the Matrix of Prescience told you to quit your job, would you do that?",
+          "option": "What if the Matrix of Prescience wants you to quit?",
+          "nextIds": [
+            200890038
+          ],
+          "kind": "Player"
+        },
+        "200890038": {
+          "type": "Text",
+          "id": 200890038,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "If such a day comes, then I will do it.",
+          "option": null,
+          "nextIds": [
+            200890039
+          ],
+          "kind": "NPC"
+        },
+        "200890039": {
+          "type": "Text",
+          "id": 200890039,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Please make sure you go and see to her business.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200890016": {
+          "type": "Text",
+          "id": 200890016,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "You are rather empathetic today. I'm having a hard time adjusting to this version of Fu Xuan...",
+          "option": "I'm not used to this Fu Xuan...",
+          "nextIds": [
+            200890017
+          ],
+          "kind": "Player"
+        },
+        "200890017": {
+          "type": "Text",
+          "id": 200890017,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "What, do you take me as some emotionless divination robot?",
+          "option": null,
+          "nextIds": [
+            200890018
+          ],
+          "kind": "NPC"
+        },
+        "200890018": {
+          "type": "Text",
+          "id": 200890018,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Actually...",
+          "option": null,
+          "nextIds": [
+            200890023
+          ],
+          "kind": "NPC"
+        },
+        "200890019": {
+          "type": "Text",
+          "id": 200890019,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "It won't be hard for you to personally help her business, right?",
+          "option": "You can't go yourself?",
+          "nextIds": [
+            200890020
+          ],
+          "kind": "Player"
+        },
+        "200890020": {
+          "type": "Text",
+          "id": 200890020,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Put yourself into my shoes for a moment...",
+          "option": null,
+          "nextIds": [
+            200890021
+          ],
+          "kind": "NPC"
+        },
+        "200890021": {
+          "type": "Text",
+          "id": 200890021,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "As the head of the Divination Commission, for me to go to a street side stall to get her fortunes read... wouldn't that be rather strange?",
+          "option": null,
+          "nextIds": [
+            200890022
+          ],
+          "kind": "NPC"
+        },
+        "200890022": {
+          "type": "Text",
+          "id": 200890022,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Besides...",
+          "option": null,
+          "nextIds": [
+            200890023
+          ],
+          "kind": "NPC"
+        },
+        "200890004": {
+          "type": "Text",
+          "id": 200890004,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "Ruoyue did a reading for me. It was mediocre. Wasn't accurate at all",
+          "option": "I've been there. It's not that reliable.",
+          "nextIds": [
+            200890005
+          ],
+          "kind": "Player"
+        },
+        "200890005": {
+          "type": "Text",
+          "id": 200890005,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Really? Would Ruoyue really trick her customers so, now that she's left the Divination Commission?",
+          "option": null,
+          "nextIds": [
+            200890006
+          ],
+          "kind": "NPC"
+        },
+        "200890006": {
+          "type": "Text",
+          "id": 200890006,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "Or did her skills grow rusty...",
+          "option": null,
+          "nextIds": [
+            200890010
+          ],
+          "kind": "NPC"
+        },
+        "200890007": {
+          "type": "Text",
+          "id": 200890007,
+          "sectionId": 2008900,
+          "senderId": null,
+          "text": "The Looking Bronze? I've never been. I don't believe in divination",
+          "option": "Never been there. Don't believe in it",
+          "nextIds": [
+            200890008
+          ],
+          "kind": "Player"
+        },
+        "200890008": {
+          "type": "Text",
+          "id": 200890008,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "You have witnessed my power to divine the future firsthand, {NICKNAME}! You have some guts, saying that you don't believe in divination to the master diviner's face!",
+          "option": null,
+          "nextIds": [
+            200890009
+          ],
+          "kind": "NPC"
+        },
+        "200890009": {
+          "type": "Text",
+          "id": 200890009,
+          "sectionId": 2008900,
+          "senderId": 1208,
+          "text": "To be honest with you, Ruoyue's skills are nothing to scoff at amongst the former employees of the Commission.",
+          "option": null,
+          "nextIds": [
+            200890010
+          ],
+          "kind": "NPC"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 2009000,
+      "startIds": [
+        200900000
+      ],
+      "messages": {
+        "200900000": {
+          "type": "Text",
+          "id": 200900000,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "I wanna drink sugary drinks... Could you please make more for me?",
+          "option": null,
+          "nextIds": [
+            200900001
+          ],
+          "kind": "NPC"
+        },
+        "200900001": {
+          "type": "Text",
+          "id": 200900001,
+          "sectionId": 2009000,
+          "senderId": null,
+          "text": "Fu Xuan recalled a message.",
+          "option": null,
+          "nextIds": [
+            200900002
+          ],
+          "kind": "System"
+        },
+        "200900002": {
+          "type": "Text",
+          "id": 200900002,
+          "sectionId": 2009000,
+          "senderId": null,
+          "text": "Fu Xuan recalled a message.",
+          "option": null,
+          "nextIds": [
+            200900003
+          ],
+          "kind": "System"
+        },
+        "200900003": {
+          "type": "Text",
+          "id": 200900003,
+          "sectionId": 2009000,
+          "senderId": null,
+          "text": "Fu Xuan recalled a message.",
+          "option": null,
+          "nextIds": [
+            200900004
+          ],
+          "kind": "System"
+        },
+        "200900004": {
+          "type": "Text",
+          "id": 200900004,
+          "sectionId": 2009000,
+          "senderId": null,
+          "text": "Fu Xuan recalled a message.",
+          "option": null,
+          "nextIds": [
+            200900005
+          ],
+          "kind": "System"
+        },
+        "200900005": {
+          "type": "Text",
+          "id": 200900005,
+          "sectionId": 2009000,
+          "senderId": null,
+          "text": "Fu Xuan recalled a message.",
+          "option": null,
+          "nextIds": [
+            200900006
+          ],
+          "kind": "System"
+        },
+        "200900006": {
+          "type": "Text",
+          "id": 200900006,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "???",
+          "option": null,
+          "nextIds": [
+            200900007
+          ],
+          "kind": "NPC"
+        },
+        "200900007": {
+          "type": "Text",
+          "id": 200900007,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "Why can't I recall that first one?",
+          "option": null,
+          "nextIds": [
+            200900008
+          ],
+          "kind": "NPC"
+        },
+        "200900008": {
+          "type": "Text",
+          "id": 200900008,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "My apologies. Please, just pretend you never saw that message.",
+          "option": null,
+          "nextIds": [
+            200900009
+          ],
+          "kind": "NPC"
+        },
+        "200900009": {
+          "type": "Text",
+          "id": 200900009,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "I messaged the wrong number. I didn't mean to ask you to buy me sugary drinks...",
+          "option": null,
+          "nextIds": [
+            200900010,
+            200900012
+          ],
+          "kind": "NPC"
+        },
+        "200900010": {
+          "type": "Text",
+          "id": 200900010,
+          "sectionId": 2009000,
+          "senderId": null,
+          "text": "Rest assured, master diviner. I saw nothing",
+          "option": "Relax. I didn't see anything",
+          "nextIds": [
+            200900011
+          ],
+          "kind": "Player"
+        },
+        "200900011": {
+          "type": "Text",
+          "id": 200900011,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "Never mind. It's my own mistake. You don't need to cover up for me.",
+          "option": null,
+          "nextIds": [
+            200900015
+          ],
+          "kind": "NPC"
+        },
+        "200900015": {
+          "type": "Text",
+          "id": 200900015,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "Just so we're clear, I want to drink the medicinal tea made by the Alchemy Commission, and I add sugar to it to replenish the energy I lose when doing divinational calculations. Different kinds of sugary drinks help my divination in different ways.",
+          "option": null,
+          "nextIds": [
+            200900016
+          ],
+          "kind": "NPC"
+        },
+        "200900016": {
+          "type": "Text",
+          "id": 200900016,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "A medicinal tea with fresh gooseberry contains a slight fruity tang and is very fragrant, and does wonders when I divine astronomical changes.",
+          "option": null,
+          "nextIds": [
+            200900017
+          ],
+          "kind": "NPC"
+        },
+        "200900017": {
+          "type": "Text",
+          "id": 200900017,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "A medicinal tea with Puffergoat milk tastes silky and smooth and has a soft sweetness, perfect for when I simulate navigation routes.",
+          "option": null,
+          "nextIds": [
+            200900018
+          ],
+          "kind": "NPC"
+        },
+        "200900018": {
+          "type": "Text",
+          "id": 200900018,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "A medicinal tea with sweet dates, chestnut, and honey has its sweetness dissolve into the bitter tea in fresh and invigorating ways, suitable for when I browse the Commission's vast library for information.",
+          "option": null,
+          "nextIds": [
+            200900019
+          ],
+          "kind": "NPC"
+        },
+        "200900019": {
+          "type": "Text",
+          "id": 200900019,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "Now you won't get the wrong idea. Right?",
+          "option": null,
+          "nextIds": [
+            200900020,
+            200900023
+          ],
+          "kind": "NPC"
+        },
+        "200900020": {
+          "type": "Text",
+          "id": 200900020,
+          "sectionId": 2009000,
+          "senderId": null,
+          "text": "Being the master diviner is a tough job. What's wrong with wanting to drink sugary drinks?",
+          "option": "Is there a misunderstanding here?",
+          "nextIds": [
+            200900021
+          ],
+          "kind": "Player"
+        },
+        "200900021": {
+          "type": "Text",
+          "id": 200900021,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "...",
+          "option": null,
+          "nextIds": [
+            200900022
+          ],
+          "kind": "NPC"
+        },
+        "200900022": {
+          "type": "Text",
+          "id": 200900022,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "As long as you don't get the wrong idea.",
+          "option": null,
+          "nextIds": [
+            200900027
+          ],
+          "kind": "NPC"
+        },
+        "200900027": {
+          "type": "Text",
+          "id": 200900027,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "By the way, the Immortal's Delight sold by the Sleepless Earl in Starskiff Haven is quite delicious. You should give it a try.",
+          "option": null,
+          "nextIds": [
+            200900028
+          ],
+          "kind": "NPC"
+        },
+        "200900028": {
+          "type": "Text",
+          "id": 200900028,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "Anyways, I shall head back to work now that I've finished my drink. Farewell!",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "200900023": {
+          "type": "Text",
+          "id": 200900023,
+          "sectionId": 2009000,
+          "senderId": null,
+          "text": "You can just say that you like to drink sugary drinks. I like them too. No need to use \"calculations\" as an excuse",
+          "option": "No need for an excuse when you just like it",
+          "nextIds": [
+            200900024
+          ],
+          "kind": "Player"
+        },
+        "200900024": {
+          "type": "Text",
+          "id": 200900024,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "...",
+          "option": null,
+          "nextIds": [
+            200900025
+          ],
+          "kind": "NPC"
+        },
+        "200900025": {
+          "type": "Text",
+          "id": 200900025,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "Well, yes, I like sugary drinks...",
+          "option": null,
+          "nextIds": [
+            200900026
+          ],
+          "kind": "NPC"
+        },
+        "200900026": {
+          "type": "Text",
+          "id": 200900026,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "But it's also true that I drink them for my calculations.",
+          "option": null,
+          "nextIds": [
+            200900027
+          ],
+          "kind": "NPC"
+        },
+        "200900012": {
+          "type": "Text",
+          "id": 200900012,
+          "sectionId": 2009000,
+          "senderId": null,
+          "text": "\"I wanna drink sugary drinks\" is more than just a hint",
+          "option": "This is a clear request",
+          "nextIds": [
+            200900013
+          ],
+          "kind": "Player"
+        },
+        "200900013": {
+          "type": "Text",
+          "id": 200900013,
+          "sectionId": 2009000,
+          "senderId": null,
+          "text": "It's a clear request! What do you want to drink, master diviner? It'll be my treat",
+          "option": null,
+          "nextIds": [
+            200900014
+          ],
+          "kind": "PlayerAuto"
+        },
+        "200900014": {
+          "type": "Text",
+          "id": 200900014,
+          "sectionId": 2009000,
+          "senderId": 1208,
+          "text": "Never mind. It's my own mistake. I'll go buy it myself.",
+          "option": null,
+          "nextIds": [
+            200900015
+          ],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 1208,
+    "name": "Fu Xuan",
+    "signature": "I do not divine personal fortunes!",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/1208.png",
+    "type": 1,
+    "camp": 4
+  }
+}

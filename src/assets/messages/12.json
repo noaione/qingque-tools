@@ -1,0 +1,364 @@
+{
+  "id": 12,
+  "sections": [
+    {
+      "type": "MissionMessage",
+      "id": 1110700,
+      "startIds": [
+        111070000
+      ],
+      "messages": {
+        "111070000": {
+          "type": "Text",
+          "id": 111070000,
+          "sectionId": 1110700,
+          "senderId": 12,
+          "text": "{NICKNAME}, can you receive this message? March 7th gave me this little thing and taught me how to use it. Well, it seems you can teach an old dog new tricks after all. It just takes time. I kinda know how it works by now. Nice to have something that lets me talk to people without meeting them face to face. Haha.",
+          "option": null,
+          "nextIds": [
+            111070001,
+            111070002
+          ],
+          "kind": "NPC"
+        },
+        "111070001": {
+          "type": "Text",
+          "id": 111070001,
+          "sectionId": 1110700,
+          "senderId": null,
+          "text": "You learn quick",
+          "option": "You learn quick",
+          "nextIds": [
+            111070003
+          ],
+          "kind": "Player"
+        },
+        "111070003": {
+          "type": "Text",
+          "id": 111070003,
+          "sectionId": 1110700,
+          "senderId": 12,
+          "text": "I'm flattered, {NICKNAME}. Now let's cut to the chase",
+          "option": null,
+          "nextIds": [
+            111070005
+          ],
+          "kind": "NPC"
+        },
+        "111070005": {
+          "type": "Text",
+          "id": 111070005,
+          "sectionId": 1110700,
+          "senderId": 12,
+          "text": "I heard Natasha is seeing a lot of patients and hasn't slept for days. She's the backbone of the Underworld, and we can't afford to have her burned out. {NICKNAME}, I know you did a great favor for her recently, but can I ask you to check on her again just to make sure she's alright?",
+          "option": null,
+          "nextIds": [
+            111070006,
+            111070007
+          ],
+          "kind": "NPC"
+        },
+        "111070006": {
+          "type": "Text",
+          "id": 111070006,
+          "sectionId": 1110700,
+          "senderId": null,
+          "text": "No problem. I'll go right away",
+          "option": "No problem. I'll go right away",
+          "nextIds": [
+            111070008
+          ],
+          "kind": "Player"
+        },
+        "111070008": {
+          "type": "Text",
+          "id": 111070008,
+          "sectionId": 1110700,
+          "senderId": 12,
+          "text": "Haha, I knew I could count on you the first time we met. I was not wrong after all. Thank you so much",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111070007": {
+          "type": "Text",
+          "id": 111070007,
+          "sectionId": 1110700,
+          "senderId": null,
+          "text": "She's strong. She should be fine",
+          "option": "She's strong. She should be fine",
+          "nextIds": [
+            111070009
+          ],
+          "kind": "Player"
+        },
+        "111070009": {
+          "type": "Text",
+          "id": 111070009,
+          "sectionId": 1110700,
+          "senderId": 12,
+          "text": "Haha, I agree. She can be an overachiever. In any case, a little extra help is always welcome. Thank you in advance",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111070002": {
+          "type": "Text",
+          "id": 111070002,
+          "sectionId": 1110700,
+          "senderId": null,
+          "text": "What is it, chief?",
+          "option": "What is it, chief?",
+          "nextIds": [
+            111070004
+          ],
+          "kind": "Player"
+        },
+        "111070004": {
+          "type": "Text",
+          "id": 111070004,
+          "sectionId": 1110700,
+          "senderId": 12,
+          "text": "Hahaha, even you have started calling me that? Anyway, let's cut to the chase",
+          "option": null,
+          "nextIds": [
+            111070005
+          ],
+          "kind": "NPC"
+        }
+      },
+      "mission": {
+        "id": 2010703,
+        "name": "Origin of the Medicine",
+        "type": "Companion"
+      }
+    },
+    {
+      "type": "MissionMessage",
+      "id": 1113300,
+      "startIds": [
+        111330000
+      ],
+      "messages": {
+        "111330000": {
+          "type": "Text",
+          "id": 111330000,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "How have you been, {NICKNAME}? Have you left Belobog yet?",
+          "option": null,
+          "nextIds": [
+            111330001,
+            111330003
+          ],
+          "kind": "NPC"
+        },
+        "111330001": {
+          "type": "Text",
+          "id": 111330001,
+          "sectionId": 1113300,
+          "senderId": null,
+          "text": "Staying a while longer",
+          "option": "Staying a while longer",
+          "nextIds": [
+            111330002
+          ],
+          "kind": "Player"
+        },
+        "111330002": {
+          "type": "Text",
+          "id": 111330002,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "Oh good, there's something I'd like your help with",
+          "option": null,
+          "nextIds": [
+            111330008
+          ],
+          "kind": "NPC"
+        },
+        "111330008": {
+          "type": "Text",
+          "id": 111330008,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "So I've only been back on the Overworld for a while. My seat is not even warmed up yet, and those Silvermane Guards are rushing to get me to be their advisor",
+          "option": null,
+          "nextIds": [
+            111330009
+          ],
+          "kind": "NPC"
+        },
+        "111330009": {
+          "type": "Text",
+          "id": 111330009,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "You've just finished that thing about the Stellaron, and these impatient fools are already trying to launch a counteroffensive at the Fragmentum",
+          "option": null,
+          "nextIds": [
+            111330010
+          ],
+          "kind": "NPC"
+        },
+        "111330010": {
+          "type": "Text",
+          "id": 111330010,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "But if we're talking about the Fragmentum, I think only you lot can claim expertise",
+          "option": null,
+          "nextIds": [
+            111330011,
+            111330013
+          ],
+          "kind": "NPC"
+        },
+        "111330011": {
+          "type": "Text",
+          "id": 111330011,
+          "sectionId": 1113300,
+          "senderId": null,
+          "text": "Another fight?",
+          "option": "Another fight?",
+          "nextIds": [
+            111330012
+          ],
+          "kind": "Player"
+        },
+        "111330012": {
+          "type": "Text",
+          "id": 111330012,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "Haha, kinda",
+          "option": null,
+          "nextIds": [
+            111330015
+          ],
+          "kind": "NPC"
+        },
+        "111330015": {
+          "type": "Text",
+          "id": 111330015,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "If you're planning to join the offense, go and look for a liaison officer named William at the Silvermane Guard Restricted Zone",
+          "option": null,
+          "nextIds": [
+            111330016
+          ],
+          "kind": "NPC"
+        },
+        "111330016": {
+          "type": "Text",
+          "id": 111330016,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "The Fragmentum they wanted to clear is called the Corridor of Fading Echoes. Quite a chilling name, isn't it? But I'm guessing it'll be easy as pie for you",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "111330013": {
+          "type": "Text",
+          "id": 111330013,
+          "sectionId": 1113300,
+          "senderId": null,
+          "text": "The Fragmentum is my home",
+          "option": "The Fragmentum is my home",
+          "nextIds": [
+            111330014
+          ],
+          "kind": "Player"
+        },
+        "111330014": {
+          "type": "Text",
+          "id": 111330014,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "Good, I like your spirit",
+          "option": null,
+          "nextIds": [
+            111330015
+          ],
+          "kind": "NPC"
+        },
+        "111330003": {
+          "type": "Text",
+          "id": 111330003,
+          "sectionId": 1113300,
+          "senderId": null,
+          "text": "About to leave",
+          "option": "About to leave",
+          "nextIds": [
+            111330004
+          ],
+          "kind": "Player"
+        },
+        "111330004": {
+          "type": "Text",
+          "id": 111330004,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "Oh, is that so? I won't trouble you then",
+          "option": null,
+          "nextIds": [
+            111330005,
+            111330006
+          ],
+          "kind": "NPC"
+        },
+        "111330005": {
+          "type": "Text",
+          "id": 111330005,
+          "sectionId": 1113300,
+          "senderId": null,
+          "text": "No harm in asking, chief",
+          "option": "No harm in asking, chief",
+          "nextIds": [
+            111330007
+          ],
+          "kind": "Player"
+        },
+        "111330007": {
+          "type": "Text",
+          "id": 111330007,
+          "sectionId": 1113300,
+          "senderId": 12,
+          "text": "I'll be frank, there's something I'd like your help with",
+          "option": null,
+          "nextIds": [
+            111330008
+          ],
+          "kind": "NPC"
+        },
+        "111330006": {
+          "type": "Text",
+          "id": 111330006,
+          "sectionId": 1113300,
+          "senderId": null,
+          "text": "You can't just leave me hanging...",
+          "option": "You can't just leave me hanging...",
+          "nextIds": [
+            111330007
+          ],
+          "kind": "Player"
+        }
+      },
+      "mission": {
+        "id": 4081315,
+        "name": "An Eye for an Eye",
+        "type": "Branch"
+      }
+    }
+  ],
+  "info": {
+    "id": 12,
+    "name": "Oleg",
+    "signature": "Just like the old days",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Oleg.png",
+    "type": 2,
+    "camp": 3
+  }
+}

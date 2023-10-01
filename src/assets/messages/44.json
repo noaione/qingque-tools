@@ -1,0 +1,122 @@
+{
+  "id": 44,
+  "sections": [
+    {
+      "type": "MissionMessage",
+      "id": 1210900,
+      "startIds": [
+        121090001
+      ],
+      "messages": {
+        "121090001": {
+          "type": "Text",
+          "id": 121090001,
+          "sectionId": 1210900,
+          "senderId": 44,
+          "text": "Um, I'm Liangmu. You healed me, remember? I wanna ask for your help with something",
+          "option": null,
+          "nextIds": [
+            121090002,
+            121090004
+          ],
+          "kind": "NPC"
+        },
+        "121090002": {
+          "type": "Text",
+          "id": 121090002,
+          "sectionId": 1210900,
+          "senderId": null,
+          "text": "Who? Liangmu? I don't remember that name",
+          "option": "Who?",
+          "nextIds": [
+            121090003
+          ],
+          "kind": "Player"
+        },
+        "121090003": {
+          "type": "Text",
+          "id": 121090003,
+          "sectionId": 1210900,
+          "senderId": 44,
+          "text": "Oh, you've forgotten about me... You and Lady Bailu saved me in Cloudford",
+          "option": null,
+          "nextIds": [
+            121090005
+          ],
+          "kind": "NPC"
+        },
+        "121090005": {
+          "type": "Text",
+          "id": 121090005,
+          "sectionId": 1210900,
+          "senderId": 44,
+          "text": "Thanks to you, my condition is cured. The Sky-Faring Commission is planning to deport me... Now I have to leave Xianzhou",
+          "option": null,
+          "nextIds": [
+            121090006
+          ],
+          "kind": "NPC"
+        },
+        "121090006": {
+          "type": "Text",
+          "id": 121090006,
+          "sectionId": 1210900,
+          "senderId": 44,
+          "text": "I don't know why, but I can't contact Banxia at all. I've left her some gifts and a letter, and I hope you can give those to her",
+          "option": null,
+          "nextIds": [
+            121090007
+          ],
+          "kind": "NPC"
+        },
+        "121090007": {
+          "type": "Text",
+          "id": 121090007,
+          "sectionId": 1210900,
+          "senderId": 44,
+          "text": "I've mailed the package to Heron Express at Starskiff Haven and left your details with them. Please remember to pick it up",
+          "option": null,
+          "nextIds": [
+            121090008
+          ],
+          "kind": "NPC"
+        },
+        "121090008": {
+          "type": "Text",
+          "id": 121090008,
+          "sectionId": 1210900,
+          "senderId": 44,
+          "text": "Farewell",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121090004": {
+          "type": "Text",
+          "id": 121090004,
+          "sectionId": 1210900,
+          "senderId": null,
+          "text": "What is it?",
+          "option": "What is it?",
+          "nextIds": [
+            121090005
+          ],
+          "kind": "Player"
+        }
+      },
+      "mission": {
+        "id": 2020309,
+        "name": "Tale of Woe",
+        "type": "Companion"
+      }
+    }
+  ],
+  "info": {
+    "id": 44,
+    "name": "Liangmu",
+    "signature": "Spending time together is the most lovely confession",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Liangmu.png",
+    "type": 2,
+    "camp": 4
+  }
+}

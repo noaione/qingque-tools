@@ -1,0 +1,190 @@
+{
+  "id": 68,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1010300,
+      "startIds": [
+        101030001
+      ],
+      "messages": {
+        "101030001": {
+          "type": "Text",
+          "id": 101030001,
+          "sectionId": 1010300,
+          "senderId": 8,
+          "text": "Waaaah, can someone please help me... It's urgent. I need a reply asap",
+          "option": null,
+          "nextIds": [
+            101030002
+          ],
+          "kind": "NPC"
+        },
+        "101030002": {
+          "type": "Text",
+          "id": 101030002,
+          "sectionId": 1010300,
+          "senderId": 1008,
+          "text": "What happened? The Security Department is about to be in position.",
+          "option": null,
+          "nextIds": [
+            101030003
+          ],
+          "kind": "NPC"
+        },
+        "101030003": {
+          "type": "Text",
+          "id": 101030003,
+          "sectionId": 1010300,
+          "senderId": 1009,
+          "text": "Darn. Did you hit the \"Send all\" button?",
+          "option": null,
+          "nextIds": [
+            101030004
+          ],
+          "kind": "NPC"
+        },
+        "101030004": {
+          "type": "Text",
+          "id": 101030004,
+          "sectionId": 1010300,
+          "senderId": 1,
+          "text": "Abraham... He's terrified by every little thing out there. The squad has helped him so many times before. He is probably making a big deal out of nothing again",
+          "option": null,
+          "nextIds": [
+            101030005
+          ],
+          "kind": "NPC"
+        },
+        "101030005": {
+          "type": "Text",
+          "id": 101030005,
+          "sectionId": 1010300,
+          "senderId": 1,
+          "text": "Alas, everyone, just... ignore him",
+          "option": null,
+          "nextIds": [
+            101030006
+          ],
+          "kind": "NPC"
+        },
+        "101030006": {
+          "type": "Text",
+          "id": 101030006,
+          "sectionId": 1010300,
+          "senderId": 8,
+          "text": "In the reception hall, where I was working on Project Revival, I ran across this insurmountable obstacle. *sigh*... I'm sure Alfred would have come to my rescue if he were still around",
+          "option": null,
+          "nextIds": [
+            101030007,
+            101030008,
+            101030009
+          ],
+          "kind": "NPC"
+        },
+        "101030007": {
+          "type": "Text",
+          "id": 101030007,
+          "sectionId": 1010300,
+          "senderId": null,
+          "text": "What choice do I have? I'm not one to watch from the sideline",
+          "option": "What choice do I have? I'm not one to watch from the sideline",
+          "nextIds": [
+            101030010
+          ],
+          "kind": "Player"
+        },
+        "101030010": {
+          "type": "Text",
+          "id": 101030010,
+          "sectionId": 1010300,
+          "senderId": 1009,
+          "text": "{NICKNAME} believes in justice. Love it",
+          "option": null,
+          "nextIds": [
+            101030013
+          ],
+          "kind": "NPC"
+        },
+        "101030013": {
+          "type": "Text",
+          "id": 101030013,
+          "sectionId": 1010300,
+          "senderId": 1009,
+          "text": "So sorry if my researchers inconvenienced you in any way. I've already taken it on myself to block the rest of your admirers who are still queuing to add you to their friend list",
+          "option": null,
+          "nextIds": [
+            101030014
+          ],
+          "kind": "NPC"
+        },
+        "101030014": {
+          "type": "Text",
+          "id": 101030014,
+          "sectionId": 1010300,
+          "senderId": 1009,
+          "text": "As for all those requests already received, it's up to you to decide what to do with them.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "101030008": {
+          "type": "Text",
+          "id": 101030008,
+          "sectionId": 1010300,
+          "senderId": null,
+          "text": "Well, crying doesn't solve anything...",
+          "option": "Well, crying doesn't solve anything...",
+          "nextIds": [
+            101030011
+          ],
+          "kind": "Player"
+        },
+        "101030011": {
+          "type": "Text",
+          "id": 101030011,
+          "sectionId": 1010300,
+          "senderId": 1008,
+          "text": "That's right, Abraham. Pull yourself together. Moping like this won't protect people or avenge your friends.",
+          "option": null,
+          "nextIds": [
+            101030013
+          ],
+          "kind": "NPC"
+        },
+        "101030009": {
+          "type": "Text",
+          "id": 101030009,
+          "sectionId": 1010300,
+          "senderId": null,
+          "text": "When did I get so many friends?",
+          "option": "When did I get so many friends?",
+          "nextIds": [
+            101030012
+          ],
+          "kind": "Player"
+        },
+        "101030012": {
+          "type": "Text",
+          "id": 101030012,
+          "sectionId": 1010300,
+          "senderId": 1009,
+          "text": "Haha, a technical issue such as your friend list is no problem for my researchers",
+          "option": null,
+          "nextIds": [
+            101030013
+          ],
+          "kind": "NPC"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 68,
+    "name": "Abraham, {NICKNAME}, Asta...",
+    "signature": null,
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
+    "type": 3,
+    "camp": 2
+  }
+}

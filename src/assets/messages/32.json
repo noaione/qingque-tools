@@ -1,0 +1,527 @@
+{
+  "id": 32,
+  "sections": [
+    {
+      "type": "Message",
+      "id": 1210300,
+      "startIds": [
+        121030000
+      ],
+      "messages": {
+        "121030000": {
+          "type": "Text",
+          "id": 121030000,
+          "sectionId": 1210300,
+          "senderId": null,
+          "text": "Do you happen to know Mei? Are you her relative?",
+          "option": null,
+          "nextIds": [
+            121030001
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121030001": {
+          "type": "Text",
+          "id": 121030001,
+          "sectionId": 1210300,
+          "senderId": 32,
+          "text": "I'm her employer. Did something happen to Mei?",
+          "option": null,
+          "nextIds": [
+            121030002,
+            121030004
+          ],
+          "kind": "NPC"
+        },
+        "121030002": {
+          "type": "Text",
+          "id": 121030002,
+          "sectionId": 1210300,
+          "senderId": null,
+          "text": "She got rear-ended by a speeding starskiff and got thrown out from her starskiff",
+          "option": "Rear-ended by another starskiff",
+          "nextIds": [
+            121030003
+          ],
+          "kind": "Player"
+        },
+        "121030003": {
+          "type": "Text",
+          "id": 121030003,
+          "sectionId": 1210300,
+          "senderId": null,
+          "text": "But she seems to be fine now. The Alchemy Commission's team of healers was able to get onsite very quickly",
+          "option": null,
+          "nextIds": [
+            121030006
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121030006": {
+          "type": "Text",
+          "id": 121030006,
+          "sectionId": 1210300,
+          "senderId": 32,
+          "text": "A traffic accident? OK... where is she now? I'll be right over",
+          "option": null,
+          "nextIds": [
+            121030007
+          ],
+          "kind": "NPC"
+        },
+        "121030007": {
+          "type": "Text",
+          "id": 121030007,
+          "sectionId": 1210300,
+          "senderId": 32,
+          "text": "...However, the set of Butterfly Immersia is a bit busy right now... I might not make it in time. But I'll try to get there right away. Sorry to have troubled you so far. May I have your name, please?",
+          "option": null,
+          "nextIds": [
+            121030008,
+            121030010,
+            121030012
+          ],
+          "kind": "NPC"
+        },
+        "121030008": {
+          "type": "Text",
+          "id": 121030008,
+          "sectionId": 1210300,
+          "senderId": null,
+          "text": "I'm just a temporary speed tester dispatched by the Sky-Faring Commission.",
+          "option": "A temporary speed tester.",
+          "nextIds": [
+            121030009
+          ],
+          "kind": "Player"
+        },
+        "121030009": {
+          "type": "Text",
+          "id": 121030009,
+          "sectionId": 1210300,
+          "senderId": null,
+          "text": "Just call me {NICKNAME}",
+          "option": null,
+          "nextIds": [
+            121030013
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121030013": {
+          "type": "Text",
+          "id": 121030013,
+          "sectionId": 1210300,
+          "senderId": 32,
+          "text": "Alright, I'll be right there.",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121030010": {
+          "type": "Text",
+          "id": 121030010,
+          "sectionId": 1210300,
+          "senderId": null,
+          "text": "I'm just a passing trailblazer. My name's not important",
+          "option": "A passing trailblazer",
+          "nextIds": [
+            121030011
+          ],
+          "kind": "Player"
+        },
+        "121030011": {
+          "type": "Text",
+          "id": 121030011,
+          "sectionId": 1210300,
+          "senderId": null,
+          "text": "Just call me {NICKNAME}",
+          "option": null,
+          "nextIds": [
+            121030013
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121030012": {
+          "type": "Text",
+          "id": 121030012,
+          "sectionId": 1210300,
+          "senderId": null,
+          "text": "My name is {NICKNAME}",
+          "option": "{NICKNAME}",
+          "nextIds": [
+            121030013
+          ],
+          "kind": "Player"
+        },
+        "121030004": {
+          "type": "Text",
+          "id": 121030004,
+          "sectionId": 1210300,
+          "senderId": null,
+          "text": "Mei got into a little starskiff traffic accident and is currently receiving treatment",
+          "option": "A little accident",
+          "nextIds": [
+            121030005
+          ],
+          "kind": "Player"
+        },
+        "121030005": {
+          "type": "Text",
+          "id": 121030005,
+          "sectionId": 1210300,
+          "senderId": null,
+          "text": "But she seems to be fine now. The Alchemy Commission's team of healers was able to get onsite very quickly",
+          "option": null,
+          "nextIds": [
+            121030006
+          ],
+          "kind": "PlayerAuto"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1210401,
+      "startIds": [
+        121040109
+      ],
+      "messages": {
+        "121040109": {
+          "type": "Text",
+          "id": 121040109,
+          "sectionId": 1210401,
+          "senderId": null,
+          "text": "Luhui, I want to ask you something",
+          "option": null,
+          "nextIds": [
+            121040100,
+            121040101
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121040100": {
+          "type": "Text",
+          "id": 121040100,
+          "sectionId": 1210401,
+          "senderId": null,
+          "text": "Are you at the Alchemy Commission yet? The Sky-Faring Commission has some questions for Mei",
+          "option": "Are you at the Alchemy Commission already?",
+          "nextIds": [
+            121040102
+          ],
+          "kind": "Player"
+        },
+        "121040102": {
+          "type": "Text",
+          "id": 121040102,
+          "sectionId": 1210401,
+          "senderId": 32,
+          "text": "I just arrived and heard some people at the Alchemy Commission say that Mei left when no one was looking",
+          "option": null,
+          "nextIds": [
+            121040103
+          ],
+          "kind": "NPC"
+        },
+        "121040103": {
+          "type": "Text",
+          "id": 121040103,
+          "sectionId": 1210401,
+          "senderId": 32,
+          "text": "Oh, this girl! So obstinate and stubborn!",
+          "option": null,
+          "nextIds": [
+            121040104
+          ],
+          "kind": "NPC"
+        },
+        "121040104": {
+          "type": "Text",
+          "id": 121040104,
+          "sectionId": 1210401,
+          "senderId": 32,
+          "text": "I asked around and found out that there are some missing pages for some \"notes\"? Mei seems determined to find them",
+          "option": null,
+          "nextIds": [
+            121040105
+          ],
+          "kind": "NPC"
+        },
+        "121040105": {
+          "type": "Text",
+          "id": 121040105,
+          "sectionId": 1210401,
+          "senderId": 32,
+          "text": "You have a few pages with you, right?",
+          "option": null,
+          "nextIds": [
+            121040106
+          ],
+          "kind": "NPC"
+        },
+        "121040106": {
+          "type": "Text",
+          "id": 121040106,
+          "sectionId": 1210401,
+          "senderId": null,
+          "text": "I found her notes at the accident site and found your contact details",
+          "option": "I picked up the notes",
+          "nextIds": [
+            121040107
+          ],
+          "kind": "Player"
+        },
+        "121040107": {
+          "type": "Text",
+          "id": 121040107,
+          "sectionId": 1210401,
+          "senderId": 32,
+          "text": "I had taken leave for this, but things on set are pretty busy. I have to go back now. I just can't run around following her everywhere. I already paid for her medical bill, so please tell her to go back to the apothecary as soon as possible",
+          "option": null,
+          "nextIds": [
+            121040108
+          ],
+          "kind": "NPC"
+        },
+        "121040108": {
+          "type": "Text",
+          "id": 121040108,
+          "sectionId": 1210401,
+          "senderId": 32,
+          "text": "Please!",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121040101": {
+          "type": "Text",
+          "id": 121040101,
+          "sectionId": 1210401,
+          "senderId": null,
+          "text": "Have you seen Mei yet? The Sky-Faring Commission has some questions for her",
+          "option": "Have you seen Mei yet?",
+          "nextIds": [
+            121040102
+          ],
+          "kind": "Player"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1210301,
+      "startIds": [
+        121030100
+      ],
+      "messages": {
+        "121030100": {
+          "type": "Text",
+          "id": 121030100,
+          "sectionId": 1210301,
+          "senderId": null,
+          "text": "The Sky-Faring Commission has already apprehended the culprit. No need to worry about the subsequent penalties and compensation",
+          "option": null,
+          "nextIds": [
+            121030101
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121030101": {
+          "type": "Text",
+          "id": 121030101,
+          "sectionId": 1210301,
+          "senderId": 32,
+          "text": "Sorry for troubling you with all this. I'll help Mei with the subsequent penalties. But I'm a little confused. Do I need to continue talking with Mei about her dismissal...?",
+          "option": null,
+          "nextIds": [
+            121030102
+          ],
+          "kind": "NPC"
+        },
+        "121030102": {
+          "type": "Text",
+          "id": 121030102,
+          "sectionId": 1210301,
+          "senderId": 32,
+          "text": "In employment, is the exchange of services for payment the most important thing? Or is it the interpersonal relationship it created?",
+          "option": null,
+          "nextIds": [
+            121030103,
+            121030104,
+            121030106
+          ],
+          "kind": "NPC"
+        },
+        "121030103": {
+          "type": "Text",
+          "id": 121030103,
+          "sectionId": 1210301,
+          "senderId": null,
+          "text": "You two are in an employment relationship. Service is exchanged for payment. While it's good to have a healthy relationship between you, this should be distinct from the professional relationship",
+          "option": "Being paid for labor is more important",
+          "nextIds": [
+            121030108
+          ],
+          "kind": "Player"
+        },
+        "121030108": {
+          "type": "Text",
+          "id": 121030108,
+          "sectionId": 1210301,
+          "senderId": 32,
+          "text": "In that case, both Mei and I are very grateful for you. Let's meet in Starskiff Haven. I still have something for you to show my appreciation",
+          "option": null,
+          "nextIds": [
+            121030109
+          ],
+          "kind": "NPC"
+        },
+        "121030109": {
+          "type": "Text",
+          "id": 121030109,
+          "sectionId": 1210301,
+          "senderId": 32,
+          "text": "...I don't know why, but with you, I'm able to say things I could never say before",
+          "option": null,
+          "nextIds": [],
+          "kind": "NPC"
+        },
+        "121030104": {
+          "type": "Text",
+          "id": 121030104,
+          "sectionId": 1210301,
+          "senderId": null,
+          "text": "I do believe that money is perhaps the most reliable value indicator in all employment. But in the end, all the money in the world is only material possession",
+          "option": "Interpersonal ties are more important",
+          "nextIds": [
+            121030105
+          ],
+          "kind": "Player"
+        },
+        "121030105": {
+          "type": "Text",
+          "id": 121030105,
+          "sectionId": 1210301,
+          "senderId": null,
+          "text": "You'll miss out on a lot of things that you can't put a price tag on, like the emotional bond between you two",
+          "option": null,
+          "nextIds": [
+            121030108
+          ],
+          "kind": "PlayerAuto"
+        },
+        "121030106": {
+          "type": "Text",
+          "id": 121030106,
+          "sectionId": 1210301,
+          "senderId": null,
+          "text": "I'm just an outsider. My opinion isn't important to the relationship between you two",
+          "option": "It seems you already have your answer",
+          "nextIds": [
+            121030107
+          ],
+          "kind": "Player"
+        },
+        "121030107": {
+          "type": "Text",
+          "id": 121030107,
+          "sectionId": 1210301,
+          "senderId": null,
+          "text": "You might've come to me for my opinion, but I think you already know the answer",
+          "option": null,
+          "nextIds": [
+            121030108
+          ],
+          "kind": "PlayerAuto"
+        }
+      }
+    },
+    {
+      "type": "Message",
+      "id": 1210302,
+      "startIds": [
+        121030200
+      ],
+      "messages": {
+        "121030200": {
+          "type": "Text",
+          "id": 121030200,
+          "sectionId": 1210302,
+          "senderId": 32,
+          "text": "After some thought, I think I should tell you this. After all, you've already helped us so much thus far",
+          "option": null,
+          "nextIds": [
+            121030201
+          ],
+          "kind": "NPC"
+        },
+        "121030201": {
+          "type": "Text",
+          "id": 121030201,
+          "sectionId": 1210302,
+          "senderId": 32,
+          "text": "I've renewed the contract with Mei",
+          "option": null,
+          "nextIds": [
+            121030202
+          ],
+          "kind": "NPC"
+        },
+        "121030202": {
+          "type": "Text",
+          "id": 121030202,
+          "sectionId": 1210302,
+          "senderId": 32,
+          "text": "As far as the level of service is concerned, Mei is not quite there. But admittedly, I am not a perfect employer either. The important thing is that I'm not going to dwell on a \"fair price\" anymore",
+          "option": null,
+          "nextIds": [
+            121030203
+          ],
+          "kind": "NPC"
+        },
+        "121030203": {
+          "type": "Text",
+          "id": 121030203,
+          "sectionId": 1210302,
+          "senderId": 32,
+          "text": "Mei showed my family a sincerity that can never be bought with money. I don't want to let her down",
+          "option": null,
+          "nextIds": [
+            121030204
+          ],
+          "kind": "NPC"
+        },
+        "121030204": {
+          "type": "Text",
+          "id": 121030204,
+          "sectionId": 1210302,
+          "senderId": 32,
+          "text": "Thank you again, and I wish you all the best",
+          "option": null,
+          "nextIds": [
+            121030205
+          ],
+          "kind": "NPC"
+        },
+        "121030205": {
+          "type": "Text",
+          "id": 121030205,
+          "sectionId": 1210302,
+          "senderId": null,
+          "text": "Same to you too",
+          "option": "Same to you too",
+          "nextIds": [],
+          "kind": "Player"
+        }
+      }
+    }
+  ],
+  "info": {
+    "id": 32,
+    "name": "Luhui",
+    "signature": "Filming. Slow to Respond. Apologies.",
+    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Luhui.png",
+    "type": 2,
+    "camp": 4
+  }
+}
