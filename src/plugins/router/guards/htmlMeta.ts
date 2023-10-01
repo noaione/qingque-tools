@@ -1,8 +1,8 @@
 import { nextTick } from "vue";
 import type { RouteLocationNormalized } from "vue-router";
 
-const DEFAULT_TITLE = "Qingque Scoring";
-const DEFAULT_DESC = "A website tools to modify Mar-7th or QingueBot relic scoring system";
+const DEFAULT_TITLE = "Qingque Tools";
+const DEFAULT_DESC = "A collection of tools for Honkai: Star Rail";
 interface RouteMeta {
   title?: string;
   description?: string;

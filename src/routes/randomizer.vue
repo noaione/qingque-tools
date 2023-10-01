@@ -11,9 +11,7 @@ definePage({
 
 <template>
   <main class="pt-2 pb-8">
-    <div class="flex flex-col mt-4 mb-4 items-center">
-      <img src="/assets/qingque.png" class="w-32 h-auto" />
-    </div>
+    <QingqueIcon navigateable />
     <div class="flex flex-col mt-4 mb-5 items-center">
       <h1 class="text-3xl font-bold">Qingque Gamba</h1>
       <p class="text-lg mt-2">Gamble your MoC progress with this character randomizer.</p>
