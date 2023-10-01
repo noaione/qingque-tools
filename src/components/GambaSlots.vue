@@ -13,19 +13,22 @@
         :character="character"
         :index="index"
         :key="`second-${index}`"
+        right-side
         v-for="(character, index) in secondRows"
       />
     </div>
   </div>
   <div class="mt-6 flex flex-row items-center gap-2">
     <button
-      class="group bg-purple-600 hover:bg-purple-700 transition-colors px-4 py-2 rounded-md"
+      class="bg-purple-600 hover:bg-purple-700 disabled:bg-purple-700 btn-gamba"
+      :disabled="randomizing"
       @click="randomize"
     >
       <span class="font-bold group-hover:opacity-90 transition-opacity">Randomize</span>
     </button>
     <button
-      class="group bg-red-600 hover:bg-red-700 transition-colors px-4 py-2 rounded-md"
+      class="bg-red-600 hover:bg-red-700 disabled:bg-red-700 btn-gamba"
+      :disabled="randomizing"
       @click="clear"
     >
       <span class="font-bold group-hover:opacity-90 transition-opacity">Clear</span>
@@ -39,6 +42,8 @@ import { useGambaStore } from "@/stores/gamba";
 import { ref } from "vue";
 
 const gambaStore = useGambaStore();
+const randomizing = ref(false);
+const randomizingId = ref<number | null>(null);
 
 type CharacterNull = Character | undefined;
 
@@ -70,8 +75,17 @@ function randomize() {
     const secondValues = allValues.slice(4, 8);
     fillWithUndefined(secondValues);
 
+    randomizing.value = true;
     firstRows.value = firstValues;
     secondRows.value = secondValues;
+
+    if (randomizingId.value) {
+      clearTimeout(randomizingId.value);
+    }
+
+    randomizingId.value = setTimeout(() => {
+      randomizing.value = false;
+    }, 1500);
   }, 250);
 }
 function clear() {
@@ -80,3 +94,9 @@ function clear() {
   gambaStore.reset();
 }
 </script>
+
+<style scoped lang="postcss">
+.btn-gamba {
+  @apply transition-colors px-4 py-2 rounded-md disabled:cursor-not-allowed;
+}
+</style>

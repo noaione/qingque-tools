@@ -5,7 +5,7 @@
       :class="[
         charaGrad,
         'group gamba-base',
-        `sw-delay-${$props.index + 1}`,
+        rightSide ? `swr-delay-${props.index + 1}` : `sw-delay-${$props.index + 1}`,
         enter ? '' : 'swoop-in'
       ]"
     >
@@ -30,10 +30,12 @@ import { computed } from "vue";
 
 const props = defineProps<{
   character?: Character;
+  rightSide?: boolean;
   index: number;
 }>();
 const enter = ref(true);
 const IMGBASE = "https://raw.githubusercontent.com/naoTimesdev/qingque-data/master/";
+const timeoutId = ref<number | null>(null);
 
 const charaGrad = computed(() => {
   if (props.character) {
@@ -61,8 +63,11 @@ watch(
   () => props.character,
   (newChar) => {
     if (newChar) {
+      if (timeoutId.value) {
+        clearTimeout(timeoutId.value);
+      }
       enter.value = false;
-      setTimeout(() => {
+      timeoutId.value = setTimeout(() => {
         enter.value = true;
       }, 1500);
     }
@@ -97,24 +102,42 @@ watch(
 }
 
 .swoop-in {
-  animation: swoop-in 1s ease-in-out both;
+  animation-name: swoop-in;
+  animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  animation-fill-mode: both;
   scale: 1.5;
 }
 .sw-delay-1 {
-  animation-delay: 0.4s;
+  animation-duration: 1.4s;
   z-index: 81;
 }
 .sw-delay-2 {
-  animation-delay: 0.3s;
+  animation-duration: 1.3s;
   z-index: 82;
 }
 .sw-delay-3 {
-  animation-delay: 0.2s;
+  animation-duration: 1.2s;
   z-index: 83;
 }
 .sw-delay-4 {
-  animation-delay: 0.1s;
+  animation-duration: 1.1s;
   z-index: 84;
+}
+.swr-delay-1 {
+  animation-duration: 1.1s;
+  z-index: 84;
+}
+.swr-delay-2 {
+  animation-duration: 1.2s;
+  z-index: 83;
+}
+.swr-delay-3 {
+  animation-duration: 1.3s;
+  z-index: 82;
+}
+.swr-delay-4 {
+  animation-duration: 1.4s;
+  z-index: 81;
 }
 
 @keyframes swoop-in {
