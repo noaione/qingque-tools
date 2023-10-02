@@ -12,7 +12,7 @@ export type MessageContentKind = "Player" | "PlayerAuto" | "NPC" | "System";
 interface MessageContent {
   id: number;
   sectionId: number;
-  senderId: number;
+  senderId: number | null;
   text: string;
   option: string | null;
   nextIds: number[];

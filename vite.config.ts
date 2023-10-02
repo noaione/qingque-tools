@@ -64,16 +64,11 @@ export default defineConfig({
             const [, assetPath] = id.split("src/assets/");
             // remove the extension
             const [assetName] = assetPath.split(".");
-            return `meta/${assetName.replace("/", ".")}`;
+            return `meta/${assetName.replace("/", ".").replace("_", ".")}`;
           }
 
           if (id.includes("/routes")) {
             return "routes";
-          }
-
-          if (id.includes("src/assets/messages/")) {
-            const messageId = id.match(/src\/assets\/messages\/(\d+)\.json/)?.[1];
-            return "meta/messages." + messageId;
           }
 
           return splitMoreVendorChunk(id, getModuleInfo, (intId) => {
