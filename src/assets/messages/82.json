@@ -1,132 +1,134 @@
 {
   "id": 82,
   "sections": [
-    {
-      "type": "MissionMessage",
-      "id": 1216301,
-      "startIds": [
-        121630101
-      ],
-      "messages": {
-        "121630101": {
-          "type": "Text",
-          "id": 121630101,
-          "sectionId": 1216301,
-          "senderId": 82,
-          "text": "Hello, {NICKNAME}",
-          "option": null,
-          "nextIds": [
-            121630102
-          ],
-          "kind": "NPC"
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1216301,
+        "startIds": [
+          121630101
+        ],
+        "messages": {
+          "121630101": {
+            "type": "Text",
+            "id": 121630101,
+            "sectionId": 1216301,
+            "senderId": 82,
+            "text": "Hello, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              121630102
+            ],
+            "kind": "NPC"
+          },
+          "121630102": {
+            "type": "Text",
+            "id": 121630102,
+            "sectionId": 1216301,
+            "senderId": 82,
+            "text": "My work on the Xianzhou draws to a close. Now, a traveler like me is about to start my next adventure",
+            "option": null,
+            "nextIds": [
+              121630103
+            ],
+            "kind": "NPC"
+          },
+          "121630103": {
+            "type": "Text",
+            "id": 121630103,
+            "sectionId": 1216301,
+            "senderId": 82,
+            "text": "It's been a fun few days",
+            "option": null,
+            "nextIds": [
+              121630104
+            ],
+            "kind": "NPC"
+          },
+          "121630104": {
+            "type": "Text",
+            "id": 121630104,
+            "sectionId": 1216301,
+            "senderId": 82,
+            "text": "So I left you a little gift and a letter before I went away",
+            "option": null,
+            "nextIds": [
+              121630105
+            ],
+            "kind": "NPC"
+          },
+          "121630105": {
+            "type": "Text",
+            "id": 121630105,
+            "sectionId": 1216301,
+            "senderId": 82,
+            "text": "Remember to pick those up from Heron Express in Exalting Sanctum~",
+            "option": null,
+            "nextIds": [
+              121630106
+            ],
+            "kind": "NPC"
+          },
+          "121630106": {
+            "type": "Text",
+            "id": 121630106,
+            "sectionId": 1216301,
+            "senderId": null,
+            "text": "You're leaving? Where are you going next?",
+            "option": "You're leaving?",
+            "nextIds": [
+              121630107
+            ],
+            "kind": "Player"
+          },
+          "121630107": {
+            "type": "Text",
+            "id": 121630107,
+            "sectionId": 1216301,
+            "senderId": null,
+            "text": "Message failed to send",
+            "option": null,
+            "nextIds": [
+              121630108
+            ],
+            "kind": "System"
+          },
+          "121630108": {
+            "type": "Text",
+            "id": 121630108,
+            "sectionId": 1216301,
+            "senderId": null,
+            "text": "Zhongshan?",
+            "option": null,
+            "nextIds": [
+              121630109
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121630109": {
+            "type": "Text",
+            "id": 121630109,
+            "sectionId": 1216301,
+            "senderId": null,
+            "text": "Message failed to send",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          }
         },
-        "121630102": {
-          "type": "Text",
-          "id": 121630102,
-          "sectionId": 1216301,
-          "senderId": 82,
-          "text": "My work on the Xianzhou draws to a close. Now, a traveler like me is about to start my next adventure",
-          "option": null,
-          "nextIds": [
-            121630103
-          ],
-          "kind": "NPC"
-        },
-        "121630103": {
-          "type": "Text",
-          "id": 121630103,
-          "sectionId": 1216301,
-          "senderId": 82,
-          "text": "It's been a fun few days",
-          "option": null,
-          "nextIds": [
-            121630104
-          ],
-          "kind": "NPC"
-        },
-        "121630104": {
-          "type": "Text",
-          "id": 121630104,
-          "sectionId": 1216301,
-          "senderId": 82,
-          "text": "So I left you a little gift and a letter before I went away",
-          "option": null,
-          "nextIds": [
-            121630105
-          ],
-          "kind": "NPC"
-        },
-        "121630105": {
-          "type": "Text",
-          "id": 121630105,
-          "sectionId": 1216301,
-          "senderId": 82,
-          "text": "Remember to pick those up from Heron Express in Exalting Sanctum~",
-          "option": null,
-          "nextIds": [
-            121630106
-          ],
-          "kind": "NPC"
-        },
-        "121630106": {
-          "type": "Text",
-          "id": 121630106,
-          "sectionId": 1216301,
-          "senderId": null,
-          "text": "You're leaving? Where are you going next?",
-          "option": "You're leaving?",
-          "nextIds": [
-            121630107
-          ],
-          "kind": "Player"
-        },
-        "121630107": {
-          "type": "Text",
-          "id": 121630107,
-          "sectionId": 1216301,
-          "senderId": null,
-          "text": "Message failed to send",
-          "option": null,
-          "nextIds": [
-            121630108
-          ],
-          "kind": "System"
-        },
-        "121630108": {
-          "type": "Text",
-          "id": 121630108,
-          "sectionId": 1216301,
-          "senderId": null,
-          "text": "Zhongshan?",
-          "option": null,
-          "nextIds": [
-            121630109
-          ],
-          "kind": "PlayerAuto"
-        },
-        "121630109": {
-          "type": "Text",
-          "id": 121630109,
-          "sectionId": 1216301,
-          "senderId": null,
-          "text": "Message failed to send",
-          "option": null,
-          "nextIds": [],
-          "kind": "System"
+        "mission": {
+          "id": 2021602,
+          "name": "Bestial Ferocity: The End",
+          "type": "Branch"
         }
-      },
-      "mission": {
-        "id": 2021602,
-        "name": "Bestial Ferocity: The End",
-        "type": "Branch"
       }
-    }
+    ]
   ],
   "info": {
     "id": 82,
     "name": "Zhongshan",
     "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Zhongshan.png",
+    "iconPath": "icon/avatar/Zhongshan.png",
     "type": 2,
     "camp": 4
   }

@@ -1,25 +1,9 @@
 {
-  "1": {
-    "id": 1,
-    "name": "Wen Mingde",
-    "signature": "Curio Collection Squad ready to strike at a moment's notice.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Wenmingde.png",
-    "type": 2,
-    "camp": 2
-  },
-  "10": {
-    "id": 10,
-    "name": "Julian",
-    "signature": "Click here to change your signature \u2014 What is this?",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Julian.png",
-    "type": 2,
-    "camp": 3
-  },
   "1000": {
     "id": 1000,
     "name": "Pom-Pom",
     "signature": "Come to Pom-Pom for Trailblazing rewards!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Pam.png",
+    "iconPath": "icon/avatar/Pam.png",
     "type": 1,
     "camp": 1
   },
@@ -27,7 +11,7 @@
     "id": 1001,
     "name": "March 7th",
     "signature": "Today is also March 7th~",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "iconPath": "icon/avatar/1001.png",
     "type": 1,
     "camp": 1
   },
@@ -35,7 +19,7 @@
     "id": 1002,
     "name": "Dan Heng",
     "signature": "For anything related to the data bank, come find me.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1002.png",
+    "iconPath": "icon/avatar/1002.png",
     "type": 1,
     "camp": 1
   },
@@ -43,7 +27,7 @@
     "id": 1003,
     "name": "Himeko",
     "signature": "I can survive without water, but coffee is my lifeblood",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1003.png",
+    "iconPath": "icon/avatar/1003.png",
     "type": 1,
     "camp": 1
   },
@@ -51,7 +35,7 @@
     "id": 1004,
     "name": "Welt",
     "signature": "Everyone on the Express, please constantly keep in touch",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1004.png",
+    "iconPath": "icon/avatar/1004.png",
     "type": 1,
     "camp": 1
   },
@@ -59,7 +43,7 @@
     "id": 1005,
     "name": "Kafka",
     "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1005.png",
+    "iconPath": "icon/avatar/1005.png",
     "type": 1,
     "camp": 5
   },
@@ -67,7 +51,7 @@
     "id": 1006,
     "name": "Silver Wolf",
     "signature": "Don't make a game if you don't know how to",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1006.png",
+    "iconPath": "icon/avatar/1006.png",
     "type": 1,
     "camp": 5
   },
@@ -75,7 +59,7 @@
     "id": 1008,
     "name": "Arlan",
     "signature": "Peppy's emergency contact",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1008.png",
+    "iconPath": "icon/avatar/1008.png",
     "type": 1,
     "camp": 2
   },
@@ -83,7 +67,7 @@
     "id": 1009,
     "name": "Asta",
     "signature": "I shouldn't buy any more stuff...",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1009.png",
+    "iconPath": "icon/avatar/1009.png",
     "type": 1,
     "camp": 2
   },
@@ -91,7 +75,7 @@
     "id": 1013,
     "name": "Herta",
     "signature": "This account is disabled | Business Contact: Asta",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1013.png",
+    "iconPath": "icon/avatar/1013.png",
     "type": 1,
     "camp": 2
   },
@@ -99,7 +83,7 @@
     "id": 1101,
     "name": "Bronya",
     "signature": "In a meeting",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1101.png",
+    "iconPath": "icon/avatar/1101.png",
     "type": 1,
     "camp": 3
   },
@@ -107,7 +91,7 @@
     "id": 1102,
     "name": "Seele",
     "signature": "If you have anything to say, spill it!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1102.png",
+    "iconPath": "icon/avatar/1102.png",
     "type": 1,
     "camp": 3
   },
@@ -115,7 +99,7 @@
     "id": 1103,
     "name": "Serval",
     "signature": "Lacking sleep and inspiration",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1103.png",
+    "iconPath": "icon/avatar/1103.png",
     "type": 1,
     "camp": 3
   },
@@ -123,7 +107,7 @@
     "id": 1104,
     "name": "Gepard",
     "signature": "Working, apologies for the slow response",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1104.png",
+    "iconPath": "icon/avatar/1104.png",
     "type": 1,
     "camp": 3
   },
@@ -131,7 +115,7 @@
     "id": 1105,
     "name": "Natasha",
     "signature": "Doing outpatient runs at the Robot Settlement. Check my availability before you visit",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1105.png",
+    "iconPath": "icon/avatar/1105.png",
     "type": 1,
     "camp": 3
   },
@@ -139,15 +123,15 @@
     "id": 1106,
     "name": "Pela",
     "signature": "Please include your name when providing information",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1106.png",
+    "iconPath": "icon/avatar/1106.png",
     "type": 1,
     "camp": 3
   },
   "1107": {
     "id": 1107,
     "name": "Clara",
-    "signature": "I want to go to a picnic with everyone (>\u25bd<)",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1107.png",
+    "signature": "I want to go to a picnic with everyone (>▽<)",
+    "iconPath": "icon/avatar/1107.png",
     "type": 1,
     "camp": 3
   },
@@ -155,7 +139,7 @@
     "id": 1108,
     "name": "Sampo",
     "signature": "Certified ancient relic agent",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1108.png",
+    "iconPath": "icon/avatar/1108.png",
     "type": 1,
     "camp": 3
   },
@@ -163,7 +147,7 @@
     "id": 1109,
     "name": "Hook",
     "signature": "Moles! Assemble at the Fight Club!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1109.png",
+    "iconPath": "icon/avatar/1109.png",
     "type": 1,
     "camp": 3
   },
@@ -171,7 +155,7 @@
     "id": 1110,
     "name": "Lynx",
     "signature": "The user you have messaged is currently unavailable",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1110.png",
+    "iconPath": "icon/avatar/1110.png",
     "type": 1,
     "camp": 3
   },
@@ -179,23 +163,15 @@
     "id": 1111,
     "name": "Luka",
     "signature": "No timely reply means I'm in training.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1111.png",
+    "iconPath": "icon/avatar/1111.png",
     "type": 1,
-    "camp": 3
-  },
-  "12": {
-    "id": 12,
-    "name": "Oleg",
-    "signature": "Just like the old days",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Oleg.png",
-    "type": 2,
     "camp": 3
   },
   "1201": {
     "id": 1201,
     "name": "Qingque",
     "signature": "Go ahead and work, just don't interrupt my game",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1201.png",
+    "iconPath": "icon/avatar/1201.png",
     "type": 1,
     "camp": 4
   },
@@ -203,7 +179,7 @@
     "id": 1202,
     "name": "Tingyun",
     "signature": "Let's talk it out and not fight~",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1202.png",
+    "iconPath": "icon/avatar/1202.png",
     "type": 1,
     "camp": 4
   },
@@ -211,7 +187,7 @@
     "id": 1203,
     "name": "Luocha",
     "signature": "A simple traveling merchant",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1203.png",
+    "iconPath": "icon/avatar/1203.png",
     "type": 1,
     "camp": 4
   },
@@ -219,7 +195,7 @@
     "id": 1204,
     "name": "Jing Yuan",
     "signature": "I'm not at the Seat of Divine Foresight",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1204.png",
+    "iconPath": "icon/avatar/1204.png",
     "type": 1,
     "camp": 4
   },
@@ -227,7 +203,7 @@
     "id": 1205,
     "name": "Blade",
     "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1205.png",
+    "iconPath": "icon/avatar/1205.png",
     "type": 1,
     "camp": 4
   },
@@ -235,7 +211,7 @@
     "id": 1206,
     "name": "Sushang",
     "signature": "What illness makes you sleepy as soon as you read a book?",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1206.png",
+    "iconPath": "icon/avatar/1206.png",
     "type": 1,
     "camp": 4
   },
@@ -243,7 +219,7 @@
     "id": 1207,
     "name": "Yukong",
     "signature": "I wish to take to the skies once more...",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1207.png",
+    "iconPath": "icon/avatar/1207.png",
     "type": 1,
     "camp": 4
   },
@@ -251,7 +227,7 @@
     "id": 1208,
     "name": "Fu Xuan",
     "signature": "I do not divine personal fortunes!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1208.png",
+    "iconPath": "icon/avatar/1208.png",
     "type": 1,
     "camp": 4
   },
@@ -259,7 +235,7 @@
     "id": 1209,
     "name": "Yanqing",
     "signature": "Did the Artisanship Commission have new products today? No",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1209.png",
+    "iconPath": "icon/avatar/1209.png",
     "type": 1,
     "camp": 4
   },
@@ -267,385 +243,9 @@
     "id": 1211,
     "name": "Bailu",
     "signature": "Drink more warm water and get fewer tempers!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1211.png",
+    "iconPath": "icon/avatar/1211.png",
     "type": 1,
     "camp": 4
-  },
-  "13": {
-    "id": 13,
-    "name": "The Astral Express Family",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Train.png",
-    "type": 3,
-    "camp": 1
-  },
-  "15": {
-    "id": 15,
-    "name": "Madam Herta's Heritor Club",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
-    "type": 3,
-    "camp": 2
-  },
-  "2": {
-    "id": 2,
-    "name": "Dr. Dig",
-    "signature": "Scott Business, we serve champions!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_DoctorDig.png",
-    "type": 2,
-    "camp": 3
-  },
-  "24": {
-    "id": 24,
-    "name": "Pamela",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Pamela.png",
-    "type": 2,
-    "camp": 2
-  },
-  "29": {
-    "id": 29,
-    "name": "Leonard",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Leonard.png",
-    "type": null,
-    "camp": null
-  },
-  "3": {
-    "id": 3,
-    "name": "Wildfire Official",
-    "signature": "Join Wildfire and save your loved ones.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 3
-  },
-  "30": {
-    "id": 30,
-    "name": "Interastral Network",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": null,
-    "camp": null
-  },
-  "31": {
-    "id": 31,
-    "name": "Tantan",
-    "signature": "Accidents only take one second to happen, but the pain can last a thousand years",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Tantan.png",
-    "type": 2,
-    "camp": 4
-  },
-  "32": {
-    "id": 32,
-    "name": "Luhui",
-    "signature": "Filming. Slow to Respond. Apologies.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Luhui.png",
-    "type": 2,
-    "camp": 4
-  },
-  "33": {
-    "id": 33,
-    "name": "Wen Furui",
-    "signature": "Foxian Champion!!!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Wnfurui.png",
-    "type": null,
-    "camp": 4
-  },
-  "34": {
-    "id": 34,
-    "name": "Foxian Beauty Daiqing",
-    "signature": "Cute lady chatting online.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Daiqing.png",
-    "type": null,
-    "camp": 4
-  },
-  "35": {
-    "id": 35,
-    "name": "???",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": null,
-    "camp": 4
-  },
-  "36": {
-    "id": 36,
-    "name": "The Butcher's",
-    "signature": "Fresh meat every day! First come first served!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 4
-  },
-  "37": {
-    "id": 37,
-    "name": "Cloudbreadth Sleeves Automated Customer Service",
-    "signature": "Big sales are on! Leave positive comments for discounts!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 4
-  },
-  "38": {
-    "id": 38,
-    "name": "Xikui",
-    "signature": "I leave work right on time.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Xikui.png",
-    "type": 2,
-    "camp": 4
-  },
-  "4": {
-    "id": 4,
-    "name": "Restricted Zone Radio",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 3
-  },
-  "40": {
-    "id": 40,
-    "name": "Dunn",
-    "signature": "I've left Mechanical Fever, don't bother me",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Donne.png",
-    "type": 2,
-    "camp": 3
-  },
-  "41": {
-    "id": 41,
-    "name": "Qingster",
-    "signature": "I'm sick of work :)",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 4
-  },
-  "42": {
-    "id": 42,
-    "name": "Dahao",
-    "signature": "Walk slower, don't leave your soul behind.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Dahao.png",
-    "type": 2,
-    "camp": 4
-  },
-  "44": {
-    "id": 44,
-    "name": "Liangmu",
-    "signature": "Spending time together is the most lovely confession",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Liangmu.png",
-    "type": 2,
-    "camp": 4
-  },
-  "47": {
-    "id": 47,
-    "name": "Jingyan",
-    "signature": "No, no time. I can't do that",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Jingyana.png",
-    "type": 2,
-    "camp": 4
-  },
-  "48": {
-    "id": 48,
-    "name": "Emily",
-    "signature": "Do good deeds, say good words, have a good heart!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Emilie.png",
-    "type": 2,
-    "camp": 2
-  },
-  "49": {
-    "id": 49,
-    "name": "Interastral Peace Appliances",
-    "signature": "Huge Mid-AE sales, coupons available",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 6
-  },
-  "5": {
-    "id": 5,
-    "name": "Rocky",
-    "signature": "Lesley, the light of my life",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Rocky.png",
-    "type": 2,
-    "camp": 2
-  },
-  "51": {
-    "id": 51,
-    "name": "Qingni",
-    "signature": "Traversing this vast universe in the blink of an eye",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Qingni.png",
-    "type": 2,
-    "camp": 4
-  },
-  "52": {
-    "id": 52,
-    "name": "Grumpy",
-    "signature": "My wish for today: Pass my probation period",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Bukaixin.png",
-    "type": 2,
-    "camp": 2
-  },
-  "53": {
-    "id": 53,
-    "name": "Anonymous",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 4
-  },
-  "54": {
-    "id": 54,
-    "name": "Chengjie",
-    "signature": "Dreamchaser",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Chengjie.png",
-    "type": 2,
-    "camp": 4
-  },
-  "55": {
-    "id": 55,
-    "name": "Ziqiao",
-    "signature": "Heron Express \u2014 We Mail Anything",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Ziqiao.png",
-    "type": 2,
-    "camp": 4
-  },
-  "56": {
-    "id": 56,
-    "name": "Herta, Arlan, and {NICKNAME}'s Group Chat",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
-    "type": 3,
-    "camp": 2
-  },
-  "59": {
-    "id": 59,
-    "name": "Maintenance Engineer",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Engineer.png",
-    "type": 2,
-    "camp": 2
-  },
-  "6": {
-    "id": 6,
-    "name": "Crackup Conch",
-    "signature": "A bit corny, but hope you enjoy it",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 2
-  },
-  "60": {
-    "id": 60,
-    "name": "Qingzu",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Qingzu.png",
-    "type": 2,
-    "camp": 4
-  },
-  "61": {
-    "id": 61,
-    "name": "Green Hibiscus",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Lvfulong.png",
-    "type": 2,
-    "camp": 4
-  },
-  "63": {
-    "id": 63,
-    "name": "Hex Club",
-    "signature": "Hexanexus, endless fun!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 6
-  },
-  "64": {
-    "id": 64,
-    "name": "???",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 4
-  },
-  "65": {
-    "id": 65,
-    "name": "???",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 4
-  },
-  "66": {
-    "id": 66,
-    "name": "Dan Shu",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Danshu.png",
-    "type": 2,
-    "camp": 4
-  },
-  "67": {
-    "id": 67,
-    "name": "Group chat with Gepard, Serval, and {NICKNAME}",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
-    "type": 3,
-    "camp": 3
-  },
-  "68": {
-    "id": 68,
-    "name": "Abraham, {NICKNAME}, Asta...",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
-    "type": 3,
-    "camp": 2
-  },
-  "69": {
-    "id": 69,
-    "name": "Regin",
-    "signature": "Do not contact for non-research funding matters",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Regin.png",
-    "type": 2,
-    "camp": 3
-  },
-  "7": {
-    "id": 7,
-    "name": "Herta Panopticon System",
-    "signature": "The almighty Nous is watching over you",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 2
-  },
-  "70": {
-    "id": 70,
-    "name": "Artifact Theft Special Investigation Group",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
-    "type": 3,
-    "camp": 3
-  },
-  "73": {
-    "id": 73,
-    "name": "Bronya, {NICKNAME}, March 7th, Dan Heng's Group Chat",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
-    "type": 3,
-    "camp": 3
-  },
-  "75": {
-    "id": 75,
-    "name": "Anonymous",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 4
-  },
-  "76": {
-    "id": 76,
-    "name": "Realm-Keeping Commission: Emergency Response Center",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 4
-  },
-  "78": {
-    "id": 78,
-    "name": "Aurum Alley Revival Project",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
-    "type": 3,
-    "camp": 6
   },
   "8000": {
     "id": 8000,
@@ -655,11 +255,627 @@
     "type": null,
     "camp": null
   },
+  "8001": {
+    "id": 8001,
+    "name": "{NICKNAME}",
+    "signature": null,
+    "iconPath": "icon/avatar/8001.png",
+    "type": null,
+    "camp": null
+  },
+  "1": {
+    "id": 1,
+    "name": "Wen Mingde",
+    "signature": "Curio Collection Squad ready to strike at a moment's notice.",
+    "iconPath": "icon/avatar/Wenmingde.png",
+    "type": 2,
+    "camp": 2
+  },
+  "2": {
+    "id": 2,
+    "name": "Dr. Dig",
+    "signature": "Scott Business, we serve champions!",
+    "iconPath": "icon/avatar/DoctorDig.png",
+    "type": 2,
+    "camp": 3
+  },
+  "3": {
+    "id": 3,
+    "name": "Wildfire Official",
+    "signature": "Join Wildfire and save your loved ones.",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 3
+  },
+  "4": {
+    "id": 4,
+    "name": "Restricted Zone Radio",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 3
+  },
+  "5": {
+    "id": 5,
+    "name": "Rocky",
+    "signature": "Lesley, the light of my life",
+    "iconPath": "icon/avatar/Rocky.png",
+    "type": 2,
+    "camp": 2
+  },
+  "6": {
+    "id": 6,
+    "name": "Crackup Conch",
+    "signature": "A bit corny, but hope you enjoy it",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 2
+  },
+  "7": {
+    "id": 7,
+    "name": "Herta Panopticon System",
+    "signature": "The almighty Nous is watching over you",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 2
+  },
+  "8": {
+    "id": 8,
+    "name": "Abraham",
+    "signature": "Violent delights have violent ends",
+    "iconPath": "icon/avatar/Abraham.png",
+    "type": 2,
+    "camp": 2
+  },
+  "9": {
+    "id": 9,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 6
+  },
+  "10": {
+    "id": 10,
+    "name": "Julian",
+    "signature": "Click here to change your signature — What is this?",
+    "iconPath": "icon/avatar/Julian.png",
+    "type": 2,
+    "camp": 3
+  },
+  "11": {
+    "id": 11,
+    "name": "???",
+    "signature": "Click here to change your signature — What is this?",
+    "iconPath": "icon/avatar/Julian.png",
+    "type": 2,
+    "camp": 6
+  },
+  "12": {
+    "id": 12,
+    "name": "Oleg",
+    "signature": "Just like the old days",
+    "iconPath": "icon/avatar/Oleg.png",
+    "type": 2,
+    "camp": 3
+  },
+  "13": {
+    "id": 13,
+    "name": "The Astral Express Family",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupTrain.png",
+    "type": 3,
+    "camp": 1
+  },
+  "14": {
+    "id": 14,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "15": {
+    "id": 15,
+    "name": "Madam Herta's Heritor Club",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 2
+  },
+  "16": {
+    "id": 16,
+    "name": "You Already Know Me",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "17": {
+    "id": 17,
+    "name": "M-Robot",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "18": {
+    "id": 18,
+    "name": "Licenseless Space Driving",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "19": {
+    "id": 19,
+    "name": "Richard_Knowitall",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "20": {
+    "id": 20,
+    "name": "Bill Portcullis",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "21": {
+    "id": 21,
+    "name": "Viridian Malva Nut",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "22": {
+    "id": 22,
+    "name": "Ginger Spotted Dove",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "23": {
+    "id": 23,
+    "name": "Purple Shirley",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "24": {
+    "id": 24,
+    "name": "Pamela",
+    "signature": null,
+    "iconPath": "icon/avatar/Pamela.png",
+    "type": 2,
+    "camp": 2
+  },
+  "25": {
+    "id": 25,
+    "name": "Peoplebreaker",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "26": {
+    "id": 26,
+    "name": "HairMaestro",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "27": {
+    "id": 27,
+    "name": "Private Dating Chat",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "28": {
+    "id": 28,
+    "name": "Take-Ultimate-To-The-Face",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "29": {
+    "id": 29,
+    "name": "Leonard",
+    "signature": null,
+    "iconPath": "icon/avatar/Leonard.png",
+    "type": null,
+    "camp": null
+  },
+  "30": {
+    "id": 30,
+    "name": "Interastral Network",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "31": {
+    "id": 31,
+    "name": "Tantan",
+    "signature": "Accidents only take one second to happen, but the pain can last a thousand years",
+    "iconPath": "icon/avatar/Tantan.png",
+    "type": 2,
+    "camp": 4
+  },
+  "32": {
+    "id": 32,
+    "name": "Luhui",
+    "signature": "Filming. Slow to Respond. Apologies.",
+    "iconPath": "icon/avatar/Luhui.png",
+    "type": 2,
+    "camp": 4
+  },
+  "33": {
+    "id": 33,
+    "name": "Wen Furui",
+    "signature": "Foxian Champion!!!",
+    "iconPath": "icon/avatar/Wnfurui.png",
+    "type": null,
+    "camp": 4
+  },
+  "34": {
+    "id": 34,
+    "name": "Foxian Beauty Daiqing",
+    "signature": "Cute lady chatting online.",
+    "iconPath": "icon/avatar/Daiqing.png",
+    "type": null,
+    "camp": 4
+  },
+  "35": {
+    "id": 35,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": 4
+  },
+  "36": {
+    "id": 36,
+    "name": "The Butcher's",
+    "signature": "Fresh meat every day! First come first served!",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "37": {
+    "id": 37,
+    "name": "Cloudbreadth Sleeves Automated Customer Service",
+    "signature": "Big sales are on! Leave positive comments for discounts!",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "38": {
+    "id": 38,
+    "name": "Xikui",
+    "signature": "I leave work right on time.",
+    "iconPath": "icon/avatar/Xikui.png",
+    "type": 2,
+    "camp": 4
+  },
+  "39": {
+    "id": 39,
+    "name": "Yujin",
+    "signature": "Don't bother me if you're also in this trade, arguments are rude",
+    "iconPath": "icon/avatar/Yujin.png",
+    "type": 2,
+    "camp": 4
+  },
+  "40": {
+    "id": 40,
+    "name": "Dunn",
+    "signature": "I've left Mechanical Fever, don't bother me",
+    "iconPath": "icon/avatar/Donne.png",
+    "type": 2,
+    "camp": 3
+  },
+  "41": {
+    "id": 41,
+    "name": "Qingster",
+    "signature": "I'm sick of work :)",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "42": {
+    "id": 42,
+    "name": "Dahao",
+    "signature": "Walk slower, don't leave your soul behind.",
+    "iconPath": "icon/avatar/Dahao.png",
+    "type": 2,
+    "camp": 4
+  },
+  "44": {
+    "id": 44,
+    "name": "Liangmu",
+    "signature": "Spending time together is the most lovely confession",
+    "iconPath": "icon/avatar/Liangmu.png",
+    "type": 2,
+    "camp": 4
+  },
+  "46": {
+    "id": 46,
+    "name": "Diting",
+    "signature": "I'm cool. I don't chat.",
+    "iconPath": "icon/avatar/Diting.png",
+    "type": 2,
+    "camp": 4
+  },
+  "47": {
+    "id": 47,
+    "name": "Jingyan",
+    "signature": "No, no time. I can't do that",
+    "iconPath": "icon/avatar/Jingyana.png",
+    "type": 2,
+    "camp": 4
+  },
+  "48": {
+    "id": 48,
+    "name": "Emily",
+    "signature": "Do good deeds, say good words, have a good heart!",
+    "iconPath": "icon/avatar/Emilie.png",
+    "type": 2,
+    "camp": 2
+  },
+  "49": {
+    "id": 49,
+    "name": "Interastral Peace Appliances",
+    "signature": "Huge Mid-AE sales, coupons available",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 6
+  },
+  "50": {
+    "id": 50,
+    "name": "The Rightful Rights Society",
+    "signature": "Grinding in the Dark, Serving for the Light",
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 2,
+    "camp": 3
+  },
+  "51": {
+    "id": 51,
+    "name": "Qingni",
+    "signature": "Traversing this vast universe in the blink of an eye",
+    "iconPath": "icon/avatar/Qingni.png",
+    "type": 2,
+    "camp": 4
+  },
+  "52": {
+    "id": 52,
+    "name": "Grumpy",
+    "signature": "My wish for today: Pass my probation period",
+    "iconPath": "icon/avatar/Bukaixin.png",
+    "type": 2,
+    "camp": 2
+  },
+  "53": {
+    "id": 53,
+    "name": "Anonymous",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "54": {
+    "id": 54,
+    "name": "Chengjie",
+    "signature": "Dreamchaser",
+    "iconPath": "icon/avatar/Chengjie.png",
+    "type": 2,
+    "camp": 4
+  },
+  "55": {
+    "id": 55,
+    "name": "Ziqiao",
+    "signature": "Heron Express — We Mail Anything",
+    "iconPath": "icon/avatar/Ziqiao.png",
+    "type": 2,
+    "camp": 4
+  },
+  "56": {
+    "id": 56,
+    "name": "Herta, Arlan, and {NICKNAME}'s Group Chat",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 2
+  },
+  "57": {
+    "id": 57,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "58": {
+    "id": 58,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "59": {
+    "id": 59,
+    "name": "Maintenance Engineer",
+    "signature": null,
+    "iconPath": "icon/avatar/Engineer.png",
+    "type": 2,
+    "camp": 2
+  },
+  "60": {
+    "id": 60,
+    "name": "Qingzu",
+    "signature": null,
+    "iconPath": "icon/avatar/Qingzu.png",
+    "type": 2,
+    "camp": 4
+  },
+  "61": {
+    "id": 61,
+    "name": "Green Hibiscus",
+    "signature": null,
+    "iconPath": "icon/avatar/Lvfulong.png",
+    "type": 2,
+    "camp": 4
+  },
+  "62": {
+    "id": 62,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "63": {
+    "id": 63,
+    "name": "Hex Club",
+    "signature": "Hexanexus, endless fun!",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 6
+  },
+  "64": {
+    "id": 64,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "65": {
+    "id": 65,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "66": {
+    "id": 66,
+    "name": "Dan Shu",
+    "signature": null,
+    "iconPath": "icon/avatar/Danshu.png",
+    "type": 2,
+    "camp": 4
+  },
+  "67": {
+    "id": 67,
+    "name": "Group chat with Gepard, Serval, and {NICKNAME}",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 3
+  },
+  "68": {
+    "id": 68,
+    "name": "Abraham, {NICKNAME}, Asta...",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 2
+  },
+  "69": {
+    "id": 69,
+    "name": "Regin",
+    "signature": "Do not contact for non-research funding matters",
+    "iconPath": "icon/avatar/Regin.png",
+    "type": 2,
+    "camp": 3
+  },
+  "70": {
+    "id": 70,
+    "name": "Artifact Theft Special Investigation Group",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 3
+  },
+  "71": {
+    "id": 71,
+    "name": "Silvermane Guard Investigator",
+    "signature": null,
+    "iconPath": "icon/avatar/NPCSoldier.png",
+    "type": 2,
+    "camp": 3
+  },
+  "73": {
+    "id": 73,
+    "name": "Bronya, {NICKNAME}, March 7th, Dan Heng's Group Chat",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 3
+  },
+  "74": {
+    "id": 74,
+    "name": "Anonymous",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 6
+  },
+  "75": {
+    "id": 75,
+    "name": "Anonymous",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "76": {
+    "id": 76,
+    "name": "Realm-Keeping Commission: Emergency Response Center",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  },
+  "78": {
+    "id": 78,
+    "name": "Aurum Alley Revival Project",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 6
+  },
+  "79": {
+    "id": 79,
+    "name": "Mingxi",
+    "signature": null,
+    "iconPath": "icon/avatar/Mingxi.png",
+    "type": 2,
+    "camp": 6
+  },
+  "80": {
+    "id": 80,
+    "name": "Xiaohan",
+    "signature": null,
+    "iconPath": "icon/avatar/Xiaohan.png",
+    "type": 2,
+    "camp": 6
+  },
   "82": {
     "id": 82,
     "name": "Zhongshan",
     "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Zhongshan.png",
+    "iconPath": "icon/avatar/Zhongshan.png",
     "type": 2,
     "camp": 4
   },
@@ -667,7 +883,7 @@
     "id": 83,
     "name": "Cong",
     "signature": "Becoming a poet from scratch",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_XiaoCong.png",
+    "iconPath": "icon/avatar/XiaoCong.png",
     "type": 2,
     "camp": 4
   },
@@ -675,7 +891,7 @@
     "id": 84,
     "name": "Todd",
     "signature": "The spirit is willing, but the flesh is weak...",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Taode.png",
+    "iconPath": "icon/avatar/Taode.png",
     "type": 2,
     "camp": 4
   },
@@ -683,7 +899,7 @@
     "id": 87,
     "name": "Mr. Xiyan",
     "signature": "Without an understanding ear, words are merely expended breath.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_MrXiYan.png",
+    "iconPath": "icon/avatar/MrXiYan.png",
     "type": 2,
     "camp": 4
   },
@@ -691,23 +907,15 @@
     "id": 89,
     "name": "Yancui",
     "signature": "DM for details for group meal discounts",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Yancui.png",
+    "iconPath": "icon/avatar/Yancui.png",
     "type": 2,
     "camp": 4
-  },
-  "9": {
-    "id": 9,
-    "name": "???",
-    "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
-    "type": 2,
-    "camp": 6
   },
   "91": {
     "id": 91,
     "name": "Watson",
     "signature": "State your business, don't \"You there\" me",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Wosen.png",
+    "iconPath": "icon/avatar/Wosen.png",
     "type": 2,
     "camp": 2
   },
@@ -715,7 +923,7 @@
     "id": 92,
     "name": "Guangjin",
     "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Guangjin.png",
+    "iconPath": "icon/avatar/Guangjin.png",
     "type": 2,
     "camp": 4
   }

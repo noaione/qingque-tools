@@ -1,55 +1,57 @@
 {
   "id": 41,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1200800,
-      "startIds": [
-        120080000
-      ],
-      "messages": {
-        "120080000": {
-          "type": "Text",
-          "id": 120080000,
-          "sectionId": 1200800,
-          "senderId": 41,
-          "text": "R u at Cloudford? I sent u the address",
-          "option": null,
-          "nextIds": [
-            120080001
-          ],
-          "kind": "NPC"
-        },
-        "120080001": {
-          "type": "Text",
-          "id": 120080001,
-          "sectionId": 1200800,
-          "senderId": 41,
-          "text": "...Sorry, we can't discuss these things openly, u know, so the place is a little hidden.",
-          "option": null,
-          "nextIds": [
-            120080002
-          ],
-          "kind": "NPC"
-        },
-        "120080002": {
-          "type": "Text",
-          "id": 120080002,
-          "sectionId": 1200800,
-          "senderId": 41,
-          "text": "Waiting 4 u",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    [
+      {
+        "type": "Message",
+        "id": 1200800,
+        "startIds": [
+          120080000
+        ],
+        "messages": {
+          "120080000": {
+            "type": "Text",
+            "id": 120080000,
+            "sectionId": 1200800,
+            "senderId": 41,
+            "text": "R u at Cloudford? I sent u the address",
+            "option": null,
+            "nextIds": [
+              120080001
+            ],
+            "kind": "NPC"
+          },
+          "120080001": {
+            "type": "Text",
+            "id": 120080001,
+            "sectionId": 1200800,
+            "senderId": 41,
+            "text": "...Sorry, we can't discuss these things openly, u know, so the place is a little hidden.",
+            "option": null,
+            "nextIds": [
+              120080002
+            ],
+            "kind": "NPC"
+          },
+          "120080002": {
+            "type": "Text",
+            "id": 120080002,
+            "sectionId": 1200800,
+            "senderId": 41,
+            "text": "Waiting 4 u",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
         }
       }
-    }
+    ]
   ],
   "info": {
     "id": 41,
     "name": "Qingster",
     "signature": "I'm sick of work :)",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
+    "iconPath": "icon/avatar/Anonymous.png",
     "type": 2,
     "camp": 4
   }

@@ -1,104 +1,106 @@
 {
   "id": 91,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1218300,
-      "startIds": [
-        121830000
-      ],
-      "messages": {
-        "121830000": {
-          "type": "Text",
-          "id": 121830000,
-          "sectionId": 1218300,
-          "senderId": 91,
-          "text": "Seems like you've completed all the tasks assigned to you. Nice work",
-          "option": null,
-          "nextIds": [
-            121830001,
-            121830003
-          ],
-          "kind": "NPC"
-        },
-        "121830001": {
-          "type": "Text",
-          "id": 121830001,
-          "sectionId": 1218300,
-          "senderId": null,
-          "text": "I did all the work while you did squat. Nice work indeed!",
-          "option": "Facts!",
-          "nextIds": [
-            121830002
-          ],
-          "kind": "Player"
-        },
-        "121830002": {
-          "type": "Text",
-          "id": 121830002,
-          "sectionId": 1218300,
-          "senderId": 91,
-          "text": "Hey, I helped you. If I didn't file the paperwork for you, you'd have a lot more to do",
-          "option": null,
-          "nextIds": [
-            121830005
-          ],
-          "kind": "NPC"
-        },
-        "121830005": {
-          "type": "Text",
-          "id": 121830005,
-          "sectionId": 1218300,
-          "senderId": 91,
-          "text": "FYI, you're also the only one who took the remuneration. I didn't take any",
-          "option": null,
-          "nextIds": [
-            121830006
-          ],
-          "kind": "NPC"
-        },
-        "121830006": {
-          "type": "Text",
-          "id": 121830006,
-          "sectionId": 1218300,
-          "senderId": 91,
-          "text": "Finally, it was nice working with you. Much nicer than with a certain someone in the space station, at least",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121830003": {
-          "type": "Text",
-          "id": 121830003,
-          "sectionId": 1218300,
-          "senderId": null,
-          "text": "Aren't you assigned some other work? Now you've got the time to ask how I'm doing?",
-          "option": "Now you're free?",
-          "nextIds": [
-            121830004
-          ],
-          "kind": "Player"
-        },
-        "121830004": {
-          "type": "Text",
-          "id": 121830004,
-          "sectionId": 1218300,
-          "senderId": 91,
-          "text": "Someone's got a temper here, but don't forget, I was the one handling paperwork",
-          "option": null,
-          "nextIds": [
-            121830005
-          ],
-          "kind": "NPC"
+    [
+      {
+        "type": "Message",
+        "id": 1218300,
+        "startIds": [
+          121830000
+        ],
+        "messages": {
+          "121830000": {
+            "type": "Text",
+            "id": 121830000,
+            "sectionId": 1218300,
+            "senderId": 91,
+            "text": "Seems like you've completed all the tasks assigned to you. Nice work",
+            "option": null,
+            "nextIds": [
+              121830001,
+              121830003
+            ],
+            "kind": "NPC"
+          },
+          "121830001": {
+            "type": "Text",
+            "id": 121830001,
+            "sectionId": 1218300,
+            "senderId": null,
+            "text": "I did all the work while you did squat. Nice work indeed!",
+            "option": "Facts!",
+            "nextIds": [
+              121830002
+            ],
+            "kind": "Player"
+          },
+          "121830002": {
+            "type": "Text",
+            "id": 121830002,
+            "sectionId": 1218300,
+            "senderId": 91,
+            "text": "Hey, I helped you. If I didn't file the paperwork for you, you'd have a lot more to do",
+            "option": null,
+            "nextIds": [
+              121830005
+            ],
+            "kind": "NPC"
+          },
+          "121830005": {
+            "type": "Text",
+            "id": 121830005,
+            "sectionId": 1218300,
+            "senderId": 91,
+            "text": "FYI, you're also the only one who took the remuneration. I didn't take any",
+            "option": null,
+            "nextIds": [
+              121830006
+            ],
+            "kind": "NPC"
+          },
+          "121830006": {
+            "type": "Text",
+            "id": 121830006,
+            "sectionId": 1218300,
+            "senderId": 91,
+            "text": "Finally, it was nice working with you. Much nicer than with a certain someone in the space station, at least",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121830003": {
+            "type": "Text",
+            "id": 121830003,
+            "sectionId": 1218300,
+            "senderId": null,
+            "text": "Aren't you assigned some other work? Now you've got the time to ask how I'm doing?",
+            "option": "Now you're free?",
+            "nextIds": [
+              121830004
+            ],
+            "kind": "Player"
+          },
+          "121830004": {
+            "type": "Text",
+            "id": 121830004,
+            "sectionId": 1218300,
+            "senderId": 91,
+            "text": "Someone's got a temper here, but don't forget, I was the one handling paperwork",
+            "option": null,
+            "nextIds": [
+              121830005
+            ],
+            "kind": "NPC"
+          }
         }
       }
-    }
+    ]
   ],
   "info": {
     "id": 91,
     "name": "Watson",
     "signature": "State your business, don't \"You there\" me",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Wosen.png",
+    "iconPath": "icon/avatar/Wosen.png",
     "type": 2,
     "camp": 2
   }

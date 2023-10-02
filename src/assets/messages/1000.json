@@ -1,988 +1,1006 @@
 {
   "id": 1000,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1150000,
-      "startIds": [
-        115000000
-      ],
-      "messages": {
-        "115000000": {
-          "type": "Text",
-          "id": 115000000,
-          "sectionId": 1150000,
-          "senderId": 1000,
-          "text": "Himeko said you've been doing a good job lately. Come to the Express whenever you have the time",
-          "option": null,
-          "nextIds": [
-            115000001
-          ],
-          "kind": "NPC"
-        },
-        "115000001": {
-          "type": "Text",
-          "id": 115000001,
-          "sectionId": 1150000,
-          "senderId": 1000,
-          "text": "...Don't ignore my message! I've got some good rewards for you!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    [
+      {
+        "type": "Message",
+        "id": 1150000,
+        "startIds": [
+          115000000
+        ],
+        "messages": {
+          "115000000": {
+            "type": "Text",
+            "id": 115000000,
+            "sectionId": 1150000,
+            "senderId": 1000,
+            "text": "Himeko said you've been doing a good job lately. Come to the Express whenever you have the time",
+            "option": null,
+            "nextIds": [
+              115000001
+            ],
+            "kind": "NPC"
+          },
+          "115000001": {
+            "type": "Text",
+            "id": 115000001,
+            "sectionId": 1150000,
+            "senderId": 1000,
+            "text": "...Don't ignore my message! I've got some good rewards for you!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1150100,
-      "startIds": [
-        115010000
-      ],
-      "messages": {
-        "115010000": {
-          "type": "Text",
-          "id": 115010000,
-          "sectionId": 1150100,
-          "senderId": 1000,
-          "text": "You've been quite active, passenger {NICKNAME}. People are saying a lot of good things about you!",
-          "option": null,
-          "nextIds": [
-            115010001
-          ],
-          "kind": "NPC"
-        },
-        "115010001": {
-          "type": "Text",
-          "id": 115010001,
-          "sectionId": 1150100,
-          "senderId": 1000,
-          "text": "When you come back, I'll have a nice reward ready for you",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1150100,
+        "startIds": [
+          115010000
+        ],
+        "messages": {
+          "115010000": {
+            "type": "Text",
+            "id": 115010000,
+            "sectionId": 1150100,
+            "senderId": 1000,
+            "text": "You've been quite active, passenger {NICKNAME}. People are saying a lot of good things about you!",
+            "option": null,
+            "nextIds": [
+              115010001
+            ],
+            "kind": "NPC"
+          },
+          "115010001": {
+            "type": "Text",
+            "id": 115010001,
+            "sectionId": 1150100,
+            "senderId": 1000,
+            "text": "When you come back, I'll have a nice reward ready for you",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1150200,
-      "startIds": [
-        115020000
-      ],
-      "messages": {
-        "115020000": {
-          "type": "Text",
-          "id": 115020000,
-          "sectionId": 1150200,
-          "senderId": 1000,
-          "text": "Impressive, {NICKNAME}. You are truly one of the Nameless now!",
-          "option": null,
-          "nextIds": [
-            115020001
-          ],
-          "kind": "NPC"
-        },
-        "115020001": {
-          "type": "Text",
-          "id": 115020001,
-          "sectionId": 1150200,
-          "senderId": 1000,
-          "text": "Same as usual, got a reward for you!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1150200,
+        "startIds": [
+          115020000
+        ],
+        "messages": {
+          "115020000": {
+            "type": "Text",
+            "id": 115020000,
+            "sectionId": 1150200,
+            "senderId": 1000,
+            "text": "Impressive, {NICKNAME}. You are truly one of the Nameless now!",
+            "option": null,
+            "nextIds": [
+              115020001
+            ],
+            "kind": "NPC"
+          },
+          "115020001": {
+            "type": "Text",
+            "id": 115020001,
+            "sectionId": 1150200,
+            "senderId": 1000,
+            "text": "Same as usual, got a reward for you!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
         }
       }
-    },
-    {
-      "type": "MissionMessage",
-      "id": 1150900,
-      "startIds": [
-        115090000
-      ],
-      "messages": {
-        "115090000": {
-          "type": "Text",
-          "id": 115090000,
-          "sectionId": 1150900,
-          "senderId": 1000,
-          "text": "Anyone there?",
-          "option": null,
-          "nextIds": [
-            115090001
-          ],
-          "kind": "NPC"
-        },
-        "115090001": {
-          "type": "Text",
-          "id": 115090001,
-          "sectionId": 1150900,
-          "senderId": 1000,
-          "text": "Anyone there?",
-          "option": null,
-          "nextIds": [
-            115090002
-          ],
-          "kind": "NPC"
-        },
-        "115090002": {
-          "type": "Text",
-          "id": 115090002,
-          "sectionId": 1150900,
-          "senderId": 1000,
-          "text": "Hello?",
-          "option": null,
-          "nextIds": [
-            115090003
-          ],
-          "kind": "NPC"
-        },
-        "115090003": {
-          "type": "Text",
-          "id": 115090003,
-          "sectionId": 1150900,
-          "senderId": null,
-          "text": "Nope",
-          "option": "Nope",
-          "nextIds": [
-            115090004
-          ],
-          "kind": "Player"
-        },
-        "115090004": {
-          "type": "Text",
-          "id": 115090004,
-          "sectionId": 1150900,
-          "senderId": 1000,
-          "text": "Something doesn't feel right on the Express... like there's something I can't see...",
-          "option": null,
-          "nextIds": [
-            115090005
-          ],
-          "kind": "NPC"
-        },
-        "115090005": {
-          "type": "Text",
-          "id": 115090005,
-          "sectionId": 1150900,
-          "senderId": 1000,
-          "text": "Come back and see me when you have time!",
-          "option": null,
-          "nextIds": [
-            115090006,
-            115090007,
-            115090008
-          ],
-          "kind": "NPC"
-        },
-        "115090006": {
-          "type": "Text",
-          "id": 115090006,
-          "sectionId": 1150900,
-          "senderId": null,
-          "text": "A conductor shouldn't be this timid.",
-          "option": "A conductor shouldn't be this timid.",
-          "nextIds": [
-            115090009
-          ],
-          "kind": "Player"
-        },
-        "115090009": {
-          "type": "Text",
-          "id": 115090009,
-          "sectionId": 1150900,
-          "senderId": 1000,
-          "text": "Come back in this instant! If we don't solve this, the Express won't be moving an inch!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "115090007": {
-          "type": "Text",
-          "id": 115090007,
-          "sectionId": 1150900,
-          "senderId": null,
-          "text": "Stay calm. I'm coming back.",
-          "option": "Stay calm. I'm coming back.",
-          "nextIds": [
-            115090009
-          ],
-          "kind": "Player"
-        },
-        "115090008": {
-          "type": "Text",
-          "id": 115090008,
-          "sectionId": 1150900,
-          "senderId": null,
-          "text": "Really? I don't believe you.",
-          "option": "Really? I don't believe you.",
-          "nextIds": [
-            115090009
-          ],
-          "kind": "Player"
-        }
-      },
-      "mission": {
-        "id": 4010105,
-        "name": "Fleeting Lights",
-        "type": "Branch"
-      }
-    },
-    {
-      "type": "Message",
-      "id": 1111800,
-      "startIds": [
-        111180000
-      ],
-      "messages": {
-        "111180000": {
-          "type": "Text",
-          "id": 111180000,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "Conductor, heeeelp~",
-          "option": null,
-          "nextIds": [
-            111180002
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111180002": {
-          "type": "Text",
-          "id": 111180002,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "[Automatic Reply] Currently operating on the Express. Please leave a message if it's urgent!",
-          "option": null,
-          "nextIds": [
-            111180003,
-            111180004
-          ],
-          "kind": "NPC"
-        },
-        "111180003": {
-          "type": "Text",
-          "id": 111180003,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "I can see you typing...",
-          "option": "Don't try to fool me",
-          "nextIds": [
-            111180005
-          ],
-          "kind": "Player"
-        },
-        "111180005": {
-          "type": "Text",
-          "id": 111180005,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Dagnabbit, my cover has been blown!",
-          "option": null,
-          "nextIds": [
-            111180007
-          ],
-          "kind": "NPC"
-        },
-        "111180007": {
-          "type": "Text",
-          "id": 111180007,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Okay, I'll stop horsing around. What's up, {NICKNAME}?",
-          "option": null,
-          "nextIds": [
-            111180008,
-            111180009
-          ],
-          "kind": "NPC"
-        },
-        "111180008": {
-          "type": "Text",
-          "id": 111180008,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "Does our Express welcome new members?",
-          "option": "Does the Express welcome new members?",
-          "nextIds": [
-            111180010
-          ],
-          "kind": "Player"
-        },
-        "111180010": {
-          "type": "Text",
-          "id": 111180010,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Oh, did you want to bring your friend on board?",
-          "option": null,
-          "nextIds": [
-            111180011
-          ],
-          "kind": "NPC"
-        },
-        "111180011": {
-          "type": "Text",
-          "id": 111180011,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "So tell me, what's this friend like?",
-          "option": null,
-          "nextIds": [
-            111180012
-          ],
-          "kind": "NPC"
-        },
-        "111180012": {
-          "type": "Text",
-          "id": 111180012,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Please organize your thoughts before answering, Pom-Pom has to think long and hard about this case!",
-          "option": null,
-          "nextIds": [
-            111180013,
-            111180014,
-            111180015
-          ],
-          "kind": "NPC"
-        },
-        "111180013": {
-          "type": "Text",
-          "id": 111180013,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "She's a mechanical prodigy with a meticulous mind",
-          "option": "She's meticulous...",
-          "nextIds": [
-            111180016
-          ],
-          "kind": "Player"
-        },
-        "111180016": {
-          "type": "Text",
-          "id": 111180016,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Oh, Miss Himeko will surely be delighted!",
-          "option": null,
-          "nextIds": [
-            111180019
-          ],
-          "kind": "NPC"
-        },
-        "111180019": {
-          "type": "Text",
-          "id": 111180019,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Anyway, Pom-Pom thinks there's no problem. But...",
-          "option": null,
-          "nextIds": [
-            111180020
-          ],
-          "kind": "NPC"
-        },
-        "111180020": {
-          "type": "Text",
-          "id": 111180020,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "The engine room is off limits!",
-          "option": null,
-          "nextIds": [
-            111180021
-          ],
-          "kind": "NPC"
-        },
-        "111180021": {
-          "type": "Text",
-          "id": 111180021,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Don't wreck anything!",
-          "option": null,
-          "nextIds": [
-            111180022
-          ],
-          "kind": "NPC"
-        },
-        "111180022": {
-          "type": "Text",
-          "id": 111180022,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Can she promise that?",
-          "option": null,
-          "nextIds": [
-            111180023,
-            111180024,
-            111180025
-          ],
-          "kind": "NPC"
-        },
-        "111180023": {
-          "type": "Text",
-          "id": 111180023,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "No problem!",
-          "option": "No problem!",
-          "nextIds": [
-            111180026
-          ],
-          "kind": "Player"
-        },
-        "111180026": {
-          "type": "Text",
-          "id": 111180026,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Whatever the case, these things are not allowed! If this rule can be followed, Pom-Pom will have no objections!",
-          "option": null,
-          "nextIds": [
-            111180027,
-            111180028
-          ],
-          "kind": "NPC"
-        },
-        "111180027": {
-          "type": "Text",
-          "id": 111180027,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "Understood. Thank you, conductor",
-          "option": "Understood. Thank you, conductor",
-          "nextIds": [
-            111180029
-          ],
-          "kind": "Player"
-        },
-        "111180029": {
-          "type": "Sticker",
-          "id": 111180029,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "(sends an all-purpose sticker)",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC",
-          "sticker": {
-            "id": 20006,
-            "path": "SpriteOutput/Emoji/20006.png",
-            "keywords": "Like"
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1150900,
+        "startIds": [
+          115090000
+        ],
+        "messages": {
+          "115090000": {
+            "type": "Text",
+            "id": 115090000,
+            "sectionId": 1150900,
+            "senderId": 1000,
+            "text": "Anyone there?",
+            "option": null,
+            "nextIds": [
+              115090001
+            ],
+            "kind": "NPC"
+          },
+          "115090001": {
+            "type": "Text",
+            "id": 115090001,
+            "sectionId": 1150900,
+            "senderId": 1000,
+            "text": "Anyone there?",
+            "option": null,
+            "nextIds": [
+              115090002
+            ],
+            "kind": "NPC"
+          },
+          "115090002": {
+            "type": "Text",
+            "id": 115090002,
+            "sectionId": 1150900,
+            "senderId": 1000,
+            "text": "Hello?",
+            "option": null,
+            "nextIds": [
+              115090003
+            ],
+            "kind": "NPC"
+          },
+          "115090003": {
+            "type": "Text",
+            "id": 115090003,
+            "sectionId": 1150900,
+            "senderId": null,
+            "text": "Nope",
+            "option": "Nope",
+            "nextIds": [
+              115090004
+            ],
+            "kind": "Player"
+          },
+          "115090004": {
+            "type": "Text",
+            "id": 115090004,
+            "sectionId": 1150900,
+            "senderId": 1000,
+            "text": "Something doesn't feel right on the Express... like there's something I can't see...",
+            "option": null,
+            "nextIds": [
+              115090005
+            ],
+            "kind": "NPC"
+          },
+          "115090005": {
+            "type": "Text",
+            "id": 115090005,
+            "sectionId": 1150900,
+            "senderId": 1000,
+            "text": "Come back and see me when you have time!",
+            "option": null,
+            "nextIds": [
+              115090006,
+              115090007,
+              115090008
+            ],
+            "kind": "NPC"
+          },
+          "115090006": {
+            "type": "Text",
+            "id": 115090006,
+            "sectionId": 1150900,
+            "senderId": null,
+            "text": "A conductor shouldn't be this timid.",
+            "option": "A conductor shouldn't be this timid.",
+            "nextIds": [
+              115090009
+            ],
+            "kind": "Player"
+          },
+          "115090009": {
+            "type": "Text",
+            "id": 115090009,
+            "sectionId": 1150900,
+            "senderId": 1000,
+            "text": "Come back in this instant! If we don't solve this, the Express won't be moving an inch!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "115090007": {
+            "type": "Text",
+            "id": 115090007,
+            "sectionId": 1150900,
+            "senderId": null,
+            "text": "Stay calm. I'm coming back.",
+            "option": "Stay calm. I'm coming back.",
+            "nextIds": [
+              115090009
+            ],
+            "kind": "Player"
+          },
+          "115090008": {
+            "type": "Text",
+            "id": 115090008,
+            "sectionId": 1150900,
+            "senderId": null,
+            "text": "Really? I don't believe you.",
+            "option": "Really? I don't believe you.",
+            "nextIds": [
+              115090009
+            ],
+            "kind": "Player"
           }
         },
-        "111180028": {
-          "type": "Text",
-          "id": 111180028,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "Great! Pom-Pom is the best!",
-          "option": "Great! Pom-Pom is the best!",
-          "nextIds": [
-            111180029
-          ],
-          "kind": "Player"
-        },
-        "111180024": {
-          "type": "Text",
-          "id": 111180024,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "I will try my best to persuade her...",
-          "option": "I will try my best to persuade her...",
-          "nextIds": [
-            111180026
-          ],
-          "kind": "Player"
-        },
-        "111180025": {
-          "type": "Text",
-          "id": 111180025,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "I don't think she can be controlled",
-          "option": "I don't think she can be controlled",
-          "nextIds": [
-            111180026
-          ],
-          "kind": "Player"
-        },
-        "111180014": {
-          "type": "Text",
-          "id": 111180014,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "She's a rock star with an uninhibited personality",
-          "option": "She's uninhibited...",
-          "nextIds": [
-            111180017
-          ],
-          "kind": "Player"
-        },
-        "111180017": {
-          "type": "Text",
-          "id": 111180017,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Rock star? Can Pom-Pom have a copy of her music?",
-          "option": null,
-          "nextIds": [
-            111180019
-          ],
-          "kind": "NPC"
-        },
-        "111180015": {
-          "type": "Text",
-          "id": 111180015,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "She's... I can't say for sure",
-          "option": "I can't say...",
-          "nextIds": [
-            111180018
-          ],
-          "kind": "Player"
-        },
-        "111180018": {
-          "type": "Text",
-          "id": 111180018,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Forget it then! Pom-Pom was just asking for fun anyway!",
-          "option": null,
-          "nextIds": [
-            111180019
-          ],
-          "kind": "NPC"
-        },
-        "111180009": {
-          "type": "Text",
-          "id": 111180009,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "Actually, I have a friend...",
-          "option": "I have a friend who wants to join...",
-          "nextIds": [
-            111180010
-          ],
-          "kind": "Player"
-        },
-        "111180004": {
-          "type": "Text",
-          "id": 111180004,
-          "sectionId": 1111800,
-          "senderId": null,
-          "text": "Why are you leaving? I'm not on the Express yet!",
-          "option": "I haven't boarded the Express!",
-          "nextIds": [
-            111180006
-          ],
-          "kind": "Player"
-        },
-        "111180006": {
-          "type": "Text",
-          "id": 111180006,
-          "sectionId": 1111800,
-          "senderId": 1000,
-          "text": "Yay, I got you good, Passenger {NICKNAME}!",
-          "option": null,
-          "nextIds": [
-            111180007
-          ],
-          "kind": "NPC"
+        "mission": {
+          "id": 4010105,
+          "name": "Fleeting Lights",
+          "type": "Branch"
         }
       }
-    },
-    {
-      "type": "MissionMessage",
-      "id": 5000900,
-      "startIds": [
-        500090000
-      ],
-      "messages": {
-        "500090000": {
-          "type": "Text",
-          "id": 500090000,
-          "sectionId": 5000900,
-          "senderId": 1000,
-          "text": "I feel you haven't been back to the Express since forever, {NICKNAME}...",
-          "option": null,
-          "nextIds": [
-            500090001,
-            500090003
-          ],
-          "kind": "NPC"
-        },
-        "500090001": {
-          "type": "Text",
-          "id": 500090001,
-          "sectionId": 5000900,
-          "senderId": null,
-          "text": "It hasn't been that long since we last said goodbye, right?",
-          "option": "Didn't we just see each other?",
-          "nextIds": [
-            500090002
-          ],
-          "kind": "Player"
-        },
-        "500090002": {
-          "type": "Text",
-          "id": 500090002,
-          "sectionId": 5000900,
-          "senderId": 1000,
-          "text": "Don't worry about the details!",
-          "option": null,
-          "nextIds": [
-            500090005
-          ],
-          "kind": "NPC"
-        },
-        "500090005": {
-          "type": "Text",
-          "id": 500090005,
-          "sectionId": 5000900,
-          "senderId": 1000,
-          "text": "Come back when you've got the time. Pom-Pom has some things for you",
-          "option": null,
-          "nextIds": [
-            500090006
-          ],
-          "kind": "NPC"
-        },
-        "500090006": {
-          "type": "Sticker",
-          "id": 500090006,
-          "sectionId": 5000900,
-          "senderId": 1000,
-          "text": "[Thumbs Up]",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC",
-          "sticker": {
-            "id": 20006,
-            "path": "SpriteOutput/Emoji/20006.png",
-            "keywords": "Like"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1111800,
+        "startIds": [
+          111180000
+        ],
+        "messages": {
+          "111180000": {
+            "type": "Text",
+            "id": 111180000,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "Conductor, heeeelp~",
+            "option": null,
+            "nextIds": [
+              111180002
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111180002": {
+            "type": "Text",
+            "id": 111180002,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "[Automatic Reply] Currently operating on the Express. Please leave a message if it's urgent!",
+            "option": null,
+            "nextIds": [
+              111180003,
+              111180004
+            ],
+            "kind": "NPC"
+          },
+          "111180003": {
+            "type": "Text",
+            "id": 111180003,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "I can see you typing...",
+            "option": "Don't try to fool me",
+            "nextIds": [
+              111180005
+            ],
+            "kind": "Player"
+          },
+          "111180005": {
+            "type": "Text",
+            "id": 111180005,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Dagnabbit, my cover has been blown!",
+            "option": null,
+            "nextIds": [
+              111180007
+            ],
+            "kind": "NPC"
+          },
+          "111180007": {
+            "type": "Text",
+            "id": 111180007,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Okay, I'll stop horsing around. What's up, {NICKNAME}?",
+            "option": null,
+            "nextIds": [
+              111180008,
+              111180009
+            ],
+            "kind": "NPC"
+          },
+          "111180008": {
+            "type": "Text",
+            "id": 111180008,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "Does our Express welcome new members?",
+            "option": "Does the Express welcome new members?",
+            "nextIds": [
+              111180010
+            ],
+            "kind": "Player"
+          },
+          "111180010": {
+            "type": "Text",
+            "id": 111180010,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Oh, did you want to bring your friend on board?",
+            "option": null,
+            "nextIds": [
+              111180011
+            ],
+            "kind": "NPC"
+          },
+          "111180011": {
+            "type": "Text",
+            "id": 111180011,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "So tell me, what's this friend like?",
+            "option": null,
+            "nextIds": [
+              111180012
+            ],
+            "kind": "NPC"
+          },
+          "111180012": {
+            "type": "Text",
+            "id": 111180012,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Please organize your thoughts before answering, Pom-Pom has to think long and hard about this case!",
+            "option": null,
+            "nextIds": [
+              111180013,
+              111180014,
+              111180015
+            ],
+            "kind": "NPC"
+          },
+          "111180013": {
+            "type": "Text",
+            "id": 111180013,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "She's a mechanical prodigy with a meticulous mind",
+            "option": "She's meticulous...",
+            "nextIds": [
+              111180016
+            ],
+            "kind": "Player"
+          },
+          "111180016": {
+            "type": "Text",
+            "id": 111180016,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Oh, Miss Himeko will surely be delighted!",
+            "option": null,
+            "nextIds": [
+              111180019
+            ],
+            "kind": "NPC"
+          },
+          "111180019": {
+            "type": "Text",
+            "id": 111180019,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Anyway, Pom-Pom thinks there's no problem. But...",
+            "option": null,
+            "nextIds": [
+              111180020
+            ],
+            "kind": "NPC"
+          },
+          "111180020": {
+            "type": "Text",
+            "id": 111180020,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "The engine room is off limits!",
+            "option": null,
+            "nextIds": [
+              111180021
+            ],
+            "kind": "NPC"
+          },
+          "111180021": {
+            "type": "Text",
+            "id": 111180021,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Don't wreck anything!",
+            "option": null,
+            "nextIds": [
+              111180022
+            ],
+            "kind": "NPC"
+          },
+          "111180022": {
+            "type": "Text",
+            "id": 111180022,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Can she promise that?",
+            "option": null,
+            "nextIds": [
+              111180023,
+              111180024,
+              111180025
+            ],
+            "kind": "NPC"
+          },
+          "111180023": {
+            "type": "Text",
+            "id": 111180023,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "No problem!",
+            "option": "No problem!",
+            "nextIds": [
+              111180026
+            ],
+            "kind": "Player"
+          },
+          "111180026": {
+            "type": "Text",
+            "id": 111180026,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Whatever the case, these things are not allowed! If this rule can be followed, Pom-Pom will have no objections!",
+            "option": null,
+            "nextIds": [
+              111180027,
+              111180028
+            ],
+            "kind": "NPC"
+          },
+          "111180027": {
+            "type": "Text",
+            "id": 111180027,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "Understood. Thank you, conductor",
+            "option": "Understood. Thank you, conductor",
+            "nextIds": [
+              111180029
+            ],
+            "kind": "Player"
+          },
+          "111180029": {
+            "type": "Sticker",
+            "id": 111180029,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "(sends an all-purpose sticker)",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "111180028": {
+            "type": "Text",
+            "id": 111180028,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "Great! Pom-Pom is the best!",
+            "option": "Great! Pom-Pom is the best!",
+            "nextIds": [
+              111180029
+            ],
+            "kind": "Player"
+          },
+          "111180024": {
+            "type": "Text",
+            "id": 111180024,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "I will try my best to persuade her...",
+            "option": "I will try my best to persuade her...",
+            "nextIds": [
+              111180026
+            ],
+            "kind": "Player"
+          },
+          "111180025": {
+            "type": "Text",
+            "id": 111180025,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "I don't think she can be controlled",
+            "option": "I don't think she can be controlled",
+            "nextIds": [
+              111180026
+            ],
+            "kind": "Player"
+          },
+          "111180014": {
+            "type": "Text",
+            "id": 111180014,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "She's a rock star with an uninhibited personality",
+            "option": "She's uninhibited...",
+            "nextIds": [
+              111180017
+            ],
+            "kind": "Player"
+          },
+          "111180017": {
+            "type": "Text",
+            "id": 111180017,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Rock star? Can Pom-Pom have a copy of her music?",
+            "option": null,
+            "nextIds": [
+              111180019
+            ],
+            "kind": "NPC"
+          },
+          "111180015": {
+            "type": "Text",
+            "id": 111180015,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "She's... I can't say for sure",
+            "option": "I can't say...",
+            "nextIds": [
+              111180018
+            ],
+            "kind": "Player"
+          },
+          "111180018": {
+            "type": "Text",
+            "id": 111180018,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Forget it then! Pom-Pom was just asking for fun anyway!",
+            "option": null,
+            "nextIds": [
+              111180019
+            ],
+            "kind": "NPC"
+          },
+          "111180009": {
+            "type": "Text",
+            "id": 111180009,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "Actually, I have a friend...",
+            "option": "I have a friend who wants to join...",
+            "nextIds": [
+              111180010
+            ],
+            "kind": "Player"
+          },
+          "111180004": {
+            "type": "Text",
+            "id": 111180004,
+            "sectionId": 1111800,
+            "senderId": null,
+            "text": "Why are you leaving? I'm not on the Express yet!",
+            "option": "I haven't boarded the Express!",
+            "nextIds": [
+              111180006
+            ],
+            "kind": "Player"
+          },
+          "111180006": {
+            "type": "Text",
+            "id": 111180006,
+            "sectionId": 1111800,
+            "senderId": 1000,
+            "text": "Yay, I got you good, Passenger {NICKNAME}!",
+            "option": null,
+            "nextIds": [
+              111180007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 5000900,
+        "startIds": [
+          500090000
+        ],
+        "messages": {
+          "500090000": {
+            "type": "Text",
+            "id": 500090000,
+            "sectionId": 5000900,
+            "senderId": 1000,
+            "text": "I feel you haven't been back to the Express since forever, {NICKNAME}...",
+            "option": null,
+            "nextIds": [
+              500090001,
+              500090003
+            ],
+            "kind": "NPC"
+          },
+          "500090001": {
+            "type": "Text",
+            "id": 500090001,
+            "sectionId": 5000900,
+            "senderId": null,
+            "text": "It hasn't been that long since we last said goodbye, right?",
+            "option": "Didn't we just see each other?",
+            "nextIds": [
+              500090002
+            ],
+            "kind": "Player"
+          },
+          "500090002": {
+            "type": "Text",
+            "id": 500090002,
+            "sectionId": 5000900,
+            "senderId": 1000,
+            "text": "Don't worry about the details!",
+            "option": null,
+            "nextIds": [
+              500090005
+            ],
+            "kind": "NPC"
+          },
+          "500090005": {
+            "type": "Text",
+            "id": 500090005,
+            "sectionId": 5000900,
+            "senderId": 1000,
+            "text": "Come back when you've got the time. Pom-Pom has some things for you",
+            "option": null,
+            "nextIds": [
+              500090006
+            ],
+            "kind": "NPC"
+          },
+          "500090006": {
+            "type": "Sticker",
+            "id": 500090006,
+            "sectionId": 5000900,
+            "senderId": 1000,
+            "text": "[Thumbs Up]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "500090003": {
+            "type": "Text",
+            "id": 500090003,
+            "sectionId": 5000900,
+            "senderId": null,
+            "text": "Mmm... It has been a while. I'm starting to forget what Pom-Pom looks like",
+            "option": "It has been a while...",
+            "nextIds": [
+              500090004
+            ],
+            "kind": "Player"
+          },
+          "500090004": {
+            "type": "Text",
+            "id": 500090004,
+            "sectionId": 5000900,
+            "senderId": 1000,
+            "text": "It hasn't been THAT long!",
+            "option": null,
+            "nextIds": [
+              500090005
+            ],
+            "kind": "NPC"
           }
         },
-        "500090003": {
-          "type": "Text",
-          "id": 500090003,
-          "sectionId": 5000900,
-          "senderId": null,
-          "text": "Mmm... It has been a while. I'm starting to forget what Pom-Pom looks like",
-          "option": "It has been a while...",
-          "nextIds": [
-            500090004
-          ],
-          "kind": "Player"
-        },
-        "500090004": {
-          "type": "Text",
-          "id": 500090004,
-          "sectionId": 5000900,
-          "senderId": 1000,
-          "text": "It hasn't been THAT long!",
-          "option": null,
-          "nextIds": [
-            500090005
-          ],
-          "kind": "NPC"
-        }
-      },
-      "mission": {
-        "id": 4050005,
-        "name": "The Conductor's Rewards",
-        "type": "Branch"
-      }
-    },
-    {
-      "type": "Message",
-      "id": 5001000,
-      "startIds": [
-        500100000
-      ],
-      "messages": {
-        "500100000": {
-          "type": "Text",
-          "id": 500100000,
-          "sectionId": 5001000,
-          "senderId": 1000,
-          "text": "I was tidying the cabins when I realized this!",
-          "option": null,
-          "nextIds": [
-            500100001
-          ],
-          "kind": "NPC"
-        },
-        "500100001": {
-          "type": "Text",
-          "id": 500100001,
-          "sectionId": 5001000,
-          "senderId": 1000,
-          "text": "{NICKNAME}, you don't have luggage, do you? Or did I not find your suitcase?",
-          "option": null,
-          "nextIds": [
-            500100002,
-            500100004
-          ],
-          "kind": "NPC"
-        },
-        "500100002": {
-          "type": "Text",
-          "id": 500100002,
-          "sectionId": 5001000,
-          "senderId": null,
-          "text": "I pack light when I travel",
-          "option": "I pack light when I travel",
-          "nextIds": [
-            500100003
-          ],
-          "kind": "Player"
-        },
-        "500100003": {
-          "type": "Text",
-          "id": 500100003,
-          "sectionId": 5001000,
-          "senderId": 1000,
-          "text": "That may be true, but don't underestimate the Express' capacity! We can carry as much luggage as you want!",
-          "option": null,
-          "nextIds": [
-            500100006
-          ],
-          "kind": "NPC"
-        },
-        "500100006": {
-          "type": "Text",
-          "id": 500100006,
-          "sectionId": 5001000,
-          "senderId": 1000,
-          "text": "You need to prepare and have resources ready when you're adventuring... But I don't see any of that from you, {NICKNAME}. That won't do!",
-          "option": null,
-          "nextIds": [
-            500100007
-          ],
-          "kind": "NPC"
-        },
-        "500100007": {
-          "type": "Text",
-          "id": 500100007,
-          "sectionId": 5001000,
-          "senderId": 1000,
-          "text": "You can't be this reckless! Mmm, come back when you can. Pom-Pom has something to say to you. Don't push it off!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "500100004": {
-          "type": "Text",
-          "id": 500100004,
-          "sectionId": 5001000,
-          "senderId": null,
-          "text": "I'm poor. Can't afford luggage",
-          "option": "I'm poor. Can't afford luggage",
-          "nextIds": [
-            500100005
-          ],
-          "kind": "Player"
-        },
-        "500100005": {
-          "type": "Text",
-          "id": 500100005,
-          "sectionId": 5001000,
-          "senderId": 1000,
-          "text": "...Seriously? Every passenger should have their personal possessions",
-          "option": null,
-          "nextIds": [
-            500100006
-          ],
-          "kind": "NPC"
+        "mission": {
+          "id": 4050005,
+          "name": "The Conductor's Rewards",
+          "type": "Branch"
         }
       }
-    },
-    {
-      "type": "MissionMessage",
-      "id": 5001100,
-      "startIds": [
-        500110000
-      ],
-      "messages": {
-        "500110000": {
-          "type": "Text",
-          "id": 500110000,
-          "sectionId": 5001100,
-          "senderId": 1000,
-          "text": "{NICKNAME}, someone's learning fast",
-          "option": null,
-          "nextIds": [
-            500110001,
-            500110003
-          ],
-          "kind": "NPC"
-        },
-        "500110001": {
-          "type": "Text",
-          "id": 500110001,
-          "sectionId": 5001100,
-          "senderId": null,
-          "text": "I'm still just average. I rank maybe third on the Express?",
-          "option": "I'm just average",
-          "nextIds": [
-            500110002
-          ],
-          "kind": "Player"
-        },
-        "500110002": {
-          "type": "Text",
-          "id": 500110002,
-          "sectionId": 5001100,
-          "senderId": 1000,
-          "text": "Confidence... is a good thing!",
-          "option": null,
-          "nextIds": [
-            500110005
-          ],
-          "kind": "NPC"
-        },
-        "500110005": {
-          "type": "Text",
-          "id": 500110005,
-          "sectionId": 5001100,
-          "senderId": 1000,
-          "text": "It's easy to feel lost when your belly traveling alone on a journey of growth. Sometimes it's wise to reach out and ask outstanding seniors for advice. Their lights are like lighthouses on the night ocean, and are very hard to replace",
-          "option": null,
-          "nextIds": [
-            500110006
-          ],
-          "kind": "NPC"
-        },
-        "500110006": {
-          "type": "Text",
-          "id": 500110006,
-          "sectionId": 5001100,
-          "senderId": 1000,
-          "text": "Ahh, typo typo! It's \"you've been,\" not \"your belly\"!",
-          "option": null,
-          "nextIds": [
-            500110007
-          ],
-          "kind": "NPC"
-        },
-        "500110007": {
-          "type": "Text",
-          "id": 500110007,
-          "sectionId": 5001100,
-          "senderId": 1000,
-          "text": "Hurry and come back to the Express when you can! It's easier with face-to-face communication",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "500110003": {
-          "type": "Text",
-          "id": 500110003,
-          "sectionId": 5001100,
-          "senderId": null,
-          "text": "It'll be hard not to improve when you've encountered so much",
-          "option": "Naturally",
-          "nextIds": [
-            500110004
-          ],
-          "kind": "Player"
-        },
-        "500110004": {
-          "type": "Text",
-          "id": 500110004,
-          "sectionId": 5001100,
-          "senderId": 1000,
-          "text": "There will be more wondrous experiences waiting for you in future adventures, {NICKNAME}",
-          "option": null,
-          "nextIds": [
-            500110005
-          ],
-          "kind": "NPC"
-        }
-      },
-      "mission": {
-        "id": 4050007,
-        "name": "Don't Forget About Home",
-        "type": "Branch"
-      }
-    },
-    {
-      "type": "Message",
-      "id": 1213401,
-      "startIds": [
-        121340000
-      ],
-      "messages": {
-        "121340000": {
-          "type": "Text",
-          "id": 121340000,
-          "sectionId": 1213401,
-          "senderId": 1000,
-          "text": "How was it, did you get the record",
-          "option": null,
-          "nextIds": [
-            121340001
-          ],
-          "kind": "NPC"
-        },
-        "121340001": {
-          "type": "Text",
-          "id": 121340001,
-          "sectionId": 1213401,
-          "senderId": null,
-          "text": "I asked Serval for her album, but she doesn't have it, so",
-          "option": "(Tell Pom-Pom about the record)",
-          "nextIds": [
-            121340002
-          ],
-          "kind": "Player"
-        },
-        "121340002": {
-          "type": "Text",
-          "id": 121340002,
-          "sectionId": 1213401,
-          "senderId": 1000,
-          "text": "Yeah, yeah. Pom-Pom will ask the corporation if we can get it from them. But Pom-Pom cannot guarantee it'll satisfy the taste of all passengers",
-          "option": null,
-          "nextIds": [
-            121340003
-          ],
-          "kind": "NPC"
-        },
-        "121340003": {
-          "type": "Text",
-          "id": 121340003,
-          "sectionId": 1213401,
-          "senderId": 1000,
-          "text": "Don't be upset, you're a Trailblazer, an opportunity will come to you eventually",
-          "option": null,
-          "nextIds": [
-            121340004
-          ],
-          "kind": "NPC"
-        },
-        "121340004": {
-          "type": "Text",
-          "id": 121340004,
-          "sectionId": 1213401,
-          "senderId": 1000,
-          "text": "After all, the Phonograph is right here at the Express, it wouldn't run away",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 5001000,
+        "startIds": [
+          500100000
+        ],
+        "messages": {
+          "500100000": {
+            "type": "Text",
+            "id": 500100000,
+            "sectionId": 5001000,
+            "senderId": 1000,
+            "text": "I was tidying the cabins when I realized this!",
+            "option": null,
+            "nextIds": [
+              500100001
+            ],
+            "kind": "NPC"
+          },
+          "500100001": {
+            "type": "Text",
+            "id": 500100001,
+            "sectionId": 5001000,
+            "senderId": 1000,
+            "text": "{NICKNAME}, you don't have luggage, do you? Or did I not find your suitcase?",
+            "option": null,
+            "nextIds": [
+              500100002,
+              500100004
+            ],
+            "kind": "NPC"
+          },
+          "500100002": {
+            "type": "Text",
+            "id": 500100002,
+            "sectionId": 5001000,
+            "senderId": null,
+            "text": "I pack light when I travel",
+            "option": "I pack light when I travel",
+            "nextIds": [
+              500100003
+            ],
+            "kind": "Player"
+          },
+          "500100003": {
+            "type": "Text",
+            "id": 500100003,
+            "sectionId": 5001000,
+            "senderId": 1000,
+            "text": "That may be true, but don't underestimate the Express' capacity! We can carry as much luggage as you want!",
+            "option": null,
+            "nextIds": [
+              500100006
+            ],
+            "kind": "NPC"
+          },
+          "500100006": {
+            "type": "Text",
+            "id": 500100006,
+            "sectionId": 5001000,
+            "senderId": 1000,
+            "text": "You need to prepare and have resources ready when you're adventuring... But I don't see any of that from you, {NICKNAME}. That won't do!",
+            "option": null,
+            "nextIds": [
+              500100007
+            ],
+            "kind": "NPC"
+          },
+          "500100007": {
+            "type": "Text",
+            "id": 500100007,
+            "sectionId": 5001000,
+            "senderId": 1000,
+            "text": "You can't be this reckless! Mmm, come back when you can. Pom-Pom has something to say to you. Don't push it off!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "500100004": {
+            "type": "Text",
+            "id": 500100004,
+            "sectionId": 5001000,
+            "senderId": null,
+            "text": "I'm poor. Can't afford luggage",
+            "option": "I'm poor. Can't afford luggage",
+            "nextIds": [
+              500100005
+            ],
+            "kind": "Player"
+          },
+          "500100005": {
+            "type": "Text",
+            "id": 500100005,
+            "sectionId": 5001000,
+            "senderId": 1000,
+            "text": "...Seriously? Every passenger should have their personal possessions",
+            "option": null,
+            "nextIds": [
+              500100006
+            ],
+            "kind": "NPC"
+          }
         }
       }
-    }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 5001100,
+        "startIds": [
+          500110000
+        ],
+        "messages": {
+          "500110000": {
+            "type": "Text",
+            "id": 500110000,
+            "sectionId": 5001100,
+            "senderId": 1000,
+            "text": "{NICKNAME}, someone's learning fast",
+            "option": null,
+            "nextIds": [
+              500110001,
+              500110003
+            ],
+            "kind": "NPC"
+          },
+          "500110001": {
+            "type": "Text",
+            "id": 500110001,
+            "sectionId": 5001100,
+            "senderId": null,
+            "text": "I'm still just average. I rank maybe third on the Express?",
+            "option": "I'm just average",
+            "nextIds": [
+              500110002
+            ],
+            "kind": "Player"
+          },
+          "500110002": {
+            "type": "Text",
+            "id": 500110002,
+            "sectionId": 5001100,
+            "senderId": 1000,
+            "text": "Confidence... is a good thing!",
+            "option": null,
+            "nextIds": [
+              500110005
+            ],
+            "kind": "NPC"
+          },
+          "500110005": {
+            "type": "Text",
+            "id": 500110005,
+            "sectionId": 5001100,
+            "senderId": 1000,
+            "text": "It's easy to feel lost when your belly traveling alone on a journey of growth. Sometimes it's wise to reach out and ask outstanding seniors for advice. Their lights are like lighthouses on the night ocean, and are very hard to replace",
+            "option": null,
+            "nextIds": [
+              500110006
+            ],
+            "kind": "NPC"
+          },
+          "500110006": {
+            "type": "Text",
+            "id": 500110006,
+            "sectionId": 5001100,
+            "senderId": 1000,
+            "text": "Ahh, typo typo! It's \"you've been,\" not \"your belly\"!",
+            "option": null,
+            "nextIds": [
+              500110007
+            ],
+            "kind": "NPC"
+          },
+          "500110007": {
+            "type": "Text",
+            "id": 500110007,
+            "sectionId": 5001100,
+            "senderId": 1000,
+            "text": "Hurry and come back to the Express when you can! It's easier with face-to-face communication",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "500110003": {
+            "type": "Text",
+            "id": 500110003,
+            "sectionId": 5001100,
+            "senderId": null,
+            "text": "It'll be hard not to improve when you've encountered so much",
+            "option": "Naturally",
+            "nextIds": [
+              500110004
+            ],
+            "kind": "Player"
+          },
+          "500110004": {
+            "type": "Text",
+            "id": 500110004,
+            "sectionId": 5001100,
+            "senderId": 1000,
+            "text": "There will be more wondrous experiences waiting for you in future adventures, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              500110005
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 4050007,
+          "name": "Don't Forget About Home",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1213401,
+        "startIds": [
+          121340000
+        ],
+        "messages": {
+          "121340000": {
+            "type": "Text",
+            "id": 121340000,
+            "sectionId": 1213401,
+            "senderId": 1000,
+            "text": "How was it, did you get the record",
+            "option": null,
+            "nextIds": [
+              121340001
+            ],
+            "kind": "NPC"
+          },
+          "121340001": {
+            "type": "Text",
+            "id": 121340001,
+            "sectionId": 1213401,
+            "senderId": null,
+            "text": "I asked Serval for her album, but she doesn't have it, so",
+            "option": "(Tell Pom-Pom about the record)",
+            "nextIds": [
+              121340002
+            ],
+            "kind": "Player"
+          },
+          "121340002": {
+            "type": "Text",
+            "id": 121340002,
+            "sectionId": 1213401,
+            "senderId": 1000,
+            "text": "Yeah, yeah. Pom-Pom will ask the corporation if we can get it from them. But Pom-Pom cannot guarantee it'll satisfy the taste of all passengers",
+            "option": null,
+            "nextIds": [
+              121340003
+            ],
+            "kind": "NPC"
+          },
+          "121340003": {
+            "type": "Text",
+            "id": 121340003,
+            "sectionId": 1213401,
+            "senderId": 1000,
+            "text": "Don't be upset, you're a Trailblazer, an opportunity will come to you eventually",
+            "option": null,
+            "nextIds": [
+              121340004
+            ],
+            "kind": "NPC"
+          },
+          "121340004": {
+            "type": "Text",
+            "id": 121340004,
+            "sectionId": 1213401,
+            "senderId": 1000,
+            "text": "After all, the Phonograph is right here at the Express, it wouldn't run away",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
   ],
   "info": {
     "id": 1000,
     "name": "Pom-Pom",
     "signature": "Come to Pom-Pom for Trailblazing rewards!",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Pam.png",
+    "iconPath": "icon/avatar/Pam.png",
     "type": 1,
     "camp": 1
   }

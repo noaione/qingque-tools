@@ -84,5 +84,5 @@ export type MessageSections = MessageSectionNormal | MessageSectionMission;
 export interface MessageGroup {
   id: number;
   info: MessageAuthorInfo;
-  sections: MessageSections[];
+  sections: MessageSections[][];
 }

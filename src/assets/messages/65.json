@@ -1,540 +1,542 @@
 {
   "id": 65,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1212801,
-      "startIds": [
-        121280101
-      ],
-      "messages": {
-        "121280101": {
-          "type": "Text",
-          "id": 121280101,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "{TEXTJOIN#24}, were you the one who found all the cycranes?",
-          "option": null,
-          "nextIds": [
-            121280102,
-            121280103
-          ],
-          "kind": "NPC"
-        },
-        "121280102": {
-          "type": "Text",
-          "id": 121280102,
-          "sectionId": 1212801,
-          "senderId": null,
-          "text": "That's me. I'm the one",
-          "option": "That's me",
-          "nextIds": [
-            121280111
-          ],
-          "kind": "Player"
-        },
-        "121280111": {
-          "type": "Text",
-          "id": 121280111,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I'm the one who implemented the sentience program in the cycranes",
-          "option": null,
-          "nextIds": [
-            121280112
-          ],
-          "kind": "NPC"
-        },
-        "121280112": {
-          "type": "Text",
-          "id": 121280112,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I received a parcel. The sender is... probably you. But from the content of the mail, it might be written by Heron Express themselves",
-          "option": null,
-          "nextIds": [
-            121280113
-          ],
-          "kind": "NPC"
-        },
-        "121280113": {
-          "type": "Text",
-          "id": 121280113,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Sorry for causing trouble",
-          "option": null,
-          "nextIds": [
-            121280114,
-            121280115
-          ],
-          "kind": "NPC"
-        },
-        "121280114": {
-          "type": "Text",
-          "id": 121280114,
-          "sectionId": 1212801,
-          "senderId": null,
-          "text": "Why did you make the cycranes sentient?",
-          "option": "Why",
-          "nextIds": [
-            121280118
-          ],
-          "kind": "Player"
-        },
-        "121280118": {
-          "type": "Text",
-          "id": 121280118,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "You ask me why I make the cycranes sentient... maybe you focused on the wrong thing",
-          "option": null,
-          "nextIds": [
-            121280119
-          ],
-          "kind": "NPC"
-        },
-        "121280119": {
-          "type": "Text",
-          "id": 121280119,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I have been a homebody for centuries and haven't talked face-to-face with anyone the entire time",
-          "option": null,
-          "nextIds": [
-            121280120
-          ],
-          "kind": "NPC"
-        },
-        "121280120": {
-          "type": "Text",
-          "id": 121280120,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I thought it's too hard to talk to people, but I keep seeing these cycranes daily",
-          "option": null,
-          "nextIds": [
-            121280121
-          ],
-          "kind": "NPC"
-        },
-        "121280121": {
-          "type": "Text",
-          "id": 121280121,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "So I thought, maybe I can start talking to these cycranes, and move on to talking with people in the future",
-          "option": null,
-          "nextIds": [
-            121280122,
-            121280123
-          ],
-          "kind": "NPC"
-        },
-        "121280122": {
-          "type": "Text",
-          "id": 121280122,
-          "sectionId": 1212801,
-          "senderId": null,
-          "text": "So the sentience is not the point. The point is to have a conversation",
-          "option": "The point is to converse",
-          "nextIds": [
-            121280124
-          ],
-          "kind": "Player"
-        },
-        "121280124": {
-          "type": "Text",
-          "id": 121280124,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "That's right. Having sentient cycranes with different personalities is all to mimic real-life conversations",
-          "option": null,
-          "nextIds": [
-            121280125
-          ],
-          "kind": "NPC"
-        },
-        "121280125": {
-          "type": "Text",
-          "id": 121280125,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I can do my job online, receive my salary online, and there are parcel and food delivery services. I just have to take out the trash regularly, and I don't even need to meet anybody",
-          "option": null,
-          "nextIds": [
-            121280126
-          ],
-          "kind": "NPC"
-        },
-        "121280126": {
-          "type": "Text",
-          "id": 121280126,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Honestly, not having to meet anybody makes me feel safe",
-          "option": null,
-          "nextIds": [
-            121280127,
-            121280130
-          ],
-          "kind": "NPC"
-        },
-        "121280127": {
-          "type": "Text",
-          "id": 121280127,
-          "sectionId": 1212801,
-          "senderId": null,
-          "text": "So, are you still unable to meet people face-to-face or go outside?",
-          "option": "You still can't leave your house",
-          "nextIds": [
-            121280128
-          ],
-          "kind": "Player"
-        },
-        "121280128": {
-          "type": "Text",
-          "id": 121280128,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Yes",
-          "option": null,
-          "nextIds": [
-            121280129
-          ],
-          "kind": "NPC"
-        },
-        "121280129": {
-          "type": "Text",
-          "id": 121280129,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I thought I could talk to cycranes, but I guess I overestimated myself. I'm too nervous",
-          "option": null,
-          "nextIds": [
-            121280133
-          ],
-          "kind": "NPC"
-        },
-        "121280133": {
-          "type": "Text",
-          "id": 121280133,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "...I've had some really traumatic experiences in the past. It's just too much for me",
-          "option": null,
-          "nextIds": [
-            121280134
-          ],
-          "kind": "NPC"
-        },
-        "121280134": {
-          "type": "Text",
-          "id": 121280134,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "But it's not like I'm trying to swear off communication altogether. My texts are pretty normal, isn't it",
-          "option": null,
-          "nextIds": [
-            121280135
-          ],
-          "kind": "NPC"
-        },
-        "121280135": {
-          "type": "Text",
-          "id": 121280135,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Hahahaha",
-          "option": null,
-          "nextIds": [
-            121280136
-          ],
-          "kind": "NPC"
-        },
-        "121280136": {
-          "type": "Text",
-          "id": 121280136,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Sorry, this might not be funny",
-          "option": null,
-          "nextIds": [
-            121280137,
-            121280141
-          ],
-          "kind": "NPC"
-        },
-        "121280137": {
-          "type": "Text",
-          "id": 121280137,
-          "sectionId": 1212801,
-          "senderId": null,
-          "text": "Everyone has their own challenges to overcome. Even if you can't leave your home right now, you can still live the best you can",
-          "option": "Live the best you can",
-          "nextIds": [
-            121280138
-          ],
-          "kind": "Player"
-        },
-        "121280138": {
-          "type": "Text",
-          "id": 121280138,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Thank you, I will do my best",
-          "option": null,
-          "nextIds": [
-            121280139
-          ],
-          "kind": "NPC"
-        },
-        "121280139": {
-          "type": "Text",
-          "id": 121280139,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I'm setting a goal. I will strive to \"speak with cycranes\"",
-          "option": null,
-          "nextIds": [
-            121280140
-          ],
-          "kind": "NPC"
-        },
-        "121280140": {
-          "type": "Text",
-          "id": 121280140,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I may need some more time. Maybe I will finally be able to head out in a few centuries?",
-          "option": null,
-          "nextIds": [
-            121280145
-          ],
-          "kind": "NPC"
-        },
-        "121280145": {
-          "type": "Text",
-          "id": 121280145,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I will apologize to Heron Express",
-          "option": null,
-          "nextIds": [
-            121280146
-          ],
-          "kind": "NPC"
-        },
-        "121280146": {
-          "type": "Text",
-          "id": 121280146,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Also, I've sent you some gifts. I didn't know your address, so I sent them all to Ziqiao",
-          "option": null,
-          "nextIds": [
-            121280147
-          ],
-          "kind": "NPC"
-        },
-        "121280147": {
-          "type": "Text",
-          "id": 121280147,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Thank you",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121280141": {
-          "type": "Text",
-          "id": 121280141,
-          "sectionId": 1212801,
-          "senderId": null,
-          "text": "Don't force yourself. It's good enough that you are messaging people",
-          "option": "Messaging is good enough",
-          "nextIds": [
-            121280142
-          ],
-          "kind": "Player"
-        },
-        "121280142": {
-          "type": "Text",
-          "id": 121280142,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Thank you. You really know how to comfort people",
-          "option": null,
-          "nextIds": [
-            121280143
-          ],
-          "kind": "NPC"
-        },
-        "121280143": {
-          "type": "Text",
-          "id": 121280143,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I've been careful not to overdo it. Wanting to practice how to converse is something I've been working on",
-          "option": null,
-          "nextIds": [
-            121280144
-          ],
-          "kind": "NPC"
-        },
-        "121280144": {
-          "type": "Text",
-          "id": 121280144,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "And speaking with cycranes is my current goal",
-          "option": null,
-          "nextIds": [
-            121280145
-          ],
-          "kind": "NPC"
-        },
-        "121280130": {
-          "type": "Text",
-          "id": 121280130,
-          "sectionId": 1212801,
-          "senderId": null,
-          "text": "Not meeting people for centuries. Unbelievable",
-          "option": "Centuries? Seem exaggerated",
-          "nextIds": [
-            121280131
-          ],
-          "kind": "Player"
-        },
-        "121280131": {
-          "type": "Text",
-          "id": 121280131,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Reaaly? I didn't really realize it had been so long",
-          "option": null,
-          "nextIds": [
-            121280132
-          ],
-          "kind": "NPC"
-        },
-        "121280132": {
-          "type": "Text",
-          "id": 121280132,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I didn't just do nothing for the past few centuries. I started trying to talk to cycranes",
-          "option": null,
-          "nextIds": [
-            121280133
-          ],
-          "kind": "NPC"
-        },
-        "121280123": {
-          "type": "Text",
-          "id": 121280123,
-          "sectionId": 1212801,
-          "senderId": null,
-          "text": "So, you are a recluse who suddenly wants to speak with someone, which is why you did it",
-          "option": "So, you are a recluse",
-          "nextIds": [
-            121280124
-          ],
-          "kind": "Player"
-        },
-        "121280115": {
-          "type": "Text",
-          "id": 121280115,
-          "sectionId": 1212801,
-          "senderId": null,
-          "text": "It's because of your reluctance to contact them that they asked me to contact you",
-          "option": "You refused to make contact",
-          "nextIds": [
-            121280116
-          ],
-          "kind": "Player"
-        },
-        "121280116": {
-          "type": "Text",
-          "id": 121280116,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "...That's cuz they wanted to visit, that or meet somewhere",
-          "option": null,
-          "nextIds": [
-            121280117
-          ],
-          "kind": "NPC"
-        },
-        "121280117": {
-          "type": "Text",
-          "id": 121280117,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "I haven't been out of my home for centuries",
-          "option": null,
-          "nextIds": [
-            121280118
-          ],
-          "kind": "NPC"
-        },
-        "121280103": {
-          "type": "Text",
-          "id": 121280103,
-          "sectionId": 1212801,
-          "senderId": null,
-          "text": "You got the wrong person. I dunno anything abt {TEXTJOIN#24}",
-          "option": "You got the wrong person",
-          "nextIds": [
-            121280104
-          ],
-          "kind": "Player"
-        },
-        "121280104": {
-          "type": "Text",
-          "id": 121280104,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Don't worry, I didn't. I checked Heron Express' backend data",
-          "option": null,
-          "nextIds": [
-            121280105
-          ],
-          "kind": "NPC"
-        },
-        "121280105": {
-          "type": "Text",
-          "id": 121280105,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "However, you can continue to pretend you're not {TEXTJOIN#24}",
-          "option": null,
-          "nextIds": [
-            121280106
-          ],
-          "kind": "NPC"
-        },
-        "121280106": {
-          "type": "Text",
-          "id": 121280106,
-          "sectionId": 1212801,
-          "senderId": 65,
-          "text": "Just pretend I'm texting myself",
-          "option": null,
-          "nextIds": [
-            121280111
-          ],
-          "kind": "NPC"
+    [
+      {
+        "type": "Message",
+        "id": 1212801,
+        "startIds": [
+          121280101
+        ],
+        "messages": {
+          "121280101": {
+            "type": "Text",
+            "id": 121280101,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "{TEXTJOIN#24}, were you the one who found all the cycranes?",
+            "option": null,
+            "nextIds": [
+              121280102,
+              121280103
+            ],
+            "kind": "NPC"
+          },
+          "121280102": {
+            "type": "Text",
+            "id": 121280102,
+            "sectionId": 1212801,
+            "senderId": null,
+            "text": "That's me. I'm the one",
+            "option": "That's me",
+            "nextIds": [
+              121280111
+            ],
+            "kind": "Player"
+          },
+          "121280111": {
+            "type": "Text",
+            "id": 121280111,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I'm the one who implemented the sentience program in the cycranes",
+            "option": null,
+            "nextIds": [
+              121280112
+            ],
+            "kind": "NPC"
+          },
+          "121280112": {
+            "type": "Text",
+            "id": 121280112,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I received a parcel. The sender is... probably you. But from the content of the mail, it might be written by Heron Express themselves",
+            "option": null,
+            "nextIds": [
+              121280113
+            ],
+            "kind": "NPC"
+          },
+          "121280113": {
+            "type": "Text",
+            "id": 121280113,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Sorry for causing trouble",
+            "option": null,
+            "nextIds": [
+              121280114,
+              121280115
+            ],
+            "kind": "NPC"
+          },
+          "121280114": {
+            "type": "Text",
+            "id": 121280114,
+            "sectionId": 1212801,
+            "senderId": null,
+            "text": "Why did you make the cycranes sentient?",
+            "option": "Why",
+            "nextIds": [
+              121280118
+            ],
+            "kind": "Player"
+          },
+          "121280118": {
+            "type": "Text",
+            "id": 121280118,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "You ask me why I make the cycranes sentient... maybe you focused on the wrong thing",
+            "option": null,
+            "nextIds": [
+              121280119
+            ],
+            "kind": "NPC"
+          },
+          "121280119": {
+            "type": "Text",
+            "id": 121280119,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I have been a homebody for centuries and haven't talked face-to-face with anyone the entire time",
+            "option": null,
+            "nextIds": [
+              121280120
+            ],
+            "kind": "NPC"
+          },
+          "121280120": {
+            "type": "Text",
+            "id": 121280120,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I thought it's too hard to talk to people, but I keep seeing these cycranes daily",
+            "option": null,
+            "nextIds": [
+              121280121
+            ],
+            "kind": "NPC"
+          },
+          "121280121": {
+            "type": "Text",
+            "id": 121280121,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "So I thought, maybe I can start talking to these cycranes, and move on to talking with people in the future",
+            "option": null,
+            "nextIds": [
+              121280122,
+              121280123
+            ],
+            "kind": "NPC"
+          },
+          "121280122": {
+            "type": "Text",
+            "id": 121280122,
+            "sectionId": 1212801,
+            "senderId": null,
+            "text": "So the sentience is not the point. The point is to have a conversation",
+            "option": "The point is to converse",
+            "nextIds": [
+              121280124
+            ],
+            "kind": "Player"
+          },
+          "121280124": {
+            "type": "Text",
+            "id": 121280124,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "That's right. Having sentient cycranes with different personalities is all to mimic real-life conversations",
+            "option": null,
+            "nextIds": [
+              121280125
+            ],
+            "kind": "NPC"
+          },
+          "121280125": {
+            "type": "Text",
+            "id": 121280125,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I can do my job online, receive my salary online, and there are parcel and food delivery services. I just have to take out the trash regularly, and I don't even need to meet anybody",
+            "option": null,
+            "nextIds": [
+              121280126
+            ],
+            "kind": "NPC"
+          },
+          "121280126": {
+            "type": "Text",
+            "id": 121280126,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Honestly, not having to meet anybody makes me feel safe",
+            "option": null,
+            "nextIds": [
+              121280127,
+              121280130
+            ],
+            "kind": "NPC"
+          },
+          "121280127": {
+            "type": "Text",
+            "id": 121280127,
+            "sectionId": 1212801,
+            "senderId": null,
+            "text": "So, are you still unable to meet people face-to-face or go outside?",
+            "option": "You still can't leave your house",
+            "nextIds": [
+              121280128
+            ],
+            "kind": "Player"
+          },
+          "121280128": {
+            "type": "Text",
+            "id": 121280128,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Yes",
+            "option": null,
+            "nextIds": [
+              121280129
+            ],
+            "kind": "NPC"
+          },
+          "121280129": {
+            "type": "Text",
+            "id": 121280129,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I thought I could talk to cycranes, but I guess I overestimated myself. I'm too nervous",
+            "option": null,
+            "nextIds": [
+              121280133
+            ],
+            "kind": "NPC"
+          },
+          "121280133": {
+            "type": "Text",
+            "id": 121280133,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "...I've had some really traumatic experiences in the past. It's just too much for me",
+            "option": null,
+            "nextIds": [
+              121280134
+            ],
+            "kind": "NPC"
+          },
+          "121280134": {
+            "type": "Text",
+            "id": 121280134,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "But it's not like I'm trying to swear off communication altogether. My texts are pretty normal, isn't it",
+            "option": null,
+            "nextIds": [
+              121280135
+            ],
+            "kind": "NPC"
+          },
+          "121280135": {
+            "type": "Text",
+            "id": 121280135,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Hahahaha",
+            "option": null,
+            "nextIds": [
+              121280136
+            ],
+            "kind": "NPC"
+          },
+          "121280136": {
+            "type": "Text",
+            "id": 121280136,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Sorry, this might not be funny",
+            "option": null,
+            "nextIds": [
+              121280137,
+              121280141
+            ],
+            "kind": "NPC"
+          },
+          "121280137": {
+            "type": "Text",
+            "id": 121280137,
+            "sectionId": 1212801,
+            "senderId": null,
+            "text": "Everyone has their own challenges to overcome. Even if you can't leave your home right now, you can still live the best you can",
+            "option": "Live the best you can",
+            "nextIds": [
+              121280138
+            ],
+            "kind": "Player"
+          },
+          "121280138": {
+            "type": "Text",
+            "id": 121280138,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Thank you, I will do my best",
+            "option": null,
+            "nextIds": [
+              121280139
+            ],
+            "kind": "NPC"
+          },
+          "121280139": {
+            "type": "Text",
+            "id": 121280139,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I'm setting a goal. I will strive to \"speak with cycranes\"",
+            "option": null,
+            "nextIds": [
+              121280140
+            ],
+            "kind": "NPC"
+          },
+          "121280140": {
+            "type": "Text",
+            "id": 121280140,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I may need some more time. Maybe I will finally be able to head out in a few centuries?",
+            "option": null,
+            "nextIds": [
+              121280145
+            ],
+            "kind": "NPC"
+          },
+          "121280145": {
+            "type": "Text",
+            "id": 121280145,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I will apologize to Heron Express",
+            "option": null,
+            "nextIds": [
+              121280146
+            ],
+            "kind": "NPC"
+          },
+          "121280146": {
+            "type": "Text",
+            "id": 121280146,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Also, I've sent you some gifts. I didn't know your address, so I sent them all to Ziqiao",
+            "option": null,
+            "nextIds": [
+              121280147
+            ],
+            "kind": "NPC"
+          },
+          "121280147": {
+            "type": "Text",
+            "id": 121280147,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Thank you",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121280141": {
+            "type": "Text",
+            "id": 121280141,
+            "sectionId": 1212801,
+            "senderId": null,
+            "text": "Don't force yourself. It's good enough that you are messaging people",
+            "option": "Messaging is good enough",
+            "nextIds": [
+              121280142
+            ],
+            "kind": "Player"
+          },
+          "121280142": {
+            "type": "Text",
+            "id": 121280142,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Thank you. You really know how to comfort people",
+            "option": null,
+            "nextIds": [
+              121280143
+            ],
+            "kind": "NPC"
+          },
+          "121280143": {
+            "type": "Text",
+            "id": 121280143,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I've been careful not to overdo it. Wanting to practice how to converse is something I've been working on",
+            "option": null,
+            "nextIds": [
+              121280144
+            ],
+            "kind": "NPC"
+          },
+          "121280144": {
+            "type": "Text",
+            "id": 121280144,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "And speaking with cycranes is my current goal",
+            "option": null,
+            "nextIds": [
+              121280145
+            ],
+            "kind": "NPC"
+          },
+          "121280130": {
+            "type": "Text",
+            "id": 121280130,
+            "sectionId": 1212801,
+            "senderId": null,
+            "text": "Not meeting people for centuries. Unbelievable",
+            "option": "Centuries? Seem exaggerated",
+            "nextIds": [
+              121280131
+            ],
+            "kind": "Player"
+          },
+          "121280131": {
+            "type": "Text",
+            "id": 121280131,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Reaaly? I didn't really realize it had been so long",
+            "option": null,
+            "nextIds": [
+              121280132
+            ],
+            "kind": "NPC"
+          },
+          "121280132": {
+            "type": "Text",
+            "id": 121280132,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I didn't just do nothing for the past few centuries. I started trying to talk to cycranes",
+            "option": null,
+            "nextIds": [
+              121280133
+            ],
+            "kind": "NPC"
+          },
+          "121280123": {
+            "type": "Text",
+            "id": 121280123,
+            "sectionId": 1212801,
+            "senderId": null,
+            "text": "So, you are a recluse who suddenly wants to speak with someone, which is why you did it",
+            "option": "So, you are a recluse",
+            "nextIds": [
+              121280124
+            ],
+            "kind": "Player"
+          },
+          "121280115": {
+            "type": "Text",
+            "id": 121280115,
+            "sectionId": 1212801,
+            "senderId": null,
+            "text": "It's because of your reluctance to contact them that they asked me to contact you",
+            "option": "You refused to make contact",
+            "nextIds": [
+              121280116
+            ],
+            "kind": "Player"
+          },
+          "121280116": {
+            "type": "Text",
+            "id": 121280116,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "...That's cuz they wanted to visit, that or meet somewhere",
+            "option": null,
+            "nextIds": [
+              121280117
+            ],
+            "kind": "NPC"
+          },
+          "121280117": {
+            "type": "Text",
+            "id": 121280117,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "I haven't been out of my home for centuries",
+            "option": null,
+            "nextIds": [
+              121280118
+            ],
+            "kind": "NPC"
+          },
+          "121280103": {
+            "type": "Text",
+            "id": 121280103,
+            "sectionId": 1212801,
+            "senderId": null,
+            "text": "You got the wrong person. I dunno anything abt {TEXTJOIN#24}",
+            "option": "You got the wrong person",
+            "nextIds": [
+              121280104
+            ],
+            "kind": "Player"
+          },
+          "121280104": {
+            "type": "Text",
+            "id": 121280104,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Don't worry, I didn't. I checked Heron Express' backend data",
+            "option": null,
+            "nextIds": [
+              121280105
+            ],
+            "kind": "NPC"
+          },
+          "121280105": {
+            "type": "Text",
+            "id": 121280105,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "However, you can continue to pretend you're not {TEXTJOIN#24}",
+            "option": null,
+            "nextIds": [
+              121280106
+            ],
+            "kind": "NPC"
+          },
+          "121280106": {
+            "type": "Text",
+            "id": 121280106,
+            "sectionId": 1212801,
+            "senderId": 65,
+            "text": "Just pretend I'm texting myself",
+            "option": null,
+            "nextIds": [
+              121280111
+            ],
+            "kind": "NPC"
+          }
         }
       }
-    }
+    ]
   ],
   "info": {
     "id": 65,
     "name": "???",
     "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
+    "iconPath": "icon/avatar/Anonymous.png",
     "type": 2,
     "camp": 4
   }

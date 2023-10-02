@@ -1,245 +1,251 @@
 {
   "id": 66,
   "sections": [
-    {
-      "type": "MissionMessage",
-      "id": 1212901,
-      "startIds": [
-        121290101
-      ],
-      "messages": {
-        "121290101": {
-          "type": "Text",
-          "id": 121290101,
-          "sectionId": 1212901,
-          "senderId": 66,
-          "text": "{NICKNAME}, I have a preliminary understanding of the Draught of Draconic Surge's pharmacology",
-          "option": null,
-          "nextIds": [
-            121290102
-          ],
-          "kind": "NPC"
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1212901,
+        "startIds": [
+          121290101
+        ],
+        "messages": {
+          "121290101": {
+            "type": "Text",
+            "id": 121290101,
+            "sectionId": 1212901,
+            "senderId": 66,
+            "text": "{NICKNAME}, I have a preliminary understanding of the Draught of Draconic Surge's pharmacology",
+            "option": null,
+            "nextIds": [
+              121290102
+            ],
+            "kind": "NPC"
+          },
+          "121290102": {
+            "type": "Text",
+            "id": 121290102,
+            "sectionId": 1212901,
+            "senderId": 66,
+            "text": "But... you're still busy with the troubles on the Xianzhou, right?",
+            "option": null,
+            "nextIds": [
+              121290103,
+              121290105
+            ],
+            "kind": "NPC"
+          },
+          "121290103": {
+            "type": "Text",
+            "id": 121290103,
+            "sectionId": 1212901,
+            "senderId": null,
+            "text": "At a time like this?",
+            "option": "Right now?",
+            "nextIds": [
+              121290106
+            ],
+            "kind": "Player"
+          },
+          "121290106": {
+            "type": "Text",
+            "id": 121290106,
+            "sectionId": 1212901,
+            "senderId": 66,
+            "text": "No worries. Come find me when you're free",
+            "option": null,
+            "nextIds": [
+              121290107
+            ],
+            "kind": "NPC"
+          },
+          "121290107": {
+            "type": "Text",
+            "id": 121290107,
+            "sectionId": 1212901,
+            "senderId": 66,
+            "text": "I shall be waiting for you at the Synwood Pavilion",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121290105": {
+            "type": "Text",
+            "id": 121290105,
+            "sectionId": 1212901,
+            "senderId": null,
+            "text": "Something happened at the Artisanship Commission",
+            "option": "I'm busy",
+            "nextIds": [
+              121290108
+            ],
+            "kind": "Player"
+          },
+          "121290108": {
+            "type": "Text",
+            "id": 121290108,
+            "sectionId": 1212901,
+            "senderId": null,
+            "text": "The Ambrosial Arbor is growing everywhere. There was even a deer...",
+            "option": null,
+            "nextIds": [
+              121290106
+            ],
+            "kind": "PlayerAuto"
+          }
         },
-        "121290102": {
-          "type": "Text",
-          "id": 121290102,
-          "sectionId": 1212901,
-          "senderId": 66,
-          "text": "But... you're still busy with the troubles on the Xianzhou, right?",
-          "option": null,
-          "nextIds": [
-            121290103,
-            121290105
-          ],
-          "kind": "NPC"
-        },
-        "121290103": {
-          "type": "Text",
-          "id": 121290103,
-          "sectionId": 1212901,
-          "senderId": null,
-          "text": "At a time like this?",
-          "option": "Right now?",
-          "nextIds": [
-            121290106
-          ],
-          "kind": "Player"
-        },
-        "121290106": {
-          "type": "Text",
-          "id": 121290106,
-          "sectionId": 1212901,
-          "senderId": 66,
-          "text": "No worries. Come find me when you're free",
-          "option": null,
-          "nextIds": [
-            121290107
-          ],
-          "kind": "NPC"
-        },
-        "121290107": {
-          "type": "Text",
-          "id": 121290107,
-          "sectionId": 1212901,
-          "senderId": 66,
-          "text": "I shall be waiting for you at the Synwood Pavilion",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121290105": {
-          "type": "Text",
-          "id": 121290105,
-          "sectionId": 1212901,
-          "senderId": null,
-          "text": "Something happened at the Artisanship Commission",
-          "option": "I'm busy",
-          "nextIds": [
-            121290108
-          ],
-          "kind": "Player"
-        },
-        "121290108": {
-          "type": "Text",
-          "id": 121290108,
-          "sectionId": 1212901,
-          "senderId": null,
-          "text": "The Ambrosial Arbor is growing everywhere. There was even a deer...",
-          "option": null,
-          "nextIds": [
-            121290106
-          ],
-          "kind": "PlayerAuto"
-        }
-      },
-      "mission": {
-        "id": 2020104,
-        "name": "Sinners Misled, Credence Falsified",
-        "type": "Branch"
-      }
-    },
-    {
-      "type": "Message",
-      "id": 1213001,
-      "startIds": [
-        121300101
-      ],
-      "messages": {
-        "121300101": {
-          "type": "Text",
-          "id": 121300101,
-          "sectionId": 1213001,
-          "senderId": 66,
-          "text": "{NICKNAME}, have you some time?",
-          "option": null,
-          "nextIds": [
-            121300102
-          ],
-          "kind": "NPC"
-        },
-        "121300102": {
-          "type": "Text",
-          "id": 121300102,
-          "sectionId": 1213001,
-          "senderId": 66,
-          "text": "There are some issues with which I should like your expertise, can you drop by the Synwood Pavilion for a spell?",
-          "option": null,
-          "nextIds": [
-            121300103,
-            121300104
-          ],
-          "kind": "NPC"
-        },
-        "121300103": {
-          "type": "Text",
-          "id": 121300103,
-          "sectionId": 1213001,
-          "senderId": null,
-          "text": "Wait, I'm coming over",
-          "option": "Wait, I'm coming over",
-          "nextIds": [
-            121300106
-          ],
-          "kind": "Player"
-        },
-        "121300106": {
-          "type": "Text",
-          "id": 121300106,
-          "sectionId": 1213001,
-          "senderId": 66,
-          "text": "At your earliest convenience would be best",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121300104": {
-          "type": "Text",
-          "id": 121300104,
-          "sectionId": 1213001,
-          "senderId": null,
-          "text": "Now?",
-          "option": "Now?",
-          "nextIds": [
-            121300106
-          ],
-          "kind": "Player"
+        "mission": {
+          "id": 2020104,
+          "name": "Sinners Misled, Credence Falsified",
+          "type": "Branch"
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1213201,
-      "startIds": [
-        121320101
-      ],
-      "messages": {
-        "121320101": {
-          "type": "Text",
-          "id": 121320101,
-          "sectionId": 1213201,
-          "senderId": 66,
-          "text": "{NICKNAME}, I have prepared the present of which I have mentioned",
-          "option": null,
-          "nextIds": [
-            121320102
-          ],
-          "kind": "NPC"
-        },
-        "121320102": {
-          "type": "Text",
-          "id": 121320102,
-          "sectionId": 1213201,
-          "senderId": 66,
-          "text": "Come over to the Synwood Pavilion, I wish to entrust you with it in person",
-          "option": null,
-          "nextIds": [
-            121320103,
-            121320104
-          ],
-          "kind": "NPC"
-        },
-        "121320103": {
-          "type": "Text",
-          "id": 121320103,
-          "sectionId": 1213201,
-          "senderId": null,
-          "text": "Wait, I'm coming over",
-          "option": "Coming",
-          "nextIds": [
-            121320105
-          ],
-          "kind": "Player"
-        },
-        "121320105": {
-          "type": "Text",
-          "id": 121320105,
-          "sectionId": 1213201,
-          "senderId": 66,
-          "text": "Do not worry, I will be there awaiting your presence",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121320104": {
-          "type": "Text",
-          "id": 121320104,
-          "sectionId": 1213201,
-          "senderId": null,
-          "text": "Now is not a good time",
-          "option": "Not a good time",
-          "nextIds": [
-            121320105
-          ],
-          "kind": "Player"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1213001,
+        "startIds": [
+          121300101
+        ],
+        "messages": {
+          "121300101": {
+            "type": "Text",
+            "id": 121300101,
+            "sectionId": 1213001,
+            "senderId": 66,
+            "text": "{NICKNAME}, have you some time?",
+            "option": null,
+            "nextIds": [
+              121300102
+            ],
+            "kind": "NPC"
+          },
+          "121300102": {
+            "type": "Text",
+            "id": 121300102,
+            "sectionId": 1213001,
+            "senderId": 66,
+            "text": "There are some issues with which I should like your expertise, can you drop by the Synwood Pavilion for a spell?",
+            "option": null,
+            "nextIds": [
+              121300103,
+              121300104
+            ],
+            "kind": "NPC"
+          },
+          "121300103": {
+            "type": "Text",
+            "id": 121300103,
+            "sectionId": 1213001,
+            "senderId": null,
+            "text": "Wait, I'm coming over",
+            "option": "Wait, I'm coming over",
+            "nextIds": [
+              121300106
+            ],
+            "kind": "Player"
+          },
+          "121300106": {
+            "type": "Text",
+            "id": 121300106,
+            "sectionId": 1213001,
+            "senderId": 66,
+            "text": "At your earliest convenience would be best",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121300104": {
+            "type": "Text",
+            "id": 121300104,
+            "sectionId": 1213001,
+            "senderId": null,
+            "text": "Now?",
+            "option": "Now?",
+            "nextIds": [
+              121300106
+            ],
+            "kind": "Player"
+          }
         }
       }
-    }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1213201,
+        "startIds": [
+          121320101
+        ],
+        "messages": {
+          "121320101": {
+            "type": "Text",
+            "id": 121320101,
+            "sectionId": 1213201,
+            "senderId": 66,
+            "text": "{NICKNAME}, I have prepared the present of which I have mentioned",
+            "option": null,
+            "nextIds": [
+              121320102
+            ],
+            "kind": "NPC"
+          },
+          "121320102": {
+            "type": "Text",
+            "id": 121320102,
+            "sectionId": 1213201,
+            "senderId": 66,
+            "text": "Come over to the Synwood Pavilion, I wish to entrust you with it in person",
+            "option": null,
+            "nextIds": [
+              121320103,
+              121320104
+            ],
+            "kind": "NPC"
+          },
+          "121320103": {
+            "type": "Text",
+            "id": 121320103,
+            "sectionId": 1213201,
+            "senderId": null,
+            "text": "Wait, I'm coming over",
+            "option": "Coming",
+            "nextIds": [
+              121320105
+            ],
+            "kind": "Player"
+          },
+          "121320105": {
+            "type": "Text",
+            "id": 121320105,
+            "sectionId": 1213201,
+            "senderId": 66,
+            "text": "Do not worry, I will be there awaiting your presence",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121320104": {
+            "type": "Text",
+            "id": 121320104,
+            "sectionId": 1213201,
+            "senderId": null,
+            "text": "Now is not a good time",
+            "option": "Not a good time",
+            "nextIds": [
+              121320105
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
   ],
   "info": {
     "id": 66,
     "name": "Dan Shu",
     "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Danshu.png",
+    "iconPath": "icon/avatar/Danshu.png",
     "type": 2,
     "camp": 4
   }

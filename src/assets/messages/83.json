@@ -1,620 +1,624 @@
 {
   "id": 83,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1216500,
-      "startIds": [
-        121650001
-      ],
-      "messages": {
-        "121650001": {
-          "type": "Text",
-          "id": 121650001,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "Did you manage to recover the Inspo Jade Abaci without a hitch?",
-          "option": null,
-          "nextIds": [
-            121650002,
-            121650004
-          ],
-          "kind": "NPC"
-        },
-        "121650002": {
-          "type": "Text",
-          "id": 121650002,
-          "sectionId": 1216500,
-          "senderId": null,
-          "text": "We managed to recover 1",
-          "option": "Found 1",
-          "nextIds": [
-            121650003
-          ],
-          "kind": "Player"
-        },
-        "121650003": {
-          "type": "Text",
-          "id": 121650003,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "Oh? That's great",
-          "option": null,
-          "nextIds": [
-            121650007
-          ],
-          "kind": "NPC"
-        },
-        "121650007": {
-          "type": "Text",
-          "id": 121650007,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "...I actually don't have many friends, so I wanted to ask you about some relationship stuff, is that alright?",
-          "option": null,
-          "nextIds": [
-            121650008,
-            121650009
-          ],
-          "kind": "NPC"
-        },
-        "121650008": {
-          "type": "Text",
-          "id": 121650008,
-          "sectionId": 1216500,
-          "senderId": null,
-          "text": "I'm good at talking about matters of the heart. You can ask me anything",
-          "option": "I'm an expert on that topic. Ask away",
-          "nextIds": [
-            121650010
-          ],
-          "kind": "Player"
-        },
-        "121650010": {
-          "type": "Text",
-          "id": 121650010,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "Uh, girls usually like precious gifts with a little sentimental meaning, right?",
-          "option": null,
-          "nextIds": [
-            121650011
-          ],
-          "kind": "NPC"
-        },
-        "121650011": {
-          "type": "Text",
-          "id": 121650011,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "What makes Jingzhai so different? She asked me to throw away my gift",
-          "option": null,
-          "nextIds": [
-            121650012,
-            121650014
-          ],
-          "kind": "NPC"
-        },
-        "121650012": {
-          "type": "Text",
-          "id": 121650012,
-          "sectionId": 1216500,
-          "senderId": null,
-          "text": "What exactly did you give her?",
-          "option": "What exactly did you give her?",
-          "nextIds": [
-            121650013
-          ],
-          "kind": "Player"
-        },
-        "121650013": {
-          "type": "Text",
-          "id": 121650013,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "A padlock! To show our hearts are locked together!",
-          "option": null,
-          "nextIds": [
-            121650016
-          ],
-          "kind": "NPC"
-        },
-        "121650016": {
-          "type": "Image",
-          "id": 121650016,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "[image]",
-          "option": null,
-          "nextIds": [
-            121650017
-          ],
-          "kind": "NPC",
-          "image": {
-            "id": 10204,
-            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10014.png"
+    [
+      {
+        "type": "Message",
+        "id": 1216500,
+        "startIds": [
+          121650001
+        ],
+        "messages": {
+          "121650001": {
+            "type": "Text",
+            "id": 121650001,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "Did you manage to recover the Inspo Jade Abaci without a hitch?",
+            "option": null,
+            "nextIds": [
+              121650002,
+              121650004
+            ],
+            "kind": "NPC"
+          },
+          "121650002": {
+            "type": "Text",
+            "id": 121650002,
+            "sectionId": 1216500,
+            "senderId": null,
+            "text": "We managed to recover 1",
+            "option": "Found 1",
+            "nextIds": [
+              121650003
+            ],
+            "kind": "Player"
+          },
+          "121650003": {
+            "type": "Text",
+            "id": 121650003,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "Oh? That's great",
+            "option": null,
+            "nextIds": [
+              121650007
+            ],
+            "kind": "NPC"
+          },
+          "121650007": {
+            "type": "Text",
+            "id": 121650007,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "...I actually don't have many friends, so I wanted to ask you about some relationship stuff, is that alright?",
+            "option": null,
+            "nextIds": [
+              121650008,
+              121650009
+            ],
+            "kind": "NPC"
+          },
+          "121650008": {
+            "type": "Text",
+            "id": 121650008,
+            "sectionId": 1216500,
+            "senderId": null,
+            "text": "I'm good at talking about matters of the heart. You can ask me anything",
+            "option": "I'm an expert on that topic. Ask away",
+            "nextIds": [
+              121650010
+            ],
+            "kind": "Player"
+          },
+          "121650010": {
+            "type": "Text",
+            "id": 121650010,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "Uh, girls usually like precious gifts with a little sentimental meaning, right?",
+            "option": null,
+            "nextIds": [
+              121650011
+            ],
+            "kind": "NPC"
+          },
+          "121650011": {
+            "type": "Text",
+            "id": 121650011,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "What makes Jingzhai so different? She asked me to throw away my gift",
+            "option": null,
+            "nextIds": [
+              121650012,
+              121650014
+            ],
+            "kind": "NPC"
+          },
+          "121650012": {
+            "type": "Text",
+            "id": 121650012,
+            "sectionId": 1216500,
+            "senderId": null,
+            "text": "What exactly did you give her?",
+            "option": "What exactly did you give her?",
+            "nextIds": [
+              121650013
+            ],
+            "kind": "Player"
+          },
+          "121650013": {
+            "type": "Text",
+            "id": 121650013,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "A padlock! To show our hearts are locked together!",
+            "option": null,
+            "nextIds": [
+              121650016
+            ],
+            "kind": "NPC"
+          },
+          "121650016": {
+            "type": "Image",
+            "id": 121650016,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "[image]",
+            "option": null,
+            "nextIds": [
+              121650017
+            ],
+            "kind": "NPC",
+            "image": {
+              "id": 10204,
+              "path": "image/messages/10014.png"
+            }
+          },
+          "121650017": {
+            "type": "Text",
+            "id": 121650017,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "Sigh, I get it, this thing is really a bit outdated. Also, the allegory of \"locking up the heart of your intended\" is out of touch with this generation's concept of love",
+            "option": null,
+            "nextIds": [
+              121650018
+            ],
+            "kind": "NPC"
+          },
+          "121650018": {
+            "type": "Text",
+            "id": 121650018,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "But at the very least, this padlock is still inlaid with gold and jade and should be worth quite a bit. Do girls really not like it?",
+            "option": null,
+            "nextIds": [
+              121650019,
+              121650020
+            ],
+            "kind": "NPC"
+          },
+          "121650019": {
+            "type": "Text",
+            "id": 121650019,
+            "sectionId": 1216500,
+            "senderId": null,
+            "text": "Where did you get it from, Cong...",
+            "option": "Where did you get that from, Cong...",
+            "nextIds": [
+              121650021
+            ],
+            "kind": "Player"
+          },
+          "121650021": {
+            "type": "Text",
+            "id": 121650021,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "I didn't buy it, it's... it's a treasure passed down from my past life! You don't even understand its value",
+            "option": null,
+            "nextIds": [
+              121650022
+            ],
+            "kind": "NPC"
+          },
+          "121650022": {
+            "type": "Text",
+            "id": 121650022,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "At my hatching rebirth, I held this thing in my hand. The elders all said it represented a \"fate of jade and gold,\" so they sent me to the Artisanship Commission for further studies",
+            "option": null,
+            "nextIds": [
+              121650023
+            ],
+            "kind": "NPC"
+          },
+          "121650023": {
+            "type": "Text",
+            "id": 121650023,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "I thought it would be very appealing to girls. Sigh, I just didn't expect Jingzhai to be a girl who went against the norm and looked at jewelry like dirt",
+            "option": null,
+            "nextIds": [
+              121650024
+            ],
+            "kind": "NPC"
+          },
+          "121650024": {
+            "type": "Text",
+            "id": 121650024,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "No matter, I'll think of another gift to make her happy",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121650020": {
+            "type": "Text",
+            "id": 121650020,
+            "sectionId": 1216500,
+            "senderId": null,
+            "text": "Your shopping tastes break my heart...",
+            "option": "Your aesthetics breaks my heart...",
+            "nextIds": [
+              121650021
+            ],
+            "kind": "Player"
+          },
+          "121650014": {
+            "type": "Text",
+            "id": 121650014,
+            "sectionId": 1216500,
+            "senderId": null,
+            "text": "Maybe she just doesn't want your precious gift",
+            "option": "And that was her rejection...",
+            "nextIds": [
+              121650015
+            ],
+            "kind": "Player"
+          },
+          "121650015": {
+            "type": "Text",
+            "id": 121650015,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "It's nothing much, just a padlock. Is it too outdated?",
+            "option": null,
+            "nextIds": [
+              121650016
+            ],
+            "kind": "NPC"
+          },
+          "121650009": {
+            "type": "Text",
+            "id": 121650009,
+            "sectionId": 1216500,
+            "senderId": null,
+            "text": "I'm no good at things like that. Maybe you should look for someone else?",
+            "option": "Not my forte. Ask someone else",
+            "nextIds": [
+              121650010
+            ],
+            "kind": "Player"
+          },
+          "121650004": {
+            "type": "Text",
+            "id": 121650004,
+            "sectionId": 1216500,
+            "senderId": null,
+            "text": "Stop bugging me or I'm done",
+            "option": "Stop pestering me",
+            "nextIds": [
+              121650005
+            ],
+            "kind": "Player"
+          },
+          "121650005": {
+            "type": "Sticker",
+            "id": 121650005,
+            "sectionId": 1216500,
+            "senderId": null,
+            "text": "[image]",
+            "option": null,
+            "nextIds": [
+              121650006
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "121650006": {
+            "type": "Text",
+            "id": 121650006,
+            "sectionId": 1216500,
+            "senderId": 83,
+            "text": "I'm just checking in, there's no harm in that, right?",
+            "option": null,
+            "nextIds": [
+              121650007
+            ],
+            "kind": "NPC"
           }
-        },
-        "121650017": {
-          "type": "Text",
-          "id": 121650017,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "Sigh, I get it, this thing is really a bit outdated. Also, the allegory of \"locking up the heart of your intended\" is out of touch with this generation's concept of love",
-          "option": null,
-          "nextIds": [
-            121650018
-          ],
-          "kind": "NPC"
-        },
-        "121650018": {
-          "type": "Text",
-          "id": 121650018,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "But at the very least, this padlock is still inlaid with gold and jade and should be worth quite a bit. Do girls really not like it?",
-          "option": null,
-          "nextIds": [
-            121650019,
-            121650020
-          ],
-          "kind": "NPC"
-        },
-        "121650019": {
-          "type": "Text",
-          "id": 121650019,
-          "sectionId": 1216500,
-          "senderId": null,
-          "text": "Where did you get it from, Cong...",
-          "option": "Where did you get that from, Cong...",
-          "nextIds": [
-            121650021
-          ],
-          "kind": "Player"
-        },
-        "121650021": {
-          "type": "Text",
-          "id": 121650021,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "I didn't buy it, it's... it's a treasure passed down from my past life! You don't even understand its value",
-          "option": null,
-          "nextIds": [
-            121650022
-          ],
-          "kind": "NPC"
-        },
-        "121650022": {
-          "type": "Text",
-          "id": 121650022,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "At my hatching rebirth, I held this thing in my hand. The elders all said it represented a \"fate of jade and gold,\" so they sent me to the Artisanship Commission for further studies",
-          "option": null,
-          "nextIds": [
-            121650023
-          ],
-          "kind": "NPC"
-        },
-        "121650023": {
-          "type": "Text",
-          "id": 121650023,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "I thought it would be very appealing to girls. Sigh, I just didn't expect Jingzhai to be a girl who went against the norm and looked at jewelry like dirt",
-          "option": null,
-          "nextIds": [
-            121650024
-          ],
-          "kind": "NPC"
-        },
-        "121650024": {
-          "type": "Text",
-          "id": 121650024,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "No matter, I'll think of another gift to make her happy",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121650020": {
-          "type": "Text",
-          "id": 121650020,
-          "sectionId": 1216500,
-          "senderId": null,
-          "text": "Your shopping tastes break my heart...",
-          "option": "Your aesthetics breaks my heart...",
-          "nextIds": [
-            121650021
-          ],
-          "kind": "Player"
-        },
-        "121650014": {
-          "type": "Text",
-          "id": 121650014,
-          "sectionId": 1216500,
-          "senderId": null,
-          "text": "Maybe she just doesn't want your precious gift",
-          "option": "And that was her rejection...",
-          "nextIds": [
-            121650015
-          ],
-          "kind": "Player"
-        },
-        "121650015": {
-          "type": "Text",
-          "id": 121650015,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "It's nothing much, just a padlock. Is it too outdated?",
-          "option": null,
-          "nextIds": [
-            121650016
-          ],
-          "kind": "NPC"
-        },
-        "121650009": {
-          "type": "Text",
-          "id": 121650009,
-          "sectionId": 1216500,
-          "senderId": null,
-          "text": "I'm no good at things like that. Maybe you should look for someone else?",
-          "option": "Not my forte. Ask someone else",
-          "nextIds": [
-            121650010
-          ],
-          "kind": "Player"
-        },
-        "121650004": {
-          "type": "Text",
-          "id": 121650004,
-          "sectionId": 1216500,
-          "senderId": null,
-          "text": "Stop bugging me or I'm done",
-          "option": "Stop pestering me",
-          "nextIds": [
-            121650005
-          ],
-          "kind": "Player"
-        },
-        "121650005": {
-          "type": "Sticker",
-          "id": 121650005,
-          "sectionId": 1216500,
-          "senderId": null,
-          "text": "[image]",
-          "option": null,
-          "nextIds": [
-            121650006
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20003,
-            "path": "SpriteOutput/Emoji/20003.png",
-            "keywords": "No No"
-          }
-        },
-        "121650006": {
-          "type": "Text",
-          "id": 121650006,
-          "sectionId": 1216500,
-          "senderId": 83,
-          "text": "I'm just checking in, there's no harm in that, right?",
-          "option": null,
-          "nextIds": [
-            121650007
-          ],
-          "kind": "NPC"
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1216600,
-      "startIds": [
-        121660001
-      ],
-      "messages": {
-        "121660001": {
-          "type": "Text",
-          "id": 121660001,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "Emergency, emergency!",
-          "option": null,
-          "nextIds": [
-            121660002
-          ],
-          "kind": "NPC"
-        },
-        "121660002": {
-          "type": "Text",
-          "id": 121660002,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "Someone saw the Poetic Genius ingenium I built in the Spare Time Book Shop, don't let it escape!",
-          "option": null,
-          "nextIds": [
-            121660003
-          ],
-          "kind": "NPC"
-        },
-        "121660003": {
-          "type": "Text",
-          "id": 121660003,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "It looks like a silly goldfish, you'll know when you see it",
-          "option": null,
-          "nextIds": [
-            121660004,
-            121660005
-          ],
-          "kind": "NPC"
-        },
-        "121660004": {
-          "type": "Text",
-          "id": 121660004,
-          "sectionId": 1216600,
-          "senderId": null,
-          "text": "Got it, I'm off to catch it",
-          "option": "On my way",
-          "nextIds": [
-            121660009
-          ],
-          "kind": "Player"
-        },
-        "121660009": {
-          "type": "Text",
-          "id": 121660009,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "Come to think of it, this one's quite impressive, it went straight to the bookstore to collect data",
-          "option": null,
-          "nextIds": [
-            121660010
-          ],
-          "kind": "NPC"
-        },
-        "121660010": {
-          "type": "Text",
-          "id": 121660010,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "By the way, the person who reported this said when he saw it, it was swaying its head while commenting on \"Drifting Clouds\"!",
-          "option": null,
-          "nextIds": [
-            121660011
-          ],
-          "kind": "NPC"
-        },
-        "121660011": {
-          "type": "Text",
-          "id": 121660011,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "What a coincidence, I heard that Ms. Jingzhai's ex is Guyu, the author of \"Drifting Clouds\"",
-          "option": null,
-          "nextIds": [
-            121660012
-          ],
-          "kind": "NPC"
-        },
-        "121660012": {
-          "type": "Image",
-          "id": 121660012,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "[image]",
-          "option": null,
-          "nextIds": [
-            121660013
-          ],
-          "kind": "NPC",
-          "image": {
-            "id": 10205,
-            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10015.png"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1216600,
+        "startIds": [
+          121660001
+        ],
+        "messages": {
+          "121660001": {
+            "type": "Text",
+            "id": 121660001,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "Emergency, emergency!",
+            "option": null,
+            "nextIds": [
+              121660002
+            ],
+            "kind": "NPC"
+          },
+          "121660002": {
+            "type": "Text",
+            "id": 121660002,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "Someone saw the Poetic Genius ingenium I built in the Spare Time Book Shop, don't let it escape!",
+            "option": null,
+            "nextIds": [
+              121660003
+            ],
+            "kind": "NPC"
+          },
+          "121660003": {
+            "type": "Text",
+            "id": 121660003,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "It looks like a silly goldfish, you'll know when you see it",
+            "option": null,
+            "nextIds": [
+              121660004,
+              121660005
+            ],
+            "kind": "NPC"
+          },
+          "121660004": {
+            "type": "Text",
+            "id": 121660004,
+            "sectionId": 1216600,
+            "senderId": null,
+            "text": "Got it, I'm off to catch it",
+            "option": "On my way",
+            "nextIds": [
+              121660009
+            ],
+            "kind": "Player"
+          },
+          "121660009": {
+            "type": "Text",
+            "id": 121660009,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "Come to think of it, this one's quite impressive, it went straight to the bookstore to collect data",
+            "option": null,
+            "nextIds": [
+              121660010
+            ],
+            "kind": "NPC"
+          },
+          "121660010": {
+            "type": "Text",
+            "id": 121660010,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "By the way, the person who reported this said when he saw it, it was swaying its head while commenting on \"Drifting Clouds\"!",
+            "option": null,
+            "nextIds": [
+              121660011
+            ],
+            "kind": "NPC"
+          },
+          "121660011": {
+            "type": "Text",
+            "id": 121660011,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "What a coincidence, I heard that Ms. Jingzhai's ex is Guyu, the author of \"Drifting Clouds\"",
+            "option": null,
+            "nextIds": [
+              121660012
+            ],
+            "kind": "NPC"
+          },
+          "121660012": {
+            "type": "Image",
+            "id": 121660012,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "[image]",
+            "option": null,
+            "nextIds": [
+              121660013
+            ],
+            "kind": "NPC",
+            "image": {
+              "id": 10205,
+              "path": "image/messages/10015.png"
+            }
+          },
+          "121660013": {
+            "type": "Text",
+            "id": 121660013,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "That guy has a lot of influence in the literary world, if I can surpass his writings, I'll definitely win Jingzhai's heart",
+            "option": null,
+            "nextIds": [
+              121660014,
+              121660016
+            ],
+            "kind": "NPC"
+          },
+          "121660014": {
+            "type": "Text",
+            "id": 121660014,
+            "sectionId": 1216600,
+            "senderId": null,
+            "text": "To achieve the level of a great poet overnight is a monumental task...",
+            "option": "This might be a foolhardy dream...",
+            "nextIds": [
+              121660015
+            ],
+            "kind": "Player"
+          },
+          "121660015": {
+            "type": "Text",
+            "id": 121660015,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "I won't belittle myself! With my ingenia's help, I'll definitely surpass him!",
+            "option": null,
+            "nextIds": [
+              121660018
+            ],
+            "kind": "NPC"
+          },
+          "121660018": {
+            "type": "Text",
+            "id": 121660018,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "By the way, when you get there, can you help me buy a copy of Drifting Clouds? I want to study it more",
+            "option": null,
+            "nextIds": [
+              121660019
+            ],
+            "kind": "NPC"
+          },
+          "121660019": {
+            "type": "Text",
+            "id": 121660019,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "I used to think the works written by my romantic rival were full of campy lovey-dovey nonsense, so I was annoyed and didn't want to read them",
+            "option": null,
+            "nextIds": [
+              121660020
+            ],
+            "kind": "NPC"
+          },
+          "121660020": {
+            "type": "Text",
+            "id": 121660020,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "But as the saying goes, know thy enemy, and thine enemies are few and far between... So, for Miss Jingzhai, I'm throwing caution to the wind!",
+            "option": null,
+            "nextIds": [
+              121660021,
+              121660023
+            ],
+            "kind": "NPC"
+          },
+          "121660021": {
+            "type": "Text",
+            "id": 121660021,
+            "sectionId": 1216600,
+            "senderId": null,
+            "text": "Logistics on Xianzhou is so convenient, why don't you place an order yourself?",
+            "option": "Buy it yourself",
+            "nextIds": [
+              121660022
+            ],
+            "kind": "Player"
+          },
+          "121660022": {
+            "type": "Text",
+            "id": 121660022,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "Oh, since you're already doing so many things for me, why don't you just go this extra mile while you're at it",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121660023": {
+            "type": "Text",
+            "id": 121660023,
+            "sectionId": 1216600,
+            "senderId": null,
+            "text": "Fine, fine, I'm already used to running errands anyway",
+            "option": "I'm used to it by now",
+            "nextIds": [
+              121660024
+            ],
+            "kind": "Player"
+          },
+          "121660024": {
+            "type": "Text",
+            "id": 121660024,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "Much obliged",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121660016": {
+            "type": "Text",
+            "id": 121660016,
+            "sectionId": 1216600,
+            "senderId": null,
+            "text": "What era are we living in now!? You and he are completely different. You have harnessed the power of technology to write poetry on an industrial scale, and will crush him easily",
+            "option": "You'll definitely beat him!",
+            "nextIds": [
+              121660017
+            ],
+            "kind": "Player"
+          },
+          "121660017": {
+            "type": "Text",
+            "id": 121660017,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "Thanks for your vote of confidence, {NICKNAME}!",
+            "option": null,
+            "nextIds": [
+              121660018
+            ],
+            "kind": "NPC"
+          },
+          "121660005": {
+            "type": "Text",
+            "id": 121660005,
+            "sectionId": 1216600,
+            "senderId": null,
+            "text": "You need to give me some overtime pay",
+            "option": "I should get extra for this",
+            "nextIds": [
+              121660006
+            ],
+            "kind": "Player"
+          },
+          "121660006": {
+            "type": "Text",
+            "id": 121660006,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "What's the matter?",
+            "option": null,
+            "nextIds": [
+              121660007
+            ],
+            "kind": "NPC"
+          },
+          "121660007": {
+            "type": "Text",
+            "id": 121660007,
+            "sectionId": 1216600,
+            "senderId": null,
+            "text": "What kind of monsters have you made? Just asking them for a few lines of poetry is like a matter of life and death",
+            "option": null,
+            "nextIds": [
+              121660008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121660008": {
+            "type": "Text",
+            "id": 121660008,
+            "sectionId": 1216600,
+            "senderId": 83,
+            "text": "Okay, time is money. It's overtime pay you want, right? Fine you got it",
+            "option": null,
+            "nextIds": [
+              121660009
+            ],
+            "kind": "NPC"
           }
-        },
-        "121660013": {
-          "type": "Text",
-          "id": 121660013,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "That guy has a lot of influence in the literary world, if I can surpass his writings, I'll definitely win Jingzhai's heart",
-          "option": null,
-          "nextIds": [
-            121660014,
-            121660016
-          ],
-          "kind": "NPC"
-        },
-        "121660014": {
-          "type": "Text",
-          "id": 121660014,
-          "sectionId": 1216600,
-          "senderId": null,
-          "text": "To achieve the level of a great poet overnight is a monumental task...",
-          "option": "This might be a foolhardy dream...",
-          "nextIds": [
-            121660015
-          ],
-          "kind": "Player"
-        },
-        "121660015": {
-          "type": "Text",
-          "id": 121660015,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "I won't belittle myself! With my ingenia's help, I'll definitely surpass him!",
-          "option": null,
-          "nextIds": [
-            121660018
-          ],
-          "kind": "NPC"
-        },
-        "121660018": {
-          "type": "Text",
-          "id": 121660018,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "By the way, when you get there, can you help me buy a copy of Drifting Clouds? I want to study it more",
-          "option": null,
-          "nextIds": [
-            121660019
-          ],
-          "kind": "NPC"
-        },
-        "121660019": {
-          "type": "Text",
-          "id": 121660019,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "I used to think the works written by my romantic rival were full of campy lovey-dovey nonsense, so I was annoyed and didn't want to read them",
-          "option": null,
-          "nextIds": [
-            121660020
-          ],
-          "kind": "NPC"
-        },
-        "121660020": {
-          "type": "Text",
-          "id": 121660020,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "But as the saying goes, know thy enemy, and thine enemies are few and far between... So, for Miss Jingzhai, I'm throwing caution to the wind!",
-          "option": null,
-          "nextIds": [
-            121660021,
-            121660023
-          ],
-          "kind": "NPC"
-        },
-        "121660021": {
-          "type": "Text",
-          "id": 121660021,
-          "sectionId": 1216600,
-          "senderId": null,
-          "text": "Logistics on Xianzhou is so convenient, why don't you place an order yourself?",
-          "option": "Buy it yourself",
-          "nextIds": [
-            121660022
-          ],
-          "kind": "Player"
-        },
-        "121660022": {
-          "type": "Text",
-          "id": 121660022,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "Oh, since you're already doing so many things for me, why don't you just go this extra mile while you're at it",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121660023": {
-          "type": "Text",
-          "id": 121660023,
-          "sectionId": 1216600,
-          "senderId": null,
-          "text": "Fine, fine, I'm already used to running errands anyway",
-          "option": "I'm used to it by now",
-          "nextIds": [
-            121660024
-          ],
-          "kind": "Player"
-        },
-        "121660024": {
-          "type": "Text",
-          "id": 121660024,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "Much obliged",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121660016": {
-          "type": "Text",
-          "id": 121660016,
-          "sectionId": 1216600,
-          "senderId": null,
-          "text": "What era are we living in now!? You and he are completely different. You have harnessed the power of technology to write poetry on an industrial scale, and will crush him easily",
-          "option": "You'll definitely beat him!",
-          "nextIds": [
-            121660017
-          ],
-          "kind": "Player"
-        },
-        "121660017": {
-          "type": "Text",
-          "id": 121660017,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "Thanks for your vote of confidence, {NICKNAME}!",
-          "option": null,
-          "nextIds": [
-            121660018
-          ],
-          "kind": "NPC"
-        },
-        "121660005": {
-          "type": "Text",
-          "id": 121660005,
-          "sectionId": 1216600,
-          "senderId": null,
-          "text": "You need to give me some overtime pay",
-          "option": "I should get extra for this",
-          "nextIds": [
-            121660006
-          ],
-          "kind": "Player"
-        },
-        "121660006": {
-          "type": "Text",
-          "id": 121660006,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "What's the matter?",
-          "option": null,
-          "nextIds": [
-            121660007
-          ],
-          "kind": "NPC"
-        },
-        "121660007": {
-          "type": "Text",
-          "id": 121660007,
-          "sectionId": 1216600,
-          "senderId": null,
-          "text": "What kind of monsters have you made? Just asking them for a few lines of poetry is like a matter of life and death",
-          "option": null,
-          "nextIds": [
-            121660008
-          ],
-          "kind": "PlayerAuto"
-        },
-        "121660008": {
-          "type": "Text",
-          "id": 121660008,
-          "sectionId": 1216600,
-          "senderId": 83,
-          "text": "Okay, time is money. It's overtime pay you want, right? Fine you got it",
-          "option": null,
-          "nextIds": [
-            121660009
-          ],
-          "kind": "NPC"
         }
       }
-    }
+    ]
   ],
   "info": {
     "id": 83,
     "name": "Cong",
     "signature": "Becoming a poet from scratch",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_XiaoCong.png",
+    "iconPath": "icon/avatar/XiaoCong.png",
     "type": 2,
     "camp": 4
   }

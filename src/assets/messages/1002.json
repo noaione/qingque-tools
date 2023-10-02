@@ -1,3007 +1,3031 @@
 {
   "id": 1002,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1000000,
-      "startIds": [
-        100000000
-      ],
-      "messages": {
-        "100000000": {
-          "type": "Text",
-          "id": 100000000,
-          "sectionId": 1000000,
-          "senderId": 1002,
-          "text": "Hi. This is Dan Heng.",
-          "option": null,
-          "nextIds": [
-            100000001
-          ],
-          "kind": "NPC"
-        },
-        "100000001": {
-          "type": "Text",
-          "id": 100000001,
-          "sectionId": 1000000,
-          "senderId": 1002,
-          "text": "Remember to go find Himeko.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    [
+      {
+        "type": "Message",
+        "id": 1000000,
+        "startIds": [
+          100000000
+        ],
+        "messages": {
+          "100000000": {
+            "type": "Text",
+            "id": 100000000,
+            "sectionId": 1000000,
+            "senderId": 1002,
+            "text": "Hi. This is Dan Heng.",
+            "option": null,
+            "nextIds": [
+              100000001
+            ],
+            "kind": "NPC"
+          },
+          "100000001": {
+            "type": "Text",
+            "id": 100000001,
+            "sectionId": 1000000,
+            "senderId": 1002,
+            "text": "Remember to go find Himeko.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1113100,
-      "startIds": [
-        111310000,
-        111310001,
-        111310002
-      ],
-      "messages": {
-        "111310000": {
-          "type": "Text",
-          "id": 111310000,
-          "sectionId": 1113100,
-          "senderId": null,
-          "text": "Master Dan Heng...",
-          "option": "Master Dan Heng...",
-          "nextIds": [
-            111310003
-          ],
-          "kind": "Player"
-        },
-        "111310003": {
-          "type": "Text",
-          "id": 111310003,
-          "sectionId": 1113100,
-          "senderId": 1002,
-          "text": "...Please, act normal.",
-          "option": null,
-          "nextIds": [
-            111310005
-          ],
-          "kind": "NPC"
-        },
-        "111310005": {
-          "type": "Text",
-          "id": 111310005,
-          "sectionId": 1113100,
-          "senderId": 1002,
-          "text": "You want to say something? Just say it.",
-          "option": null,
-          "nextIds": [
-            111310006,
-            111310007
-          ],
-          "kind": "NPC"
-        },
-        "111310006": {
-          "type": "Text",
-          "id": 111310006,
-          "sectionId": 1113100,
-          "senderId": null,
-          "text": "Do you wanna earn some money...",
-          "option": "Do you wanna earn some money...",
-          "nextIds": [
-            111310008
-          ],
-          "kind": "Player"
-        },
-        "111310008": {
-          "type": "Text",
-          "id": 111310008,
-          "sectionId": 1113100,
-          "senderId": 1002,
-          "text": "Why are you beating around the bush? This isn't like you, {NICKNAME}.",
-          "option": null,
-          "nextIds": [
-            111310009
-          ],
-          "kind": "NPC"
-        },
-        "111310009": {
-          "type": "Text",
-          "id": 111310009,
-          "sectionId": 1113100,
-          "senderId": 1002,
-          "text": "No need to beat around the bush. I will keep this a secret for you, if you wish.",
-          "option": null,
-          "nextIds": [
-            111310010
-          ],
-          "kind": "NPC"
-        },
-        "111310010": {
-          "type": "Text",
-          "id": 111310010,
-          "sectionId": 1113100,
-          "senderId": null,
-          "text": "I need a photo of you.",
-          "option": "I need a photo of you.",
-          "nextIds": [
-            111310011
-          ],
-          "kind": "Player"
-        },
-        "111310011": {
-          "type": "Text",
-          "id": 111310011,
-          "sectionId": 1113100,
-          "senderId": 1002,
-          "text": "Photo?",
-          "option": null,
-          "nextIds": [
-            111310012
-          ],
-          "kind": "NPC"
-        },
-        "111310012": {
-          "type": "Text",
-          "id": 111310012,
-          "sectionId": 1113100,
-          "senderId": 1002,
-          "text": "I don't usually take photos, but March often sends me the pictures she snaps.",
-          "option": null,
-          "nextIds": [
-            111310013
-          ],
-          "kind": "NPC"
-        },
-        "111310013": {
-          "type": "Text",
-          "id": 111310013,
-          "sectionId": 1113100,
-          "senderId": 1002,
-          "text": "But... what exactly do you want my photo for?",
-          "option": null,
-          "nextIds": [
-            111310014,
-            111310015
-          ],
-          "kind": "NPC"
-        },
-        "111310014": {
-          "type": "Text",
-          "id": 111310014,
-          "sectionId": 1113100,
-          "senderId": null,
-          "text": "Trust me for once!",
-          "option": "Trust me for once!",
-          "nextIds": [
-            111310016
-          ],
-          "kind": "Player"
-        },
-        "111310016": {
-          "type": "Text",
-          "id": 111310016,
-          "sectionId": 1113100,
-          "senderId": 1002,
-          "text": "...Okay. Don't go overboard.",
-          "option": null,
-          "nextIds": [
-            111310017
-          ],
-          "kind": "NPC"
-        },
-        "111310017": {
-          "type": "Image",
-          "id": 111310017,
-          "sectionId": 1113100,
-          "senderId": 1002,
-          "text": "[Image]",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC",
-          "image": {
-            "id": 10011,
-            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10011.png"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1113100,
+        "startIds": [
+          111310000,
+          111310001,
+          111310002
+        ],
+        "messages": {
+          "111310000": {
+            "type": "Text",
+            "id": 111310000,
+            "sectionId": 1113100,
+            "senderId": null,
+            "text": "Master Dan Heng...",
+            "option": "Master Dan Heng...",
+            "nextIds": [
+              111310003
+            ],
+            "kind": "Player"
+          },
+          "111310003": {
+            "type": "Text",
+            "id": 111310003,
+            "sectionId": 1113100,
+            "senderId": 1002,
+            "text": "...Please, act normal.",
+            "option": null,
+            "nextIds": [
+              111310005
+            ],
+            "kind": "NPC"
+          },
+          "111310005": {
+            "type": "Text",
+            "id": 111310005,
+            "sectionId": 1113100,
+            "senderId": 1002,
+            "text": "You want to say something? Just say it.",
+            "option": null,
+            "nextIds": [
+              111310006,
+              111310007
+            ],
+            "kind": "NPC"
+          },
+          "111310006": {
+            "type": "Text",
+            "id": 111310006,
+            "sectionId": 1113100,
+            "senderId": null,
+            "text": "Do you wanna earn some money...",
+            "option": "Do you wanna earn some money...",
+            "nextIds": [
+              111310008
+            ],
+            "kind": "Player"
+          },
+          "111310008": {
+            "type": "Text",
+            "id": 111310008,
+            "sectionId": 1113100,
+            "senderId": 1002,
+            "text": "Why are you beating around the bush? This isn't like you, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              111310009
+            ],
+            "kind": "NPC"
+          },
+          "111310009": {
+            "type": "Text",
+            "id": 111310009,
+            "sectionId": 1113100,
+            "senderId": 1002,
+            "text": "No need to beat around the bush. I will keep this a secret for you, if you wish.",
+            "option": null,
+            "nextIds": [
+              111310010
+            ],
+            "kind": "NPC"
+          },
+          "111310010": {
+            "type": "Text",
+            "id": 111310010,
+            "sectionId": 1113100,
+            "senderId": null,
+            "text": "I need a photo of you.",
+            "option": "I need a photo of you.",
+            "nextIds": [
+              111310011
+            ],
+            "kind": "Player"
+          },
+          "111310011": {
+            "type": "Text",
+            "id": 111310011,
+            "sectionId": 1113100,
+            "senderId": 1002,
+            "text": "Photo?",
+            "option": null,
+            "nextIds": [
+              111310012
+            ],
+            "kind": "NPC"
+          },
+          "111310012": {
+            "type": "Text",
+            "id": 111310012,
+            "sectionId": 1113100,
+            "senderId": 1002,
+            "text": "I don't usually take photos, but March often sends me the pictures she snaps.",
+            "option": null,
+            "nextIds": [
+              111310013
+            ],
+            "kind": "NPC"
+          },
+          "111310013": {
+            "type": "Text",
+            "id": 111310013,
+            "sectionId": 1113100,
+            "senderId": 1002,
+            "text": "But... what exactly do you want my photo for?",
+            "option": null,
+            "nextIds": [
+              111310014,
+              111310015
+            ],
+            "kind": "NPC"
+          },
+          "111310014": {
+            "type": "Text",
+            "id": 111310014,
+            "sectionId": 1113100,
+            "senderId": null,
+            "text": "Trust me for once!",
+            "option": "Trust me for once!",
+            "nextIds": [
+              111310016
+            ],
+            "kind": "Player"
+          },
+          "111310016": {
+            "type": "Text",
+            "id": 111310016,
+            "sectionId": 1113100,
+            "senderId": 1002,
+            "text": "...Okay. Don't go overboard.",
+            "option": null,
+            "nextIds": [
+              111310017
+            ],
+            "kind": "NPC"
+          },
+          "111310017": {
+            "type": "Image",
+            "id": 111310017,
+            "sectionId": 1113100,
+            "senderId": 1002,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "image": {
+              "id": 10011,
+              "path": "image/messages/10011.png"
+            }
+          },
+          "111310015": {
+            "type": "Text",
+            "id": 111310015,
+            "sectionId": 1113100,
+            "senderId": null,
+            "text": "It's all for your fans!",
+            "option": "It's all for your fans!",
+            "nextIds": [
+              111310016
+            ],
+            "kind": "Player"
+          },
+          "111310007": {
+            "type": "Text",
+            "id": 111310007,
+            "sectionId": 1113100,
+            "senderId": null,
+            "text": "I have a request...",
+            "option": "I have a request...",
+            "nextIds": [
+              111310008
+            ],
+            "kind": "Player"
+          },
+          "111310001": {
+            "type": "Text",
+            "id": 111310001,
+            "sectionId": 1113100,
+            "senderId": null,
+            "text": "Dragon Young...",
+            "option": "Dragon Young...",
+            "nextIds": [
+              111310003
+            ],
+            "kind": "Player"
+          },
+          "111310002": {
+            "type": "Text",
+            "id": 111310002,
+            "sectionId": 1113100,
+            "senderId": null,
+            "text": "Dan Heng...",
+            "option": "Dan Heng...",
+            "nextIds": [
+              111310004
+            ],
+            "kind": "Player"
+          },
+          "111310004": {
+            "type": "Text",
+            "id": 111310004,
+            "sectionId": 1113100,
+            "senderId": 1002,
+            "text": "Something the matter?",
+            "option": null,
+            "nextIds": [
+              111310005
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1200000,
+        "startIds": [
+          120000000
+        ],
+        "messages": {
+          "120000000": {
+            "type": "Text",
+            "id": 120000000,
+            "sectionId": 1200000,
+            "senderId": null,
+            "text": "Hey, you guys doing alright?",
+            "option": null,
+            "nextIds": [
+              120000001
+            ],
+            "kind": "PlayerAuto"
+          },
+          "120000001": {
+            "type": "Text",
+            "id": 120000001,
+            "sectionId": 1200000,
+            "senderId": null,
+            "text": "Message failed to send",
+            "option": null,
+            "nextIds": [
+              120000002,
+              120000003
+            ],
+            "kind": "System"
+          },
+          "120000002": {
+            "type": "Text",
+            "id": 120000002,
+            "sectionId": 1200000,
+            "senderId": null,
+            "text": "March and I are doing missions for the Xianzhou...",
+            "option": "March and I are doing missions for the Xianzhou...",
+            "nextIds": [
+              120000004
+            ],
+            "kind": "Player"
+          },
+          "120000004": {
+            "type": "Text",
+            "id": 120000004,
+            "sectionId": 1200000,
+            "senderId": null,
+            "text": "Message failed to send",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "120000003": {
+            "type": "Text",
+            "id": 120000003,
+            "sectionId": 1200000,
+            "senderId": null,
+            "text": "Are you okay...?",
+            "option": "Are you okay...?",
+            "nextIds": [
+              120000004
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1201100,
+        "startIds": [
+          120110000
+        ],
+        "messages": {
+          "120110000": {
+            "type": "Text",
+            "id": 120110000,
+            "sectionId": 1201100,
+            "senderId": 1002,
+            "text": "Something happened just now. I just arrived at the Xianzhou. Are you alright?",
+            "option": null,
+            "nextIds": [
+              120110001,
+              120110002
+            ],
+            "kind": "NPC"
+          },
+          "120110001": {
+            "type": "Text",
+            "id": 120110001,
+            "sectionId": 1201100,
+            "senderId": null,
+            "text": "What happened? Is the Express okay? What are you doing on the Xianzhou?",
+            "option": "What happened?",
+            "nextIds": [
+              120110003
+            ],
+            "kind": "Player"
+          },
+          "120110003": {
+            "type": "Text",
+            "id": 120110003,
+            "sectionId": 1201100,
+            "senderId": 1002,
+            "text": "I'll pretend that you replied \"I'm okay.\"",
+            "option": null,
+            "nextIds": [
+              120110004
+            ],
+            "kind": "NPC"
+          },
+          "120110004": {
+            "type": "Text",
+            "id": 120110004,
+            "sectionId": 1201100,
+            "senderId": 1002,
+            "text": "It's a long story. I'm at Cloudford with a Cloud Knight. I'll join you when I come out.",
+            "option": null,
+            "nextIds": [
+              120110005
+            ],
+            "kind": "NPC"
+          },
+          "120110005": {
+            "type": "Text",
+            "id": 120110005,
+            "sectionId": 1201100,
+            "senderId": 1002,
+            "text": "By the way, the Express is fine. I came here by myself. I'll tell you about it later.",
+            "option": null,
+            "nextIds": [
+              120110006
+            ],
+            "kind": "NPC"
+          },
+          "120110006": {
+            "type": "Text",
+            "id": 120110006,
+            "sectionId": 1201100,
+            "senderId": null,
+            "text": "I'm very interested. Tell me the details.",
+            "option": "I'm very interested",
+            "nextIds": [
+              120110007
+            ],
+            "kind": "Player"
+          },
+          "120110007": {
+            "type": "Raid",
+            "id": 120110007,
+            "sectionId": 1201100,
+            "senderId": 1002,
+            "text": "Unlock Dan Heng's story (Part 1)",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "raid": {
+              "id": 20213002,
+              "name": "Cloudford",
+              "desc": "Suddenly, your connection with Dan Heng is restored. After some simple pleasantries, you impatiently ask him about his adventure...",
+              "image": "image/messages/Raid120110007.png"
+            }
+          },
+          "120110002": {
+            "type": "Text",
+            "id": 120110002,
+            "sectionId": 1201100,
+            "senderId": null,
+            "text": "What are you doing on the Xianzhou? Is the Express okay? What happened?",
+            "option": "What are you doing on the Xianzhou?",
+            "nextIds": [
+              120110003
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2000400,
+        "startIds": [
+          200040000
+        ],
+        "messages": {
+          "200040000": {
+            "type": "Text",
+            "id": 200040000,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "I might not go back to the Express today.",
+            "option": null,
+            "nextIds": [
+              200040001,
+              200040002
+            ],
+            "kind": "NPC"
+          },
+          "200040001": {
+            "type": "Text",
+            "id": 200040001,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "What happened!?",
+            "option": "What happened!?",
+            "nextIds": [
+              200040004
+            ],
+            "kind": "Player"
+          },
+          "200040004": {
+            "type": "Text",
+            "id": 200040004,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "I'm observing a never-before-seen creature.",
+            "option": null,
+            "nextIds": [
+              200040005
+            ],
+            "kind": "NPC"
+          },
+          "200040005": {
+            "type": "Text",
+            "id": 200040005,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "It would be tomorrow morning when I finish collecting everything I need for the data bank.",
+            "option": null,
+            "nextIds": [
+              200040006
+            ],
+            "kind": "NPC"
+          },
+          "200040006": {
+            "type": "Text",
+            "id": 200040006,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "Why? Are you interested in it?",
+            "option": null,
+            "nextIds": [
+              200040007,
+              200040009
+            ],
+            "kind": "NPC"
+          },
+          "200040007": {
+            "type": "Text",
+            "id": 200040007,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "Honestly, no.",
+            "option": "Honestly, no",
+            "nextIds": [
+              200040008
+            ],
+            "kind": "Player"
+          },
+          "200040008": {
+            "type": "Text",
+            "id": 200040008,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "I thought so.",
+            "option": null,
+            "nextIds": [
+              200040011
+            ],
+            "kind": "NPC"
+          },
+          "200040011": {
+            "type": "Text",
+            "id": 200040011,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "Furthermore, they're quite vigilant and difficult to observe. They'll scatter the moment they perceive any potential danger.",
+            "option": null,
+            "nextIds": [
+              200040012
+            ],
+            "kind": "NPC"
+          },
+          "200040012": {
+            "type": "Text",
+            "id": 200040012,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "I'm thinking about choosing another location to observe them...",
+            "option": null,
+            "nextIds": [
+              200040013,
+              200040022
+            ],
+            "kind": "NPC"
+          },
+          "200040013": {
+            "type": "Text",
+            "id": 200040013,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "Go up the trees",
+            "option": "Go up the trees",
+            "nextIds": [
+              200040014
+            ],
+            "kind": "Player"
+          },
+          "200040014": {
+            "type": "Text",
+            "id": 200040014,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "Using leaves to camouflage oneself? That might be a good idea.",
+            "option": null,
+            "nextIds": [
+              200040016
+            ],
+            "kind": "NPC"
+          },
+          "200040016": {
+            "type": "Text",
+            "id": 200040016,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "Will I make it if I go there now?",
+            "option": "Is it too late to come over now",
+            "nextIds": [
+              200040015
+            ],
+            "kind": "Player"
+          },
+          "200040015": {
+            "type": "Sticker",
+            "id": 200040015,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "[Greet]",
+            "option": "[<unbreak>20001</unbreak>]",
+            "nextIds": [
+              200040017
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200040017": {
+            "type": "Text",
+            "id": 200040017,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "Why? Interested?",
+            "option": null,
+            "nextIds": [
+              200040018
+            ],
+            "kind": "NPC"
+          },
+          "200040018": {
+            "type": "Text",
+            "id": 200040018,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "Just wanna observe Dan Heng in a tree",
+            "option": "Just wanna observe you",
+            "nextIds": [
+              200040019
+            ],
+            "kind": "Player"
+          },
+          "200040019": {
+            "type": "Sticker",
+            "id": 200040019,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "[Thumbs Up]",
+            "option": "[<unbreak>20006</unbreak>]",
+            "nextIds": [
+              200040020
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200040020": {
+            "type": "Text",
+            "id": 200040020,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              200040021
+            ],
+            "kind": "NPC"
+          },
+          "200040021": {
+            "type": "Text",
+            "id": 200040021,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "Fine.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200040022": {
+            "type": "Text",
+            "id": 200040022,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "Go in the water",
+            "option": "Go in the water",
+            "nextIds": [
+              200040023
+            ],
+            "kind": "Player"
+          },
+          "200040023": {
+            "type": "Text",
+            "id": 200040023,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "Hiding within the flow of water? That might be a good idea.",
+            "option": null,
+            "nextIds": [
+              200040025
+            ],
+            "kind": "NPC"
+          },
+          "200040025": {
+            "type": "Text",
+            "id": 200040025,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "Will I make it if I go there now?",
+            "option": "Is it too late to come over now",
+            "nextIds": [
+              200040024
+            ],
+            "kind": "Player"
+          },
+          "200040024": {
+            "type": "Sticker",
+            "id": 200040024,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "[Greet]",
+            "option": "[<unbreak>20001</unbreak>]",
+            "nextIds": [
+              200040026
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200040026": {
+            "type": "Text",
+            "id": 200040026,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "Why? Interested?",
+            "option": null,
+            "nextIds": [
+              200040027
+            ],
+            "kind": "NPC"
+          },
+          "200040027": {
+            "type": "Text",
+            "id": 200040027,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "Just wanna observe Dan Heng in the water",
+            "option": "Just wanna observe you",
+            "nextIds": [
+              200040028
+            ],
+            "kind": "Player"
+          },
+          "200040028": {
+            "type": "Sticker",
+            "id": 200040028,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "[Thumbs Up]",
+            "option": "[<unbreak>20006</unbreak>]",
+            "nextIds": [
+              200040029
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200040029": {
+            "type": "Text",
+            "id": 200040029,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              200040030
+            ],
+            "kind": "NPC"
+          },
+          "200040030": {
+            "type": "Text",
+            "id": 200040030,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "Fine.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200040009": {
+            "type": "Text",
+            "id": 200040009,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "Slightly, maybe.",
+            "option": "Slightly, maybe",
+            "nextIds": [
+              200040010
+            ],
+            "kind": "Player"
+          },
+          "200040010": {
+            "type": "Text",
+            "id": 200040010,
+            "sectionId": 2000400,
+            "senderId": 1002,
+            "text": "Don't worry. No need to push yourself.",
+            "option": null,
+            "nextIds": [
+              200040011
+            ],
+            "kind": "NPC"
+          },
+          "200040002": {
+            "type": "Text",
+            "id": 200040002,
+            "sectionId": 2000400,
+            "senderId": null,
+            "text": "Where are you staying?",
+            "option": "Where are you staying?",
+            "nextIds": [
+              200040004
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2000500,
+        "startIds": [
+          200050000
+        ],
+        "messages": {
+          "200050000": {
+            "type": "Text",
+            "id": 200050000,
+            "sectionId": 2000500,
+            "senderId": 1002,
+            "text": "{NICKNAME}, did you knock on the archives' door last night?",
+            "option": null,
+            "nextIds": [
+              200050001,
+              200050004
+            ],
+            "kind": "NPC"
+          },
+          "200050001": {
+            "type": "Text",
+            "id": 200050001,
+            "sectionId": 2000500,
+            "senderId": null,
+            "text": "Sorry!",
+            "option": "Sorry!",
+            "nextIds": [
+              200050002
+            ],
+            "kind": "Player"
+          },
+          "200050002": {
+            "type": "Text",
+            "id": 200050002,
+            "sectionId": 2000500,
+            "senderId": null,
+            "text": "Were you asleep by then?",
+            "option": null,
+            "nextIds": [
+              200050003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200050003": {
+            "type": "Text",
+            "id": 200050003,
+            "sectionId": 2000500,
+            "senderId": null,
+            "text": "A noise came from the archives...",
+            "option": null,
+            "nextIds": [
+              200050007
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200050007": {
+            "type": "Text",
+            "id": 200050007,
+            "sectionId": 2000500,
+            "senderId": 1002,
+            "text": "I was marking entries in the data bank when the electricity tripped and I accidentally kicked over a shelf.",
+            "option": null,
+            "nextIds": [
+              200050008
+            ],
+            "kind": "NPC"
+          },
+          "200050008": {
+            "type": "Text",
+            "id": 200050008,
+            "sectionId": 2000500,
+            "senderId": 1002,
+            "text": "By the time I came out, you'd already gone back to your room.",
+            "option": null,
+            "nextIds": [
+              200050009,
+              200050011
+            ],
+            "kind": "NPC"
+          },
+          "200050009": {
+            "type": "Text",
+            "id": 200050009,
+            "sectionId": 2000500,
+            "senderId": null,
+            "text": "Thanks. Stop staying up so late",
+            "option": "Stop staying up so late",
+            "nextIds": [
+              200050010
+            ],
+            "kind": "Player"
+          },
+          "200050010": {
+            "type": "Text",
+            "id": 200050010,
+            "sectionId": 2000500,
+            "senderId": 1002,
+            "text": "You too.",
+            "option": null,
+            "nextIds": [
+              200050013
+            ],
+            "kind": "NPC"
+          },
+          "200050013": {
+            "type": "Text",
+            "id": 200050013,
+            "sectionId": 2000500,
+            "senderId": 1002,
+            "text": "If you have time, check out the data bank. You said you wanted to understand Stellaron and Aeons better, so I've marked them up for you.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200050011": {
+            "type": "Text",
+            "id": 200050011,
+            "sectionId": 2000500,
+            "senderId": null,
+            "text": "Thank you. As long as you're doing okay",
+            "option": "As long as you're doing okay",
+            "nextIds": [
+              200050012
+            ],
+            "kind": "Player"
+          },
+          "200050012": {
+            "type": "Text",
+            "id": 200050012,
+            "sectionId": 2000500,
+            "senderId": 1002,
+            "text": "I'll be fine.",
+            "option": null,
+            "nextIds": [
+              200050013
+            ],
+            "kind": "NPC"
+          },
+          "200050004": {
+            "type": "Text",
+            "id": 200050004,
+            "sectionId": 2000500,
+            "senderId": null,
+            "text": "Did I wake you up?",
+            "option": "Did I wake you up?",
+            "nextIds": [
+              200050005
+            ],
+            "kind": "Player"
+          },
+          "200050005": {
+            "type": "Text",
+            "id": 200050005,
+            "sectionId": 2000500,
+            "senderId": null,
+            "text": "Sorry!",
+            "option": null,
+            "nextIds": [
+              200050006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200050006": {
+            "type": "Text",
+            "id": 200050006,
+            "sectionId": 2000500,
+            "senderId": null,
+            "text": "A noise came from the archives...",
+            "option": null,
+            "nextIds": [
+              200050007
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2000600,
+        "startIds": [
+          200060000
+        ],
+        "messages": {
+          "200060000": {
+            "type": "Text",
+            "id": 200060000,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "Found an old Express communication log in the data bank, and one of the categories is Dad Jokes.",
+            "option": null,
+            "nextIds": [
+              200060001
+            ],
+            "kind": "NPC"
+          },
+          "200060001": {
+            "type": "Text",
+            "id": 200060001,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "I don't fully understand it, but my instincts tell me you should be able to.",
+            "option": null,
+            "nextIds": [
+              200060002,
+              200060004
+            ],
+            "kind": "NPC"
+          },
+          "200060002": {
+            "type": "Text",
+            "id": 200060002,
+            "sectionId": 2000600,
+            "senderId": null,
+            "text": "So, this is the kind of person I am in your mind?",
+            "option": "Am I like that?",
+            "nextIds": [
+              200060003
+            ],
+            "kind": "Player"
+          },
+          "200060003": {
+            "type": "Text",
+            "id": 200060003,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "Yes.",
+            "option": null,
+            "nextIds": [
+              200060006
+            ],
+            "kind": "NPC"
+          },
+          "200060006": {
+            "type": "Text",
+            "id": 200060006,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "This is what it says.",
+            "option": null,
+            "nextIds": [
+              200060007
+            ],
+            "kind": "NPC"
+          },
+          "200060007": {
+            "type": "Text",
+            "id": 200060007,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "\"On watchkeeping duty with Himeko. She's talking in her sleep.\" Pom-Pom",
+            "option": null,
+            "nextIds": [
+              200060008
+            ],
+            "kind": "NPC"
+          },
+          "200060008": {
+            "type": "Text",
+            "id": 200060008,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "There's another entry an hour later.",
+            "option": null,
+            "nextIds": [
+              200060009
+            ],
+            "kind": "NPC"
+          },
+          "200060009": {
+            "type": "Text",
+            "id": 200060009,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "\"On watchkeeping duty with Pom-Pom. They have been talking in their sleep for almost an hour.\" Himeko",
+            "option": null,
+            "nextIds": [
+              200060010
+            ],
+            "kind": "NPC"
+          },
+          "200060010": {
+            "type": "Text",
+            "id": 200060010,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "What do you think, {NICKNAME}?",
+            "option": null,
+            "nextIds": [
+              200060011,
+              200060013
+            ],
+            "kind": "NPC"
+          },
+          "200060011": {
+            "type": "Text",
+            "id": 200060011,
+            "sectionId": 2000600,
+            "senderId": null,
+            "text": "...",
+            "option": "...",
+            "nextIds": [
+              200060012
+            ],
+            "kind": "Player"
+          },
+          "200060012": {
+            "type": "Text",
+            "id": 200060012,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "Okay, looks like this categorization tag can stay for now.",
+            "option": null,
+            "nextIds": [
+              200060015
+            ],
+            "kind": "NPC"
+          },
+          "200060015": {
+            "type": "Text",
+            "id": 200060015,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "The log stops there. I asked Himeko and Pom-Pom. Neither of them remembered the incident.",
+            "option": null,
+            "nextIds": [
+              200060016
+            ],
+            "kind": "NPC"
+          },
+          "200060016": {
+            "type": "Text",
+            "id": 200060016,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "\"Who is the one talking in their sleep?\" Looks like we can only rely on other entries in the data bank to verify this information.",
+            "option": null,
+            "nextIds": [
+              200060018
+            ],
+            "kind": "NPC"
+          },
+          "200060018": {
+            "type": "Text",
+            "id": 200060018,
+            "sectionId": 2000600,
+            "senderId": null,
+            "text": "I tend to believe the data bank is omnipotent.",
+            "option": "I tend to believe the data bank is omnipotent.",
+            "nextIds": [
+              200060017
+            ],
+            "kind": "Player"
+          },
+          "200060017": {
+            "type": "Sticker",
+            "id": 200060017,
+            "sectionId": 2000600,
+            "senderId": null,
+            "text": "[Thumbs Up]",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200060013": {
+            "type": "Text",
+            "id": 200060013,
+            "sectionId": 2000600,
+            "senderId": null,
+            "text": "This is clearly a horror story",
+            "option": "This is clearly a horror story",
+            "nextIds": [
+              200060014
+            ],
+            "kind": "Player"
+          },
+          "200060014": {
+            "type": "Text",
+            "id": 200060014,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "Is it? I didn't understand it, but sounds like we need an extra tag for it.",
+            "option": null,
+            "nextIds": [
+              200060015
+            ],
+            "kind": "NPC"
+          },
+          "200060004": {
+            "type": "Text",
+            "id": 200060004,
+            "sectionId": 2000600,
+            "senderId": null,
+            "text": "I don't understand",
+            "option": "I don't understand",
+            "nextIds": [
+              200060005
+            ],
+            "kind": "Player"
+          },
+          "200060005": {
+            "type": "Text",
+            "id": 200060005,
+            "sectionId": 2000600,
+            "senderId": 1002,
+            "text": "I don't think you've seen the log yet...",
+            "option": null,
+            "nextIds": [
+              200060006
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2009100,
+        "startIds": [
+          200910000
+        ],
+        "messages": {
+          "200910000": {
+            "type": "Text",
+            "id": 200910000,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "Having studied with Bailu, I now deeply feel the profound and fascinating pharmacology behind the use of medicinal herbs.",
+            "option": null,
+            "nextIds": [
+              200910001,
+              200910005
+            ],
+            "kind": "NPC"
+          },
+          "200910001": {
+            "type": "Text",
+            "id": 200910001,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "Are they emergency medicines?",
+            "option": "Is this emergency medicine as well?",
+            "nextIds": [
+              200910002
+            ],
+            "kind": "Player"
+          },
+          "200910002": {
+            "type": "Text",
+            "id": 200910002,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "Seems like she gave Pom-Pom some before",
+            "option": null,
+            "nextIds": [
+              200910003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200910003": {
+            "type": "Text",
+            "id": 200910003,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "Is that so?",
+            "option": null,
+            "nextIds": [
+              200910004
+            ],
+            "kind": "NPC"
+          },
+          "200910004": {
+            "type": "Text",
+            "id": 200910004,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "Emergency medicine can be ingested directly. They are very convenient.",
+            "option": null,
+            "nextIds": [
+              200910007
+            ],
+            "kind": "NPC"
+          },
+          "200910007": {
+            "type": "Text",
+            "id": 200910007,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "She mentioned her philosophy regarding there being \"a special cure for each person.\" If I can master her teachings, I think I might be able to create medication suited to everyone on the Express.",
+            "option": null,
+            "nextIds": [
+              200910008
+            ],
+            "kind": "NPC"
+          },
+          "200910008": {
+            "type": "Text",
+            "id": 200910008,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "Speaking of which, the fact that I don't know any cloudhymn magic that can heal is... saddening.",
+            "option": null,
+            "nextIds": [
+              200910009,
+              200910011,
+              200910013
+            ],
+            "kind": "NPC"
+          },
+          "200910009": {
+            "type": "Text",
+            "id": 200910009,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "Maybe you should consult the Omni-Synthesizer?",
+            "option": "Ask the Omni-Synthesizer?",
+            "nextIds": [
+              200910010
+            ],
+            "kind": "Player"
+          },
+          "200910010": {
+            "type": "Text",
+            "id": 200910010,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "Perhaps asking Bailu will make things faster.",
+            "option": null,
+            "nextIds": [
+              200910015
+            ],
+            "kind": "NPC"
+          },
+          "200910015": {
+            "type": "Text",
+            "id": 200910015,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "Though the power of the high elder is rooted in legacy, to me, it is more like a certain type of \"knowledge\" rather than \"memories.\"",
+            "option": null,
+            "nextIds": [
+              200910016
+            ],
+            "kind": "NPC"
+          },
+          "200910016": {
+            "type": "Text",
+            "id": 200910016,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "The stories that I can see... They have existed long before I was even self-aware.",
+            "option": null,
+            "nextIds": [
+              200910017,
+              200910023
+            ],
+            "kind": "NPC"
+          },
+          "200910017": {
+            "type": "Text",
+            "id": 200910017,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "If it's like \"knowledge,\" then maybe it's up to you on how to use them",
+            "option": "It's all up to you",
+            "nextIds": [
+              200910018
+            ],
+            "kind": "Player"
+          },
+          "200910018": {
+            "type": "Text",
+            "id": 200910018,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "Is that so?",
+            "option": null,
+            "nextIds": [
+              200910019
+            ],
+            "kind": "NPC"
+          },
+          "200910019": {
+            "type": "Text",
+            "id": 200910019,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "I hope I made the right choice.",
+            "option": null,
+            "nextIds": [
+              200910020
+            ],
+            "kind": "NPC"
+          },
+          "200910020": {
+            "type": "Text",
+            "id": 200910020,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "You've helped many people",
+            "option": "You've helped many people",
+            "nextIds": [
+              200910021
+            ],
+            "kind": "Player"
+          },
+          "200910021": {
+            "type": "Text",
+            "id": 200910021,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "Including me, of course",
+            "option": null,
+            "nextIds": [
+              200910022
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200910022": {
+            "type": "Text",
+            "id": 200910022,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "That's good.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200910023": {
+            "type": "Text",
+            "id": 200910023,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "I want to know everything too",
+            "option": "I want to know everything too",
+            "nextIds": [
+              200910024
+            ],
+            "kind": "Player"
+          },
+          "200910024": {
+            "type": "Text",
+            "id": 200910024,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "The sensation is a miserable one. Your mind is filled with uncountable scenes and noises, but you are never present.",
+            "option": null,
+            "nextIds": [
+              200910025
+            ],
+            "kind": "NPC"
+          },
+          "200910025": {
+            "type": "Text",
+            "id": 200910025,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "I can't completely understand what you're feeling, but is it kinda like the Voice of the Stellaron?",
+            "option": "Like the Voice of the Stellaron?",
+            "nextIds": [
+              200910026
+            ],
+            "kind": "Player"
+          },
+          "200910026": {
+            "type": "Text",
+            "id": 200910026,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "It takes some time to get used to",
+            "option": null,
+            "nextIds": [
+              200910027
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200910027": {
+            "type": "Text",
+            "id": 200910027,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "Perhaps.",
+            "option": null,
+            "nextIds": [
+              200910028
+            ],
+            "kind": "NPC"
+          },
+          "200910028": {
+            "type": "Text",
+            "id": 200910028,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "Perhaps one day I will be able to co-exist with it, just like you do with yours.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200910011": {
+            "type": "Text",
+            "id": 200910011,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "By the Aeons, Dan Heng's not all-capable...",
+            "option": "Dan Heng's not all-capable...?",
+            "nextIds": [
+              200910012
+            ],
+            "kind": "Player"
+          },
+          "200910012": {
+            "type": "Text",
+            "id": 200910012,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "I still have much to learn.",
+            "option": null,
+            "nextIds": [
+              200910015
+            ],
+            "kind": "NPC"
+          },
+          "200910013": {
+            "type": "Text",
+            "id": 200910013,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "You don't remember anything at all?",
+            "option": "You don't remember anything at all?",
+            "nextIds": [
+              200910014
+            ],
+            "kind": "Player"
+          },
+          "200910014": {
+            "type": "Text",
+            "id": 200910014,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "I do not possess such power.",
+            "option": null,
+            "nextIds": [
+              200910015
+            ],
+            "kind": "NPC"
+          },
+          "200910005": {
+            "type": "Text",
+            "id": 200910005,
+            "sectionId": 2009100,
+            "senderId": null,
+            "text": "Are there any tasty medicines?",
+            "option": "Are there any tasty medicines?",
+            "nextIds": [
+              200910006
+            ],
+            "kind": "Player"
+          },
+          "200910006": {
+            "type": "Text",
+            "id": 200910006,
+            "sectionId": 2009100,
+            "senderId": 1002,
+            "text": "...There might be. I will have to research this when I have time.",
+            "option": null,
+            "nextIds": [
+              200910007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2009200,
+        "startIds": [
+          200920000
+        ],
+        "messages": {
+          "200920000": {
+            "type": "Text",
+            "id": 200920000,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "Do you have nightmares?",
+            "option": null,
+            "nextIds": [
+              200920001,
+              200920019
+            ],
+            "kind": "NPC"
+          },
+          "200920001": {
+            "type": "Text",
+            "id": 200920001,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "Yeah, pretty often",
+            "option": "Yes.",
+            "nextIds": [
+              200920002
+            ],
+            "kind": "Player"
+          },
+          "200920002": {
+            "type": "Text",
+            "id": 200920002,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "What do you dream of?",
+            "option": null,
+            "nextIds": [
+              200920003,
+              200920004,
+              200920005
+            ],
+            "kind": "NPC"
+          },
+          "200920003": {
+            "type": "Text",
+            "id": 200920003,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "I dreamed that I destroyed the world",
+            "option": "I destroyed the world",
+            "nextIds": [
+              200920006
+            ],
+            "kind": "Player"
+          },
+          "200920006": {
+            "type": "Text",
+            "id": 200920006,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "I've had such dreams as well.",
+            "option": null,
+            "nextIds": [
+              200920007
+            ],
+            "kind": "NPC"
+          },
+          "200920007": {
+            "type": "Text",
+            "id": 200920007,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "I wish those scenes would only remain in my dreams, but some things... I'm not sure whether they had really happened...",
+            "option": null,
+            "nextIds": [
+              200920008
+            ],
+            "kind": "NPC"
+          },
+          "200920008": {
+            "type": "Text",
+            "id": 200920008,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "Do you have these same worries when you have nightmares?",
+            "option": null,
+            "nextIds": [
+              200920009,
+              200920010,
+              200920011
+            ],
+            "kind": "NPC"
+          },
+          "200920009": {
+            "type": "Text",
+            "id": 200920009,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "You know, until you asked that question, I didn't consider the possibility...",
+            "option": "No, and I don't really care",
+            "nextIds": [
+              200920012
+            ],
+            "kind": "Player"
+          },
+          "200920012": {
+            "type": "Text",
+            "id": 200920012,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "That is a response only you could give.",
+            "option": null,
+            "nextIds": [
+              200920013,
+              200920015,
+              200920017
+            ],
+            "kind": "NPC"
+          },
+          "200920013": {
+            "type": "Text",
+            "id": 200920013,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "That's what trailblazing taught me. Didn't expect that, did you?",
+            "option": "That's what trailblazing taught me",
+            "nextIds": [
+              200920014
+            ],
+            "kind": "Player"
+          },
+          "200920014": {
+            "type": "Text",
+            "id": 200920014,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "Very well. To education, then.",
+            "option": null,
+            "nextIds": [
+              200920035
+            ],
+            "kind": "NPC"
+          },
+          "200920035": {
+            "type": "Text",
+            "id": 200920035,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "No matter what happens, we're on the Express now. Just relax!",
+            "option": "It doesn't matter what happened...",
+            "nextIds": [
+              200920036
+            ],
+            "kind": "Player"
+          },
+          "200920036": {
+            "type": "Text",
+            "id": 200920036,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "Alright, I will.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200920015": {
+            "type": "Text",
+            "id": 200920015,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "This is what you taught me. Didn't expect that, did you?",
+            "option": "That's what you taught me",
+            "nextIds": [
+              200920016
+            ],
+            "kind": "Player"
+          },
+          "200920016": {
+            "type": "Text",
+            "id": 200920016,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "No... I don't remember ever giving you such instruction.",
+            "option": null,
+            "nextIds": [
+              200920035
+            ],
+            "kind": "NPC"
+          },
+          "200920017": {
+            "type": "Text",
+            "id": 200920017,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "I'm just like that. C'mon, it's not as if we just met",
+            "option": "That's just the way I am",
+            "nextIds": [
+              200920018
+            ],
+            "kind": "Player"
+          },
+          "200920018": {
+            "type": "Text",
+            "id": 200920018,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "Hm. As expected.",
+            "option": null,
+            "nextIds": [
+              200920035
+            ],
+            "kind": "NPC"
+          },
+          "200920010": {
+            "type": "Text",
+            "id": 200920010,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "Yeah, but I don't have any evidence to prove that such things ever happened...",
+            "option": "Yeah, but I can't prove it",
+            "nextIds": [
+              200920012
+            ],
+            "kind": "Player"
+          },
+          "200920011": {
+            "type": "Text",
+            "id": 200920011,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "I don't know... But I can't remember anything, so just treat it as if it never happened...",
+            "option": "If you can't remember, then it didn't happen.",
+            "nextIds": [
+              200920012
+            ],
+            "kind": "Player"
+          },
+          "200920004": {
+            "type": "Text",
+            "id": 200920004,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "I dreamed that I lost my companions",
+            "option": "I lost my companions",
+            "nextIds": [
+              200920006
+            ],
+            "kind": "Player"
+          },
+          "200920005": {
+            "type": "Text",
+            "id": 200920005,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "I dreamed that I wasn't myself",
+            "option": "I wasn't myself",
+            "nextIds": [
+              200920006
+            ],
+            "kind": "Player"
+          },
+          "200920019": {
+            "type": "Text",
+            "id": 200920019,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "No, I sleep pretty good.",
+            "option": "No",
+            "nextIds": [
+              200920020
+            ],
+            "kind": "Player"
+          },
+          "200920020": {
+            "type": "Text",
+            "id": 200920020,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "Why? Are you having nightmares?",
+            "option": "Are you having nightmares?",
+            "nextIds": [
+              200920021
+            ],
+            "kind": "Player"
+          },
+          "200920021": {
+            "type": "Text",
+            "id": 200920021,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "Yes.",
+            "option": null,
+            "nextIds": [
+              200920022
+            ],
+            "kind": "NPC"
+          },
+          "200920022": {
+            "type": "Text",
+            "id": 200920022,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "Sometimes, I dream of destroying the world. Other times, I dream of losing my companions. Sometimes, I even dream that I'm not myself.",
+            "option": null,
+            "nextIds": [
+              200920023
+            ],
+            "kind": "NPC"
+          },
+          "200920023": {
+            "type": "Text",
+            "id": 200920023,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "I wish those scenes would only remain in my dreams, but some things... I'm not sure whether they had really happened...",
+            "option": null,
+            "nextIds": [
+              200920024
+            ],
+            "kind": "NPC"
+          },
+          "200920024": {
+            "type": "Text",
+            "id": 200920024,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "If it were you, would you have such worries?",
+            "option": null,
+            "nextIds": [
+              200920025,
+              200920026,
+              200920027
+            ],
+            "kind": "NPC"
+          },
+          "200920025": {
+            "type": "Text",
+            "id": 200920025,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "I probably won't care about this stuff. What happened in the past has nothing to do with the person I am right now...",
+            "option": "I don't really care about these things",
+            "nextIds": [
+              200920028
+            ],
+            "kind": "Player"
+          },
+          "200920028": {
+            "type": "Text",
+            "id": 200920028,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "That is a response only you could give.",
+            "option": null,
+            "nextIds": [
+              200920029,
+              200920031,
+              200920033
+            ],
+            "kind": "NPC"
+          },
+          "200920029": {
+            "type": "Text",
+            "id": 200920029,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "That's what trailblazing taught me. Didn't expect that, did you?",
+            "option": "That's what trailblazing taught me",
+            "nextIds": [
+              200920030
+            ],
+            "kind": "Player"
+          },
+          "200920030": {
+            "type": "Text",
+            "id": 200920030,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "Very well. To education, then.",
+            "option": null,
+            "nextIds": [
+              200920035
+            ],
+            "kind": "NPC"
+          },
+          "200920031": {
+            "type": "Text",
+            "id": 200920031,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "This is what you taught me. Didn't expect that, did you?",
+            "option": "That's what you taught me",
+            "nextIds": [
+              200920032
+            ],
+            "kind": "Player"
+          },
+          "200920032": {
+            "type": "Text",
+            "id": 200920032,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "No... I don't remember ever giving you such instruction.",
+            "option": null,
+            "nextIds": [
+              200920035
+            ],
+            "kind": "NPC"
+          },
+          "200920033": {
+            "type": "Text",
+            "id": 200920033,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "I'm just like that. C'mon, it's not as if we just met",
+            "option": "That's just the way I am",
+            "nextIds": [
+              200920034
+            ],
+            "kind": "Player"
+          },
+          "200920034": {
+            "type": "Text",
+            "id": 200920034,
+            "sectionId": 2009200,
+            "senderId": 1002,
+            "text": "Hm. As expected.",
+            "option": null,
+            "nextIds": [
+              200920035
+            ],
+            "kind": "NPC"
+          },
+          "200920026": {
+            "type": "Text",
+            "id": 200920026,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "Whether I worry has nothing to do with whether these things actually happened...",
+            "option": "Caring doesn't change anything",
+            "nextIds": [
+              200920028
+            ],
+            "kind": "Player"
+          },
+          "200920027": {
+            "type": "Text",
+            "id": 200920027,
+            "sectionId": 2009200,
+            "senderId": null,
+            "text": "I don't remember anything now, so I just treat it as if it never happened...",
+            "option": "If you can't remember, then it didn't happen.",
+            "nextIds": [
+              200920028
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2009300,
+        "startIds": [
+          200930000
+        ],
+        "messages": {
+          "200930000": {
+            "type": "Text",
+            "id": 200930000,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "{NICKNAME}. I'm going to the Luofu. Just letting you know.",
+            "option": null,
+            "nextIds": [
+              200930001,
+              200930003
+            ],
+            "kind": "NPC"
+          },
+          "200930001": {
+            "type": "Text",
+            "id": 200930001,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "What happened?",
+            "option": "What happened?",
+            "nextIds": [
+              200930002
+            ],
+            "kind": "Player"
+          },
+          "200930002": {
+            "type": "Text",
+            "id": 200930002,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Nothing.",
+            "option": null,
+            "nextIds": [
+              200930007
+            ],
+            "kind": "NPC"
+          },
+          "200930007": {
+            "type": "Text",
+            "id": 200930007,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "So, the reason you're going is...?",
+            "option": "So, the reason you're going is...",
+            "nextIds": [
+              200930008
+            ],
+            "kind": "Player"
+          },
+          "200930008": {
+            "type": "Text",
+            "id": 200930008,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Though the data bank also has a section on the Luofu, I don't understand the details very well.",
+            "option": null,
+            "nextIds": [
+              200930009
+            ],
+            "kind": "NPC"
+          },
+          "200930009": {
+            "type": "Text",
+            "id": 200930009,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Likewise, I was unable to answer any questions Pom-Pom has regarding the various dishes on the Xianzhou.",
+            "option": null,
+            "nextIds": [
+              200930010
+            ],
+            "kind": "NPC"
+          },
+          "200930010": {
+            "type": "Text",
+            "id": 200930010,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "If time allows, I wish to see things for myself in person.",
+            "option": null,
+            "nextIds": [
+              200930011
+            ],
+            "kind": "NPC"
+          },
+          "200930011": {
+            "type": "Text",
+            "id": 200930011,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "{NICKNAME}, how do you find food on the Xianzhou?",
+            "option": null,
+            "nextIds": [
+              200930012,
+              200930027
+            ],
+            "kind": "NPC"
+          },
+          "200930012": {
+            "type": "Text",
+            "id": 200930012,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "The dishes are pretty interesting",
+            "option": "Very interesting",
+            "nextIds": [
+              200930013
+            ],
+            "kind": "Player"
+          },
+          "200930013": {
+            "type": "Text",
+            "id": 200930013,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Do you have any recommendations?",
+            "option": null,
+            "nextIds": [
+              200930014,
+              200930016,
+              200930018
+            ],
+            "kind": "NPC"
+          },
+          "200930014": {
+            "type": "Text",
+            "id": 200930014,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "I strongly recommend mung bean soda.",
+            "option": "Mung bean soda",
+            "nextIds": [
+              200930015
+            ],
+            "kind": "Player"
+          },
+          "200930015": {
+            "type": "Text",
+            "id": 200930015,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "I guessed it'd be mung bean soda.",
+            "option": null,
+            "nextIds": [
+              200930020
+            ],
+            "kind": "NPC"
+          },
+          "200930020": {
+            "type": "Text",
+            "id": 200930020,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "I knew it.",
+            "option": null,
+            "nextIds": [
+              200930021
+            ],
+            "kind": "NPC"
+          },
+          "200930021": {
+            "type": "Text",
+            "id": 200930021,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "...",
+            "option": "I'm that predictable?",
+            "nextIds": [
+              200930022
+            ],
+            "kind": "Player"
+          },
+          "200930022": {
+            "type": "Text",
+            "id": 200930022,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "I'm that predictable?",
+            "option": null,
+            "nextIds": [
+              200930023
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200930023": {
+            "type": "Text",
+            "id": 200930023,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Some simple analyses would suffice to reach this conclusion.",
+            "option": null,
+            "nextIds": [
+              200930024
+            ],
+            "kind": "NPC"
+          },
+          "200930024": {
+            "type": "Text",
+            "id": 200930024,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "I'll get one for you too",
+            "option": null,
+            "nextIds": [
+              200930025
+            ],
+            "kind": "NPC"
+          },
+          "200930025": {
+            "type": "Text",
+            "id": 200930025,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "Thanks!",
+            "option": "Thanks!",
+            "nextIds": [
+              200930026
+            ],
+            "kind": "Player"
+          },
+          "200930026": {
+            "type": "Text",
+            "id": 200930026,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "You're welcome.",
+            "option": null,
+            "nextIds": [
+              200930045
+            ],
+            "kind": "NPC"
+          },
+          "200930045": {
+            "type": "Text",
+            "id": 200930045,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "There's also a type of yogurt that looked very interesting. A pity it sold out for now.",
+            "option": null,
+            "nextIds": [
+              200930046
+            ],
+            "kind": "NPC"
+          },
+          "200930046": {
+            "type": "Text",
+            "id": 200930046,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Its name is: Puffergoat Belly Bliss",
+            "option": null,
+            "nextIds": [
+              200930047
+            ],
+            "kind": "NPC"
+          },
+          "200930047": {
+            "type": "Text",
+            "id": 200930047,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Let's come back and check again later.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200930016": {
+            "type": "Text",
+            "id": 200930016,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "I recommend steamed puffergoat milk!",
+            "option": "Steamed puffergoat milk",
+            "nextIds": [
+              200930017
+            ],
+            "kind": "Player"
+          },
+          "200930017": {
+            "type": "Text",
+            "id": 200930017,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "I guessed it'd be steamed puffergoat milk.",
+            "option": null,
+            "nextIds": [
+              200930020
+            ],
+            "kind": "NPC"
+          },
+          "200930018": {
+            "type": "Text",
+            "id": 200930018,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "I recommend Immortal's Delight",
+            "option": "Immortal's Delight",
+            "nextIds": [
+              200930019
+            ],
+            "kind": "Player"
+          },
+          "200930019": {
+            "type": "Text",
+            "id": 200930019,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "I guessed it'd be Immortal's Delight.",
+            "option": null,
+            "nextIds": [
+              200930020
+            ],
+            "kind": "NPC"
+          },
+          "200930027": {
+            "type": "Text",
+            "id": 200930027,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "Really? I don't really feel that",
+            "option": "It's very... average",
+            "nextIds": [
+              200930028
+            ],
+            "kind": "Player"
+          },
+          "200930028": {
+            "type": "Text",
+            "id": 200930028,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "Do you have any recommendations?",
+            "option": null,
+            "nextIds": [
+              200930029
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200930029": {
+            "type": "Text",
+            "id": 200930029,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Scalegorge Spring Water.",
+            "option": null,
+            "nextIds": [
+              200930030
+            ],
+            "kind": "NPC"
+          },
+          "200930030": {
+            "type": "Text",
+            "id": 200930030,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Though I don't think you'll like it.",
+            "option": null,
+            "nextIds": [
+              200930031
+            ],
+            "kind": "NPC"
+          },
+          "200930031": {
+            "type": "Text",
+            "id": 200930031,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "If I had to choose something I like...",
+            "option": "If I had to choose a favorite...",
+            "nextIds": [
+              200930032,
+              200930034,
+              200930036
+            ],
+            "kind": "Player"
+          },
+          "200930032": {
+            "type": "Text",
+            "id": 200930032,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "Then I'll choose mung bean soda.",
+            "option": "Mung bean soda",
+            "nextIds": [
+              200930033
+            ],
+            "kind": "Player"
+          },
+          "200930033": {
+            "type": "Text",
+            "id": 200930033,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "I expected you would want that.",
+            "option": null,
+            "nextIds": [
+              200930038
+            ],
+            "kind": "NPC"
+          },
+          "200930038": {
+            "type": "Text",
+            "id": 200930038,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "I knew it.",
+            "option": null,
+            "nextIds": [
+              200930039
+            ],
+            "kind": "NPC"
+          },
+          "200930039": {
+            "type": "Text",
+            "id": 200930039,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "...",
+            "option": "I'm that predictable?",
+            "nextIds": [
+              200930040
+            ],
+            "kind": "Player"
+          },
+          "200930040": {
+            "type": "Text",
+            "id": 200930040,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "I'm that predictable?",
+            "option": null,
+            "nextIds": [
+              200930041
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200930041": {
+            "type": "Text",
+            "id": 200930041,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Some simple analyses would suffice to reach this conclusion.",
+            "option": null,
+            "nextIds": [
+              200930042
+            ],
+            "kind": "NPC"
+          },
+          "200930042": {
+            "type": "Text",
+            "id": 200930042,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "I'll get one for you too",
+            "option": null,
+            "nextIds": [
+              200930043
+            ],
+            "kind": "NPC"
+          },
+          "200930043": {
+            "type": "Text",
+            "id": 200930043,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "Thanks!",
+            "option": "Thanks!",
+            "nextIds": [
+              200930044
+            ],
+            "kind": "Player"
+          },
+          "200930044": {
+            "type": "Text",
+            "id": 200930044,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "You're welcome.",
+            "option": null,
+            "nextIds": [
+              200930045
+            ],
+            "kind": "NPC"
+          },
+          "200930034": {
+            "type": "Text",
+            "id": 200930034,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "I recommend steamed puffergoat milk!",
+            "option": "Steamed puffergoat milk",
+            "nextIds": [
+              200930035
+            ],
+            "kind": "Player"
+          },
+          "200930035": {
+            "type": "Text",
+            "id": 200930035,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "I expected you would want that.",
+            "option": null,
+            "nextIds": [
+              200930038
+            ],
+            "kind": "NPC"
+          },
+          "200930036": {
+            "type": "Text",
+            "id": 200930036,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "I recommend Immortal's Delight",
+            "option": "Immortal's Delight",
+            "nextIds": [
+              200930037
+            ],
+            "kind": "Player"
+          },
+          "200930037": {
+            "type": "Text",
+            "id": 200930037,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "I expected you would want that.",
+            "option": null,
+            "nextIds": [
+              200930038
+            ],
+            "kind": "NPC"
+          },
+          "200930003": {
+            "type": "Text",
+            "id": 200930003,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "Stay safe",
+            "option": "Stay safe",
+            "nextIds": [
+              200930004
+            ],
+            "kind": "Player"
+          },
+          "200930004": {
+            "type": "Text",
+            "id": 200930004,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "Stay safe",
+            "option": null,
+            "nextIds": [
+              200930005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200930005": {
+            "type": "Text",
+            "id": 200930005,
+            "sectionId": 2009300,
+            "senderId": null,
+            "text": "You gotta repeat the important stuff twice",
+            "option": null,
+            "nextIds": [
+              200930006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200930006": {
+            "type": "Text",
+            "id": 200930006,
+            "sectionId": 2009300,
+            "senderId": 1002,
+            "text": "Alright. Don't worry.",
+            "option": null,
+            "nextIds": [
+              200930007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1211700,
+        "startIds": [
+          121170000
+        ],
+        "messages": {
+          "121170000": {
+            "type": "Text",
+            "id": 121170000,
+            "sectionId": 1211700,
+            "senderId": 1002,
+            "text": "Our starskiff went off course. How's the situation on your end?",
+            "option": null,
+            "nextIds": [
+              121170001,
+              121170002
+            ],
+            "kind": "NPC"
+          },
+          "121170001": {
+            "type": "Text",
+            "id": 121170001,
+            "sectionId": 1211700,
+            "senderId": null,
+            "text": "You're alive again?",
+            "option": "You're alive?",
+            "nextIds": [
+              121170003
+            ],
+            "kind": "Player"
+          },
+          "121170003": {
+            "type": "Text",
+            "id": 121170003,
+            "sectionId": 1211700,
+            "senderId": 1002,
+            "text": "Yes. How's the situation on your end?",
+            "option": null,
+            "nextIds": [
+              121170004,
+              121170005
+            ],
+            "kind": "NPC"
+          },
+          "121170004": {
+            "type": "Text",
+            "id": 121170004,
+            "sectionId": 1211700,
+            "senderId": null,
+            "text": "We caught Kafka, but it was too easy. It was kinda odd",
+            "option": "We caught Kafka",
+            "nextIds": [
+              121170006
+            ],
+            "kind": "Player"
+          },
+          "121170006": {
+            "type": "Text",
+            "id": 121170006,
+            "sectionId": 1211700,
+            "senderId": 1002,
+            "text": "What about Kafka's companion? Did you see Blade?",
+            "option": null,
+            "nextIds": [
+              121170007,
+              121170008
+            ],
+            "kind": "NPC"
+          },
+          "121170007": {
+            "type": "Text",
+            "id": 121170007,
+            "sectionId": 1211700,
+            "senderId": null,
+            "text": "Kafka was alone when we caught her. What's the matter?",
+            "option": "Kafka was alone",
+            "nextIds": [
+              121170009
+            ],
+            "kind": "Player"
+          },
+          "121170009": {
+            "type": "Text",
+            "id": 121170009,
+            "sectionId": 1211700,
+            "senderId": 1002,
+            "text": "Be careful. He is very dangerous.",
+            "option": null,
+            "nextIds": [
+              121170010
+            ],
+            "kind": "NPC"
+          },
+          "121170010": {
+            "type": "Text",
+            "id": 121170010,
+            "sectionId": 1211700,
+            "senderId": 1002,
+            "text": "I'll shake off the Cloud Knights and catch up to you.",
+            "option": null,
+            "nextIds": [
+              121170012
+            ],
+            "kind": "NPC"
+          },
+          "121170012": {
+            "type": "Text",
+            "id": 121170012,
+            "sectionId": 1211700,
+            "senderId": null,
+            "text": "Wait. What's going on at your end?",
+            "option": "What's going on at your end?",
+            "nextIds": [
+              121170013
+            ],
+            "kind": "Player"
+          },
+          "121170013": {
+            "type": "Raid",
+            "id": 121170013,
+            "sectionId": 1211700,
+            "senderId": 1002,
+            "text": "Unlock Dan Heng's story (Part 2)",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "raid": {
+              "id": 40222003,
+              "name": "Artisanship Commission",
+              "desc": "Dan Heng once again got in touch with you after intermittently losing contact. What kind of adventures did he encounter this time?",
+              "image": "image/messages/Raid40222003.png"
+            }
+          },
+          "121170008": {
+            "type": "Text",
+            "id": 121170008,
+            "sectionId": 1211700,
+            "senderId": null,
+            "text": "He ran away. Dunno where he is",
+            "option": "That man is out there somewhere",
+            "nextIds": [
+              121170009
+            ],
+            "kind": "Player"
+          },
+          "121170005": {
+            "type": "Text",
+            "id": 121170005,
+            "sectionId": 1211700,
+            "senderId": null,
+            "text": "We caught Kafka and went to the Divination Commission",
+            "option": "We went to the Divination Commission",
+            "nextIds": [
+              121170006
+            ],
+            "kind": "Player"
+          },
+          "121170002": {
+            "type": "Text",
+            "id": 121170002,
+            "sectionId": 1211700,
+            "senderId": null,
+            "text": "Your phone has signal again?",
+            "option": "You have signal?",
+            "nextIds": [
+              121170003
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1214100,
+        "startIds": [
+          121410001
+        ],
+        "messages": {
+          "121410001": {
+            "type": "Text",
+            "id": 121410001,
+            "sectionId": 1214100,
+            "senderId": 1002,
+            "text": "{NICKNAME}, are you busy these days?",
+            "option": null,
+            "nextIds": [
+              121410002
+            ],
+            "kind": "NPC"
+          },
+          "121410002": {
+            "type": "Text",
+            "id": 121410002,
+            "sectionId": 1214100,
+            "senderId": 1002,
+            "text": "I would like to ask you to accompany me on a certain task...",
+            "option": null,
+            "nextIds": [
+              121410003,
+              121410005
+            ],
+            "kind": "NPC"
+          },
+          "121410003": {
+            "type": "Text",
+            "id": 121410003,
+            "sectionId": 1214100,
+            "senderId": null,
+            "text": "Accompany you? Sounds serious.",
+            "option": "Something wrong?",
+            "nextIds": [
+              121410004
+            ],
+            "kind": "Player"
+          },
+          "121410004": {
+            "type": "Text",
+            "id": 121410004,
+            "sectionId": 1214100,
+            "senderId": 1002,
+            "text": "I want to meet the current high elder of the Luofu Vidyadhara.",
+            "option": null,
+            "nextIds": [
+              121410007
+            ],
+            "kind": "NPC"
+          },
+          "121410007": {
+            "type": "Text",
+            "id": 121410007,
+            "sectionId": 1214100,
+            "senderId": 1002,
+            "text": "I want to ask about some bygone matters, so that I will better understand what I can still do to make amends for my past life.",
+            "option": null,
+            "nextIds": [
+              121410008,
+              121410010
+            ],
+            "kind": "NPC"
+          },
+          "121410008": {
+            "type": "Text",
+            "id": 121410008,
+            "sectionId": 1214100,
+            "senderId": null,
+            "text": "Okay. I'll be there any time you need me",
+            "option": "I'll see this through",
+            "nextIds": [
+              121410009
+            ],
+            "kind": "Player"
+          },
+          "121410009": {
+            "type": "Text",
+            "id": 121410009,
+            "sectionId": 1214100,
+            "senderId": 1002,
+            "text": "Thank you. Let us meet at Synwood Pavilion in Exalting Sanctum.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121410010": {
+            "type": "Text",
+            "id": 121410010,
+            "sectionId": 1214100,
+            "senderId": null,
+            "text": "This feels like a really formal occasion. Do I have to be there?",
+            "option": "Do I have to be there?",
+            "nextIds": [
+              121410011
+            ],
+            "kind": "Player"
+          },
+          "121410011": {
+            "type": "Text",
+            "id": 121410011,
+            "sectionId": 1214100,
+            "senderId": 1002,
+            "text": "I fear complications will arise if I go alone.",
+            "option": null,
+            "nextIds": [
+              121410012
+            ],
+            "kind": "NPC"
+          },
+          "121410012": {
+            "type": "Text",
+            "id": 121410012,
+            "sectionId": 1214100,
+            "senderId": 1002,
+            "text": "But with you present, things are different. I heard you helped save that Dragon Lady. It will make things much easier to handle.",
+            "option": null,
+            "nextIds": [
+              121410013
+            ],
+            "kind": "NPC"
+          },
+          "121410013": {
+            "type": "Text",
+            "id": 121410013,
+            "sectionId": 1214100,
+            "senderId": 1002,
+            "text": "I will wait for you at Synwood Pavilion in Exalting Sanctum. See you there.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121410005": {
+            "type": "Text",
+            "id": 121410005,
+            "sectionId": 1214100,
+            "senderId": null,
+            "text": "So you're worried that someone on the Xianzhou might want to hurt you, and want me as your bodyguard?",
+            "option": "Want me as a bodyguard?",
+            "nextIds": [
+              121410006
+            ],
+            "kind": "Player"
+          },
+          "121410006": {
+            "type": "Text",
+            "id": 121410006,
+            "sectionId": 1214100,
+            "senderId": 1002,
+            "text": "You jest. I want to meet the current high elder of the Luofu Vidyadhara.",
+            "option": null,
+            "nextIds": [
+              121410007
+            ],
+            "kind": "NPC"
           }
         },
-        "111310015": {
-          "type": "Text",
-          "id": 111310015,
-          "sectionId": 1113100,
-          "senderId": null,
-          "text": "It's all for your fans!",
-          "option": "It's all for your fans!",
-          "nextIds": [
-            111310016
-          ],
-          "kind": "Player"
-        },
-        "111310007": {
-          "type": "Text",
-          "id": 111310007,
-          "sectionId": 1113100,
-          "senderId": null,
-          "text": "I have a request...",
-          "option": "I have a request...",
-          "nextIds": [
-            111310008
-          ],
-          "kind": "Player"
-        },
-        "111310001": {
-          "type": "Text",
-          "id": 111310001,
-          "sectionId": 1113100,
-          "senderId": null,
-          "text": "Dragon Young...",
-          "option": "Dragon Young...",
-          "nextIds": [
-            111310003
-          ],
-          "kind": "Player"
-        },
-        "111310002": {
-          "type": "Text",
-          "id": 111310002,
-          "sectionId": 1113100,
-          "senderId": null,
-          "text": "Dan Heng...",
-          "option": "Dan Heng...",
-          "nextIds": [
-            111310004
-          ],
-          "kind": "Player"
-        },
-        "111310004": {
-          "type": "Text",
-          "id": 111310004,
-          "sectionId": 1113100,
-          "senderId": 1002,
-          "text": "Something the matter?",
-          "option": null,
-          "nextIds": [
-            111310005
-          ],
-          "kind": "NPC"
+        "mission": {
+          "id": 2020601,
+          "name": "The Dragon Returns Home",
+          "type": "Companion"
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1200000,
-      "startIds": [
-        120000000
-      ],
-      "messages": {
-        "120000000": {
-          "type": "Text",
-          "id": 120000000,
-          "sectionId": 1200000,
-          "senderId": null,
-          "text": "Hey, you guys doing alright?",
-          "option": null,
-          "nextIds": [
-            120000001
-          ],
-          "kind": "PlayerAuto"
-        },
-        "120000001": {
-          "type": "Text",
-          "id": 120000001,
-          "sectionId": 1200000,
-          "senderId": null,
-          "text": "Message failed to send",
-          "option": null,
-          "nextIds": [
-            120000002,
-            120000003
-          ],
-          "kind": "System"
-        },
-        "120000002": {
-          "type": "Text",
-          "id": 120000002,
-          "sectionId": 1200000,
-          "senderId": null,
-          "text": "March and I are doing missions for the Xianzhou...",
-          "option": "March and I are doing missions for the Xianzhou...",
-          "nextIds": [
-            120000004
-          ],
-          "kind": "Player"
-        },
-        "120000004": {
-          "type": "Text",
-          "id": 120000004,
-          "sectionId": 1200000,
-          "senderId": null,
-          "text": "Message failed to send",
-          "option": null,
-          "nextIds": [],
-          "kind": "System"
-        },
-        "120000003": {
-          "type": "Text",
-          "id": 120000003,
-          "sectionId": 1200000,
-          "senderId": null,
-          "text": "Are you okay...?",
-          "option": "Are you okay...?",
-          "nextIds": [
-            120000004
-          ],
-          "kind": "Player"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 1201100,
-      "startIds": [
-        120110000
-      ],
-      "messages": {
-        "120110000": {
-          "type": "Text",
-          "id": 120110000,
-          "sectionId": 1201100,
-          "senderId": 1002,
-          "text": "Something happened just now. I just arrived at the Xianzhou. Are you alright?",
-          "option": null,
-          "nextIds": [
-            120110001,
-            120110002
-          ],
-          "kind": "NPC"
-        },
-        "120110001": {
-          "type": "Text",
-          "id": 120110001,
-          "sectionId": 1201100,
-          "senderId": null,
-          "text": "What happened? Is the Express okay? What are you doing on the Xianzhou?",
-          "option": "What happened?",
-          "nextIds": [
-            120110003
-          ],
-          "kind": "Player"
-        },
-        "120110003": {
-          "type": "Text",
-          "id": 120110003,
-          "sectionId": 1201100,
-          "senderId": 1002,
-          "text": "I'll pretend that you replied \"I'm okay.\"",
-          "option": null,
-          "nextIds": [
-            120110004
-          ],
-          "kind": "NPC"
-        },
-        "120110004": {
-          "type": "Text",
-          "id": 120110004,
-          "sectionId": 1201100,
-          "senderId": 1002,
-          "text": "It's a long story. I'm at Cloudford with a Cloud Knight. I'll join you when I come out.",
-          "option": null,
-          "nextIds": [
-            120110005
-          ],
-          "kind": "NPC"
-        },
-        "120110005": {
-          "type": "Text",
-          "id": 120110005,
-          "sectionId": 1201100,
-          "senderId": 1002,
-          "text": "By the way, the Express is fine. I came here by myself. I'll tell you about it later.",
-          "option": null,
-          "nextIds": [
-            120110006
-          ],
-          "kind": "NPC"
-        },
-        "120110006": {
-          "type": "Text",
-          "id": 120110006,
-          "sectionId": 1201100,
-          "senderId": null,
-          "text": "I'm very interested. Tell me the details.",
-          "option": "I'm very interested",
-          "nextIds": [
-            120110007
-          ],
-          "kind": "Player"
-        },
-        "120110007": {
-          "type": "Raid",
-          "id": 120110007,
-          "sectionId": 1201100,
-          "senderId": 1002,
-          "text": "Unlock Dan Heng's story (Part 1)",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC",
-          "raid": {
-            "id": 20213002,
-            "name": "Cloudford",
-            "desc": "Suddenly, your connection with Dan Heng is restored. After some simple pleasantries, you impatiently ask him about his adventure...",
-            "image": "SpriteOutput/PhoneMessageChallenge/PhoneMessageChallenge_120110007.png"
-          }
-        },
-        "120110002": {
-          "type": "Text",
-          "id": 120110002,
-          "sectionId": 1201100,
-          "senderId": null,
-          "text": "What are you doing on the Xianzhou? Is the Express okay? What happened?",
-          "option": "What are you doing on the Xianzhou?",
-          "nextIds": [
-            120110003
-          ],
-          "kind": "Player"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 2000400,
-      "startIds": [
-        200040000
-      ],
-      "messages": {
-        "200040000": {
-          "type": "Text",
-          "id": 200040000,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "I might not go back to the Express today.",
-          "option": null,
-          "nextIds": [
-            200040001,
-            200040002
-          ],
-          "kind": "NPC"
-        },
-        "200040001": {
-          "type": "Text",
-          "id": 200040001,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "What happened!?",
-          "option": "What happened!?",
-          "nextIds": [
-            200040004
-          ],
-          "kind": "Player"
-        },
-        "200040004": {
-          "type": "Text",
-          "id": 200040004,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "I'm observing a never-before-seen creature.",
-          "option": null,
-          "nextIds": [
-            200040005
-          ],
-          "kind": "NPC"
-        },
-        "200040005": {
-          "type": "Text",
-          "id": 200040005,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "It would be tomorrow morning when I finish collecting everything I need for the data bank.",
-          "option": null,
-          "nextIds": [
-            200040006
-          ],
-          "kind": "NPC"
-        },
-        "200040006": {
-          "type": "Text",
-          "id": 200040006,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "Why? Are you interested in it?",
-          "option": null,
-          "nextIds": [
-            200040007,
-            200040009
-          ],
-          "kind": "NPC"
-        },
-        "200040007": {
-          "type": "Text",
-          "id": 200040007,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "Honestly, no.",
-          "option": "Honestly, no",
-          "nextIds": [
-            200040008
-          ],
-          "kind": "Player"
-        },
-        "200040008": {
-          "type": "Text",
-          "id": 200040008,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "I thought so.",
-          "option": null,
-          "nextIds": [
-            200040011
-          ],
-          "kind": "NPC"
-        },
-        "200040011": {
-          "type": "Text",
-          "id": 200040011,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "Furthermore, they're quite vigilant and difficult to observe. They'll scatter the moment they perceive any potential danger.",
-          "option": null,
-          "nextIds": [
-            200040012
-          ],
-          "kind": "NPC"
-        },
-        "200040012": {
-          "type": "Text",
-          "id": 200040012,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "I'm thinking about choosing another location to observe them...",
-          "option": null,
-          "nextIds": [
-            200040013,
-            200040022
-          ],
-          "kind": "NPC"
-        },
-        "200040013": {
-          "type": "Text",
-          "id": 200040013,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "Go up the trees",
-          "option": "Go up the trees",
-          "nextIds": [
-            200040014
-          ],
-          "kind": "Player"
-        },
-        "200040014": {
-          "type": "Text",
-          "id": 200040014,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "Using leaves to camouflage oneself? That might be a good idea.",
-          "option": null,
-          "nextIds": [
-            200040016
-          ],
-          "kind": "NPC"
-        },
-        "200040016": {
-          "type": "Text",
-          "id": 200040016,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "Will I make it if I go there now?",
-          "option": "Is it too late to come over now",
-          "nextIds": [
-            200040015
-          ],
-          "kind": "Player"
-        },
-        "200040015": {
-          "type": "Sticker",
-          "id": 200040015,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "[Greet]",
-          "option": "[<unbreak>20001</unbreak>]",
-          "nextIds": [
-            200040017
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20001,
-            "path": "SpriteOutput/Emoji/20001.png",
-            "keywords": "Hey"
-          }
-        },
-        "200040017": {
-          "type": "Text",
-          "id": 200040017,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "Why? Interested?",
-          "option": null,
-          "nextIds": [
-            200040018
-          ],
-          "kind": "NPC"
-        },
-        "200040018": {
-          "type": "Text",
-          "id": 200040018,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "Just wanna observe Dan Heng in a tree",
-          "option": "Just wanna observe you",
-          "nextIds": [
-            200040019
-          ],
-          "kind": "Player"
-        },
-        "200040019": {
-          "type": "Sticker",
-          "id": 200040019,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "[Thumbs Up]",
-          "option": "[<unbreak>20006</unbreak>]",
-          "nextIds": [
-            200040020
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20006,
-            "path": "SpriteOutput/Emoji/20006.png",
-            "keywords": "Like"
-          }
-        },
-        "200040020": {
-          "type": "Text",
-          "id": 200040020,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "...",
-          "option": null,
-          "nextIds": [
-            200040021
-          ],
-          "kind": "NPC"
-        },
-        "200040021": {
-          "type": "Text",
-          "id": 200040021,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "Fine.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200040022": {
-          "type": "Text",
-          "id": 200040022,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "Go in the water",
-          "option": "Go in the water",
-          "nextIds": [
-            200040023
-          ],
-          "kind": "Player"
-        },
-        "200040023": {
-          "type": "Text",
-          "id": 200040023,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "Hiding within the flow of water? That might be a good idea.",
-          "option": null,
-          "nextIds": [
-            200040025
-          ],
-          "kind": "NPC"
-        },
-        "200040025": {
-          "type": "Text",
-          "id": 200040025,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "Will I make it if I go there now?",
-          "option": "Is it too late to come over now",
-          "nextIds": [
-            200040024
-          ],
-          "kind": "Player"
-        },
-        "200040024": {
-          "type": "Sticker",
-          "id": 200040024,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "[Greet]",
-          "option": "[<unbreak>20001</unbreak>]",
-          "nextIds": [
-            200040026
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20001,
-            "path": "SpriteOutput/Emoji/20001.png",
-            "keywords": "Hey"
-          }
-        },
-        "200040026": {
-          "type": "Text",
-          "id": 200040026,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "Why? Interested?",
-          "option": null,
-          "nextIds": [
-            200040027
-          ],
-          "kind": "NPC"
-        },
-        "200040027": {
-          "type": "Text",
-          "id": 200040027,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "Just wanna observe Dan Heng in the water",
-          "option": "Just wanna observe you",
-          "nextIds": [
-            200040028
-          ],
-          "kind": "Player"
-        },
-        "200040028": {
-          "type": "Sticker",
-          "id": 200040028,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "[Thumbs Up]",
-          "option": "[<unbreak>20006</unbreak>]",
-          "nextIds": [
-            200040029
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20006,
-            "path": "SpriteOutput/Emoji/20006.png",
-            "keywords": "Like"
-          }
-        },
-        "200040029": {
-          "type": "Text",
-          "id": 200040029,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "...",
-          "option": null,
-          "nextIds": [
-            200040030
-          ],
-          "kind": "NPC"
-        },
-        "200040030": {
-          "type": "Text",
-          "id": 200040030,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "Fine.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200040009": {
-          "type": "Text",
-          "id": 200040009,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "Slightly, maybe.",
-          "option": "Slightly, maybe",
-          "nextIds": [
-            200040010
-          ],
-          "kind": "Player"
-        },
-        "200040010": {
-          "type": "Text",
-          "id": 200040010,
-          "sectionId": 2000400,
-          "senderId": 1002,
-          "text": "Don't worry. No need to push yourself.",
-          "option": null,
-          "nextIds": [
-            200040011
-          ],
-          "kind": "NPC"
-        },
-        "200040002": {
-          "type": "Text",
-          "id": 200040002,
-          "sectionId": 2000400,
-          "senderId": null,
-          "text": "Where are you staying?",
-          "option": "Where are you staying?",
-          "nextIds": [
-            200040004
-          ],
-          "kind": "Player"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 2000500,
-      "startIds": [
-        200050000
-      ],
-      "messages": {
-        "200050000": {
-          "type": "Text",
-          "id": 200050000,
-          "sectionId": 2000500,
-          "senderId": 1002,
-          "text": "{NICKNAME}, did you knock on the archives' door last night?",
-          "option": null,
-          "nextIds": [
-            200050001,
-            200050004
-          ],
-          "kind": "NPC"
-        },
-        "200050001": {
-          "type": "Text",
-          "id": 200050001,
-          "sectionId": 2000500,
-          "senderId": null,
-          "text": "Sorry!",
-          "option": "Sorry!",
-          "nextIds": [
-            200050002
-          ],
-          "kind": "Player"
-        },
-        "200050002": {
-          "type": "Text",
-          "id": 200050002,
-          "sectionId": 2000500,
-          "senderId": null,
-          "text": "Were you asleep by then?",
-          "option": null,
-          "nextIds": [
-            200050003
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200050003": {
-          "type": "Text",
-          "id": 200050003,
-          "sectionId": 2000500,
-          "senderId": null,
-          "text": "A noise came from the archives...",
-          "option": null,
-          "nextIds": [
-            200050007
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200050007": {
-          "type": "Text",
-          "id": 200050007,
-          "sectionId": 2000500,
-          "senderId": 1002,
-          "text": "I was marking entries in the data bank when the electricity tripped and I accidentally kicked over a shelf.",
-          "option": null,
-          "nextIds": [
-            200050008
-          ],
-          "kind": "NPC"
-        },
-        "200050008": {
-          "type": "Text",
-          "id": 200050008,
-          "sectionId": 2000500,
-          "senderId": 1002,
-          "text": "By the time I came out, you'd already gone back to your room.",
-          "option": null,
-          "nextIds": [
-            200050009,
-            200050011
-          ],
-          "kind": "NPC"
-        },
-        "200050009": {
-          "type": "Text",
-          "id": 200050009,
-          "sectionId": 2000500,
-          "senderId": null,
-          "text": "Thanks. Stop staying up so late",
-          "option": "Stop staying up so late",
-          "nextIds": [
-            200050010
-          ],
-          "kind": "Player"
-        },
-        "200050010": {
-          "type": "Text",
-          "id": 200050010,
-          "sectionId": 2000500,
-          "senderId": 1002,
-          "text": "You too.",
-          "option": null,
-          "nextIds": [
-            200050013
-          ],
-          "kind": "NPC"
-        },
-        "200050013": {
-          "type": "Text",
-          "id": 200050013,
-          "sectionId": 2000500,
-          "senderId": 1002,
-          "text": "If you have time, check out the data bank. You said you wanted to understand Stellaron and Aeons better, so I've marked them up for you.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200050011": {
-          "type": "Text",
-          "id": 200050011,
-          "sectionId": 2000500,
-          "senderId": null,
-          "text": "Thank you. As long as you're doing okay",
-          "option": "As long as you're doing okay",
-          "nextIds": [
-            200050012
-          ],
-          "kind": "Player"
-        },
-        "200050012": {
-          "type": "Text",
-          "id": 200050012,
-          "sectionId": 2000500,
-          "senderId": 1002,
-          "text": "I'll be fine.",
-          "option": null,
-          "nextIds": [
-            200050013
-          ],
-          "kind": "NPC"
-        },
-        "200050004": {
-          "type": "Text",
-          "id": 200050004,
-          "sectionId": 2000500,
-          "senderId": null,
-          "text": "Did I wake you up?",
-          "option": "Did I wake you up?",
-          "nextIds": [
-            200050005
-          ],
-          "kind": "Player"
-        },
-        "200050005": {
-          "type": "Text",
-          "id": 200050005,
-          "sectionId": 2000500,
-          "senderId": null,
-          "text": "Sorry!",
-          "option": null,
-          "nextIds": [
-            200050006
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200050006": {
-          "type": "Text",
-          "id": 200050006,
-          "sectionId": 2000500,
-          "senderId": null,
-          "text": "A noise came from the archives...",
-          "option": null,
-          "nextIds": [
-            200050007
-          ],
-          "kind": "PlayerAuto"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 2000600,
-      "startIds": [
-        200060000
-      ],
-      "messages": {
-        "200060000": {
-          "type": "Text",
-          "id": 200060000,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "Found an old Express communication log in the data bank, and one of the categories is Dad Jokes.",
-          "option": null,
-          "nextIds": [
-            200060001
-          ],
-          "kind": "NPC"
-        },
-        "200060001": {
-          "type": "Text",
-          "id": 200060001,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "I don't fully understand it, but my instincts tell me you should be able to.",
-          "option": null,
-          "nextIds": [
-            200060002,
-            200060004
-          ],
-          "kind": "NPC"
-        },
-        "200060002": {
-          "type": "Text",
-          "id": 200060002,
-          "sectionId": 2000600,
-          "senderId": null,
-          "text": "So, this is the kind of person I am in your mind?",
-          "option": "Am I like that?",
-          "nextIds": [
-            200060003
-          ],
-          "kind": "Player"
-        },
-        "200060003": {
-          "type": "Text",
-          "id": 200060003,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "Yes.",
-          "option": null,
-          "nextIds": [
-            200060006
-          ],
-          "kind": "NPC"
-        },
-        "200060006": {
-          "type": "Text",
-          "id": 200060006,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "This is what it says.",
-          "option": null,
-          "nextIds": [
-            200060007
-          ],
-          "kind": "NPC"
-        },
-        "200060007": {
-          "type": "Text",
-          "id": 200060007,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "\"On watchkeeping duty with Himeko. She's talking in her sleep.\" Pom-Pom",
-          "option": null,
-          "nextIds": [
-            200060008
-          ],
-          "kind": "NPC"
-        },
-        "200060008": {
-          "type": "Text",
-          "id": 200060008,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "There's another entry an hour later.",
-          "option": null,
-          "nextIds": [
-            200060009
-          ],
-          "kind": "NPC"
-        },
-        "200060009": {
-          "type": "Text",
-          "id": 200060009,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "\"On watchkeeping duty with Pom-Pom. They have been talking in their sleep for almost an hour.\" Himeko",
-          "option": null,
-          "nextIds": [
-            200060010
-          ],
-          "kind": "NPC"
-        },
-        "200060010": {
-          "type": "Text",
-          "id": 200060010,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "What do you think, {NICKNAME}?",
-          "option": null,
-          "nextIds": [
-            200060011,
-            200060013
-          ],
-          "kind": "NPC"
-        },
-        "200060011": {
-          "type": "Text",
-          "id": 200060011,
-          "sectionId": 2000600,
-          "senderId": null,
-          "text": "...",
-          "option": "...",
-          "nextIds": [
-            200060012
-          ],
-          "kind": "Player"
-        },
-        "200060012": {
-          "type": "Text",
-          "id": 200060012,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "Okay, looks like this categorization tag can stay for now.",
-          "option": null,
-          "nextIds": [
-            200060015
-          ],
-          "kind": "NPC"
-        },
-        "200060015": {
-          "type": "Text",
-          "id": 200060015,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "The log stops there. I asked Himeko and Pom-Pom. Neither of them remembered the incident.",
-          "option": null,
-          "nextIds": [
-            200060016
-          ],
-          "kind": "NPC"
-        },
-        "200060016": {
-          "type": "Text",
-          "id": 200060016,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "\"Who is the one talking in their sleep?\" Looks like we can only rely on other entries in the data bank to verify this information.",
-          "option": null,
-          "nextIds": [
-            200060018
-          ],
-          "kind": "NPC"
-        },
-        "200060018": {
-          "type": "Text",
-          "id": 200060018,
-          "sectionId": 2000600,
-          "senderId": null,
-          "text": "I tend to believe the data bank is omnipotent.",
-          "option": "I tend to believe the data bank is omnipotent.",
-          "nextIds": [
-            200060017
-          ],
-          "kind": "Player"
-        },
-        "200060017": {
-          "type": "Sticker",
-          "id": 200060017,
-          "sectionId": 2000600,
-          "senderId": null,
-          "text": "[Thumbs Up]",
-          "option": null,
-          "nextIds": [],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20006,
-            "path": "SpriteOutput/Emoji/20006.png",
-            "keywords": "Like"
-          }
-        },
-        "200060013": {
-          "type": "Text",
-          "id": 200060013,
-          "sectionId": 2000600,
-          "senderId": null,
-          "text": "This is clearly a horror story",
-          "option": "This is clearly a horror story",
-          "nextIds": [
-            200060014
-          ],
-          "kind": "Player"
-        },
-        "200060014": {
-          "type": "Text",
-          "id": 200060014,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "Is it? I didn't understand it, but sounds like we need an extra tag for it.",
-          "option": null,
-          "nextIds": [
-            200060015
-          ],
-          "kind": "NPC"
-        },
-        "200060004": {
-          "type": "Text",
-          "id": 200060004,
-          "sectionId": 2000600,
-          "senderId": null,
-          "text": "I don't understand",
-          "option": "I don't understand",
-          "nextIds": [
-            200060005
-          ],
-          "kind": "Player"
-        },
-        "200060005": {
-          "type": "Text",
-          "id": 200060005,
-          "sectionId": 2000600,
-          "senderId": 1002,
-          "text": "I don't think you've seen the log yet...",
-          "option": null,
-          "nextIds": [
-            200060006
-          ],
-          "kind": "NPC"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 2009100,
-      "startIds": [
-        200910000
-      ],
-      "messages": {
-        "200910000": {
-          "type": "Text",
-          "id": 200910000,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "Having studied with Bailu, I now deeply feel the profound and fascinating pharmacology behind the use of medicinal herbs.",
-          "option": null,
-          "nextIds": [
-            200910001,
-            200910005
-          ],
-          "kind": "NPC"
-        },
-        "200910001": {
-          "type": "Text",
-          "id": 200910001,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "Are they emergency medicines?",
-          "option": "Is this emergency medicine as well?",
-          "nextIds": [
-            200910002
-          ],
-          "kind": "Player"
-        },
-        "200910002": {
-          "type": "Text",
-          "id": 200910002,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "Seems like she gave Pom-Pom some before",
-          "option": null,
-          "nextIds": [
-            200910003
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200910003": {
-          "type": "Text",
-          "id": 200910003,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "Is that so?",
-          "option": null,
-          "nextIds": [
-            200910004
-          ],
-          "kind": "NPC"
-        },
-        "200910004": {
-          "type": "Text",
-          "id": 200910004,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "Emergency medicine can be ingested directly. They are very convenient.",
-          "option": null,
-          "nextIds": [
-            200910007
-          ],
-          "kind": "NPC"
-        },
-        "200910007": {
-          "type": "Text",
-          "id": 200910007,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "She mentioned her philosophy regarding there being \"a special cure for each person.\" If I can master her teachings, I think I might be able to create medication suited to everyone on the Express.",
-          "option": null,
-          "nextIds": [
-            200910008
-          ],
-          "kind": "NPC"
-        },
-        "200910008": {
-          "type": "Text",
-          "id": 200910008,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "Speaking of which, the fact that I don't know any cloudhymn magic that can heal is... saddening.",
-          "option": null,
-          "nextIds": [
-            200910009,
-            200910011,
-            200910013
-          ],
-          "kind": "NPC"
-        },
-        "200910009": {
-          "type": "Text",
-          "id": 200910009,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "Maybe you should consult the Omni-Synthesizer?",
-          "option": "Ask the Omni-Synthesizer?",
-          "nextIds": [
-            200910010
-          ],
-          "kind": "Player"
-        },
-        "200910010": {
-          "type": "Text",
-          "id": 200910010,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "Perhaps asking Bailu will make things faster.",
-          "option": null,
-          "nextIds": [
-            200910015
-          ],
-          "kind": "NPC"
-        },
-        "200910015": {
-          "type": "Text",
-          "id": 200910015,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "Though the power of the high elder is rooted in legacy, to me, it is more like a certain type of \"knowledge\" rather than \"memories.\"",
-          "option": null,
-          "nextIds": [
-            200910016
-          ],
-          "kind": "NPC"
-        },
-        "200910016": {
-          "type": "Text",
-          "id": 200910016,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "The stories that I can see... They have existed long before I was even self-aware.",
-          "option": null,
-          "nextIds": [
-            200910017,
-            200910023
-          ],
-          "kind": "NPC"
-        },
-        "200910017": {
-          "type": "Text",
-          "id": 200910017,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "If it's like \"knowledge,\" then maybe it's up to you on how to use them",
-          "option": "It's all up to you",
-          "nextIds": [
-            200910018
-          ],
-          "kind": "Player"
-        },
-        "200910018": {
-          "type": "Text",
-          "id": 200910018,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "Is that so?",
-          "option": null,
-          "nextIds": [
-            200910019
-          ],
-          "kind": "NPC"
-        },
-        "200910019": {
-          "type": "Text",
-          "id": 200910019,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "I hope I made the right choice.",
-          "option": null,
-          "nextIds": [
-            200910020
-          ],
-          "kind": "NPC"
-        },
-        "200910020": {
-          "type": "Text",
-          "id": 200910020,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "You've helped many people",
-          "option": "You've helped many people",
-          "nextIds": [
-            200910021
-          ],
-          "kind": "Player"
-        },
-        "200910021": {
-          "type": "Text",
-          "id": 200910021,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "Including me, of course",
-          "option": null,
-          "nextIds": [
-            200910022
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200910022": {
-          "type": "Text",
-          "id": 200910022,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "That's good.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200910023": {
-          "type": "Text",
-          "id": 200910023,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "I want to know everything too",
-          "option": "I want to know everything too",
-          "nextIds": [
-            200910024
-          ],
-          "kind": "Player"
-        },
-        "200910024": {
-          "type": "Text",
-          "id": 200910024,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "The sensation is a miserable one. Your mind is filled with uncountable scenes and noises, but you are never present.",
-          "option": null,
-          "nextIds": [
-            200910025
-          ],
-          "kind": "NPC"
-        },
-        "200910025": {
-          "type": "Text",
-          "id": 200910025,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "I can't completely understand what you're feeling, but is it kinda like the Voice of the Stellaron?",
-          "option": "Like the Voice of the Stellaron?",
-          "nextIds": [
-            200910026
-          ],
-          "kind": "Player"
-        },
-        "200910026": {
-          "type": "Text",
-          "id": 200910026,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "It takes some time to get used to",
-          "option": null,
-          "nextIds": [
-            200910027
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200910027": {
-          "type": "Text",
-          "id": 200910027,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "Perhaps.",
-          "option": null,
-          "nextIds": [
-            200910028
-          ],
-          "kind": "NPC"
-        },
-        "200910028": {
-          "type": "Text",
-          "id": 200910028,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "Perhaps one day I will be able to co-exist with it, just like you do with yours.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200910011": {
-          "type": "Text",
-          "id": 200910011,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "By the Aeons, Dan Heng's not all-capable...",
-          "option": "Dan Heng's not all-capable...?",
-          "nextIds": [
-            200910012
-          ],
-          "kind": "Player"
-        },
-        "200910012": {
-          "type": "Text",
-          "id": 200910012,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "I still have much to learn.",
-          "option": null,
-          "nextIds": [
-            200910015
-          ],
-          "kind": "NPC"
-        },
-        "200910013": {
-          "type": "Text",
-          "id": 200910013,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "You don't remember anything at all?",
-          "option": "You don't remember anything at all?",
-          "nextIds": [
-            200910014
-          ],
-          "kind": "Player"
-        },
-        "200910014": {
-          "type": "Text",
-          "id": 200910014,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "I do not possess such power.",
-          "option": null,
-          "nextIds": [
-            200910015
-          ],
-          "kind": "NPC"
-        },
-        "200910005": {
-          "type": "Text",
-          "id": 200910005,
-          "sectionId": 2009100,
-          "senderId": null,
-          "text": "Are there any tasty medicines?",
-          "option": "Are there any tasty medicines?",
-          "nextIds": [
-            200910006
-          ],
-          "kind": "Player"
-        },
-        "200910006": {
-          "type": "Text",
-          "id": 200910006,
-          "sectionId": 2009100,
-          "senderId": 1002,
-          "text": "...There might be. I will have to research this when I have time.",
-          "option": null,
-          "nextIds": [
-            200910007
-          ],
-          "kind": "NPC"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 2009200,
-      "startIds": [
-        200920000
-      ],
-      "messages": {
-        "200920000": {
-          "type": "Text",
-          "id": 200920000,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "Do you have nightmares?",
-          "option": null,
-          "nextIds": [
-            200920001,
-            200920019
-          ],
-          "kind": "NPC"
-        },
-        "200920001": {
-          "type": "Text",
-          "id": 200920001,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "Yeah, pretty often",
-          "option": "Yes.",
-          "nextIds": [
-            200920002
-          ],
-          "kind": "Player"
-        },
-        "200920002": {
-          "type": "Text",
-          "id": 200920002,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "What do you dream of?",
-          "option": null,
-          "nextIds": [
-            200920003,
-            200920004,
-            200920005
-          ],
-          "kind": "NPC"
-        },
-        "200920003": {
-          "type": "Text",
-          "id": 200920003,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "I dreamed that I destroyed the world",
-          "option": "I destroyed the world",
-          "nextIds": [
-            200920006
-          ],
-          "kind": "Player"
-        },
-        "200920006": {
-          "type": "Text",
-          "id": 200920006,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "I've had such dreams as well.",
-          "option": null,
-          "nextIds": [
-            200920007
-          ],
-          "kind": "NPC"
-        },
-        "200920007": {
-          "type": "Text",
-          "id": 200920007,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "I wish those scenes would only remain in my dreams, but some things... I'm not sure whether they had really happened...",
-          "option": null,
-          "nextIds": [
-            200920008
-          ],
-          "kind": "NPC"
-        },
-        "200920008": {
-          "type": "Text",
-          "id": 200920008,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "Do you have these same worries when you have nightmares?",
-          "option": null,
-          "nextIds": [
-            200920009,
-            200920010,
-            200920011
-          ],
-          "kind": "NPC"
-        },
-        "200920009": {
-          "type": "Text",
-          "id": 200920009,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "You know, until you asked that question, I didn't consider the possibility...",
-          "option": "No, and I don't really care",
-          "nextIds": [
-            200920012
-          ],
-          "kind": "Player"
-        },
-        "200920012": {
-          "type": "Text",
-          "id": 200920012,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "That is a response only you could give.",
-          "option": null,
-          "nextIds": [
-            200920013,
-            200920015,
-            200920017
-          ],
-          "kind": "NPC"
-        },
-        "200920013": {
-          "type": "Text",
-          "id": 200920013,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "That's what trailblazing taught me. Didn't expect that, did you?",
-          "option": "That's what trailblazing taught me",
-          "nextIds": [
-            200920014
-          ],
-          "kind": "Player"
-        },
-        "200920014": {
-          "type": "Text",
-          "id": 200920014,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "Very well. To education, then.",
-          "option": null,
-          "nextIds": [
-            200920035
-          ],
-          "kind": "NPC"
-        },
-        "200920035": {
-          "type": "Text",
-          "id": 200920035,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "No matter what happens, we're on the Express now. Just relax!",
-          "option": "It doesn't matter what happened...",
-          "nextIds": [
-            200920036
-          ],
-          "kind": "Player"
-        },
-        "200920036": {
-          "type": "Text",
-          "id": 200920036,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "Alright, I will.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200920015": {
-          "type": "Text",
-          "id": 200920015,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "This is what you taught me. Didn't expect that, did you?",
-          "option": "That's what you taught me",
-          "nextIds": [
-            200920016
-          ],
-          "kind": "Player"
-        },
-        "200920016": {
-          "type": "Text",
-          "id": 200920016,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "No... I don't remember ever giving you such instruction.",
-          "option": null,
-          "nextIds": [
-            200920035
-          ],
-          "kind": "NPC"
-        },
-        "200920017": {
-          "type": "Text",
-          "id": 200920017,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "I'm just like that. C'mon, it's not as if we just met",
-          "option": "That's just the way I am",
-          "nextIds": [
-            200920018
-          ],
-          "kind": "Player"
-        },
-        "200920018": {
-          "type": "Text",
-          "id": 200920018,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "Hm. As expected.",
-          "option": null,
-          "nextIds": [
-            200920035
-          ],
-          "kind": "NPC"
-        },
-        "200920010": {
-          "type": "Text",
-          "id": 200920010,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "Yeah, but I don't have any evidence to prove that such things ever happened...",
-          "option": "Yeah, but I can't prove it",
-          "nextIds": [
-            200920012
-          ],
-          "kind": "Player"
-        },
-        "200920011": {
-          "type": "Text",
-          "id": 200920011,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "I don't know... But I can't remember anything, so just treat it as if it never happened...",
-          "option": "If you can't remember, then it didn't happen.",
-          "nextIds": [
-            200920012
-          ],
-          "kind": "Player"
-        },
-        "200920004": {
-          "type": "Text",
-          "id": 200920004,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "I dreamed that I lost my companions",
-          "option": "I lost my companions",
-          "nextIds": [
-            200920006
-          ],
-          "kind": "Player"
-        },
-        "200920005": {
-          "type": "Text",
-          "id": 200920005,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "I dreamed that I wasn't myself",
-          "option": "I wasn't myself",
-          "nextIds": [
-            200920006
-          ],
-          "kind": "Player"
-        },
-        "200920019": {
-          "type": "Text",
-          "id": 200920019,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "No, I sleep pretty good.",
-          "option": "No",
-          "nextIds": [
-            200920020
-          ],
-          "kind": "Player"
-        },
-        "200920020": {
-          "type": "Text",
-          "id": 200920020,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "Why? Are you having nightmares?",
-          "option": "Are you having nightmares?",
-          "nextIds": [
-            200920021
-          ],
-          "kind": "Player"
-        },
-        "200920021": {
-          "type": "Text",
-          "id": 200920021,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "Yes.",
-          "option": null,
-          "nextIds": [
-            200920022
-          ],
-          "kind": "NPC"
-        },
-        "200920022": {
-          "type": "Text",
-          "id": 200920022,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "Sometimes, I dream of destroying the world. Other times, I dream of losing my companions. Sometimes, I even dream that I'm not myself.",
-          "option": null,
-          "nextIds": [
-            200920023
-          ],
-          "kind": "NPC"
-        },
-        "200920023": {
-          "type": "Text",
-          "id": 200920023,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "I wish those scenes would only remain in my dreams, but some things... I'm not sure whether they had really happened...",
-          "option": null,
-          "nextIds": [
-            200920024
-          ],
-          "kind": "NPC"
-        },
-        "200920024": {
-          "type": "Text",
-          "id": 200920024,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "If it were you, would you have such worries?",
-          "option": null,
-          "nextIds": [
-            200920025,
-            200920026,
-            200920027
-          ],
-          "kind": "NPC"
-        },
-        "200920025": {
-          "type": "Text",
-          "id": 200920025,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "I probably won't care about this stuff. What happened in the past has nothing to do with the person I am right now...",
-          "option": "I don't really care about these things",
-          "nextIds": [
-            200920028
-          ],
-          "kind": "Player"
-        },
-        "200920028": {
-          "type": "Text",
-          "id": 200920028,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "That is a response only you could give.",
-          "option": null,
-          "nextIds": [
-            200920029,
-            200920031,
-            200920033
-          ],
-          "kind": "NPC"
-        },
-        "200920029": {
-          "type": "Text",
-          "id": 200920029,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "That's what trailblazing taught me. Didn't expect that, did you?",
-          "option": "That's what trailblazing taught me",
-          "nextIds": [
-            200920030
-          ],
-          "kind": "Player"
-        },
-        "200920030": {
-          "type": "Text",
-          "id": 200920030,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "Very well. To education, then.",
-          "option": null,
-          "nextIds": [
-            200920035
-          ],
-          "kind": "NPC"
-        },
-        "200920031": {
-          "type": "Text",
-          "id": 200920031,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "This is what you taught me. Didn't expect that, did you?",
-          "option": "That's what you taught me",
-          "nextIds": [
-            200920032
-          ],
-          "kind": "Player"
-        },
-        "200920032": {
-          "type": "Text",
-          "id": 200920032,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "No... I don't remember ever giving you such instruction.",
-          "option": null,
-          "nextIds": [
-            200920035
-          ],
-          "kind": "NPC"
-        },
-        "200920033": {
-          "type": "Text",
-          "id": 200920033,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "I'm just like that. C'mon, it's not as if we just met",
-          "option": "That's just the way I am",
-          "nextIds": [
-            200920034
-          ],
-          "kind": "Player"
-        },
-        "200920034": {
-          "type": "Text",
-          "id": 200920034,
-          "sectionId": 2009200,
-          "senderId": 1002,
-          "text": "Hm. As expected.",
-          "option": null,
-          "nextIds": [
-            200920035
-          ],
-          "kind": "NPC"
-        },
-        "200920026": {
-          "type": "Text",
-          "id": 200920026,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "Whether I worry has nothing to do with whether these things actually happened...",
-          "option": "Caring doesn't change anything",
-          "nextIds": [
-            200920028
-          ],
-          "kind": "Player"
-        },
-        "200920027": {
-          "type": "Text",
-          "id": 200920027,
-          "sectionId": 2009200,
-          "senderId": null,
-          "text": "I don't remember anything now, so I just treat it as if it never happened...",
-          "option": "If you can't remember, then it didn't happen.",
-          "nextIds": [
-            200920028
-          ],
-          "kind": "Player"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 2009300,
-      "startIds": [
-        200930000
-      ],
-      "messages": {
-        "200930000": {
-          "type": "Text",
-          "id": 200930000,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "{NICKNAME}. I'm going to the Luofu. Just letting you know.",
-          "option": null,
-          "nextIds": [
-            200930001,
-            200930003
-          ],
-          "kind": "NPC"
-        },
-        "200930001": {
-          "type": "Text",
-          "id": 200930001,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "What happened?",
-          "option": "What happened?",
-          "nextIds": [
-            200930002
-          ],
-          "kind": "Player"
-        },
-        "200930002": {
-          "type": "Text",
-          "id": 200930002,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Nothing.",
-          "option": null,
-          "nextIds": [
-            200930007
-          ],
-          "kind": "NPC"
-        },
-        "200930007": {
-          "type": "Text",
-          "id": 200930007,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "So, the reason you're going is...?",
-          "option": "So, the reason you're going is...",
-          "nextIds": [
-            200930008
-          ],
-          "kind": "Player"
-        },
-        "200930008": {
-          "type": "Text",
-          "id": 200930008,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Though the data bank also has a section on the Luofu, I don't understand the details very well.",
-          "option": null,
-          "nextIds": [
-            200930009
-          ],
-          "kind": "NPC"
-        },
-        "200930009": {
-          "type": "Text",
-          "id": 200930009,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Likewise, I was unable to answer any questions Pom-Pom has regarding the various dishes on the Xianzhou.",
-          "option": null,
-          "nextIds": [
-            200930010
-          ],
-          "kind": "NPC"
-        },
-        "200930010": {
-          "type": "Text",
-          "id": 200930010,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "If time allows, I wish to see things for myself in person.",
-          "option": null,
-          "nextIds": [
-            200930011
-          ],
-          "kind": "NPC"
-        },
-        "200930011": {
-          "type": "Text",
-          "id": 200930011,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "{NICKNAME}, how do you find food on the Xianzhou?",
-          "option": null,
-          "nextIds": [
-            200930012,
-            200930027
-          ],
-          "kind": "NPC"
-        },
-        "200930012": {
-          "type": "Text",
-          "id": 200930012,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "The dishes are pretty interesting",
-          "option": "Very interesting",
-          "nextIds": [
-            200930013
-          ],
-          "kind": "Player"
-        },
-        "200930013": {
-          "type": "Text",
-          "id": 200930013,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Do you have any recommendations?",
-          "option": null,
-          "nextIds": [
-            200930014,
-            200930016,
-            200930018
-          ],
-          "kind": "NPC"
-        },
-        "200930014": {
-          "type": "Text",
-          "id": 200930014,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "I strongly recommend mung bean soda.",
-          "option": "Mung bean soda",
-          "nextIds": [
-            200930015
-          ],
-          "kind": "Player"
-        },
-        "200930015": {
-          "type": "Text",
-          "id": 200930015,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "I guessed it'd be mung bean soda.",
-          "option": null,
-          "nextIds": [
-            200930020
-          ],
-          "kind": "NPC"
-        },
-        "200930020": {
-          "type": "Text",
-          "id": 200930020,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "I knew it.",
-          "option": null,
-          "nextIds": [
-            200930021
-          ],
-          "kind": "NPC"
-        },
-        "200930021": {
-          "type": "Text",
-          "id": 200930021,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "...",
-          "option": "I'm that predictable?",
-          "nextIds": [
-            200930022
-          ],
-          "kind": "Player"
-        },
-        "200930022": {
-          "type": "Text",
-          "id": 200930022,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "I'm that predictable?",
-          "option": null,
-          "nextIds": [
-            200930023
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200930023": {
-          "type": "Text",
-          "id": 200930023,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Some simple analyses would suffice to reach this conclusion.",
-          "option": null,
-          "nextIds": [
-            200930024
-          ],
-          "kind": "NPC"
-        },
-        "200930024": {
-          "type": "Text",
-          "id": 200930024,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "I'll get one for you too",
-          "option": null,
-          "nextIds": [
-            200930025
-          ],
-          "kind": "NPC"
-        },
-        "200930025": {
-          "type": "Text",
-          "id": 200930025,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "Thanks!",
-          "option": "Thanks!",
-          "nextIds": [
-            200930026
-          ],
-          "kind": "Player"
-        },
-        "200930026": {
-          "type": "Text",
-          "id": 200930026,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "You're welcome.",
-          "option": null,
-          "nextIds": [
-            200930045
-          ],
-          "kind": "NPC"
-        },
-        "200930045": {
-          "type": "Text",
-          "id": 200930045,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "There's also a type of yogurt that looked very interesting. A pity it sold out for now.",
-          "option": null,
-          "nextIds": [
-            200930046
-          ],
-          "kind": "NPC"
-        },
-        "200930046": {
-          "type": "Text",
-          "id": 200930046,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Its name is: Puffergoat Belly Bliss",
-          "option": null,
-          "nextIds": [
-            200930047
-          ],
-          "kind": "NPC"
-        },
-        "200930047": {
-          "type": "Text",
-          "id": 200930047,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Let's come back and check again later.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200930016": {
-          "type": "Text",
-          "id": 200930016,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "I recommend steamed puffergoat milk!",
-          "option": "Steamed puffergoat milk",
-          "nextIds": [
-            200930017
-          ],
-          "kind": "Player"
-        },
-        "200930017": {
-          "type": "Text",
-          "id": 200930017,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "I guessed it'd be steamed puffergoat milk.",
-          "option": null,
-          "nextIds": [
-            200930020
-          ],
-          "kind": "NPC"
-        },
-        "200930018": {
-          "type": "Text",
-          "id": 200930018,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "I recommend Immortal's Delight",
-          "option": "Immortal's Delight",
-          "nextIds": [
-            200930019
-          ],
-          "kind": "Player"
-        },
-        "200930019": {
-          "type": "Text",
-          "id": 200930019,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "I guessed it'd be Immortal's Delight.",
-          "option": null,
-          "nextIds": [
-            200930020
-          ],
-          "kind": "NPC"
-        },
-        "200930027": {
-          "type": "Text",
-          "id": 200930027,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "Really? I don't really feel that",
-          "option": "It's very... average",
-          "nextIds": [
-            200930028
-          ],
-          "kind": "Player"
-        },
-        "200930028": {
-          "type": "Text",
-          "id": 200930028,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "Do you have any recommendations?",
-          "option": null,
-          "nextIds": [
-            200930029
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200930029": {
-          "type": "Text",
-          "id": 200930029,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Scalegorge Spring Water.",
-          "option": null,
-          "nextIds": [
-            200930030
-          ],
-          "kind": "NPC"
-        },
-        "200930030": {
-          "type": "Text",
-          "id": 200930030,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Though I don't think you'll like it.",
-          "option": null,
-          "nextIds": [
-            200930031
-          ],
-          "kind": "NPC"
-        },
-        "200930031": {
-          "type": "Text",
-          "id": 200930031,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "If I had to choose something I like...",
-          "option": "If I had to choose a favorite...",
-          "nextIds": [
-            200930032,
-            200930034,
-            200930036
-          ],
-          "kind": "Player"
-        },
-        "200930032": {
-          "type": "Text",
-          "id": 200930032,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "Then I'll choose mung bean soda.",
-          "option": "Mung bean soda",
-          "nextIds": [
-            200930033
-          ],
-          "kind": "Player"
-        },
-        "200930033": {
-          "type": "Text",
-          "id": 200930033,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "I expected you would want that.",
-          "option": null,
-          "nextIds": [
-            200930038
-          ],
-          "kind": "NPC"
-        },
-        "200930038": {
-          "type": "Text",
-          "id": 200930038,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "I knew it.",
-          "option": null,
-          "nextIds": [
-            200930039
-          ],
-          "kind": "NPC"
-        },
-        "200930039": {
-          "type": "Text",
-          "id": 200930039,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "...",
-          "option": "I'm that predictable?",
-          "nextIds": [
-            200930040
-          ],
-          "kind": "Player"
-        },
-        "200930040": {
-          "type": "Text",
-          "id": 200930040,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "I'm that predictable?",
-          "option": null,
-          "nextIds": [
-            200930041
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200930041": {
-          "type": "Text",
-          "id": 200930041,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Some simple analyses would suffice to reach this conclusion.",
-          "option": null,
-          "nextIds": [
-            200930042
-          ],
-          "kind": "NPC"
-        },
-        "200930042": {
-          "type": "Text",
-          "id": 200930042,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "I'll get one for you too",
-          "option": null,
-          "nextIds": [
-            200930043
-          ],
-          "kind": "NPC"
-        },
-        "200930043": {
-          "type": "Text",
-          "id": 200930043,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "Thanks!",
-          "option": "Thanks!",
-          "nextIds": [
-            200930044
-          ],
-          "kind": "Player"
-        },
-        "200930044": {
-          "type": "Text",
-          "id": 200930044,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "You're welcome.",
-          "option": null,
-          "nextIds": [
-            200930045
-          ],
-          "kind": "NPC"
-        },
-        "200930034": {
-          "type": "Text",
-          "id": 200930034,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "I recommend steamed puffergoat milk!",
-          "option": "Steamed puffergoat milk",
-          "nextIds": [
-            200930035
-          ],
-          "kind": "Player"
-        },
-        "200930035": {
-          "type": "Text",
-          "id": 200930035,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "I expected you would want that.",
-          "option": null,
-          "nextIds": [
-            200930038
-          ],
-          "kind": "NPC"
-        },
-        "200930036": {
-          "type": "Text",
-          "id": 200930036,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "I recommend Immortal's Delight",
-          "option": "Immortal's Delight",
-          "nextIds": [
-            200930037
-          ],
-          "kind": "Player"
-        },
-        "200930037": {
-          "type": "Text",
-          "id": 200930037,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "I expected you would want that.",
-          "option": null,
-          "nextIds": [
-            200930038
-          ],
-          "kind": "NPC"
-        },
-        "200930003": {
-          "type": "Text",
-          "id": 200930003,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "Stay safe",
-          "option": "Stay safe",
-          "nextIds": [
-            200930004
-          ],
-          "kind": "Player"
-        },
-        "200930004": {
-          "type": "Text",
-          "id": 200930004,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "Stay safe",
-          "option": null,
-          "nextIds": [
-            200930005
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200930005": {
-          "type": "Text",
-          "id": 200930005,
-          "sectionId": 2009300,
-          "senderId": null,
-          "text": "You gotta repeat the important stuff twice",
-          "option": null,
-          "nextIds": [
-            200930006
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200930006": {
-          "type": "Text",
-          "id": 200930006,
-          "sectionId": 2009300,
-          "senderId": 1002,
-          "text": "Alright. Don't worry.",
-          "option": null,
-          "nextIds": [
-            200930007
-          ],
-          "kind": "NPC"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 1211700,
-      "startIds": [
-        121170000
-      ],
-      "messages": {
-        "121170000": {
-          "type": "Text",
-          "id": 121170000,
-          "sectionId": 1211700,
-          "senderId": 1002,
-          "text": "Our starskiff went off course. How's the situation on your end?",
-          "option": null,
-          "nextIds": [
-            121170001,
-            121170002
-          ],
-          "kind": "NPC"
-        },
-        "121170001": {
-          "type": "Text",
-          "id": 121170001,
-          "sectionId": 1211700,
-          "senderId": null,
-          "text": "You're alive again?",
-          "option": "You're alive?",
-          "nextIds": [
-            121170003
-          ],
-          "kind": "Player"
-        },
-        "121170003": {
-          "type": "Text",
-          "id": 121170003,
-          "sectionId": 1211700,
-          "senderId": 1002,
-          "text": "Yes. How's the situation on your end?",
-          "option": null,
-          "nextIds": [
-            121170004,
-            121170005
-          ],
-          "kind": "NPC"
-        },
-        "121170004": {
-          "type": "Text",
-          "id": 121170004,
-          "sectionId": 1211700,
-          "senderId": null,
-          "text": "We caught Kafka, but it was too easy. It was kinda odd",
-          "option": "We caught Kafka",
-          "nextIds": [
-            121170006
-          ],
-          "kind": "Player"
-        },
-        "121170006": {
-          "type": "Text",
-          "id": 121170006,
-          "sectionId": 1211700,
-          "senderId": 1002,
-          "text": "What about Kafka's companion? Did you see Blade?",
-          "option": null,
-          "nextIds": [
-            121170007,
-            121170008
-          ],
-          "kind": "NPC"
-        },
-        "121170007": {
-          "type": "Text",
-          "id": 121170007,
-          "sectionId": 1211700,
-          "senderId": null,
-          "text": "Kafka was alone when we caught her. What's the matter?",
-          "option": "Kafka was alone",
-          "nextIds": [
-            121170009
-          ],
-          "kind": "Player"
-        },
-        "121170009": {
-          "type": "Text",
-          "id": 121170009,
-          "sectionId": 1211700,
-          "senderId": 1002,
-          "text": "Be careful. He is very dangerous.",
-          "option": null,
-          "nextIds": [
-            121170010
-          ],
-          "kind": "NPC"
-        },
-        "121170010": {
-          "type": "Text",
-          "id": 121170010,
-          "sectionId": 1211700,
-          "senderId": 1002,
-          "text": "I'll shake off the Cloud Knights and catch up to you.",
-          "option": null,
-          "nextIds": [
-            121170012
-          ],
-          "kind": "NPC"
-        },
-        "121170012": {
-          "type": "Text",
-          "id": 121170012,
-          "sectionId": 1211700,
-          "senderId": null,
-          "text": "Wait. What's going on at your end?",
-          "option": "What's going on at your end?",
-          "nextIds": [
-            121170013
-          ],
-          "kind": "Player"
-        },
-        "121170013": {
-          "type": "Raid",
-          "id": 121170013,
-          "sectionId": 1211700,
-          "senderId": 1002,
-          "text": "Unlock Dan Heng's story (Part 2)",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC",
-          "raid": {
-            "id": 40222003,
-            "name": "Artisanship Commission",
-            "desc": "Dan Heng once again got in touch with you after intermittently losing contact. What kind of adventures did he encounter this time?",
-            "image": "SpriteOutput/PhoneMessageChallenge/PhoneMessageChallenge_40222003.png"
-          }
-        },
-        "121170008": {
-          "type": "Text",
-          "id": 121170008,
-          "sectionId": 1211700,
-          "senderId": null,
-          "text": "He ran away. Dunno where he is",
-          "option": "That man is out there somewhere",
-          "nextIds": [
-            121170009
-          ],
-          "kind": "Player"
-        },
-        "121170005": {
-          "type": "Text",
-          "id": 121170005,
-          "sectionId": 1211700,
-          "senderId": null,
-          "text": "We caught Kafka and went to the Divination Commission",
-          "option": "We went to the Divination Commission",
-          "nextIds": [
-            121170006
-          ],
-          "kind": "Player"
-        },
-        "121170002": {
-          "type": "Text",
-          "id": 121170002,
-          "sectionId": 1211700,
-          "senderId": null,
-          "text": "Your phone has signal again?",
-          "option": "You have signal?",
-          "nextIds": [
-            121170003
-          ],
-          "kind": "Player"
-        }
-      }
-    },
-    {
-      "type": "MissionMessage",
-      "id": 1214100,
-      "startIds": [
-        121410001
-      ],
-      "messages": {
-        "121410001": {
-          "type": "Text",
-          "id": 121410001,
-          "sectionId": 1214100,
-          "senderId": 1002,
-          "text": "{NICKNAME}, are you busy these days?",
-          "option": null,
-          "nextIds": [
-            121410002
-          ],
-          "kind": "NPC"
-        },
-        "121410002": {
-          "type": "Text",
-          "id": 121410002,
-          "sectionId": 1214100,
-          "senderId": 1002,
-          "text": "I would like to ask you to accompany me on a certain task...",
-          "option": null,
-          "nextIds": [
-            121410003,
-            121410005
-          ],
-          "kind": "NPC"
-        },
-        "121410003": {
-          "type": "Text",
-          "id": 121410003,
-          "sectionId": 1214100,
-          "senderId": null,
-          "text": "Accompany you? Sounds serious.",
-          "option": "Something wrong?",
-          "nextIds": [
-            121410004
-          ],
-          "kind": "Player"
-        },
-        "121410004": {
-          "type": "Text",
-          "id": 121410004,
-          "sectionId": 1214100,
-          "senderId": 1002,
-          "text": "I want to meet the current high elder of the Luofu Vidyadhara.",
-          "option": null,
-          "nextIds": [
-            121410007
-          ],
-          "kind": "NPC"
-        },
-        "121410007": {
-          "type": "Text",
-          "id": 121410007,
-          "sectionId": 1214100,
-          "senderId": 1002,
-          "text": "I want to ask about some bygone matters, so that I will better understand what I can still do to make amends for my past life.",
-          "option": null,
-          "nextIds": [
-            121410008,
-            121410010
-          ],
-          "kind": "NPC"
-        },
-        "121410008": {
-          "type": "Text",
-          "id": 121410008,
-          "sectionId": 1214100,
-          "senderId": null,
-          "text": "Okay. I'll be there any time you need me",
-          "option": "I'll see this through",
-          "nextIds": [
-            121410009
-          ],
-          "kind": "Player"
-        },
-        "121410009": {
-          "type": "Text",
-          "id": 121410009,
-          "sectionId": 1214100,
-          "senderId": 1002,
-          "text": "Thank you. Let us meet at Synwood Pavilion in Exalting Sanctum.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121410010": {
-          "type": "Text",
-          "id": 121410010,
-          "sectionId": 1214100,
-          "senderId": null,
-          "text": "This feels like a really formal occasion. Do I have to be there?",
-          "option": "Do I have to be there?",
-          "nextIds": [
-            121410011
-          ],
-          "kind": "Player"
-        },
-        "121410011": {
-          "type": "Text",
-          "id": 121410011,
-          "sectionId": 1214100,
-          "senderId": 1002,
-          "text": "I fear complications will arise if I go alone.",
-          "option": null,
-          "nextIds": [
-            121410012
-          ],
-          "kind": "NPC"
-        },
-        "121410012": {
-          "type": "Text",
-          "id": 121410012,
-          "sectionId": 1214100,
-          "senderId": 1002,
-          "text": "But with you present, things are different. I heard you helped save that Dragon Lady. It will make things much easier to handle.",
-          "option": null,
-          "nextIds": [
-            121410013
-          ],
-          "kind": "NPC"
-        },
-        "121410013": {
-          "type": "Text",
-          "id": 121410013,
-          "sectionId": 1214100,
-          "senderId": 1002,
-          "text": "I will wait for you at Synwood Pavilion in Exalting Sanctum. See you there.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121410005": {
-          "type": "Text",
-          "id": 121410005,
-          "sectionId": 1214100,
-          "senderId": null,
-          "text": "So you're worried that someone on the Xianzhou might want to hurt you, and want me as your bodyguard?",
-          "option": "Want me as a bodyguard?",
-          "nextIds": [
-            121410006
-          ],
-          "kind": "Player"
-        },
-        "121410006": {
-          "type": "Text",
-          "id": 121410006,
-          "sectionId": 1214100,
-          "senderId": 1002,
-          "text": "You jest. I want to meet the current high elder of the Luofu Vidyadhara.",
-          "option": null,
-          "nextIds": [
-            121410007
-          ],
-          "kind": "NPC"
-        }
-      },
-      "mission": {
-        "id": 2020601,
-        "name": "The Dragon Returns Home",
-        "type": "Companion"
-      }
-    }
+    ]
   ],
   "info": {
     "id": 1002,
     "name": "Dan Heng",
     "signature": "For anything related to the data bank, come find me.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1002.png",
+    "iconPath": "icon/avatar/1002.png",
     "type": 1,
     "camp": 1
   }

@@ -1,530 +1,536 @@
 {
   "id": 1202,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1201000,
-      "startIds": [
-        120100000
-      ],
-      "messages": {
-        "120100000": {
-          "type": "Text",
-          "id": 120100000,
-          "sectionId": 1201000,
-          "senderId": 1202,
-          "text": "Seems like you will take a bit longer to chat with Madam Yukong",
-          "option": null,
-          "nextIds": [
-            120100001
-          ],
-          "kind": "NPC"
-        },
-        "120100001": {
-          "type": "Text",
-          "id": 120100001,
-          "sectionId": 1201000,
-          "senderId": 1202,
-          "text": "I'm gonna go have a stroll outside. Once you're done, you can find me at the docks",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    [
+      {
+        "type": "Message",
+        "id": 1201000,
+        "startIds": [
+          120100000
+        ],
+        "messages": {
+          "120100000": {
+            "type": "Text",
+            "id": 120100000,
+            "sectionId": 1201000,
+            "senderId": 1202,
+            "text": "Seems like you will take a bit longer to chat with Madam Yukong",
+            "option": null,
+            "nextIds": [
+              120100001
+            ],
+            "kind": "NPC"
+          },
+          "120100001": {
+            "type": "Text",
+            "id": 120100001,
+            "sectionId": 1201000,
+            "senderId": 1202,
+            "text": "I'm gonna go have a stroll outside. Once you're done, you can find me at the docks",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1205500,
-      "startIds": [
-        120550000
-      ],
-      "messages": {
-        "120550000": {
-          "type": "Text",
-          "id": 120550000,
-          "sectionId": 1205500,
-          "senderId": 1202,
-          "text": "Benefactor, I'd like to ask you something",
-          "option": null,
-          "nextIds": [
-            120550001
-          ],
-          "kind": "NPC"
-        },
-        "120550001": {
-          "type": "Text",
-          "id": 120550001,
-          "sectionId": 1205500,
-          "senderId": null,
-          "text": "What is it?",
-          "option": "What is it?",
-          "nextIds": [
-            120550002
-          ],
-          "kind": "Player"
-        },
-        "120550002": {
-          "type": "Text",
-          "id": 120550002,
-          "sectionId": 1205500,
-          "senderId": 1202,
-          "text": "This may be disrespectful, but I'm very curious...",
-          "option": null,
-          "nextIds": [
-            120550003
-          ],
-          "kind": "NPC"
-        },
-        "120550003": {
-          "type": "Text",
-          "id": 120550003,
-          "sectionId": 1205500,
-          "senderId": 1202,
-          "text": "Is the Express really here just to help the Xianzhou Luofu solve the Stellaron problem?",
-          "option": null,
-          "nextIds": [
-            120550015,
-            120550004
-          ],
-          "kind": "NPC"
-        },
-        "120550015": {
-          "type": "Text",
-          "id": 120550015,
-          "sectionId": 1205500,
-          "senderId": null,
-          "text": "Is it really that hard to understand why the Express is here? Can't someone act simply out of the kindness of their heart?",
-          "option": "Yes. Why?",
-          "nextIds": [
-            120550005
-          ],
-          "kind": "Player"
-        },
-        "120550005": {
-          "type": "Text",
-          "id": 120550005,
-          "sectionId": 1205500,
-          "senderId": 1202,
-          "text": "After all, people who help others without thinking of compensation or risks during the dangerous trips across the cosmos is rarer than air in vacuum",
-          "option": null,
-          "nextIds": [
-            120550006
-          ],
-          "kind": "NPC"
-        },
-        "120550006": {
-          "type": "Text",
-          "id": 120550006,
-          "sectionId": 1205500,
-          "senderId": 1202,
-          "text": "When the higher-ups of Xianzhou first heard of your reasons for coming, they thought you were here either to seek immortality or the Stellaron...",
-          "option": null,
-          "nextIds": [
-            120550007,
-            120550009
-          ],
-          "kind": "NPC"
-        },
-        "120550007": {
-          "type": "Text",
-          "id": 120550007,
-          "sectionId": 1205500,
-          "senderId": null,
-          "text": "Seeking immortality is absolutely forbidden on the Xianzhou, no?",
-          "option": "Seek immortality?",
-          "nextIds": [
-            120550008
-          ],
-          "kind": "Player"
-        },
-        "120550008": {
-          "type": "Text",
-          "id": 120550008,
-          "sectionId": 1205500,
-          "senderId": 1202,
-          "text": "Yes. As the home of long-life species, countless Elixir Seekers from all corners of the universe come to the Xianzhou to re-enact bygone histories and discover the secret of the Xianzhou residents' immortality",
-          "option": null,
-          "nextIds": [
-            120550012
-          ],
-          "kind": "NPC"
-        },
-        "120550012": {
-          "type": "Text",
-          "id": 120550012,
-          "sectionId": 1205500,
-          "senderId": 1202,
-          "text": "Apologies, I may have crossed the line. I don't know why I said all this",
-          "option": null,
-          "nextIds": [
-            120550013
-          ],
-          "kind": "NPC"
-        },
-        "120550013": {
-          "type": "Text",
-          "id": 120550013,
-          "sectionId": 1205500,
-          "senderId": 1202,
-          "text": "I have absolute trust in your sincerity, benefactor, but the powerful masters are bound to think more than a pawn like me",
-          "option": null,
-          "nextIds": [
-            120550014
-          ],
-          "kind": "NPC"
-        },
-        "120550014": {
-          "type": "Text",
-          "id": 120550014,
-          "sectionId": 1205500,
-          "senderId": 1202,
-          "text": "So, please be careful...",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "120550009": {
-          "type": "Text",
-          "id": 120550009,
-          "sectionId": 1205500,
-          "senderId": null,
-          "text": "Stellarons are the seeds of ruin. Why would the Express want the Stellaron?",
-          "option": "Seek the Stellaron?",
-          "nextIds": [
-            120550010
-          ],
-          "kind": "Player"
-        },
-        "120550010": {
-          "type": "Text",
-          "id": 120550010,
-          "sectionId": 1205500,
-          "senderId": 1202,
-          "text": "But not everyone in the cosmos thinks this way. As a seed dispersed by an Aeon, some desire to obtain its power regardless of the cost",
-          "option": null,
-          "nextIds": [
-            120550012
-          ],
-          "kind": "NPC"
-        },
-        "120550004": {
-          "type": "Text",
-          "id": 120550004,
-          "sectionId": 1205500,
-          "senderId": null,
-          "text": "Is it really that hard to understand why the Express is here? Can't someone act simply out of the kindness of their heart?",
-          "option": "What are you trying to say?",
-          "nextIds": [
-            120550005
-          ],
-          "kind": "Player"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1205500,
+        "startIds": [
+          120550000
+        ],
+        "messages": {
+          "120550000": {
+            "type": "Text",
+            "id": 120550000,
+            "sectionId": 1205500,
+            "senderId": 1202,
+            "text": "Benefactor, I'd like to ask you something",
+            "option": null,
+            "nextIds": [
+              120550001
+            ],
+            "kind": "NPC"
+          },
+          "120550001": {
+            "type": "Text",
+            "id": 120550001,
+            "sectionId": 1205500,
+            "senderId": null,
+            "text": "What is it?",
+            "option": "What is it?",
+            "nextIds": [
+              120550002
+            ],
+            "kind": "Player"
+          },
+          "120550002": {
+            "type": "Text",
+            "id": 120550002,
+            "sectionId": 1205500,
+            "senderId": 1202,
+            "text": "This may be disrespectful, but I'm very curious...",
+            "option": null,
+            "nextIds": [
+              120550003
+            ],
+            "kind": "NPC"
+          },
+          "120550003": {
+            "type": "Text",
+            "id": 120550003,
+            "sectionId": 1205500,
+            "senderId": 1202,
+            "text": "Is the Express really here just to help the Xianzhou Luofu solve the Stellaron problem?",
+            "option": null,
+            "nextIds": [
+              120550015,
+              120550004
+            ],
+            "kind": "NPC"
+          },
+          "120550015": {
+            "type": "Text",
+            "id": 120550015,
+            "sectionId": 1205500,
+            "senderId": null,
+            "text": "Is it really that hard to understand why the Express is here? Can't someone act simply out of the kindness of their heart?",
+            "option": "Yes. Why?",
+            "nextIds": [
+              120550005
+            ],
+            "kind": "Player"
+          },
+          "120550005": {
+            "type": "Text",
+            "id": 120550005,
+            "sectionId": 1205500,
+            "senderId": 1202,
+            "text": "After all, people who help others without thinking of compensation or risks during the dangerous trips across the cosmos is rarer than air in vacuum",
+            "option": null,
+            "nextIds": [
+              120550006
+            ],
+            "kind": "NPC"
+          },
+          "120550006": {
+            "type": "Text",
+            "id": 120550006,
+            "sectionId": 1205500,
+            "senderId": 1202,
+            "text": "When the higher-ups of Xianzhou first heard of your reasons for coming, they thought you were here either to seek immortality or the Stellaron...",
+            "option": null,
+            "nextIds": [
+              120550007,
+              120550009
+            ],
+            "kind": "NPC"
+          },
+          "120550007": {
+            "type": "Text",
+            "id": 120550007,
+            "sectionId": 1205500,
+            "senderId": null,
+            "text": "Seeking immortality is absolutely forbidden on the Xianzhou, no?",
+            "option": "Seek immortality?",
+            "nextIds": [
+              120550008
+            ],
+            "kind": "Player"
+          },
+          "120550008": {
+            "type": "Text",
+            "id": 120550008,
+            "sectionId": 1205500,
+            "senderId": 1202,
+            "text": "Yes. As the home of long-life species, countless Elixir Seekers from all corners of the universe come to the Xianzhou to re-enact bygone histories and discover the secret of the Xianzhou residents' immortality",
+            "option": null,
+            "nextIds": [
+              120550012
+            ],
+            "kind": "NPC"
+          },
+          "120550012": {
+            "type": "Text",
+            "id": 120550012,
+            "sectionId": 1205500,
+            "senderId": 1202,
+            "text": "Apologies, I may have crossed the line. I don't know why I said all this",
+            "option": null,
+            "nextIds": [
+              120550013
+            ],
+            "kind": "NPC"
+          },
+          "120550013": {
+            "type": "Text",
+            "id": 120550013,
+            "sectionId": 1205500,
+            "senderId": 1202,
+            "text": "I have absolute trust in your sincerity, benefactor, but the powerful masters are bound to think more than a pawn like me",
+            "option": null,
+            "nextIds": [
+              120550014
+            ],
+            "kind": "NPC"
+          },
+          "120550014": {
+            "type": "Text",
+            "id": 120550014,
+            "sectionId": 1205500,
+            "senderId": 1202,
+            "text": "So, please be careful...",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "120550009": {
+            "type": "Text",
+            "id": 120550009,
+            "sectionId": 1205500,
+            "senderId": null,
+            "text": "Stellarons are the seeds of ruin. Why would the Express want the Stellaron?",
+            "option": "Seek the Stellaron?",
+            "nextIds": [
+              120550010
+            ],
+            "kind": "Player"
+          },
+          "120550010": {
+            "type": "Text",
+            "id": 120550010,
+            "sectionId": 1205500,
+            "senderId": 1202,
+            "text": "But not everyone in the cosmos thinks this way. As a seed dispersed by an Aeon, some desire to obtain its power regardless of the cost",
+            "option": null,
+            "nextIds": [
+              120550012
+            ],
+            "kind": "NPC"
+          },
+          "120550004": {
+            "type": "Text",
+            "id": 120550004,
+            "sectionId": 1205500,
+            "senderId": null,
+            "text": "Is it really that hard to understand why the Express is here? Can't someone act simply out of the kindness of their heart?",
+            "option": "What are you trying to say?",
+            "nextIds": [
+              120550005
+            ],
+            "kind": "Player"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1205600,
-      "startIds": [
-        120560000
-      ],
-      "messages": {
-        "120560000": {
-          "type": "Text",
-          "id": 120560000,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "Say, did you see that, benefactor?",
-          "option": null,
-          "nextIds": [
-            120560001
-          ],
-          "kind": "NPC"
-        },
-        "120560001": {
-          "type": "Text",
-          "id": 120560001,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "When the Ebon Deer's stomped the ground, branches sprouted out of nowhere",
-          "option": null,
-          "nextIds": [
-            120560023,
-            120560002
-          ],
-          "kind": "NPC"
-        },
-        "120560023": {
-          "type": "Text",
-          "id": 120560023,
-          "sectionId": 1205600,
-          "senderId": null,
-          "text": "Those must be... the Ambrosial Arbor's roots?",
-          "option": "I saw",
-          "nextIds": [
-            120560003
-          ],
-          "kind": "Player"
-        },
-        "120560003": {
-          "type": "Text",
-          "id": 120560003,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "The celestial traces of Abundance are indeed marvelous to behold",
-          "option": null,
-          "nextIds": [
-            120560004
-          ],
-          "kind": "NPC"
-        },
-        "120560004": {
-          "type": "Text",
-          "id": 120560004,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "This is the first time I've seen something so miraculous among all my travels",
-          "option": null,
-          "nextIds": [
-            120560005
-          ],
-          "kind": "NPC"
-        },
-        "120560005": {
-          "type": "Text",
-          "id": 120560005,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "The fruits on those boughs are sparkling gold, just like what the Xianzhou legends say",
-          "option": null,
-          "nextIds": [
-            120560006
-          ],
-          "kind": "NPC"
-        },
-        "120560006": {
-          "type": "Text",
-          "id": 120560006,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "It is said that in ancient times, the forebears of the Xianzhou received immortal fruits like this of the Ambrosial Arbor and turned into long-life species",
-          "option": null,
-          "nextIds": [
-            120560007
-          ],
-          "kind": "NPC"
-        },
-        "120560007": {
-          "type": "Text",
-          "id": 120560007,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "If I were to eat this fruit, would I obtain endless life just like the Xianzhou natives...?",
-          "option": null,
-          "nextIds": [
-            120560008
-          ],
-          "kind": "NPC"
-        },
-        "120560008": {
-          "type": "Text",
-          "id": 120560008,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "Are you not tempted by such a chance, benefactor?",
-          "option": null,
-          "nextIds": [
-            120560009,
-            120560013,
-            120560017
-          ],
-          "kind": "NPC"
-        },
-        "120560009": {
-          "type": "Text",
-          "id": 120560009,
-          "sectionId": 1205600,
-          "senderId": null,
-          "text": "Miss Tingyun, wouldn't you be breaching the Xianzhou ban?",
-          "option": "A dangerous thought...",
-          "nextIds": [
-            120560010
-          ],
-          "kind": "Player"
-        },
-        "120560010": {
-          "type": "Text",
-          "id": 120560010,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "Ahh",
-          "option": null,
-          "nextIds": [
-            120560011
-          ],
-          "kind": "NPC"
-        },
-        "120560011": {
-          "type": "Text",
-          "id": 120560011,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "Please pardon me for my rudeness and my little test",
-          "option": null,
-          "nextIds": [
-            120560012
-          ],
-          "kind": "NPC"
-        },
-        "120560012": {
-          "type": "Text",
-          "id": 120560012,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "As I thought, you are an honest and righteous person, benefactor",
-          "option": null,
-          "nextIds": [
-            120560019
-          ],
-          "kind": "NPC"
-        },
-        "120560019": {
-          "type": "Text",
-          "id": 120560019,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "But I thank you for the thought, benefactor",
-          "option": null,
-          "nextIds": [
-            120560020
-          ],
-          "kind": "NPC"
-        },
-        "120560020": {
-          "type": "Text",
-          "id": 120560020,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "Unfortunately, the Ebon Deer is now dust, and no fruit of the Ambrosial Arbor is left behind",
-          "option": null,
-          "nextIds": [
-            120560021
-          ],
-          "kind": "NPC"
-        },
-        "120560021": {
-          "type": "Text",
-          "id": 120560021,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "Such opportunities are extremely rare, but they slip away in the blink of an eye.",
-          "option": null,
-          "nextIds": [
-            120560022
-          ],
-          "kind": "NPC"
-        },
-        "120560022": {
-          "type": "Text",
-          "id": 120560022,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "Just like life itself...",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "120560013": {
-          "type": "Text",
-          "id": 120560013,
-          "sectionId": 1205600,
-          "senderId": null,
-          "text": "If you eat this fruit, I'm afraid you won't get to live for a thousand years... but executed by the Cloud Knights moments after.",
-          "option": "Can't leave if you eat it...",
-          "nextIds": [
-            120560014
-          ],
-          "kind": "Player"
-        },
-        "120560014": {
-          "type": "Text",
-          "id": 120560014,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "You're right, benefactor",
-          "option": null,
-          "nextIds": [
-            120560015
-          ],
-          "kind": "NPC"
-        },
-        "120560015": {
-          "type": "Text",
-          "id": 120560015,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "But if you manage to get past the Cloud Knights' searches",
-          "option": null,
-          "nextIds": [
-            120560016
-          ],
-          "kind": "NPC"
-        },
-        "120560016": {
-          "type": "Text",
-          "id": 120560016,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "This opportunity seems too good to pass up, right?",
-          "option": null,
-          "nextIds": [
-            120560019
-          ],
-          "kind": "NPC"
-        },
-        "120560017": {
-          "type": "Text",
-          "id": 120560017,
-          "sectionId": 1205600,
-          "senderId": null,
-          "text": "Then... Miss Tingyun... did you save a fruit?",
-          "option": "Oh, I was tempted...",
-          "nextIds": [
-            120560018
-          ],
-          "kind": "Player"
-        },
-        "120560018": {
-          "type": "Text",
-          "id": 120560018,
-          "sectionId": 1205600,
-          "senderId": 1202,
-          "text": "If I say yes, would you want to share it with me, benefactor?",
-          "option": null,
-          "nextIds": [
-            120560019
-          ],
-          "kind": "NPC"
-        },
-        "120560002": {
-          "type": "Text",
-          "id": 120560002,
-          "sectionId": 1205600,
-          "senderId": null,
-          "text": "Those must be... the Ambrosial Arbor's roots?",
-          "option": "Branches?",
-          "nextIds": [
-            120560003
-          ],
-          "kind": "Player"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1205600,
+        "startIds": [
+          120560000
+        ],
+        "messages": {
+          "120560000": {
+            "type": "Text",
+            "id": 120560000,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "Say, did you see that, benefactor?",
+            "option": null,
+            "nextIds": [
+              120560001
+            ],
+            "kind": "NPC"
+          },
+          "120560001": {
+            "type": "Text",
+            "id": 120560001,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "When the Ebon Deer's stomped the ground, branches sprouted out of nowhere",
+            "option": null,
+            "nextIds": [
+              120560023,
+              120560002
+            ],
+            "kind": "NPC"
+          },
+          "120560023": {
+            "type": "Text",
+            "id": 120560023,
+            "sectionId": 1205600,
+            "senderId": null,
+            "text": "Those must be... the Ambrosial Arbor's roots?",
+            "option": "I saw",
+            "nextIds": [
+              120560003
+            ],
+            "kind": "Player"
+          },
+          "120560003": {
+            "type": "Text",
+            "id": 120560003,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "The celestial traces of Abundance are indeed marvelous to behold",
+            "option": null,
+            "nextIds": [
+              120560004
+            ],
+            "kind": "NPC"
+          },
+          "120560004": {
+            "type": "Text",
+            "id": 120560004,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "This is the first time I've seen something so miraculous among all my travels",
+            "option": null,
+            "nextIds": [
+              120560005
+            ],
+            "kind": "NPC"
+          },
+          "120560005": {
+            "type": "Text",
+            "id": 120560005,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "The fruits on those boughs are sparkling gold, just like what the Xianzhou legends say",
+            "option": null,
+            "nextIds": [
+              120560006
+            ],
+            "kind": "NPC"
+          },
+          "120560006": {
+            "type": "Text",
+            "id": 120560006,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "It is said that in ancient times, the forebears of the Xianzhou received immortal fruits like this of the Ambrosial Arbor and turned into long-life species",
+            "option": null,
+            "nextIds": [
+              120560007
+            ],
+            "kind": "NPC"
+          },
+          "120560007": {
+            "type": "Text",
+            "id": 120560007,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "If I were to eat this fruit, would I obtain endless life just like the Xianzhou natives...?",
+            "option": null,
+            "nextIds": [
+              120560008
+            ],
+            "kind": "NPC"
+          },
+          "120560008": {
+            "type": "Text",
+            "id": 120560008,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "Are you not tempted by such a chance, benefactor?",
+            "option": null,
+            "nextIds": [
+              120560009,
+              120560013,
+              120560017
+            ],
+            "kind": "NPC"
+          },
+          "120560009": {
+            "type": "Text",
+            "id": 120560009,
+            "sectionId": 1205600,
+            "senderId": null,
+            "text": "Miss Tingyun, wouldn't you be breaching the Xianzhou ban?",
+            "option": "A dangerous thought...",
+            "nextIds": [
+              120560010
+            ],
+            "kind": "Player"
+          },
+          "120560010": {
+            "type": "Text",
+            "id": 120560010,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "Ahh",
+            "option": null,
+            "nextIds": [
+              120560011
+            ],
+            "kind": "NPC"
+          },
+          "120560011": {
+            "type": "Text",
+            "id": 120560011,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "Please pardon me for my rudeness and my little test",
+            "option": null,
+            "nextIds": [
+              120560012
+            ],
+            "kind": "NPC"
+          },
+          "120560012": {
+            "type": "Text",
+            "id": 120560012,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "As I thought, you are an honest and righteous person, benefactor",
+            "option": null,
+            "nextIds": [
+              120560019
+            ],
+            "kind": "NPC"
+          },
+          "120560019": {
+            "type": "Text",
+            "id": 120560019,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "But I thank you for the thought, benefactor",
+            "option": null,
+            "nextIds": [
+              120560020
+            ],
+            "kind": "NPC"
+          },
+          "120560020": {
+            "type": "Text",
+            "id": 120560020,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "Unfortunately, the Ebon Deer is now dust, and no fruit of the Ambrosial Arbor is left behind",
+            "option": null,
+            "nextIds": [
+              120560021
+            ],
+            "kind": "NPC"
+          },
+          "120560021": {
+            "type": "Text",
+            "id": 120560021,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "Such opportunities are extremely rare, but they slip away in the blink of an eye.",
+            "option": null,
+            "nextIds": [
+              120560022
+            ],
+            "kind": "NPC"
+          },
+          "120560022": {
+            "type": "Text",
+            "id": 120560022,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "Just like life itself...",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "120560013": {
+            "type": "Text",
+            "id": 120560013,
+            "sectionId": 1205600,
+            "senderId": null,
+            "text": "If you eat this fruit, I'm afraid you won't get to live for a thousand years... but executed by the Cloud Knights moments after.",
+            "option": "Can't leave if you eat it...",
+            "nextIds": [
+              120560014
+            ],
+            "kind": "Player"
+          },
+          "120560014": {
+            "type": "Text",
+            "id": 120560014,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "You're right, benefactor",
+            "option": null,
+            "nextIds": [
+              120560015
+            ],
+            "kind": "NPC"
+          },
+          "120560015": {
+            "type": "Text",
+            "id": 120560015,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "But if you manage to get past the Cloud Knights' searches",
+            "option": null,
+            "nextIds": [
+              120560016
+            ],
+            "kind": "NPC"
+          },
+          "120560016": {
+            "type": "Text",
+            "id": 120560016,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "This opportunity seems too good to pass up, right?",
+            "option": null,
+            "nextIds": [
+              120560019
+            ],
+            "kind": "NPC"
+          },
+          "120560017": {
+            "type": "Text",
+            "id": 120560017,
+            "sectionId": 1205600,
+            "senderId": null,
+            "text": "Then... Miss Tingyun... did you save a fruit?",
+            "option": "Oh, I was tempted...",
+            "nextIds": [
+              120560018
+            ],
+            "kind": "Player"
+          },
+          "120560018": {
+            "type": "Text",
+            "id": 120560018,
+            "sectionId": 1205600,
+            "senderId": 1202,
+            "text": "If I say yes, would you want to share it with me, benefactor?",
+            "option": null,
+            "nextIds": [
+              120560019
+            ],
+            "kind": "NPC"
+          },
+          "120560002": {
+            "type": "Text",
+            "id": 120560002,
+            "sectionId": 1205600,
+            "senderId": null,
+            "text": "Those must be... the Ambrosial Arbor's roots?",
+            "option": "Branches?",
+            "nextIds": [
+              120560003
+            ],
+            "kind": "Player"
+          }
         }
       }
-    }
+    ]
   ],
   "info": {
     "id": 1202,
     "name": "Tingyun",
     "signature": "Let's talk it out and not fight~",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1202.png",
+    "iconPath": "icon/avatar/1202.png",
     "type": 1,
     "camp": 4
   }

@@ -1,128 +1,130 @@
 {
   "id": 70,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1113800,
-      "startIds": [
-        111380000
-      ],
-      "messages": {
-        "111380000": {
-          "type": "Text",
-          "id": 111380000,
-          "sectionId": 1113800,
-          "senderId": 71,
-          "text": "{F#Madam}{M#Sir} {NICKNAME} and Miss Pela! We found the lost Meteor Fragment",
-          "option": null,
-          "nextIds": [
-            111380001
-          ],
-          "kind": "NPC"
-        },
-        "111380001": {
-          "type": "Text",
-          "id": 111380001,
-          "sectionId": 1113800,
-          "senderId": 1106,
-          "text": "Really!? Where is it???",
-          "option": null,
-          "nextIds": [
-            111380002,
-            111380003
-          ],
-          "kind": "NPC"
-        },
-        "111380002": {
-          "type": "Text",
-          "id": 111380002,
-          "sectionId": 1113800,
-          "senderId": null,
-          "text": "For real?",
-          "option": "For real?",
-          "nextIds": [
-            111380004
-          ],
-          "kind": "Player"
-        },
-        "111380004": {
-          "type": "Text",
-          "id": 111380004,
-          "sectionId": 1113800,
-          "senderId": 71,
-          "text": "It's in a room in the Goethe Grand Hotel",
-          "option": null,
-          "nextIds": [
-            111380005
-          ],
-          "kind": "NPC"
-        },
-        "111380005": {
-          "type": "Text",
-          "id": 111380005,
-          "sectionId": 1113800,
-          "senderId": 71,
-          "text": "Looks like some forgetful thief left their most important loot here",
-          "option": null,
-          "nextIds": [
-            111380006
-          ],
-          "kind": "NPC"
-        },
-        "111380006": {
-          "type": "Text",
-          "id": 111380006,
-          "sectionId": 1113800,
-          "senderId": 71,
-          "text": "We've got the area under control. Now we're waiting for you two to come and check the stolen artifact",
-          "option": null,
-          "nextIds": [
-            111380007
-          ],
-          "kind": "NPC"
-        },
-        "111380007": {
-          "type": "Text",
-          "id": 111380007,
-          "sectionId": 1113800,
-          "senderId": 1106,
-          "text": "We'll come immediately. Don't make a big fuss, and don't alert the other guests",
-          "option": null,
-          "nextIds": [
-            111380008
-          ],
-          "kind": "NPC"
-        },
-        "111380008": {
-          "type": "Text",
-          "id": 111380008,
-          "sectionId": 1113800,
-          "senderId": 71,
-          "text": "Got it, Miss Pela",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "111380003": {
-          "type": "Text",
-          "id": 111380003,
-          "sectionId": 1113800,
-          "senderId": null,
-          "text": "Too easy.",
-          "option": "This seems too easy...",
-          "nextIds": [
-            111380004
-          ],
-          "kind": "Player"
+    [
+      {
+        "type": "Message",
+        "id": 1113800,
+        "startIds": [
+          111380000
+        ],
+        "messages": {
+          "111380000": {
+            "type": "Text",
+            "id": 111380000,
+            "sectionId": 1113800,
+            "senderId": 71,
+            "text": "{F#Madam}{M#Sir} {NICKNAME} and Miss Pela! We found the lost Meteor Fragment",
+            "option": null,
+            "nextIds": [
+              111380001
+            ],
+            "kind": "NPC"
+          },
+          "111380001": {
+            "type": "Text",
+            "id": 111380001,
+            "sectionId": 1113800,
+            "senderId": 1106,
+            "text": "Really!? Where is it???",
+            "option": null,
+            "nextIds": [
+              111380002,
+              111380003
+            ],
+            "kind": "NPC"
+          },
+          "111380002": {
+            "type": "Text",
+            "id": 111380002,
+            "sectionId": 1113800,
+            "senderId": null,
+            "text": "For real?",
+            "option": "For real?",
+            "nextIds": [
+              111380004
+            ],
+            "kind": "Player"
+          },
+          "111380004": {
+            "type": "Text",
+            "id": 111380004,
+            "sectionId": 1113800,
+            "senderId": 71,
+            "text": "It's in a room in the Goethe Grand Hotel",
+            "option": null,
+            "nextIds": [
+              111380005
+            ],
+            "kind": "NPC"
+          },
+          "111380005": {
+            "type": "Text",
+            "id": 111380005,
+            "sectionId": 1113800,
+            "senderId": 71,
+            "text": "Looks like some forgetful thief left their most important loot here",
+            "option": null,
+            "nextIds": [
+              111380006
+            ],
+            "kind": "NPC"
+          },
+          "111380006": {
+            "type": "Text",
+            "id": 111380006,
+            "sectionId": 1113800,
+            "senderId": 71,
+            "text": "We've got the area under control. Now we're waiting for you two to come and check the stolen artifact",
+            "option": null,
+            "nextIds": [
+              111380007
+            ],
+            "kind": "NPC"
+          },
+          "111380007": {
+            "type": "Text",
+            "id": 111380007,
+            "sectionId": 1113800,
+            "senderId": 1106,
+            "text": "We'll come immediately. Don't make a big fuss, and don't alert the other guests",
+            "option": null,
+            "nextIds": [
+              111380008
+            ],
+            "kind": "NPC"
+          },
+          "111380008": {
+            "type": "Text",
+            "id": 111380008,
+            "sectionId": 1113800,
+            "senderId": 71,
+            "text": "Got it, Miss Pela",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111380003": {
+            "type": "Text",
+            "id": 111380003,
+            "sectionId": 1113800,
+            "senderId": null,
+            "text": "Too easy.",
+            "option": "This seems too easy...",
+            "nextIds": [
+              111380004
+            ],
+            "kind": "Player"
+          }
         }
       }
-    }
+    ]
   ],
   "info": {
     "id": 70,
     "name": "Artifact Theft Special Investigation Group",
     "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
+    "iconPath": "icon/avatar/GroupDefault.png",
     "type": 3,
     "camp": 3
   }

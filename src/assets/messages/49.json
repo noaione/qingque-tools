@@ -1,1363 +1,1373 @@
 {
   "id": 49,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1112600,
-      "startIds": [
-        111260000
-      ],
-      "messages": {
-        "111260000": {
-          "type": "Text",
-          "id": 111260000,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "Interastral Peace Appliances — There are only three years left in this Amber Era's big sale! Limited coupons are now available, each worth <unbreak>200</unbreak> credits! The smart toilet for outdoor camping and off-roading usage is now on sale for the low price of <unbreak>25,000,000</unbreak> credits!",
-          "option": null,
-          "nextIds": [
-            111260001
-          ],
-          "kind": "NPC"
-        },
-        "111260001": {
-          "type": "Text",
-          "id": 111260001,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "Interastral Peace Appliances — With coupon savings, the combatant humanoid bipedal microwave oven will only cost <unbreak>32,999,999</unbreak> credits! Also available are the <unbreak>25</unbreak>-credit coupons, which are good for the entire online store!",
-          "option": null,
-          "nextIds": [
-            111260002,
-            111260004
-          ],
-          "kind": "NPC"
-        },
-        "111260002": {
-          "type": "Text",
-          "id": 111260002,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Ahh, I knew it",
-          "option": "It's another spam...",
-          "nextIds": [
-            111260003
-          ],
-          "kind": "Player"
-        },
-        "111260003": {
-          "type": "Text",
-          "id": 111260003,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Not these spams again! Have they run out of other things to do?",
-          "option": null,
-          "nextIds": [
-            111260006
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111260006": {
-          "type": "Text",
-          "id": 111260006,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "?",
-          "option": null,
-          "nextIds": [
-            111260007
-          ],
-          "kind": "NPC"
-        },
-        "111260007": {
-          "type": "Text",
-          "id": 111260007,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "???",
-          "option": null,
-          "nextIds": [
-            111260008,
-            111260010
-          ],
-          "kind": "NPC"
-        },
-        "111260008": {
-          "type": "Text",
-          "id": 111260008,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "?",
-          "option": "Why are you sending me question marks?",
-          "nextIds": [
-            111260009
-          ],
-          "kind": "Player"
-        },
-        "111260009": {
-          "type": "Text",
-          "id": 111260009,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Say something. Don't just send question marks",
-          "option": null,
-          "nextIds": [
-            111260013
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111260013": {
-          "type": "Text",
-          "id": 111260013,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "Hold on. Been a while since I chatted with anyone. I'm kinda in shock still",
-          "option": null,
-          "nextIds": [
-            111260014
-          ],
-          "kind": "NPC"
-        },
-        "111260014": {
-          "type": "Text",
-          "id": 111260014,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "Are you really from Jarilo-VI? Didn't you all die off?",
-          "option": null,
-          "nextIds": [
-            111260015,
-            111260016
-          ],
-          "kind": "NPC"
-        },
-        "111260015": {
-          "type": "Text",
-          "id": 111260015,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Wait, who are you? How did you get my number?",
-          "option": "Who are you?",
-          "nextIds": [
-            111260018
-          ],
-          "kind": "Player"
-        },
-        "111260018": {
-          "type": "Text",
-          "id": 111260018,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "Oh. Hahaha, I'm just a salesperson from Interastral Peace Appliances\\nI'm the <unbreak>56</unbreak>th liaison officer assigned for Jarilo-VI, and my job is to observe that planet and distribute ads there",
-          "option": null,
-          "nextIds": [
-            111260019
-          ],
-          "kind": "NPC"
-        },
-        "111260019": {
-          "type": "Text",
-          "id": 111260019,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "But in the <unbreak>78</unbreak> years since I was deployed to this post, I've never received a single reply\\nI thought you lot all went extinct cuz of the blizzard lol",
-          "option": null,
-          "nextIds": [
-            111260020
-          ],
-          "kind": "NPC"
-        },
-        "111260020": {
-          "type": "Text",
-          "id": 111260020,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "Now that fate has brought us together, would you be interested in getting some home appliances? We're currently having a sale and will return <unbreak>50</unbreak> credits for every <unbreak>50,000</unbreak> spent. It's a good deal",
-          "option": null,
-          "nextIds": [
-            111260021,
-            111260024
-          ],
-          "kind": "NPC"
-        },
-        "111260021": {
-          "type": "Text",
-          "id": 111260021,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Nope. I'm busy",
-          "option": "Nah, I'm busy...",
-          "nextIds": [
-            111260022
-          ],
-          "kind": "Player"
-        },
-        "111260022": {
-          "type": "Text",
-          "id": 111260022,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "No, sorry",
-          "option": null,
-          "nextIds": [
-            111260023
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111260023": {
-          "type": "Text",
-          "id": 111260023,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "No problem. If you ever need anything, just let me know!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "111260024": {
-          "type": "Text",
-          "id": 111260024,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Well, send a link then...",
-          "option": "Send a link then",
-          "nextIds": [
-            111260025
-          ],
-          "kind": "Player"
-        },
-        "111260025": {
-          "type": "Text",
-          "id": 111260025,
-          "sectionId": 1112600,
-          "senderId": 49,
-          "text": "Of course! Please wait a minute",
-          "option": null,
-          "nextIds": [
-            111260026
-          ],
-          "kind": "NPC"
-        },
-        "111260026": {
-          "type": "Text",
-          "id": 111260026,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Interastral Peace Appliances has gone offline.",
-          "option": null,
-          "nextIds": [
-            111260027,
-            111260029
-          ],
-          "kind": "System"
-        },
-        "111260027": {
-          "type": "Text",
-          "id": 111260027,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "???",
-          "option": "Hey where are you going?",
-          "nextIds": [
-            111260028
-          ],
-          "kind": "Player"
-        },
-        "111260028": {
-          "type": "Text",
-          "id": 111260028,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "You didn't send a link",
-          "option": null,
-          "nextIds": [],
-          "kind": "PlayerAuto"
-        },
-        "111260029": {
-          "type": "Text",
-          "id": 111260029,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "???",
-          "option": "Is this an online scam?",
-          "nextIds": [
-            111260030
-          ],
-          "kind": "Player"
-        },
-        "111260030": {
-          "type": "Text",
-          "id": 111260030,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Are you running an online scam",
-          "option": null,
-          "nextIds": [],
-          "kind": "PlayerAuto"
-        },
-        "111260016": {
-          "type": "Text",
-          "id": 111260016,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "I'm here to investigate an unidentified signal and somehow ended up contacting you",
-          "option": "Explain the situation to this person",
-          "nextIds": [
-            111260017
-          ],
-          "kind": "Player"
-        },
-        "111260017": {
-          "type": "Text",
-          "id": 111260017,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "So, who exactly are you?",
-          "option": null,
-          "nextIds": [
-            111260018
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111260010": {
-          "type": "Text",
-          "id": 111260010,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "?",
-          "option": "Link plz?",
-          "nextIds": [
-            111260011
-          ],
-          "kind": "Player"
-        },
-        "111260011": {
-          "type": "Text",
-          "id": 111260011,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "So where can I place an order",
-          "option": null,
-          "nextIds": [
-            111260012
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111260012": {
-          "type": "Text",
-          "id": 111260012,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Send link plz thanx",
-          "option": null,
-          "nextIds": [
-            111260013
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111260004": {
-          "type": "Text",
-          "id": 111260004,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Interesting",
-          "option": "How do I place an order?",
-          "nextIds": [
-            111260005
-          ],
-          "kind": "Player"
-        },
-        "111260005": {
-          "type": "Text",
-          "id": 111260005,
-          "sectionId": 1112600,
-          "senderId": null,
-          "text": "Where can I place an order?",
-          "option": null,
-          "nextIds": [
-            111260006
-          ],
-          "kind": "PlayerAuto"
+    [
+      {
+        "type": "Message",
+        "id": 1112600,
+        "startIds": [
+          111260000
+        ],
+        "messages": {
+          "111260000": {
+            "type": "Text",
+            "id": 111260000,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "Interastral Peace Appliances — There are only three years left in this Amber Era's big sale! Limited coupons are now available, each worth <unbreak>200</unbreak> credits! The smart toilet for outdoor camping and off-roading usage is now on sale for the low price of <unbreak>25,000,000</unbreak> credits!",
+            "option": null,
+            "nextIds": [
+              111260001
+            ],
+            "kind": "NPC"
+          },
+          "111260001": {
+            "type": "Text",
+            "id": 111260001,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "Interastral Peace Appliances — With coupon savings, the combatant humanoid bipedal microwave oven will only cost <unbreak>32,999,999</unbreak> credits! Also available are the <unbreak>25</unbreak>-credit coupons, which are good for the entire online store!",
+            "option": null,
+            "nextIds": [
+              111260002,
+              111260004
+            ],
+            "kind": "NPC"
+          },
+          "111260002": {
+            "type": "Text",
+            "id": 111260002,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Ahh, I knew it",
+            "option": "It's another spam...",
+            "nextIds": [
+              111260003
+            ],
+            "kind": "Player"
+          },
+          "111260003": {
+            "type": "Text",
+            "id": 111260003,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Not these spams again! Have they run out of other things to do?",
+            "option": null,
+            "nextIds": [
+              111260006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111260006": {
+            "type": "Text",
+            "id": 111260006,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              111260007
+            ],
+            "kind": "NPC"
+          },
+          "111260007": {
+            "type": "Text",
+            "id": 111260007,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "???",
+            "option": null,
+            "nextIds": [
+              111260008,
+              111260010
+            ],
+            "kind": "NPC"
+          },
+          "111260008": {
+            "type": "Text",
+            "id": 111260008,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "?",
+            "option": "Why are you sending me question marks?",
+            "nextIds": [
+              111260009
+            ],
+            "kind": "Player"
+          },
+          "111260009": {
+            "type": "Text",
+            "id": 111260009,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Say something. Don't just send question marks",
+            "option": null,
+            "nextIds": [
+              111260013
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111260013": {
+            "type": "Text",
+            "id": 111260013,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "Hold on. Been a while since I chatted with anyone. I'm kinda in shock still",
+            "option": null,
+            "nextIds": [
+              111260014
+            ],
+            "kind": "NPC"
+          },
+          "111260014": {
+            "type": "Text",
+            "id": 111260014,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "Are you really from Jarilo-VI? Didn't you all die off?",
+            "option": null,
+            "nextIds": [
+              111260015,
+              111260016
+            ],
+            "kind": "NPC"
+          },
+          "111260015": {
+            "type": "Text",
+            "id": 111260015,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Wait, who are you? How did you get my number?",
+            "option": "Who are you?",
+            "nextIds": [
+              111260018
+            ],
+            "kind": "Player"
+          },
+          "111260018": {
+            "type": "Text",
+            "id": 111260018,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "Oh. Hahaha, I'm just a salesperson from Interastral Peace Appliances\\nI'm the <unbreak>56</unbreak>th liaison officer assigned for Jarilo-VI, and my job is to observe that planet and distribute ads there",
+            "option": null,
+            "nextIds": [
+              111260019
+            ],
+            "kind": "NPC"
+          },
+          "111260019": {
+            "type": "Text",
+            "id": 111260019,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "But in the <unbreak>78</unbreak> years since I was deployed to this post, I've never received a single reply\\nI thought you lot all went extinct cuz of the blizzard lol",
+            "option": null,
+            "nextIds": [
+              111260020
+            ],
+            "kind": "NPC"
+          },
+          "111260020": {
+            "type": "Text",
+            "id": 111260020,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "Now that fate has brought us together, would you be interested in getting some home appliances? We're currently having a sale and will return <unbreak>50</unbreak> credits for every <unbreak>50,000</unbreak> spent. It's a good deal",
+            "option": null,
+            "nextIds": [
+              111260021,
+              111260024
+            ],
+            "kind": "NPC"
+          },
+          "111260021": {
+            "type": "Text",
+            "id": 111260021,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Nope. I'm busy",
+            "option": "Nah, I'm busy...",
+            "nextIds": [
+              111260022
+            ],
+            "kind": "Player"
+          },
+          "111260022": {
+            "type": "Text",
+            "id": 111260022,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "No, sorry",
+            "option": null,
+            "nextIds": [
+              111260023
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111260023": {
+            "type": "Text",
+            "id": 111260023,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "No problem. If you ever need anything, just let me know!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111260024": {
+            "type": "Text",
+            "id": 111260024,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Well, send a link then...",
+            "option": "Send a link then",
+            "nextIds": [
+              111260025
+            ],
+            "kind": "Player"
+          },
+          "111260025": {
+            "type": "Text",
+            "id": 111260025,
+            "sectionId": 1112600,
+            "senderId": 49,
+            "text": "Of course! Please wait a minute",
+            "option": null,
+            "nextIds": [
+              111260026
+            ],
+            "kind": "NPC"
+          },
+          "111260026": {
+            "type": "Text",
+            "id": 111260026,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Interastral Peace Appliances has gone offline.",
+            "option": null,
+            "nextIds": [
+              111260027,
+              111260029
+            ],
+            "kind": "System"
+          },
+          "111260027": {
+            "type": "Text",
+            "id": 111260027,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "???",
+            "option": "Hey where are you going?",
+            "nextIds": [
+              111260028
+            ],
+            "kind": "Player"
+          },
+          "111260028": {
+            "type": "Text",
+            "id": 111260028,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "You didn't send a link",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto"
+          },
+          "111260029": {
+            "type": "Text",
+            "id": 111260029,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "???",
+            "option": "Is this an online scam?",
+            "nextIds": [
+              111260030
+            ],
+            "kind": "Player"
+          },
+          "111260030": {
+            "type": "Text",
+            "id": 111260030,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Are you running an online scam",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto"
+          },
+          "111260016": {
+            "type": "Text",
+            "id": 111260016,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "I'm here to investigate an unidentified signal and somehow ended up contacting you",
+            "option": "Explain the situation to this person",
+            "nextIds": [
+              111260017
+            ],
+            "kind": "Player"
+          },
+          "111260017": {
+            "type": "Text",
+            "id": 111260017,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "So, who exactly are you?",
+            "option": null,
+            "nextIds": [
+              111260018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111260010": {
+            "type": "Text",
+            "id": 111260010,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "?",
+            "option": "Link plz?",
+            "nextIds": [
+              111260011
+            ],
+            "kind": "Player"
+          },
+          "111260011": {
+            "type": "Text",
+            "id": 111260011,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "So where can I place an order",
+            "option": null,
+            "nextIds": [
+              111260012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111260012": {
+            "type": "Text",
+            "id": 111260012,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Send link plz thanx",
+            "option": null,
+            "nextIds": [
+              111260013
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111260004": {
+            "type": "Text",
+            "id": 111260004,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Interesting",
+            "option": "How do I place an order?",
+            "nextIds": [
+              111260005
+            ],
+            "kind": "Player"
+          },
+          "111260005": {
+            "type": "Text",
+            "id": 111260005,
+            "sectionId": 1112600,
+            "senderId": null,
+            "text": "Where can I place an order?",
+            "option": null,
+            "nextIds": [
+              111260006
+            ],
+            "kind": "PlayerAuto"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1112700,
-      "startIds": [
-        111270000
-      ],
-      "messages": {
-        "111270000": {
-          "type": "Text",
-          "id": 111270000,
-          "sectionId": 1112700,
-          "senderId": 49,
-          "text": "Interastral Peace Appliances — You have <unbreak>88</unbreak> unclaimed free credits that can be used to purchase any product on the Interastral Peace Appliances official website (Note: Some discounted items are not included)! You can use as many free credits as you would like. The more you buy, the more you can claim!",
-          "option": null,
-          "nextIds": [
-            111270001
-          ],
-          "kind": "NPC"
-        },
-        "111270001": {
-          "type": "Text",
-          "id": 111270001,
-          "sectionId": 1112700,
-          "senderId": 49,
-          "text": "Hey, my dear customer, u up?",
-          "option": null,
-          "nextIds": [
-            111270002
-          ],
-          "kind": "NPC"
-        },
-        "111270002": {
-          "type": "Text",
-          "id": 111270002,
-          "sectionId": 1112700,
-          "senderId": 49,
-          "text": "Sorry for popping out like this. I wanna ask you something",
-          "option": null,
-          "nextIds": [
-            111270003,
-            111270004,
-            111270005
-          ],
-          "kind": "NPC"
-        },
-        "111270003": {
-          "type": "Text",
-          "id": 111270003,
-          "sectionId": 1112700,
-          "senderId": null,
-          "text": "What is it?",
-          "option": "What is it?",
-          "nextIds": [
-            111270007
-          ],
-          "kind": "Player"
-        },
-        "111270007": {
-          "type": "Text",
-          "id": 111270007,
-          "sectionId": 1112700,
-          "senderId": 49,
-          "text": "Actually, I just reported Jarilo-VI's situation to the Interastral Peace Appliances HQ, and now they want me to send them a comprehensive report to summarize what happened",
-          "option": null,
-          "nextIds": [
-            111270008
-          ],
-          "kind": "NPC"
-        },
-        "111270008": {
-          "type": "Text",
-          "id": 111270008,
-          "sectionId": 1112700,
-          "senderId": 49,
-          "text": "Could you please describe in detail what had happened on the planet since the Eternal Freeze started <unbreak>700</unbreak> years ago?\\nJust whenever you've got the time. There is no rush",
-          "option": null,
-          "nextIds": [
-            111270009,
-            111270012
-          ],
-          "kind": "NPC"
-        },
-        "111270009": {
-          "type": "Text",
-          "id": 111270009,
-          "sectionId": 1112700,
-          "senderId": null,
-          "text": "I'm no local... How am I supposed to know about this?",
-          "option": "I don't know about this",
-          "nextIds": [
-            111270010
-          ],
-          "kind": "Player"
-        },
-        "111270010": {
-          "type": "Text",
-          "id": 111270010,
-          "sectionId": 1112700,
-          "senderId": 49,
-          "text": "Ehhh",
-          "option": null,
-          "nextIds": [
-            111270011
-          ],
-          "kind": "NPC"
-        },
-        "111270011": {
-          "type": "Text",
-          "id": 111270011,
-          "sectionId": 1112700,
-          "senderId": 49,
-          "text": "Then can you please ask a local for me? Please please?",
-          "option": null,
-          "nextIds": [
-            111270014
-          ],
-          "kind": "NPC"
-        },
-        "111270014": {
-          "type": "Text",
-          "id": 111270014,
-          "sectionId": 1112700,
-          "senderId": 49,
-          "text": "As a token of my thanks, I'm going to apply for a discount coupon for you! See ya",
-          "option": null,
-          "nextIds": [
-            111270015
-          ],
-          "kind": "NPC"
-        },
-        "111270015": {
-          "type": "Text",
-          "id": 111270015,
-          "sectionId": 1112700,
-          "senderId": null,
-          "text": "Interastral Peace Appliances has gone offline.",
-          "option": null,
-          "nextIds": [],
-          "kind": "System"
-        },
-        "111270012": {
-          "type": "Text",
-          "id": 111270012,
-          "sectionId": 1112700,
-          "senderId": null,
-          "text": "I'll ask around for you",
-          "option": "I can ask around for you",
-          "nextIds": [
-            111270013
-          ],
-          "kind": "Player"
-        },
-        "111270013": {
-          "type": "Text",
-          "id": 111270013,
-          "sectionId": 1112700,
-          "senderId": 49,
-          "text": "Great! Thank you so much!",
-          "option": null,
-          "nextIds": [
-            111270014
-          ],
-          "kind": "NPC"
-        },
-        "111270004": {
-          "type": "Text",
-          "id": 111270004,
-          "sectionId": 1112700,
-          "senderId": null,
-          "text": "Um, I don't wanna buy anything. thx",
-          "option": "Not buying anything, thanks",
-          "nextIds": [
-            111270007
-          ],
-          "kind": "Player"
-        },
-        "111270005": {
-          "type": "Text",
-          "id": 111270005,
-          "sectionId": 1112700,
-          "senderId": null,
-          "text": "You finally got the link?",
-          "option": "Got the link?",
-          "nextIds": [
-            111270006
-          ],
-          "kind": "Player"
-        },
-        "111270006": {
-          "type": "Text",
-          "id": 111270006,
-          "sectionId": 1112700,
-          "senderId": 49,
-          "text": "No no. I still need some time to work on it. Hope you could understand",
-          "option": null,
-          "nextIds": [
-            111270007
-          ],
-          "kind": "NPC"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1112700,
+        "startIds": [
+          111270000
+        ],
+        "messages": {
+          "111270000": {
+            "type": "Text",
+            "id": 111270000,
+            "sectionId": 1112700,
+            "senderId": 49,
+            "text": "Interastral Peace Appliances — You have <unbreak>88</unbreak> unclaimed free credits that can be used to purchase any product on the Interastral Peace Appliances official website (Note: Some discounted items are not included)! You can use as many free credits as you would like. The more you buy, the more you can claim!",
+            "option": null,
+            "nextIds": [
+              111270001
+            ],
+            "kind": "NPC"
+          },
+          "111270001": {
+            "type": "Text",
+            "id": 111270001,
+            "sectionId": 1112700,
+            "senderId": 49,
+            "text": "Hey, my dear customer, u up?",
+            "option": null,
+            "nextIds": [
+              111270002
+            ],
+            "kind": "NPC"
+          },
+          "111270002": {
+            "type": "Text",
+            "id": 111270002,
+            "sectionId": 1112700,
+            "senderId": 49,
+            "text": "Sorry for popping out like this. I wanna ask you something",
+            "option": null,
+            "nextIds": [
+              111270003,
+              111270004,
+              111270005
+            ],
+            "kind": "NPC"
+          },
+          "111270003": {
+            "type": "Text",
+            "id": 111270003,
+            "sectionId": 1112700,
+            "senderId": null,
+            "text": "What is it?",
+            "option": "What is it?",
+            "nextIds": [
+              111270007
+            ],
+            "kind": "Player"
+          },
+          "111270007": {
+            "type": "Text",
+            "id": 111270007,
+            "sectionId": 1112700,
+            "senderId": 49,
+            "text": "Actually, I just reported Jarilo-VI's situation to the Interastral Peace Appliances HQ, and now they want me to send them a comprehensive report to summarize what happened",
+            "option": null,
+            "nextIds": [
+              111270008
+            ],
+            "kind": "NPC"
+          },
+          "111270008": {
+            "type": "Text",
+            "id": 111270008,
+            "sectionId": 1112700,
+            "senderId": 49,
+            "text": "Could you please describe in detail what had happened on the planet since the Eternal Freeze started <unbreak>700</unbreak> years ago?\\nJust whenever you've got the time. There is no rush",
+            "option": null,
+            "nextIds": [
+              111270009,
+              111270012
+            ],
+            "kind": "NPC"
+          },
+          "111270009": {
+            "type": "Text",
+            "id": 111270009,
+            "sectionId": 1112700,
+            "senderId": null,
+            "text": "I'm no local... How am I supposed to know about this?",
+            "option": "I don't know about this",
+            "nextIds": [
+              111270010
+            ],
+            "kind": "Player"
+          },
+          "111270010": {
+            "type": "Text",
+            "id": 111270010,
+            "sectionId": 1112700,
+            "senderId": 49,
+            "text": "Ehhh",
+            "option": null,
+            "nextIds": [
+              111270011
+            ],
+            "kind": "NPC"
+          },
+          "111270011": {
+            "type": "Text",
+            "id": 111270011,
+            "sectionId": 1112700,
+            "senderId": 49,
+            "text": "Then can you please ask a local for me? Please please?",
+            "option": null,
+            "nextIds": [
+              111270014
+            ],
+            "kind": "NPC"
+          },
+          "111270014": {
+            "type": "Text",
+            "id": 111270014,
+            "sectionId": 1112700,
+            "senderId": 49,
+            "text": "As a token of my thanks, I'm going to apply for a discount coupon for you! See ya",
+            "option": null,
+            "nextIds": [
+              111270015
+            ],
+            "kind": "NPC"
+          },
+          "111270015": {
+            "type": "Text",
+            "id": 111270015,
+            "sectionId": 1112700,
+            "senderId": null,
+            "text": "Interastral Peace Appliances has gone offline.",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "111270012": {
+            "type": "Text",
+            "id": 111270012,
+            "sectionId": 1112700,
+            "senderId": null,
+            "text": "I'll ask around for you",
+            "option": "I can ask around for you",
+            "nextIds": [
+              111270013
+            ],
+            "kind": "Player"
+          },
+          "111270013": {
+            "type": "Text",
+            "id": 111270013,
+            "sectionId": 1112700,
+            "senderId": 49,
+            "text": "Great! Thank you so much!",
+            "option": null,
+            "nextIds": [
+              111270014
+            ],
+            "kind": "NPC"
+          },
+          "111270004": {
+            "type": "Text",
+            "id": 111270004,
+            "sectionId": 1112700,
+            "senderId": null,
+            "text": "Um, I don't wanna buy anything. thx",
+            "option": "Not buying anything, thanks",
+            "nextIds": [
+              111270007
+            ],
+            "kind": "Player"
+          },
+          "111270005": {
+            "type": "Text",
+            "id": 111270005,
+            "sectionId": 1112700,
+            "senderId": null,
+            "text": "You finally got the link?",
+            "option": "Got the link?",
+            "nextIds": [
+              111270006
+            ],
+            "kind": "Player"
+          },
+          "111270006": {
+            "type": "Text",
+            "id": 111270006,
+            "sectionId": 1112700,
+            "senderId": 49,
+            "text": "No no. I still need some time to work on it. Hope you could understand",
+            "option": null,
+            "nextIds": [
+              111270007
+            ],
+            "kind": "NPC"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1112800,
-      "startIds": [
-        111280000
-      ],
-      "messages": {
-        "111280000": {
-          "type": "Text",
-          "id": 111280000,
-          "sectionId": 1112800,
-          "senderId": 49,
-          "text": "Interastral Peace Appliances — The star of the store is back for a limited time!\\nWith the <unbreak>10</unbreak>-credit festival coupon, save money on hot sales of <unbreak>500</unbreak> limited-edition portable family-unit mini-sized nano-grinding face cleansers!\\nFor more information, please visit the official Interastral Peace Appliances website!",
-          "option": null,
-          "nextIds": [
-            111280001
-          ],
-          "kind": "NPC"
-        },
-        "111280001": {
-          "type": "Text",
-          "id": 111280001,
-          "sectionId": 1112800,
-          "senderId": 49,
-          "text": "Hello, you there?",
-          "option": null,
-          "nextIds": [
-            111280002
-          ],
-          "kind": "NPC"
-        },
-        "111280002": {
-          "type": "Text",
-          "id": 111280002,
-          "sectionId": 1112800,
-          "senderId": 49,
-          "text": "It's me. I'm back again",
-          "option": null,
-          "nextIds": [
-            111280003,
-            111280004,
-            111280005
-          ],
-          "kind": "NPC"
-        },
-        "111280003": {
-          "type": "Text",
-          "id": 111280003,
-          "sectionId": 1112800,
-          "senderId": null,
-          "text": "What is it this time?",
-          "option": "What is it?",
-          "nextIds": [
-            111280007
-          ],
-          "kind": "Player"
-        },
-        "111280007": {
-          "type": "Text",
-          "id": 111280007,
-          "sectionId": 1112800,
-          "senderId": 49,
-          "text": "I just wanna ask how you are going with that inquiry you promised.",
-          "option": null,
-          "nextIds": [
-            111280008,
-            111280009
-          ],
-          "kind": "NPC"
-        },
-        "111280008": {
-          "type": "Text",
-          "id": 111280008,
-          "sectionId": 1112800,
-          "senderId": null,
-          "text": "Gimme more time. I just asked a friend to look into it",
-          "option": "I just started looking",
-          "nextIds": [
-            111280010
-          ],
-          "kind": "Player"
-        },
-        "111280010": {
-          "type": "Text",
-          "id": 111280010,
-          "sectionId": 1112800,
-          "senderId": 49,
-          "text": "Oh",
-          "option": null,
-          "nextIds": [
-            111280011
-          ],
-          "kind": "NPC"
-        },
-        "111280011": {
-          "type": "Text",
-          "id": 111280011,
-          "sectionId": 1112800,
-          "senderId": 49,
-          "text": "Okay",
-          "option": null,
-          "nextIds": [
-            111280012
-          ],
-          "kind": "NPC"
-        },
-        "111280012": {
-          "type": "Text",
-          "id": 111280012,
-          "sectionId": 1112800,
-          "senderId": 49,
-          "text": "Okay, I'll keep waiting. Thank you, dear customer",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "111280009": {
-          "type": "Text",
-          "id": 111280009,
-          "sectionId": 1112800,
-          "senderId": null,
-          "text": "It hasn't been that long. Don't rush me.",
-          "option": "It hasn't been that long.",
-          "nextIds": [
-            111280010
-          ],
-          "kind": "Player"
-        },
-        "111280004": {
-          "type": "Text",
-          "id": 111280004,
-          "sectionId": 1112800,
-          "senderId": null,
-          "text": "Um... I really don't wanna buy any home appliances",
-          "option": "I really don't wanna buy anything, thanx",
-          "nextIds": [
-            111280007
-          ],
-          "kind": "Player"
-        },
-        "111280005": {
-          "type": "Text",
-          "id": 111280005,
-          "sectionId": 1112800,
-          "senderId": null,
-          "text": "About time you send me the link",
-          "option": "Found the link?",
-          "nextIds": [
-            111280006
-          ],
-          "kind": "Player"
-        },
-        "111280006": {
-          "type": "Text",
-          "id": 111280006,
-          "sectionId": 1112800,
-          "senderId": 49,
-          "text": "Ah, I'm sorry. Our website is really complicated. I need more time to look for it",
-          "option": null,
-          "nextIds": [
-            111280007
-          ],
-          "kind": "NPC"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1112800,
+        "startIds": [
+          111280000
+        ],
+        "messages": {
+          "111280000": {
+            "type": "Text",
+            "id": 111280000,
+            "sectionId": 1112800,
+            "senderId": 49,
+            "text": "Interastral Peace Appliances — The star of the store is back for a limited time!\\nWith the <unbreak>10</unbreak>-credit festival coupon, save money on hot sales of <unbreak>500</unbreak> limited-edition portable family-unit mini-sized nano-grinding face cleansers!\\nFor more information, please visit the official Interastral Peace Appliances website!",
+            "option": null,
+            "nextIds": [
+              111280001
+            ],
+            "kind": "NPC"
+          },
+          "111280001": {
+            "type": "Text",
+            "id": 111280001,
+            "sectionId": 1112800,
+            "senderId": 49,
+            "text": "Hello, you there?",
+            "option": null,
+            "nextIds": [
+              111280002
+            ],
+            "kind": "NPC"
+          },
+          "111280002": {
+            "type": "Text",
+            "id": 111280002,
+            "sectionId": 1112800,
+            "senderId": 49,
+            "text": "It's me. I'm back again",
+            "option": null,
+            "nextIds": [
+              111280003,
+              111280004,
+              111280005
+            ],
+            "kind": "NPC"
+          },
+          "111280003": {
+            "type": "Text",
+            "id": 111280003,
+            "sectionId": 1112800,
+            "senderId": null,
+            "text": "What is it this time?",
+            "option": "What is it?",
+            "nextIds": [
+              111280007
+            ],
+            "kind": "Player"
+          },
+          "111280007": {
+            "type": "Text",
+            "id": 111280007,
+            "sectionId": 1112800,
+            "senderId": 49,
+            "text": "I just wanna ask how you are going with that inquiry you promised.",
+            "option": null,
+            "nextIds": [
+              111280008,
+              111280009
+            ],
+            "kind": "NPC"
+          },
+          "111280008": {
+            "type": "Text",
+            "id": 111280008,
+            "sectionId": 1112800,
+            "senderId": null,
+            "text": "Gimme more time. I just asked a friend to look into it",
+            "option": "I just started looking",
+            "nextIds": [
+              111280010
+            ],
+            "kind": "Player"
+          },
+          "111280010": {
+            "type": "Text",
+            "id": 111280010,
+            "sectionId": 1112800,
+            "senderId": 49,
+            "text": "Oh",
+            "option": null,
+            "nextIds": [
+              111280011
+            ],
+            "kind": "NPC"
+          },
+          "111280011": {
+            "type": "Text",
+            "id": 111280011,
+            "sectionId": 1112800,
+            "senderId": 49,
+            "text": "Okay",
+            "option": null,
+            "nextIds": [
+              111280012
+            ],
+            "kind": "NPC"
+          },
+          "111280012": {
+            "type": "Text",
+            "id": 111280012,
+            "sectionId": 1112800,
+            "senderId": 49,
+            "text": "Okay, I'll keep waiting. Thank you, dear customer",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111280009": {
+            "type": "Text",
+            "id": 111280009,
+            "sectionId": 1112800,
+            "senderId": null,
+            "text": "It hasn't been that long. Don't rush me.",
+            "option": "It hasn't been that long.",
+            "nextIds": [
+              111280010
+            ],
+            "kind": "Player"
+          },
+          "111280004": {
+            "type": "Text",
+            "id": 111280004,
+            "sectionId": 1112800,
+            "senderId": null,
+            "text": "Um... I really don't wanna buy any home appliances",
+            "option": "I really don't wanna buy anything, thanx",
+            "nextIds": [
+              111280007
+            ],
+            "kind": "Player"
+          },
+          "111280005": {
+            "type": "Text",
+            "id": 111280005,
+            "sectionId": 1112800,
+            "senderId": null,
+            "text": "About time you send me the link",
+            "option": "Found the link?",
+            "nextIds": [
+              111280006
+            ],
+            "kind": "Player"
+          },
+          "111280006": {
+            "type": "Text",
+            "id": 111280006,
+            "sectionId": 1112800,
+            "senderId": 49,
+            "text": "Ah, I'm sorry. Our website is really complicated. I need more time to look for it",
+            "option": null,
+            "nextIds": [
+              111280007
+            ],
+            "kind": "NPC"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1112900,
-      "startIds": [
-        111290000
-      ],
-      "messages": {
-        "111290000": {
-          "type": "Text",
-          "id": 111290000,
-          "sectionId": 1112900,
-          "senderId": 49,
-          "text": "Interastral Peace Appliances — New for this week! Products of great value are waiting for your perusal!\\nRecommended for great value: Save <unbreak>200</unbreak> off the rocket-propelled AI-powered automatic gear-shifting wheelchair for the cheap price of only <unbreak>45,499,800</unbreak> credits!\\nHot deal: Nuclear-powered household air fryer has now been price-dropped to <unbreak>1,199,999</unbreak> credits for a limited time only!\\nFor more great bargains, please click this link: <u>Click here</u>",
-          "option": null,
-          "nextIds": [
-            111290001
-          ],
-          "kind": "NPC"
-        },
-        "111290001": {
-          "type": "Text",
-          "id": 111290001,
-          "sectionId": 1112900,
-          "senderId": 49,
-          "text": "Dear customer, I'm so sorry. The push adverts are controlled by the back end. I can't turn them off",
-          "option": null,
-          "nextIds": [
-            111290002
-          ],
-          "kind": "NPC"
-        },
-        "111290002": {
-          "type": "Text",
-          "id": 111290002,
-          "sectionId": 1112900,
-          "senderId": 49,
-          "text": "Hello? You there?",
-          "option": null,
-          "nextIds": [
-            111290003
-          ],
-          "kind": "NPC"
-        },
-        "111290003": {
-          "type": "Text",
-          "id": 111290003,
-          "sectionId": 1112900,
-          "senderId": 49,
-          "text": "Sorry to bother you. Just wanna ask you again.",
-          "option": null,
-          "nextIds": [
-            111290004,
-            111290006,
-            111290009
-          ],
-          "kind": "NPC"
-        },
-        "111290004": {
-          "type": "Text",
-          "id": 111290004,
-          "sectionId": 1112900,
-          "senderId": null,
-          "text": "I'm already working on it... Just let me do some info gathering first, okay?",
-          "option": "Stop asking. I'm already working on it",
-          "nextIds": [
-            111290005
-          ],
-          "kind": "Player"
-        },
-        "111290005": {
-          "type": "Text",
-          "id": 111290005,
-          "sectionId": 1112900,
-          "senderId": 49,
-          "text": "Sorry, sorry. I'll keep waiting.",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "111290006": {
-          "type": "Text",
-          "id": 111290006,
-          "sectionId": 1112900,
-          "senderId": null,
-          "text": "I've had enough of this! Just be patient!",
-          "option": "I've had enough of this!",
-          "nextIds": [
-            111290007
-          ],
-          "kind": "Player"
-        },
-        "111290007": {
-          "type": "Text",
-          "id": 111290007,
-          "sectionId": 1112900,
-          "senderId": 49,
-          "text": "I'm so sorry. I just want to check up on your progress",
-          "option": null,
-          "nextIds": [
-            111290008
-          ],
-          "kind": "NPC"
-        },
-        "111290008": {
-          "type": "Text",
-          "id": 111290008,
-          "sectionId": 1112900,
-          "senderId": 49,
-          "text": "I'll wait and won't bother you again. Please take your time",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "111290009": {
-          "type": "Text",
-          "id": 111290009,
-          "sectionId": 1112900,
-          "senderId": null,
-          "text": "Finally, the link...",
-          "option": "Finally, the link...",
-          "nextIds": [
-            111290010
-          ],
-          "kind": "Player"
-        },
-        "111290010": {
-          "type": "Text",
-          "id": 111290010,
-          "sectionId": 1112900,
-          "senderId": null,
-          "text": "I'm looking up the info you want, and I'll send it to you once I've sorted it out.",
-          "option": null,
-          "nextIds": [
-            111290011
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111290011": {
-          "type": "Text",
-          "id": 111290011,
-          "sectionId": 1112900,
-          "senderId": 49,
-          "text": "Hahaha, you're so funny",
-          "option": null,
-          "nextIds": [
-            111290012
-          ],
-          "kind": "NPC"
-        },
-        "111290012": {
-          "type": "Text",
-          "id": 111290012,
-          "sectionId": 1112900,
-          "senderId": 49,
-          "text": "Please hurry, dear customer. My boss is already urging me to submit a report.\\nBut I'll leave you alone for now",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1112900,
+        "startIds": [
+          111290000
+        ],
+        "messages": {
+          "111290000": {
+            "type": "Text",
+            "id": 111290000,
+            "sectionId": 1112900,
+            "senderId": 49,
+            "text": "Interastral Peace Appliances — New for this week! Products of great value are waiting for your perusal!\\nRecommended for great value: Save <unbreak>200</unbreak> off the rocket-propelled AI-powered automatic gear-shifting wheelchair for the cheap price of only <unbreak>45,499,800</unbreak> credits!\\nHot deal: Nuclear-powered household air fryer has now been price-dropped to <unbreak>1,199,999</unbreak> credits for a limited time only!\\nFor more great bargains, please click this link: <u>Click here</u>",
+            "option": null,
+            "nextIds": [
+              111290001
+            ],
+            "kind": "NPC"
+          },
+          "111290001": {
+            "type": "Text",
+            "id": 111290001,
+            "sectionId": 1112900,
+            "senderId": 49,
+            "text": "Dear customer, I'm so sorry. The push adverts are controlled by the back end. I can't turn them off",
+            "option": null,
+            "nextIds": [
+              111290002
+            ],
+            "kind": "NPC"
+          },
+          "111290002": {
+            "type": "Text",
+            "id": 111290002,
+            "sectionId": 1112900,
+            "senderId": 49,
+            "text": "Hello? You there?",
+            "option": null,
+            "nextIds": [
+              111290003
+            ],
+            "kind": "NPC"
+          },
+          "111290003": {
+            "type": "Text",
+            "id": 111290003,
+            "sectionId": 1112900,
+            "senderId": 49,
+            "text": "Sorry to bother you. Just wanna ask you again.",
+            "option": null,
+            "nextIds": [
+              111290004,
+              111290006,
+              111290009
+            ],
+            "kind": "NPC"
+          },
+          "111290004": {
+            "type": "Text",
+            "id": 111290004,
+            "sectionId": 1112900,
+            "senderId": null,
+            "text": "I'm already working on it... Just let me do some info gathering first, okay?",
+            "option": "Stop asking. I'm already working on it",
+            "nextIds": [
+              111290005
+            ],
+            "kind": "Player"
+          },
+          "111290005": {
+            "type": "Text",
+            "id": 111290005,
+            "sectionId": 1112900,
+            "senderId": 49,
+            "text": "Sorry, sorry. I'll keep waiting.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111290006": {
+            "type": "Text",
+            "id": 111290006,
+            "sectionId": 1112900,
+            "senderId": null,
+            "text": "I've had enough of this! Just be patient!",
+            "option": "I've had enough of this!",
+            "nextIds": [
+              111290007
+            ],
+            "kind": "Player"
+          },
+          "111290007": {
+            "type": "Text",
+            "id": 111290007,
+            "sectionId": 1112900,
+            "senderId": 49,
+            "text": "I'm so sorry. I just want to check up on your progress",
+            "option": null,
+            "nextIds": [
+              111290008
+            ],
+            "kind": "NPC"
+          },
+          "111290008": {
+            "type": "Text",
+            "id": 111290008,
+            "sectionId": 1112900,
+            "senderId": 49,
+            "text": "I'll wait and won't bother you again. Please take your time",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111290009": {
+            "type": "Text",
+            "id": 111290009,
+            "sectionId": 1112900,
+            "senderId": null,
+            "text": "Finally, the link...",
+            "option": "Finally, the link...",
+            "nextIds": [
+              111290010
+            ],
+            "kind": "Player"
+          },
+          "111290010": {
+            "type": "Text",
+            "id": 111290010,
+            "sectionId": 1112900,
+            "senderId": null,
+            "text": "I'm looking up the info you want, and I'll send it to you once I've sorted it out.",
+            "option": null,
+            "nextIds": [
+              111290011
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111290011": {
+            "type": "Text",
+            "id": 111290011,
+            "sectionId": 1112900,
+            "senderId": 49,
+            "text": "Hahaha, you're so funny",
+            "option": null,
+            "nextIds": [
+              111290012
+            ],
+            "kind": "NPC"
+          },
+          "111290012": {
+            "type": "Text",
+            "id": 111290012,
+            "sectionId": 1112900,
+            "senderId": 49,
+            "text": "Please hurry, dear customer. My boss is already urging me to submit a report.\\nBut I'll leave you alone for now",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1113000,
-      "startIds": [
-        111300000
-      ],
-      "messages": {
-        "111300000": {
-          "type": "Text",
-          "id": 111300000,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Interastral Peace Appliances — A brand-new upgrade to membership benefits! Hot sales are on right now! Huge savings, members-only discounts, and loads of coupons and free Credits!\\nReply \"Benefit\" to instantly book your value-added services, and receive a virtual plush toy of the Interastral Peace Appliances mascot!",
-          "option": null,
-          "nextIds": [
-            111300001
-          ],
-          "kind": "NPC"
-        },
-        "111300001": {
-          "type": "Text",
-          "id": 111300001,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Sorry, sorry. I'm so sorry",
-          "option": null,
-          "nextIds": [
-            111300002
-          ],
-          "kind": "NPC"
-        },
-        "111300002": {
-          "type": "Text",
-          "id": 111300002,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "I don't have anything to ask. You just take your time",
-          "option": null,
-          "nextIds": [
-            111300003,
-            111300004,
-            111300007
-          ],
-          "kind": "NPC"
-        },
-        "111300003": {
-          "type": "Text",
-          "id": 111300003,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Good timing. I just finished sorting out the info",
-          "option": "You're right on time",
-          "nextIds": [
-            111300010
-          ],
-          "kind": "Player"
-        },
-        "111300010": {
-          "type": "Text",
-          "id": 111300010,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Attachment <i>Belobog Chronicles: Before the Eternal Freeze</i> has been sent",
-          "option": null,
-          "nextIds": [
-            111300011
-          ],
-          "kind": "System"
-        },
-        "111300011": {
-          "type": "Text",
-          "id": 111300011,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Attachment <i>Belobog Chronicles: Before the Eternal Freeze</i> has been received",
-          "option": null,
-          "nextIds": [
-            111300012
-          ],
-          "kind": "System"
-        },
-        "111300012": {
-          "type": "Text",
-          "id": 111300012,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "!!!",
-          "option": null,
-          "nextIds": [
-            111300013
-          ],
-          "kind": "NPC"
-        },
-        "111300013": {
-          "type": "Text",
-          "id": 111300013,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Thank you so much!",
-          "option": null,
-          "nextIds": [
-            111300014
-          ],
-          "kind": "NPC"
-        },
-        "111300014": {
-          "type": "Text",
-          "id": 111300014,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Now I can write the report. I'm so sorry for bothering you all this time.",
-          "option": null,
-          "nextIds": [
-            111300015,
-            111300017
-          ],
-          "kind": "NPC"
-        },
-        "111300015": {
-          "type": "Text",
-          "id": 111300015,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "That's fine. I learned a lot too",
-          "option": "That's fine. I did what I could",
-          "nextIds": [
-            111300016
-          ],
-          "kind": "Player"
-        },
-        "111300016": {
-          "type": "Text",
-          "id": 111300016,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Hahaha, you're such a kind person",
-          "option": null,
-          "nextIds": [
-            111300020
-          ],
-          "kind": "NPC"
-        },
-        "111300020": {
-          "type": "Text",
-          "id": 111300020,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Since you were such a great help, I'm gonna recommend you to check out our newest offering from the Interastral Peace Appliances, the premium custom-made Little Richie, version <unbreak>17.93</unbreak> the collectors' edition of the Richard series, which is our Home-Use Object Finder of the year!\\nThis Home-Use Object Finder can easily find items you've lost based on your thoughts, and you can even earn yourself a compatible charger completely free of charge if you pre-order now and pay the full price!",
-          "option": null,
-          "nextIds": [
-            111300021
-          ],
-          "kind": "NPC"
-        },
-        "111300021": {
-          "type": "Text",
-          "id": 111300021,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Um, I already have one",
-          "option": "I already have one",
-          "nextIds": [
-            111300022
-          ],
-          "kind": "Player"
-        },
-        "111300022": {
-          "type": "Text",
-          "id": 111300022,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Oh? Really?",
-          "option": null,
-          "nextIds": [
-            111300023
-          ],
-          "kind": "NPC"
-        },
-        "111300023": {
-          "type": "Text",
-          "id": 111300023,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Then do you need a whole set of high-frequency thermodynamic kitchen knives? If you do, I can apply for you an extra ten percent discount, which can be used together with coupons. It's gonna be a great bargain",
-          "option": null,
-          "nextIds": [
-            111300024
-          ],
-          "kind": "NPC"
-        },
-        "111300024": {
-          "type": "Text",
-          "id": 111300024,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Hold on, let's talk about that Home-Use Object Finder again\\nThe one I have is something I randomly picked up, and it says it wants to return to the store to get fixed. How do I do that",
-          "option": null,
-          "nextIds": [
-            111300025
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111300025": {
-          "type": "Text",
-          "id": 111300025,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "We don't offer maintenance for this product, but if it's something you just accidentally found, then it should be a parcel lost during delivery. I'll check it for you",
-          "option": null,
-          "nextIds": [
-            111300026
-          ],
-          "kind": "NPC"
-        },
-        "111300026": {
-          "type": "Text",
-          "id": 111300026,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Found it. There's an order with the Herta Space Station as the destination. Maybe you can contact them directly",
-          "option": null,
-          "nextIds": [
-            111300027,
-            111300029
-          ],
-          "kind": "NPC"
-        },
-        "111300027": {
-          "type": "Text",
-          "id": 111300027,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Thank you. I'll look into it",
-          "option": "Cool, thank you",
-          "nextIds": [
-            111300028
-          ],
-          "kind": "Player"
-        },
-        "111300028": {
-          "type": "Text",
-          "id": 111300028,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Haha, I'm just doing what I can",
-          "option": null,
-          "nextIds": [
-            111300031
-          ],
-          "kind": "NPC"
-        },
-        "111300031": {
-          "type": "Text",
-          "id": 111300031,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Oh, and while we're here, let me recommend you a fully-automatic neck-tracking memory-foam pillow, made of natural Vonwacq rubber\\nThis pillow is the best-selling premier product in our smart-bedding collection. If you order now, I can get you a <unbreak>300</unbreak>-credit coupon for a further discount. It's a very good deal",
-          "option": null,
-          "nextIds": [
-            111300032,
-            111300034
-          ],
-          "kind": "NPC"
-        },
-        "111300032": {
-          "type": "Text",
-          "id": 111300032,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Not for now. Bye",
-          "option": "Not for now. Bye",
-          "nextIds": [
-            111300033
-          ],
-          "kind": "Player"
-        },
-        "111300033": {
-          "type": "Text",
-          "id": 111300033,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "No worries! If you need anything in the future, just contact me directly. I will reply immediately, <unbreak>24</unbreak>/7",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "111300034": {
-          "type": "Text",
-          "id": 111300034,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "I can't take it anymore. I'm going to block you",
-          "option": "(Block)",
-          "nextIds": [
-            111300035
-          ],
-          "kind": "Player"
-        },
-        "111300035": {
-          "type": "Text",
-          "id": 111300035,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "You will no longer receive messages from Interastral Peace Appliances",
-          "option": null,
-          "nextIds": [],
-          "kind": "System"
-        },
-        "111300029": {
-          "type": "Text",
-          "id": 111300029,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Really? I was born there",
-          "option": "Herta Space Station is my home!",
-          "nextIds": [
-            111300030
-          ],
-          "kind": "Player"
-        },
-        "111300030": {
-          "type": "Text",
-          "id": 111300030,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Hahaha you're funny",
-          "option": null,
-          "nextIds": [
-            111300031
-          ],
-          "kind": "NPC"
-        },
-        "111300017": {
-          "type": "Text",
-          "id": 111300017,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "I'll forgive you this time",
-          "option": "I'll pretend this never happened",
-          "nextIds": [
-            111300018
-          ],
-          "kind": "Player"
-        },
-        "111300018": {
-          "type": "Text",
-          "id": 111300018,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "...Just kidding. I hope I didn't offend you",
-          "option": null,
-          "nextIds": [
-            111300019
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111300019": {
-          "type": "Text",
-          "id": 111300019,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Hahaha of course not!",
-          "option": null,
-          "nextIds": [
-            111300020
-          ],
-          "kind": "NPC"
-        },
-        "111300004": {
-          "type": "Text",
-          "id": 111300004,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Can I block you...",
-          "option": "Can I block you?",
-          "nextIds": [
-            111300005
-          ],
-          "kind": "Player"
-        },
-        "111300005": {
-          "type": "Text",
-          "id": 111300005,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Please don't, dear customer! I need you to give me that report",
-          "option": null,
-          "nextIds": [
-            111300006
-          ],
-          "kind": "NPC"
-        },
-        "111300006": {
-          "type": "Text",
-          "id": 111300006,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Never mind. I just finished sorting out the info",
-          "option": null,
-          "nextIds": [
-            111300010
-          ],
-          "kind": "PlayerAuto"
-        },
-        "111300007": {
-          "type": "Text",
-          "id": 111300007,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Benefit",
-          "option": "Benefit",
-          "nextIds": [
-            111300008
-          ],
-          "kind": "Player"
-        },
-        "111300008": {
-          "type": "Text",
-          "id": 111300008,
-          "sectionId": 1113000,
-          "senderId": 49,
-          "text": "Um, you can't place the order without using the quotation marks",
-          "option": null,
-          "nextIds": [
-            111300009
-          ],
-          "kind": "NPC"
-        },
-        "111300009": {
-          "type": "Text",
-          "id": 111300009,
-          "sectionId": 1113000,
-          "senderId": null,
-          "text": "Just kidding. I just finished sorting out the info",
-          "option": null,
-          "nextIds": [
-            111300010
-          ],
-          "kind": "PlayerAuto"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1113000,
+        "startIds": [
+          111300000
+        ],
+        "messages": {
+          "111300000": {
+            "type": "Text",
+            "id": 111300000,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Interastral Peace Appliances — A brand-new upgrade to membership benefits! Hot sales are on right now! Huge savings, members-only discounts, and loads of coupons and free Credits!\\nReply \"Benefit\" to instantly book your value-added services, and receive a virtual plush toy of the Interastral Peace Appliances mascot!",
+            "option": null,
+            "nextIds": [
+              111300001
+            ],
+            "kind": "NPC"
+          },
+          "111300001": {
+            "type": "Text",
+            "id": 111300001,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Sorry, sorry. I'm so sorry",
+            "option": null,
+            "nextIds": [
+              111300002
+            ],
+            "kind": "NPC"
+          },
+          "111300002": {
+            "type": "Text",
+            "id": 111300002,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "I don't have anything to ask. You just take your time",
+            "option": null,
+            "nextIds": [
+              111300003,
+              111300004,
+              111300007
+            ],
+            "kind": "NPC"
+          },
+          "111300003": {
+            "type": "Text",
+            "id": 111300003,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Good timing. I just finished sorting out the info",
+            "option": "You're right on time",
+            "nextIds": [
+              111300010
+            ],
+            "kind": "Player"
+          },
+          "111300010": {
+            "type": "Text",
+            "id": 111300010,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Attachment <i>Belobog Chronicles: Before the Eternal Freeze</i> has been sent",
+            "option": null,
+            "nextIds": [
+              111300011
+            ],
+            "kind": "System"
+          },
+          "111300011": {
+            "type": "Text",
+            "id": 111300011,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Attachment <i>Belobog Chronicles: Before the Eternal Freeze</i> has been received",
+            "option": null,
+            "nextIds": [
+              111300012
+            ],
+            "kind": "System"
+          },
+          "111300012": {
+            "type": "Text",
+            "id": 111300012,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "!!!",
+            "option": null,
+            "nextIds": [
+              111300013
+            ],
+            "kind": "NPC"
+          },
+          "111300013": {
+            "type": "Text",
+            "id": 111300013,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Thank you so much!",
+            "option": null,
+            "nextIds": [
+              111300014
+            ],
+            "kind": "NPC"
+          },
+          "111300014": {
+            "type": "Text",
+            "id": 111300014,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Now I can write the report. I'm so sorry for bothering you all this time.",
+            "option": null,
+            "nextIds": [
+              111300015,
+              111300017
+            ],
+            "kind": "NPC"
+          },
+          "111300015": {
+            "type": "Text",
+            "id": 111300015,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "That's fine. I learned a lot too",
+            "option": "That's fine. I did what I could",
+            "nextIds": [
+              111300016
+            ],
+            "kind": "Player"
+          },
+          "111300016": {
+            "type": "Text",
+            "id": 111300016,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Hahaha, you're such a kind person",
+            "option": null,
+            "nextIds": [
+              111300020
+            ],
+            "kind": "NPC"
+          },
+          "111300020": {
+            "type": "Text",
+            "id": 111300020,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Since you were such a great help, I'm gonna recommend you to check out our newest offering from the Interastral Peace Appliances, the premium custom-made Little Richie, version <unbreak>17.93</unbreak> the collectors' edition of the Richard series, which is our Home-Use Object Finder of the year!\\nThis Home-Use Object Finder can easily find items you've lost based on your thoughts, and you can even earn yourself a compatible charger completely free of charge if you pre-order now and pay the full price!",
+            "option": null,
+            "nextIds": [
+              111300021
+            ],
+            "kind": "NPC"
+          },
+          "111300021": {
+            "type": "Text",
+            "id": 111300021,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Um, I already have one",
+            "option": "I already have one",
+            "nextIds": [
+              111300022
+            ],
+            "kind": "Player"
+          },
+          "111300022": {
+            "type": "Text",
+            "id": 111300022,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Oh? Really?",
+            "option": null,
+            "nextIds": [
+              111300023
+            ],
+            "kind": "NPC"
+          },
+          "111300023": {
+            "type": "Text",
+            "id": 111300023,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Then do you need a whole set of high-frequency thermodynamic kitchen knives? If you do, I can apply for you an extra ten percent discount, which can be used together with coupons. It's gonna be a great bargain",
+            "option": null,
+            "nextIds": [
+              111300024
+            ],
+            "kind": "NPC"
+          },
+          "111300024": {
+            "type": "Text",
+            "id": 111300024,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Hold on, let's talk about that Home-Use Object Finder again\\nThe one I have is something I randomly picked up, and it says it wants to return to the store to get fixed. How do I do that",
+            "option": null,
+            "nextIds": [
+              111300025
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111300025": {
+            "type": "Text",
+            "id": 111300025,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "We don't offer maintenance for this product, but if it's something you just accidentally found, then it should be a parcel lost during delivery. I'll check it for you",
+            "option": null,
+            "nextIds": [
+              111300026
+            ],
+            "kind": "NPC"
+          },
+          "111300026": {
+            "type": "Text",
+            "id": 111300026,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Found it. There's an order with the Herta Space Station as the destination. Maybe you can contact them directly",
+            "option": null,
+            "nextIds": [
+              111300027,
+              111300029
+            ],
+            "kind": "NPC"
+          },
+          "111300027": {
+            "type": "Text",
+            "id": 111300027,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Thank you. I'll look into it",
+            "option": "Cool, thank you",
+            "nextIds": [
+              111300028
+            ],
+            "kind": "Player"
+          },
+          "111300028": {
+            "type": "Text",
+            "id": 111300028,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Haha, I'm just doing what I can",
+            "option": null,
+            "nextIds": [
+              111300031
+            ],
+            "kind": "NPC"
+          },
+          "111300031": {
+            "type": "Text",
+            "id": 111300031,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Oh, and while we're here, let me recommend you a fully-automatic neck-tracking memory-foam pillow, made of natural Vonwacq rubber\\nThis pillow is the best-selling premier product in our smart-bedding collection. If you order now, I can get you a <unbreak>300</unbreak>-credit coupon for a further discount. It's a very good deal",
+            "option": null,
+            "nextIds": [
+              111300032,
+              111300034
+            ],
+            "kind": "NPC"
+          },
+          "111300032": {
+            "type": "Text",
+            "id": 111300032,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Not for now. Bye",
+            "option": "Not for now. Bye",
+            "nextIds": [
+              111300033
+            ],
+            "kind": "Player"
+          },
+          "111300033": {
+            "type": "Text",
+            "id": 111300033,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "No worries! If you need anything in the future, just contact me directly. I will reply immediately, <unbreak>24</unbreak>/7",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111300034": {
+            "type": "Text",
+            "id": 111300034,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "I can't take it anymore. I'm going to block you",
+            "option": "(Block)",
+            "nextIds": [
+              111300035
+            ],
+            "kind": "Player"
+          },
+          "111300035": {
+            "type": "Text",
+            "id": 111300035,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "You will no longer receive messages from Interastral Peace Appliances",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "111300029": {
+            "type": "Text",
+            "id": 111300029,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Really? I was born there",
+            "option": "Herta Space Station is my home!",
+            "nextIds": [
+              111300030
+            ],
+            "kind": "Player"
+          },
+          "111300030": {
+            "type": "Text",
+            "id": 111300030,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Hahaha you're funny",
+            "option": null,
+            "nextIds": [
+              111300031
+            ],
+            "kind": "NPC"
+          },
+          "111300017": {
+            "type": "Text",
+            "id": 111300017,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "I'll forgive you this time",
+            "option": "I'll pretend this never happened",
+            "nextIds": [
+              111300018
+            ],
+            "kind": "Player"
+          },
+          "111300018": {
+            "type": "Text",
+            "id": 111300018,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "...Just kidding. I hope I didn't offend you",
+            "option": null,
+            "nextIds": [
+              111300019
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111300019": {
+            "type": "Text",
+            "id": 111300019,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Hahaha of course not!",
+            "option": null,
+            "nextIds": [
+              111300020
+            ],
+            "kind": "NPC"
+          },
+          "111300004": {
+            "type": "Text",
+            "id": 111300004,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Can I block you...",
+            "option": "Can I block you?",
+            "nextIds": [
+              111300005
+            ],
+            "kind": "Player"
+          },
+          "111300005": {
+            "type": "Text",
+            "id": 111300005,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Please don't, dear customer! I need you to give me that report",
+            "option": null,
+            "nextIds": [
+              111300006
+            ],
+            "kind": "NPC"
+          },
+          "111300006": {
+            "type": "Text",
+            "id": 111300006,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Never mind. I just finished sorting out the info",
+            "option": null,
+            "nextIds": [
+              111300010
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111300007": {
+            "type": "Text",
+            "id": 111300007,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Benefit",
+            "option": "Benefit",
+            "nextIds": [
+              111300008
+            ],
+            "kind": "Player"
+          },
+          "111300008": {
+            "type": "Text",
+            "id": 111300008,
+            "sectionId": 1113000,
+            "senderId": 49,
+            "text": "Um, you can't place the order without using the quotation marks",
+            "option": null,
+            "nextIds": [
+              111300009
+            ],
+            "kind": "NPC"
+          },
+          "111300009": {
+            "type": "Text",
+            "id": 111300009,
+            "sectionId": 1113000,
+            "senderId": null,
+            "text": "Just kidding. I just finished sorting out the info",
+            "option": null,
+            "nextIds": [
+              111300010
+            ],
+            "kind": "PlayerAuto"
+          }
         }
       }
-    }
+    ]
   ],
   "info": {
     "id": 49,
     "name": "Interastral Peace Appliances",
     "signature": "Huge Mid-AE sales, coupons available",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
+    "iconPath": "icon/avatar/Anonymous.png",
     "type": 2,
     "camp": 6
   }

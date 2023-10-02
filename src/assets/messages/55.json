@@ -1,388 +1,390 @@
 {
   "id": 55,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1213101,
-      "startIds": [
-        121310101
-      ],
-      "messages": {
-        "121310101": {
-          "type": "Text",
-          "id": 121310101,
-          "sectionId": 1213101,
-          "senderId": 55,
-          "text": "Thank you, {NICKNAME}. Heron Express has re-established connection with the lost cycranes",
-          "option": null,
-          "nextIds": [
-            121310102
-          ],
-          "kind": "NPC"
-        },
-        "121310102": {
-          "type": "Text",
-          "id": 121310102,
-          "sectionId": 1213101,
-          "senderId": 55,
-          "text": "By the way, I asked my colleague, and there are still 5 cycranes missing",
-          "option": null,
-          "nextIds": [
-            121310103
-          ],
-          "kind": "NPC"
-        },
-        "121310103": {
-          "type": "Text",
-          "id": 121310103,
-          "sectionId": 1213101,
-          "senderId": 55,
-          "text": "If you see them, please help them out",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    [
+      {
+        "type": "Message",
+        "id": 1213101,
+        "startIds": [
+          121310101
+        ],
+        "messages": {
+          "121310101": {
+            "type": "Text",
+            "id": 121310101,
+            "sectionId": 1213101,
+            "senderId": 55,
+            "text": "Thank you, {NICKNAME}. Heron Express has re-established connection with the lost cycranes",
+            "option": null,
+            "nextIds": [
+              121310102
+            ],
+            "kind": "NPC"
+          },
+          "121310102": {
+            "type": "Text",
+            "id": 121310102,
+            "sectionId": 1213101,
+            "senderId": 55,
+            "text": "By the way, I asked my colleague, and there are still 5 cycranes missing",
+            "option": null,
+            "nextIds": [
+              121310103
+            ],
+            "kind": "NPC"
+          },
+          "121310103": {
+            "type": "Text",
+            "id": 121310103,
+            "sectionId": 1213101,
+            "senderId": 55,
+            "text": "If you see them, please help them out",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      },
+      {
+        "type": "Message",
+        "id": 1213102,
+        "startIds": [
+          121310201
+        ],
+        "messages": {
+          "121310201": {
+            "type": "Text",
+            "id": 121310201,
+            "sectionId": 1213102,
+            "senderId": 55,
+            "text": "Thank you so much, {NICKNAME}. Just now, a colleague informed me that we have reconnected with another missing cycrane",
+            "option": null,
+            "nextIds": [
+              121310202
+            ],
+            "kind": "NPC"
+          },
+          "121310202": {
+            "type": "Text",
+            "id": 121310202,
+            "sectionId": 1213102,
+            "senderId": 55,
+            "text": "Now we only have 4 cycranes left to find. Please be on the lookout for them",
+            "option": null,
+            "nextIds": [
+              121310203,
+              121310206
+            ],
+            "kind": "NPC"
+          },
+          "121310203": {
+            "type": "Text",
+            "id": 121310203,
+            "sectionId": 1213102,
+            "senderId": null,
+            "text": "Am I the only one looking for them? Don't you look for them at all?",
+            "option": "Don't you look for them at all?",
+            "nextIds": [
+              121310204
+            ],
+            "kind": "Player"
+          },
+          "121310204": {
+            "type": "Text",
+            "id": 121310204,
+            "sectionId": 1213102,
+            "senderId": 55,
+            "text": "Of course we are looking for them!",
+            "option": null,
+            "nextIds": [
+              121310205
+            ],
+            "kind": "NPC"
+          },
+          "121310205": {
+            "type": "Text",
+            "id": 121310205,
+            "sectionId": 1213102,
+            "senderId": 55,
+            "text": "Believe me!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121310206": {
+            "type": "Text",
+            "id": 121310206,
+            "sectionId": 1213102,
+            "senderId": null,
+            "text": "Just leave it to me. I'll help you get those cycranes back",
+            "option": "Just leave it to me",
+            "nextIds": [
+              121310207
+            ],
+            "kind": "Player"
+          },
+          "121310207": {
+            "type": "Text",
+            "id": 121310207,
+            "sectionId": 1213102,
+            "senderId": 55,
+            "text": "Okay, I trust you",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      },
+      {
+        "type": "Message",
+        "id": 1213103,
+        "startIds": [
+          121310301
+        ],
+        "messages": {
+          "121310301": {
+            "type": "Text",
+            "id": 121310301,
+            "sectionId": 1213103,
+            "senderId": 55,
+            "text": "You know what I'm going to say",
+            "option": null,
+            "nextIds": [
+              121310302
+            ],
+            "kind": "NPC"
+          },
+          "121310302": {
+            "type": "Text",
+            "id": 121310302,
+            "sectionId": 1213103,
+            "senderId": 55,
+            "text": "Thanks to you, we have reconnected with another missing cycrane. Now there are only 3 left",
+            "option": null,
+            "nextIds": [
+              121310303
+            ],
+            "kind": "NPC"
+          },
+          "121310303": {
+            "type": "Text",
+            "id": 121310303,
+            "sectionId": 1213103,
+            "senderId": 55,
+            "text": "Do you know what everyone in the company calls you now?",
+            "option": null,
+            "nextIds": [
+              121310304
+            ],
+            "kind": "NPC"
+          },
+          "121310304": {
+            "type": "Text",
+            "id": 121310304,
+            "sectionId": 1213103,
+            "senderId": 55,
+            "text": "They call you the \"cycrane hunter\"!",
+            "option": null,
+            "nextIds": [
+              121310305
+            ],
+            "kind": "NPC"
+          },
+          "121310305": {
+            "type": "Text",
+            "id": 121310305,
+            "sectionId": 1213103,
+            "senderId": 55,
+            "text": "I'll be waiting for more good news from you",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      },
+      {
+        "type": "Message",
+        "id": 1213104,
+        "startIds": [
+          121310401
+        ],
+        "messages": {
+          "121310401": {
+            "type": "Text",
+            "id": 121310401,
+            "sectionId": 1213104,
+            "senderId": 55,
+            "text": "Good news! We have reconnected with another missing cycrane. Now there are only 2 left.",
+            "option": null,
+            "nextIds": [
+              121310402
+            ],
+            "kind": "NPC"
+          },
+          "121310402": {
+            "type": "Text",
+            "id": 121310402,
+            "sectionId": 1213104,
+            "senderId": 55,
+            "text": "Cycrane hunter! You are one step closer to finding all the missing cycranes",
+            "option": null,
+            "nextIds": [
+              121310403,
+              121310406
+            ],
+            "kind": "NPC"
+          },
+          "121310403": {
+            "type": "Text",
+            "id": 121310403,
+            "sectionId": 1213104,
+            "senderId": null,
+            "text": "Shouldn't you reflect on yourself? Are you really making an effort to find them?",
+            "option": "Are you really making an effort to find them?",
+            "nextIds": [
+              121310405
+            ],
+            "kind": "Player"
+          },
+          "121310405": {
+            "type": "Text",
+            "id": 121310405,
+            "sectionId": 1213104,
+            "senderId": 55,
+            "text": "Believe me!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121310406": {
+            "type": "Text",
+            "id": 121310406,
+            "sectionId": 1213104,
+            "senderId": null,
+            "text": "Just leave it to me. I'll help you get all of them back",
+            "option": "I will find all of them",
+            "nextIds": [
+              121310408
+            ],
+            "kind": "Player"
+          },
+          "121310408": {
+            "type": "Text",
+            "id": 121310408,
+            "sectionId": 1213104,
+            "senderId": 55,
+            "text": "I'll be waiting for more good news from you",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      },
+      {
+        "type": "Message",
+        "id": 1213105,
+        "startIds": [
+          121310501
+        ],
+        "messages": {
+          "121310501": {
+            "type": "Text",
+            "id": 121310501,
+            "sectionId": 1213105,
+            "senderId": 55,
+            "text": "Another missing cycrane is back. Now there is only 1 left",
+            "option": null,
+            "nextIds": [
+              121310502
+            ],
+            "kind": "NPC"
+          },
+          "121310502": {
+            "type": "Text",
+            "id": 121310502,
+            "sectionId": 1213105,
+            "senderId": 55,
+            "text": "Only 1 cycrane left!",
+            "option": null,
+            "nextIds": [
+              121310503
+            ],
+            "kind": "NPC"
+          },
+          "121310503": {
+            "type": "Text",
+            "id": 121310503,
+            "sectionId": 1213105,
+            "senderId": 55,
+            "text": "Thank you so much",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      },
+      {
+        "type": "Message",
+        "id": 1213106,
+        "startIds": [
+          121310601
+        ],
+        "messages": {
+          "121310601": {
+            "type": "Text",
+            "id": 121310601,
+            "sectionId": 1213106,
+            "senderId": 55,
+            "text": "They are all back!",
+            "option": null,
+            "nextIds": [
+              121310602
+            ],
+            "kind": "NPC"
+          },
+          "121310602": {
+            "type": "Text",
+            "id": 121310602,
+            "sectionId": 1213106,
+            "senderId": 55,
+            "text": "All of the missing cycranes are back!",
+            "option": null,
+            "nextIds": [
+              121310603
+            ],
+            "kind": "NPC"
+          },
+          "121310603": {
+            "type": "Text",
+            "id": 121310603,
+            "sectionId": 1213106,
+            "senderId": 55,
+            "text": "Another piece of good news. The engineers analyzed the routes of the missing cycranes and found some clues",
+            "option": null,
+            "nextIds": [
+              121310604
+            ],
+            "kind": "NPC"
+          },
+          "121310604": {
+            "type": "Text",
+            "id": 121310604,
+            "sectionId": 1213106,
+            "senderId": 55,
+            "text": "We also prepared some rewards for you. You know where I am. Come find me",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 1213102,
-      "startIds": [
-        121310201
-      ],
-      "messages": {
-        "121310201": {
-          "type": "Text",
-          "id": 121310201,
-          "sectionId": 1213102,
-          "senderId": 55,
-          "text": "Thank you so much, {NICKNAME}. Just now, a colleague informed me that we have reconnected with another missing cycrane",
-          "option": null,
-          "nextIds": [
-            121310202
-          ],
-          "kind": "NPC"
-        },
-        "121310202": {
-          "type": "Text",
-          "id": 121310202,
-          "sectionId": 1213102,
-          "senderId": 55,
-          "text": "Now we only have 4 cycranes left to find. Please be on the lookout for them",
-          "option": null,
-          "nextIds": [
-            121310203,
-            121310206
-          ],
-          "kind": "NPC"
-        },
-        "121310203": {
-          "type": "Text",
-          "id": 121310203,
-          "sectionId": 1213102,
-          "senderId": null,
-          "text": "Am I the only one looking for them? Don't you look for them at all?",
-          "option": "Don't you look for them at all?",
-          "nextIds": [
-            121310204
-          ],
-          "kind": "Player"
-        },
-        "121310204": {
-          "type": "Text",
-          "id": 121310204,
-          "sectionId": 1213102,
-          "senderId": 55,
-          "text": "Of course we are looking for them!",
-          "option": null,
-          "nextIds": [
-            121310205
-          ],
-          "kind": "NPC"
-        },
-        "121310205": {
-          "type": "Text",
-          "id": 121310205,
-          "sectionId": 1213102,
-          "senderId": 55,
-          "text": "Believe me!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121310206": {
-          "type": "Text",
-          "id": 121310206,
-          "sectionId": 1213102,
-          "senderId": null,
-          "text": "Just leave it to me. I'll help you get those cycranes back",
-          "option": "Just leave it to me",
-          "nextIds": [
-            121310207
-          ],
-          "kind": "Player"
-        },
-        "121310207": {
-          "type": "Text",
-          "id": 121310207,
-          "sectionId": 1213102,
-          "senderId": 55,
-          "text": "Okay, I trust you",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 1213103,
-      "startIds": [
-        121310301
-      ],
-      "messages": {
-        "121310301": {
-          "type": "Text",
-          "id": 121310301,
-          "sectionId": 1213103,
-          "senderId": 55,
-          "text": "You know what I'm going to say",
-          "option": null,
-          "nextIds": [
-            121310302
-          ],
-          "kind": "NPC"
-        },
-        "121310302": {
-          "type": "Text",
-          "id": 121310302,
-          "sectionId": 1213103,
-          "senderId": 55,
-          "text": "Thanks to you, we have reconnected with another missing cycrane. Now there are only 3 left",
-          "option": null,
-          "nextIds": [
-            121310303
-          ],
-          "kind": "NPC"
-        },
-        "121310303": {
-          "type": "Text",
-          "id": 121310303,
-          "sectionId": 1213103,
-          "senderId": 55,
-          "text": "Do you know what everyone in the company calls you now?",
-          "option": null,
-          "nextIds": [
-            121310304
-          ],
-          "kind": "NPC"
-        },
-        "121310304": {
-          "type": "Text",
-          "id": 121310304,
-          "sectionId": 1213103,
-          "senderId": 55,
-          "text": "They call you the \"cycrane hunter\"!",
-          "option": null,
-          "nextIds": [
-            121310305
-          ],
-          "kind": "NPC"
-        },
-        "121310305": {
-          "type": "Text",
-          "id": 121310305,
-          "sectionId": 1213103,
-          "senderId": 55,
-          "text": "I'll be waiting for more good news from you",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 1213104,
-      "startIds": [
-        121310401
-      ],
-      "messages": {
-        "121310401": {
-          "type": "Text",
-          "id": 121310401,
-          "sectionId": 1213104,
-          "senderId": 55,
-          "text": "Good news! We have reconnected with another missing cycrane. Now there are only 2 left.",
-          "option": null,
-          "nextIds": [
-            121310402
-          ],
-          "kind": "NPC"
-        },
-        "121310402": {
-          "type": "Text",
-          "id": 121310402,
-          "sectionId": 1213104,
-          "senderId": 55,
-          "text": "Cycrane hunter! You are one step closer to finding all the missing cycranes",
-          "option": null,
-          "nextIds": [
-            121310403,
-            121310406
-          ],
-          "kind": "NPC"
-        },
-        "121310403": {
-          "type": "Text",
-          "id": 121310403,
-          "sectionId": 1213104,
-          "senderId": null,
-          "text": "Shouldn't you reflect on yourself? Are you really making an effort to find them?",
-          "option": "Are you really making an effort to find them?",
-          "nextIds": [
-            121310405
-          ],
-          "kind": "Player"
-        },
-        "121310405": {
-          "type": "Text",
-          "id": 121310405,
-          "sectionId": 1213104,
-          "senderId": 55,
-          "text": "Believe me!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121310406": {
-          "type": "Text",
-          "id": 121310406,
-          "sectionId": 1213104,
-          "senderId": null,
-          "text": "Just leave it to me. I'll help you get all of them back",
-          "option": "I will find all of them",
-          "nextIds": [
-            121310408
-          ],
-          "kind": "Player"
-        },
-        "121310408": {
-          "type": "Text",
-          "id": 121310408,
-          "sectionId": 1213104,
-          "senderId": 55,
-          "text": "I'll be waiting for more good news from you",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 1213105,
-      "startIds": [
-        121310501
-      ],
-      "messages": {
-        "121310501": {
-          "type": "Text",
-          "id": 121310501,
-          "sectionId": 1213105,
-          "senderId": 55,
-          "text": "Another missing cycrane is back. Now there is only 1 left",
-          "option": null,
-          "nextIds": [
-            121310502
-          ],
-          "kind": "NPC"
-        },
-        "121310502": {
-          "type": "Text",
-          "id": 121310502,
-          "sectionId": 1213105,
-          "senderId": 55,
-          "text": "Only 1 cycrane left!",
-          "option": null,
-          "nextIds": [
-            121310503
-          ],
-          "kind": "NPC"
-        },
-        "121310503": {
-          "type": "Text",
-          "id": 121310503,
-          "sectionId": 1213105,
-          "senderId": 55,
-          "text": "Thank you so much",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 1213106,
-      "startIds": [
-        121310601
-      ],
-      "messages": {
-        "121310601": {
-          "type": "Text",
-          "id": 121310601,
-          "sectionId": 1213106,
-          "senderId": 55,
-          "text": "They are all back!",
-          "option": null,
-          "nextIds": [
-            121310602
-          ],
-          "kind": "NPC"
-        },
-        "121310602": {
-          "type": "Text",
-          "id": 121310602,
-          "sectionId": 1213106,
-          "senderId": 55,
-          "text": "All of the missing cycranes are back!",
-          "option": null,
-          "nextIds": [
-            121310603
-          ],
-          "kind": "NPC"
-        },
-        "121310603": {
-          "type": "Text",
-          "id": 121310603,
-          "sectionId": 1213106,
-          "senderId": 55,
-          "text": "Another piece of good news. The engineers analyzed the routes of the missing cycranes and found some clues",
-          "option": null,
-          "nextIds": [
-            121310604
-          ],
-          "kind": "NPC"
-        },
-        "121310604": {
-          "type": "Text",
-          "id": 121310604,
-          "sectionId": 1213106,
-          "senderId": 55,
-          "text": "We also prepared some rewards for you. You know where I am. Come find me",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        }
-      }
-    }
+    ]
   ],
   "info": {
     "id": 55,
     "name": "Ziqiao",
     "signature": "Heron Express — We Mail Anything",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Ziqiao.png",
+    "iconPath": "icon/avatar/Ziqiao.png",
     "type": 2,
     "camp": 4
   }

@@ -1,206 +1,208 @@
 {
   "id": 52,
   "sections": [
-    {
-      "type": "MissionMessage",
-      "id": 1211900,
-      "startIds": [
-        121190001
-      ],
-      "messages": {
-        "121190001": {
-          "type": "Text",
-          "id": 121190001,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "{NICKNAME}, the hero who reverted the space station's crisis — is that you?",
-          "option": null,
-          "nextIds": [
-            121190002,
-            121190004
-          ],
-          "kind": "NPC"
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1211900,
+        "startIds": [
+          121190001
+        ],
+        "messages": {
+          "121190001": {
+            "type": "Text",
+            "id": 121190001,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "{NICKNAME}, the hero who reverted the space station's crisis — is that you?",
+            "option": null,
+            "nextIds": [
+              121190002,
+              121190004
+            ],
+            "kind": "NPC"
+          },
+          "121190002": {
+            "type": "Text",
+            "id": 121190002,
+            "sectionId": 1211900,
+            "senderId": null,
+            "text": "Yes, that's me.",
+            "option": "Yes, that's me.",
+            "nextIds": [
+              121190003
+            ],
+            "kind": "Player"
+          },
+          "121190003": {
+            "type": "Text",
+            "id": 121190003,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "Awesome! It took me so long to get your number",
+            "option": null,
+            "nextIds": [
+              121190006
+            ],
+            "kind": "NPC"
+          },
+          "121190006": {
+            "type": "Text",
+            "id": 121190006,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "Um, I have something I want your help with",
+            "option": null,
+            "nextIds": [
+              121190007
+            ],
+            "kind": "NPC"
+          },
+          "121190007": {
+            "type": "Text",
+            "id": 121190007,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "Could we please have a chat the next time you drop by the Herta Space Station?",
+            "option": null,
+            "nextIds": [
+              121190008,
+              121190011
+            ],
+            "kind": "NPC"
+          },
+          "121190008": {
+            "type": "Text",
+            "id": 121190008,
+            "sectionId": 1211900,
+            "senderId": null,
+            "text": "Tell me what you want help with first",
+            "option": "Tell me what you want help with first",
+            "nextIds": [
+              121190009
+            ],
+            "kind": "Player"
+          },
+          "121190009": {
+            "type": "Text",
+            "id": 121190009,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "It's hard to explain over text",
+            "option": null,
+            "nextIds": [
+              121190010
+            ],
+            "kind": "NPC"
+          },
+          "121190010": {
+            "type": "Text",
+            "id": 121190010,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "I'll tell you the general gist",
+            "option": null,
+            "nextIds": [
+              121190014
+            ],
+            "kind": "NPC"
+          },
+          "121190014": {
+            "type": "Text",
+            "id": 121190014,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "I found a weird simulation program that needs to be tested by folks with lots of combat experience",
+            "option": null,
+            "nextIds": [
+              121190015
+            ],
+            "kind": "NPC"
+          },
+          "121190015": {
+            "type": "Text",
+            "id": 121190015,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "I can't think of anyone more fitting than you. Please. I'll be waiting at the space station's master control zone",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121190011": {
+            "type": "Text",
+            "id": 121190011,
+            "sectionId": 1211900,
+            "senderId": null,
+            "text": "People only think of me when there's trouble",
+            "option": "People only think of me when there's trouble",
+            "nextIds": [
+              121190012
+            ],
+            "kind": "Player"
+          },
+          "121190012": {
+            "type": "Text",
+            "id": 121190012,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "Oh, don't be like that",
+            "option": null,
+            "nextIds": [
+              121190013
+            ],
+            "kind": "NPC"
+          },
+          "121190013": {
+            "type": "Text",
+            "id": 121190013,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "It won't be for free. I'll pay you",
+            "option": null,
+            "nextIds": [
+              121190014
+            ],
+            "kind": "NPC"
+          },
+          "121190004": {
+            "type": "Text",
+            "id": 121190004,
+            "sectionId": 1211900,
+            "senderId": null,
+            "text": "I'm that famous?",
+            "option": "I'm that famous?",
+            "nextIds": [
+              121190005
+            ],
+            "kind": "Player"
+          },
+          "121190005": {
+            "type": "Text",
+            "id": 121190005,
+            "sectionId": 1211900,
+            "senderId": 52,
+            "text": "Totally! It took me so long to get your number",
+            "option": null,
+            "nextIds": [
+              121190006
+            ],
+            "kind": "NPC"
+          }
         },
-        "121190002": {
-          "type": "Text",
-          "id": 121190002,
-          "sectionId": 1211900,
-          "senderId": null,
-          "text": "Yes, that's me.",
-          "option": "Yes, that's me.",
-          "nextIds": [
-            121190003
-          ],
-          "kind": "Player"
-        },
-        "121190003": {
-          "type": "Text",
-          "id": 121190003,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "Awesome! It took me so long to get your number",
-          "option": null,
-          "nextIds": [
-            121190006
-          ],
-          "kind": "NPC"
-        },
-        "121190006": {
-          "type": "Text",
-          "id": 121190006,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "Um, I have something I want your help with",
-          "option": null,
-          "nextIds": [
-            121190007
-          ],
-          "kind": "NPC"
-        },
-        "121190007": {
-          "type": "Text",
-          "id": 121190007,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "Could we please have a chat the next time you drop by the Herta Space Station?",
-          "option": null,
-          "nextIds": [
-            121190008,
-            121190011
-          ],
-          "kind": "NPC"
-        },
-        "121190008": {
-          "type": "Text",
-          "id": 121190008,
-          "sectionId": 1211900,
-          "senderId": null,
-          "text": "Tell me what you want help with first",
-          "option": "Tell me what you want help with first",
-          "nextIds": [
-            121190009
-          ],
-          "kind": "Player"
-        },
-        "121190009": {
-          "type": "Text",
-          "id": 121190009,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "It's hard to explain over text",
-          "option": null,
-          "nextIds": [
-            121190010
-          ],
-          "kind": "NPC"
-        },
-        "121190010": {
-          "type": "Text",
-          "id": 121190010,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "I'll tell you the general gist",
-          "option": null,
-          "nextIds": [
-            121190014
-          ],
-          "kind": "NPC"
-        },
-        "121190014": {
-          "type": "Text",
-          "id": 121190014,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "I found a weird simulation program that needs to be tested by folks with lots of combat experience",
-          "option": null,
-          "nextIds": [
-            121190015
-          ],
-          "kind": "NPC"
-        },
-        "121190015": {
-          "type": "Text",
-          "id": 121190015,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "I can't think of anyone more fitting than you. Please. I'll be waiting at the space station's master control zone",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121190011": {
-          "type": "Text",
-          "id": 121190011,
-          "sectionId": 1211900,
-          "senderId": null,
-          "text": "People only think of me when there's trouble",
-          "option": "People only think of me when there's trouble",
-          "nextIds": [
-            121190012
-          ],
-          "kind": "Player"
-        },
-        "121190012": {
-          "type": "Text",
-          "id": 121190012,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "Oh, don't be like that",
-          "option": null,
-          "nextIds": [
-            121190013
-          ],
-          "kind": "NPC"
-        },
-        "121190013": {
-          "type": "Text",
-          "id": 121190013,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "It won't be for free. I'll pay you",
-          "option": null,
-          "nextIds": [
-            121190014
-          ],
-          "kind": "NPC"
-        },
-        "121190004": {
-          "type": "Text",
-          "id": 121190004,
-          "sectionId": 1211900,
-          "senderId": null,
-          "text": "I'm that famous?",
-          "option": "I'm that famous?",
-          "nextIds": [
-            121190005
-          ],
-          "kind": "Player"
-        },
-        "121190005": {
-          "type": "Text",
-          "id": 121190005,
-          "sectionId": 1211900,
-          "senderId": 52,
-          "text": "Totally! It took me so long to get your number",
-          "option": null,
-          "nextIds": [
-            121190006
-          ],
-          "kind": "NPC"
+        "mission": {
+          "id": 8000001,
+          "name": "Stellar Flare: Opening",
+          "type": "Branch"
         }
-      },
-      "mission": {
-        "id": 8000001,
-        "name": "Stellar Flare: Opening",
-        "type": "Branch"
       }
-    }
+    ]
   ],
   "info": {
     "id": 52,
     "name": "Grumpy",
     "signature": "My wish for today: Pass my probation period",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Bukaixin.png",
+    "iconPath": "icon/avatar/Bukaixin.png",
     "type": 2,
     "camp": 2
   }

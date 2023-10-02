@@ -1,976 +1,982 @@
 {
   "id": 1203,
   "sections": [
-    {
-      "type": "Message",
-      "id": 2007000,
-      "startIds": [
-        200700015
-      ],
-      "messages": {
-        "200700015": {
-          "type": "Text",
-          "id": 200700015,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "Hey, {NICKNAME}",
-          "option": null,
-          "nextIds": [
-            200700016
-          ],
-          "kind": "NPC"
-        },
-        "200700016": {
-          "type": "Text",
-          "id": 200700016,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "Sorry to disturb you, but there's something I forgot to ask",
-          "option": null,
-          "nextIds": [
-            200700017
-          ],
-          "kind": "NPC"
-        },
-        "200700017": {
-          "type": "Text",
-          "id": 200700017,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "Like I said before, the journey of a traveling merchant is mostly drawn-out and boring",
-          "option": null,
-          "nextIds": [
-            200700018
-          ],
-          "kind": "NPC"
-        },
-        "200700018": {
-          "type": "Text",
-          "id": 200700018,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "Do you have any advice for passing time when traveling, {NICKNAME}?",
-          "option": null,
-          "nextIds": [
-            200700002,
-            200700004,
-            200700006
-          ],
-          "kind": "NPC"
-        },
-        "200700002": {
-          "type": "Text",
-          "id": 200700002,
-          "sectionId": 2007000,
-          "senderId": null,
-          "text": "Chat with the people around you",
-          "option": "Chat with people",
-          "nextIds": [
-            200700003
-          ],
-          "kind": "Player"
-        },
-        "200700003": {
-          "type": "Text",
-          "id": 200700003,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "To be honest, I'm not great at opening a conversation... But with that coffin around me, a conversation is bound to happen",
-          "option": null,
-          "nextIds": [
-            200700008
-          ],
-          "kind": "NPC"
-        },
-        "200700008": {
-          "type": "Text",
-          "id": 200700008,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "Is that what you've been doing in your journeys, {NICKNAME}?",
-          "option": null,
-          "nextIds": [
-            200700009,
-            200700012
-          ],
-          "kind": "NPC"
-        },
-        "200700009": {
-          "type": "Text",
-          "id": 200700009,
-          "sectionId": 2007000,
-          "senderId": null,
-          "text": "Of course, that's what I do all the time",
-          "option": "Of course",
-          "nextIds": [
-            200700010
-          ],
-          "kind": "Player"
-        },
-        "200700010": {
-          "type": "Text",
-          "id": 200700010,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "Sounds like you've got some insights",
-          "option": null,
-          "nextIds": [
-            200700011
-          ],
-          "kind": "NPC"
-        },
-        "200700011": {
-          "type": "Text",
-          "id": 200700011,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "Thank you for giving me a sincere suggestion",
-          "option": null,
-          "nextIds": [
-            200700014
-          ],
-          "kind": "NPC"
-        },
-        "200700014": {
-          "type": "Text",
-          "id": 200700014,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "I'll try it",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200700012": {
-          "type": "Text",
-          "id": 200700012,
-          "sectionId": 2007000,
-          "senderId": null,
-          "text": "Of course not, I never do that",
-          "option": "Of course not",
-          "nextIds": [
-            200700013
-          ],
-          "kind": "Player"
-        },
-        "200700013": {
-          "type": "Text",
-          "id": 200700013,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "Sounds like you chose something that you think suits me best",
-          "option": null,
-          "nextIds": [
-            200700014
-          ],
-          "kind": "NPC"
-        },
-        "200700004": {
-          "type": "Text",
-          "id": 200700004,
-          "sectionId": 2007000,
-          "senderId": null,
-          "text": "Do whatever pleases you. Play games, read books, watch the scenery, anything you want",
-          "option": "Do whatever you like",
-          "nextIds": [
-            200700005
-          ],
-          "kind": "Player"
-        },
-        "200700005": {
-          "type": "Text",
-          "id": 200700005,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "Finish the books I've borrowed on the Luofu, this might not be a bad idea",
-          "option": null,
-          "nextIds": [
-            200700008
-          ],
-          "kind": "NPC"
-        },
-        "200700006": {
-          "type": "Text",
-          "id": 200700006,
-          "sectionId": 2007000,
-          "senderId": null,
-          "text": "There's really nothing to do on the road except sleeping",
-          "option": "Sleep the whole way",
-          "nextIds": [
-            200700007
-          ],
-          "kind": "Player"
-        },
-        "200700007": {
-          "type": "Text",
-          "id": 200700007,
-          "sectionId": 2007000,
-          "senderId": 1203,
-          "text": "The purpose is the end point, not the process, huh?",
-          "option": null,
-          "nextIds": [
-            200700008
-          ],
-          "kind": "NPC"
-        }
-      }
-    },
-    {
-      "type": "Message",
-      "id": 2007100,
-      "startIds": [
-        200710000
-      ],
-      "messages": {
-        "200710000": {
-          "type": "Text",
-          "id": 200710000,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "{NICKNAME}, when you came to the Luofu, where did you stay? How was it?",
-          "option": null,
-          "nextIds": [
-            200710001
-          ],
-          "kind": "NPC"
-        },
-        "200710001": {
-          "type": "Text",
-          "id": 200710001,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "Wait, lemme guess",
-          "option": null,
-          "nextIds": [
-            200710002
-          ],
-          "kind": "NPC"
-        },
-        "200710002": {
-          "type": "Text",
-          "id": 200710002,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "Petrichor Inn?",
-          "option": null,
-          "nextIds": [
-            200710003,
-            200710007
-          ],
-          "kind": "NPC"
-        },
-        "200710003": {
-          "type": "Text",
-          "id": 200710003,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "That's right, I did stay at the Petrichor Inn",
-          "option": "It's not bad",
-          "nextIds": [
-            200710004
-          ],
-          "kind": "Player"
-        },
-        "200710004": {
-          "type": "Text",
-          "id": 200710004,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "A premium suite, it's not bad",
-          "option": null,
-          "nextIds": [
-            200710005
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200710005": {
-          "type": "Sticker",
-          "id": 200710005,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "[thumbs up]",
-          "option": null,
-          "nextIds": [
-            200710006
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20006,
-            "path": "SpriteOutput/Emoji/20006.png",
-            "keywords": "Like"
+    [
+      {
+        "type": "Message",
+        "id": 2007000,
+        "startIds": [
+          200700015
+        ],
+        "messages": {
+          "200700015": {
+            "type": "Text",
+            "id": 200700015,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "Hey, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              200700016
+            ],
+            "kind": "NPC"
+          },
+          "200700016": {
+            "type": "Text",
+            "id": 200700016,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "Sorry to disturb you, but there's something I forgot to ask",
+            "option": null,
+            "nextIds": [
+              200700017
+            ],
+            "kind": "NPC"
+          },
+          "200700017": {
+            "type": "Text",
+            "id": 200700017,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "Like I said before, the journey of a traveling merchant is mostly drawn-out and boring",
+            "option": null,
+            "nextIds": [
+              200700018
+            ],
+            "kind": "NPC"
+          },
+          "200700018": {
+            "type": "Text",
+            "id": 200700018,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "Do you have any advice for passing time when traveling, {NICKNAME}?",
+            "option": null,
+            "nextIds": [
+              200700002,
+              200700004,
+              200700006
+            ],
+            "kind": "NPC"
+          },
+          "200700002": {
+            "type": "Text",
+            "id": 200700002,
+            "sectionId": 2007000,
+            "senderId": null,
+            "text": "Chat with the people around you",
+            "option": "Chat with people",
+            "nextIds": [
+              200700003
+            ],
+            "kind": "Player"
+          },
+          "200700003": {
+            "type": "Text",
+            "id": 200700003,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "To be honest, I'm not great at opening a conversation... But with that coffin around me, a conversation is bound to happen",
+            "option": null,
+            "nextIds": [
+              200700008
+            ],
+            "kind": "NPC"
+          },
+          "200700008": {
+            "type": "Text",
+            "id": 200700008,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "Is that what you've been doing in your journeys, {NICKNAME}?",
+            "option": null,
+            "nextIds": [
+              200700009,
+              200700012
+            ],
+            "kind": "NPC"
+          },
+          "200700009": {
+            "type": "Text",
+            "id": 200700009,
+            "sectionId": 2007000,
+            "senderId": null,
+            "text": "Of course, that's what I do all the time",
+            "option": "Of course",
+            "nextIds": [
+              200700010
+            ],
+            "kind": "Player"
+          },
+          "200700010": {
+            "type": "Text",
+            "id": 200700010,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "Sounds like you've got some insights",
+            "option": null,
+            "nextIds": [
+              200700011
+            ],
+            "kind": "NPC"
+          },
+          "200700011": {
+            "type": "Text",
+            "id": 200700011,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "Thank you for giving me a sincere suggestion",
+            "option": null,
+            "nextIds": [
+              200700014
+            ],
+            "kind": "NPC"
+          },
+          "200700014": {
+            "type": "Text",
+            "id": 200700014,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "I'll try it",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200700012": {
+            "type": "Text",
+            "id": 200700012,
+            "sectionId": 2007000,
+            "senderId": null,
+            "text": "Of course not, I never do that",
+            "option": "Of course not",
+            "nextIds": [
+              200700013
+            ],
+            "kind": "Player"
+          },
+          "200700013": {
+            "type": "Text",
+            "id": 200700013,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "Sounds like you chose something that you think suits me best",
+            "option": null,
+            "nextIds": [
+              200700014
+            ],
+            "kind": "NPC"
+          },
+          "200700004": {
+            "type": "Text",
+            "id": 200700004,
+            "sectionId": 2007000,
+            "senderId": null,
+            "text": "Do whatever pleases you. Play games, read books, watch the scenery, anything you want",
+            "option": "Do whatever you like",
+            "nextIds": [
+              200700005
+            ],
+            "kind": "Player"
+          },
+          "200700005": {
+            "type": "Text",
+            "id": 200700005,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "Finish the books I've borrowed on the Luofu, this might not be a bad idea",
+            "option": null,
+            "nextIds": [
+              200700008
+            ],
+            "kind": "NPC"
+          },
+          "200700006": {
+            "type": "Text",
+            "id": 200700006,
+            "sectionId": 2007000,
+            "senderId": null,
+            "text": "There's really nothing to do on the road except sleeping",
+            "option": "Sleep the whole way",
+            "nextIds": [
+              200700007
+            ],
+            "kind": "Player"
+          },
+          "200700007": {
+            "type": "Text",
+            "id": 200700007,
+            "sectionId": 2007000,
+            "senderId": 1203,
+            "text": "The purpose is the end point, not the process, huh?",
+            "option": null,
+            "nextIds": [
+              200700008
+            ],
+            "kind": "NPC"
           }
-        },
-        "200710006": {
-          "type": "Text",
-          "id": 200710006,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "The premium suite is not easy to book, most people would just go there for the Starwatcher Avenue's night view",
-          "option": null,
-          "nextIds": [
-            200710012
-          ],
-          "kind": "NPC"
-        },
-        "200710012": {
-          "type": "Text",
-          "id": 200710012,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "I stay at the Petrichor Inn often. After all, it's easy to get anywhere from there",
-          "option": null,
-          "nextIds": [
-            200710013
-          ],
-          "kind": "NPC"
-        },
-        "200710013": {
-          "type": "Text",
-          "id": 200710013,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "As a traveling merchant, I don't indulge much in my trips, but even so, I get bored after a while",
-          "option": null,
-          "nextIds": [
-            200710014
-          ],
-          "kind": "NPC"
-        },
-        "200710014": {
-          "type": "Text",
-          "id": 200710014,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "There are some units in the Skyward Pavilions neighborhood that allow short-term rentals, so I went there",
-          "option": null,
-          "nextIds": [
-            200710015
-          ],
-          "kind": "NPC"
-        },
-        "200710015": {
-          "type": "Text",
-          "id": 200710015,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "That's where Xianzhou residents usually stay",
-          "option": null,
-          "nextIds": [
-            200710016,
-            200710020
-          ],
-          "kind": "NPC"
-        },
-        "200710016": {
-          "type": "Text",
-          "id": 200710016,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "Sounds like it's not that convenient and that you are being watched somehow.",
-          "option": "Sounds like you are being watched.",
-          "nextIds": [
-            200710017
-          ],
-          "kind": "Player"
-        },
-        "200710017": {
-          "type": "Text",
-          "id": 200710017,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "That depends on how to see it",
-          "option": null,
-          "nextIds": [
-            200710018
-          ],
-          "kind": "NPC"
-        },
-        "200710018": {
-          "type": "Text",
-          "id": 200710018,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "Life on the Xianzhou is not that shut-in. People are friendly, so experiencing and observing their way of life is my hobby...",
-          "option": null,
-          "nextIds": [
-            200710019
-          ],
-          "kind": "NPC"
-        },
-        "200710019": {
-          "type": "Text",
-          "id": 200710019,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "But that's not quite right. Most of the time, I'm the one being observed.",
-          "option": null,
-          "nextIds": [
-            200710023
-          ],
-          "kind": "NPC"
-        },
-        "200710023": {
-          "type": "Text",
-          "id": 200710023,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "I'm nomadic and have nowhere to call my home. Staying in the Skyward Pavilions neighborhood even for a while helps me forget my identity as a traveling merchant",
-          "option": null,
-          "nextIds": [
-            200710024
-          ],
-          "kind": "NPC"
-        },
-        "200710024": {
-          "type": "Text",
-          "id": 200710024,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "So, I quite like it",
-          "option": null,
-          "nextIds": [
-            200710025,
-            200710027
-          ],
-          "kind": "NPC"
-        },
-        "200710025": {
-          "type": "Text",
-          "id": 200710025,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "I shall try it too, next time",
-          "option": "I'll try too",
-          "nextIds": [
-            200710026
-          ],
-          "kind": "Player"
-        },
-        "200710026": {
-          "type": "Text",
-          "id": 200710026,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "Alright, maybe we can be neighbors if we're lucky",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200710027": {
-          "type": "Text",
-          "id": 200710027,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "I probably can't stay there",
-          "option": "I probably can't",
-          "nextIds": [
-            200710028
-          ],
-          "kind": "Player"
-        },
-        "200710028": {
-          "type": "Text",
-          "id": 200710028,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "Can I ask the reason?",
-          "option": null,
-          "nextIds": [
-            200710029,
-            200710030,
-            200710031
-          ],
-          "kind": "NPC"
-        },
-        "200710029": {
-          "type": "Text",
-          "id": 200710029,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "I'm scared!",
-          "option": "I'm scared!",
-          "nextIds": [
-            200710032
-          ],
-          "kind": "Player"
-        },
-        "200710032": {
-          "type": "Text",
-          "id": 200710032,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "I see",
-          "option": null,
-          "nextIds": [
-            200710033
-          ],
-          "kind": "NPC"
-        },
-        "200710033": {
-          "type": "Text",
-          "id": 200710033,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "I understand, and I respect your decision",
-          "option": null,
-          "nextIds": [
-            200710034
-          ],
-          "kind": "NPC"
-        },
-        "200710034": {
-          "type": "Text",
-          "id": 200710034,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "If you change your mind some day, we'll talk",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200710030": {
-          "type": "Text",
-          "id": 200710030,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "I'm not used to another bed!",
-          "option": "I'm not used to another bed!",
-          "nextIds": [
-            200710032
-          ],
-          "kind": "Player"
-        },
-        "200710031": {
-          "type": "Text",
-          "id": 200710031,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "I'm a clean freak!",
-          "option": "I'm a clean freak!",
-          "nextIds": [
-            200710032
-          ],
-          "kind": "Player"
-        },
-        "200710020": {
-          "type": "Text",
-          "id": 200710020,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "Looks like you've become a Xianzhou resident yourself now",
-          "option": "So, you're like a Xianzhou resident now?",
-          "nextIds": [
-            200710021
-          ],
-          "kind": "Player"
-        },
-        "200710021": {
-          "type": "Text",
-          "id": 200710021,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "Heh heh, you know me",
-          "option": null,
-          "nextIds": [
-            200710022
-          ],
-          "kind": "NPC"
-        },
-        "200710022": {
-          "type": "Text",
-          "id": 200710022,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "Yeah, with that, I've blended with the populace on the Luofu",
-          "option": null,
-          "nextIds": [
-            200710023
-          ],
-          "kind": "NPC"
-        },
-        "200710007": {
-          "type": "Text",
-          "id": 200710007,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "That's right, I did stay at the Petrichor Inn",
-          "option": "It's so-so",
-          "nextIds": [
-            200710008
-          ],
-          "kind": "Player"
-        },
-        "200710008": {
-          "type": "Text",
-          "id": 200710008,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "But honestly, it's nothing to write home about",
-          "option": null,
-          "nextIds": [
-            200710009
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200710009": {
-          "type": "Text",
-          "id": 200710009,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "After all, every time I stay in a hotel, I worry about bad things happening, so I've got no time to think about other stuff",
-          "option": null,
-          "nextIds": [
-            200710010
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200710010": {
-          "type": "Sticker",
-          "id": 200710010,
-          "sectionId": 2007100,
-          "senderId": null,
-          "text": "[cry]",
-          "option": null,
-          "nextIds": [
-            200710011
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20005,
-            "path": "SpriteOutput/Emoji/20005.png",
-            "keywords": "Crying"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2007100,
+        "startIds": [
+          200710000
+        ],
+        "messages": {
+          "200710000": {
+            "type": "Text",
+            "id": 200710000,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "{NICKNAME}, when you came to the Luofu, where did you stay? How was it?",
+            "option": null,
+            "nextIds": [
+              200710001
+            ],
+            "kind": "NPC"
+          },
+          "200710001": {
+            "type": "Text",
+            "id": 200710001,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "Wait, lemme guess",
+            "option": null,
+            "nextIds": [
+              200710002
+            ],
+            "kind": "NPC"
+          },
+          "200710002": {
+            "type": "Text",
+            "id": 200710002,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "Petrichor Inn?",
+            "option": null,
+            "nextIds": [
+              200710003,
+              200710007
+            ],
+            "kind": "NPC"
+          },
+          "200710003": {
+            "type": "Text",
+            "id": 200710003,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "That's right, I did stay at the Petrichor Inn",
+            "option": "It's not bad",
+            "nextIds": [
+              200710004
+            ],
+            "kind": "Player"
+          },
+          "200710004": {
+            "type": "Text",
+            "id": 200710004,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "A premium suite, it's not bad",
+            "option": null,
+            "nextIds": [
+              200710005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200710005": {
+            "type": "Sticker",
+            "id": 200710005,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "[thumbs up]",
+            "option": null,
+            "nextIds": [
+              200710006
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200710006": {
+            "type": "Text",
+            "id": 200710006,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "The premium suite is not easy to book, most people would just go there for the Starwatcher Avenue's night view",
+            "option": null,
+            "nextIds": [
+              200710012
+            ],
+            "kind": "NPC"
+          },
+          "200710012": {
+            "type": "Text",
+            "id": 200710012,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "I stay at the Petrichor Inn often. After all, it's easy to get anywhere from there",
+            "option": null,
+            "nextIds": [
+              200710013
+            ],
+            "kind": "NPC"
+          },
+          "200710013": {
+            "type": "Text",
+            "id": 200710013,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "As a traveling merchant, I don't indulge much in my trips, but even so, I get bored after a while",
+            "option": null,
+            "nextIds": [
+              200710014
+            ],
+            "kind": "NPC"
+          },
+          "200710014": {
+            "type": "Text",
+            "id": 200710014,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "There are some units in the Skyward Pavilions neighborhood that allow short-term rentals, so I went there",
+            "option": null,
+            "nextIds": [
+              200710015
+            ],
+            "kind": "NPC"
+          },
+          "200710015": {
+            "type": "Text",
+            "id": 200710015,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "That's where Xianzhou residents usually stay",
+            "option": null,
+            "nextIds": [
+              200710016,
+              200710020
+            ],
+            "kind": "NPC"
+          },
+          "200710016": {
+            "type": "Text",
+            "id": 200710016,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "Sounds like it's not that convenient and that you are being watched somehow.",
+            "option": "Sounds like you are being watched.",
+            "nextIds": [
+              200710017
+            ],
+            "kind": "Player"
+          },
+          "200710017": {
+            "type": "Text",
+            "id": 200710017,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "That depends on how to see it",
+            "option": null,
+            "nextIds": [
+              200710018
+            ],
+            "kind": "NPC"
+          },
+          "200710018": {
+            "type": "Text",
+            "id": 200710018,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "Life on the Xianzhou is not that shut-in. People are friendly, so experiencing and observing their way of life is my hobby...",
+            "option": null,
+            "nextIds": [
+              200710019
+            ],
+            "kind": "NPC"
+          },
+          "200710019": {
+            "type": "Text",
+            "id": 200710019,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "But that's not quite right. Most of the time, I'm the one being observed.",
+            "option": null,
+            "nextIds": [
+              200710023
+            ],
+            "kind": "NPC"
+          },
+          "200710023": {
+            "type": "Text",
+            "id": 200710023,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "I'm nomadic and have nowhere to call my home. Staying in the Skyward Pavilions neighborhood even for a while helps me forget my identity as a traveling merchant",
+            "option": null,
+            "nextIds": [
+              200710024
+            ],
+            "kind": "NPC"
+          },
+          "200710024": {
+            "type": "Text",
+            "id": 200710024,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "So, I quite like it",
+            "option": null,
+            "nextIds": [
+              200710025,
+              200710027
+            ],
+            "kind": "NPC"
+          },
+          "200710025": {
+            "type": "Text",
+            "id": 200710025,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "I shall try it too, next time",
+            "option": "I'll try too",
+            "nextIds": [
+              200710026
+            ],
+            "kind": "Player"
+          },
+          "200710026": {
+            "type": "Text",
+            "id": 200710026,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "Alright, maybe we can be neighbors if we're lucky",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200710027": {
+            "type": "Text",
+            "id": 200710027,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "I probably can't stay there",
+            "option": "I probably can't",
+            "nextIds": [
+              200710028
+            ],
+            "kind": "Player"
+          },
+          "200710028": {
+            "type": "Text",
+            "id": 200710028,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "Can I ask the reason?",
+            "option": null,
+            "nextIds": [
+              200710029,
+              200710030,
+              200710031
+            ],
+            "kind": "NPC"
+          },
+          "200710029": {
+            "type": "Text",
+            "id": 200710029,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "I'm scared!",
+            "option": "I'm scared!",
+            "nextIds": [
+              200710032
+            ],
+            "kind": "Player"
+          },
+          "200710032": {
+            "type": "Text",
+            "id": 200710032,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "I see",
+            "option": null,
+            "nextIds": [
+              200710033
+            ],
+            "kind": "NPC"
+          },
+          "200710033": {
+            "type": "Text",
+            "id": 200710033,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "I understand, and I respect your decision",
+            "option": null,
+            "nextIds": [
+              200710034
+            ],
+            "kind": "NPC"
+          },
+          "200710034": {
+            "type": "Text",
+            "id": 200710034,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "If you change your mind some day, we'll talk",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200710030": {
+            "type": "Text",
+            "id": 200710030,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "I'm not used to another bed!",
+            "option": "I'm not used to another bed!",
+            "nextIds": [
+              200710032
+            ],
+            "kind": "Player"
+          },
+          "200710031": {
+            "type": "Text",
+            "id": 200710031,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "I'm a clean freak!",
+            "option": "I'm a clean freak!",
+            "nextIds": [
+              200710032
+            ],
+            "kind": "Player"
+          },
+          "200710020": {
+            "type": "Text",
+            "id": 200710020,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "Looks like you've become a Xianzhou resident yourself now",
+            "option": "So, you're like a Xianzhou resident now?",
+            "nextIds": [
+              200710021
+            ],
+            "kind": "Player"
+          },
+          "200710021": {
+            "type": "Text",
+            "id": 200710021,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "Heh heh, you know me",
+            "option": null,
+            "nextIds": [
+              200710022
+            ],
+            "kind": "NPC"
+          },
+          "200710022": {
+            "type": "Text",
+            "id": 200710022,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "Yeah, with that, I've blended with the populace on the Luofu",
+            "option": null,
+            "nextIds": [
+              200710023
+            ],
+            "kind": "NPC"
+          },
+          "200710007": {
+            "type": "Text",
+            "id": 200710007,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "That's right, I did stay at the Petrichor Inn",
+            "option": "It's so-so",
+            "nextIds": [
+              200710008
+            ],
+            "kind": "Player"
+          },
+          "200710008": {
+            "type": "Text",
+            "id": 200710008,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "But honestly, it's nothing to write home about",
+            "option": null,
+            "nextIds": [
+              200710009
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200710009": {
+            "type": "Text",
+            "id": 200710009,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "After all, every time I stay in a hotel, I worry about bad things happening, so I've got no time to think about other stuff",
+            "option": null,
+            "nextIds": [
+              200710010
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200710010": {
+            "type": "Sticker",
+            "id": 200710010,
+            "sectionId": 2007100,
+            "senderId": null,
+            "text": "[cry]",
+            "option": null,
+            "nextIds": [
+              200710011
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "200710011": {
+            "type": "Text",
+            "id": 200710011,
+            "sectionId": 2007100,
+            "senderId": 1203,
+            "text": "Sounds like you've been through some rough patch",
+            "option": null,
+            "nextIds": [
+              200710012
+            ],
+            "kind": "NPC"
           }
-        },
-        "200710011": {
-          "type": "Text",
-          "id": 200710011,
-          "sectionId": 2007100,
-          "senderId": 1203,
-          "text": "Sounds like you've been through some rough patch",
-          "option": null,
-          "nextIds": [
-            200710012
-          ],
-          "kind": "NPC"
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 2007200,
-      "startIds": [
-        200720000
-      ],
-      "messages": {
-        "200720000": {
-          "type": "Text",
-          "id": 200720000,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "{NICKNAME}, I couldn't sleep last night",
-          "option": null,
-          "nextIds": [
-            200720001
-          ],
-          "kind": "NPC"
-        },
-        "200720001": {
-          "type": "Text",
-          "id": 200720001,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "Maybe I'm too naive. Without returning customers, it's hard to do business at night",
-          "option": null,
-          "nextIds": [
-            200720004
-          ],
-          "kind": "NPC"
-        },
-        "200720004": {
-          "type": "Text",
-          "id": 200720004,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "I went to the Aurum Alley, it's an old street famous for its night bazaar",
-          "option": null,
-          "nextIds": [
-            200720005
-          ],
-          "kind": "NPC"
-        },
-        "200720005": {
-          "type": "Text",
-          "id": 200720005,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "As a traveling merchant, how can I not check it out?",
-          "option": null,
-          "nextIds": [
-            200720006,
-            200720010
-          ],
-          "kind": "NPC"
-        },
-        "200720006": {
-          "type": "Text",
-          "id": 200720006,
-          "sectionId": 2007200,
-          "senderId": null,
-          "text": "You were selling?",
-          "option": "You were selling?",
-          "nextIds": [
-            200720007
-          ],
-          "kind": "Player"
-        },
-        "200720007": {
-          "type": "Text",
-          "id": 200720007,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "Yes and no, buying and selling are always reciprocal that way",
-          "option": null,
-          "nextIds": [
-            200720008
-          ],
-          "kind": "NPC"
-        },
-        "200720008": {
-          "type": "Text",
-          "id": 200720008,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "I do have some uncommon trinkets with me, but it's not like I can meet someone who likes them every time",
-          "option": null,
-          "nextIds": [
-            200720009
-          ],
-          "kind": "NPC"
-        },
-        "200720009": {
-          "type": "Text",
-          "id": 200720009,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "That being said, people on the Xianzhou are friendly. Even if they don't buy things, they'll still chit-chat with me",
-          "option": null,
-          "nextIds": [
-            200720014
-          ],
-          "kind": "NPC"
-        },
-        "200720014": {
-          "type": "Text",
-          "id": 200720014,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "I just didn't think the chatting will last until shops start to close up",
-          "option": null,
-          "nextIds": [
-            200720015
-          ],
-          "kind": "NPC"
-        },
-        "200720015": {
-          "type": "Text",
-          "id": 200720015,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "I did have a fun night, but thinking back, what exactly did I gain?",
-          "option": null,
-          "nextIds": [
-            200720016,
-            200720019,
-            200720022
-          ],
-          "kind": "NPC"
-        },
-        "200720016": {
-          "type": "Text",
-          "id": 200720016,
-          "sectionId": 2007200,
-          "senderId": null,
-          "text": "Don't put it like that",
-          "option": "You gained intel!",
-          "nextIds": [
-            200720017
-          ],
-          "kind": "Player"
-        },
-        "200720017": {
-          "type": "Text",
-          "id": 200720017,
-          "sectionId": 2007200,
-          "senderId": null,
-          "text": "At least you gained hot info of Xianzhou's industries!",
-          "option": null,
-          "nextIds": [
-            200720018
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200720018": {
-          "type": "Text",
-          "id": 200720018,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "Haha, looks like I'm truly a traveling merchant in your eyes",
-          "option": null,
-          "nextIds": [
-            200720025
-          ],
-          "kind": "NPC"
-        },
-        "200720025": {
-          "type": "Text",
-          "id": 200720025,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "If you have a chance, you should check out the Aurum Alley",
-          "option": null,
-          "nextIds": [
-            200720026
-          ],
-          "kind": "NPC"
-        },
-        "200720026": {
-          "type": "Text",
-          "id": 200720026,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "And if I'm still here on Xianzhou, call me along",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200720019": {
-          "type": "Text",
-          "id": 200720019,
-          "sectionId": 2007200,
-          "senderId": null,
-          "text": "Don't put it like that",
-          "option": "At least you gained friendship!",
-          "nextIds": [
-            200720020
-          ],
-          "kind": "Player"
-        },
-        "200720020": {
-          "type": "Text",
-          "id": 200720020,
-          "sectionId": 2007200,
-          "senderId": null,
-          "text": "You gained the friendship of Xianzhou people!",
-          "option": null,
-          "nextIds": [
-            200720021
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200720021": {
-          "type": "Text",
-          "id": 200720021,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "That's right, is there anything more precious than that?",
-          "option": null,
-          "nextIds": [
-            200720025
-          ],
-          "kind": "NPC"
-        },
-        "200720022": {
-          "type": "Text",
-          "id": 200720022,
-          "sectionId": 2007200,
-          "senderId": null,
-          "text": "Don't put it like that",
-          "option": "You gained eyebags!",
-          "nextIds": [
-            200720023
-          ],
-          "kind": "Player"
-        },
-        "200720023": {
-          "type": "Text",
-          "id": 200720023,
-          "sectionId": 2007200,
-          "senderId": null,
-          "text": "At least you got yourself a pair of eye bags!",
-          "option": null,
-          "nextIds": [
-            200720024
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200720024": {
-          "type": "Text",
-          "id": 200720024,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "A shame, I'm the type of person who doesn't show even if I stayed up all night",
-          "option": null,
-          "nextIds": [
-            200720025
-          ],
-          "kind": "NPC"
-        },
-        "200720010": {
-          "type": "Text",
-          "id": 200720010,
-          "sectionId": 2007200,
-          "senderId": null,
-          "text": "You were buying?",
-          "option": "You were buying?",
-          "nextIds": [
-            200720011
-          ],
-          "kind": "Player"
-        },
-        "200720011": {
-          "type": "Text",
-          "id": 200720011,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "Yes and no, buying and selling are always reciprocal that way",
-          "option": null,
-          "nextIds": [
-            200720012
-          ],
-          "kind": "NPC"
-        },
-        "200720012": {
-          "type": "Text",
-          "id": 200720012,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "Many shops do have some interesting thingamabobs with them, but it's not like everything would suit my taste at a given time",
-          "option": null,
-          "nextIds": [
-            200720013
-          ],
-          "kind": "NPC"
-        },
-        "200720013": {
-          "type": "Text",
-          "id": 200720013,
-          "sectionId": 2007200,
-          "senderId": 1203,
-          "text": "That being said, people on the Xianzhou are friendly. Even if I don't buy things, they'll still chit-chat with me",
-          "option": null,
-          "nextIds": [
-            200720014
-          ],
-          "kind": "NPC"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2007200,
+        "startIds": [
+          200720000
+        ],
+        "messages": {
+          "200720000": {
+            "type": "Text",
+            "id": 200720000,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "{NICKNAME}, I couldn't sleep last night",
+            "option": null,
+            "nextIds": [
+              200720001
+            ],
+            "kind": "NPC"
+          },
+          "200720001": {
+            "type": "Text",
+            "id": 200720001,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "Maybe I'm too naive. Without returning customers, it's hard to do business at night",
+            "option": null,
+            "nextIds": [
+              200720004
+            ],
+            "kind": "NPC"
+          },
+          "200720004": {
+            "type": "Text",
+            "id": 200720004,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "I went to the Aurum Alley, it's an old street famous for its night bazaar",
+            "option": null,
+            "nextIds": [
+              200720005
+            ],
+            "kind": "NPC"
+          },
+          "200720005": {
+            "type": "Text",
+            "id": 200720005,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "As a traveling merchant, how can I not check it out?",
+            "option": null,
+            "nextIds": [
+              200720006,
+              200720010
+            ],
+            "kind": "NPC"
+          },
+          "200720006": {
+            "type": "Text",
+            "id": 200720006,
+            "sectionId": 2007200,
+            "senderId": null,
+            "text": "You were selling?",
+            "option": "You were selling?",
+            "nextIds": [
+              200720007
+            ],
+            "kind": "Player"
+          },
+          "200720007": {
+            "type": "Text",
+            "id": 200720007,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "Yes and no, buying and selling are always reciprocal that way",
+            "option": null,
+            "nextIds": [
+              200720008
+            ],
+            "kind": "NPC"
+          },
+          "200720008": {
+            "type": "Text",
+            "id": 200720008,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "I do have some uncommon trinkets with me, but it's not like I can meet someone who likes them every time",
+            "option": null,
+            "nextIds": [
+              200720009
+            ],
+            "kind": "NPC"
+          },
+          "200720009": {
+            "type": "Text",
+            "id": 200720009,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "That being said, people on the Xianzhou are friendly. Even if they don't buy things, they'll still chit-chat with me",
+            "option": null,
+            "nextIds": [
+              200720014
+            ],
+            "kind": "NPC"
+          },
+          "200720014": {
+            "type": "Text",
+            "id": 200720014,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "I just didn't think the chatting will last until shops start to close up",
+            "option": null,
+            "nextIds": [
+              200720015
+            ],
+            "kind": "NPC"
+          },
+          "200720015": {
+            "type": "Text",
+            "id": 200720015,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "I did have a fun night, but thinking back, what exactly did I gain?",
+            "option": null,
+            "nextIds": [
+              200720016,
+              200720019,
+              200720022
+            ],
+            "kind": "NPC"
+          },
+          "200720016": {
+            "type": "Text",
+            "id": 200720016,
+            "sectionId": 2007200,
+            "senderId": null,
+            "text": "Don't put it like that",
+            "option": "You gained intel!",
+            "nextIds": [
+              200720017
+            ],
+            "kind": "Player"
+          },
+          "200720017": {
+            "type": "Text",
+            "id": 200720017,
+            "sectionId": 2007200,
+            "senderId": null,
+            "text": "At least you gained hot info of Xianzhou's industries!",
+            "option": null,
+            "nextIds": [
+              200720018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200720018": {
+            "type": "Text",
+            "id": 200720018,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "Haha, looks like I'm truly a traveling merchant in your eyes",
+            "option": null,
+            "nextIds": [
+              200720025
+            ],
+            "kind": "NPC"
+          },
+          "200720025": {
+            "type": "Text",
+            "id": 200720025,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "If you have a chance, you should check out the Aurum Alley",
+            "option": null,
+            "nextIds": [
+              200720026
+            ],
+            "kind": "NPC"
+          },
+          "200720026": {
+            "type": "Text",
+            "id": 200720026,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "And if I'm still here on Xianzhou, call me along",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200720019": {
+            "type": "Text",
+            "id": 200720019,
+            "sectionId": 2007200,
+            "senderId": null,
+            "text": "Don't put it like that",
+            "option": "At least you gained friendship!",
+            "nextIds": [
+              200720020
+            ],
+            "kind": "Player"
+          },
+          "200720020": {
+            "type": "Text",
+            "id": 200720020,
+            "sectionId": 2007200,
+            "senderId": null,
+            "text": "You gained the friendship of Xianzhou people!",
+            "option": null,
+            "nextIds": [
+              200720021
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200720021": {
+            "type": "Text",
+            "id": 200720021,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "That's right, is there anything more precious than that?",
+            "option": null,
+            "nextIds": [
+              200720025
+            ],
+            "kind": "NPC"
+          },
+          "200720022": {
+            "type": "Text",
+            "id": 200720022,
+            "sectionId": 2007200,
+            "senderId": null,
+            "text": "Don't put it like that",
+            "option": "You gained eyebags!",
+            "nextIds": [
+              200720023
+            ],
+            "kind": "Player"
+          },
+          "200720023": {
+            "type": "Text",
+            "id": 200720023,
+            "sectionId": 2007200,
+            "senderId": null,
+            "text": "At least you got yourself a pair of eye bags!",
+            "option": null,
+            "nextIds": [
+              200720024
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200720024": {
+            "type": "Text",
+            "id": 200720024,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "A shame, I'm the type of person who doesn't show even if I stayed up all night",
+            "option": null,
+            "nextIds": [
+              200720025
+            ],
+            "kind": "NPC"
+          },
+          "200720010": {
+            "type": "Text",
+            "id": 200720010,
+            "sectionId": 2007200,
+            "senderId": null,
+            "text": "You were buying?",
+            "option": "You were buying?",
+            "nextIds": [
+              200720011
+            ],
+            "kind": "Player"
+          },
+          "200720011": {
+            "type": "Text",
+            "id": 200720011,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "Yes and no, buying and selling are always reciprocal that way",
+            "option": null,
+            "nextIds": [
+              200720012
+            ],
+            "kind": "NPC"
+          },
+          "200720012": {
+            "type": "Text",
+            "id": 200720012,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "Many shops do have some interesting thingamabobs with them, but it's not like everything would suit my taste at a given time",
+            "option": null,
+            "nextIds": [
+              200720013
+            ],
+            "kind": "NPC"
+          },
+          "200720013": {
+            "type": "Text",
+            "id": 200720013,
+            "sectionId": 2007200,
+            "senderId": 1203,
+            "text": "That being said, people on the Xianzhou are friendly. Even if I don't buy things, they'll still chit-chat with me",
+            "option": null,
+            "nextIds": [
+              200720014
+            ],
+            "kind": "NPC"
+          }
         }
       }
-    }
+    ]
   ],
   "info": {
     "id": 1203,
     "name": "Luocha",
     "signature": "A simple traveling merchant",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1203.png",
+    "iconPath": "icon/avatar/1203.png",
     "type": 1,
     "camp": 4
   }

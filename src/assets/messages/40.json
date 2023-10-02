@@ -1,266 +1,270 @@
 {
   "id": 40,
   "sections": [
-    {
-      "type": "MissionMessage",
-      "id": 1112300,
-      "startIds": [
-        111230000
-      ],
-      "messages": {
-        "111230000": {
-          "type": "Text",
-          "id": 111230000,
-          "sectionId": 1112300,
-          "senderId": 40,
-          "text": "{NICKNAME}, can you read this? You remember the weapon storage that you reported had something weird going on? I got a Guard squad to head over and have a look, and they discovered something you might be interested in",
-          "option": null,
-          "nextIds": [
-            111230001
-          ],
-          "kind": "NPC"
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1112300,
+        "startIds": [
+          111230000
+        ],
+        "messages": {
+          "111230000": {
+            "type": "Text",
+            "id": 111230000,
+            "sectionId": 1112300,
+            "senderId": 40,
+            "text": "{NICKNAME}, can you read this? You remember the weapon storage that you reported had something weird going on? I got a Guard squad to head over and have a look, and they discovered something you might be interested in",
+            "option": null,
+            "nextIds": [
+              111230001
+            ],
+            "kind": "NPC"
+          },
+          "111230001": {
+            "type": "Text",
+            "id": 111230001,
+            "sectionId": 1112300,
+            "senderId": 40,
+            "text": "It'd be better to speak face to face. I'll wait for you at the same old spot in the restricted zone",
+            "option": null,
+            "nextIds": [
+              111230002,
+              111230003
+            ],
+            "kind": "NPC"
+          },
+          "111230002": {
+            "type": "Text",
+            "id": 111230002,
+            "sectionId": 1112300,
+            "senderId": null,
+            "text": "I'm coming",
+            "option": "I'm coming",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "111230003": {
+            "type": "Text",
+            "id": 111230003,
+            "sectionId": 1112300,
+            "senderId": null,
+            "text": "I'll be there later",
+            "option": "I'll be there later",
+            "nextIds": [],
+            "kind": "Player"
+          }
         },
-        "111230001": {
-          "type": "Text",
-          "id": 111230001,
-          "sectionId": 1112300,
-          "senderId": 40,
-          "text": "It'd be better to speak face to face. I'll wait for you at the same old spot in the restricted zone",
-          "option": null,
-          "nextIds": [
-            111230002,
-            111230003
-          ],
-          "kind": "NPC"
-        },
-        "111230002": {
-          "type": "Text",
-          "id": 111230002,
-          "sectionId": 1112300,
-          "senderId": null,
-          "text": "I'm coming",
-          "option": "I'm coming",
-          "nextIds": [],
-          "kind": "Player"
-        },
-        "111230003": {
-          "type": "Text",
-          "id": 111230003,
-          "sectionId": 1112300,
-          "senderId": null,
-          "text": "I'll be there later",
-          "option": "I'll be there later",
-          "nextIds": [],
-          "kind": "Player"
+        "mission": {
+          "id": 2011104,
+          "name": "Vessel of Mediocrity (Part 2)",
+          "type": "Branch"
         }
-      },
-      "mission": {
-        "id": 2011104,
-        "name": "Vessel of Mediocrity (Part 2)",
-        "type": "Branch"
       }
-    },
-    {
-      "type": "MissionMessage",
-      "id": 1113200,
-      "startIds": [
-        111320000
-      ],
-      "messages": {
-        "111320000": {
-          "type": "Text",
-          "id": 111320000,
-          "sectionId": 1113200,
-          "senderId": 40,
-          "text": "How are you doing, {NICKNAME}?",
-          "option": null,
-          "nextIds": [
-            111320001,
-            111320003,
-            111320005
-          ],
-          "kind": "NPC"
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1113200,
+        "startIds": [
+          111320000
+        ],
+        "messages": {
+          "111320000": {
+            "type": "Text",
+            "id": 111320000,
+            "sectionId": 1113200,
+            "senderId": 40,
+            "text": "How are you doing, {NICKNAME}?",
+            "option": null,
+            "nextIds": [
+              111320001,
+              111320003,
+              111320005
+            ],
+            "kind": "NPC"
+          },
+          "111320001": {
+            "type": "Text",
+            "id": 111320001,
+            "sectionId": 1113200,
+            "senderId": null,
+            "text": "A little busy",
+            "option": "A little busy",
+            "nextIds": [
+              111320002
+            ],
+            "kind": "Player"
+          },
+          "111320002": {
+            "type": "Text",
+            "id": 111320002,
+            "sectionId": 1113200,
+            "senderId": 40,
+            "text": "Oh, we're in the same boat then",
+            "option": null,
+            "nextIds": [
+              111320007
+            ],
+            "kind": "NPC"
+          },
+          "111320007": {
+            "type": "Text",
+            "id": 111320007,
+            "sectionId": 1113200,
+            "senderId": 40,
+            "text": "Listen, {NICKNAME}... Our friendship began from our fight",
+            "option": null,
+            "nextIds": [
+              111320008
+            ],
+            "kind": "NPC"
+          },
+          "111320008": {
+            "type": "Text",
+            "id": 111320008,
+            "sectionId": 1113200,
+            "senderId": 40,
+            "text": "After the battle with you folks, I meticulously examined the security of the restricted zone",
+            "option": null,
+            "nextIds": [
+              111320009
+            ],
+            "kind": "NPC"
+          },
+          "111320009": {
+            "type": "Text",
+            "id": 111320009,
+            "sectionId": 1113200,
+            "senderId": 40,
+            "text": "I think it's time to hold a massive military exercise to raise the new recruits' vigilance and defensive awareness",
+            "option": null,
+            "nextIds": [
+              111320010,
+              111320011
+            ],
+            "kind": "NPC"
+          },
+          "111320010": {
+            "type": "Text",
+            "id": 111320010,
+            "sectionId": 1113200,
+            "senderId": null,
+            "text": "So...",
+            "option": "So...",
+            "nextIds": [
+              111320012
+            ],
+            "kind": "Player"
+          },
+          "111320012": {
+            "type": "Text",
+            "id": 111320012,
+            "sectionId": 1113200,
+            "senderId": 40,
+            "text": "I would like to invite you to be the main drillmaster and host this military exercise at the Silvermane Guard Restricted Zone",
+            "option": null,
+            "nextIds": [
+              111320013
+            ],
+            "kind": "NPC"
+          },
+          "111320013": {
+            "type": "Text",
+            "id": 111320013,
+            "sectionId": 1113200,
+            "senderId": 40,
+            "text": "Please, {NICKNAME}! The young'uns in the Silvermane Guards need your guidance",
+            "option": null,
+            "nextIds": [
+              111320014
+            ],
+            "kind": "NPC"
+          },
+          "111320014": {
+            "type": "Text",
+            "id": 111320014,
+            "sectionId": 1113200,
+            "senderId": 40,
+            "text": "Whenever you have the time, come look for me at the restricted zone",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111320011": {
+            "type": "Text",
+            "id": 111320011,
+            "sectionId": 1113200,
+            "senderId": null,
+            "text": "Then...",
+            "option": "Then...",
+            "nextIds": [
+              111320012
+            ],
+            "kind": "Player"
+          },
+          "111320003": {
+            "type": "Text",
+            "id": 111320003,
+            "sectionId": 1113200,
+            "senderId": null,
+            "text": "At least Silvermane Guards aren't on my tail anymore",
+            "option": "At least Silvermane Guards aren't on my tail anymore",
+            "nextIds": [
+              111320004
+            ],
+            "kind": "Player"
+          },
+          "111320004": {
+            "type": "Text",
+            "id": 111320004,
+            "sectionId": 1113200,
+            "senderId": 40,
+            "text": "Haha, same",
+            "option": null,
+            "nextIds": [
+              111320007
+            ],
+            "kind": "NPC"
+          },
+          "111320005": {
+            "type": "Text",
+            "id": 111320005,
+            "sectionId": 1113200,
+            "senderId": null,
+            "text": "Not bad",
+            "option": "Not bad",
+            "nextIds": [
+              111320006
+            ],
+            "kind": "Player"
+          },
+          "111320006": {
+            "type": "Text",
+            "id": 111320006,
+            "sectionId": 1113200,
+            "senderId": 40,
+            "text": "That's great",
+            "option": null,
+            "nextIds": [
+              111320007
+            ],
+            "kind": "NPC"
+          }
         },
-        "111320001": {
-          "type": "Text",
-          "id": 111320001,
-          "sectionId": 1113200,
-          "senderId": null,
-          "text": "A little busy",
-          "option": "A little busy",
-          "nextIds": [
-            111320002
-          ],
-          "kind": "Player"
-        },
-        "111320002": {
-          "type": "Text",
-          "id": 111320002,
-          "sectionId": 1113200,
-          "senderId": 40,
-          "text": "Oh, we're in the same boat then",
-          "option": null,
-          "nextIds": [
-            111320007
-          ],
-          "kind": "NPC"
-        },
-        "111320007": {
-          "type": "Text",
-          "id": 111320007,
-          "sectionId": 1113200,
-          "senderId": 40,
-          "text": "Listen, {NICKNAME}... Our friendship began from our fight",
-          "option": null,
-          "nextIds": [
-            111320008
-          ],
-          "kind": "NPC"
-        },
-        "111320008": {
-          "type": "Text",
-          "id": 111320008,
-          "sectionId": 1113200,
-          "senderId": 40,
-          "text": "After the battle with you folks, I meticulously examined the security of the restricted zone",
-          "option": null,
-          "nextIds": [
-            111320009
-          ],
-          "kind": "NPC"
-        },
-        "111320009": {
-          "type": "Text",
-          "id": 111320009,
-          "sectionId": 1113200,
-          "senderId": 40,
-          "text": "I think it's time to hold a massive military exercise to raise the new recruits' vigilance and defensive awareness",
-          "option": null,
-          "nextIds": [
-            111320010,
-            111320011
-          ],
-          "kind": "NPC"
-        },
-        "111320010": {
-          "type": "Text",
-          "id": 111320010,
-          "sectionId": 1113200,
-          "senderId": null,
-          "text": "So...",
-          "option": "So...",
-          "nextIds": [
-            111320012
-          ],
-          "kind": "Player"
-        },
-        "111320012": {
-          "type": "Text",
-          "id": 111320012,
-          "sectionId": 1113200,
-          "senderId": 40,
-          "text": "I would like to invite you to be the main drillmaster and host this military exercise at the Silvermane Guard Restricted Zone",
-          "option": null,
-          "nextIds": [
-            111320013
-          ],
-          "kind": "NPC"
-        },
-        "111320013": {
-          "type": "Text",
-          "id": 111320013,
-          "sectionId": 1113200,
-          "senderId": 40,
-          "text": "Please, {NICKNAME}! The young'uns in the Silvermane Guards need your guidance",
-          "option": null,
-          "nextIds": [
-            111320014
-          ],
-          "kind": "NPC"
-        },
-        "111320014": {
-          "type": "Text",
-          "id": 111320014,
-          "sectionId": 1113200,
-          "senderId": 40,
-          "text": "Whenever you have the time, come look for me at the restricted zone",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "111320011": {
-          "type": "Text",
-          "id": 111320011,
-          "sectionId": 1113200,
-          "senderId": null,
-          "text": "Then...",
-          "option": "Then...",
-          "nextIds": [
-            111320012
-          ],
-          "kind": "Player"
-        },
-        "111320003": {
-          "type": "Text",
-          "id": 111320003,
-          "sectionId": 1113200,
-          "senderId": null,
-          "text": "At least Silvermane Guards aren't on my tail anymore",
-          "option": "At least Silvermane Guards aren't on my tail anymore",
-          "nextIds": [
-            111320004
-          ],
-          "kind": "Player"
-        },
-        "111320004": {
-          "type": "Text",
-          "id": 111320004,
-          "sectionId": 1113200,
-          "senderId": 40,
-          "text": "Haha, same",
-          "option": null,
-          "nextIds": [
-            111320007
-          ],
-          "kind": "NPC"
-        },
-        "111320005": {
-          "type": "Text",
-          "id": 111320005,
-          "sectionId": 1113200,
-          "senderId": null,
-          "text": "Not bad",
-          "option": "Not bad",
-          "nextIds": [
-            111320006
-          ],
-          "kind": "Player"
-        },
-        "111320006": {
-          "type": "Text",
-          "id": 111320006,
-          "sectionId": 1113200,
-          "senderId": 40,
-          "text": "That's great",
-          "option": null,
-          "nextIds": [
-            111320007
-          ],
-          "kind": "NPC"
+        "mission": {
+          "id": 4081311,
+          "name": "Winter Soldiers' March",
+          "type": "Branch"
         }
-      },
-      "mission": {
-        "id": 4081311,
-        "name": "Winter Soldiers' March",
-        "type": "Branch"
       }
-    }
+    ]
   ],
   "info": {
     "id": 40,
     "name": "Dunn",
     "signature": "I've left Mechanical Fever, don't bother me",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Donne.png",
+    "iconPath": "icon/avatar/Donne.png",
     "type": 2,
     "camp": 3
   }

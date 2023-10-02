@@ -1,122 +1,124 @@
 {
   "id": 1,
   "sections": [
-    {
-      "type": "MissionMessage",
-      "id": 1010200,
-      "startIds": [
-        101020001
-      ],
-      "messages": {
-        "101020001": {
-          "type": "Text",
-          "id": 101020001,
-          "sectionId": 1010200,
-          "senderId": 1,
-          "text": "Reports from the Curio Collection Squad on the frontline state that a type of Curio called a Xenohydro has been spotted in the space station",
-          "option": null,
-          "nextIds": [
-            101020002
-          ],
-          "kind": "NPC"
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1010200,
+        "startIds": [
+          101020001
+        ],
+        "messages": {
+          "101020001": {
+            "type": "Text",
+            "id": 101020001,
+            "sectionId": 1010200,
+            "senderId": 1,
+            "text": "Reports from the Curio Collection Squad on the frontline state that a type of Curio called a Xenohydro has been spotted in the space station",
+            "option": null,
+            "nextIds": [
+              101020002
+            ],
+            "kind": "NPC"
+          },
+          "101020002": {
+            "type": "Text",
+            "id": 101020002,
+            "sectionId": 1010200,
+            "senderId": 1,
+            "text": "Mingde hereby issues a wanted notice to all Herta researchers and partners: If you have any information regarding the Xenohydro, please immediately come forward and report it to the reception hall",
+            "option": null,
+            "nextIds": [
+              101020003
+            ],
+            "kind": "NPC"
+          },
+          "101020003": {
+            "type": "Text",
+            "id": 101020003,
+            "sectionId": 1010200,
+            "senderId": 1,
+            "text": "A sizable bounty is on offer!",
+            "option": null,
+            "nextIds": [
+              101020004,
+              101020005,
+              101020006
+            ],
+            "kind": "NPC"
+          },
+          "101020004": {
+            "type": "Text",
+            "id": 101020004,
+            "sectionId": 1010200,
+            "senderId": null,
+            "text": "How much does it pay?",
+            "option": "How much does it pay?",
+            "nextIds": [
+              101020007
+            ],
+            "kind": "Player"
+          },
+          "101020007": {
+            "type": "Text",
+            "id": 101020007,
+            "sectionId": 1010200,
+            "senderId": 1,
+            "text": "A massive influx of information is coming in all at once... and yet not even a single relevant clue has been found to lead to anything...",
+            "option": null,
+            "nextIds": [
+              101020008
+            ],
+            "kind": "NPC"
+          },
+          "101020008": {
+            "type": "Text",
+            "id": 101020008,
+            "sectionId": 1010200,
+            "senderId": 1,
+            "text": "Patience, everyone. Listen to me: Carry on with your search, and go to the reception hall if you have something to discuss",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "101020005": {
+            "type": "Text",
+            "id": 101020005,
+            "sectionId": 1010200,
+            "senderId": null,
+            "text": "What's a Xenohydro?",
+            "option": "What's a Xenohydro?",
+            "nextIds": [
+              101020007
+            ],
+            "kind": "Player"
+          },
+          "101020006": {
+            "type": "Text",
+            "id": 101020006,
+            "sectionId": 1010200,
+            "senderId": null,
+            "text": "Who's Mingde?",
+            "option": "Who's Mingde?",
+            "nextIds": [
+              101020007
+            ],
+            "kind": "Player"
+          }
         },
-        "101020002": {
-          "type": "Text",
-          "id": 101020002,
-          "sectionId": 1010200,
-          "senderId": 1,
-          "text": "Mingde hereby issues a wanted notice to all Herta researchers and partners: If you have any information regarding the Xenohydro, please immediately come forward and report it to the reception hall",
-          "option": null,
-          "nextIds": [
-            101020003
-          ],
-          "kind": "NPC"
-        },
-        "101020003": {
-          "type": "Text",
-          "id": 101020003,
-          "sectionId": 1010200,
-          "senderId": 1,
-          "text": "A sizable bounty is on offer!",
-          "option": null,
-          "nextIds": [
-            101020004,
-            101020005,
-            101020006
-          ],
-          "kind": "NPC"
-        },
-        "101020004": {
-          "type": "Text",
-          "id": 101020004,
-          "sectionId": 1010200,
-          "senderId": null,
-          "text": "How much does it pay?",
-          "option": "How much does it pay?",
-          "nextIds": [
-            101020007
-          ],
-          "kind": "Player"
-        },
-        "101020007": {
-          "type": "Text",
-          "id": 101020007,
-          "sectionId": 1010200,
-          "senderId": 1,
-          "text": "A massive influx of information is coming in all at once... and yet not even a single relevant clue has been found to lead to anything...",
-          "option": null,
-          "nextIds": [
-            101020008
-          ],
-          "kind": "NPC"
-        },
-        "101020008": {
-          "type": "Text",
-          "id": 101020008,
-          "sectionId": 1010200,
-          "senderId": 1,
-          "text": "Patience, everyone. Listen to me: Carry on with your search, and go to the reception hall if you have something to discuss",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "101020005": {
-          "type": "Text",
-          "id": 101020005,
-          "sectionId": 1010200,
-          "senderId": null,
-          "text": "What's a Xenohydro?",
-          "option": "What's a Xenohydro?",
-          "nextIds": [
-            101020007
-          ],
-          "kind": "Player"
-        },
-        "101020006": {
-          "type": "Text",
-          "id": 101020006,
-          "sectionId": 1010200,
-          "senderId": null,
-          "text": "Who's Mingde?",
-          "option": "Who's Mingde?",
-          "nextIds": [
-            101020007
-          ],
-          "kind": "Player"
+        "mission": {
+          "id": 2000102,
+          "name": "Ever-Changing",
+          "type": "Branch"
         }
-      },
-      "mission": {
-        "id": 2000102,
-        "name": "Ever-Changing",
-        "type": "Branch"
       }
-    }
+    ]
   ],
   "info": {
     "id": 1,
     "name": "Wen Mingde",
     "signature": "Curio Collection Squad ready to strike at a moment's notice.",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Wenmingde.png",
+    "iconPath": "icon/avatar/Wenmingde.png",
     "type": 2,
     "camp": 2
   }

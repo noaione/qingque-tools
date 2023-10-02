@@ -1,91 +1,93 @@
 {
   "id": 61,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1212701,
-      "startIds": [
-        121270101
-      ],
-      "messages": {
-        "121270101": {
-          "type": "Text",
-          "id": 121270101,
-          "sectionId": 1212701,
-          "senderId": 61,
-          "text": "Gray Peony, did you get the stuff?",
-          "option": null,
-          "nextIds": [
-            121270102
-          ],
-          "kind": "NPC"
-        },
-        "121270102": {
-          "type": "Text",
-          "id": 121270102,
-          "sectionId": 1212701,
-          "senderId": null,
-          "text": "I've got it. Where are we meeting?",
-          "option": "Got it",
-          "nextIds": [
-            121270103
-          ],
-          "kind": "Player"
-        },
-        "121270103": {
-          "type": "Text",
-          "id": 121270103,
-          "sectionId": 1212701,
-          "senderId": 61,
-          "text": "Shh. There might be surveillance",
-          "option": null,
-          "nextIds": [
-            121270104
-          ],
-          "kind": "NPC"
-        },
-        "121270104": {
-          "type": "Text",
-          "id": 121270104,
-          "sectionId": 1212701,
-          "senderId": 61,
-          "text": "The place where we copy scripture",
-          "option": null,
-          "nextIds": [
-            121270105
-          ],
-          "kind": "NPC"
-        },
-        "121270105": {
-          "type": "Text",
-          "id": 121270105,
-          "sectionId": 1212701,
-          "senderId": 61,
-          "text": "The person in charge wants to see you ASAP",
-          "option": null,
-          "nextIds": [
-            121270106
-          ],
-          "kind": "NPC"
-        },
-        "121270106": {
-          "type": "Text",
-          "id": 121270106,
-          "sectionId": 1212701,
-          "senderId": 61,
-          "text": "Do not reply",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    [
+      {
+        "type": "Message",
+        "id": 1212701,
+        "startIds": [
+          121270101
+        ],
+        "messages": {
+          "121270101": {
+            "type": "Text",
+            "id": 121270101,
+            "sectionId": 1212701,
+            "senderId": 61,
+            "text": "Gray Peony, did you get the stuff?",
+            "option": null,
+            "nextIds": [
+              121270102
+            ],
+            "kind": "NPC"
+          },
+          "121270102": {
+            "type": "Text",
+            "id": 121270102,
+            "sectionId": 1212701,
+            "senderId": null,
+            "text": "I've got it. Where are we meeting?",
+            "option": "Got it",
+            "nextIds": [
+              121270103
+            ],
+            "kind": "Player"
+          },
+          "121270103": {
+            "type": "Text",
+            "id": 121270103,
+            "sectionId": 1212701,
+            "senderId": 61,
+            "text": "Shh. There might be surveillance",
+            "option": null,
+            "nextIds": [
+              121270104
+            ],
+            "kind": "NPC"
+          },
+          "121270104": {
+            "type": "Text",
+            "id": 121270104,
+            "sectionId": 1212701,
+            "senderId": 61,
+            "text": "The place where we copy scripture",
+            "option": null,
+            "nextIds": [
+              121270105
+            ],
+            "kind": "NPC"
+          },
+          "121270105": {
+            "type": "Text",
+            "id": 121270105,
+            "sectionId": 1212701,
+            "senderId": 61,
+            "text": "The person in charge wants to see you ASAP",
+            "option": null,
+            "nextIds": [
+              121270106
+            ],
+            "kind": "NPC"
+          },
+          "121270106": {
+            "type": "Text",
+            "id": 121270106,
+            "sectionId": 1212701,
+            "senderId": 61,
+            "text": "Do not reply",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
         }
       }
-    }
+    ]
   ],
   "info": {
     "id": 61,
     "name": "Green Hibiscus",
     "signature": null,
-    "iconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Lvfulong.png",
+    "iconPath": "icon/avatar/Lvfulong.png",
     "type": 2,
     "camp": 4
   }

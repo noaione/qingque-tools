@@ -1,1156 +1,1162 @@
 {
   "id": 1206,
   "sections": [
-    {
-      "type": "Message",
-      "id": 2006100,
-      "startIds": [
-        200610000
-      ],
-      "messages": {
-        "200610000": {
-          "type": "Text",
-          "id": 200610000,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "{NICKNAME}",
-          "option": null,
-          "nextIds": [
-            200610031
-          ],
-          "kind": "NPC"
-        },
-        "200610031": {
-          "type": "Text",
-          "id": 200610031,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "I finally got a hold of you",
-          "option": null,
-          "nextIds": [
-            200610032
-          ],
-          "kind": "NPC"
-        },
-        "200610032": {
-          "type": "Text",
-          "id": 200610032,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "I hear you came to the Luofu from beyond the Alliance?",
-          "option": null,
-          "nextIds": [
-            200610033
-          ],
-          "kind": "NPC"
-        },
-        "200610033": {
-          "type": "Text",
-          "id": 200610033,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "Can you help me",
-          "option": null,
-          "nextIds": [
-            200610001
-          ],
-          "kind": "NPC"
-        },
-        "200610001": {
-          "type": "Text",
-          "id": 200610001,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "I'm so annoyed",
-          "option": null,
-          "nextIds": [
-            200610002
-          ],
-          "kind": "NPC"
-        },
-        "200610002": {
-          "type": "Text",
-          "id": 200610002,
-          "sectionId": 2006100,
-          "senderId": null,
-          "text": "How come",
-          "option": "How come",
-          "nextIds": [
-            200610003
-          ],
-          "kind": "Player"
-        },
-        "200610003": {
-          "type": "Text",
-          "id": 200610003,
-          "sectionId": 2006100,
-          "senderId": null,
-          "text": "Tell me",
-          "option": null,
-          "nextIds": [
-            200610004
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200610004": {
-          "type": "Sticker",
-          "id": 200610004,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "[cry]",
-          "option": null,
-          "nextIds": [
-            200610005
-          ],
-          "kind": "NPC",
-          "sticker": {
-            "id": 20005,
-            "path": "SpriteOutput/Emoji/20005.png",
-            "keywords": "Crying"
+    [
+      {
+        "type": "Message",
+        "id": 2006100,
+        "startIds": [
+          200610000
+        ],
+        "messages": {
+          "200610000": {
+            "type": "Text",
+            "id": 200610000,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              200610031
+            ],
+            "kind": "NPC"
+          },
+          "200610031": {
+            "type": "Text",
+            "id": 200610031,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "I finally got a hold of you",
+            "option": null,
+            "nextIds": [
+              200610032
+            ],
+            "kind": "NPC"
+          },
+          "200610032": {
+            "type": "Text",
+            "id": 200610032,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "I hear you came to the Luofu from beyond the Alliance?",
+            "option": null,
+            "nextIds": [
+              200610033
+            ],
+            "kind": "NPC"
+          },
+          "200610033": {
+            "type": "Text",
+            "id": 200610033,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "Can you help me",
+            "option": null,
+            "nextIds": [
+              200610001
+            ],
+            "kind": "NPC"
+          },
+          "200610001": {
+            "type": "Text",
+            "id": 200610001,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "I'm so annoyed",
+            "option": null,
+            "nextIds": [
+              200610002
+            ],
+            "kind": "NPC"
+          },
+          "200610002": {
+            "type": "Text",
+            "id": 200610002,
+            "sectionId": 2006100,
+            "senderId": null,
+            "text": "How come",
+            "option": "How come",
+            "nextIds": [
+              200610003
+            ],
+            "kind": "Player"
+          },
+          "200610003": {
+            "type": "Text",
+            "id": 200610003,
+            "sectionId": 2006100,
+            "senderId": null,
+            "text": "Tell me",
+            "option": null,
+            "nextIds": [
+              200610004
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200610004": {
+            "type": "Sticker",
+            "id": 200610004,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "[cry]",
+            "option": null,
+            "nextIds": [
+              200610005
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "200610005": {
+            "type": "Text",
+            "id": 200610005,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "I've been in the Luofu Cloud Knights for a while now",
+            "option": null,
+            "nextIds": [
+              200610006
+            ],
+            "kind": "NPC"
+          },
+          "200610006": {
+            "type": "Text",
+            "id": 200610006,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "Aside from the daily patrols, I pretty much have done nothing",
+            "option": null,
+            "nextIds": [
+              200610007
+            ],
+            "kind": "NPC"
+          },
+          "200610007": {
+            "type": "Text",
+            "id": 200610007,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "When will I be able to become a competent Cloud Knight?",
+            "option": null,
+            "nextIds": [
+              200610008,
+              200610011
+            ],
+            "kind": "NPC"
+          },
+          "200610008": {
+            "type": "Text",
+            "id": 200610008,
+            "sectionId": 2006100,
+            "senderId": null,
+            "text": "Just patrol diligently and complete your daily tasks. You're competent enough",
+            "option": "You're competent enough",
+            "nextIds": [
+              200610009
+            ],
+            "kind": "Player"
+          },
+          "200610009": {
+            "type": "Text",
+            "id": 200610009,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "It's not like that. Everyone dreams of being a legend",
+            "option": null,
+            "nextIds": [
+              200610010
+            ],
+            "kind": "NPC"
+          },
+          "200610010": {
+            "type": "Text",
+            "id": 200610010,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "I grew up listening to my mom talking about the heroes among the Cloud Knights' ranks, so it makes sense for me to dream of greatness",
+            "option": null,
+            "nextIds": [
+              200610014
+            ],
+            "kind": "NPC"
+          },
+          "200610014": {
+            "type": "Text",
+            "id": 200610014,
+            "sectionId": 2006100,
+            "senderId": null,
+            "text": "If you're so keen on helping people, why don't you join the Nameless?",
+            "option": "Come join the Nameless!",
+            "nextIds": [
+              200610015
+            ],
+            "kind": "Player"
+          },
+          "200610015": {
+            "type": "Text",
+            "id": 200610015,
+            "sectionId": 2006100,
+            "senderId": null,
+            "text": "There will be requests and assignments every day, it's almost impossible to finish them all",
+            "option": null,
+            "nextIds": [
+              200610016
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200610016": {
+            "type": "Sticker",
+            "id": 200610016,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "[Shocked]",
+            "option": null,
+            "nextIds": [
+              200610017
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "200610017": {
+            "type": "Text",
+            "id": 200610017,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "That's such a thrill!",
+            "option": null,
+            "nextIds": [
+              200610018
+            ],
+            "kind": "NPC"
+          },
+          "200610018": {
+            "type": "Text",
+            "id": 200610018,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "I want to be a Nameless",
+            "option": null,
+            "nextIds": [
+              200610019
+            ],
+            "kind": "NPC"
+          },
+          "200610019": {
+            "type": "Text",
+            "id": 200610019,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "What kind of requests are there? Can I have a look?",
+            "option": null,
+            "nextIds": [
+              200610020
+            ],
+            "kind": "NPC"
+          },
+          "200610020": {
+            "type": "Text",
+            "id": 200610020,
+            "sectionId": 2006100,
+            "senderId": null,
+            "text": "Attachment <i>Root Out the Turpitude</i> has been sent",
+            "option": null,
+            "nextIds": [
+              200610021
+            ],
+            "kind": "System"
+          },
+          "200610021": {
+            "type": "Text",
+            "id": 200610021,
+            "sectionId": 2006100,
+            "senderId": null,
+            "text": "Attachment <i>Root Out the Turpitude</i> has been received",
+            "option": null,
+            "nextIds": [
+              200610022
+            ],
+            "kind": "System"
+          },
+          "200610022": {
+            "type": "Text",
+            "id": 200610022,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "What does turpitude mean",
+            "option": null,
+            "nextIds": [
+              200610023
+            ],
+            "kind": "NPC"
+          },
+          "200610023": {
+            "type": "Text",
+            "id": 200610023,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "Oh, I found it",
+            "option": null,
+            "nextIds": [
+              200610024
+            ],
+            "kind": "NPC"
+          },
+          "200610024": {
+            "type": "Text",
+            "id": 200610024,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "Why is the title of the assignment so high in gluten",
+            "option": null,
+            "nextIds": [
+              200610025
+            ],
+            "kind": "NPC"
+          },
+          "200610025": {
+            "type": "Text",
+            "id": 200610025,
+            "sectionId": 2006100,
+            "senderId": null,
+            "text": "It's highfalutin...",
+            "option": "It's highfalutin...",
+            "nextIds": [
+              200610026
+            ],
+            "kind": "Player"
+          },
+          "200610026": {
+            "type": "Text",
+            "id": 200610026,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "Oh",
+            "option": null,
+            "nextIds": [
+              200610027
+            ],
+            "kind": "NPC"
+          },
+          "200610027": {
+            "type": "Text",
+            "id": 200610027,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "Oh, is it",
+            "option": null,
+            "nextIds": [
+              200610028
+            ],
+            "kind": "NPC"
+          },
+          "200610028": {
+            "type": "Text",
+            "id": 200610028,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "You know a lot",
+            "option": null,
+            "nextIds": [
+              200610029
+            ],
+            "kind": "NPC"
+          },
+          "200610029": {
+            "type": "Text",
+            "id": 200610029,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "It's hard being a Nameless!",
+            "option": null,
+            "nextIds": [
+              200610030
+            ],
+            "kind": "NPC"
+          },
+          "200610030": {
+            "type": "Sticker",
+            "id": 200610030,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "[cry]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "200610011": {
+            "type": "Text",
+            "id": 200610011,
+            "sectionId": 2006100,
+            "senderId": null,
+            "text": "Peace is a good thing. It means your patrols are working",
+            "option": "Having peace is good",
+            "nextIds": [
+              200610012
+            ],
+            "kind": "Player"
+          },
+          "200610012": {
+            "type": "Text",
+            "id": 200610012,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "I know~",
+            "option": null,
+            "nextIds": [
+              200610013
+            ],
+            "kind": "NPC"
+          },
+          "200610013": {
+            "type": "Text",
+            "id": 200610013,
+            "sectionId": 2006100,
+            "senderId": 1206,
+            "text": "I grew up listening to my mom talking about the heroes among the Cloud Knights' ranks, so it makes sense for me to dream of greatness...",
+            "option": null,
+            "nextIds": [
+              200610014
+            ],
+            "kind": "NPC"
           }
-        },
-        "200610005": {
-          "type": "Text",
-          "id": 200610005,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "I've been in the Luofu Cloud Knights for a while now",
-          "option": null,
-          "nextIds": [
-            200610006
-          ],
-          "kind": "NPC"
-        },
-        "200610006": {
-          "type": "Text",
-          "id": 200610006,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "Aside from the daily patrols, I pretty much have done nothing",
-          "option": null,
-          "nextIds": [
-            200610007
-          ],
-          "kind": "NPC"
-        },
-        "200610007": {
-          "type": "Text",
-          "id": 200610007,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "When will I be able to become a competent Cloud Knight?",
-          "option": null,
-          "nextIds": [
-            200610008,
-            200610011
-          ],
-          "kind": "NPC"
-        },
-        "200610008": {
-          "type": "Text",
-          "id": 200610008,
-          "sectionId": 2006100,
-          "senderId": null,
-          "text": "Just patrol diligently and complete your daily tasks. You're competent enough",
-          "option": "You're competent enough",
-          "nextIds": [
-            200610009
-          ],
-          "kind": "Player"
-        },
-        "200610009": {
-          "type": "Text",
-          "id": 200610009,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "It's not like that. Everyone dreams of being a legend",
-          "option": null,
-          "nextIds": [
-            200610010
-          ],
-          "kind": "NPC"
-        },
-        "200610010": {
-          "type": "Text",
-          "id": 200610010,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "I grew up listening to my mom talking about the heroes among the Cloud Knights' ranks, so it makes sense for me to dream of greatness",
-          "option": null,
-          "nextIds": [
-            200610014
-          ],
-          "kind": "NPC"
-        },
-        "200610014": {
-          "type": "Text",
-          "id": 200610014,
-          "sectionId": 2006100,
-          "senderId": null,
-          "text": "If you're so keen on helping people, why don't you join the Nameless?",
-          "option": "Come join the Nameless!",
-          "nextIds": [
-            200610015
-          ],
-          "kind": "Player"
-        },
-        "200610015": {
-          "type": "Text",
-          "id": 200610015,
-          "sectionId": 2006100,
-          "senderId": null,
-          "text": "There will be requests and assignments every day, it's almost impossible to finish them all",
-          "option": null,
-          "nextIds": [
-            200610016
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200610016": {
-          "type": "Sticker",
-          "id": 200610016,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "[Shocked]",
-          "option": null,
-          "nextIds": [
-            200610017
-          ],
-          "kind": "NPC",
-          "sticker": {
-            "id": 20008,
-            "path": "SpriteOutput/Emoji/20008.png",
-            "keywords": "Shocked"
-          }
-        },
-        "200610017": {
-          "type": "Text",
-          "id": 200610017,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "That's such a thrill!",
-          "option": null,
-          "nextIds": [
-            200610018
-          ],
-          "kind": "NPC"
-        },
-        "200610018": {
-          "type": "Text",
-          "id": 200610018,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "I want to be a Nameless",
-          "option": null,
-          "nextIds": [
-            200610019
-          ],
-          "kind": "NPC"
-        },
-        "200610019": {
-          "type": "Text",
-          "id": 200610019,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "What kind of requests are there? Can I have a look?",
-          "option": null,
-          "nextIds": [
-            200610020
-          ],
-          "kind": "NPC"
-        },
-        "200610020": {
-          "type": "Text",
-          "id": 200610020,
-          "sectionId": 2006100,
-          "senderId": null,
-          "text": "Attachment <i>Root Out the Turpitude</i> has been sent",
-          "option": null,
-          "nextIds": [
-            200610021
-          ],
-          "kind": "System"
-        },
-        "200610021": {
-          "type": "Text",
-          "id": 200610021,
-          "sectionId": 2006100,
-          "senderId": null,
-          "text": "Attachment <i>Root Out the Turpitude</i> has been received",
-          "option": null,
-          "nextIds": [
-            200610022
-          ],
-          "kind": "System"
-        },
-        "200610022": {
-          "type": "Text",
-          "id": 200610022,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "What does turpitude mean",
-          "option": null,
-          "nextIds": [
-            200610023
-          ],
-          "kind": "NPC"
-        },
-        "200610023": {
-          "type": "Text",
-          "id": 200610023,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "Oh, I found it",
-          "option": null,
-          "nextIds": [
-            200610024
-          ],
-          "kind": "NPC"
-        },
-        "200610024": {
-          "type": "Text",
-          "id": 200610024,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "Why is the title of the assignment so high in gluten",
-          "option": null,
-          "nextIds": [
-            200610025
-          ],
-          "kind": "NPC"
-        },
-        "200610025": {
-          "type": "Text",
-          "id": 200610025,
-          "sectionId": 2006100,
-          "senderId": null,
-          "text": "It's highfalutin...",
-          "option": "It's highfalutin...",
-          "nextIds": [
-            200610026
-          ],
-          "kind": "Player"
-        },
-        "200610026": {
-          "type": "Text",
-          "id": 200610026,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "Oh",
-          "option": null,
-          "nextIds": [
-            200610027
-          ],
-          "kind": "NPC"
-        },
-        "200610027": {
-          "type": "Text",
-          "id": 200610027,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "Oh, is it",
-          "option": null,
-          "nextIds": [
-            200610028
-          ],
-          "kind": "NPC"
-        },
-        "200610028": {
-          "type": "Text",
-          "id": 200610028,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "You know a lot",
-          "option": null,
-          "nextIds": [
-            200610029
-          ],
-          "kind": "NPC"
-        },
-        "200610029": {
-          "type": "Text",
-          "id": 200610029,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "It's hard being a Nameless!",
-          "option": null,
-          "nextIds": [
-            200610030
-          ],
-          "kind": "NPC"
-        },
-        "200610030": {
-          "type": "Sticker",
-          "id": 200610030,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "[cry]",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC",
-          "sticker": {
-            "id": 20005,
-            "path": "SpriteOutput/Emoji/20005.png",
-            "keywords": "Crying"
-          }
-        },
-        "200610011": {
-          "type": "Text",
-          "id": 200610011,
-          "sectionId": 2006100,
-          "senderId": null,
-          "text": "Peace is a good thing. It means your patrols are working",
-          "option": "Having peace is good",
-          "nextIds": [
-            200610012
-          ],
-          "kind": "Player"
-        },
-        "200610012": {
-          "type": "Text",
-          "id": 200610012,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "I know~",
-          "option": null,
-          "nextIds": [
-            200610013
-          ],
-          "kind": "NPC"
-        },
-        "200610013": {
-          "type": "Text",
-          "id": 200610013,
-          "sectionId": 2006100,
-          "senderId": 1206,
-          "text": "I grew up listening to my mom talking about the heroes among the Cloud Knights' ranks, so it makes sense for me to dream of greatness...",
-          "option": null,
-          "nextIds": [
-            200610014
-          ],
-          "kind": "NPC"
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 2006200,
-      "startIds": [
-        200620000
-      ],
-      "messages": {
-        "200620000": {
-          "type": "Text",
-          "id": 200620000,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "{NICKNAME}",
-          "option": null,
-          "nextIds": [
-            200620001
-          ],
-          "kind": "NPC"
-        },
-        "200620001": {
-          "type": "Text",
-          "id": 200620001,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "Do you know Yanqing?",
-          "option": null,
-          "nextIds": [
-            200620002,
-            200620024,
-            200620006
-          ],
-          "kind": "NPC"
-        },
-        "200620002": {
-          "type": "Text",
-          "id": 200620002,
-          "sectionId": 2006200,
-          "senderId": null,
-          "text": "I have heard of his name",
-          "option": "I've heard of him",
-          "nextIds": [
-            200620003
-          ],
-          "kind": "Player"
-        },
-        "200620003": {
-          "type": "Text",
-          "id": 200620003,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "He's the golden child of the Cloud Knights",
-          "option": null,
-          "nextIds": [
-            200620012
-          ],
-          "kind": "NPC"
-        },
-        "200620012": {
-          "type": "Text",
-          "id": 200620012,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "I witnessed his sword practice today. I can't even follow his movement with my eyes! I'm so shocked",
-          "option": null,
-          "nextIds": [
-            200620013
-          ],
-          "kind": "NPC"
-        },
-        "200620013": {
-          "type": "Text",
-          "id": 200620013,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "He's so young! How come he's already so impressive",
-          "option": null,
-          "nextIds": [
-            200620014,
-            200620017
-          ],
-          "kind": "NPC"
-        },
-        "200620014": {
-          "type": "Text",
-          "id": 200620014,
-          "sectionId": 2006200,
-          "senderId": null,
-          "text": "Could he be one of those martial prodigies?",
-          "option": "Is he a prodigy",
-          "nextIds": [
-            200620015
-          ],
-          "kind": "Player"
-        },
-        "200620015": {
-          "type": "Text",
-          "id": 200620015,
-          "sectionId": 2006200,
-          "senderId": null,
-          "text": "Maybe he just has the physical affinity for battle",
-          "option": null,
-          "nextIds": [
-            200620016
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200620016": {
-          "type": "Text",
-          "id": 200620016,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "That sounds right, yeah!",
-          "option": null,
-          "nextIds": [
-            200620020
-          ],
-          "kind": "NPC"
-        },
-        "200620020": {
-          "type": "Text",
-          "id": 200620020,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "But now that I've thought about it, the way he wields his sword kinda feels similar to how my mom does it",
-          "option": null,
-          "nextIds": [
-            200620021
-          ],
-          "kind": "NPC"
-        },
-        "200620021": {
-          "type": "Text",
-          "id": 200620021,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "I should ask him for tips",
-          "option": null,
-          "nextIds": [
-            200620022
-          ],
-          "kind": "NPC"
-        },
-        "200620022": {
-          "type": "Text",
-          "id": 200620022,
-          "sectionId": 2006200,
-          "senderId": null,
-          "text": "I'm willing to accompany you!",
-          "option": "I'm willing to accompany you!",
-          "nextIds": [
-            200620023
-          ],
-          "kind": "Player"
-        },
-        "200620023": {
-          "type": "Text",
-          "id": 200620023,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "Alright!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200620017": {
-          "type": "Text",
-          "id": 200620017,
-          "sectionId": 2006200,
-          "senderId": null,
-          "text": "Could it be due to General Jing Yuan's personal coaching",
-          "option": "Is it because of Jing Yuan's teaching",
-          "nextIds": [
-            200620018
-          ],
-          "kind": "Player"
-        },
-        "200620018": {
-          "type": "Text",
-          "id": 200620018,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "I guess that's what it means by \"standing on the shoulder of giants\"",
-          "option": null,
-          "nextIds": [
-            200620019
-          ],
-          "kind": "NPC"
-        },
-        "200620019": {
-          "type": "Text",
-          "id": 200620019,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "My mom's a Cloud Knight too, and she forced me to practice since I was young, so why am I not as good as him...?",
-          "option": null,
-          "nextIds": [
-            200620020
-          ],
-          "kind": "NPC"
-        },
-        "200620024": {
-          "type": "Text",
-          "id": 200620024,
-          "sectionId": 2006200,
-          "senderId": null,
-          "text": "We traded blows a few times",
-          "option": "We've traded blows",
-          "nextIds": [
-            200620025
-          ],
-          "kind": "Player"
-        },
-        "200620025": {
-          "type": "Text",
-          "id": 200620025,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "What? You fought with the golden child of the Cloud Knights?",
-          "option": null,
-          "nextIds": [
-            200620026
-          ],
-          "kind": "NPC"
-        },
-        "200620026": {
-          "type": "Text",
-          "id": 200620026,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "I don't believe you...",
-          "option": null,
-          "nextIds": [
-            200620012
-          ],
-          "kind": "NPC"
-        },
-        "200620006": {
-          "type": "Text",
-          "id": 200620006,
-          "sectionId": 2006200,
-          "senderId": null,
-          "text": "Who's Yanqing...",
-          "option": "Who's Yanqing",
-          "nextIds": [
-            200620007
-          ],
-          "kind": "Player"
-        },
-        "200620007": {
-          "type": "Sticker",
-          "id": 200620007,
-          "sectionId": 2006200,
-          "senderId": null,
-          "text": "[Confused]",
-          "option": null,
-          "nextIds": [
-            200620008
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20007,
-            "path": "SpriteOutput/Emoji/20007.png",
-            "keywords": "Puzzled"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2006200,
+        "startIds": [
+          200620000
+        ],
+        "messages": {
+          "200620000": {
+            "type": "Text",
+            "id": 200620000,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              200620001
+            ],
+            "kind": "NPC"
+          },
+          "200620001": {
+            "type": "Text",
+            "id": 200620001,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "Do you know Yanqing?",
+            "option": null,
+            "nextIds": [
+              200620002,
+              200620024,
+              200620006
+            ],
+            "kind": "NPC"
+          },
+          "200620002": {
+            "type": "Text",
+            "id": 200620002,
+            "sectionId": 2006200,
+            "senderId": null,
+            "text": "I have heard of his name",
+            "option": "I've heard of him",
+            "nextIds": [
+              200620003
+            ],
+            "kind": "Player"
+          },
+          "200620003": {
+            "type": "Text",
+            "id": 200620003,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "He's the golden child of the Cloud Knights",
+            "option": null,
+            "nextIds": [
+              200620012
+            ],
+            "kind": "NPC"
+          },
+          "200620012": {
+            "type": "Text",
+            "id": 200620012,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "I witnessed his sword practice today. I can't even follow his movement with my eyes! I'm so shocked",
+            "option": null,
+            "nextIds": [
+              200620013
+            ],
+            "kind": "NPC"
+          },
+          "200620013": {
+            "type": "Text",
+            "id": 200620013,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "He's so young! How come he's already so impressive",
+            "option": null,
+            "nextIds": [
+              200620014,
+              200620017
+            ],
+            "kind": "NPC"
+          },
+          "200620014": {
+            "type": "Text",
+            "id": 200620014,
+            "sectionId": 2006200,
+            "senderId": null,
+            "text": "Could he be one of those martial prodigies?",
+            "option": "Is he a prodigy",
+            "nextIds": [
+              200620015
+            ],
+            "kind": "Player"
+          },
+          "200620015": {
+            "type": "Text",
+            "id": 200620015,
+            "sectionId": 2006200,
+            "senderId": null,
+            "text": "Maybe he just has the physical affinity for battle",
+            "option": null,
+            "nextIds": [
+              200620016
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200620016": {
+            "type": "Text",
+            "id": 200620016,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "That sounds right, yeah!",
+            "option": null,
+            "nextIds": [
+              200620020
+            ],
+            "kind": "NPC"
+          },
+          "200620020": {
+            "type": "Text",
+            "id": 200620020,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "But now that I've thought about it, the way he wields his sword kinda feels similar to how my mom does it",
+            "option": null,
+            "nextIds": [
+              200620021
+            ],
+            "kind": "NPC"
+          },
+          "200620021": {
+            "type": "Text",
+            "id": 200620021,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "I should ask him for tips",
+            "option": null,
+            "nextIds": [
+              200620022
+            ],
+            "kind": "NPC"
+          },
+          "200620022": {
+            "type": "Text",
+            "id": 200620022,
+            "sectionId": 2006200,
+            "senderId": null,
+            "text": "I'm willing to accompany you!",
+            "option": "I'm willing to accompany you!",
+            "nextIds": [
+              200620023
+            ],
+            "kind": "Player"
+          },
+          "200620023": {
+            "type": "Text",
+            "id": 200620023,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "Alright!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200620017": {
+            "type": "Text",
+            "id": 200620017,
+            "sectionId": 2006200,
+            "senderId": null,
+            "text": "Could it be due to General Jing Yuan's personal coaching",
+            "option": "Is it because of Jing Yuan's teaching",
+            "nextIds": [
+              200620018
+            ],
+            "kind": "Player"
+          },
+          "200620018": {
+            "type": "Text",
+            "id": 200620018,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "I guess that's what it means by \"standing on the shoulder of giants\"",
+            "option": null,
+            "nextIds": [
+              200620019
+            ],
+            "kind": "NPC"
+          },
+          "200620019": {
+            "type": "Text",
+            "id": 200620019,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "My mom's a Cloud Knight too, and she forced me to practice since I was young, so why am I not as good as him...?",
+            "option": null,
+            "nextIds": [
+              200620020
+            ],
+            "kind": "NPC"
+          },
+          "200620024": {
+            "type": "Text",
+            "id": 200620024,
+            "sectionId": 2006200,
+            "senderId": null,
+            "text": "We traded blows a few times",
+            "option": "We've traded blows",
+            "nextIds": [
+              200620025
+            ],
+            "kind": "Player"
+          },
+          "200620025": {
+            "type": "Text",
+            "id": 200620025,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "What? You fought with the golden child of the Cloud Knights?",
+            "option": null,
+            "nextIds": [
+              200620026
+            ],
+            "kind": "NPC"
+          },
+          "200620026": {
+            "type": "Text",
+            "id": 200620026,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "I don't believe you...",
+            "option": null,
+            "nextIds": [
+              200620012
+            ],
+            "kind": "NPC"
+          },
+          "200620006": {
+            "type": "Text",
+            "id": 200620006,
+            "sectionId": 2006200,
+            "senderId": null,
+            "text": "Who's Yanqing...",
+            "option": "Who's Yanqing",
+            "nextIds": [
+              200620007
+            ],
+            "kind": "Player"
+          },
+          "200620007": {
+            "type": "Sticker",
+            "id": 200620007,
+            "sectionId": 2006200,
+            "senderId": null,
+            "text": "[Confused]",
+            "option": null,
+            "nextIds": [
+              200620008
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200620008": {
+            "type": "Text",
+            "id": 200620008,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "You must know him",
+            "option": null,
+            "nextIds": [
+              200620009
+            ],
+            "kind": "NPC"
+          },
+          "200620009": {
+            "type": "Text",
+            "id": 200620009,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "It's that kid following General Jing Yuan around",
+            "option": null,
+            "nextIds": [
+              200620010
+            ],
+            "kind": "NPC"
+          },
+          "200620010": {
+            "type": "Text",
+            "id": 200620010,
+            "sectionId": 2006200,
+            "senderId": null,
+            "text": "The general's guard?",
+            "option": "The general's guard?",
+            "nextIds": [
+              200620011
+            ],
+            "kind": "Player"
+          },
+          "200620011": {
+            "type": "Text",
+            "id": 200620011,
+            "sectionId": 2006200,
+            "senderId": 1206,
+            "text": "That's him. He's the golden child of the Cloud Knights!",
+            "option": null,
+            "nextIds": [
+              200620012
+            ],
+            "kind": "NPC"
           }
-        },
-        "200620008": {
-          "type": "Text",
-          "id": 200620008,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "You must know him",
-          "option": null,
-          "nextIds": [
-            200620009
-          ],
-          "kind": "NPC"
-        },
-        "200620009": {
-          "type": "Text",
-          "id": 200620009,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "It's that kid following General Jing Yuan around",
-          "option": null,
-          "nextIds": [
-            200620010
-          ],
-          "kind": "NPC"
-        },
-        "200620010": {
-          "type": "Text",
-          "id": 200620010,
-          "sectionId": 2006200,
-          "senderId": null,
-          "text": "The general's guard?",
-          "option": "The general's guard?",
-          "nextIds": [
-            200620011
-          ],
-          "kind": "Player"
-        },
-        "200620011": {
-          "type": "Text",
-          "id": 200620011,
-          "sectionId": 2006200,
-          "senderId": 1206,
-          "text": "That's him. He's the golden child of the Cloud Knights!",
-          "option": null,
-          "nextIds": [
-            200620012
-          ],
-          "kind": "NPC"
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 2006300,
-      "startIds": [
-        200630000
-      ],
-      "messages": {
-        "200630000": {
-          "type": "Text",
-          "id": 200630000,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "What an awkward day...",
-          "option": null,
-          "nextIds": [
-            200630001
-          ],
-          "kind": "NPC"
-        },
-        "200630001": {
-          "type": "Text",
-          "id": 200630001,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "I wanted to go to the Sleepless Earl to listen to stories, and guess what.",
-          "option": null,
-          "nextIds": [
-            200630003
-          ],
-          "kind": "NPC"
-        },
-        "200630003": {
-          "type": "Text",
-          "id": 200630003,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "What?",
-          "option": "What?",
-          "nextIds": [
-            200630002
-          ],
-          "kind": "Player"
-        },
-        "200630002": {
-          "type": "Sticker",
-          "id": 200630002,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "[confused]",
-          "option": "What?",
-          "nextIds": [
-            200630004
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20007,
-            "path": "SpriteOutput/Emoji/20007.png",
-            "keywords": "Puzzled"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2006300,
+        "startIds": [
+          200630000
+        ],
+        "messages": {
+          "200630000": {
+            "type": "Text",
+            "id": 200630000,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "What an awkward day...",
+            "option": null,
+            "nextIds": [
+              200630001
+            ],
+            "kind": "NPC"
+          },
+          "200630001": {
+            "type": "Text",
+            "id": 200630001,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "I wanted to go to the Sleepless Earl to listen to stories, and guess what.",
+            "option": null,
+            "nextIds": [
+              200630003
+            ],
+            "kind": "NPC"
+          },
+          "200630003": {
+            "type": "Text",
+            "id": 200630003,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "What?",
+            "option": "What?",
+            "nextIds": [
+              200630002
+            ],
+            "kind": "Player"
+          },
+          "200630002": {
+            "type": "Sticker",
+            "id": 200630002,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "[confused]",
+            "option": "What?",
+            "nextIds": [
+              200630004
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200630004": {
+            "type": "Text",
+            "id": 200630004,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "I met my old abecedary who taught me in the lyceum!",
+            "option": null,
+            "nextIds": [
+              200630005
+            ],
+            "kind": "NPC"
+          },
+          "200630005": {
+            "type": "Text",
+            "id": 200630005,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "I didn't know he's at the Luofu right now, what rotten luck...",
+            "option": null,
+            "nextIds": [
+              200630006
+            ],
+            "kind": "NPC"
+          },
+          "200630006": {
+            "type": "Sticker",
+            "id": 200630006,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "[cry]",
+            "option": null,
+            "nextIds": [
+              200630007,
+              200630012
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "200630007": {
+            "type": "Text",
+            "id": 200630007,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "I thought meeting old teachers is a good thing?",
+            "option": "Why is it bad luck",
+            "nextIds": [
+              200630008
+            ],
+            "kind": "Player"
+          },
+          "200630008": {
+            "type": "Text",
+            "id": 200630008,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "Why is it bad luck?",
+            "option": null,
+            "nextIds": [
+              200630009
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200630009": {
+            "type": "Sticker",
+            "id": 200630009,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "[confused]",
+            "option": null,
+            "nextIds": [
+              200630010
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200630010": {
+            "type": "Text",
+            "id": 200630010,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "Oh, wouldn't you know!",
+            "option": null,
+            "nextIds": [
+              200630011
+            ],
+            "kind": "NPC"
+          },
+          "200630011": {
+            "type": "Text",
+            "id": 200630011,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "When I was still studying, he barely ever acknowledged me.",
+            "option": null,
+            "nextIds": [
+              200630019
+            ],
+            "kind": "NPC"
+          },
+          "200630019": {
+            "type": "Text",
+            "id": 200630019,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "*sigh* I really didn't want to remember that. It's so awkward.",
+            "option": null,
+            "nextIds": [
+              200630020
+            ],
+            "kind": "NPC"
+          },
+          "200630020": {
+            "type": "Text",
+            "id": 200630020,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "Tell me, share the awkwardness",
+            "option": "Tell me",
+            "nextIds": [
+              200630021
+            ],
+            "kind": "Player"
+          },
+          "200630021": {
+            "type": "Text",
+            "id": 200630021,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "So I was raised in a military family, and my mom is very strict about me practicing my martial skills.",
+            "option": null,
+            "nextIds": [
+              200630022
+            ],
+            "kind": "NPC"
+          },
+          "200630022": {
+            "type": "Text",
+            "id": 200630022,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "So I had to get up to spar with her before the crack of dawn, then go to the lyceum after that.",
+            "option": null,
+            "nextIds": [
+              200630023
+            ],
+            "kind": "NPC"
+          },
+          "200630023": {
+            "type": "Text",
+            "id": 200630023,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "But by that point, I'm exhausted. I couldn't even hear anything the abecedary said without falling asleep.",
+            "option": null,
+            "nextIds": [
+              200630024
+            ],
+            "kind": "NPC"
+          },
+          "200630024": {
+            "type": "Text",
+            "id": 200630024,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "Just now, when he saw me, he yelled, \"Hey, isn't this Sleepy Sushang?\"",
+            "option": null,
+            "nextIds": [
+              200630025
+            ],
+            "kind": "NPC"
+          },
+          "200630025": {
+            "type": "Text",
+            "id": 200630025,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "Everyone on the street immediately started staring at me, I was just so embarrassed.",
+            "option": null,
+            "nextIds": [
+              200630026
+            ],
+            "kind": "NPC"
+          },
+          "200630026": {
+            "type": "Sticker",
+            "id": 200630026,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "[cry]",
+            "option": null,
+            "nextIds": [
+              200630027
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "200630027": {
+            "type": "Text",
+            "id": 200630027,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "It is quite embarrassing",
+            "option": "It is quite embarrassing",
+            "nextIds": [
+              200630028
+            ],
+            "kind": "Player"
+          },
+          "200630028": {
+            "type": "Sticker",
+            "id": 200630028,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "[Shocked]",
+            "option": null,
+            "nextIds": [
+              200630029
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "200630029": {
+            "type": "Text",
+            "id": 200630029,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "*sigh* I hope I won't run into him ever again...",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200630012": {
+            "type": "Text",
+            "id": 200630012,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "What's a lyceum? And what's abecedary?",
+            "option": "Lyceum? Abecedary?",
+            "nextIds": [
+              200630013
+            ],
+            "kind": "Player"
+          },
+          "200630013": {
+            "type": "Text",
+            "id": 200630013,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "I'm an alien, I don't know these words",
+            "option": null,
+            "nextIds": [
+              200630014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200630014": {
+            "type": "Sticker",
+            "id": 200630014,
+            "sectionId": 2006300,
+            "senderId": null,
+            "text": "[confused]",
+            "option": null,
+            "nextIds": [
+              200630015
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200630015": {
+            "type": "Text",
+            "id": 200630015,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "Oh, it's nothing. I probably don't know much more than you do anyway",
+            "option": null,
+            "nextIds": [
+              200630016
+            ],
+            "kind": "NPC"
+          },
+          "200630016": {
+            "type": "Text",
+            "id": 200630016,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "Let me think about how to explain it to you, hold on.",
+            "option": null,
+            "nextIds": [
+              200630017
+            ],
+            "kind": "NPC"
+          },
+          "200630017": {
+            "type": "Text",
+            "id": 200630017,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "Oh right!",
+            "option": null,
+            "nextIds": [
+              200630018
+            ],
+            "kind": "NPC"
+          },
+          "200630018": {
+            "type": "Text",
+            "id": 200630018,
+            "sectionId": 2006300,
+            "senderId": 1206,
+            "text": "A lyceum is a school, and an abecedary is a teacher.",
+            "option": null,
+            "nextIds": [
+              200630019
+            ],
+            "kind": "NPC"
           }
-        },
-        "200630004": {
-          "type": "Text",
-          "id": 200630004,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "I met my old abecedary who taught me in the lyceum!",
-          "option": null,
-          "nextIds": [
-            200630005
-          ],
-          "kind": "NPC"
-        },
-        "200630005": {
-          "type": "Text",
-          "id": 200630005,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "I didn't know he's at the Luofu right now, what rotten luck...",
-          "option": null,
-          "nextIds": [
-            200630006
-          ],
-          "kind": "NPC"
-        },
-        "200630006": {
-          "type": "Sticker",
-          "id": 200630006,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "[cry]",
-          "option": null,
-          "nextIds": [
-            200630007,
-            200630012
-          ],
-          "kind": "NPC",
-          "sticker": {
-            "id": 20005,
-            "path": "SpriteOutput/Emoji/20005.png",
-            "keywords": "Crying"
-          }
-        },
-        "200630007": {
-          "type": "Text",
-          "id": 200630007,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "I thought meeting old teachers is a good thing?",
-          "option": "Why is it bad luck",
-          "nextIds": [
-            200630008
-          ],
-          "kind": "Player"
-        },
-        "200630008": {
-          "type": "Text",
-          "id": 200630008,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "Why is it bad luck?",
-          "option": null,
-          "nextIds": [
-            200630009
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200630009": {
-          "type": "Sticker",
-          "id": 200630009,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "[confused]",
-          "option": null,
-          "nextIds": [
-            200630010
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20007,
-            "path": "SpriteOutput/Emoji/20007.png",
-            "keywords": "Puzzled"
-          }
-        },
-        "200630010": {
-          "type": "Text",
-          "id": 200630010,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "Oh, wouldn't you know!",
-          "option": null,
-          "nextIds": [
-            200630011
-          ],
-          "kind": "NPC"
-        },
-        "200630011": {
-          "type": "Text",
-          "id": 200630011,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "When I was still studying, he barely ever acknowledged me.",
-          "option": null,
-          "nextIds": [
-            200630019
-          ],
-          "kind": "NPC"
-        },
-        "200630019": {
-          "type": "Text",
-          "id": 200630019,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "*sigh* I really didn't want to remember that. It's so awkward.",
-          "option": null,
-          "nextIds": [
-            200630020
-          ],
-          "kind": "NPC"
-        },
-        "200630020": {
-          "type": "Text",
-          "id": 200630020,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "Tell me, share the awkwardness",
-          "option": "Tell me",
-          "nextIds": [
-            200630021
-          ],
-          "kind": "Player"
-        },
-        "200630021": {
-          "type": "Text",
-          "id": 200630021,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "So I was raised in a military family, and my mom is very strict about me practicing my martial skills.",
-          "option": null,
-          "nextIds": [
-            200630022
-          ],
-          "kind": "NPC"
-        },
-        "200630022": {
-          "type": "Text",
-          "id": 200630022,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "So I had to get up to spar with her before the crack of dawn, then go to the lyceum after that.",
-          "option": null,
-          "nextIds": [
-            200630023
-          ],
-          "kind": "NPC"
-        },
-        "200630023": {
-          "type": "Text",
-          "id": 200630023,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "But by that point, I'm exhausted. I couldn't even hear anything the abecedary said without falling asleep.",
-          "option": null,
-          "nextIds": [
-            200630024
-          ],
-          "kind": "NPC"
-        },
-        "200630024": {
-          "type": "Text",
-          "id": 200630024,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "Just now, when he saw me, he yelled, \"Hey, isn't this Sleepy Sushang?\"",
-          "option": null,
-          "nextIds": [
-            200630025
-          ],
-          "kind": "NPC"
-        },
-        "200630025": {
-          "type": "Text",
-          "id": 200630025,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "Everyone on the street immediately started staring at me, I was just so embarrassed.",
-          "option": null,
-          "nextIds": [
-            200630026
-          ],
-          "kind": "NPC"
-        },
-        "200630026": {
-          "type": "Sticker",
-          "id": 200630026,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "[cry]",
-          "option": null,
-          "nextIds": [
-            200630027
-          ],
-          "kind": "NPC",
-          "sticker": {
-            "id": 20005,
-            "path": "SpriteOutput/Emoji/20005.png",
-            "keywords": "Crying"
-          }
-        },
-        "200630027": {
-          "type": "Text",
-          "id": 200630027,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "It is quite embarrassing",
-          "option": "It is quite embarrassing",
-          "nextIds": [
-            200630028
-          ],
-          "kind": "Player"
-        },
-        "200630028": {
-          "type": "Sticker",
-          "id": 200630028,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "[Shocked]",
-          "option": null,
-          "nextIds": [
-            200630029
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20008,
-            "path": "SpriteOutput/Emoji/20008.png",
-            "keywords": "Shocked"
-          }
-        },
-        "200630029": {
-          "type": "Text",
-          "id": 200630029,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "*sigh* I hope I won't run into him ever again...",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200630012": {
-          "type": "Text",
-          "id": 200630012,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "What's a lyceum? And what's abecedary?",
-          "option": "Lyceum? Abecedary?",
-          "nextIds": [
-            200630013
-          ],
-          "kind": "Player"
-        },
-        "200630013": {
-          "type": "Text",
-          "id": 200630013,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "I'm an alien, I don't know these words",
-          "option": null,
-          "nextIds": [
-            200630014
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200630014": {
-          "type": "Sticker",
-          "id": 200630014,
-          "sectionId": 2006300,
-          "senderId": null,
-          "text": "[confused]",
-          "option": null,
-          "nextIds": [
-            200630015
-          ],
-          "kind": "PlayerAuto",
-          "sticker": {
-            "id": 20007,
-            "path": "SpriteOutput/Emoji/20007.png",
-            "keywords": "Puzzled"
-          }
-        },
-        "200630015": {
-          "type": "Text",
-          "id": 200630015,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "Oh, it's nothing. I probably don't know much more than you do anyway",
-          "option": null,
-          "nextIds": [
-            200630016
-          ],
-          "kind": "NPC"
-        },
-        "200630016": {
-          "type": "Text",
-          "id": 200630016,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "Let me think about how to explain it to you, hold on.",
-          "option": null,
-          "nextIds": [
-            200630017
-          ],
-          "kind": "NPC"
-        },
-        "200630017": {
-          "type": "Text",
-          "id": 200630017,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "Oh right!",
-          "option": null,
-          "nextIds": [
-            200630018
-          ],
-          "kind": "NPC"
-        },
-        "200630018": {
-          "type": "Text",
-          "id": 200630018,
-          "sectionId": 2006300,
-          "senderId": 1206,
-          "text": "A lyceum is a school, and an abecedary is a teacher.",
-          "option": null,
-          "nextIds": [
-            200630019
-          ],
-          "kind": "NPC"
         }
       }
-    }
+    ]
   ],
   "info": {
     "id": 1206,
     "name": "Sushang",
     "signature": "What illness makes you sleepy as soon as you read a book?",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1206.png",
+    "iconPath": "icon/avatar/1206.png",
     "type": 1,
     "camp": 4
   }

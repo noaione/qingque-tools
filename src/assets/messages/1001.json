@@ -1,1250 +1,1262 @@
 {
   "id": 1001,
   "sections": [
-    {
-      "type": "Message",
-      "id": 1000100,
-      "startIds": [
-        100010000
-      ],
-      "messages": {
-        "100010000": {
-          "type": "Text",
-          "id": 100010000,
-          "sectionId": 1000100,
-          "senderId": 1001,
-          "text": "Hey there, this is March :D",
-          "option": null,
-          "nextIds": [
-            100010001
-          ],
-          "kind": "NPC"
-        },
-        "100010001": {
-          "type": "Text",
-          "id": 100010001,
-          "sectionId": 1000100,
-          "senderId": 1001,
-          "text": "Himeko wants to talk to you about something. Don't forget~",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+    [
+      {
+        "type": "Message",
+        "id": 1000100,
+        "startIds": [
+          100010000
+        ],
+        "messages": {
+          "100010000": {
+            "type": "Text",
+            "id": 100010000,
+            "sectionId": 1000100,
+            "senderId": 1001,
+            "text": "Hey there, this is March :D",
+            "option": null,
+            "nextIds": [
+              100010001
+            ],
+            "kind": "NPC"
+          },
+          "100010001": {
+            "type": "Text",
+            "id": 100010001,
+            "sectionId": 1000100,
+            "senderId": 1001,
+            "text": "Himeko wants to talk to you about something. Don't forget~",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 2000100,
-      "startIds": [
-        200010000
-      ],
-      "messages": {
-        "200010000": {
-          "type": "Sticker",
-          "id": 200010000,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "[Greet]",
-          "option": null,
-          "nextIds": [
-            200010001
-          ],
-          "kind": "NPC",
-          "sticker": {
-            "id": 20001,
-            "path": "SpriteOutput/Emoji/20001.png",
-            "keywords": "Hey"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2000100,
+        "startIds": [
+          200010000
+        ],
+        "messages": {
+          "200010000": {
+            "type": "Sticker",
+            "id": 200010000,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              200010001
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200010001": {
+            "type": "Text",
+            "id": 200010001,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "You there?",
+            "option": null,
+            "nextIds": [
+              200010002,
+              200010005,
+              200010008
+            ],
+            "kind": "NPC"
+          },
+          "200010002": {
+            "type": "Text",
+            "id": 200010002,
+            "sectionId": 2000100,
+            "senderId": null,
+            "text": "Did the Synthesizer explode?",
+            "option": "Did the Synthesizer explode?",
+            "nextIds": [
+              200010003
+            ],
+            "kind": "Player"
+          },
+          "200010003": {
+            "type": "Text",
+            "id": 200010003,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "...No.",
+            "option": null,
+            "nextIds": [
+              200010004
+            ],
+            "kind": "NPC"
+          },
+          "200010004": {
+            "type": "Text",
+            "id": 200010004,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "It's just a few orders of Yucky Fried Rice. It won't explode that easily.",
+            "option": null,
+            "nextIds": [
+              200010011
+            ],
+            "kind": "NPC"
+          },
+          "200010011": {
+            "type": "Text",
+            "id": 200010011,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "Wait, why would you ask a question like that :(",
+            "option": null,
+            "nextIds": [
+              200010012
+            ],
+            "kind": "NPC"
+          },
+          "200010012": {
+            "type": "Text",
+            "id": 200010012,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "I'm just curious about what you're doing",
+            "option": null,
+            "nextIds": [
+              200010013,
+              200010020,
+              200010026
+            ],
+            "kind": "NPC"
+          },
+          "200010013": {
+            "type": "Text",
+            "id": 200010013,
+            "sectionId": 2000100,
+            "senderId": null,
+            "text": "I'm grinding Calyxes!",
+            "option": "I'm grinding Calyxes!",
+            "nextIds": [
+              200010014
+            ],
+            "kind": "Player"
+          },
+          "200010014": {
+            "type": "Text",
+            "id": 200010014,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "Um... Did you even sleep?",
+            "option": null,
+            "nextIds": [
+              200010015
+            ],
+            "kind": "NPC"
+          },
+          "200010015": {
+            "type": "Text",
+            "id": 200010015,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "Credits or Light Cones?",
+            "option": null,
+            "nextIds": [
+              200010016
+            ],
+            "kind": "NPC"
+          },
+          "200010016": {
+            "type": "Text",
+            "id": 200010016,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "{NICKNAME} must've been working really hard, huh?",
+            "option": null,
+            "nextIds": [
+              200010017
+            ],
+            "kind": "NPC"
+          },
+          "200010017": {
+            "type": "Text",
+            "id": 200010017,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "Need some company?",
+            "option": null,
+            "nextIds": [
+              200010018
+            ],
+            "kind": "NPC"
+          },
+          "200010018": {
+            "type": "Text",
+            "id": 200010018,
+            "sectionId": 2000100,
+            "senderId": null,
+            "text": "Sure!",
+            "option": null,
+            "nextIds": [
+              200010019
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200010019": {
+            "type": "Text",
+            "id": 200010019,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "Yay. I'm coming!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200010020": {
+            "type": "Text",
+            "id": 200010020,
+            "sectionId": 2000100,
+            "senderId": null,
+            "text": "I'm doing Assignments!",
+            "option": "I'm doing Assignments!",
+            "nextIds": [
+              200010021
+            ],
+            "kind": "Player"
+          },
+          "200010021": {
+            "type": "Text",
+            "id": 200010021,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "Wow... You're so proactive...",
+            "option": null,
+            "nextIds": [
+              200010022
+            ],
+            "kind": "NPC"
+          },
+          "200010022": {
+            "type": "Text",
+            "id": 200010022,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "{NICKNAME} is a qualified member of the Nameless!",
+            "option": null,
+            "nextIds": [
+              200010023
+            ],
+            "kind": "NPC"
+          },
+          "200010023": {
+            "type": "Text",
+            "id": 200010023,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "If you found any fun Assignments, don't forget to bring me along!",
+            "option": null,
+            "nextIds": [
+              200010024
+            ],
+            "kind": "NPC"
+          },
+          "200010024": {
+            "type": "Text",
+            "id": 200010024,
+            "sectionId": 2000100,
+            "senderId": null,
+            "text": "Sure!",
+            "option": null,
+            "nextIds": [
+              200010025
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200010025": {
+            "type": "Text",
+            "id": 200010025,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "Great! I'll hold you to that!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200010026": {
+            "type": "Text",
+            "id": 200010026,
+            "sectionId": 2000100,
+            "senderId": null,
+            "text": "I'm... not doing anything!",
+            "option": "I'm... not doing anything!",
+            "nextIds": [
+              200010027
+            ],
+            "kind": "Player"
+          },
+          "200010027": {
+            "type": "Text",
+            "id": 200010027,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "Oh, are you that free?",
+            "option": null,
+            "nextIds": [
+              200010028
+            ],
+            "kind": "NPC"
+          },
+          "200010028": {
+            "type": "Text",
+            "id": 200010028,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "{NICKNAME}, if you're that free, why don't you come back to the Express?",
+            "option": null,
+            "nextIds": [
+              200010029
+            ],
+            "kind": "NPC"
+          },
+          "200010029": {
+            "type": "Text",
+            "id": 200010029,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "We can chat a bit",
+            "option": null,
+            "nextIds": [
+              200010030
+            ],
+            "kind": "NPC"
+          },
+          "200010030": {
+            "type": "Text",
+            "id": 200010030,
+            "sectionId": 2000100,
+            "senderId": null,
+            "text": "Sure!",
+            "option": null,
+            "nextIds": [
+              200010031
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200010031": {
+            "type": "Text",
+            "id": 200010031,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "Great! I'll hold you to that!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200010005": {
+            "type": "Text",
+            "id": 200010005,
+            "sectionId": 2000100,
+            "senderId": null,
+            "text": "Did you lock yourself out of your own room?",
+            "option": "Did you lock yourself out?",
+            "nextIds": [
+              200010006
+            ],
+            "kind": "Player"
+          },
+          "200010006": {
+            "type": "Text",
+            "id": 200010006,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "...No.",
+            "option": null,
+            "nextIds": [
+              200010007
+            ],
+            "kind": "NPC"
+          },
+          "200010007": {
+            "type": "Text",
+            "id": 200010007,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "If I did, I'd be obliged to start writing the <i>Seven Enigmas of Astral Express</i>.",
+            "option": null,
+            "nextIds": [
+              200010011
+            ],
+            "kind": "NPC"
+          },
+          "200010008": {
+            "type": "Text",
+            "id": 200010008,
+            "sectionId": 2000100,
+            "senderId": null,
+            "text": "You can't find Pom-Pom?",
+            "option": "You can't find Pom-Pom?",
+            "nextIds": [
+              200010009
+            ],
+            "kind": "Player"
+          },
+          "200010009": {
+            "type": "Text",
+            "id": 200010009,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "...No.",
+            "option": null,
+            "nextIds": [
+              200010010
+            ],
+            "kind": "NPC"
+          },
+          "200010010": {
+            "type": "Text",
+            "id": 200010010,
+            "sectionId": 2000100,
+            "senderId": 1001,
+            "text": "That's a scary thought. I can't even imagine the Express without Pom-Pom",
+            "option": null,
+            "nextIds": [
+              200010011
+            ],
+            "kind": "NPC"
           }
-        },
-        "200010001": {
-          "type": "Text",
-          "id": 200010001,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "You there?",
-          "option": null,
-          "nextIds": [
-            200010002,
-            200010005,
-            200010008
-          ],
-          "kind": "NPC"
-        },
-        "200010002": {
-          "type": "Text",
-          "id": 200010002,
-          "sectionId": 2000100,
-          "senderId": null,
-          "text": "Did the Synthesizer explode?",
-          "option": "Did the Synthesizer explode?",
-          "nextIds": [
-            200010003
-          ],
-          "kind": "Player"
-        },
-        "200010003": {
-          "type": "Text",
-          "id": 200010003,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "...No.",
-          "option": null,
-          "nextIds": [
-            200010004
-          ],
-          "kind": "NPC"
-        },
-        "200010004": {
-          "type": "Text",
-          "id": 200010004,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "It's just a few orders of Yucky Fried Rice. It won't explode that easily.",
-          "option": null,
-          "nextIds": [
-            200010011
-          ],
-          "kind": "NPC"
-        },
-        "200010011": {
-          "type": "Text",
-          "id": 200010011,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "Wait, why would you ask a question like that :(",
-          "option": null,
-          "nextIds": [
-            200010012
-          ],
-          "kind": "NPC"
-        },
-        "200010012": {
-          "type": "Text",
-          "id": 200010012,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "I'm just curious about what you're doing",
-          "option": null,
-          "nextIds": [
-            200010013,
-            200010020,
-            200010026
-          ],
-          "kind": "NPC"
-        },
-        "200010013": {
-          "type": "Text",
-          "id": 200010013,
-          "sectionId": 2000100,
-          "senderId": null,
-          "text": "I'm grinding Calyxes!",
-          "option": "I'm grinding Calyxes!",
-          "nextIds": [
-            200010014
-          ],
-          "kind": "Player"
-        },
-        "200010014": {
-          "type": "Text",
-          "id": 200010014,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "Um... Did you even sleep?",
-          "option": null,
-          "nextIds": [
-            200010015
-          ],
-          "kind": "NPC"
-        },
-        "200010015": {
-          "type": "Text",
-          "id": 200010015,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "Credits or Light Cones?",
-          "option": null,
-          "nextIds": [
-            200010016
-          ],
-          "kind": "NPC"
-        },
-        "200010016": {
-          "type": "Text",
-          "id": 200010016,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "{NICKNAME} must've been working really hard, huh?",
-          "option": null,
-          "nextIds": [
-            200010017
-          ],
-          "kind": "NPC"
-        },
-        "200010017": {
-          "type": "Text",
-          "id": 200010017,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "Need some company?",
-          "option": null,
-          "nextIds": [
-            200010018
-          ],
-          "kind": "NPC"
-        },
-        "200010018": {
-          "type": "Text",
-          "id": 200010018,
-          "sectionId": 2000100,
-          "senderId": null,
-          "text": "Sure!",
-          "option": null,
-          "nextIds": [
-            200010019
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200010019": {
-          "type": "Text",
-          "id": 200010019,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "Yay. I'm coming!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200010020": {
-          "type": "Text",
-          "id": 200010020,
-          "sectionId": 2000100,
-          "senderId": null,
-          "text": "I'm doing Assignments!",
-          "option": "I'm doing Assignments!",
-          "nextIds": [
-            200010021
-          ],
-          "kind": "Player"
-        },
-        "200010021": {
-          "type": "Text",
-          "id": 200010021,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "Wow... You're so proactive...",
-          "option": null,
-          "nextIds": [
-            200010022
-          ],
-          "kind": "NPC"
-        },
-        "200010022": {
-          "type": "Text",
-          "id": 200010022,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "{NICKNAME} is a qualified member of the Nameless!",
-          "option": null,
-          "nextIds": [
-            200010023
-          ],
-          "kind": "NPC"
-        },
-        "200010023": {
-          "type": "Text",
-          "id": 200010023,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "If you found any fun Assignments, don't forget to bring me along!",
-          "option": null,
-          "nextIds": [
-            200010024
-          ],
-          "kind": "NPC"
-        },
-        "200010024": {
-          "type": "Text",
-          "id": 200010024,
-          "sectionId": 2000100,
-          "senderId": null,
-          "text": "Sure!",
-          "option": null,
-          "nextIds": [
-            200010025
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200010025": {
-          "type": "Text",
-          "id": 200010025,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "Great! I'll hold you to that!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200010026": {
-          "type": "Text",
-          "id": 200010026,
-          "sectionId": 2000100,
-          "senderId": null,
-          "text": "I'm... not doing anything!",
-          "option": "I'm... not doing anything!",
-          "nextIds": [
-            200010027
-          ],
-          "kind": "Player"
-        },
-        "200010027": {
-          "type": "Text",
-          "id": 200010027,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "Oh, are you that free?",
-          "option": null,
-          "nextIds": [
-            200010028
-          ],
-          "kind": "NPC"
-        },
-        "200010028": {
-          "type": "Text",
-          "id": 200010028,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "{NICKNAME}, if you're that free, why don't you come back to the Express?",
-          "option": null,
-          "nextIds": [
-            200010029
-          ],
-          "kind": "NPC"
-        },
-        "200010029": {
-          "type": "Text",
-          "id": 200010029,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "We can chat a bit",
-          "option": null,
-          "nextIds": [
-            200010030
-          ],
-          "kind": "NPC"
-        },
-        "200010030": {
-          "type": "Text",
-          "id": 200010030,
-          "sectionId": 2000100,
-          "senderId": null,
-          "text": "Sure!",
-          "option": null,
-          "nextIds": [
-            200010031
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200010031": {
-          "type": "Text",
-          "id": 200010031,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "Great! I'll hold you to that!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200010005": {
-          "type": "Text",
-          "id": 200010005,
-          "sectionId": 2000100,
-          "senderId": null,
-          "text": "Did you lock yourself out of your own room?",
-          "option": "Did you lock yourself out?",
-          "nextIds": [
-            200010006
-          ],
-          "kind": "Player"
-        },
-        "200010006": {
-          "type": "Text",
-          "id": 200010006,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "...No.",
-          "option": null,
-          "nextIds": [
-            200010007
-          ],
-          "kind": "NPC"
-        },
-        "200010007": {
-          "type": "Text",
-          "id": 200010007,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "If I did, I'd be obliged to start writing the <i>Seven Enigmas of Astral Express</i>.",
-          "option": null,
-          "nextIds": [
-            200010011
-          ],
-          "kind": "NPC"
-        },
-        "200010008": {
-          "type": "Text",
-          "id": 200010008,
-          "sectionId": 2000100,
-          "senderId": null,
-          "text": "You can't find Pom-Pom?",
-          "option": "You can't find Pom-Pom?",
-          "nextIds": [
-            200010009
-          ],
-          "kind": "Player"
-        },
-        "200010009": {
-          "type": "Text",
-          "id": 200010009,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "...No.",
-          "option": null,
-          "nextIds": [
-            200010010
-          ],
-          "kind": "NPC"
-        },
-        "200010010": {
-          "type": "Text",
-          "id": 200010010,
-          "sectionId": 2000100,
-          "senderId": 1001,
-          "text": "That's a scary thought. I can't even imagine the Express without Pom-Pom",
-          "option": null,
-          "nextIds": [
-            200010011
-          ],
-          "kind": "NPC"
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 2000200,
-      "startIds": [
-        200020000
-      ],
-      "messages": {
-        "200020000": {
-          "type": "Text",
-          "id": 200020000,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "Have a look!",
-          "option": null,
-          "nextIds": [
-            200020001,
-            200020002
-          ],
-          "kind": "NPC"
-        },
-        "200020001": {
-          "type": "Text",
-          "id": 200020001,
-          "sectionId": 2000200,
-          "senderId": null,
-          "text": "It looks nice",
-          "option": "It looks nice",
-          "nextIds": [
-            200020003
-          ],
-          "kind": "Player"
-        },
-        "200020003": {
-          "type": "Text",
-          "id": 200020003,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "...The photos are not sent yet.",
-          "option": null,
-          "nextIds": [
-            200020004
-          ],
-          "kind": "NPC"
-        },
-        "200020004": {
-          "type": "Image",
-          "id": 200020004,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "[Image]",
-          "option": null,
-          "nextIds": [
-            200020005
-          ],
-          "kind": "NPC",
-          "image": {
-            "id": 10008,
-            "path": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10008.png"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2000200,
+        "startIds": [
+          200020000
+        ],
+        "messages": {
+          "200020000": {
+            "type": "Text",
+            "id": 200020000,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "Have a look!",
+            "option": null,
+            "nextIds": [
+              200020001,
+              200020002
+            ],
+            "kind": "NPC"
+          },
+          "200020001": {
+            "type": "Text",
+            "id": 200020001,
+            "sectionId": 2000200,
+            "senderId": null,
+            "text": "It looks nice",
+            "option": "It looks nice",
+            "nextIds": [
+              200020003
+            ],
+            "kind": "Player"
+          },
+          "200020003": {
+            "type": "Text",
+            "id": 200020003,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "...The photos are not sent yet.",
+            "option": null,
+            "nextIds": [
+              200020004
+            ],
+            "kind": "NPC"
+          },
+          "200020004": {
+            "type": "Image",
+            "id": 200020004,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              200020005
+            ],
+            "kind": "NPC",
+            "image": {
+              "id": 10008,
+              "path": "image/messages/10008.png"
+            }
+          },
+          "200020005": {
+            "type": "Text",
+            "id": 200020005,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "I took this picture of the coach. What do you think?",
+            "option": null,
+            "nextIds": [
+              200020006
+            ],
+            "kind": "NPC"
+          },
+          "200020006": {
+            "type": "Text",
+            "id": 200020006,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "Do you have any suggestions?",
+            "option": null,
+            "nextIds": [
+              200020007,
+              200020014
+            ],
+            "kind": "NPC"
+          },
+          "200020007": {
+            "type": "Text",
+            "id": 200020007,
+            "sectionId": 2000200,
+            "senderId": null,
+            "text": "Maybe lower the aperture. Best if you can manually control the duration of exposure.",
+            "option": "The aperture should be lower",
+            "nextIds": [
+              200020008
+            ],
+            "kind": "Player"
+          },
+          "200020008": {
+            "type": "Sticker",
+            "id": 200020008,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "[cry]",
+            "option": null,
+            "nextIds": [
+              200020009
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "200020009": {
+            "type": "Text",
+            "id": 200020009,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "Time for a new camera, I guess.",
+            "option": null,
+            "nextIds": [
+              200020010
+            ],
+            "kind": "NPC"
+          },
+          "200020010": {
+            "type": "Text",
+            "id": 200020010,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "I had no idea. {NICKNAME}, you know a lot about this!",
+            "option": null,
+            "nextIds": [
+              200020011
+            ],
+            "kind": "NPC"
+          },
+          "200020011": {
+            "type": "Text",
+            "id": 200020011,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "Alright, you're it!",
+            "option": null,
+            "nextIds": [
+              200020019
+            ],
+            "kind": "NPC"
+          },
+          "200020019": {
+            "type": "Text",
+            "id": 200020019,
+            "sectionId": 2000200,
+            "senderId": null,
+            "text": "?",
+            "option": "?",
+            "nextIds": [
+              200020020
+            ],
+            "kind": "Player"
+          },
+          "200020020": {
+            "type": "Text",
+            "id": 200020020,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "{NICKNAME}, my official photographer!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200020014": {
+            "type": "Text",
+            "id": 200020014,
+            "sectionId": 2000200,
+            "senderId": null,
+            "text": "There is nothing to nitpick with this one",
+            "option": "There is nothing to nitpick with this one",
+            "nextIds": [
+              200020015
+            ],
+            "kind": "Player"
+          },
+          "200020015": {
+            "type": "Text",
+            "id": 200020015,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "What a coincidence. I think so too.",
+            "option": null,
+            "nextIds": [
+              200020016
+            ],
+            "kind": "NPC"
+          },
+          "200020016": {
+            "type": "Text",
+            "id": 200020016,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "If there's anything to criticize, it'll be...",
+            "option": null,
+            "nextIds": [
+              200020017
+            ],
+            "kind": "NPC"
+          },
+          "200020017": {
+            "type": "Text",
+            "id": 200020017,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "Not having me in the picture!",
+            "option": null,
+            "nextIds": [
+              200020018
+            ],
+            "kind": "NPC"
+          },
+          "200020018": {
+            "type": "Text",
+            "id": 200020018,
+            "sectionId": 2000200,
+            "senderId": 1001,
+            "text": "Alright, you're it!",
+            "option": null,
+            "nextIds": [
+              200020019
+            ],
+            "kind": "NPC"
+          },
+          "200020002": {
+            "type": "Text",
+            "id": 200020002,
+            "sectionId": 2000200,
+            "senderId": null,
+            "text": "It looks bad",
+            "option": "It looks bad",
+            "nextIds": [
+              200020003
+            ],
+            "kind": "Player"
           }
-        },
-        "200020005": {
-          "type": "Text",
-          "id": 200020005,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "I took this picture of the coach. What do you think?",
-          "option": null,
-          "nextIds": [
-            200020006
-          ],
-          "kind": "NPC"
-        },
-        "200020006": {
-          "type": "Text",
-          "id": 200020006,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "Do you have any suggestions?",
-          "option": null,
-          "nextIds": [
-            200020007,
-            200020014
-          ],
-          "kind": "NPC"
-        },
-        "200020007": {
-          "type": "Text",
-          "id": 200020007,
-          "sectionId": 2000200,
-          "senderId": null,
-          "text": "Maybe lower the aperture. Best if you can manually control the duration of exposure.",
-          "option": "The aperture should be lower",
-          "nextIds": [
-            200020008
-          ],
-          "kind": "Player"
-        },
-        "200020008": {
-          "type": "Sticker",
-          "id": 200020008,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "[cry]",
-          "option": null,
-          "nextIds": [
-            200020009
-          ],
-          "kind": "NPC",
-          "sticker": {
-            "id": 20005,
-            "path": "SpriteOutput/Emoji/20005.png",
-            "keywords": "Crying"
-          }
-        },
-        "200020009": {
-          "type": "Text",
-          "id": 200020009,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "Time for a new camera, I guess.",
-          "option": null,
-          "nextIds": [
-            200020010
-          ],
-          "kind": "NPC"
-        },
-        "200020010": {
-          "type": "Text",
-          "id": 200020010,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "I had no idea. {NICKNAME}, you know a lot about this!",
-          "option": null,
-          "nextIds": [
-            200020011
-          ],
-          "kind": "NPC"
-        },
-        "200020011": {
-          "type": "Text",
-          "id": 200020011,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "Alright, you're it!",
-          "option": null,
-          "nextIds": [
-            200020019
-          ],
-          "kind": "NPC"
-        },
-        "200020019": {
-          "type": "Text",
-          "id": 200020019,
-          "sectionId": 2000200,
-          "senderId": null,
-          "text": "?",
-          "option": "?",
-          "nextIds": [
-            200020020
-          ],
-          "kind": "Player"
-        },
-        "200020020": {
-          "type": "Text",
-          "id": 200020020,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "{NICKNAME}, my official photographer!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "200020014": {
-          "type": "Text",
-          "id": 200020014,
-          "sectionId": 2000200,
-          "senderId": null,
-          "text": "There is nothing to nitpick with this one",
-          "option": "There is nothing to nitpick with this one",
-          "nextIds": [
-            200020015
-          ],
-          "kind": "Player"
-        },
-        "200020015": {
-          "type": "Text",
-          "id": 200020015,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "What a coincidence. I think so too.",
-          "option": null,
-          "nextIds": [
-            200020016
-          ],
-          "kind": "NPC"
-        },
-        "200020016": {
-          "type": "Text",
-          "id": 200020016,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "If there's anything to criticize, it'll be...",
-          "option": null,
-          "nextIds": [
-            200020017
-          ],
-          "kind": "NPC"
-        },
-        "200020017": {
-          "type": "Text",
-          "id": 200020017,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "Not having me in the picture!",
-          "option": null,
-          "nextIds": [
-            200020018
-          ],
-          "kind": "NPC"
-        },
-        "200020018": {
-          "type": "Text",
-          "id": 200020018,
-          "sectionId": 2000200,
-          "senderId": 1001,
-          "text": "Alright, you're it!",
-          "option": null,
-          "nextIds": [
-            200020019
-          ],
-          "kind": "NPC"
-        },
-        "200020002": {
-          "type": "Text",
-          "id": 200020002,
-          "sectionId": 2000200,
-          "senderId": null,
-          "text": "It looks bad",
-          "option": "It looks bad",
-          "nextIds": [
-            200020003
-          ],
-          "kind": "Player"
         }
       }
-    },
-    {
-      "type": "Message",
-      "id": 2000300,
-      "startIds": [
-        200030000
-      ],
-      "messages": {
-        "200030000": {
-          "type": "Text",
-          "id": 200030000,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "{NICKNAME}",
-          "option": null,
-          "nextIds": [
-            200030001
-          ],
-          "kind": "NPC"
-        },
-        "200030001": {
-          "type": "Text",
-          "id": 200030001,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "I got a new sticker pack",
-          "option": null,
-          "nextIds": [
-            200030002
-          ],
-          "kind": "NPC"
-        },
-        "200030002": {
-          "type": "Sticker",
-          "id": 200030002,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "[observe]",
-          "option": null,
-          "nextIds": [
-            200030003
-          ],
-          "kind": "NPC",
-          "sticker": {
-            "id": 30003,
-            "path": "SpriteOutput/Emoji/30003.png",
-            "keywords": "Undercover"
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2000300,
+        "startIds": [
+          200030000
+        ],
+        "messages": {
+          "200030000": {
+            "type": "Text",
+            "id": 200030000,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              200030001
+            ],
+            "kind": "NPC"
+          },
+          "200030001": {
+            "type": "Text",
+            "id": 200030001,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "I got a new sticker pack",
+            "option": null,
+            "nextIds": [
+              200030002
+            ],
+            "kind": "NPC"
+          },
+          "200030002": {
+            "type": "Sticker",
+            "id": 200030002,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "[observe]",
+            "option": null,
+            "nextIds": [
+              200030003
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30003,
+              "path": "icon/emoji/30003.png",
+              "keywords": "Undercover"
+            }
+          },
+          "200030003": {
+            "type": "Text",
+            "id": 200030003,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "This looks just like me!",
+            "option": null,
+            "nextIds": [
+              200030004,
+              200030006
+            ],
+            "kind": "NPC"
+          },
+          "200030004": {
+            "type": "Text",
+            "id": 200030004,
+            "sectionId": 2000300,
+            "senderId": null,
+            "text": "It's you!",
+            "option": "It's you!",
+            "nextIds": [
+              200030005
+            ],
+            "kind": "Player"
+          },
+          "200030005": {
+            "type": "Text",
+            "id": 200030005,
+            "sectionId": 2000300,
+            "senderId": null,
+            "text": "But I think this one looks more like you",
+            "option": null,
+            "nextIds": [
+              200030008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200030008": {
+            "type": "Text",
+            "id": 200030008,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              200030009,
+              200030013,
+              200030017
+            ],
+            "kind": "NPC"
+          },
+          "200030009": {
+            "type": "Sticker",
+            "id": 200030009,
+            "sectionId": 2000300,
+            "senderId": null,
+            "text": "[proud]",
+            "option": "[proud]",
+            "nextIds": [
+              200030010
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30004,
+              "path": "icon/emoji/30004.png",
+              "keywords": "Proud"
+            }
+          },
+          "200030010": {
+            "type": "Text",
+            "id": 200030010,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "Hahahahaha!",
+            "option": null,
+            "nextIds": [
+              200030011
+            ],
+            "kind": "NPC"
+          },
+          "200030011": {
+            "type": "Text",
+            "id": 200030011,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "That means I'm cute!",
+            "option": null,
+            "nextIds": [
+              200030012
+            ],
+            "kind": "NPC"
+          },
+          "200030012": {
+            "type": "Sticker",
+            "id": 200030012,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "[proud]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30004,
+              "path": "icon/emoji/30004.png",
+              "keywords": "Proud"
+            }
+          },
+          "200030013": {
+            "type": "Sticker",
+            "id": 200030013,
+            "sectionId": 2000300,
+            "senderId": null,
+            "text": "[cry]",
+            "option": "[cry]",
+            "nextIds": [
+              200030014
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30005,
+              "path": "icon/emoji/30005.png",
+              "keywords": "Cry"
+            }
+          },
+          "200030014": {
+            "type": "Text",
+            "id": 200030014,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "No way",
+            "option": null,
+            "nextIds": [
+              200030015
+            ],
+            "kind": "NPC"
+          },
+          "200030015": {
+            "type": "Text",
+            "id": 200030015,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "Do I look like that to you?",
+            "option": null,
+            "nextIds": [
+              200030016
+            ],
+            "kind": "NPC"
+          },
+          "200030016": {
+            "type": "Sticker",
+            "id": 200030016,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "[cry]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30005,
+              "path": "icon/emoji/30005.png",
+              "keywords": "Cry"
+            }
+          },
+          "200030017": {
+            "type": "Sticker",
+            "id": 200030017,
+            "sectionId": 2000300,
+            "senderId": null,
+            "text": "[angry]",
+            "option": "[angry]",
+            "nextIds": [
+              200030018
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30006,
+              "path": "icon/emoji/30006.png",
+              "keywords": "Angry"
+            }
+          },
+          "200030018": {
+            "type": "Text",
+            "id": 200030018,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "What the—",
+            "option": null,
+            "nextIds": [
+              200030019
+            ],
+            "kind": "NPC"
+          },
+          "200030019": {
+            "type": "Text",
+            "id": 200030019,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "This is so not me!",
+            "option": null,
+            "nextIds": [
+              200030020
+            ],
+            "kind": "NPC"
+          },
+          "200030020": {
+            "type": "Sticker",
+            "id": 200030020,
+            "sectionId": 2000300,
+            "senderId": 1001,
+            "text": "[angry]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30006,
+              "path": "icon/emoji/30006.png",
+              "keywords": "Angry"
+            }
+          },
+          "200030006": {
+            "type": "Text",
+            "id": 200030006,
+            "sectionId": 2000300,
+            "senderId": null,
+            "text": "It doesn't look like you at all",
+            "option": "It doesn't look like you at all",
+            "nextIds": [
+              200030007
+            ],
+            "kind": "Player"
+          },
+          "200030007": {
+            "type": "Text",
+            "id": 200030007,
+            "sectionId": 2000300,
+            "senderId": null,
+            "text": "I think this one looks more like you",
+            "option": null,
+            "nextIds": [
+              200030008
+            ],
+            "kind": "PlayerAuto"
           }
-        },
-        "200030003": {
-          "type": "Text",
-          "id": 200030003,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "This looks just like me!",
-          "option": null,
-          "nextIds": [
-            200030004,
-            200030006
-          ],
-          "kind": "NPC"
-        },
-        "200030004": {
-          "type": "Text",
-          "id": 200030004,
-          "sectionId": 2000300,
-          "senderId": null,
-          "text": "It's you!",
-          "option": "It's you!",
-          "nextIds": [
-            200030005
-          ],
-          "kind": "Player"
-        },
-        "200030005": {
-          "type": "Text",
-          "id": 200030005,
-          "sectionId": 2000300,
-          "senderId": null,
-          "text": "But I think this one looks more like you",
-          "option": null,
-          "nextIds": [
-            200030008
-          ],
-          "kind": "PlayerAuto"
-        },
-        "200030008": {
-          "type": "Text",
-          "id": 200030008,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "?",
-          "option": null,
-          "nextIds": [
-            200030009,
-            200030013,
-            200030017
-          ],
-          "kind": "NPC"
-        },
-        "200030009": {
-          "type": "Sticker",
-          "id": 200030009,
-          "sectionId": 2000300,
-          "senderId": null,
-          "text": "[proud]",
-          "option": "[proud]",
-          "nextIds": [
-            200030010
-          ],
-          "kind": "Player",
-          "sticker": {
-            "id": 30004,
-            "path": "SpriteOutput/Emoji/30004.png",
-            "keywords": "Proud"
-          }
-        },
-        "200030010": {
-          "type": "Text",
-          "id": 200030010,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "Hahahahaha!",
-          "option": null,
-          "nextIds": [
-            200030011
-          ],
-          "kind": "NPC"
-        },
-        "200030011": {
-          "type": "Text",
-          "id": 200030011,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "That means I'm cute!",
-          "option": null,
-          "nextIds": [
-            200030012
-          ],
-          "kind": "NPC"
-        },
-        "200030012": {
-          "type": "Sticker",
-          "id": 200030012,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "[proud]",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC",
-          "sticker": {
-            "id": 30004,
-            "path": "SpriteOutput/Emoji/30004.png",
-            "keywords": "Proud"
-          }
-        },
-        "200030013": {
-          "type": "Sticker",
-          "id": 200030013,
-          "sectionId": 2000300,
-          "senderId": null,
-          "text": "[cry]",
-          "option": "[cry]",
-          "nextIds": [
-            200030014
-          ],
-          "kind": "Player",
-          "sticker": {
-            "id": 30005,
-            "path": "SpriteOutput/Emoji/30005.png",
-            "keywords": "Cry"
-          }
-        },
-        "200030014": {
-          "type": "Text",
-          "id": 200030014,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "No way",
-          "option": null,
-          "nextIds": [
-            200030015
-          ],
-          "kind": "NPC"
-        },
-        "200030015": {
-          "type": "Text",
-          "id": 200030015,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "Do I look like that to you?",
-          "option": null,
-          "nextIds": [
-            200030016
-          ],
-          "kind": "NPC"
-        },
-        "200030016": {
-          "type": "Sticker",
-          "id": 200030016,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "[cry]",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC",
-          "sticker": {
-            "id": 30005,
-            "path": "SpriteOutput/Emoji/30005.png",
-            "keywords": "Cry"
-          }
-        },
-        "200030017": {
-          "type": "Sticker",
-          "id": 200030017,
-          "sectionId": 2000300,
-          "senderId": null,
-          "text": "[angry]",
-          "option": "[angry]",
-          "nextIds": [
-            200030018
-          ],
-          "kind": "Player",
-          "sticker": {
-            "id": 30006,
-            "path": "SpriteOutput/Emoji/30006.png",
-            "keywords": "Angry"
-          }
-        },
-        "200030018": {
-          "type": "Text",
-          "id": 200030018,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "What the—",
-          "option": null,
-          "nextIds": [
-            200030019
-          ],
-          "kind": "NPC"
-        },
-        "200030019": {
-          "type": "Text",
-          "id": 200030019,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "This is so not me!",
-          "option": null,
-          "nextIds": [
-            200030020
-          ],
-          "kind": "NPC"
-        },
-        "200030020": {
-          "type": "Sticker",
-          "id": 200030020,
-          "sectionId": 2000300,
-          "senderId": 1001,
-          "text": "[angry]",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC",
-          "sticker": {
-            "id": 30006,
-            "path": "SpriteOutput/Emoji/30006.png",
-            "keywords": "Angry"
-          }
-        },
-        "200030006": {
-          "type": "Text",
-          "id": 200030006,
-          "sectionId": 2000300,
-          "senderId": null,
-          "text": "It doesn't look like you at all",
-          "option": "It doesn't look like you at all",
-          "nextIds": [
-            200030007
-          ],
-          "kind": "Player"
-        },
-        "200030007": {
-          "type": "Text",
-          "id": 200030007,
-          "sectionId": 2000300,
-          "senderId": null,
-          "text": "I think this one looks more like you",
-          "option": null,
-          "nextIds": [
-            200030008
-          ],
-          "kind": "PlayerAuto"
         }
       }
-    },
-    {
-      "type": "MissionMessage",
-      "id": 1213500,
-      "startIds": [
-        121350000
-      ],
-      "messages": {
-        "121350000": {
-          "type": "Text",
-          "id": 121350000,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "{NICKNAME}, you there?",
-          "option": null,
-          "nextIds": [
-            121350001,
-            121350003
-          ],
-          "kind": "NPC"
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1213500,
+        "startIds": [
+          121350000
+        ],
+        "messages": {
+          "121350000": {
+            "type": "Text",
+            "id": 121350000,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "{NICKNAME}, you there?",
+            "option": null,
+            "nextIds": [
+              121350001,
+              121350003
+            ],
+            "kind": "NPC"
+          },
+          "121350001": {
+            "type": "Text",
+            "id": 121350001,
+            "sectionId": 1213500,
+            "senderId": null,
+            "text": "No, I am Pom-Pom",
+            "option": "No",
+            "nextIds": [
+              121350002
+            ],
+            "kind": "Player"
+          },
+          "121350002": {
+            "type": "Text",
+            "id": 121350002,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "Yeah, you totally look like Pom-Pom. Alright, stop kidding around. There's something important",
+            "option": null,
+            "nextIds": [
+              121350005
+            ],
+            "kind": "NPC"
+          },
+          "121350005": {
+            "type": "Text",
+            "id": 121350005,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "I suddenly remember there was one thing that caught my attention during this trip to the Luofu",
+            "option": null,
+            "nextIds": [
+              121350006
+            ],
+            "kind": "NPC"
+          },
+          "121350006": {
+            "type": "Text",
+            "id": 121350006,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "That Matrix of Prescience Ultima at the Divination Commission",
+            "option": null,
+            "nextIds": [
+              121350007
+            ],
+            "kind": "NPC"
+          },
+          "121350007": {
+            "type": "Text",
+            "id": 121350007,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "The master diviner used that thing to interrogate Kafka, and saw right into her memories without Kafka even saying a word",
+            "option": null,
+            "nextIds": [
+              121350008
+            ],
+            "kind": "NPC"
+          },
+          "121350008": {
+            "type": "Text",
+            "id": 121350008,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "So I was thinking... Could this matrix be used on me?",
+            "option": null,
+            "nextIds": [
+              121350009,
+              121350010
+            ],
+            "kind": "NPC"
+          },
+          "121350009": {
+            "type": "Text",
+            "id": 121350009,
+            "sectionId": 1213500,
+            "senderId": null,
+            "text": "Why didn't you ask her at the Seat of Divine Foresight?",
+            "option": "You didn't mention this at the Seat of Divine Foresight?",
+            "nextIds": [
+              121350012
+            ],
+            "kind": "Player"
+          },
+          "121350012": {
+            "type": "Text",
+            "id": 121350012,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "The Luofu had just experienced a huge incident. Jing Yuan is injured, and the master diviner needs to manage the whole place",
+            "option": null,
+            "nextIds": [
+              121350013
+            ],
+            "kind": "NPC"
+          },
+          "121350013": {
+            "type": "Text",
+            "id": 121350013,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "I couldn't bring up this personal matter",
+            "option": null,
+            "nextIds": [
+              121350014
+            ],
+            "kind": "NPC"
+          },
+          "121350014": {
+            "type": "Text",
+            "id": 121350014,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "So I thought I'd wait till she wasn't so busy, and then we could go to the Divination Commission together to ask her?",
+            "option": null,
+            "nextIds": [
+              121350015,
+              121350017
+            ],
+            "kind": "NPC"
+          },
+          "121350015": {
+            "type": "Text",
+            "id": 121350015,
+            "sectionId": 1213500,
+            "senderId": null,
+            "text": "No problem. Let's meet at the Divination Commission",
+            "option": "No problem",
+            "nextIds": [
+              121350016
+            ],
+            "kind": "Player"
+          },
+          "121350016": {
+            "type": "Text",
+            "id": 121350016,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "I knew it! You're the best!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121350017": {
+            "type": "Text",
+            "id": 121350017,
+            "sectionId": 1213500,
+            "senderId": null,
+            "text": "Do I have to go too? It's not that I don't wanna, but this is your personal affair...",
+            "option": "Do I have to go too?",
+            "nextIds": [
+              121350018
+            ],
+            "kind": "Player"
+          },
+          "121350018": {
+            "type": "Text",
+            "id": 121350018,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "I... I... I'm just embarrassed to ask others for help on my own! See you at the Divination Commission",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121350010": {
+            "type": "Text",
+            "id": 121350010,
+            "sectionId": 1213500,
+            "senderId": null,
+            "text": "It's worth asking. We might even be able to find your lost memories",
+            "option": "It's worth asking her...",
+            "nextIds": [
+              121350011
+            ],
+            "kind": "Player"
+          },
+          "121350011": {
+            "type": "Text",
+            "id": 121350011,
+            "sectionId": 1213500,
+            "senderId": 1001,
+            "text": "Yes, yes! I wanted to ask at the Seat of Divine Foresight, but after thinking about it, I felt a little uneasy",
+            "option": null,
+            "nextIds": [
+              121350012
+            ],
+            "kind": "NPC"
+          },
+          "121350003": {
+            "type": "Text",
+            "id": 121350003,
+            "sectionId": 1213500,
+            "senderId": null,
+            "text": "I'm here. What's up?",
+            "option": "What's up?",
+            "nextIds": [
+              121350005
+            ],
+            "kind": "Player"
+          }
         },
-        "121350001": {
-          "type": "Text",
-          "id": 121350001,
-          "sectionId": 1213500,
-          "senderId": null,
-          "text": "No, I am Pom-Pom",
-          "option": "No",
-          "nextIds": [
-            121350002
-          ],
-          "kind": "Player"
-        },
-        "121350002": {
-          "type": "Text",
-          "id": 121350002,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "Yeah, you totally look like Pom-Pom. Alright, stop kidding around. There's something important",
-          "option": null,
-          "nextIds": [
-            121350005
-          ],
-          "kind": "NPC"
-        },
-        "121350005": {
-          "type": "Text",
-          "id": 121350005,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "I suddenly remember there was one thing that caught my attention during this trip to the Luofu",
-          "option": null,
-          "nextIds": [
-            121350006
-          ],
-          "kind": "NPC"
-        },
-        "121350006": {
-          "type": "Text",
-          "id": 121350006,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "That Matrix of Prescience Ultima at the Divination Commission",
-          "option": null,
-          "nextIds": [
-            121350007
-          ],
-          "kind": "NPC"
-        },
-        "121350007": {
-          "type": "Text",
-          "id": 121350007,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "The master diviner used that thing to interrogate Kafka, and saw right into her memories without Kafka even saying a word",
-          "option": null,
-          "nextIds": [
-            121350008
-          ],
-          "kind": "NPC"
-        },
-        "121350008": {
-          "type": "Text",
-          "id": 121350008,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "So I was thinking... Could this matrix be used on me?",
-          "option": null,
-          "nextIds": [
-            121350009,
-            121350010
-          ],
-          "kind": "NPC"
-        },
-        "121350009": {
-          "type": "Text",
-          "id": 121350009,
-          "sectionId": 1213500,
-          "senderId": null,
-          "text": "Why didn't you ask her at the Seat of Divine Foresight?",
-          "option": "You didn't mention this at the Seat of Divine Foresight?",
-          "nextIds": [
-            121350012
-          ],
-          "kind": "Player"
-        },
-        "121350012": {
-          "type": "Text",
-          "id": 121350012,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "The Luofu had just experienced a huge incident. Jing Yuan is injured, and the master diviner needs to manage the whole place",
-          "option": null,
-          "nextIds": [
-            121350013
-          ],
-          "kind": "NPC"
-        },
-        "121350013": {
-          "type": "Text",
-          "id": 121350013,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "I couldn't bring up this personal matter",
-          "option": null,
-          "nextIds": [
-            121350014
-          ],
-          "kind": "NPC"
-        },
-        "121350014": {
-          "type": "Text",
-          "id": 121350014,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "So I thought I'd wait till she wasn't so busy, and then we could go to the Divination Commission together to ask her?",
-          "option": null,
-          "nextIds": [
-            121350015,
-            121350017
-          ],
-          "kind": "NPC"
-        },
-        "121350015": {
-          "type": "Text",
-          "id": 121350015,
-          "sectionId": 1213500,
-          "senderId": null,
-          "text": "No problem. Let's meet at the Divination Commission",
-          "option": "No problem",
-          "nextIds": [
-            121350016
-          ],
-          "kind": "Player"
-        },
-        "121350016": {
-          "type": "Text",
-          "id": 121350016,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "I knew it! You're the best!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121350017": {
-          "type": "Text",
-          "id": 121350017,
-          "sectionId": 1213500,
-          "senderId": null,
-          "text": "Do I have to go too? It's not that I don't wanna, but this is your personal affair...",
-          "option": "Do I have to go too?",
-          "nextIds": [
-            121350018
-          ],
-          "kind": "Player"
-        },
-        "121350018": {
-          "type": "Text",
-          "id": 121350018,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "I... I... I'm just embarrassed to ask others for help on my own! See you at the Divination Commission",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
-        },
-        "121350010": {
-          "type": "Text",
-          "id": 121350010,
-          "sectionId": 1213500,
-          "senderId": null,
-          "text": "It's worth asking. We might even be able to find your lost memories",
-          "option": "It's worth asking her...",
-          "nextIds": [
-            121350011
-          ],
-          "kind": "Player"
-        },
-        "121350011": {
-          "type": "Text",
-          "id": 121350011,
-          "sectionId": 1213500,
-          "senderId": 1001,
-          "text": "Yes, yes! I wanted to ask at the Seat of Divine Foresight, but after thinking about it, I felt a little uneasy",
-          "option": null,
-          "nextIds": [
-            121350012
-          ],
-          "kind": "NPC"
-        },
-        "121350003": {
-          "type": "Text",
-          "id": 121350003,
-          "sectionId": 1213500,
-          "senderId": null,
-          "text": "I'm here. What's up?",
-          "option": "What's up?",
-          "nextIds": [
-            121350005
-          ],
-          "kind": "Player"
-        }
-      },
-      "mission": {
-        "id": 2020501,
-        "name": "Total Recall",
-        "type": "Companion"
-      }
-    },
-    {
-      "type": "Message",
-      "id": 1213600,
-      "startIds": [
-        121360000
-      ],
-      "messages": {
-        "121360000": {
-          "type": "Text",
-          "id": 121360000,
-          "sectionId": 1213600,
-          "senderId": 1001,
-          "text": "{NICKNAME}! Come to my room! I found something amazing!",
-          "option": null,
-          "nextIds": [
-            121360001
-          ],
-          "kind": "NPC"
-        },
-        "121360001": {
-          "type": "Text",
-          "id": 121360001,
-          "sectionId": 1213600,
-          "senderId": null,
-          "text": "What did you find?",
-          "option": "What is it?",
-          "nextIds": [
-            121360002
-          ],
-          "kind": "Player"
-        },
-        "121360002": {
-          "type": "Text",
-          "id": 121360002,
-          "sectionId": 1213600,
-          "senderId": 1001,
-          "text": "You'll know when you're here. Hurry!",
-          "option": null,
-          "nextIds": [],
-          "kind": "NPC"
+        "mission": {
+          "id": 2020501,
+          "name": "Total Recall",
+          "type": "Companion"
         }
       }
-    }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1213600,
+        "startIds": [
+          121360000
+        ],
+        "messages": {
+          "121360000": {
+            "type": "Text",
+            "id": 121360000,
+            "sectionId": 1213600,
+            "senderId": 1001,
+            "text": "{NICKNAME}! Come to my room! I found something amazing!",
+            "option": null,
+            "nextIds": [
+              121360001
+            ],
+            "kind": "NPC"
+          },
+          "121360001": {
+            "type": "Text",
+            "id": 121360001,
+            "sectionId": 1213600,
+            "senderId": null,
+            "text": "What did you find?",
+            "option": "What is it?",
+            "nextIds": [
+              121360002
+            ],
+            "kind": "Player"
+          },
+          "121360002": {
+            "type": "Text",
+            "id": 121360002,
+            "sectionId": 1213600,
+            "senderId": 1001,
+            "text": "You'll know when you're here. Hurry!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
   ],
   "info": {
     "id": 1001,
     "name": "March 7th",
     "signature": "Today is also March 7th~",
-    "iconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "iconPath": "icon/avatar/1001.png",
     "type": 1,
     "camp": 1
   }
