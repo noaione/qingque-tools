@@ -16,7 +16,7 @@
     </div>
   </div>
   <ScoresAdd :show="addModal" @close="addModal = false" />
-  <ModalView :show="removeConfirm">
+  <ModalView :show="removeConfirm" @close="removeConfirm = false">
     <template #header>
       <h3 class="text-xl font-bold">Are you sure?</h3>
     </template>

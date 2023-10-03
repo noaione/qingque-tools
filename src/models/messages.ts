@@ -56,6 +56,11 @@ export interface MessageContentRaid extends MessageContent {
   raid: MessageRaid;
 }
 
+export type MessageContents =
+  | MessageContentText
+  | MessageContentSticker
+  | MessageContentImage
+  | MessageContentRaid;
 export type MessageMissionType = "Main" | "Daily" | "Branch" | "Companion";
 
 export interface MessageMission {
@@ -67,7 +72,7 @@ export interface MessageMission {
 interface MessageSection {
   id: number;
   startIds: number[];
-  messages: { [id: number]: MessageContent };
+  messages: { [id: number]: MessageContents };
 }
 
 export interface MessageSectionNormal extends MessageSection {

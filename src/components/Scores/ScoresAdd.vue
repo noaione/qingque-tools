@@ -1,5 +1,5 @@
 <template>
-  <ModalView :show="modal">
+  <ModalView :show="modal" @close="modal = false">
     <template #header>
       <h3 class="text-xl font-bold">Add New</h3>
     </template>

@@ -4,6 +4,7 @@
     <div class="flex flex-col mt-4 mb-5 items-center">
       <h1 class="text-3xl font-bold">Qingque Messages</h1>
       <p class="text-lg mt-2 text-center">See/interact with in-game messages</p>
+      <MessagesConfig class="mt-4" />
     </div>
     <hr class="border-gray-500 mt-2" />
     <div class="grid grid-cols-5 justify-center items-center gap-4 mt-4 mx-2">

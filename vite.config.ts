@@ -5,6 +5,8 @@ import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import Components from "unplugin-vue-components/vite";
 import VueRouter from "unplugin-vue-router/vite";
+import Icons from "unplugin-icons/vite";
+import IconsResolver from "unplugin-icons/resolver";
 import { VueRouterAutoImports } from "unplugin-vue-router";
 import { unheadVueComposablesImports } from "@unhead/vue";
 import AutoImport from "unplugin-auto-import/vite";
@@ -43,8 +45,12 @@ export default defineConfig({
         defineModel: true
       }
     }),
+    Icons({
+      compiler: "vue3",
+      defaultClass: "v-icon"
+    }),
     vueJsx(),
-    Components({ dts: "./src/types/components.d.ts" }),
+    Components({ dts: "./src/types/components.d.ts", resolvers: [IconsResolver()] }),
     AutoImport({
       imports: ["vue", VueRouterAutoImports, unheadVueComposablesImports],
       dts: "./src/types/imports.d.ts"
