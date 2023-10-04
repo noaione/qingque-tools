@@ -1,5 +1,5 @@
 <template>
-  <div class="msg-switcher" :class="[selected ? 'selected' : '']" @click="$emit('select', id)">
+  <div :class="[selected ? 'selected' : '']" class="msg-switcher" @click="$emit('select', id)" :data-id="id">
     <i-mdi-mail class="h-6 min-w-fit inline-block" />
     <span class="ml-2 text-ellipsis text-left overflow-hidden whitespace-nowrap select-none">
       {{ previewMessage }}

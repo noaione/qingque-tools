@@ -65,10 +65,8 @@ const usedContacts = computed(() => {
   return contacts;
 });
 
-function chainMessageOptions(message: MessageContents) {
-  const { nextIds } = message;
-
-  const mappedMessages = nextIds.map((id) => {
+function chainMessageOptionsByIds(startIds: number[]) {
+  const mappedMessages = startIds.map((id) => {
     const message = messagesGroups.value.messages[id];
     if (!message) {
       throw new Error(`Message with id ${id} not found`);
@@ -78,6 +76,11 @@ function chainMessageOptions(message: MessageContents) {
 
   optionsSelections.value = mappedMessages;
   targetScroll(`msg-opts-${mappedMessages[mappedMessages.length - 1].id}`);
+}
+
+function chainMessageOptions(message: MessageContents) {
+  const { nextIds } = message;
+  chainMessageOptionsByIds(nextIds);
 }
 
 function createSectionSeparator(): MessageContentSeparator {
@@ -156,8 +159,7 @@ function startMessageChain(newValue: MessageSections) {
 
   if (firstVal.value.current.kind === "Player") {
     messagesGenerator.value.return();
-    const nextMessage = firstVal.value.parent ?? firstVal.value.current;
-    chainMessageOptions(nextMessage);
+    chainMessageOptionsByIds(messagesGroups.value.startIds);
     return;
   } else {
     messagesQueue.value.push(firstVal.value.current);

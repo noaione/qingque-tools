@@ -6,10 +6,10 @@
       <p class="text-lg mt-2 text-center">
         See/interact with in-game messages<span v-if="messageData">
           from
-          <span class="font-semibold glowy-text">{{
-            messageData.info.name.replace("{NICKNAME}", "Trailblazer")
-          }}</span></span
-        >
+          <span class="font-semibold glowy-text">
+            {{ messageData.info.name.replace("{NICKNAME}", "Trailblazer") }}
+          </span>
+        </span>
       </p>
       <p v-if="importError" class="mt-1 text-center text-red-300">
         Unable to find messages for
@@ -43,7 +43,7 @@
               :key="`sect-${messages[0].id}`"
               :selected="activeMessageIdx === mIdx"
               v-for="(messages, mIdx) in messageData.sections"
-              @select="selectFromSwitcher"
+              @select="changeWebHash"
             />
           </div>
           <div class="flex flex-row col-auto lg:col-span-9 w-full">
@@ -67,6 +67,7 @@ import { formatTextMessage, isNone } from "@/utils";
 type ParamInput = { charaId: string };
 
 const route = useRoute();
+const router = useRouter();
 const ready = ref(false);
 const messageData = ref<MessageGroup>();
 const activeMessageIdx = ref<number>();
@@ -95,6 +96,16 @@ function makePreviewMessage(section: MessageSections) {
   return npcMessage?.text ?? fallbackMessage;
 }
 
+function changeWebHash(sectionId: number) {
+  const sectionDoc = document.querySelector(`div[data-id="${sectionId}"]`);
+  if (sectionDoc?.classList.contains("msg-switcher")) {
+    const sectionHash = `#${sectionId}`;
+    if (route.hash !== sectionHash) {
+      router.replace({ hash: sectionHash });
+    }
+  }
+}
+
 onMounted(() => {
   const charaId = (route.params as ParamInput).charaId;
 
@@ -102,6 +113,12 @@ onMounted(() => {
     .then((module) => {
       messageData.value = module.default;
       activeMessageIdx.value = 0;
+      nextTick(() => {
+        const sectionId = Number(route.hash.replace("#", ""));
+        if (!isNaN(sectionId)) {
+          selectFromSwitcher(sectionId);
+        }
+      });
     })
     .catch(() => {
       importError.value = true;
@@ -110,6 +127,19 @@ onMounted(() => {
       ready.value = true;
     });
 });
+
+watch(
+  () => route.hash,
+  (newHash) => {
+    nextTick(() => {
+      const sectionId = Number(newHash.replace("#", ""));
+      const sectionDoc = document.querySelector(`div[data-id="${sectionId}"]`);
+      if (sectionDoc?.classList.contains("msg-switcher")) {
+        selectFromSwitcher(sectionId);
+      }
+    });
+  }
+);
 
 useHead({
   title: () => `Qingque Message — ${messageData.value?.info.name.replace("{NICKNAME}", "Trailblazer")}`,
