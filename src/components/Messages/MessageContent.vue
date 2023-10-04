@@ -48,7 +48,8 @@
             <img
               class="object-contain h-36 w-36"
               :src="`/assets/${message.sticker.path.replace('.png', '.webp')}`"
-              :alt="message.sticker.keywords"
+              :alt="message.sticker.keywords + ' Emoji'"
+              :title="message.text"
             />
           </div>
           <div
@@ -58,7 +59,7 @@
             <img
               class="object-contain h-40 mt-2 w-auto items-center"
               :src="`/assets/${message.raid.image.replace('.png', '.webp')}`"
-              :alt="message.raid.name"
+              :alt="message.raid.name + ' Raid'"
             />
             <span class="mt-2 text-purple-300 text-lg font-semibold">Mission</span>
             <span class="mt-0.5 font-semibold">{{ message.raid.name }}</span>
