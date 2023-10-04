@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import { formatTextMessage, useMessageConfigStorage } from "@/utils/messages";
+import { formatTextMessage, renderTextMessage, useMessageConfigStorage } from "@/utils/messages";
 
 const trailblazerName = useMessageConfigStorage("tbName", "Trailblazer");
 const trailblazerGender = useMessageConfigStorage("tbGender", "M");
@@ -25,7 +25,10 @@ defineEmits<{
 
 const previewMessage = computed(() => {
   if (props.preview) {
-    return formatTextMessage(props.preview, trailblazerGender.value, trailblazerName.value);
+    return renderTextMessage(
+      formatTextMessage(props.preview, trailblazerGender.value, trailblazerName.value),
+      true
+    );
   }
 
   return `ID: ${props.id}`;

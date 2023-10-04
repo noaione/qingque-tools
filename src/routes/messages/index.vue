@@ -7,7 +7,7 @@
       <MessagesConfig class="mt-4" />
     </div>
     <hr class="border-gray-500 mt-2" />
-    <div class="grid grid-cols-5 justify-center items-center gap-4 mt-4 mx-2">
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 justify-center items-center gap-4 mt-4 mx-2">
       <NavButton
         :target="`/messages/${message.id}`"
         :title="message.name.replace('{NICKNAME}', 'Trailblazer')"

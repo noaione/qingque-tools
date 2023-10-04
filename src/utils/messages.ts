@@ -1,5 +1,7 @@
 import type { MessageContents, MessageSections } from "@/models/messages";
 import { useLocalStorage } from "@vueuse/core";
+import { marked } from "marked";
+import DOMPurify from "dompurify";
 
 export function useMessageConfigStorage<T = any>(
   configName: string,
@@ -28,6 +30,20 @@ export function formatTextMessage(text: string, gender: string = "M", nickname: 
   const matcher = /\{([FM])#(.*?)\}/g;
   text = text.replace(matcher, (match, g, text) => (g === genderStr ? text : ""));
   return text;
+}
+
+export function renderTextMessage(content: string, stripHtml: boolean = false) {
+  const html = marked
+    .use({
+      breaks: true,
+      gfm: true
+    })
+    .parse(content);
+  return DOMPurify.sanitize(html, {
+    USE_PROFILES: {
+      html: stripHtml ? false : true
+    }
+  });
 }
 
 export class MessageChain {

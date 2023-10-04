@@ -30,8 +30,10 @@
         <div class="flex flex-row bg-neutral-800 py-6 px-4 font-bold text-2xl">
           {{ formatTextMessage(messageData.info.name) }}
         </div>
-        <div class="flex mt-2 flex-col lg:flex-row w-screen overflow-x-hidden">
-          <div class="flex flex-col gap-2 lg:w-1/3">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-0 lg:grid-rows-1 w-screen overflow-x-hidden"
+        >
+          <div class="flex flex-col col-auto lg:col-span-3 gap-2">
             <MessageSwitcher
               :id="messages[0].id"
               :preview="makePreviewMessage(messages[0])"
@@ -41,7 +43,7 @@
               @select="selectFromSwitcher"
             />
           </div>
-          <div class="flex flex-row w-full">
+          <div class="flex flex-row col-auto lg:col-span-9 w-full">
             <MessageView :message-group="messageData.sections[activeMessageIdx]" />
           </div>
         </div>

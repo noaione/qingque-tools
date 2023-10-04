@@ -11,9 +11,10 @@
           <i-mdi-bell-outline class="w-6 h-6 mb-0.5" />
           <span>—</span>
         </div>
-        <p class="text-sm font-bold mx-2 text-center">
-          {{ formatTextMessage(message.text, trailblazerGender, trailblazerName) }}
-        </p>
+        <p
+          class="text-sm font-bold mx-2 text-center"
+          v-html="renderTextMessage(formatTextMessage(message.text, trailblazerGender, trailblazerName))"
+        />
       </div>
       <div
         v-else
@@ -30,19 +31,18 @@
           <div
             v-if="message.type === 'Text'"
             :class="`flex flex-wrap pb-1 ${isMe ? 'text-right' : 'text-left'}`"
-          >
-            {{ formatTextMessage(message.text, trailblazerGender, trailblazerName) }}
-          </div>
+            v-html="renderTextMessage(formatTextMessage(message.text, trailblazerGender, trailblazerName))"
+          />
           <div v-else-if="message.type === 'Image'" class="flex flex-wrap pb-2 mt-2">
             <img
-              class="object-contain h-auto w-[20rem] shadow-md"
+              class="object-contain h-36 w-[20rem] shadow-md"
               :src="`/assets/${message.image.path.replace('.png', '.webp')}`"
               :alt="message.text"
             />
           </div>
           <div v-else-if="message.type === 'Sticker'" class="flex flex-wrap pb-1 mt-2">
             <img
-              class="object-contain h-auto w-36"
+              class="object-contain h-36 w-36"
               :src="`/assets/${message.sticker.path.replace('.png', '.webp')}`"
               :alt="message.sticker.keywords"
             />
@@ -58,7 +58,12 @@
             />
             <span class="mt-2 text-purple-300 text-lg font-semibold">Mission</span>
             <span class="mt-0.5 font-semibold">{{ message.raid.name }}</span>
-            <span class="mt-2">{{ message.raid.desc }}</span>
+            <span
+              class="mt-2"
+              v-html="
+                renderTextMessage(formatTextMessage(message.raid.desc, trailblazerGender, trailblazerName))
+              "
+            />
           </div>
         </div>
       </div>
@@ -68,7 +73,7 @@
 
 <script setup lang="ts">
 import type { MessageAuthorInfo, MessageContents } from "@/models/messages";
-import { formatTextMessage, useMessageConfigStorage } from "@/utils/messages";
+import { formatTextMessage, renderTextMessage, useMessageConfigStorage } from "@/utils/messages";
 
 const trailblazerName = useMessageConfigStorage("tbName", "Trailblazer");
 const trailblazerGender = useMessageConfigStorage("tbGender", "M");

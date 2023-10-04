@@ -10,16 +10,15 @@
         @click="$emit('message-select', message)"
         :key="message.id"
         v-for="message in messages"
-      >
-        {{ formatMessage(message) }}
-      </div>
+        v-html="formatMessage(message)"
+      />
     </div>
   </Transition>
 </template>
 
 <script setup lang="ts">
 import type { MessageContents } from "@/models/messages";
-import { formatTextMessage, useMessageConfigStorage } from "@/utils/messages";
+import { formatTextMessage, renderTextMessage, useMessageConfigStorage } from "@/utils/messages";
 
 const trailblazerName = useMessageConfigStorage("tbName", "Trailblazer");
 const trailblazerGender = useMessageConfigStorage("tbGender", "M");
@@ -35,7 +34,9 @@ defineEmits<{
 const showTrans = ref(false);
 
 function formatMessage(message: MessageContents) {
-  return formatTextMessage(message.option ?? message.text, trailblazerGender.value, trailblazerName.value);
+  return renderTextMessage(
+    formatTextMessage(message.option ?? message.text, trailblazerGender.value, trailblazerName.value)
+  );
 }
 
 onMounted(() => {
