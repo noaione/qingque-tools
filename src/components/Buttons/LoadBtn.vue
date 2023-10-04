@@ -18,8 +18,9 @@ import { ScoreValidationError, validateScoreJSON } from "@/utils/scoring";
 
 type HandleFileInput = Event & { currentTarget: EventTarget & HTMLInputElement };
 
-const props = defineProps<{
-  onLoadError: (error: string | null) => void;
+const emits = defineEmits<{
+  (e: "load-error", error: string | null): void;
+  (e: "init-load"): void;
 }>();
 
 const scores = useScoresStore();
@@ -27,12 +28,12 @@ const loading = ref(false);
 
 function onFileLoad(ev: HandleFileInput) {
   scores.cleanData();
-  props.onLoadError(null);
+  emits("init-load");
   const files = ev.currentTarget.files;
   if (!files) return;
   const file = files[0];
   if (file.type !== "application/json") {
-    props.onLoadError("File must be a JSON file");
+    emits("load-error", "File must be a JSON file");
     return;
   }
 
@@ -51,10 +52,10 @@ function onFileLoad(ev: HandleFileInput) {
       scores.fromJSON(scoreJSON);
     } catch (e) {
       if (e instanceof ScoreValidationError) {
-        props.onLoadError(e.message);
+        emits("load-error", e.message);
         return;
       } else {
-        props.onLoadError("An unknown error occurred.");
+        emits("load-error", "An unknown error occurred.");
       }
     } finally {
       loading.value = false;
@@ -63,9 +64,9 @@ function onFileLoad(ev: HandleFileInput) {
 
   reader.addEventListener("error", () => {
     if (reader.error) {
-      props.onLoadError(reader.error.message);
+      emits("load-error", reader.error.message);
     } else {
-      props.onLoadError("An unknown error occurred.");
+      emits("load-error", "An unknown error occurred.");
     }
     loading.value = false;
   });
@@ -85,7 +86,7 @@ function loadFromURL() {
       try {
         scoreJSON = JSON.parse(rawData);
       } catch (e) {
-        props.onLoadError("Invalid JSON file.");
+        emits("load-error", "Invalid JSON file.");
         return;
       }
 
@@ -94,17 +95,16 @@ function loadFromURL() {
         scores.fromJSON(scoreJSON);
       } catch (e) {
         if (e instanceof ScoreValidationError) {
-          props.onLoadError(e.message);
-          return;
+          emits("load-error", e.message);
         } else {
-          props.onLoadError("An unknown error occurred.");
+          emits("load-error", "An unknown error occurred.");
         }
       } finally {
         loading.value = false;
       }
     })
     .catch((e) => {
-      props.onLoadError("An unknown error occurred, check console!");
+      emits("load-error", "An unknown error occurred, check console!");
       console.error(e);
       loading.value = false;
     });
