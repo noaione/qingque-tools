@@ -17,7 +17,6 @@ declare module 'vue' {
     IMdiStarFourPointsOutline: typeof import('~icons/mdi/star-four-points-outline')['default']
     LoadBtn: typeof import('./../components/Buttons/LoadBtn.vue')['default']
     MessageContent: typeof import('./../components/Messages/MessageContent.vue')['default']
-    MessageContentImage: (typeof import("./../components/Messages/MessageContentImage.vue"))["default"]
     MessageOptions: typeof import('./../components/Messages/MessageOptions.vue')['default']
     MessagesConfig: typeof import('./../components/Messages/MessagesConfig.vue')['default']
     MessageSections: typeof import('./../components/Messages/MessageSections.vue')['default']
