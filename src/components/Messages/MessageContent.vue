@@ -34,7 +34,7 @@
           <div :class="`text-lg font-bold ${isMe ? 'text-right' : 'text-left'}`">{{ senderName }}</div>
           <div
             v-if="message.type === 'Text'"
-            :class="`flex flex-wrap pb-1 ${isMe ? 'text-right' : 'text-left'}`"
+            :class="`flex flex-wrap pb-1 ${isMe ? 'text-right flex-col-reverse' : 'text-left'}`"
             v-html="
               renderTextMessage(formatTextMessage(message.text, trailblazerGender, trailblazerName, true))
             "
