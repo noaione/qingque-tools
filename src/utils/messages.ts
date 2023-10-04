@@ -15,11 +15,7 @@ export function useMessageConfigStorage<T = any>(
  * @param nickname The nickname to be used, defaults to `Trailblazer`
  * @returns The formatted text
  */
-export function formatTextMessage(
-  text: string,
-  gender: string = "M",
-  nickname: string = "Trailblazer"
-) {
+export function formatTextMessage(text: string, gender: string = "M", nickname: string = "Trailblazer") {
   // replace {NICKNAME}
   text = text.replace("{NICKNAME}", nickname);
   // Use gendered version of the text, formatted like:
@@ -34,19 +30,29 @@ export function formatTextMessage(
   return text;
 }
 
-export function makeMessagesChain(section: MessageSections) {
-  const finalTrees: MessageContents[] = [];
+export class MessageChain {
+  current: MessageContents;
+  parent?: MessageContents;
 
-  const startIds = section.startIds[0];
-  finalTrees.push(section.messages[startIds]);
+  constructor(current: MessageContents, parent?: MessageContents) {
+    this.current = current;
+    this.parent = parent;
+  }
+}
 
+// The way message chain works is, return the current message
+// and then also get the list of nextIds, if there's multiple
+// on the front side, we recreate the messages chain starting from the
+// provided IDs.
+export function* makeMessagesChain(section: MessageSections, startId?: number) {
   // continue the chain until we hit a message with no nextIds
-  let currentId = section.messages[startIds].nextIds[0];
+  console.log("Creating chain with startId", startId);
+  let currentId = startId ?? section.startIds[0];
+  let parentMessage = undefined;
   while (currentId) {
     const currentMessage = section.messages[currentId];
-    finalTrees.push(currentMessage);
+    yield new MessageChain(currentMessage, parentMessage);
     currentId = currentMessage.nextIds[0];
+    parentMessage = currentMessage;
   }
-
-  return finalTrees;
 }
