@@ -3,6 +3,8 @@ import { useLocalStorage } from "@vueuse/core";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
 
+export const messageKey = Symbol("Message Sections Handling Key") as InjectionKey<Ref<readonly number[]>>;
+
 export function useMessageConfigStorage<T = any>(
   configName: string,
   initialValue: T

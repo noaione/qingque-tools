@@ -2,19 +2,23 @@
   <Transition name="message-popup">
     <div v-if="showTrans" :id="`msg-${message.id}`">
       <div
-        v-if="isSystem"
+        v-if="isSystem && !isSeparator"
         :class="`flex flex-col justify-center items-center m-6 text-neutral-300 ${$props.class ?? ''}`"
       >
         <!-- System message. -->
-        <div class="flex flex-row gap-0.5">
+        <div v-if="!isSeparator" class="flex flex-row gap-0.5">
           <span>—</span>
           <i-mdi-bell-outline class="w-6 h-6 mb-0.5" />
           <span>—</span>
         </div>
         <p
+          v-if="!isSeparator"
           class="text-sm font-bold mx-2 text-center"
           v-html="renderTextMessage(formatTextMessage(message.text, trailblazerGender, trailblazerName))"
         />
+      </div>
+      <div v-else-if="isSystem && isSeparator" class="msg-sect-sep mx-6 mt-4">
+        <i-mdi-star-four-points-outline />
       </div>
       <div
         v-else
@@ -92,6 +96,9 @@ const isMe = computed(() => {
 const isSystem = computed(() => {
   return props.message.kind === "System";
 });
+const isSeparator = computed(() => {
+  return props.message.type === "SectionSeparator";
+});
 
 const senderName = computed(() => {
   if (props.author) {
@@ -136,5 +143,24 @@ onMounted(() => {
 .message-popup-enter-from {
   transform: translateY(2rem);
   opacity: 0;
+}
+
+/* https://stackoverflow.com/a/26634224 */
+.msg-sect-sep {
+  @apply flex items-center text-center text-neutral-400;
+}
+
+.msg-sect-sep::before,
+.msg-sect-sep::after {
+  content: "";
+  @apply flex-1 border-[1px] border-neutral-600;
+}
+
+.msg-sect-sep:not(:empty)::before {
+  @apply mr-1;
+}
+
+.msg-sect-sep:not(:empty)::after {
+  @apply ml-1;
 }
 </style>

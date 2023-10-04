@@ -56,11 +56,17 @@ export interface MessageContentRaid extends MessageContent {
   raid: MessageRaid;
 }
 
+export interface MessageContentSeparator extends MessageContent {
+  // Our own type, not from the game
+  type: "SectionSeparator";
+}
+
 export type MessageContents =
   | MessageContentText
   | MessageContentSticker
   | MessageContentImage
-  | MessageContentRaid;
+  | MessageContentRaid
+  | MessageContentSeparator;
 export type MessageMissionType = "Main" | "Daily" | "Branch" | "Companion";
 
 export interface MessageMission {
