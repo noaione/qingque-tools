@@ -17,9 +17,7 @@
       </p>
       <div class="flex flex-row justify-center mt-4 gap-2">
         <RouterLink to="/messages">
-          <button
-            class="transition-colors px-4 py-2 rounded-md font-bold bg-gray-600 hover:bg-gray-500"
-          >
+          <button class="transition-colors px-4 py-2 rounded-md font-bold bg-gray-600 hover:bg-gray-500">
             Back
           </button>
         </RouterLink>
@@ -109,8 +107,7 @@ onMounted(() => {
 });
 
 useHead({
-  title: () =>
-    `Qingque Message — ${messageData.value?.info.name.replace("{NICKNAME}", "Trailblazer")}`,
+  title: () => `Qingque Message — ${messageData.value?.info.name.replace("{NICKNAME}", "Trailblazer")}`,
   meta: [
     {
       name: "description",

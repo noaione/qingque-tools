@@ -2,9 +2,7 @@
   <table class="table-fixed border border-gray-600 border-collapse">
     <thead class="bg-gray-700">
       <tr class="h-4 px-1">
-        <th
-          :class="`text-left py-2 px-1 ${mainStatsMode ? 'w-2/6' : 'w-1/6'} border border-gray-600`"
-        >
+        <th :class="`text-left py-2 px-1 ${mainStatsMode ? 'w-2/6' : 'w-1/6'} border border-gray-600`">
           Stats
         </th>
         <th class="text-left py-2 px-1 w-4/6 border border-gray-600">Value</th>

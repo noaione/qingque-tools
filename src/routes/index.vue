@@ -17,11 +17,7 @@
         target="/randomizer"
         description="Gamble your MoC progress with a character randomizer."
       />
-      <NavButton
-        title="Messages"
-        target="/messages"
-        description="See/interact with in-game messages"
-      />
+      <NavButton title="Messages" target="/messages" description="See/interact with in-game messages" />
     </div>
   </main>
 </template>

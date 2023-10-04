@@ -1,8 +1,5 @@
 <template>
-  <button
-    :class="`btn-basic bg-purple-600 hover:bg-purple-500 ${$props.class ?? ''}`"
-    @click="modal = true"
-  >
+  <button :class="`btn-basic bg-purple-600 hover:bg-purple-500 ${$props.class ?? ''}`" @click="modal = true">
     Settings
   </button>
   <ModalView :show="modal" @close="modal = false">

@@ -1,10 +1,4 @@
-import type {
-  Character,
-  MainAffixKey,
-  ScoreCharacter,
-  ScoreCharacterJSON,
-  StatsTypeDict
-} from "@/models";
+import type { Character, MainAffixKey, ScoreCharacter, ScoreCharacterJSON, StatsTypeDict } from "@/models";
 import charactersModels from "@/assets/characters.json";
 import { calculateMaximumPossibleValues } from "@/utils";
 import { defineStore } from "pinia";
