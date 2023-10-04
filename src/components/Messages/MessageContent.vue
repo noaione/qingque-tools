@@ -35,7 +35,7 @@
           />
           <div v-else-if="message.type === 'Image'" class="flex flex-wrap pb-2 mt-2">
             <img
-              class="object-contain h-36 w-[20rem] shadow-md"
+              class="object-contain h-[10rem] w-[20rem] shadow-md"
               :src="`/assets/${message.image.path.replace('.png', '.webp')}`"
               :alt="message.text"
             />
