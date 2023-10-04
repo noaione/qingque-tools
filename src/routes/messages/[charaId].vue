@@ -27,8 +27,11 @@
     <hr class="border-gray-500 mt-2" />
     <div v-if="ready">
       <div v-if="messageData && !isNone(activeMessageIdx)" class="flex flex-col w-full">
-        <div class="flex flex-row bg-neutral-800 py-6 px-4 font-bold text-2xl">
-          {{ formatTextMessage(messageData.info.name) }}
+        <div class="flex flex-col bg-neutral-800 py-6 px-4">
+          <span class="font-bold text-2xl">{{ formatTextMessage(messageData.info.name) }}</span>
+          <span class="text-base font-semibold mt-1" v-if="messageData.info.signature">
+            {{ messageData.info.signature }}
+          </span>
         </div>
         <div
           class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-0 lg:grid-rows-1 w-screen overflow-x-hidden"
