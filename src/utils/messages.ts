@@ -19,7 +19,12 @@ export function useMessageConfigStorage<T = any>(
  * @param nickname The nickname to be used, defaults to `Trailblazer`
  * @returns The formatted text
  */
-export function formatTextMessage(text: string, gender: string = "M", nickname: string = "Trailblazer") {
+export function formatTextMessage(
+  text: string,
+  gender: string = "M",
+  nickname: string = "Trailblazer",
+  replaceNewline: boolean = false
+) {
   // replace {NICKNAME}
   text = text.replace("{NICKNAME}", nickname);
   // Use gendered version of the text, formatted like:
@@ -31,7 +36,8 @@ export function formatTextMessage(text: string, gender: string = "M", nickname: 
   }
   const matcher = /\{([FM])#(.*?)\}/g;
   text = text.replace(matcher, (match, g, text) => (g === genderStr ? text : ""));
-  return text;
+  // replace all \n with <br/>
+  return replaceNewline ? text.replace(/\\n/g, "<br/>") : text;
 }
 
 export function renderTextMessage(content: string, stripHtml: boolean = false) {

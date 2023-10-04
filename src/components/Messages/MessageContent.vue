@@ -35,7 +35,9 @@
           <div
             v-if="message.type === 'Text'"
             :class="`flex flex-wrap pb-1 ${isMe ? 'text-right' : 'text-left'}`"
-            v-html="renderTextMessage(formatTextMessage(message.text, trailblazerGender, trailblazerName))"
+            v-html="
+              renderTextMessage(formatTextMessage(message.text, trailblazerGender, trailblazerName, true))
+            "
           />
           <div v-else-if="message.type === 'Image'" class="flex flex-wrap pb-2 mt-2">
             <img
@@ -66,7 +68,9 @@
             <span
               class="mt-2"
               v-html="
-                renderTextMessage(formatTextMessage(message.raid.desc, trailblazerGender, trailblazerName))
+                renderTextMessage(
+                  formatTextMessage(message.raid.desc, trailblazerGender, trailblazerName, true)
+                )
               "
             />
           </div>
