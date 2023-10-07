@@ -73,8 +73,11 @@ export default defineConfig({
             return `meta/${assetName.replace("/", ".").replace("_", ".")}`;
           }
 
-          if (id.includes("/routes")) {
-            return "routes";
+          if (id.includes("/routes") && !id.startsWith("virtual:")) {
+            const [, routesPath] = id.split("src/routes/");
+            const [routesName] = routesPath.split(".");
+            const safeRoutesName = routesName.replace("_", ".").replace("[", "_").replace("]", "");
+            return `routes/${safeRoutesName}`;
           }
 
           return splitMoreVendorChunk(id, getModuleInfo, (intId) => {
