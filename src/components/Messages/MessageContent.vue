@@ -27,7 +27,7 @@
         }`"
       >
         <!-- Non-System message. -->
-        <div class="flex rounded-full border border-neutral-400 bg-neutral-600">
+        <div class="flex rounded-full border border-neutral-400 bg-neutral-600 min-w-[4rem]">
           <img class="object-contain h-16 w-16" :src="senderAvatar" />
         </div>
         <div class="flex flex-col bg-neutral-600 rounded-md mt-[0.35rem] px-4 py-2 max-w-lg">

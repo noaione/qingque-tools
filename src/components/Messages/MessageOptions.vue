@@ -13,6 +13,7 @@
       :id="`msg-opts-${message.id}`"
       :key="message.id"
       :data-id="message.id"
+      :data-multiple="String(contents.length > 1)"
       v-for="message in contents"
       v-html="formatMessage(message)"
     />
@@ -79,12 +80,12 @@ function onAniLeave(el: Element, done: () => void) {
   // wait next tick
   nextTick(() => {
     const dataId = Number((el as HTMLDivElement).dataset.id);
-    const delay = dataId === selected.value ? 0.2 : 0;
-    console.log("Leave", dataId, delay, selected.value);
+    const delayAct = dataId === selected.value ? 0.2 : 0;
+    const hasMultiple = (el as HTMLDivElement).dataset.multiple === "true";
     gsap.to(el, {
       opacity: 0,
       duration: 0.3,
-      delay,
+      delay: hasMultiple ? delayAct : 0,
       ease: Quad.easeIn,
       onComplete: done
     });
