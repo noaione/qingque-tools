@@ -1,16 +1,15 @@
 <template>
-  <MessageContent
-    :message="message"
-    :author="!isNone(message.senderId) ? usedContacts[message.senderId] : undefined"
-    :key="message.id"
-    :class="index > 0 ? (index === messagesQueue.length - 1 ? 'mb-6 mt-2' : 'my-2') : 'mb-2'"
-    v-for="(message, index) in messagesQueue"
-  />
-  <MessageOptions
-    :messages="optionsSelections"
-    @message-select="onMessageOptionSelected"
-    v-if="optionsSelections.length > 0"
-  />
+  <TransitionGroup tag="div" name="message-popup">
+    <MessageContent
+      :id="`msg-${message.id}`"
+      :message="message"
+      :author="!isNone(message.senderId) ? usedContacts[message.senderId] : undefined"
+      :key="message.id"
+      :class="index > 0 ? (index === messagesQueue.length - 1 ? 'mb-6 mt-2' : 'my-2') : 'mb-2'"
+      v-for="(message, index) in messagesQueue"
+    />
+  </TransitionGroup>
+  <MessageOptions :messages="optionsSelections" @message-select="onMessageOptionSelected" />
 </template>
 
 <script setup lang="ts">
@@ -75,7 +74,10 @@ function chainMessageOptionsByIds(startIds: number[]) {
   });
 
   optionsSelections.value = mappedMessages;
-  targetScroll(`msg-opts-${mappedMessages[mappedMessages.length - 1].id}`);
+  const lastValue = mappedMessages[mappedMessages.length - 1];
+  nextTick(() => {
+    targetScroll(`msg-opts-${lastValue.id}`);
+  });
 }
 
 function chainMessageOptions(message: MessageContents) {
@@ -202,3 +204,28 @@ onMounted(() => {
   }
 });
 </script>
+
+<style scoped lang="postcss">
+.message-popup-enter-active,
+.message-select-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.message-popup-leave-active,
+.message-select-leave-active {
+  transition: all 0.25s ease-in-out;
+}
+
+.message-popup-enter-from {
+  transform: translateY(2rem);
+  opacity: 0;
+}
+.message-select-enter-from {
+  transform: translateY(1rem);
+  opacity: 0;
+}
+
+.message-select-leave-to {
+  opacity: 0;
+}
+</style>

@@ -1,37 +1,54 @@
 <template>
-  <Transition name="message-select">
+  <TransitionGroup
+    tag="div"
+    class="flex flex-col mt-auto mb-6 px-4 gap-2"
+    :css="false"
+    @before-enter="onAniBeforeEnter"
+    @enter="onAniEnter"
+    @leave="onAniLeave"
+  >
     <div
-      v-if="showTrans"
-      :id="`msg-opts-${messages[messages.length - 1].id}`"
-      class="flex flex-col mt-auto mb-6 px-4 gap-2"
-    >
-      <div
-        class="message-option"
-        @click="$emit('message-select', message)"
-        :key="message.id"
-        v-for="message in messages"
-        v-html="formatMessage(message)"
-      />
-    </div>
-  </Transition>
+      class="message-option"
+      @click="emitMessageSelect(message)"
+      :id="`msg-opts-${message.id}`"
+      :key="message.id"
+      :data-id="message.id"
+      v-for="message in contents"
+      v-html="formatMessage(message)"
+    />
+  </TransitionGroup>
 </template>
 
 <script setup lang="ts">
+import gsap, { Quad } from "gsap";
 import type { MessageContents } from "@/models/messages";
 import { formatTextMessage, renderTextMessage, useMessageConfigStorage } from "@/utils/messages";
 
 const trailblazerName = useMessageConfigStorage("tbName", "Trailblazer");
 const trailblazerGender = useMessageConfigStorage("tbGender", "M");
 
-defineProps<{
+const props = defineProps<{
   messages: MessageContents[];
   class?: string;
 }>();
-defineEmits<{
+const emits = defineEmits<{
   (e: "message-select", message: MessageContents): void;
 }>();
 
-const showTrans = ref(false);
+const contents = ref(props.messages);
+const selected = ref<number>();
+
+function emitMessageSelect(message: MessageContents) {
+  selected.value = message.id;
+  nextTick(() => {
+    contents.value = [];
+    nextTick(() => {
+      setTimeout(() => {
+        emits("message-select", message);
+      }, 400);
+    });
+  });
+}
 
 function formatMessage(message: MessageContents) {
   return renderTextMessage(
@@ -39,25 +56,52 @@ function formatMessage(message: MessageContents) {
   );
 }
 
-onMounted(() => {
-  showTrans.value = true;
-});
+/**
+ * Animation
+ */
+function onAniBeforeEnter(el: Element) {
+  gsap.set(el, {
+    opacity: 0,
+    transform: "translateY(1rem)"
+  });
+}
+function onAniEnter(el: Element, done: () => void) {
+  gsap.to(el, {
+    opacity: 1,
+    duration: 0.3,
+    transform: "translateY(0)",
+    ease: Quad.easeOut,
+    onComplete: done
+  });
+}
+
+function onAniLeave(el: Element, done: () => void) {
+  // wait next tick
+  nextTick(() => {
+    const dataId = Number((el as HTMLDivElement).dataset.id);
+    const delay = dataId === selected.value ? 0.2 : 0;
+    console.log("Leave", dataId, delay, selected.value);
+    gsap.to(el, {
+      opacity: 0,
+      duration: 0.3,
+      delay,
+      ease: Quad.easeIn,
+      onComplete: done
+    });
+  });
+}
+
+watch(
+  () => props.messages,
+  (messages) => {
+    console.log("Options changed", messages);
+    contents.value = messages;
+    selected.value = undefined;
+  }
+);
 </script>
 
 <style scoped lang="postcss">
-.message-select-enter-active {
-  transition: all 0.3s ease-out;
-}
-
-.message-select-leave-active {
-  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
-}
-
-.message-select-enter-from {
-  transform: translateY(1rem);
-  opacity: 0;
-}
-
 .message-option {
   @apply w-full px-2 flex flex-row items-center text-center justify-center py-2;
   @apply bg-neutral-600 hover:bg-neutral-700 hover:text-gray-300 transition-colors;
