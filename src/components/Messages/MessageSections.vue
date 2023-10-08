@@ -10,6 +10,7 @@
     />
   </TransitionGroup>
   <MessageOptions :messages="optionsSelections" @message-select="onMessageOptionSelected" />
+  <MessageMission v-if="activeMission" :mission="activeMission" />
 </template>
 
 <script setup lang="ts">
@@ -18,6 +19,7 @@ import type {
   MessageAuthorInfo,
   MessageContents,
   MessageContentSeparator,
+  MessageMission,
   MessageSections
 } from "@/models/messages";
 import { isNone } from "@/utils";
@@ -40,6 +42,7 @@ const messagesGroups = ref(props.messageSection);
 const messagesGenerator = ref<Generator<MessageChain, void, unknown>>();
 const messagesQueue = ref<MessageContents[]>([]);
 const optionsSelections = ref<MessageContents[]>([]);
+const activeMission = ref<MessageMission>();
 
 function targetScroll(id: string) {
   nextTick(() => {
@@ -100,6 +103,17 @@ function createSectionSeparator(): MessageContentSeparator {
   };
 }
 
+function emitCompleteOnDelay(delay: number = 500) {
+  if (delay <= 0) {
+    emits("completed", messagesGroups.value.id);
+    return;
+  }
+
+  setTimeout(() => {
+    emits("completed", messagesGroups.value.id);
+  }, delay);
+}
+
 function setSectionAsComplete() {
   console.log("Section completed", messagesGroups.value.id);
   clearInterval(chainInterval.value);
@@ -110,7 +124,19 @@ function setSectionAsComplete() {
     messagesQueue.value.push(createSectionSeparator());
     targetScroll(`msg-${separator.id}`);
   }
-  emits("completed", messagesGroups.value.id);
+  nextTick(() => {
+    setTimeout(() => {
+      console.log("Starting message mission animation", messagesGroups.value.id);
+      if (messagesGroups.value.type === "MissionMessage") {
+        activeMission.value = messagesGroups.value.mission;
+        nextTick(() => {
+          emitCompleteOnDelay(2000);
+        });
+      } else {
+        emitCompleteOnDelay(0);
+      }
+    }, 300);
+  });
 }
 
 function startGeneratorProcess() {

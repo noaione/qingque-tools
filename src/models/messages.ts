@@ -86,7 +86,7 @@ export interface MessageSectionNormal extends MessageSection {
 }
 
 export interface MessageSectionMission extends MessageSection {
-  type: "Mission";
+  type: "MissionMessage";
   mission: MessageMission;
 }
 
