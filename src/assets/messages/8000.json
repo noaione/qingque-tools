@@ -1,0 +1,99 @@
+{
+  "id": 8000,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1201200,
+        "startIds": [
+          120120000
+        ],
+        "messages": {
+          "120120000": {
+            "type": "Text",
+            "id": 120120000,
+            "sectionId": 1201200,
+            "senderId": 8000,
+            "text": "The Cloud Knights invited us to go with them",
+            "option": null,
+            "nextIds": [
+              120120001
+            ],
+            "kind": "NPC"
+          },
+          "120120001": {
+            "type": "Text",
+            "id": 120120001,
+            "sectionId": 1201200,
+            "senderId": 8000,
+            "text": "Your homeland's got some really big crucibles",
+            "option": null,
+            "nextIds": [
+              120120002
+            ],
+            "kind": "NPC"
+          },
+          "120120002": {
+            "type": "Image",
+            "id": 120120002,
+            "sectionId": 1201200,
+            "senderId": 8000,
+            "text": "[image]",
+            "option": null,
+            "nextIds": [
+              120120003,
+              120120004
+            ],
+            "kind": "NPC",
+            "image": {
+              "id": 10203,
+              "path": "image/messages/10013.png"
+            }
+          },
+          "120120003": {
+            "type": "Text",
+            "id": 120120003,
+            "sectionId": 1201200,
+            "senderId": 1002,
+            "text": "Why are you with the Cloud Knights?",
+            "option": "Cloud Knights?",
+            "nextIds": [
+              120120005
+            ],
+            "kind": "Player"
+          },
+          "120120005": {
+            "type": "Text",
+            "id": 120120005,
+            "sectionId": 1201200,
+            "senderId": null,
+            "text": "Message failed to send",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "120120004": {
+            "type": "Text",
+            "id": 120120004,
+            "sectionId": 1201200,
+            "senderId": 1002,
+            "text": "Why are you near the Aureate Elixir Furnace?",
+            "option": "Aureate Elixir Furnace?",
+            "nextIds": [
+              120120005
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 8000,
+    "name": "{NICKNAME}",
+    "signature": null,
+    "iconPath": "",
+    "type": null,
+    "camp": null
+  }
+}

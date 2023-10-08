@@ -1,0 +1,964 @@
+{
+  "id": 1111,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2008200,
+        "startIds": [
+          200820000
+        ],
+        "messages": {
+          "200820000": {
+            "type": "Text",
+            "id": 200820000,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "Hey!",
+            "option": null,
+            "nextIds": [
+              200820001
+            ],
+            "kind": "NPC"
+          },
+          "200820001": {
+            "type": "Text",
+            "id": 200820001,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "{NICKNAME}!",
+            "option": null,
+            "nextIds": [
+              200820002
+            ],
+            "kind": "NPC"
+          },
+          "200820002": {
+            "type": "Text",
+            "id": 200820002,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "I'm Luka!",
+            "option": null,
+            "nextIds": [
+              200820003
+            ],
+            "kind": "NPC"
+          },
+          "200820003": {
+            "type": "Text",
+            "id": 200820003,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "I heard from Oleg that you fought in the Fight Club too?",
+            "option": null,
+            "nextIds": [
+              200820004
+            ],
+            "kind": "NPC"
+          },
+          "200820004": {
+            "type": "Text",
+            "id": 200820004,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "Are you free tonight? Come and watch my match",
+            "option": null,
+            "nextIds": [
+              200820005,
+              200820007
+            ],
+            "kind": "NPC"
+          },
+          "200820005": {
+            "type": "Text",
+            "id": 200820005,
+            "sectionId": 2008200,
+            "senderId": null,
+            "text": "No problem. I'll be there",
+            "option": "No problem",
+            "nextIds": [
+              200820006
+            ],
+            "kind": "Player"
+          },
+          "200820006": {
+            "type": "Sticker",
+            "id": 200820006,
+            "sectionId": 2008200,
+            "senderId": null,
+            "text": "[Okay]",
+            "option": null,
+            "nextIds": [
+              200820012
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20004,
+              "path": "icon/emoji/20004.png",
+              "keywords": "Understood"
+            }
+          },
+          "200820012": {
+            "type": "Text",
+            "id": 200820012,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "That's a promise!",
+            "option": null,
+            "nextIds": [
+              200820013
+            ],
+            "kind": "NPC"
+          },
+          "200820013": {
+            "type": "Text",
+            "id": 200820013,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "One thing tho... Something weird's happening lately in my matches",
+            "option": null,
+            "nextIds": [
+              200820014
+            ],
+            "kind": "NPC"
+          },
+          "200820014": {
+            "type": "Text",
+            "id": 200820014,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "I kept going against fully-armed vagrants and automatons",
+            "option": null,
+            "nextIds": [
+              200820015
+            ],
+            "kind": "NPC"
+          },
+          "200820015": {
+            "type": "Sticker",
+            "id": 200820015,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "[Shocked]",
+            "option": null,
+            "nextIds": [
+              200820016
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "200820016": {
+            "type": "Text",
+            "id": 200820016,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "Can someone with weapons and missiles really count as a Fight Club fighter!?",
+            "option": null,
+            "nextIds": [
+              200820017,
+              200820021
+            ],
+            "kind": "NPC"
+          },
+          "200820017": {
+            "type": "Text",
+            "id": 200820017,
+            "sectionId": 2008200,
+            "senderId": null,
+            "text": "Times have changed, and so the Fight Club has to keep up",
+            "option": "Times have changed",
+            "nextIds": [
+              200820018
+            ],
+            "kind": "Player"
+          },
+          "200820018": {
+            "type": "Text",
+            "id": 200820018,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "Hmm, that's reasonable!",
+            "option": null,
+            "nextIds": [
+              200820019
+            ],
+            "kind": "NPC"
+          },
+          "200820019": {
+            "type": "Text",
+            "id": 200820019,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "Honestly, I also want to mod my robot arm to fire missiles",
+            "option": null,
+            "nextIds": [
+              200820020
+            ],
+            "kind": "NPC"
+          },
+          "200820020": {
+            "type": "Text",
+            "id": 200820020,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "But that just feels like I'm moving away from the original vision of the Fight Club...",
+            "option": null,
+            "nextIds": [
+              200820025
+            ],
+            "kind": "NPC"
+          },
+          "200820025": {
+            "type": "Text",
+            "id": 200820025,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "I give up, no use overthinking it",
+            "option": null,
+            "nextIds": [
+              200820026
+            ],
+            "kind": "NPC"
+          },
+          "200820026": {
+            "type": "Text",
+            "id": 200820026,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "No matter how the opponent chooses to fight, I will win!",
+            "option": null,
+            "nextIds": [
+              200820027
+            ],
+            "kind": "NPC"
+          },
+          "200820027": {
+            "type": "Text",
+            "id": 200820027,
+            "sectionId": 2008200,
+            "senderId": null,
+            "text": "You can do it!",
+            "option": "You can do it!",
+            "nextIds": [
+              200820028
+            ],
+            "kind": "Player"
+          },
+          "200820028": {
+            "type": "Sticker",
+            "id": 200820028,
+            "sectionId": 2008200,
+            "senderId": null,
+            "text": "[Thumbs Up]",
+            "option": null,
+            "nextIds": [
+              200820029
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200820029": {
+            "type": "Text",
+            "id": 200820029,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "Just remember to cheer for me!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200820021": {
+            "type": "Text",
+            "id": 200820021,
+            "sectionId": 2008200,
+            "senderId": null,
+            "text": "Fighting with weapons goes against everything the Fight Club stands for",
+            "option": "It's diluting the Fight Club",
+            "nextIds": [
+              200820022
+            ],
+            "kind": "Player"
+          },
+          "200820022": {
+            "type": "Text",
+            "id": 200820022,
+            "sectionId": 2008200,
+            "senderId": null,
+            "text": "A fighter should rely on one's own strength!",
+            "option": null,
+            "nextIds": [
+              200820023
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200820023": {
+            "type": "Text",
+            "id": 200820023,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "Exactly!!!",
+            "option": null,
+            "nextIds": [
+              200820024
+            ],
+            "kind": "NPC"
+          },
+          "200820024": {
+            "type": "Text",
+            "id": 200820024,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "But then again... My robot arm is made of metal...",
+            "option": null,
+            "nextIds": [
+              200820025
+            ],
+            "kind": "NPC"
+          },
+          "200820007": {
+            "type": "Text",
+            "id": 200820007,
+            "sectionId": 2008200,
+            "senderId": null,
+            "text": "I'm busy. I can't make it sorry",
+            "option": "I'm busy",
+            "nextIds": [
+              200820008
+            ],
+            "kind": "Player"
+          },
+          "200820008": {
+            "type": "Text",
+            "id": 200820008,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "What about tomorrow?",
+            "option": null,
+            "nextIds": [
+              200820009
+            ],
+            "kind": "NPC"
+          },
+          "200820009": {
+            "type": "Text",
+            "id": 200820009,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "The day after tomorrow is fine too!",
+            "option": null,
+            "nextIds": [
+              200820010
+            ],
+            "kind": "NPC"
+          },
+          "200820010": {
+            "type": "Text",
+            "id": 200820010,
+            "sectionId": 2008200,
+            "senderId": 1111,
+            "text": "I'll be fighting every day anyway!",
+            "option": null,
+            "nextIds": [
+              200820011
+            ],
+            "kind": "NPC"
+          },
+          "200820011": {
+            "type": "Text",
+            "id": 200820011,
+            "sectionId": 2008200,
+            "senderId": null,
+            "text": "...I'll come over when I have the time",
+            "option": null,
+            "nextIds": [
+              200820012
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2008300,
+        "startIds": [
+          200830000
+        ],
+        "messages": {
+          "200830000": {
+            "type": "Text",
+            "id": 200830000,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "I've been patrolling until now",
+            "option": null,
+            "nextIds": [
+              200830001
+            ],
+            "kind": "NPC"
+          },
+          "200830001": {
+            "type": "Text",
+            "id": 200830001,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "I'm starving!",
+            "option": null,
+            "nextIds": [
+              200830002
+            ],
+            "kind": "NPC"
+          },
+          "200830002": {
+            "type": "Text",
+            "id": 200830002,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "{NICKNAME}, let's go have supper later!",
+            "option": null,
+            "nextIds": [
+              200830003
+            ],
+            "kind": "NPC"
+          },
+          "200830003": {
+            "type": "Text",
+            "id": 200830003,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "What would you like to have?",
+            "option": null,
+            "nextIds": [
+              200830004,
+              200830008
+            ],
+            "kind": "NPC"
+          },
+          "200830004": {
+            "type": "Text",
+            "id": 200830004,
+            "sectionId": 2008300,
+            "senderId": null,
+            "text": "I want to have olm skewers",
+            "option": "I want to have olm skewers",
+            "nextIds": [
+              200830005
+            ],
+            "kind": "Player"
+          },
+          "200830005": {
+            "type": "Text",
+            "id": 200830005,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "Wow, someone knows their stuff!",
+            "option": null,
+            "nextIds": [
+              200830006
+            ],
+            "kind": "NPC"
+          },
+          "200830006": {
+            "type": "Sticker",
+            "id": 200830006,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "[Thumbs Up]",
+            "option": null,
+            "nextIds": [
+              200830007
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200830007": {
+            "type": "Text",
+            "id": 200830007,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "I must have you as my gourmet buddy!",
+            "option": null,
+            "nextIds": [
+              200830014
+            ],
+            "kind": "NPC"
+          },
+          "200830014": {
+            "type": "Text",
+            "id": 200830014,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "Oh yeah, I know a pretty nice food stall",
+            "option": null,
+            "nextIds": [
+              200830015
+            ],
+            "kind": "NPC"
+          },
+          "200830015": {
+            "type": "Text",
+            "id": 200830015,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "Let's get something good next time you visit!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200830008": {
+            "type": "Text",
+            "id": 200830008,
+            "sectionId": 2008300,
+            "senderId": null,
+            "text": "I want to have mixed veggie salad",
+            "option": "I want to have mixed veggie salad",
+            "nextIds": [
+              200830009
+            ],
+            "kind": "Player"
+          },
+          "200830009": {
+            "type": "Text",
+            "id": 200830009,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "???",
+            "option": null,
+            "nextIds": [
+              200830010
+            ],
+            "kind": "NPC"
+          },
+          "200830010": {
+            "type": "Text",
+            "id": 200830010,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "???",
+            "option": null,
+            "nextIds": [
+              200830011
+            ],
+            "kind": "NPC"
+          },
+          "200830011": {
+            "type": "Text",
+            "id": 200830011,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "Are you serious?",
+            "option": null,
+            "nextIds": [
+              200830012
+            ],
+            "kind": "NPC"
+          },
+          "200830012": {
+            "type": "Sticker",
+            "id": 200830012,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "[Decline]",
+            "option": null,
+            "nextIds": [
+              200830013
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "200830013": {
+            "type": "Text",
+            "id": 200830013,
+            "sectionId": 2008300,
+            "senderId": 1111,
+            "text": "I'd rather get beaten up in the ring for <unbreak>10</unbreak> minutes straight!",
+            "option": null,
+            "nextIds": [
+              200830014
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2008400,
+        "startIds": [
+          200840000
+        ],
+        "messages": {
+          "200840000": {
+            "type": "Text",
+            "id": 200840000,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "{NICKNAME}!",
+            "option": null,
+            "nextIds": [
+              200840001
+            ],
+            "kind": "NPC"
+          },
+          "200840001": {
+            "type": "Text",
+            "id": 200840001,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "Help!",
+            "option": null,
+            "nextIds": [
+              200840002
+            ],
+            "kind": "NPC"
+          },
+          "200840002": {
+            "type": "Text",
+            "id": 200840002,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "I'm...",
+            "option": null,
+            "nextIds": [
+              200840003
+            ],
+            "kind": "NPC"
+          },
+          "200840003": {
+            "type": "Text",
+            "id": 200840003,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "spent...",
+            "option": null,
+            "nextIds": [
+              200840004,
+              200840007
+            ],
+            "kind": "NPC"
+          },
+          "200840004": {
+            "type": "Text",
+            "id": 200840004,
+            "sectionId": 2008400,
+            "senderId": null,
+            "text": "Did you lose?",
+            "option": "Did you lose?",
+            "nextIds": [
+              200840005
+            ],
+            "kind": "Player"
+          },
+          "200840005": {
+            "type": "Text",
+            "id": 200840005,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "I'd rather lose a match",
+            "option": null,
+            "nextIds": [
+              200840006
+            ],
+            "kind": "NPC"
+          },
+          "200840006": {
+            "type": "Text",
+            "id": 200840006,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "Even though it's impossible!",
+            "option": null,
+            "nextIds": [
+              200840010
+            ],
+            "kind": "NPC"
+          },
+          "200840010": {
+            "type": "Text",
+            "id": 200840010,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "I ran across The Mol",
+            "option": null,
+            "nextIds": [
+              200840011
+            ],
+            "kind": "NPC"
+          },
+          "200840011": {
+            "type": "Sticker",
+            "id": 200840011,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              200840012
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200840012": {
+            "type": "Sticker",
+            "id": 200840012,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              200840013
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200840013": {
+            "type": "Sticker",
+            "id": 200840013,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              200840014
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200840014": {
+            "type": "Text",
+            "id": 200840014,
+            "sectionId": 2008400,
+            "senderId": null,
+            "text": "?",
+            "option": "?",
+            "nextIds": [
+              200840015
+            ],
+            "kind": "Player"
+          },
+          "200840015": {
+            "type": "Text",
+            "id": 200840015,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "My phone was taken away",
+            "option": null,
+            "nextIds": [
+              200840016
+            ],
+            "kind": "NPC"
+          },
+          "200840016": {
+            "type": "Text",
+            "id": 200840016,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "Hold o",
+            "option": null,
+            "nextIds": [
+              200840017
+            ],
+            "kind": "NPC"
+          },
+          "200840017": {
+            "type": "Text",
+            "id": 200840017,
+            "sectionId": 2008400,
+            "senderId": null,
+            "text": "Your friend Luka has gone offline",
+            "option": null,
+            "nextIds": [
+              200840018
+            ],
+            "kind": "System"
+          },
+          "200840018": {
+            "type": "Text",
+            "id": 200840018,
+            "sectionId": 2008400,
+            "senderId": null,
+            "text": "...",
+            "option": "...",
+            "nextIds": [
+              200840019
+            ],
+            "kind": "Player"
+          },
+          "200840019": {
+            "type": "Text",
+            "id": 200840019,
+            "sectionId": 2008400,
+            "senderId": null,
+            "text": "Your friend Luka has come online",
+            "option": null,
+            "nextIds": [
+              200840020,
+              200840021
+            ],
+            "kind": "System"
+          },
+          "200840020": {
+            "type": "Text",
+            "id": 200840020,
+            "sectionId": 2008400,
+            "senderId": null,
+            "text": "Are you okay? Do you need help?",
+            "option": "Are you okay?",
+            "nextIds": [
+              200840022
+            ],
+            "kind": "Player"
+          },
+          "200840022": {
+            "type": "Sticker",
+            "id": 200840022,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              200840023
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200840023": {
+            "type": "Sticker",
+            "id": 200840023,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              200840024
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200840024": {
+            "type": "Sticker",
+            "id": 200840024,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              200840025
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200840025": {
+            "type": "Text",
+            "id": 200840025,
+            "sectionId": 2008400,
+            "senderId": null,
+            "text": "Good luck... I'm rooting for you...",
+            "option": "Good luck...",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "200840021": {
+            "type": "Text",
+            "id": 200840021,
+            "sectionId": 2008400,
+            "senderId": null,
+            "text": "Are the kids okay? Did you have fun?",
+            "option": "Are the kids okay?",
+            "nextIds": [
+              200840022
+            ],
+            "kind": "Player"
+          },
+          "200840007": {
+            "type": "Text",
+            "id": 200840007,
+            "sectionId": 2008400,
+            "senderId": null,
+            "text": "Did you not eat enough?",
+            "option": "Did you not eat enough?",
+            "nextIds": [
+              200840008
+            ],
+            "kind": "Player"
+          },
+          "200840008": {
+            "type": "Text",
+            "id": 200840008,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "Actually, yeah",
+            "option": null,
+            "nextIds": [
+              200840009
+            ],
+            "kind": "NPC"
+          },
+          "200840009": {
+            "type": "Text",
+            "id": 200840009,
+            "sectionId": 2008400,
+            "senderId": 1111,
+            "text": "But that's not the problem!",
+            "option": null,
+            "nextIds": [
+              200840010
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1111,
+    "name": "Luka",
+    "signature": "No timely reply means I'm in training.",
+    "iconPath": "icon/avatar/1111.png",
+    "type": 1,
+    "camp": 3
+  }
+}

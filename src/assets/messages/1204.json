@@ -1,0 +1,961 @@
+{
+  "id": 1204,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2006400,
+        "startIds": [
+          200640000
+        ],
+        "messages": {
+          "200640000": {
+            "type": "Text",
+            "id": 200640000,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "{NICKNAME}, I finished reading the files that you shared with me from the data bank.",
+            "option": null,
+            "nextIds": [
+              200640001
+            ],
+            "kind": "NPC"
+          },
+          "200640001": {
+            "type": "Text",
+            "id": 200640001,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "After sitting in this Seat of Divine Foresight for so long, I can't help but overlook the world outside of Luofu's delves.\\nThat, combined with the long lifespan of the Xianzhou humans, made me feel that the entire world is as boring and changeless as myself.\\nHowever, now I've read the wondrous encounters of the Express Crew, I realized that using my endless lifespan to travel various worlds would be a fun venture indeed.",
+            "option": null,
+            "nextIds": [
+              200640002
+            ],
+            "kind": "NPC"
+          },
+          "200640002": {
+            "type": "Text",
+            "id": 200640002,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "Unfortunately... I still shoulder Luofu's countless duties and cannot accompany your group. But if I were to retire one day, what should I do?",
+            "option": null,
+            "nextIds": [
+              200640003,
+              200640005,
+              200640007
+            ],
+            "kind": "NPC"
+          },
+          "200640003": {
+            "type": "Text",
+            "id": 200640003,
+            "sectionId": 2006400,
+            "senderId": null,
+            "text": "Our Express is pretty big. You can come visit, general",
+            "option": "Become a Nameless",
+            "nextIds": [
+              200640004
+            ],
+            "kind": "Player"
+          },
+          "200640004": {
+            "type": "Text",
+            "id": 200640004,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "Hahahaha, if that's a personal invitation, {NICKNAME}, then I might consider it.",
+            "option": null,
+            "nextIds": [
+              200640010
+            ],
+            "kind": "NPC"
+          },
+          "200640010": {
+            "type": "Text",
+            "id": 200640010,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "That reminds me... My dream as a young boy was to become a Galaxy Ranger.",
+            "option": null,
+            "nextIds": [
+              200640011
+            ],
+            "kind": "NPC"
+          },
+          "200640011": {
+            "type": "Text",
+            "id": 200640011,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "Pity that life never goes the way you want it to go.",
+            "option": null,
+            "nextIds": [
+              200640012
+            ],
+            "kind": "NPC"
+          },
+          "200640012": {
+            "type": "Text",
+            "id": 200640012,
+            "sectionId": 2006400,
+            "senderId": null,
+            "text": "If given the chance, where would you want to go?",
+            "option": "If given the chance...",
+            "nextIds": [
+              200640013
+            ],
+            "kind": "Player"
+          },
+          "200640013": {
+            "type": "Text",
+            "id": 200640013,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "Perhaps I'll go seek out animals that have already gone extinct in Xianzhou.",
+            "option": null,
+            "nextIds": [
+              200640014
+            ],
+            "kind": "NPC"
+          },
+          "200640014": {
+            "type": "Text",
+            "id": 200640014,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "Let us stop for today. Qingzu just carried in another pile of documents for me. Just looking at them gives me a headache.",
+            "option": null,
+            "nextIds": [
+              200640015
+            ],
+            "kind": "NPC"
+          },
+          "200640015": {
+            "type": "Text",
+            "id": 200640015,
+            "sectionId": 2006400,
+            "senderId": null,
+            "text": "You're working hard, general!",
+            "option": "You're working hard, general!",
+            "nextIds": [
+              200640016
+            ],
+            "kind": "Player"
+          },
+          "200640016": {
+            "type": "Text",
+            "id": 200640016,
+            "sectionId": 2006400,
+            "senderId": null,
+            "text": "I'm sorry I can't be of help...",
+            "option": null,
+            "nextIds": [
+              200640017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200640017": {
+            "type": "Text",
+            "id": 200640017,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "It's enough for me to squeeze out some time to chat with you, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              200640018
+            ],
+            "kind": "NPC"
+          },
+          "200640018": {
+            "type": "Text",
+            "id": 200640018,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "All in all, I shall return to work. Farewell!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200640005": {
+            "type": "Text",
+            "id": 200640005,
+            "sectionId": 2006400,
+            "senderId": null,
+            "text": "Perhaps you can swap places with Fu Xuan and be the master diviner",
+            "option": "Take Fu Xuan's job",
+            "nextIds": [
+              200640006
+            ],
+            "kind": "Player"
+          },
+          "200640006": {
+            "type": "Text",
+            "id": 200640006,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "Hahaha, don't ever mention that to me again. The master diviner is an exceedingly busy job. No ordinary person can face its arduous work.",
+            "option": null,
+            "nextIds": [
+              200640010
+            ],
+            "kind": "NPC"
+          },
+          "200640007": {
+            "type": "Text",
+            "id": 200640007,
+            "sectionId": 2006400,
+            "senderId": null,
+            "text": "I feel the Realm-Keeping Commission's work is quite relaxed...",
+            "option": "Work for the Realm-Keeping Commission",
+            "nextIds": [
+              200640008
+            ],
+            "kind": "Player"
+          },
+          "200640008": {
+            "type": "Text",
+            "id": 200640008,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "Hahaha, that would truly take me back to my origins.",
+            "option": null,
+            "nextIds": [
+              200640009
+            ],
+            "kind": "NPC"
+          },
+          "200640009": {
+            "type": "Text",
+            "id": 200640009,
+            "sectionId": 2006400,
+            "senderId": 1204,
+            "text": "My parents were scholars of the Realm-Keeping Commission and were responsible for researching and recording the histories of long-life species. The paperwork involved was literal torment.",
+            "option": null,
+            "nextIds": [
+              200640010
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2006500,
+        "startIds": [
+          200650000
+        ],
+        "messages": {
+          "200650000": {
+            "type": "Text",
+            "id": 200650000,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "{NICKNAME}, I have a rather abrupt request.",
+            "option": null,
+            "nextIds": [
+              200650001
+            ],
+            "kind": "NPC"
+          },
+          "200650001": {
+            "type": "Text",
+            "id": 200650001,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "Please let me hear it, general!",
+            "option": "Please let me hear it, general!",
+            "nextIds": [
+              200650002
+            ],
+            "kind": "Player"
+          },
+          "200650002": {
+            "type": "Text",
+            "id": 200650002,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "When you are free, could you please spend some time sparring with Yanqing?",
+            "option": null,
+            "nextIds": [
+              200650003,
+              200650006,
+              200650024
+            ],
+            "kind": "NPC"
+          },
+          "200650003": {
+            "type": "Text",
+            "id": 200650003,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "I've heard about Yanqing's sword skills and how he learned those from you, general",
+            "option": "I wouldn't dare!",
+            "nextIds": [
+              200650004
+            ],
+            "kind": "Player"
+          },
+          "200650004": {
+            "type": "Text",
+            "id": 200650004,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "I wouldn't dare to spar with him",
+            "option": null,
+            "nextIds": [
+              200650005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200650005": {
+            "type": "Text",
+            "id": 200650005,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "Haha, is that so? You are exceedingly humble.",
+            "option": null,
+            "nextIds": [
+              200650009
+            ],
+            "kind": "NPC"
+          },
+          "200650009": {
+            "type": "Text",
+            "id": 200650009,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "Then, can I spar with you first?",
+            "option": "Then, can I spar with...",
+            "nextIds": [
+              200650010
+            ],
+            "kind": "Player"
+          },
+          "200650010": {
+            "type": "Text",
+            "id": 200650010,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "That way, you also get to test my capabilities",
+            "option": null,
+            "nextIds": [
+              200650011
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200650011": {
+            "type": "Text",
+            "id": 200650011,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "Haha, I am already well aware of your capabilities, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              200650012,
+              200650016
+            ],
+            "kind": "NPC"
+          },
+          "200650012": {
+            "type": "Text",
+            "id": 200650012,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "Oh my. You saw through me",
+            "option": "Oh my. You saw through me",
+            "nextIds": [
+              200650013
+            ],
+            "kind": "Player"
+          },
+          "200650013": {
+            "type": "Text",
+            "id": 200650013,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "You've exposed the fact that I don't know how to use a sword at all",
+            "option": null,
+            "nextIds": [
+              200650014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200650014": {
+            "type": "Sticker",
+            "id": 200650014,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "[cry]",
+            "option": null,
+            "nextIds": [
+              200650015
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "200650015": {
+            "type": "Text",
+            "id": 200650015,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "You don't use a sword, and therefore don't abide by the rules and conventions of a sword fight. For Yanqing to try his skills against such an opponent would be a supreme opportunity.",
+            "option": null,
+            "nextIds": [
+              200650020
+            ],
+            "kind": "NPC"
+          },
+          "200650020": {
+            "type": "Text",
+            "id": 200650020,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "As for a spar between you and me... perhaps it's better to plan for that after you've sparred with Yanqing.",
+            "option": null,
+            "nextIds": [
+              200650021
+            ],
+            "kind": "NPC"
+          },
+          "200650021": {
+            "type": "Text",
+            "id": 200650021,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "However, I have one request. If you cannot agree to it, {NICKNAME}, then we cannot fight.",
+            "option": null,
+            "nextIds": [
+              200650022
+            ],
+            "kind": "NPC"
+          },
+          "200650022": {
+            "type": "Text",
+            "id": 200650022,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "Please let me hear it, general!",
+            "option": "Please let me hear it, general!",
+            "nextIds": [
+              200650023
+            ],
+            "kind": "Player"
+          },
+          "200650023": {
+            "type": "Text",
+            "id": 200650023,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "Do not book our spar for the afternoon. That time is far too tiring and sleepy.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200650016": {
+            "type": "Text",
+            "id": 200650016,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "I am indeed very strong",
+            "option": "I am indeed very strong",
+            "nextIds": [
+              200650017
+            ],
+            "kind": "Player"
+          },
+          "200650017": {
+            "type": "Text",
+            "id": 200650017,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "I didn't think you'd see through me this quickly, general",
+            "option": null,
+            "nextIds": [
+              200650018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200650018": {
+            "type": "Sticker",
+            "id": 200650018,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "[shocked]",
+            "option": null,
+            "nextIds": [
+              200650019
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "200650019": {
+            "type": "Text",
+            "id": 200650019,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "That's to be expected. Strength does not only constitute just your physical power, skill, or weapon. It's also a matter of wisdom and tenacity. My instincts as a war veteran are to be trusted.",
+            "option": null,
+            "nextIds": [
+              200650020
+            ],
+            "kind": "NPC"
+          },
+          "200650006": {
+            "type": "Text",
+            "id": 200650006,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "I can, but...",
+            "option": "I can, but...",
+            "nextIds": [
+              200650007
+            ],
+            "kind": "Player"
+          },
+          "200650007": {
+            "type": "Text",
+            "id": 200650007,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "I heard that you are his teacher, general...",
+            "option": null,
+            "nextIds": [
+              200650008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200650008": {
+            "type": "Text",
+            "id": 200650008,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "That is true. What of it?",
+            "option": null,
+            "nextIds": [
+              200650009
+            ],
+            "kind": "NPC"
+          },
+          "200650024": {
+            "type": "Text",
+            "id": 200650024,
+            "sectionId": 2006500,
+            "senderId": null,
+            "text": "Who's Yanqing?",
+            "option": "Who's Yanqing?",
+            "nextIds": [
+              200650025
+            ],
+            "kind": "Player"
+          },
+          "200650025": {
+            "type": "Text",
+            "id": 200650025,
+            "sectionId": 2006500,
+            "senderId": 1204,
+            "text": "My disciple and also a lieutenant of the Cloud Knights.",
+            "option": null,
+            "nextIds": [
+              200650009
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2006600,
+        "startIds": [
+          200660000
+        ],
+        "messages": {
+          "200660000": {
+            "type": "Text",
+            "id": 200660000,
+            "sectionId": 2006600,
+            "senderId": 1204,
+            "text": "Pardon me, {NICKNAME}, but I wonder whether you have the time to come to the Seat of Divine Foresight right now for a game of Xianzhou starchess?",
+            "option": null,
+            "nextIds": [
+              200660001,
+              200660003
+            ],
+            "kind": "NPC"
+          },
+          "200660001": {
+            "type": "Text",
+            "id": 200660001,
+            "sectionId": 2006600,
+            "senderId": null,
+            "text": "Can I even get inside the Seat of Divine Foresight?",
+            "option": "Can I even get inside the Seat of Divine Foresight?",
+            "nextIds": [
+              200660002
+            ],
+            "kind": "Player"
+          },
+          "200660002": {
+            "type": "Text",
+            "id": 200660002,
+            "sectionId": 2006600,
+            "senderId": 1204,
+            "text": "I will simply let the Cloud Knights know.",
+            "option": null,
+            "nextIds": [
+              200660005
+            ],
+            "kind": "NPC"
+          },
+          "200660005": {
+            "type": "Text",
+            "id": 200660005,
+            "sectionId": 2006600,
+            "senderId": 1204,
+            "text": "Do you recall the giant sandpit in the middle of the Seat of Divine Foresight? It is only used to project military objectives during war times. During peaceful days, I use it as a game board.",
+            "option": null,
+            "nextIds": [
+              200660006
+            ],
+            "kind": "NPC"
+          },
+          "200660006": {
+            "type": "Text",
+            "id": 200660006,
+            "sectionId": 2006600,
+            "senderId": 1204,
+            "text": "I like to study starchess puzzles in books when I'm free, but there are only so many of them. Once I've solved all the puzzles, I still need to seek out real opponents.",
+            "option": null,
+            "nextIds": [
+              200660007
+            ],
+            "kind": "NPC"
+          },
+          "200660007": {
+            "type": "Text",
+            "id": 200660007,
+            "sectionId": 2006600,
+            "senderId": 1204,
+            "text": "Would you be interested?",
+            "option": null,
+            "nextIds": [
+              200660008,
+              200660011
+            ],
+            "kind": "NPC"
+          },
+          "200660008": {
+            "type": "Text",
+            "id": 200660008,
+            "sectionId": 2006600,
+            "senderId": null,
+            "text": "Of course.",
+            "option": "Of course.",
+            "nextIds": [
+              200660009
+            ],
+            "kind": "Player"
+          },
+          "200660009": {
+            "type": "Text",
+            "id": 200660009,
+            "sectionId": 2006600,
+            "senderId": null,
+            "text": "Since the general is inviting me, then I will learn this game no matter how hard it is",
+            "option": null,
+            "nextIds": [
+              200660010
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200660010": {
+            "type": "Text",
+            "id": 200660010,
+            "sectionId": 2006600,
+            "senderId": 1204,
+            "text": "Haha. In that case, I'll tell you the truth of what's happening without fear of you laughing at me, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              200660014
+            ],
+            "kind": "NPC"
+          },
+          "200660014": {
+            "type": "Text",
+            "id": 200660014,
+            "sectionId": 2006600,
+            "senderId": 1204,
+            "text": "The teahouse sent over a collection of new releases from Immortal's Delight, but I'm the only person in the Seat of Divine Foresight right now. I can't finish these teas, and I didn't want to refuse the teahouse's goodwill...",
+            "option": null,
+            "nextIds": [
+              200660015
+            ],
+            "kind": "NPC"
+          },
+          "200660015": {
+            "type": "Text",
+            "id": 200660015,
+            "sectionId": 2006600,
+            "senderId": null,
+            "text": "I will head over immediately to help, general!",
+            "option": "I will head over immediately to help, general!",
+            "nextIds": [
+              200660016
+            ],
+            "kind": "Player"
+          },
+          "200660016": {
+            "type": "Sticker",
+            "id": 200660016,
+            "sectionId": 2006600,
+            "senderId": null,
+            "text": "[Expectant]",
+            "option": null,
+            "nextIds": [
+              200660017
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "200660017": {
+            "type": "Text",
+            "id": 200660017,
+            "sectionId": 2006600,
+            "senderId": 1204,
+            "text": "Hahaha, excellent.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200660011": {
+            "type": "Text",
+            "id": 200660011,
+            "sectionId": 2006600,
+            "senderId": null,
+            "text": "Let me think...",
+            "option": "Let me think...",
+            "nextIds": [
+              200660012
+            ],
+            "kind": "Player"
+          },
+          "200660012": {
+            "type": "Text",
+            "id": 200660012,
+            "sectionId": 2006600,
+            "senderId": null,
+            "text": "I really don't know how to play. I don't want to ruin your mood, general",
+            "option": null,
+            "nextIds": [
+              200660013
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200660013": {
+            "type": "Text",
+            "id": 200660013,
+            "sectionId": 2006600,
+            "senderId": 1204,
+            "text": "I apologize. Did I scare you? In that case, I'll tell you the truth of what's happening without fear of you laughing at me, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              200660014
+            ],
+            "kind": "NPC"
+          },
+          "200660003": {
+            "type": "Text",
+            "id": 200660003,
+            "sectionId": 2006600,
+            "senderId": null,
+            "text": "I don't know how to play Xianzhou starchess",
+            "option": "I don't know how to play Xianzhou starchess",
+            "nextIds": [
+              200660004
+            ],
+            "kind": "Player"
+          },
+          "200660004": {
+            "type": "Text",
+            "id": 200660004,
+            "sectionId": 2006600,
+            "senderId": 1204,
+            "text": "It is not difficult. I can teach you.",
+            "option": null,
+            "nextIds": [
+              200660005
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1215101,
+        "startIds": [
+          121510101
+        ],
+        "messages": {
+          "121510101": {
+            "type": "Text",
+            "id": 121510101,
+            "sectionId": 1215101,
+            "senderId": 1204,
+            "text": "Greetings, {NICKNAME}.\\nThe Seat of Divine Foresight is currently collaborating with the Ten-Lords Commission's spiritfarers in pursuit of a heinous crime, and requires your assistance.\\nMight I inquire if you have recently received any parcels of mysterious origin?",
+            "option": null,
+            "nextIds": [
+              121510102,
+              121510104,
+              121510106
+            ],
+            "kind": "NPC"
+          },
+          "121510102": {
+            "type": "Text",
+            "id": 121510102,
+            "sectionId": 1215101,
+            "senderId": null,
+            "text": "I have it on me",
+            "option": "I have it on me",
+            "nextIds": [
+              121510103
+            ],
+            "kind": "Player"
+          },
+          "121510103": {
+            "type": "Text",
+            "id": 121510103,
+            "sectionId": 1215101,
+            "senderId": 1204,
+            "text": "Oh-ho, this will be simple then.",
+            "option": null,
+            "nextIds": [
+              121510108
+            ],
+            "kind": "NPC"
+          },
+          "121510108": {
+            "type": "Text",
+            "id": 121510108,
+            "sectionId": 1215101,
+            "senderId": 1204,
+            "text": "To be frank, the parcel could be from the Annihilation Gang. Those violent followers of the Ruin Author were trying to upend the Xianzhou with it.",
+            "option": null,
+            "nextIds": [
+              121510109
+            ],
+            "kind": "NPC"
+          },
+          "121510109": {
+            "type": "Text",
+            "id": 121510109,
+            "sectionId": 1215101,
+            "senderId": 1204,
+            "text": "If you do receive parcels of such description, please hand it over to Qingzu at the Seat of Divine Foresight. She shall forward the item to the experts in the Ten-Lords Commission to handle it.",
+            "option": null,
+            "nextIds": [
+              121510110
+            ],
+            "kind": "NPC"
+          },
+          "121510110": {
+            "type": "Text",
+            "id": 121510110,
+            "sectionId": 1215101,
+            "senderId": 1204,
+            "text": "Of course, if you have any other means of destruction that would not cause any danger, please feel free to use them. Just remember to update Qingzu after it is done.",
+            "option": null,
+            "nextIds": [
+              121510111
+            ],
+            "kind": "NPC"
+          },
+          "121510111": {
+            "type": "Text",
+            "id": 121510111,
+            "sectionId": 1215101,
+            "senderId": 1204,
+            "text": "At present, I have urgent matters to attend to. I won't be able to respond from now.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121510104": {
+            "type": "Text",
+            "id": 121510104,
+            "sectionId": 1215101,
+            "senderId": null,
+            "text": "I didn't receive anything",
+            "option": "I didn't receive anything",
+            "nextIds": [
+              121510105
+            ],
+            "kind": "Player"
+          },
+          "121510105": {
+            "type": "Text",
+            "id": 121510105,
+            "sectionId": 1215101,
+            "senderId": 1204,
+            "text": "How odd. Is it possible that there are errors in the report submitted by Qingzu?",
+            "option": null,
+            "nextIds": [
+              121510108
+            ],
+            "kind": "NPC"
+          },
+          "121510106": {
+            "type": "Text",
+            "id": 121510106,
+            "sectionId": 1215101,
+            "senderId": null,
+            "text": "What parcels?",
+            "option": "What parcels?",
+            "nextIds": [
+              121510107
+            ],
+            "kind": "Player"
+          },
+          "121510107": {
+            "type": "Text",
+            "id": 121510107,
+            "sectionId": 1215101,
+            "senderId": 1204,
+            "text": "How odd. Were you not made aware of this issue?",
+            "option": null,
+            "nextIds": [
+              121510108
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1204,
+    "name": "Jing Yuan",
+    "signature": "I'm not at the Seat of Divine Foresight",
+    "iconPath": "icon/avatar/1204.png",
+    "type": 1,
+    "camp": 4
+  }
+}

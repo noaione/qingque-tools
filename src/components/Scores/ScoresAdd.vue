@@ -1,15 +1,11 @@
 <template>
-  <ModalView :show="modal">
+  <ModalView :show="modal" @close="modal = false">
     <template #header>
       <h3 class="text-xl font-bold">Add New</h3>
     </template>
     <template #footer>
       <div class="flex flex-row gap-2">
-        <button
-          class="btn-basic btn-green-add"
-          @click="addCharacter"
-          :disabled="charaExist || !charaInGame"
-        >
+        <button class="btn-basic btn-green-add" @click="addCharacter" :disabled="charaExist || !charaInGame">
           Add
         </button>
         <button class="btn-basic bg-red-600 hover:bg-red-500" @click="emit('close')">Cancel</button>

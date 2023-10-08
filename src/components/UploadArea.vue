@@ -2,7 +2,7 @@
   <div class="flex flex-col items-center mt-2">
     <h2 class="text-xl font-semibold">Score Files</h2>
     <div class="flex flex-row mt-6 items-center gap-2">
-      <LoadBtn :on-load-error="setError" />
+      <LoadBtn @load-error="setError" @init-load="errorMsg = null" />
       <SaveBtn v-if="scores.loaded" />
       <ClearBtn v-if="scores.loaded" />
     </div>

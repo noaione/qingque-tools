@@ -1,0 +1,2069 @@
+{
+  "id": 1107,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1111200,
+        "startIds": [
+          111120000
+        ],
+        "messages": {
+          "111120000": {
+            "type": "Text",
+            "id": 111120000,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "{F#Big sister}{M#Big brother}",
+            "option": null,
+            "nextIds": [
+              111120001
+            ],
+            "kind": "NPC"
+          },
+          "111120001": {
+            "type": "Text",
+            "id": 111120001,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "Are you free lately?",
+            "option": null,
+            "nextIds": [
+              111120002
+            ],
+            "kind": "NPC"
+          },
+          "111120002": {
+            "type": "Text",
+            "id": 111120002,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "(´・ω・`)",
+            "option": null,
+            "nextIds": [
+              111120003,
+              111120004
+            ],
+            "kind": "NPC"
+          },
+          "111120003": {
+            "type": "Text",
+            "id": 111120003,
+            "sectionId": 1111200,
+            "senderId": null,
+            "text": "Of course. What's up?",
+            "option": "Of course. What's the matter?",
+            "nextIds": [
+              111120006
+            ],
+            "kind": "Player"
+          },
+          "111120006": {
+            "type": "Text",
+            "id": 111120006,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "Actually, the Robot Settlement has been met with some issues recently",
+            "option": null,
+            "nextIds": [
+              111120007
+            ],
+            "kind": "NPC"
+          },
+          "111120007": {
+            "type": "Text",
+            "id": 111120007,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "{F#Big sister}{M#Big brother}, come have a look please...",
+            "option": null,
+            "nextIds": [
+              111120008
+            ],
+            "kind": "NPC"
+          },
+          "111120008": {
+            "type": "Text",
+            "id": 111120008,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "If you have the time...",
+            "option": null,
+            "nextIds": [
+              111120009,
+              111120010
+            ],
+            "kind": "NPC"
+          },
+          "111120009": {
+            "type": "Text",
+            "id": 111120009,
+            "sectionId": 1111200,
+            "senderId": null,
+            "text": "Don't worry, I'll be there right away.",
+            "option": "Don't worry, I'll be right there",
+            "nextIds": [
+              111120013
+            ],
+            "kind": "Player"
+          },
+          "111120013": {
+            "type": "Text",
+            "id": 111120013,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "Thank you, {F#big sister}{M#big brother}!",
+            "option": null,
+            "nextIds": [
+              111120014
+            ],
+            "kind": "NPC"
+          },
+          "111120014": {
+            "type": "Text",
+            "id": 111120014,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "I will be waiting for you at Mr. Svarog's~",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111120010": {
+            "type": "Text",
+            "id": 111120010,
+            "sectionId": 1111200,
+            "senderId": null,
+            "text": "Really? I'm coming! (☉д⊙)",
+            "option": "Really (☉д⊙)...",
+            "nextIds": [
+              111120011
+            ],
+            "kind": "Player"
+          },
+          "111120011": {
+            "type": "Text",
+            "id": 111120011,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "This emoticon is so funny...",
+            "option": null,
+            "nextIds": [
+              111120012
+            ],
+            "kind": "NPC"
+          },
+          "111120012": {
+            "type": "Text",
+            "id": 111120012,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "(☉д⊙)",
+            "option": null,
+            "nextIds": [
+              111120013
+            ],
+            "kind": "NPC"
+          },
+          "111120004": {
+            "type": "Text",
+            "id": 111120004,
+            "sectionId": 1111200,
+            "senderId": null,
+            "text": "Clara, your emoticons are so cute (ﾟ3ﾟ)",
+            "option": "Cute emoticons...",
+            "nextIds": [
+              111120005
+            ],
+            "kind": "Player"
+          },
+          "111120005": {
+            "type": "Text",
+            "id": 111120005,
+            "sectionId": 1111200,
+            "senderId": 1107,
+            "text": "Thank you...",
+            "option": null,
+            "nextIds": [
+              111120006
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2010905,
+          "name": "Rarely Affectionate (Part 1)",
+          "type": "Companion"
+        }
+      }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1111300,
+        "startIds": [
+          111130000
+        ],
+        "messages": {
+          "111130000": {
+            "type": "Text",
+            "id": 111130000,
+            "sectionId": 1111300,
+            "senderId": 1107,
+            "text": "The little guy we picked up a little while ago has been fixed",
+            "option": null,
+            "nextIds": [
+              111130001
+            ],
+            "kind": "NPC"
+          },
+          "111130001": {
+            "type": "Text",
+            "id": 111130001,
+            "sectionId": 1111300,
+            "senderId": 1107,
+            "text": "Drop by to see us if you have the time",
+            "option": null,
+            "nextIds": [
+              111130002
+            ],
+            "kind": "NPC"
+          },
+          "111130002": {
+            "type": "Text",
+            "id": 111130002,
+            "sectionId": 1111300,
+            "senderId": 1107,
+            "text": "(*´ω`*)",
+            "option": null,
+            "nextIds": [
+              111130003,
+              111130004
+            ],
+            "kind": "NPC"
+          },
+          "111130003": {
+            "type": "Text",
+            "id": 111130003,
+            "sectionId": 1111300,
+            "senderId": null,
+            "text": "Okay, I'll be right there.",
+            "option": "Alright, I'll be right there",
+            "nextIds": [
+              111130007
+            ],
+            "kind": "Player"
+          },
+          "111130007": {
+            "type": "Text",
+            "id": 111130007,
+            "sectionId": 1111300,
+            "senderId": 1107,
+            "text": "Then I will be waiting for you at Mr. Svarog's!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111130004": {
+            "type": "Text",
+            "id": 111130004,
+            "sectionId": 1111300,
+            "senderId": null,
+            "text": "Okay! I'll be right there! (☉д⊙)",
+            "option": "Okay! I'll be right there! (☉д⊙)",
+            "nextIds": [
+              111130005
+            ],
+            "kind": "Player"
+          },
+          "111130005": {
+            "type": "Text",
+            "id": 111130005,
+            "sectionId": 1111300,
+            "senderId": 1107,
+            "text": "Okie!",
+            "option": null,
+            "nextIds": [
+              111130006
+            ],
+            "kind": "NPC"
+          },
+          "111130006": {
+            "type": "Text",
+            "id": 111130006,
+            "sectionId": 1111300,
+            "senderId": 1107,
+            "text": "(☉д⊙)",
+            "option": null,
+            "nextIds": [
+              111130007
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2010906,
+          "name": "Rarely Affectionate (Part 2)",
+          "type": "Companion"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1111900,
+        "startIds": [
+          111190000
+        ],
+        "messages": {
+          "111190000": {
+            "type": "Text",
+            "id": 111190000,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "{F#Big sister}{M#Big brother}, are you free now?",
+            "option": null,
+            "nextIds": [
+              111190001
+            ],
+            "kind": "NPC"
+          },
+          "111190001": {
+            "type": "Text",
+            "id": 111190001,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "I want to talk about Pascal...",
+            "option": null,
+            "nextIds": [
+              111190002,
+              111190003
+            ],
+            "kind": "NPC"
+          },
+          "111190002": {
+            "type": "Text",
+            "id": 111190002,
+            "sectionId": 1111900,
+            "senderId": null,
+            "text": "Are you still sad...?",
+            "option": "Are you still sad...?",
+            "nextIds": [
+              111190004
+            ],
+            "kind": "Player"
+          },
+          "111190004": {
+            "type": "Text",
+            "id": 111190004,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "No... I've calmed down",
+            "option": null,
+            "nextIds": [
+              111190005
+            ],
+            "kind": "NPC"
+          },
+          "111190005": {
+            "type": "Text",
+            "id": 111190005,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "Actually, I've thought a lot about it",
+            "option": null,
+            "nextIds": [
+              111190006
+            ],
+            "kind": "NPC"
+          },
+          "111190006": {
+            "type": "Text",
+            "id": 111190006,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "I just don't understand... What is Pascal?",
+            "option": null,
+            "nextIds": [
+              111190007
+            ],
+            "kind": "NPC"
+          },
+          "111190007": {
+            "type": "Text",
+            "id": 111190007,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "Other robots think Pascal is a Fragmentum creation",
+            "option": null,
+            "nextIds": [
+              111190008
+            ],
+            "kind": "NPC"
+          },
+          "111190008": {
+            "type": "Text",
+            "id": 111190008,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "Mr. Svarog thinks Pascal is a normal robot",
+            "option": null,
+            "nextIds": [
+              111190009
+            ],
+            "kind": "NPC"
+          },
+          "111190009": {
+            "type": "Text",
+            "id": 111190009,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "Pascal doesn't even know what it is itself",
+            "option": null,
+            "nextIds": [
+              111190010
+            ],
+            "kind": "NPC"
+          },
+          "111190010": {
+            "type": "Text",
+            "id": 111190010,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "I think Pascal could even be a human",
+            "option": null,
+            "nextIds": [
+              111190011
+            ],
+            "kind": "NPC"
+          },
+          "111190011": {
+            "type": "Text",
+            "id": 111190011,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "{F#Big sister}{M#Big brother}, what do you think?",
+            "option": null,
+            "nextIds": [
+              111190012,
+              111190013,
+              111190014
+            ],
+            "kind": "NPC"
+          },
+          "111190012": {
+            "type": "Text",
+            "id": 111190012,
+            "sectionId": 1111900,
+            "senderId": null,
+            "text": "I think Pascal is just a robot.",
+            "option": "It is a robot...",
+            "nextIds": [
+              111190015
+            ],
+            "kind": "Player"
+          },
+          "111190015": {
+            "type": "Text",
+            "id": 111190015,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "You think so, {F#Big sister}{M#Big brother}?",
+            "option": null,
+            "nextIds": [
+              111190016
+            ],
+            "kind": "NPC"
+          },
+          "111190016": {
+            "type": "Text",
+            "id": 111190016,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "Pascal does look like a regular robot, but...",
+            "option": null,
+            "nextIds": [
+              111190021
+            ],
+            "kind": "NPC"
+          },
+          "111190021": {
+            "type": "Text",
+            "id": 111190021,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "Fragmentum creature, robot, human",
+            "option": null,
+            "nextIds": [
+              111190022
+            ],
+            "kind": "NPC"
+          },
+          "111190022": {
+            "type": "Text",
+            "id": 111190022,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "What is the difference between these?",
+            "option": null,
+            "nextIds": [
+              111190023
+            ],
+            "kind": "NPC"
+          },
+          "111190023": {
+            "type": "Text",
+            "id": 111190023,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "Some Fragmentum creatures can speak and behave like humans",
+            "option": null,
+            "nextIds": [
+              111190024
+            ],
+            "kind": "NPC"
+          },
+          "111190024": {
+            "type": "Text",
+            "id": 111190024,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "While Mr. Svarog looks like a robot, he also can speak, think, and even express \"emotions\" like us",
+            "option": null,
+            "nextIds": [
+              111190025
+            ],
+            "kind": "NPC"
+          },
+          "111190025": {
+            "type": "Text",
+            "id": 111190025,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "So how do we tell what is \"us\" and what is \"them?\"",
+            "option": null,
+            "nextIds": [
+              111190026,
+              111190027,
+              111190028
+            ],
+            "kind": "NPC"
+          },
+          "111190026": {
+            "type": "Text",
+            "id": 111190026,
+            "sectionId": 1111900,
+            "senderId": null,
+            "text": "Only humans have the ability to identify and empathize with other types of creatures",
+            "option": "Through empathy...",
+            "nextIds": [
+              111190029
+            ],
+            "kind": "Player"
+          },
+          "111190029": {
+            "type": "Text",
+            "id": 111190029,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "So that's how it is",
+            "option": null,
+            "nextIds": [
+              111190030
+            ],
+            "kind": "NPC"
+          },
+          "111190030": {
+            "type": "Text",
+            "id": 111190030,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "So maybe, Pascal and Mr. Svarog...",
+            "option": null,
+            "nextIds": [
+              111190031
+            ],
+            "kind": "NPC"
+          },
+          "111190031": {
+            "type": "Text",
+            "id": 111190031,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "Maybe they're all living, breathing humans too",
+            "option": null,
+            "nextIds": [
+              111190038
+            ],
+            "kind": "NPC"
+          },
+          "111190038": {
+            "type": "Text",
+            "id": 111190038,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "I don't feel so lost anymore",
+            "option": null,
+            "nextIds": [
+              111190039
+            ],
+            "kind": "NPC"
+          },
+          "111190039": {
+            "type": "Text",
+            "id": 111190039,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "Thank you, {F#big sister}{M#big brother}~",
+            "option": null,
+            "nextIds": [
+              111190040
+            ],
+            "kind": "NPC"
+          },
+          "111190040": {
+            "type": "Text",
+            "id": 111190040,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "(*´ω`*)",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111190027": {
+            "type": "Text",
+            "id": 111190027,
+            "sectionId": 1111900,
+            "senderId": null,
+            "text": "Simply put, our biological makeup is completely different",
+            "option": "Through biology...",
+            "nextIds": [
+              111190032
+            ],
+            "kind": "Player"
+          },
+          "111190032": {
+            "type": "Text",
+            "id": 111190032,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "So that's how it is",
+            "option": null,
+            "nextIds": [
+              111190033
+            ],
+            "kind": "NPC"
+          },
+          "111190033": {
+            "type": "Text",
+            "id": 111190033,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "That's probably the only way... we can draw a clear distinction between us and other things",
+            "option": null,
+            "nextIds": [
+              111190038
+            ],
+            "kind": "NPC"
+          },
+          "111190028": {
+            "type": "Text",
+            "id": 111190028,
+            "sectionId": 1111900,
+            "senderId": null,
+            "text": "There is no difference between humans and any other types of creatures in the world",
+            "option": "There is no difference...",
+            "nextIds": [
+              111190034,
+              111190035
+            ],
+            "kind": "Player"
+          },
+          "111190034": {
+            "type": "Text",
+            "id": 111190034,
+            "sectionId": 1111900,
+            "senderId": null,
+            "text": "We were born in the same universe, and we are heading toward the same demise",
+            "option": "(explain emotionally)",
+            "nextIds": [
+              111190036
+            ],
+            "kind": "Player"
+          },
+          "111190036": {
+            "type": "Text",
+            "id": 111190036,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "So that's how it is",
+            "option": null,
+            "nextIds": [
+              111190037
+            ],
+            "kind": "NPC"
+          },
+          "111190037": {
+            "type": "Text",
+            "id": 111190037,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "It sounds complicated, but I will try and understand it",
+            "option": null,
+            "nextIds": [
+              111190038
+            ],
+            "kind": "NPC"
+          },
+          "111190035": {
+            "type": "Text",
+            "id": 111190035,
+            "sectionId": 1111900,
+            "senderId": null,
+            "text": "We're all just different manifestations of the same basic particles",
+            "option": "(explain rationally)",
+            "nextIds": [
+              111190036
+            ],
+            "kind": "Player"
+          },
+          "111190013": {
+            "type": "Text",
+            "id": 111190013,
+            "sectionId": 1111900,
+            "senderId": null,
+            "text": "Pascal might be a Fragmentum creature...",
+            "option": "It is a Fragmentum creature...",
+            "nextIds": [
+              111190017
+            ],
+            "kind": "Player"
+          },
+          "111190017": {
+            "type": "Text",
+            "id": 111190017,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "You think so, {F#Big sister}{M#Big brother}?",
+            "option": null,
+            "nextIds": [
+              111190018
+            ],
+            "kind": "NPC"
+          },
+          "111190018": {
+            "type": "Text",
+            "id": 111190018,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "But doesn't Pascal just look like a normal little robot? Also...",
+            "option": null,
+            "nextIds": [
+              111190021
+            ],
+            "kind": "NPC"
+          },
+          "111190014": {
+            "type": "Text",
+            "id": 111190014,
+            "sectionId": 1111900,
+            "senderId": null,
+            "text": "Pascal is a living human being.",
+            "option": "It is human...",
+            "nextIds": [
+              111190019
+            ],
+            "kind": "Player"
+          },
+          "111190019": {
+            "type": "Text",
+            "id": 111190019,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "You think so, {F#Big sister}{M#Big brother}?",
+            "option": null,
+            "nextIds": [
+              111190020
+            ],
+            "kind": "NPC"
+          },
+          "111190020": {
+            "type": "Text",
+            "id": 111190020,
+            "sectionId": 1111900,
+            "senderId": 1107,
+            "text": "I think so too, but...",
+            "option": null,
+            "nextIds": [
+              111190021
+            ],
+            "kind": "NPC"
+          },
+          "111190003": {
+            "type": "Text",
+            "id": 111190003,
+            "sectionId": 1111900,
+            "senderId": null,
+            "text": "Okay. What do you want to talk about?",
+            "option": "Okay. What do you want to talk about?",
+            "nextIds": [
+              111190005
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1112000,
+        "startIds": [
+          111200000
+        ],
+        "messages": {
+          "111200000": {
+            "type": "Text",
+            "id": 111200000,
+            "sectionId": 1112000,
+            "senderId": 1107,
+            "text": "{F#Big sister}{M#Big brother}...",
+            "option": null,
+            "nextIds": [
+              111200001
+            ],
+            "kind": "NPC"
+          },
+          "111200001": {
+            "type": "Text",
+            "id": 111200001,
+            "sectionId": 1112000,
+            "senderId": 1107,
+            "text": "Something strange happened in the base again!",
+            "option": null,
+            "nextIds": [
+              111200002,
+              111200003,
+              111200004
+            ],
+            "kind": "NPC"
+          },
+          "111200002": {
+            "type": "Text",
+            "id": 111200002,
+            "sectionId": 1112000,
+            "senderId": null,
+            "text": "Hang in there. I'll be right over.",
+            "option": "Don't worry. Give me a moment",
+            "nextIds": [
+              111200006
+            ],
+            "kind": "Player"
+          },
+          "111200006": {
+            "type": "Text",
+            "id": 111200006,
+            "sectionId": 1112000,
+            "senderId": 1107,
+            "text": "Anyhow, I will be waiting for {F#big sister}{M#big brother} at the usual place",
+            "option": null,
+            "nextIds": [
+              111200007
+            ],
+            "kind": "NPC"
+          },
+          "111200007": {
+            "type": "Text",
+            "id": 111200007,
+            "sectionId": 1112000,
+            "senderId": 1107,
+            "text": "{F#Big sister}{M#Big brother}, come quickly!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111200003": {
+            "type": "Text",
+            "id": 111200003,
+            "sectionId": 1112000,
+            "senderId": null,
+            "text": "What is it this time?",
+            "option": "What's the matter this time around?",
+            "nextIds": [
+              111200006
+            ],
+            "kind": "Player"
+          },
+          "111200004": {
+            "type": "Text",
+            "id": 111200004,
+            "sectionId": 1112000,
+            "senderId": null,
+            "text": "Okay! I'll be there! (☉д⊙)",
+            "option": "Okay! I'll be there! (☉д⊙)",
+            "nextIds": [
+              111200005
+            ],
+            "kind": "Player"
+          },
+          "111200005": {
+            "type": "Text",
+            "id": 111200005,
+            "sectionId": 1112000,
+            "senderId": 1107,
+            "text": "(☉д⊙)!",
+            "option": null,
+            "nextIds": [
+              111200006
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1112100,
+        "startIds": [
+          111210000
+        ],
+        "messages": {
+          "111210000": {
+            "type": "Text",
+            "id": 111210000,
+            "sectionId": 1112100,
+            "senderId": 1107,
+            "text": "It's been a while since the incident with Pascal",
+            "option": null,
+            "nextIds": [
+              111210001
+            ],
+            "kind": "NPC"
+          },
+          "111210001": {
+            "type": "Text",
+            "id": 111210001,
+            "sectionId": 1112100,
+            "senderId": 1107,
+            "text": "{F#Big sister}{M#Big brother}, do you want to visit Pascal?",
+            "option": null,
+            "nextIds": [
+              111210002,
+              111210003,
+              111210006
+            ],
+            "kind": "NPC"
+          },
+          "111210002": {
+            "type": "Text",
+            "id": 111210002,
+            "sectionId": 1112100,
+            "senderId": null,
+            "text": "Sure, I'll be there right away",
+            "option": "Sure, I'll be there right away",
+            "nextIds": [
+              111210009
+            ],
+            "kind": "Player"
+          },
+          "111210009": {
+            "type": "Text",
+            "id": 111210009,
+            "sectionId": 1112100,
+            "senderId": 1107,
+            "text": "Anyway, {F#big sister}{M#big brother}, if you're coming to see us, remember to be at the Rivet Town's Tempering Workshop",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111210003": {
+            "type": "Text",
+            "id": 111210003,
+            "sectionId": 1112100,
+            "senderId": null,
+            "text": "Maybe next time...",
+            "option": "I'm busy... Maybe next time?",
+            "nextIds": [
+              111210004
+            ],
+            "kind": "Player"
+          },
+          "111210004": {
+            "type": "Text",
+            "id": 111210004,
+            "sectionId": 1112100,
+            "senderId": 1107,
+            "text": "Okay.",
+            "option": null,
+            "nextIds": [
+              111210005
+            ],
+            "kind": "NPC"
+          },
+          "111210005": {
+            "type": "Text",
+            "id": 111210005,
+            "sectionId": 1112100,
+            "senderId": 1107,
+            "text": "I'll try to check on Pascal first.",
+            "option": null,
+            "nextIds": [
+              111210009
+            ],
+            "kind": "NPC"
+          },
+          "111210006": {
+            "type": "Text",
+            "id": 111210006,
+            "sectionId": 1112100,
+            "senderId": null,
+            "text": "It got into trouble again!? (☉д⊙)",
+            "option": "It got into trouble again!? (☉д⊙)",
+            "nextIds": [
+              111210007
+            ],
+            "kind": "Player"
+          },
+          "111210007": {
+            "type": "Text",
+            "id": 111210007,
+            "sectionId": 1112100,
+            "senderId": 1107,
+            "text": "No! Pascal has been very good!",
+            "option": null,
+            "nextIds": [
+              111210008
+            ],
+            "kind": "NPC"
+          },
+          "111210008": {
+            "type": "Text",
+            "id": 111210008,
+            "sectionId": 1112100,
+            "senderId": 1107,
+            "text": "(☉д⊙)",
+            "option": null,
+            "nextIds": [
+              111210009
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1112200,
+        "startIds": [
+          111220000
+        ],
+        "messages": {
+          "111220000": {
+            "type": "Text",
+            "id": 111220000,
+            "sectionId": 1112200,
+            "senderId": 1107,
+            "text": "I heard the little robots in the base mentioning a gift they left behind for you in the Tempering Workshop, {F#big sister}{M#big brother}",
+            "option": null,
+            "nextIds": [
+              111220001
+            ],
+            "kind": "NPC"
+          },
+          "111220001": {
+            "type": "Text",
+            "id": 111220001,
+            "sectionId": 1112200,
+            "senderId": 1107,
+            "text": "{F#Big sister}{M#Big brother}, take a look when you get the chance",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2002400,
+        "startIds": [
+          200240000
+        ],
+        "messages": {
+          "200240000": {
+            "type": "Sticker",
+            "id": 200240000,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              200240001
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200240001": {
+            "type": "Text",
+            "id": 200240001,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "{F#Miss}{M#Mister} {NICKNAME}...",
+            "option": null,
+            "nextIds": [
+              200240002
+            ],
+            "kind": "NPC"
+          },
+          "200240002": {
+            "type": "Text",
+            "id": 200240002,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "We're planning to go picnic this week~",
+            "option": null,
+            "nextIds": [
+              200240003
+            ],
+            "kind": "NPC"
+          },
+          "200240003": {
+            "type": "Text",
+            "id": 200240003,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "{NICKNAME}, wanna come with us...?",
+            "option": null,
+            "nextIds": [
+              200240030
+            ],
+            "kind": "NPC"
+          },
+          "200240030": {
+            "type": "Text",
+            "id": 200240030,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "(´・ω・`)",
+            "option": null,
+            "nextIds": [
+              200240004
+            ],
+            "kind": "NPC"
+          },
+          "200240004": {
+            "type": "Sticker",
+            "id": 200240004,
+            "sectionId": 2002400,
+            "senderId": null,
+            "text": "[Sure]",
+            "option": "No problem",
+            "nextIds": [
+              200240005
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20004,
+              "path": "icon/emoji/20004.png",
+              "keywords": "Understood"
+            }
+          },
+          "200240005": {
+            "type": "Text",
+            "id": 200240005,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "By the way, I want to make a picnic checklist...",
+            "option": null,
+            "nextIds": [
+              200240006
+            ],
+            "kind": "NPC"
+          },
+          "200240006": {
+            "type": "Text",
+            "id": 200240006,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "{F#Miss}{M#Mister} {NICKNAME}, what do you think we need to bring?",
+            "option": null,
+            "nextIds": [
+              200240007,
+              200240014,
+              200240021
+            ],
+            "kind": "NPC"
+          },
+          "200240007": {
+            "type": "Text",
+            "id": 200240007,
+            "sectionId": 2002400,
+            "senderId": null,
+            "text": "Favorite drinks",
+            "option": "Favorite drinks",
+            "nextIds": [
+              200240008
+            ],
+            "kind": "Player"
+          },
+          "200240008": {
+            "type": "Text",
+            "id": 200240008,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "Oh yeah, I'll need to pack machine oils~",
+            "option": null,
+            "nextIds": [
+              200240009
+            ],
+            "kind": "NPC"
+          },
+          "200240009": {
+            "type": "Text",
+            "id": 200240009,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "I bought a new brand of machine oil yesterday. Might as well let Little Robot try it...",
+            "option": null,
+            "nextIds": [
+              200240010
+            ],
+            "kind": "NPC"
+          },
+          "200240010": {
+            "type": "Text",
+            "id": 200240010,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "(*´ω`*)",
+            "option": null,
+            "nextIds": [
+              200240011
+            ],
+            "kind": "NPC"
+          },
+          "200240011": {
+            "type": "Text",
+            "id": 200240011,
+            "sectionId": 2002400,
+            "senderId": null,
+            "text": "I'll come over to help take the things when it's time",
+            "option": "I'll help take the things",
+            "nextIds": [
+              200240031
+            ],
+            "kind": "Player"
+          },
+          "200240031": {
+            "type": "Text",
+            "id": 200240031,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "Σ(ﾟдﾟ)",
+            "option": null,
+            "nextIds": [
+              200240028
+            ],
+            "kind": "NPC"
+          },
+          "200240028": {
+            "type": "Text",
+            "id": 200240028,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "Thanks, {F#miss}{M#mister}~",
+            "option": null,
+            "nextIds": [
+              200240029
+            ],
+            "kind": "NPC"
+          },
+          "200240029": {
+            "type": "Sticker",
+            "id": 200240029,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "[thanks]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "200240014": {
+            "type": "Text",
+            "id": 200240014,
+            "sectionId": 2002400,
+            "senderId": null,
+            "text": "Pretty flowers",
+            "option": "Pretty flowers",
+            "nextIds": [
+              200240015
+            ],
+            "kind": "Player"
+          },
+          "200240015": {
+            "type": "Text",
+            "id": 200240015,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "Yeah, it must look gorgeous in photos~",
+            "option": null,
+            "nextIds": [
+              200240016
+            ],
+            "kind": "NPC"
+          },
+          "200240016": {
+            "type": "Text",
+            "id": 200240016,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "I wonder whether I'll make it if I start making mechanical flowers now...",
+            "option": null,
+            "nextIds": [
+              200240017
+            ],
+            "kind": "NPC"
+          },
+          "200240017": {
+            "type": "Text",
+            "id": 200240017,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "(;´Д`)",
+            "option": null,
+            "nextIds": [
+              200240018
+            ],
+            "kind": "NPC"
+          },
+          "200240018": {
+            "type": "Text",
+            "id": 200240018,
+            "sectionId": 2002400,
+            "senderId": null,
+            "text": "Lemme help",
+            "option": "Lemme help",
+            "nextIds": [
+              200240031
+            ],
+            "kind": "Player"
+          },
+          "200240021": {
+            "type": "Text",
+            "id": 200240021,
+            "sectionId": 2002400,
+            "senderId": null,
+            "text": "Mr. Svarog",
+            "option": "Mr. Svarog",
+            "nextIds": [
+              200240022
+            ],
+            "kind": "Player"
+          },
+          "200240022": {
+            "type": "Text",
+            "id": 200240022,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "I will invite Mr. Svarog along!",
+            "option": null,
+            "nextIds": [
+              200240023
+            ],
+            "kind": "NPC"
+          },
+          "200240023": {
+            "type": "Text",
+            "id": 200240023,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "Although I'm pretty sure he'll refuse...",
+            "option": null,
+            "nextIds": [
+              200240024
+            ],
+            "kind": "NPC"
+          },
+          "200240024": {
+            "type": "Text",
+            "id": 200240024,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "But I'll make sure Mr. Svarog joins us!",
+            "option": null,
+            "nextIds": [
+              200240025
+            ],
+            "kind": "NPC"
+          },
+          "200240025": {
+            "type": "Text",
+            "id": 200240025,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "Then we'll take a group photo~",
+            "option": null,
+            "nextIds": [
+              200240026
+            ],
+            "kind": "NPC"
+          },
+          "200240026": {
+            "type": "Text",
+            "id": 200240026,
+            "sectionId": 2002400,
+            "senderId": 1107,
+            "text": "|ω・´)",
+            "option": null,
+            "nextIds": [
+              200240027
+            ],
+            "kind": "NPC"
+          },
+          "200240027": {
+            "type": "Text",
+            "id": 200240027,
+            "sectionId": 2002400,
+            "senderId": null,
+            "text": "Leave the photo-taking to me.",
+            "option": "Leave the photo-taking to me.",
+            "nextIds": [
+              200240031
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2004700,
+        "startIds": [
+          200470000
+        ],
+        "messages": {
+          "200470000": {
+            "type": "Text",
+            "id": 200470000,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "█ ██! ██ ███ good ████ █ ██? ██ day ███",
+            "option": null,
+            "nextIds": [
+              200470001
+            ],
+            "kind": "NPC"
+          },
+          "200470001": {
+            "type": "Text",
+            "id": 200470001,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "█gether. I█ █ ████ want ██ ███ play █████ outside █ █place! ██ ██",
+            "option": null,
+            "nextIds": [
+              200470003,
+              200470005
+            ],
+            "kind": "NPC"
+          },
+          "200470003": {
+            "type": "Text",
+            "id": 200470003,
+            "sectionId": 2004700,
+            "senderId": null,
+            "text": "What are you trying to say, Clara?",
+            "option": "Huh. What's this?",
+            "nextIds": [
+              200470002
+            ],
+            "kind": "Player"
+          },
+          "200470002": {
+            "type": "Sticker",
+            "id": 200470002,
+            "sectionId": 2004700,
+            "senderId": null,
+            "text": "[Confused]",
+            "option": "Huh. What's this?",
+            "nextIds": [
+              200470007
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200470007": {
+            "type": "Text",
+            "id": 200470007,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "(ﾟДﾟ≡ﾟДﾟ)",
+            "option": null,
+            "nextIds": [
+              200470008
+            ],
+            "kind": "NPC"
+          },
+          "200470008": {
+            "type": "Text",
+            "id": 200470008,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "Why is it sent to everyone...!?",
+            "option": null,
+            "nextIds": [
+              200470009
+            ],
+            "kind": "NPC"
+          },
+          "200470009": {
+            "type": "Text",
+            "id": 200470009,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "Garbled text too...",
+            "option": null,
+            "nextIds": [
+              200470011
+            ],
+            "kind": "NPC"
+          },
+          "200470011": {
+            "type": "Text",
+            "id": 200470011,
+            "sectionId": 2004700,
+            "senderId": null,
+            "text": "What happened to you?",
+            "option": "What happened to you?",
+            "nextIds": [
+              200470012
+            ],
+            "kind": "Player"
+          },
+          "200470012": {
+            "type": "Text",
+            "id": 200470012,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "I'm trying to mod my phone...",
+            "option": null,
+            "nextIds": [
+              200470013
+            ],
+            "kind": "NPC"
+          },
+          "200470013": {
+            "type": "Text",
+            "id": 200470013,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "If I succeed, Little Robot will be able to send messages to my phone all the way from the base!",
+            "option": null,
+            "nextIds": [
+              200470014
+            ],
+            "kind": "NPC"
+          },
+          "200470014": {
+            "type": "Text",
+            "id": 200470014,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "So, I was trying to ask Little Robot to try texting me...",
+            "option": null,
+            "nextIds": [
+              200470015
+            ],
+            "kind": "NPC"
+          },
+          "200470015": {
+            "type": "Text",
+            "id": 200470015,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "But it failed...",
+            "option": null,
+            "nextIds": [
+              200470016
+            ],
+            "kind": "NPC"
+          },
+          "200470016": {
+            "type": "Text",
+            "id": 200470016,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "ﾟ(つд`ﾟ)",
+            "option": null,
+            "nextIds": [
+              200470018
+            ],
+            "kind": "NPC"
+          },
+          "200470018": {
+            "type": "Text",
+            "id": 200470018,
+            "sectionId": 2004700,
+            "senderId": null,
+            "text": "You're amazing, Clara!",
+            "option": "You're amazing, Clara!",
+            "nextIds": [
+              200470019
+            ],
+            "kind": "Player"
+          },
+          "200470019": {
+            "type": "Text",
+            "id": 200470019,
+            "sectionId": 2004700,
+            "senderId": null,
+            "text": "Keep at it! You'll make it work eventually",
+            "option": null,
+            "nextIds": [
+              200470017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200470017": {
+            "type": "Sticker",
+            "id": 200470017,
+            "sectionId": 2004700,
+            "senderId": null,
+            "text": "[Thumbs Up]",
+            "option": "You're amazing, Clara!",
+            "nextIds": [
+              200470020
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200470020": {
+            "type": "Text",
+            "id": 200470020,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "|ω・´)",
+            "option": null,
+            "nextIds": [
+              200470021
+            ],
+            "kind": "NPC"
+          },
+          "200470021": {
+            "type": "Text",
+            "id": 200470021,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "Okay! I'll try again...!",
+            "option": null,
+            "nextIds": [
+              200470022
+            ],
+            "kind": "NPC"
+          },
+          "200470022": {
+            "type": "Text",
+            "id": 200470022,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "Thank you, {F#big sister}{M#big brother} {NICKNAME}!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200470005": {
+            "type": "Text",
+            "id": 200470005,
+            "sectionId": 2004700,
+            "senderId": null,
+            "text": "Does my phone have a virus?",
+            "option": "Do I have a virus?",
+            "nextIds": [
+              200470004
+            ],
+            "kind": "Player"
+          },
+          "200470004": {
+            "type": "Sticker",
+            "id": 200470004,
+            "sectionId": 2004700,
+            "senderId": null,
+            "text": "[Confused]",
+            "option": "Do I have a virus?",
+            "nextIds": [
+              200470006
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200470006": {
+            "type": "Text",
+            "id": 200470006,
+            "sectionId": 2004700,
+            "senderId": 1107,
+            "text": "No!",
+            "option": null,
+            "nextIds": [
+              200470007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2004800,
+        "startIds": [
+          200480000
+        ],
+        "messages": {
+          "200480000": {
+            "type": "Sticker",
+            "id": 200480000,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              200480001
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200480001": {
+            "type": "Text",
+            "id": 200480001,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "{F#Big sister}{M#Big brother} {NICKNAME}...",
+            "option": null,
+            "nextIds": [
+              200480002
+            ],
+            "kind": "NPC"
+          },
+          "200480002": {
+            "type": "Text",
+            "id": 200480002,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "I received a strange parcel",
+            "option": null,
+            "nextIds": [
+              200480003
+            ],
+            "kind": "NPC"
+          },
+          "200480003": {
+            "type": "Text",
+            "id": 200480003,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "(☉д⊙)",
+            "option": null,
+            "nextIds": [
+              200480004
+            ],
+            "kind": "NPC"
+          },
+          "200480004": {
+            "type": "Text",
+            "id": 200480004,
+            "sectionId": 2004800,
+            "senderId": null,
+            "text": "(☉д⊙)",
+            "option": "(☉д⊙)",
+            "nextIds": [
+              200480005
+            ],
+            "kind": "Player"
+          },
+          "200480005": {
+            "type": "Text",
+            "id": 200480005,
+            "sectionId": 2004800,
+            "senderId": null,
+            "text": "What is it?",
+            "option": null,
+            "nextIds": [
+              200480006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200480006": {
+            "type": "Text",
+            "id": 200480006,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "A pair of shoes, and a note...",
+            "option": null,
+            "nextIds": [
+              200480007
+            ],
+            "kind": "NPC"
+          },
+          "200480007": {
+            "type": "Text",
+            "id": 200480007,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "It says... \"Clara Protection Society\"",
+            "option": null,
+            "nextIds": [
+              200480008
+            ],
+            "kind": "NPC"
+          },
+          "200480008": {
+            "type": "Text",
+            "id": 200480008,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "I don't know what that is... Do you know them, {F#big sister}{M#big brother}?",
+            "option": null,
+            "nextIds": [
+              200480010,
+              200480014
+            ],
+            "kind": "NPC"
+          },
+          "200480010": {
+            "type": "Text",
+            "id": 200480010,
+            "sectionId": 2004800,
+            "senderId": null,
+            "text": "Oh, it's them. I picked up their flyers before",
+            "option": "I know them",
+            "nextIds": [
+              200480011
+            ],
+            "kind": "Player"
+          },
+          "200480011": {
+            "type": "Text",
+            "id": 200480011,
+            "sectionId": 2004800,
+            "senderId": null,
+            "text": "They are a charity organization in the Robot Settlement. They are established to repay your kindness, Clara.",
+            "option": null,
+            "nextIds": [
+              200480012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200480012": {
+            "type": "Text",
+            "id": 200480012,
+            "sectionId": 2004800,
+            "senderId": null,
+            "text": "This is their gift",
+            "option": null,
+            "nextIds": [
+              200480017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200480017": {
+            "type": "Text",
+            "id": 200480017,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "Oh, there's something written on the back of the paper...!",
+            "option": null,
+            "nextIds": [
+              200480018
+            ],
+            "kind": "NPC"
+          },
+          "200480018": {
+            "type": "Text",
+            "id": 200480018,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "It says, \"Clara, you have been caring for everyone at the Robot Settlement, so we pooled together some funds and bought a pair of shoes for you.\"",
+            "option": null,
+            "nextIds": [
+              200480019
+            ],
+            "kind": "NPC"
+          },
+          "200480019": {
+            "type": "Text",
+            "id": 200480019,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "\"The reason being... You are always barefoot, it must be so cold for you...\"",
+            "option": null,
+            "nextIds": [
+              200480020
+            ],
+            "kind": "NPC"
+          },
+          "200480020": {
+            "type": "Text",
+            "id": 200480020,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "(;´Д`)",
+            "option": null,
+            "nextIds": [
+              200480021
+            ],
+            "kind": "NPC"
+          },
+          "200480021": {
+            "type": "Text",
+            "id": 200480021,
+            "sectionId": 2004800,
+            "senderId": null,
+            "text": "(;´Д`)",
+            "option": "(;´Д`)",
+            "nextIds": [
+              200480022
+            ],
+            "kind": "Player"
+          },
+          "200480022": {
+            "type": "Text",
+            "id": 200480022,
+            "sectionId": 2004800,
+            "senderId": null,
+            "text": "So keep it!",
+            "option": null,
+            "nextIds": [
+              200480023
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200480023": {
+            "type": "Text",
+            "id": 200480023,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "Yay! I'm so happy!",
+            "option": null,
+            "nextIds": [
+              200480024
+            ],
+            "kind": "NPC"
+          },
+          "200480024": {
+            "type": "Text",
+            "id": 200480024,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "But I'm not used to wearing shoes, I keep twisting my ankle when I do... ﾟ(つд`ﾟ)",
+            "option": null,
+            "nextIds": [
+              200480025
+            ],
+            "kind": "NPC"
+          },
+          "200480025": {
+            "type": "Text",
+            "id": 200480025,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "I'll just keep it for now...",
+            "option": null,
+            "nextIds": [
+              200480026
+            ],
+            "kind": "NPC"
+          },
+          "200480026": {
+            "type": "Sticker",
+            "id": 200480026,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "[thanks]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "200480014": {
+            "type": "Text",
+            "id": 200480014,
+            "sectionId": 2004800,
+            "senderId": null,
+            "text": "Sounds sus...",
+            "option": "I don't know, maybe just throw it away.",
+            "nextIds": [
+              200480015
+            ],
+            "kind": "Player"
+          },
+          "200480015": {
+            "type": "Text",
+            "id": 200480015,
+            "sectionId": 2004800,
+            "senderId": null,
+            "text": "Just throw it away...",
+            "option": null,
+            "nextIds": [
+              200480016
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200480016": {
+            "type": "Text",
+            "id": 200480016,
+            "sectionId": 2004800,
+            "senderId": 1107,
+            "text": "Yeah, that makes sense...",
+            "option": null,
+            "nextIds": [
+              200480017
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1107,
+    "name": "Clara",
+    "signature": "I want to go to a picnic with everyone (>▽<)",
+    "iconPath": "icon/avatar/1107.png",
+    "type": 1,
+    "camp": 3
+  }
+}

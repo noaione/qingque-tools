@@ -1,0 +1,228 @@
+{
+  "id": 73,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1111000,
+        "startIds": [
+          111100000
+        ],
+        "messages": {
+          "111100000": {
+            "type": "Text",
+            "id": 111100000,
+            "sectionId": 1111000,
+            "senderId": 1101,
+            "text": "March, Dan Heng, {NICKNAME} — Are you seeing this? This android can actually send messages...",
+            "option": null,
+            "nextIds": [
+              111100001
+            ],
+            "kind": "NPC"
+          },
+          "111100001": {
+            "type": "Sticker",
+            "id": 111100001,
+            "sectionId": 1111000,
+            "senderId": 1101,
+            "text": "(lame sticker)",
+            "option": null,
+            "nextIds": [
+              111100002,
+              111100003,
+              111100004
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30101,
+              "path": "icon/emoji/30101.png",
+              "keywords": "Cheers"
+            }
+          },
+          "111100002": {
+            "type": "Text",
+            "id": 111100002,
+            "sectionId": 1111000,
+            "senderId": null,
+            "text": "Your taste in stickers...",
+            "option": "Your taste in stickers...",
+            "nextIds": [
+              111100005
+            ],
+            "kind": "Player"
+          },
+          "111100005": {
+            "type": "Text",
+            "id": 111100005,
+            "sectionId": 1111000,
+            "senderId": 1101,
+            "text": "Hm? What's wrong with that picture? I quite like it...",
+            "option": null,
+            "nextIds": [
+              111100008
+            ],
+            "kind": "NPC"
+          },
+          "111100008": {
+            "type": "Text",
+            "id": 111100008,
+            "sectionId": 1111000,
+            "senderId": 1101,
+            "text": "Thank goodness. I've already given the orders to the Silvermane Guards to immediately lift the blockade between the Overworld and the Underworld. And some people in the Underworld should have already received the notice",
+            "option": null,
+            "nextIds": [
+              111100009
+            ],
+            "kind": "NPC"
+          },
+          "111100009": {
+            "type": "Text",
+            "id": 111100009,
+            "sectionId": 1111000,
+            "senderId": 1101,
+            "text": "After closing for more than a decade, the cable car station should finally be reopening soon. If you don't mind, I would like you to come to the Overworld for my succession ceremony",
+            "option": null,
+            "nextIds": [
+              111100010
+            ],
+            "kind": "NPC"
+          },
+          "111100010": {
+            "type": "Text",
+            "id": 111100010,
+            "sectionId": 1111000,
+            "senderId": 1001,
+            "text": "Woohoo! We wouldn't miss it for the universe!",
+            "option": null,
+            "nextIds": [
+              111100011,
+              111100012,
+              111100013
+            ],
+            "kind": "NPC"
+          },
+          "111100011": {
+            "type": "Text",
+            "id": 111100011,
+            "sectionId": 1111000,
+            "senderId": null,
+            "text": "We'll be there",
+            "option": "We'll be there",
+            "nextIds": [
+              111100014
+            ],
+            "kind": "Player"
+          },
+          "111100014": {
+            "type": "Text",
+            "id": 111100014,
+            "sectionId": 1111000,
+            "senderId": 1101,
+            "text": "See you there then",
+            "option": null,
+            "nextIds": [
+              111100015
+            ],
+            "kind": "NPC"
+          },
+          "111100015": {
+            "type": "Sticker",
+            "id": 111100015,
+            "sectionId": 1111000,
+            "senderId": 1101,
+            "text": "(lame sticker)",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30102,
+              "path": "icon/emoji/30102.png",
+              "keywords": "Flower"
+            }
+          },
+          "111100012": {
+            "type": "Text",
+            "id": 111100012,
+            "sectionId": 1111000,
+            "senderId": null,
+            "text": "See you there, hehe",
+            "option": "See you there, hehe",
+            "nextIds": [
+              111100014
+            ],
+            "kind": "Player"
+          },
+          "111100013": {
+            "type": "Text",
+            "id": 111100013,
+            "sectionId": 1111000,
+            "senderId": null,
+            "text": "If I'm not busy",
+            "option": "If I'm not busy",
+            "nextIds": [
+              111100014
+            ],
+            "kind": "Player"
+          },
+          "111100003": {
+            "type": "Text",
+            "id": 111100003,
+            "sectionId": 1111000,
+            "senderId": null,
+            "text": "The message has been sent",
+            "option": "The message has been sent",
+            "nextIds": [
+              111100006
+            ],
+            "kind": "Player"
+          },
+          "111100006": {
+            "type": "Text",
+            "id": 111100006,
+            "sectionId": 1111000,
+            "senderId": 1101,
+            "text": "Thank you for all you've done for Belobog",
+            "option": null,
+            "nextIds": [
+              111100008
+            ],
+            "kind": "NPC"
+          },
+          "111100004": {
+            "type": "Text",
+            "id": 111100004,
+            "sectionId": 1111000,
+            "senderId": null,
+            "text": "How do you feel, physically?",
+            "option": "How do you feel, physically?",
+            "nextIds": [
+              111100007
+            ],
+            "kind": "Player"
+          },
+          "111100007": {
+            "type": "Text",
+            "id": 111100007,
+            "sectionId": 1111000,
+            "senderId": 1101,
+            "text": "Thanks to Seele, I'm fine now",
+            "option": null,
+            "nextIds": [
+              111100008
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 73,
+    "name": "Bronya, {NICKNAME}, March 7th, Dan Heng's Group Chat",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 3
+  }
+}

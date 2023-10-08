@@ -1,0 +1,125 @@
+{
+  "id": 2,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1110000,
+        "startIds": [
+          111000000
+        ],
+        "messages": {
+          "111000000": {
+            "type": "Text",
+            "id": 111000000,
+            "sectionId": 1110000,
+            "senderId": 2,
+            "text": "Outsider! I finally got your contact! I have something to tell you: Boss Scott has been talking every day about how we need to try some business models. He's quite worked up about this... If you have time, can you chat with him? I'm telling you, you can make a ton of money!",
+            "option": null,
+            "nextIds": [
+              111000001,
+              111000002,
+              111000003
+            ],
+            "kind": "NPC"
+          },
+          "111000001": {
+            "type": "Text",
+            "id": 111000001,
+            "sectionId": 1110000,
+            "senderId": null,
+            "text": "Who the heck are you...",
+            "option": "Who the heck are you...",
+            "nextIds": [
+              111000004
+            ],
+            "kind": "Player"
+          },
+          "111000004": {
+            "type": "Text",
+            "id": 111000004,
+            "sectionId": 1110000,
+            "senderId": 2,
+            "text": "Hello? Forgot about me already? Host of the Fight Club, Cold Dragon Young? Does that ring a bell?",
+            "option": null,
+            "nextIds": [
+              111000007
+            ],
+            "kind": "NPC"
+          },
+          "111000007": {
+            "type": "Text",
+            "id": 111000007,
+            "sectionId": 1110000,
+            "senderId": 2,
+            "text": "Anyway, go talk to Boss Scott when you have time, I guarantee it's gonna be a good deal for you. Don't forget to patronize the club when you make your fortune!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111000002": {
+            "type": "Text",
+            "id": 111000002,
+            "sectionId": 1110000,
+            "senderId": null,
+            "text": "Sure, I'll go see him now",
+            "option": "Sure, I'll go see him now",
+            "nextIds": [
+              111000005
+            ],
+            "kind": "Player"
+          },
+          "111000005": {
+            "type": "Text",
+            "id": 111000005,
+            "sectionId": 1110000,
+            "senderId": 2,
+            "text": "Ha, nice! I knew you were the right person to ask",
+            "option": null,
+            "nextIds": [
+              111000007
+            ],
+            "kind": "NPC"
+          },
+          "111000003": {
+            "type": "Text",
+            "id": 111000003,
+            "sectionId": 1110000,
+            "senderId": null,
+            "text": "Who is Scott? Never heard of him",
+            "option": "Who is Scott? Never heard of him",
+            "nextIds": [
+              111000006
+            ],
+            "kind": "Player"
+          },
+          "111000006": {
+            "type": "Text",
+            "id": 111000006,
+            "sectionId": 1110000,
+            "senderId": 2,
+            "text": "Hey, don't be like that. Boss Scott is the most powerful man in the Underworld. Loads of people want to be his friend",
+            "option": null,
+            "nextIds": [
+              111000007
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2010701,
+          "name": "Ring and Stage I",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 2,
+    "name": "Dr. Dig",
+    "signature": "Scott Business, we serve champions!",
+    "iconPath": "icon/avatar/DoctorDig.png",
+    "type": 2,
+    "camp": 3
+  }
+}

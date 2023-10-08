@@ -1,0 +1,180 @@
+{
+  "id": 29,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1012201,
+        "startIds": [
+          101220101
+        ],
+        "messages": {
+          "101220101": {
+            "type": "Text",
+            "id": 101220101,
+            "sectionId": 1012201,
+            "senderId": 29,
+            "text": "Hey friend! You're still at the space station, right? I wanna talk to you about something",
+            "option": null,
+            "nextIds": [
+              101220102,
+              101220103,
+              101220108
+            ],
+            "kind": "NPC"
+          },
+          "101220102": {
+            "type": "Text",
+            "id": 101220102,
+            "sectionId": 1012201,
+            "senderId": null,
+            "text": "Yep, still here. What is it?",
+            "option": "Yep, still here",
+            "nextIds": [
+              101220110
+            ],
+            "kind": "Player"
+          },
+          "101220110": {
+            "type": "Text",
+            "id": 101220110,
+            "sectionId": 1012201,
+            "senderId": 29,
+            "text": "It's been a while since that incident, but I'm still very worried about the space station's cybersecurity",
+            "option": null,
+            "nextIds": [
+              101220111
+            ],
+            "kind": "NPC"
+          },
+          "101220111": {
+            "type": "Text",
+            "id": 101220111,
+            "sectionId": 1012201,
+            "senderId": 29,
+            "text": "I wanna prepare while I can, and I've got an idea that I wanna run past you",
+            "option": null,
+            "nextIds": [
+              101220112
+            ],
+            "kind": "NPC"
+          },
+          "101220112": {
+            "type": "Text",
+            "id": 101220112,
+            "sectionId": 1012201,
+            "senderId": 29,
+            "text": "Let's talk about the details face to face. I'm outside the office",
+            "option": null,
+            "nextIds": [
+              101220113
+            ],
+            "kind": "NPC"
+          },
+          "101220113": {
+            "type": "Text",
+            "id": 101220113,
+            "sectionId": 1012201,
+            "senderId": 29,
+            "text": "Please make sure to drop by!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "101220103": {
+            "type": "Text",
+            "id": 101220103,
+            "sectionId": 1012201,
+            "senderId": null,
+            "text": "I'm already gone",
+            "option": "Nope, already gone",
+            "nextIds": [
+              101220104
+            ],
+            "kind": "Player"
+          },
+          "101220104": {
+            "type": "Text",
+            "id": 101220104,
+            "sectionId": 1012201,
+            "senderId": null,
+            "text": "Not at the space station anymore",
+            "option": null,
+            "nextIds": [
+              101220105
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101220105": {
+            "type": "Text",
+            "id": 101220105,
+            "sectionId": 1012201,
+            "senderId": null,
+            "text": "And I won't be coming back",
+            "option": null,
+            "nextIds": [
+              101220106
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101220106": {
+            "type": "Text",
+            "id": 101220106,
+            "sectionId": 1012201,
+            "senderId": 29,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              101220107
+            ],
+            "kind": "NPC"
+          },
+          "101220107": {
+            "type": "Text",
+            "id": 101220107,
+            "sectionId": 1012201,
+            "senderId": 29,
+            "text": "Don't be like this",
+            "option": null,
+            "nextIds": [
+              101220110
+            ],
+            "kind": "NPC"
+          },
+          "101220108": {
+            "type": "Text",
+            "id": 101220108,
+            "sectionId": 1012201,
+            "senderId": null,
+            "text": "Why didn't you say this before?",
+            "option": "Why didn't you say this before?",
+            "nextIds": [
+              101220109
+            ],
+            "kind": "Player"
+          },
+          "101220109": {
+            "type": "Text",
+            "id": 101220109,
+            "sectionId": 1012201,
+            "senderId": 29,
+            "text": "I didn't wanna say that with so many people around. My boss was there too",
+            "option": null,
+            "nextIds": [
+              101220110
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 29,
+    "name": "Leonard",
+    "signature": null,
+    "iconPath": "icon/avatar/Leonard.png",
+    "type": null,
+    "camp": null
+  }
+}

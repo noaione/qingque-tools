@@ -1,0 +1,110 @@
+{
+  "id": 30,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1070000,
+        "startIds": [
+          107000000
+        ],
+        "messages": {
+          "107000000": {
+            "type": "Text",
+            "id": 107000000,
+            "sectionId": 1070000,
+            "senderId": 30,
+            "text": "(Advertisement) Do you have any plans for tonight, {NICKNAME}?\\nYour friend, Leonard Calliwell, is playing a heart-pumping space warfare game, Cosmic Warfare.\\nDo you want to face the emperor's mecha army in the Aurora Counter-Offensive Battle? Experience a day in a cloud-top mansion at Pier Point as a P<unbreak>35</unbreak> staff member? Or do you want to turn into Galaxy Rangers with your friends and experience the epic assassination operation that shook the cosmos? Right now, the multiplayer online game Cosmic Warfare is open to all users. Meet up with Leonard Calliwell, and begin a cosmic journey of your own.\\n* Requires Interastral Network membership.",
+            "option": null,
+            "nextIds": [
+              107000001,
+              107000002,
+              107000003
+            ],
+            "kind": "NPC"
+          },
+          "107000001": {
+            "type": "Text",
+            "id": 107000001,
+            "sectionId": 1070000,
+            "senderId": null,
+            "text": "What's that?",
+            "option": "What's that?",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "107000002": {
+            "type": "Text",
+            "id": 107000002,
+            "sectionId": 1070000,
+            "senderId": null,
+            "text": "Who's Leonard?",
+            "option": "Who's Leonard?",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "107000003": {
+            "type": "Text",
+            "id": 107000003,
+            "sectionId": 1070000,
+            "senderId": null,
+            "text": "Cancel",
+            "option": "Cancel",
+            "nextIds": [],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1070100,
+        "startIds": [
+          107010000
+        ],
+        "messages": {
+          "107010000": {
+            "type": "Text",
+            "id": 107010000,
+            "sectionId": 1070100,
+            "senderId": 30,
+            "text": "(Advertisement) Congratulations! You have completed the High Score Challenge in Cosmic Warfare and obtained a stage victory. Please confirm your battle statistics in the monitoring room",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1070200,
+        "startIds": [
+          107020000
+        ],
+        "messages": {
+          "107020000": {
+            "type": "Text",
+            "id": 107020000,
+            "sectionId": 1070200,
+            "senderId": 30,
+            "text": "(Advertisement) Thank you for your support. The limited trial experience of Cosmic Warfare has ended, and the game application will be automatically uninstalled. Thank you for your support, and we hope to see you again",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 30,
+    "name": "Interastral Network",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  }
+}

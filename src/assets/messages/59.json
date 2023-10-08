@@ -1,0 +1,117 @@
+{
+  "id": 59,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1012100,
+        "startIds": [
+          101210000
+        ],
+        "messages": {
+          "101210000": {
+            "type": "Text",
+            "id": 101210000,
+            "sectionId": 1012100,
+            "senderId": 59,
+            "text": "{F#Sister}{M#Brother} {NICKNAME}, can I ask you something?",
+            "option": null,
+            "nextIds": [
+              101210001
+            ],
+            "kind": "NPC"
+          },
+          "101210001": {
+            "type": "Text",
+            "id": 101210001,
+            "sectionId": 1012100,
+            "senderId": 59,
+            "text": "Lots of little robots have recently disconnected from the terminal. My checks say they were manually turned off",
+            "option": null,
+            "nextIds": [
+              101210002
+            ],
+            "kind": "NPC"
+          },
+          "101210002": {
+            "type": "Text",
+            "id": 101210002,
+            "sectionId": 1012100,
+            "senderId": 59,
+            "text": "The Security Department tells me you went past that area. Did you see anyone suspicious?",
+            "option": null,
+            "nextIds": [
+              101210003,
+              101210006
+            ],
+            "kind": "NPC"
+          },
+          "101210003": {
+            "type": "Text",
+            "id": 101210003,
+            "sectionId": 1012100,
+            "senderId": null,
+            "text": "Um... I'll admit I did it. They were on standby, so I just tapped them a few times...",
+            "option": "I confess! I did it!",
+            "nextIds": [
+              101210004
+            ],
+            "kind": "Player"
+          },
+          "101210004": {
+            "type": "Text",
+            "id": 101210004,
+            "sectionId": 1012100,
+            "senderId": 59,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              101210005
+            ],
+            "kind": "NPC"
+          },
+          "101210005": {
+            "type": "Text",
+            "id": 101210005,
+            "sectionId": 1012100,
+            "senderId": 59,
+            "text": "Alright, don't do it again. I'll ignore it this time",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "101210006": {
+            "type": "Text",
+            "id": 101210006,
+            "sectionId": 1012100,
+            "senderId": null,
+            "text": "Um... I don't know. I just passed by and wasn't really looking",
+            "option": "I don't know either",
+            "nextIds": [
+              101210007
+            ],
+            "kind": "Player"
+          },
+          "101210007": {
+            "type": "Text",
+            "id": 101210007,
+            "sectionId": 1012100,
+            "senderId": 59,
+            "text": "Ahh, okay, I'll go check again. Thanks",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 59,
+    "name": "Maintenance Engineer",
+    "signature": null,
+    "iconPath": "icon/avatar/Engineer.png",
+    "type": 2,
+    "camp": 2
+  }
+}

@@ -1,5 +1,5 @@
 <template>
-  <RouterView />
+  <RouterView class="overflow-x-hidden" />
 </template>
 
 <style lang="postcss">

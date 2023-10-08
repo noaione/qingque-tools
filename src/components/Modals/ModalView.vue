@@ -1,7 +1,7 @@
 <template>
   <Teleport to="body">
     <Transition name="modal">
-      <div v-if="show" class="modal-mask backdrop-blur-md">
+      <div v-if="show" ref="backdrop" class="modal-mask backdrop-blur-md" @click="backdropClick">
         <div class="modal-container">
           <div class="modal-header">
             <slot name="header" />
@@ -24,6 +24,17 @@
 defineProps<{
   show: boolean;
 }>();
+const emit = defineEmits<{
+  (e: "close"): void;
+}>();
+
+const backdrop = ref();
+
+function backdropClick(e: Event) {
+  if (backdrop && e.target === backdrop.value) {
+    emit("close");
+  }
+}
 </script>
 
 <style scoped lang="postcss">

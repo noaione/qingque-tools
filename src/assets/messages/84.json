@@ -1,0 +1,395 @@
+{
+  "id": 84,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1216800,
+        "startIds": [
+          121680001
+        ],
+        "messages": {
+          "121680001": {
+            "type": "Text",
+            "id": 121680001,
+            "sectionId": 1216800,
+            "senderId": 84,
+            "text": "{NICKNAME}, hello.",
+            "option": null,
+            "nextIds": [
+              121680002
+            ],
+            "kind": "NPC"
+          },
+          "121680002": {
+            "type": "Text",
+            "id": 121680002,
+            "sectionId": 1216800,
+            "senderId": 84,
+            "text": "My investigation and research on the Xianzhou is complete.",
+            "option": null,
+            "nextIds": [
+              121680003
+            ],
+            "kind": "NPC"
+          },
+          "121680003": {
+            "type": "Text",
+            "id": 121680003,
+            "sectionId": 1216800,
+            "senderId": 84,
+            "text": "No... Rather, I have a completely new topic now.",
+            "option": null,
+            "nextIds": [
+              121680004
+            ],
+            "kind": "NPC"
+          },
+          "121680004": {
+            "type": "Text",
+            "id": 121680004,
+            "sectionId": 1216800,
+            "senderId": 84,
+            "text": "Thank you for your companionship along the way. You are the most sincere and reliable friend I have made on Xianzhou.",
+            "option": null,
+            "nextIds": [
+              121680005
+            ],
+            "kind": "NPC"
+          },
+          "121680005": {
+            "type": "Text",
+            "id": 121680005,
+            "sectionId": 1216800,
+            "senderId": 84,
+            "text": "So, no matter what happens, I don't want to hide anything from you or deceive you.",
+            "option": null,
+            "nextIds": [
+              121680006
+            ],
+            "kind": "NPC"
+          },
+          "121680006": {
+            "type": "Text",
+            "id": 121680006,
+            "sectionId": 1216800,
+            "senderId": 84,
+            "text": "I want to share my happiness with you. See you at the usual place.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2020203,
+          "name": "Todd Riordan's Academic Research: Continued",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1216900,
+        "startIds": [
+          121690001
+        ],
+        "messages": {
+          "121690001": {
+            "type": "Text",
+            "id": 121690001,
+            "sectionId": 1216900,
+            "senderId": 84,
+            "text": "Sorry to disturb you, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              121690002
+            ],
+            "kind": "NPC"
+          },
+          "121690002": {
+            "type": "Text",
+            "id": 121690002,
+            "sectionId": 1216900,
+            "senderId": 84,
+            "text": "Would you happen to have the time to meet up?",
+            "option": null,
+            "nextIds": [
+              121690003,
+              121690007
+            ],
+            "kind": "NPC"
+          },
+          "121690003": {
+            "type": "Text",
+            "id": 121690003,
+            "sectionId": 1216900,
+            "senderId": null,
+            "text": "It seems that the Ten-Lords Commission isn't as all-knowing as they claim",
+            "option": "You're not arrested yet?",
+            "nextIds": [
+              121690004
+            ],
+            "kind": "Player"
+          },
+          "121690004": {
+            "type": "Text",
+            "id": 121690004,
+            "sectionId": 1216900,
+            "senderId": null,
+            "text": "Or you wouldn't still be chatting with me now",
+            "option": null,
+            "nextIds": [
+              121690005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121690005": {
+            "type": "Text",
+            "id": 121690005,
+            "sectionId": 1216900,
+            "senderId": 84,
+            "text": "Haha, sounds like you already reported what I did to the Xianzhou people.",
+            "option": null,
+            "nextIds": [
+              121690006
+            ],
+            "kind": "NPC"
+          },
+          "121690006": {
+            "type": "Text",
+            "id": 121690006,
+            "sectionId": 1216900,
+            "senderId": 84,
+            "text": "You stood by your convictions, as expected. I don't blame you",
+            "option": null,
+            "nextIds": [
+              121690010
+            ],
+            "kind": "NPC"
+          },
+          "121690010": {
+            "type": "Text",
+            "id": 121690010,
+            "sectionId": 1216900,
+            "senderId": 84,
+            "text": "Come. Come to the shores of Scalegorge Waterscape. I'm not going to talk about immortality, or silly things such as fame and wealth.",
+            "option": null,
+            "nextIds": [
+              121690011
+            ],
+            "kind": "NPC"
+          },
+          "121690011": {
+            "type": "Text",
+            "id": 121690011,
+            "sectionId": 1216900,
+            "senderId": 84,
+            "text": "How about helping out with an old friend's last fickle request? Or think about it as giving a terminal patient his final care?",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121690007": {
+            "type": "Text",
+            "id": 121690007,
+            "sectionId": 1216900,
+            "senderId": null,
+            "text": "I think we've already said all there is to be said",
+            "option": "I think I already said no",
+            "nextIds": [
+              121690008
+            ],
+            "kind": "Player"
+          },
+          "121690008": {
+            "type": "Text",
+            "id": 121690008,
+            "sectionId": 1216900,
+            "senderId": null,
+            "text": "I've already explicitly refused",
+            "option": null,
+            "nextIds": [
+              121690009
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121690009": {
+            "type": "Text",
+            "id": 121690009,
+            "sectionId": 1216900,
+            "senderId": 84,
+            "text": "That's not what I wanted to discuss, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              121690010
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1217000,
+        "startIds": [
+          121700001
+        ],
+        "messages": {
+          "121700001": {
+            "type": "Text",
+            "id": 121700001,
+            "sectionId": 1217000,
+            "senderId": 84,
+            "text": "Sorry to disturb you, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              121700002
+            ],
+            "kind": "NPC"
+          },
+          "121700002": {
+            "type": "Text",
+            "id": 121700002,
+            "sectionId": 1217000,
+            "senderId": 84,
+            "text": "Would you happen to have the time to meet up?",
+            "option": null,
+            "nextIds": [
+              121700003,
+              121700008
+            ],
+            "kind": "NPC"
+          },
+          "121700003": {
+            "type": "Text",
+            "id": 121700003,
+            "sectionId": 1217000,
+            "senderId": null,
+            "text": "You really have some guts",
+            "option": "You haven't left Xianzhou?",
+            "nextIds": [
+              121700004
+            ],
+            "kind": "Player"
+          },
+          "121700004": {
+            "type": "Text",
+            "id": 121700004,
+            "sectionId": 1217000,
+            "senderId": null,
+            "text": "I thought you'd have left Xianzhou immediately after that chat",
+            "option": null,
+            "nextIds": [
+              121700005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121700005": {
+            "type": "Text",
+            "id": 121700005,
+            "sectionId": 1217000,
+            "senderId": null,
+            "text": "Even if I don't report you, it would be big trouble if people find out what you did",
+            "option": null,
+            "nextIds": [
+              121700006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121700006": {
+            "type": "Text",
+            "id": 121700006,
+            "sectionId": 1217000,
+            "senderId": 84,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              121700007
+            ],
+            "kind": "NPC"
+          },
+          "121700007": {
+            "type": "Text",
+            "id": 121700007,
+            "sectionId": 1217000,
+            "senderId": 84,
+            "text": "I'm afraid I'm temporarily unable to leave.",
+            "option": null,
+            "nextIds": [
+              121700011
+            ],
+            "kind": "NPC"
+          },
+          "121700011": {
+            "type": "Text",
+            "id": 121700011,
+            "sectionId": 1217000,
+            "senderId": 84,
+            "text": "Come meet me at the usual place. I'm not going to talk about immortality, or silly things such as fame and wealth.",
+            "option": null,
+            "nextIds": [
+              121700012
+            ],
+            "kind": "NPC"
+          },
+          "121700012": {
+            "type": "Text",
+            "id": 121700012,
+            "sectionId": 1217000,
+            "senderId": 84,
+            "text": "How about helping out with an old friend's last fickle request? Or think about it as giving a terminal patient his final care?",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121700008": {
+            "type": "Text",
+            "id": 121700008,
+            "sectionId": 1217000,
+            "senderId": null,
+            "text": "I thought I made myself clear",
+            "option": "I'm not interested in joining the Guild",
+            "nextIds": [
+              121700009
+            ],
+            "kind": "Player"
+          },
+          "121700009": {
+            "type": "Text",
+            "id": 121700009,
+            "sectionId": 1217000,
+            "senderId": null,
+            "text": "There's something wrong with my body... so immortality, wealth, and fame mean nothing to me",
+            "option": null,
+            "nextIds": [
+              121700010
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121700010": {
+            "type": "Text",
+            "id": 121700010,
+            "sectionId": 1217000,
+            "senderId": 84,
+            "text": "That's not what I wanted to discuss, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              121700011
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 84,
+    "name": "Todd",
+    "signature": "The spirit is willing, but the flesh is weak...",
+    "iconPath": "icon/avatar/Taode.png",
+    "type": 2,
+    "camp": 4
+  }
+}

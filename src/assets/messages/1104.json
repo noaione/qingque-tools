@@ -1,0 +1,1161 @@
+{
+  "id": 1104,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1111400,
+        "startIds": [
+          111140000
+        ],
+        "messages": {
+          "111140000": {
+            "type": "Text",
+            "id": 111140000,
+            "sectionId": 1111400,
+            "senderId": 1104,
+            "text": "{NICKNAME}, we're preparing to set off",
+            "option": null,
+            "nextIds": [
+              111140001
+            ],
+            "kind": "NPC"
+          },
+          "111140001": {
+            "type": "Text",
+            "id": 111140001,
+            "sectionId": 1111400,
+            "senderId": 1104,
+            "text": "Let's meet at the Overworld cable car in a bit",
+            "option": null,
+            "nextIds": [
+              111140002,
+              111140003
+            ],
+            "kind": "NPC"
+          },
+          "111140002": {
+            "type": "Text",
+            "id": 111140002,
+            "sectionId": 1111400,
+            "senderId": null,
+            "text": "Okay, be right there.",
+            "option": "Alright, I'll be right there",
+            "nextIds": [
+              111140004
+            ],
+            "kind": "Player"
+          },
+          "111140004": {
+            "type": "Text",
+            "id": 111140004,
+            "sectionId": 1111400,
+            "senderId": 1104,
+            "text": "It's not urgent. I still have to head back to the military lines first",
+            "option": null,
+            "nextIds": [
+              111140005
+            ],
+            "kind": "NPC"
+          },
+          "111140005": {
+            "type": "Text",
+            "id": 111140005,
+            "sectionId": 1111400,
+            "senderId": 1104,
+            "text": "I'm guessing Serval just left home. If you arrive before us, you'll have to wait for a while",
+            "option": null,
+            "nextIds": [
+              111140006
+            ],
+            "kind": "NPC"
+          },
+          "111140006": {
+            "type": "Text",
+            "id": 111140006,
+            "sectionId": 1111400,
+            "senderId": 1104,
+            "text": "Anyways, see you later",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111140003": {
+            "type": "Text",
+            "id": 111140003,
+            "sectionId": 1111400,
+            "senderId": null,
+            "text": "So sudden?",
+            "option": "So sudden?",
+            "nextIds": [
+              111140004
+            ],
+            "kind": "Player"
+          }
+        },
+        "mission": {
+          "id": 2011403,
+          "name": "Only A Child",
+          "type": "Companion"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2002100,
+        "startIds": [
+          200210000
+        ],
+        "messages": {
+          "200210000": {
+            "type": "Text",
+            "id": 200210000,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "{NICKNAME}, thank you for your Express drinks.",
+            "option": null,
+            "nextIds": [
+              200210001
+            ],
+            "kind": "NPC"
+          },
+          "200210001": {
+            "type": "Text",
+            "id": 200210001,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "Especially the bottled soda. It tastes great.",
+            "option": null,
+            "nextIds": [
+              200210002
+            ],
+            "kind": "NPC"
+          },
+          "200210002": {
+            "type": "Text",
+            "id": 200210002,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "I'd like to thank you on behalf of the other Guards as well!",
+            "option": null,
+            "nextIds": [
+              200210003
+            ],
+            "kind": "NPC"
+          },
+          "200210003": {
+            "type": "Text",
+            "id": 200210003,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "Actually, are there any Belobogian drinks you'd like?",
+            "option": null,
+            "nextIds": [
+              200210004,
+              200210010,
+              200210014
+            ],
+            "kind": "NPC"
+          },
+          "200210004": {
+            "type": "Text",
+            "id": 200210004,
+            "sectionId": 2002100,
+            "senderId": null,
+            "text": "Jim Roger's drinks — the taste of bread for the price of water",
+            "option": "Jim Roger",
+            "nextIds": [
+              200210005
+            ],
+            "kind": "Player"
+          },
+          "200210005": {
+            "type": "Text",
+            "id": 200210005,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "Its advert is probably more memorable than its taste.",
+            "option": null,
+            "nextIds": [
+              200210006
+            ],
+            "kind": "NPC"
+          },
+          "200210006": {
+            "type": "Text",
+            "id": 200210006,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "It just tastes like bread anyways.",
+            "option": null,
+            "nextIds": [
+              200210007
+            ],
+            "kind": "NPC"
+          },
+          "200210007": {
+            "type": "Text",
+            "id": 200210007,
+            "sectionId": 2002100,
+            "senderId": null,
+            "text": "True",
+            "option": null,
+            "nextIds": [
+              200210008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200210008": {
+            "type": "Text",
+            "id": 200210008,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "I'll get you more next time.",
+            "option": null,
+            "nextIds": [
+              200210009
+            ],
+            "kind": "NPC"
+          },
+          "200210009": {
+            "type": "Sticker",
+            "id": 200210009,
+            "sectionId": 2002100,
+            "senderId": null,
+            "text": "[finger heart]",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "200210010": {
+            "type": "Text",
+            "id": 200210010,
+            "sectionId": 2002100,
+            "senderId": null,
+            "text": "Moo-Moo Milk, full of flavor",
+            "option": "Moo-Moo Milk",
+            "nextIds": [
+              200210011
+            ],
+            "kind": "Player"
+          },
+          "200210011": {
+            "type": "Text",
+            "id": 200210011,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "That reminds me of how Serval used to force me to drink milk every day when I was a kid...",
+            "option": null,
+            "nextIds": [
+              200210012
+            ],
+            "kind": "NPC"
+          },
+          "200210012": {
+            "type": "Text",
+            "id": 200210012,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "Their cheese and sour cream are not bad either. I'll get you some next time.",
+            "option": null,
+            "nextIds": [
+              200210013
+            ],
+            "kind": "NPC"
+          },
+          "200210013": {
+            "type": "Sticker",
+            "id": 200210013,
+            "sectionId": 2002100,
+            "senderId": null,
+            "text": "[finger heart]",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "200210014": {
+            "type": "Text",
+            "id": 200210014,
+            "sectionId": 2002100,
+            "senderId": null,
+            "text": "Rye Bread Soda Iceberg. Everyone's talking about it",
+            "option": "Rye Bread Soda Iceberg",
+            "nextIds": [
+              200210015
+            ],
+            "kind": "Player"
+          },
+          "200210015": {
+            "type": "Text",
+            "id": 200210015,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "It's the Goethe Hotel's star beverage, after all.",
+            "option": null,
+            "nextIds": [
+              200210016
+            ],
+            "kind": "NPC"
+          },
+          "200210016": {
+            "type": "Text",
+            "id": 200210016,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "You know you can actually make Rye Bread Soda Icebergs yourself? It's pretty simple.",
+            "option": null,
+            "nextIds": [
+              200210017
+            ],
+            "kind": "NPC"
+          },
+          "200210017": {
+            "type": "Text",
+            "id": 200210017,
+            "sectionId": 2002100,
+            "senderId": 1104,
+            "text": "We can try to make it together next time.",
+            "option": null,
+            "nextIds": [
+              200210018
+            ],
+            "kind": "NPC"
+          },
+          "200210018": {
+            "type": "Sticker",
+            "id": 200210018,
+            "sectionId": 2002100,
+            "senderId": null,
+            "text": "[finger heart]",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2004100,
+        "startIds": [
+          200410000
+        ],
+        "messages": {
+          "200410000": {
+            "type": "Text",
+            "id": 200410000,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "{NICKNAME}, there's something I'd like to discuss with you.",
+            "option": null,
+            "nextIds": [
+              200410001
+            ],
+            "kind": "NPC"
+          },
+          "200410001": {
+            "type": "Text",
+            "id": 200410001,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "Do you have time?",
+            "option": null,
+            "nextIds": [
+              200410002
+            ],
+            "kind": "NPC"
+          },
+          "200410002": {
+            "type": "Text",
+            "id": 200410002,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "I do, what is it?",
+            "option": "I do, what is it?",
+            "nextIds": [
+              200410003
+            ],
+            "kind": "Player"
+          },
+          "200410003": {
+            "type": "Text",
+            "id": 200410003,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "Actually, my youngest sister just came home from a scientific expedition.",
+            "option": null,
+            "nextIds": [
+              200410004
+            ],
+            "kind": "NPC"
+          },
+          "200410004": {
+            "type": "Text",
+            "id": 200410004,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "I want to gift her something, what do you think is a suitable gift?",
+            "option": null,
+            "nextIds": [
+              200410005,
+              200410014,
+              200410023
+            ],
+            "kind": "NPC"
+          },
+          "200410005": {
+            "type": "Text",
+            "id": 200410005,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "What does she like?",
+            "option": "What does she like?",
+            "nextIds": [
+              200410006
+            ],
+            "kind": "Player"
+          },
+          "200410006": {
+            "type": "Text",
+            "id": 200410006,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "I feel bad for saying this, but I'm not quite sure what she likes.",
+            "option": null,
+            "nextIds": [
+              200410007
+            ],
+            "kind": "NPC"
+          },
+          "200410007": {
+            "type": "Text",
+            "id": 200410007,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "I only know that she's very passionate about science and outdoor expeditions.",
+            "option": null,
+            "nextIds": [
+              200410008
+            ],
+            "kind": "NPC"
+          },
+          "200410008": {
+            "type": "Text",
+            "id": 200410008,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "Oh, I have an idea. What if I gift her a new set of scientific expedition gear?",
+            "option": null,
+            "nextIds": [
+              200410009
+            ],
+            "kind": "NPC"
+          },
+          "200410009": {
+            "type": "Sticker",
+            "id": 200410009,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "[Thumbs Up]",
+            "option": null,
+            "nextIds": [
+              200410010
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200410010": {
+            "type": "Text",
+            "id": 200410010,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "That's not a bad idea",
+            "option": null,
+            "nextIds": [
+              200410011
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200410011": {
+            "type": "Text",
+            "id": 200410011,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "As long as she likes it",
+            "option": null,
+            "nextIds": [
+              200410012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200410012": {
+            "type": "Text",
+            "id": 200410012,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "You're right. Thank you for helping me sort out my thoughts.",
+            "option": null,
+            "nextIds": [
+              200410013
+            ],
+            "kind": "NPC"
+          },
+          "200410013": {
+            "type": "Text",
+            "id": 200410013,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "I'm going ahead to look for gifts. See you soon.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200410014": {
+            "type": "Text",
+            "id": 200410014,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "You can buy her some flowers",
+            "option": "Get her some flowers",
+            "nextIds": [
+              200410015
+            ],
+            "kind": "Player"
+          },
+          "200410015": {
+            "type": "Text",
+            "id": 200410015,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "I thought about gifting her flowers, but I remember her saying she's not interested in run-of-the-mill plants.",
+            "option": null,
+            "nextIds": [
+              200410016
+            ],
+            "kind": "NPC"
+          },
+          "200410016": {
+            "type": "Text",
+            "id": 200410016,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "She likes the ones in the Snow Plains, those that are rare in the city.",
+            "option": null,
+            "nextIds": [
+              200410017
+            ],
+            "kind": "NPC"
+          },
+          "200410017": {
+            "type": "Text",
+            "id": 200410017,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "I have an idea. Next time I'm patrolling the Snow Plains, I'll keep an eye on anything interesting.",
+            "option": null,
+            "nextIds": [
+              200410018
+            ],
+            "kind": "NPC"
+          },
+          "200410018": {
+            "type": "Sticker",
+            "id": 200410018,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "[Thumbs Up]",
+            "option": null,
+            "nextIds": [
+              200410019
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200410019": {
+            "type": "Text",
+            "id": 200410019,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "That's not a bad idea",
+            "option": null,
+            "nextIds": [
+              200410020
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200410020": {
+            "type": "Text",
+            "id": 200410020,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "But be safe",
+            "option": null,
+            "nextIds": [
+              200410021
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200410021": {
+            "type": "Text",
+            "id": 200410021,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "Haha, I will, thank you.",
+            "option": null,
+            "nextIds": [
+              200410022
+            ],
+            "kind": "NPC"
+          },
+          "200410022": {
+            "type": "Text",
+            "id": 200410022,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "I'll make myself busy now, see you soon.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200410023": {
+            "type": "Text",
+            "id": 200410023,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "You can buy her some new clothes",
+            "option": "Buy her some new clothes",
+            "nextIds": [
+              200410024
+            ],
+            "kind": "Player"
+          },
+          "200410024": {
+            "type": "Text",
+            "id": 200410024,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "I thought about that, but I don't have good taste when it comes to fashion, so I dared not make a choice.",
+            "option": null,
+            "nextIds": [
+              200410025
+            ],
+            "kind": "NPC"
+          },
+          "200410025": {
+            "type": "Text",
+            "id": 200410025,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "Serval did buy her some really nice clothes.",
+            "option": null,
+            "nextIds": [
+              200410026
+            ],
+            "kind": "NPC"
+          },
+          "200410026": {
+            "type": "Text",
+            "id": 200410026,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "But I don't want Serval to know.",
+            "option": null,
+            "nextIds": [
+              200410027
+            ],
+            "kind": "NPC"
+          },
+          "200410027": {
+            "type": "Sticker",
+            "id": 200410027,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "[decline]",
+            "option": null,
+            "nextIds": [
+              200410028
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "200410028": {
+            "type": "Text",
+            "id": 200410028,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "Why so shy?",
+            "option": null,
+            "nextIds": [
+              200410029
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200410029": {
+            "type": "Text",
+            "id": 200410029,
+            "sectionId": 2004100,
+            "senderId": null,
+            "text": "You're family, just go and ask",
+            "option": null,
+            "nextIds": [
+              200410030
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200410030": {
+            "type": "Text",
+            "id": 200410030,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              200410031
+            ],
+            "kind": "NPC"
+          },
+          "200410031": {
+            "type": "Text",
+            "id": 200410031,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "You're right, I should just ask Serval just to avoid buying the wrong things.",
+            "option": null,
+            "nextIds": [
+              200410032
+            ],
+            "kind": "NPC"
+          },
+          "200410032": {
+            "type": "Text",
+            "id": 200410032,
+            "sectionId": 2004100,
+            "senderId": 1104,
+            "text": "Thank you for your suggestion, I'll look for Serval now, see you.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2004200,
+        "startIds": [
+          200420000
+        ],
+        "messages": {
+          "200420000": {
+            "type": "Text",
+            "id": 200420000,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "{NICKNAME}, are you there?",
+            "option": null,
+            "nextIds": [
+              200420001
+            ],
+            "kind": "NPC"
+          },
+          "200420001": {
+            "type": "Text",
+            "id": 200420001,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "I want to ask something about the security in Belobog.",
+            "option": null,
+            "nextIds": [
+              200420002
+            ],
+            "kind": "NPC"
+          },
+          "200420002": {
+            "type": "Text",
+            "id": 200420002,
+            "sectionId": 2004200,
+            "senderId": null,
+            "text": "What happened?",
+            "option": "What happened?",
+            "nextIds": [
+              200420003
+            ],
+            "kind": "Player"
+          },
+          "200420003": {
+            "type": "Sticker",
+            "id": 200420003,
+            "sectionId": 2004200,
+            "senderId": null,
+            "text": "[confused]",
+            "option": null,
+            "nextIds": [
+              200420004
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200420004": {
+            "type": "Text",
+            "id": 200420004,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "We received a report recently saying a vehicle fired a chainsaw into the Qlipoth Fort and shattered a window. They think it's an attack.",
+            "option": null,
+            "nextIds": [
+              200420005
+            ],
+            "kind": "NPC"
+          },
+          "200420005": {
+            "type": "Text",
+            "id": 200420005,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "Have you heard any news about this?",
+            "option": null,
+            "nextIds": [
+              200420007,
+              200420013,
+              200420019
+            ],
+            "kind": "NPC"
+          },
+          "200420007": {
+            "type": "Text",
+            "id": 200420007,
+            "sectionId": 2004200,
+            "senderId": null,
+            "text": "I have no idea",
+            "option": "I have no idea",
+            "nextIds": [
+              200420008
+            ],
+            "kind": "Player"
+          },
+          "200420008": {
+            "type": "Text",
+            "id": 200420008,
+            "sectionId": 2004200,
+            "senderId": null,
+            "text": "Who would it be?",
+            "option": null,
+            "nextIds": [
+              200420009
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200420009": {
+            "type": "Text",
+            "id": 200420009,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              200420010
+            ],
+            "kind": "NPC"
+          },
+          "200420010": {
+            "type": "Text",
+            "id": 200420010,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "No worries, I think I have an idea of whom the perpetrator is.",
+            "option": null,
+            "nextIds": [
+              200420011
+            ],
+            "kind": "NPC"
+          },
+          "200420011": {
+            "type": "Text",
+            "id": 200420011,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "I'm sorry to have bothered you. I'll go ahead and ask the workshop.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200420013": {
+            "type": "Text",
+            "id": 200420013,
+            "sectionId": 2004200,
+            "senderId": null,
+            "text": "It's not me! I swear!",
+            "option": "Not me",
+            "nextIds": [
+              200420014
+            ],
+            "kind": "Player"
+          },
+          "200420014": {
+            "type": "Text",
+            "id": 200420014,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              200420015
+            ],
+            "kind": "NPC"
+          },
+          "200420015": {
+            "type": "Text",
+            "id": 200420015,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "Don't worry, I know you wouldn't do things like this.",
+            "option": null,
+            "nextIds": [
+              200420016
+            ],
+            "kind": "NPC"
+          },
+          "200420016": {
+            "type": "Text",
+            "id": 200420016,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "Actually, I think I know who incited it...",
+            "option": null,
+            "nextIds": [
+              200420017
+            ],
+            "kind": "NPC"
+          },
+          "200420017": {
+            "type": "Text",
+            "id": 200420017,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "I'm sorry to have bothered you. I'll go ahead and ask the workshop.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200420019": {
+            "type": "Text",
+            "id": 200420019,
+            "sectionId": 2004200,
+            "senderId": null,
+            "text": "Only that person would mod their cars to that degree",
+            "option": "Could it be...",
+            "nextIds": [
+              200420020
+            ],
+            "kind": "Player"
+          },
+          "200420020": {
+            "type": "Text",
+            "id": 200420020,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "Serval?",
+            "option": null,
+            "nextIds": [
+              200420021
+            ],
+            "kind": "NPC"
+          },
+          "200420021": {
+            "type": "Text",
+            "id": 200420021,
+            "sectionId": 2004200,
+            "senderId": null,
+            "text": "I have said nothing...",
+            "option": "I said nothing",
+            "nextIds": [
+              200420022
+            ],
+            "kind": "Player"
+          },
+          "200420022": {
+            "type": "Text",
+            "id": 200420022,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              200420023
+            ],
+            "kind": "NPC"
+          },
+          "200420023": {
+            "type": "Text",
+            "id": 200420023,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "How should I put it...",
+            "option": null,
+            "nextIds": [
+              200420024
+            ],
+            "kind": "NPC"
+          },
+          "200420024": {
+            "type": "Text",
+            "id": 200420024,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "That's what my intuition tells me...",
+            "option": null,
+            "nextIds": [
+              200420025
+            ],
+            "kind": "NPC"
+          },
+          "200420025": {
+            "type": "Text",
+            "id": 200420025,
+            "sectionId": 2004200,
+            "senderId": 1104,
+            "text": "Regardless, I will ask her about it. Thank you for the idea.",
+            "option": null,
+            "nextIds": [
+              200420026
+            ],
+            "kind": "NPC"
+          },
+          "200420026": {
+            "type": "Text",
+            "id": 200420026,
+            "sectionId": 2004200,
+            "senderId": null,
+            "text": "I have really said nothing at all...",
+            "option": "I really said nothing",
+            "nextIds": [],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1180100,
+        "startIds": [
+          118010000
+        ],
+        "messages": {
+          "118010000": {
+            "type": "Text",
+            "id": 118010000,
+            "sectionId": 1180100,
+            "senderId": null,
+            "text": "Gepard",
+            "option": null,
+            "nextIds": [
+              118010001
+            ],
+            "kind": "PlayerAuto"
+          },
+          "118010001": {
+            "type": "Text",
+            "id": 118010001,
+            "sectionId": 1180100,
+            "senderId": 1104,
+            "text": "Something the matter?",
+            "option": null,
+            "nextIds": [
+              118010002
+            ],
+            "kind": "NPC"
+          },
+          "118010002": {
+            "type": "Text",
+            "id": 118010002,
+            "sectionId": 1180100,
+            "senderId": null,
+            "text": "Can you help me open the back alley gate behind the theater?",
+            "option": "Can you help me open the gate?",
+            "nextIds": [
+              118010003
+            ],
+            "kind": "Player"
+          },
+          "118010003": {
+            "type": "Text",
+            "id": 118010003,
+            "sectionId": 1180100,
+            "senderId": null,
+            "text": "They say you have the key.",
+            "option": null,
+            "nextIds": [
+              118010004
+            ],
+            "kind": "PlayerAuto"
+          },
+          "118010004": {
+            "type": "Text",
+            "id": 118010004,
+            "sectionId": 1180100,
+            "senderId": 1104,
+            "text": "There's no alley behind the theater.",
+            "option": null,
+            "nextIds": [
+              118010005
+            ],
+            "kind": "NPC"
+          },
+          "118010005": {
+            "type": "Text",
+            "id": 118010005,
+            "sectionId": 1180100,
+            "senderId": 1104,
+            "text": "What back alley?",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1104,
+    "name": "Gepard",
+    "signature": "Working, apologies for the slow response",
+    "iconPath": "icon/avatar/1104.png",
+    "type": 1,
+    "camp": 3
+  }
+}

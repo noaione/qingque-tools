@@ -1,0 +1,39 @@
+{
+  "id": 3,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1110100,
+        "startIds": [
+          111010000
+        ],
+        "messages": {
+          "111010000": {
+            "type": "Text",
+            "id": 111010000,
+            "sectionId": 1110100,
+            "senderId": 3,
+            "text": "(Promotion) Tomorrow, Wildfire will host an auction near the vagrant camp on the outskirts of the robot settlement. Everyone in the Underworld is invited. Buyers and Vendors, please register with your real name prior to the auction. If you want to know more, talk to our team members at the Boulder Town news office",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2010901,
+          "name": "Hook's Gift",
+          "type": "Companion"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 3,
+    "name": "Wildfire Official",
+    "signature": "Join Wildfire and save your loved ones.",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 3
+  }
+}

@@ -5,12 +5,7 @@
     }`"
     @click="emit('toggle', character.id)"
   >
-    <img
-      v-if="charaImg !== null"
-      class="object-cover"
-      :src="charaImg"
-      :alt="`${character.name} Icon`"
-    />
+    <img v-if="charaImg !== null" class="object-cover" :src="charaImg" :alt="`${character.name} Icon`" />
   </div>
 </template>
 

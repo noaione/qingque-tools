@@ -1,0 +1,1542 @@
+{
+  "id": 1013,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1000200,
+        "startIds": [
+          100020001
+        ],
+        "messages": {
+          "100020001": {
+            "type": "Text",
+            "id": 100020001,
+            "sectionId": 1000200,
+            "senderId": 1013,
+            "text": "Hey, {NICKNAME}, it's Herta. I need you for something good",
+            "option": null,
+            "nextIds": [
+              100020002
+            ],
+            "kind": "NPC"
+          },
+          "100020002": {
+            "type": "Text",
+            "id": 100020002,
+            "sectionId": 1000200,
+            "senderId": 1013,
+            "text": "Come to my office quickly! I'm waiting!",
+            "option": null,
+            "nextIds": [
+              100020003
+            ],
+            "kind": "NPC"
+          },
+          "100020003": {
+            "type": "Text",
+            "id": 100020003,
+            "sectionId": 1000200,
+            "senderId": null,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              100020004,
+              100020005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "100020004": {
+            "type": "Text",
+            "id": 100020004,
+            "sectionId": 1000200,
+            "senderId": null,
+            "text": "But you're right next to me",
+            "option": "But you're right next to me",
+            "nextIds": [
+              100020006
+            ],
+            "kind": "Player"
+          },
+          "100020006": {
+            "type": "Text",
+            "id": 100020006,
+            "sectionId": 1000200,
+            "senderId": 1013,
+            "text": "[Automatic reply] Hi, I'm currently unavailable, and I won't be contacting you later",
+            "option": null,
+            "nextIds": [
+              100020007
+            ],
+            "kind": "NPC"
+          },
+          "100020007": {
+            "type": "Text",
+            "id": 100020007,
+            "sectionId": 1000200,
+            "senderId": null,
+            "text": "???",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto"
+          },
+          "100020005": {
+            "type": "Text",
+            "id": 100020005,
+            "sectionId": 1000200,
+            "senderId": null,
+            "text": "Can't you just tell me",
+            "option": "Can't you just tell me",
+            "nextIds": [
+              100020006
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2001500,
+        "startIds": [
+          200150000
+        ],
+        "messages": {
+          "200150000": {
+            "type": "Text",
+            "id": 200150000,
+            "sectionId": 2001500,
+            "senderId": 1013,
+            "text": "Hello?",
+            "option": null,
+            "nextIds": [
+              200150001
+            ],
+            "kind": "NPC"
+          },
+          "200150001": {
+            "type": "Text",
+            "id": 200150001,
+            "sectionId": 2001500,
+            "senderId": 1013,
+            "text": "I need you for something. Reply when you read this",
+            "option": null,
+            "nextIds": [
+              200150002,
+              200150003
+            ],
+            "kind": "NPC"
+          },
+          "200150002": {
+            "type": "Text",
+            "id": 200150002,
+            "sectionId": 2001500,
+            "senderId": null,
+            "text": "I'm here",
+            "option": "I'm here",
+            "nextIds": [
+              200150004
+            ],
+            "kind": "Player"
+          },
+          "200150004": {
+            "type": "Text",
+            "id": 200150004,
+            "sectionId": 2001500,
+            "senderId": null,
+            "text": "What is it? Is it about the Simulated Universe?",
+            "option": null,
+            "nextIds": [
+              200150005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200150005": {
+            "type": "Text",
+            "id": 200150005,
+            "sectionId": 2001500,
+            "senderId": null,
+            "text": "Or about the space station?",
+            "option": null,
+            "nextIds": [
+              200150007
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200150007": {
+            "type": "Text",
+            "id": 200150007,
+            "sectionId": 2001500,
+            "senderId": 1013,
+            "text": "[Automatic reply] Hi, I'm currently unavailable, and I won't be contacting you later",
+            "option": null,
+            "nextIds": [
+              200150008
+            ],
+            "kind": "NPC"
+          },
+          "200150008": {
+            "type": "Sticker",
+            "id": 200150008,
+            "sectionId": 2001500,
+            "senderId": null,
+            "text": "[Confused]",
+            "option": "?",
+            "nextIds": [
+              200150009
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200150009": {
+            "type": "Text",
+            "id": 200150009,
+            "sectionId": 2001500,
+            "senderId": 1013,
+            "text": "Don't worry. It's sorted",
+            "option": null,
+            "nextIds": [
+              200150010
+            ],
+            "kind": "NPC"
+          },
+          "200150010": {
+            "type": "Text",
+            "id": 200150010,
+            "sectionId": 2001500,
+            "senderId": 1013,
+            "text": "[Automatic reply] Hi, I'm currently unavailable, and I won't be contacting you later",
+            "option": null,
+            "nextIds": [
+              200150011
+            ],
+            "kind": "NPC"
+          },
+          "200150011": {
+            "type": "Text",
+            "id": 200150011,
+            "sectionId": 2001500,
+            "senderId": null,
+            "text": "...",
+            "option": "...",
+            "nextIds": [
+              200150012
+            ],
+            "kind": "Player"
+          },
+          "200150012": {
+            "type": "Text",
+            "id": 200150012,
+            "sectionId": 2001500,
+            "senderId": 1013,
+            "text": "[Automatic reply] Hi, I'm currently unavailable, and I won't be contacting you later",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200150003": {
+            "type": "Text",
+            "id": 200150003,
+            "sectionId": 2001500,
+            "senderId": null,
+            "text": "Nope",
+            "option": "Nope",
+            "nextIds": [
+              200150006
+            ],
+            "kind": "Player"
+          },
+          "200150006": {
+            "type": "Text",
+            "id": 200150006,
+            "sectionId": 2001500,
+            "senderId": null,
+            "text": "I'm actually not around",
+            "option": null,
+            "nextIds": [
+              200150007
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2002900,
+        "startIds": [
+          200290000
+        ],
+        "messages": {
+          "200290000": {
+            "type": "Text",
+            "id": 200290000,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "Give me a number",
+            "option": null,
+            "nextIds": [
+              200290001,
+              200290003
+            ],
+            "kind": "NPC"
+          },
+          "200290001": {
+            "type": "Text",
+            "id": 200290001,
+            "sectionId": 2002900,
+            "senderId": null,
+            "text": "What? Are you going to give me pocket money?",
+            "option": "Are you going to give me pocket money?",
+            "nextIds": [
+              200290002
+            ],
+            "kind": "Player"
+          },
+          "200290002": {
+            "type": "Text",
+            "id": 200290002,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              200290007
+            ],
+            "kind": "NPC"
+          },
+          "200290007": {
+            "type": "Text",
+            "id": 200290007,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "I can't find a puppet",
+            "option": null,
+            "nextIds": [
+              200290008
+            ],
+            "kind": "NPC"
+          },
+          "200290008": {
+            "type": "Text",
+            "id": 200290008,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "I'm locating the signal",
+            "option": null,
+            "nextIds": [
+              200290009
+            ],
+            "kind": "NPC"
+          },
+          "200290009": {
+            "type": "Text",
+            "id": 200290009,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "Oh, I lost it. No wonder I can't find it",
+            "option": null,
+            "nextIds": [
+              200290010,
+              200290012
+            ],
+            "kind": "NPC"
+          },
+          "200290010": {
+            "type": "Text",
+            "id": 200290010,
+            "sectionId": 2002900,
+            "senderId": null,
+            "text": "Losing a puppet... It seems like you are not that good at this",
+            "option": "Seems like you are not that good at this",
+            "nextIds": [
+              200290011
+            ],
+            "kind": "Player"
+          },
+          "200290011": {
+            "type": "Text",
+            "id": 200290011,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "I'm just too lazy to do it myself",
+            "option": null,
+            "nextIds": [
+              200290017
+            ],
+            "kind": "NPC"
+          },
+          "200290017": {
+            "type": "Text",
+            "id": 200290017,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "It's connected now",
+            "option": null,
+            "nextIds": [
+              200290018
+            ],
+            "kind": "NPC"
+          },
+          "200290018": {
+            "type": "Text",
+            "id": 200290018,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "[This is a group message. Please do not reply.] Give me the number of current Curios",
+            "option": null,
+            "nextIds": [
+              200290019
+            ],
+            "kind": "NPC"
+          },
+          "200290019": {
+            "type": "Sticker",
+            "id": 200290019,
+            "sectionId": 2002900,
+            "senderId": null,
+            "text": "[confused]",
+            "option": "?",
+            "nextIds": [
+              200290020
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200290020": {
+            "type": "Text",
+            "id": 200290020,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "I told you not to reply",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200290012": {
+            "type": "Text",
+            "id": 200290012,
+            "sectionId": 2002900,
+            "senderId": null,
+            "text": "????",
+            "option": "Where did you lose it?",
+            "nextIds": [
+              200290013
+            ],
+            "kind": "Player"
+          },
+          "200290013": {
+            "type": "Text",
+            "id": 200290013,
+            "sectionId": 2002900,
+            "senderId": null,
+            "text": "Did your puppet fall off the space station?",
+            "option": null,
+            "nextIds": [
+              200290014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200290014": {
+            "type": "Text",
+            "id": 200290014,
+            "sectionId": 2002900,
+            "senderId": null,
+            "text": "Where did you lose it? We can ask others to help",
+            "option": null,
+            "nextIds": [
+              200290015
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200290015": {
+            "type": "Text",
+            "id": 200290015,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "I lost connection to it",
+            "option": null,
+            "nextIds": [
+              200290016
+            ],
+            "kind": "NPC"
+          },
+          "200290016": {
+            "type": "Text",
+            "id": 200290016,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "Do you not get it?",
+            "option": null,
+            "nextIds": [
+              200290017
+            ],
+            "kind": "NPC"
+          },
+          "200290003": {
+            "type": "Text",
+            "id": 200290003,
+            "sectionId": 2002900,
+            "senderId": null,
+            "text": "1",
+            "option": "1",
+            "nextIds": [
+              200290004
+            ],
+            "kind": "Player"
+          },
+          "200290004": {
+            "type": "Text",
+            "id": 200290004,
+            "sectionId": 2002900,
+            "senderId": null,
+            "text": "<unbreak>111</unbreak>",
+            "option": null,
+            "nextIds": [
+              200290005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200290005": {
+            "type": "Text",
+            "id": 200290005,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "[Automatic Reply] 2",
+            "option": null,
+            "nextIds": [
+              200290006
+            ],
+            "kind": "NPC"
+          },
+          "200290006": {
+            "type": "Text",
+            "id": 200290006,
+            "sectionId": 2002900,
+            "senderId": 1013,
+            "text": "[Automatic Reply] <unbreak>222</unbreak>",
+            "option": null,
+            "nextIds": [
+              200290007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2003000,
+        "startIds": [
+          200300000
+        ],
+        "messages": {
+          "200300000": {
+            "type": "Text",
+            "id": 200300000,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "<u>Curios Information Self-Report Form</u>",
+            "option": null,
+            "nextIds": [
+              200300001
+            ],
+            "kind": "NPC"
+          },
+          "200300001": {
+            "type": "Text",
+            "id": 200300001,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "Fill in this",
+            "option": null,
+            "nextIds": [
+              200300002
+            ],
+            "kind": "NPC"
+          },
+          "200300002": {
+            "type": "Text",
+            "id": 200300002,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "ASAP",
+            "option": null,
+            "nextIds": [
+              200300003
+            ],
+            "kind": "NPC"
+          },
+          "200300003": {
+            "type": "Text",
+            "id": 200300003,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "[Panopticon System Safety Alert] The system has detected unusual sign-in activity of the user. Be sure to protect your personal information and do not transfer money to them",
+            "option": null,
+            "nextIds": [
+              200300004
+            ],
+            "kind": "NPC"
+          },
+          "200300004": {
+            "type": "Text",
+            "id": 200300004,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "[Panopticon System Safety Alert] The system has blocked the link for you. Please stay vigilant and verify the user's true identity before taking any action!",
+            "option": null,
+            "nextIds": [
+              200300005,
+              200300007
+            ],
+            "kind": "NPC"
+          },
+          "200300005": {
+            "type": "Text",
+            "id": 200300005,
+            "sectionId": 2003000,
+            "senderId": null,
+            "text": "Are you really Herta? I don't believe you",
+            "option": "Are you really Herta?",
+            "nextIds": [
+              200300006
+            ],
+            "kind": "Player"
+          },
+          "200300006": {
+            "type": "Text",
+            "id": 200300006,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "Do I have to send you a selfie to prove that I am Herta?",
+            "option": null,
+            "nextIds": [
+              200300011
+            ],
+            "kind": "NPC"
+          },
+          "200300011": {
+            "type": "Text",
+            "id": 200300011,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "Ugh, the system's interception is always triggered at the wrong time",
+            "option": null,
+            "nextIds": [
+              200300012
+            ],
+            "kind": "NPC"
+          },
+          "200300012": {
+            "type": "Text",
+            "id": 200300012,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "Never mind. It's just some of your personal information anyway. I'll ask Himeko to fill it out for you",
+            "option": null,
+            "nextIds": [
+              200300013,
+              200300015
+            ],
+            "kind": "NPC"
+          },
+          "200300013": {
+            "type": "Text",
+            "id": 200300013,
+            "sectionId": 2003000,
+            "senderId": null,
+            "text": "That kind of information shouldn't be filled out by others! Give me back my personal information!",
+            "option": "Give me back my personal information!",
+            "nextIds": [
+              200300014
+            ],
+            "kind": "Player"
+          },
+          "200300014": {
+            "type": "Sticker",
+            "id": 200300014,
+            "sectionId": 2003000,
+            "senderId": null,
+            "text": "[decline]",
+            "option": null,
+            "nextIds": [
+              200300017
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "200300017": {
+            "type": "Text",
+            "id": 200300017,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "What are you panicking about? I have no use for it",
+            "option": null,
+            "nextIds": [
+              200300018
+            ],
+            "kind": "NPC"
+          },
+          "200300018": {
+            "type": "Text",
+            "id": 200300018,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "[Automatic reply] Hi, I'm currently unavailable, and I won't be contacting you later",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200300015": {
+            "type": "Text",
+            "id": 200300015,
+            "sectionId": 2003000,
+            "senderId": null,
+            "text": "What do you want my personal information for? That kind of information can't be shared with others, I think?",
+            "option": "Don't send it to others!",
+            "nextIds": [
+              200300016
+            ],
+            "kind": "Player"
+          },
+          "200300016": {
+            "type": "Sticker",
+            "id": 200300016,
+            "sectionId": 2003000,
+            "senderId": null,
+            "text": "[confused]",
+            "option": null,
+            "nextIds": [
+              200300017
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200300007": {
+            "type": "Text",
+            "id": 200300007,
+            "sectionId": 2003000,
+            "senderId": null,
+            "text": "The link is blocked. I can't open it",
+            "option": "The link is blocked",
+            "nextIds": [
+              200300008
+            ],
+            "kind": "Player"
+          },
+          "200300008": {
+            "type": "Text",
+            "id": 200300008,
+            "sectionId": 2003000,
+            "senderId": null,
+            "text": "Did you log into your account at a strange place?",
+            "option": null,
+            "nextIds": [
+              200300009
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200300009": {
+            "type": "Text",
+            "id": 200300009,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              200300010
+            ],
+            "kind": "NPC"
+          },
+          "200300010": {
+            "type": "Text",
+            "id": 200300010,
+            "sectionId": 2003000,
+            "senderId": 1013,
+            "text": "Give me one second",
+            "option": null,
+            "nextIds": [
+              200300011
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 5000100,
+        "startIds": [
+          500010000
+        ],
+        "messages": {
+          "500010000": {
+            "type": "Text",
+            "id": 500010000,
+            "sectionId": 5000100,
+            "senderId": 1013,
+            "text": "Upgrade is done, come test",
+            "option": null,
+            "nextIds": [
+              500010001,
+              500010002
+            ],
+            "kind": "NPC"
+          },
+          "500010001": {
+            "type": "Text",
+            "id": 500010001,
+            "sectionId": 5000100,
+            "senderId": null,
+            "text": "Yes, ma'am",
+            "option": "Yes, ma'am",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "500010002": {
+            "type": "Text",
+            "id": 500010002,
+            "sectionId": 5000100,
+            "senderId": null,
+            "text": "Beg me~",
+            "option": "Beg me~",
+            "nextIds": [
+              500010003
+            ],
+            "kind": "Player"
+          },
+          "500010003": {
+            "type": "Text",
+            "id": 500010003,
+            "sectionId": 5000100,
+            "senderId": 1013,
+            "text": "I beg you, come test",
+            "option": null,
+            "nextIds": [
+              500010004
+            ],
+            "kind": "NPC"
+          },
+          "500010004": {
+            "type": "Text",
+            "id": 500010004,
+            "sectionId": 5000100,
+            "senderId": null,
+            "text": "...",
+            "option": "...",
+            "nextIds": [],
+            "kind": "Player"
+          }
+        },
+        "mission": {
+          "id": 4030003,
+          "name": "Simulated Universe (Part 1)",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 5000200,
+        "startIds": [
+          500020000
+        ],
+        "messages": {
+          "500020000": {
+            "type": "Text",
+            "id": 500020000,
+            "sectionId": 5000200,
+            "senderId": 1013,
+            "text": "Upgrade is done. Come test",
+            "option": null,
+            "nextIds": [
+              500020001,
+              500020002
+            ],
+            "kind": "NPC"
+          },
+          "500020001": {
+            "type": "Text",
+            "id": 500020001,
+            "sectionId": 5000200,
+            "senderId": null,
+            "text": "Yes, ma'am",
+            "option": "Yes, ma'am",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "500020002": {
+            "type": "Text",
+            "id": 500020002,
+            "sectionId": 5000200,
+            "senderId": null,
+            "text": "Beg me then~",
+            "option": "Beg me then~",
+            "nextIds": [
+              500020003
+            ],
+            "kind": "Player"
+          },
+          "500020003": {
+            "type": "Text",
+            "id": 500020003,
+            "sectionId": 5000200,
+            "senderId": 1013,
+            "text": "I beg you. Come test",
+            "option": null,
+            "nextIds": [
+              500020004
+            ],
+            "kind": "NPC"
+          },
+          "500020004": {
+            "type": "Text",
+            "id": 500020004,
+            "sectionId": 5000200,
+            "senderId": null,
+            "text": "...",
+            "option": "...",
+            "nextIds": [],
+            "kind": "Player"
+          }
+        },
+        "mission": {
+          "id": 4030002,
+          "name": "Simulated Universe: Second Closed Beta",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1217600,
+        "startIds": [
+          121760000
+        ],
+        "messages": {
+          "121760000": {
+            "type": "Text",
+            "id": 121760000,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "Come",
+            "option": null,
+            "nextIds": [
+              121760001
+            ],
+            "kind": "NPC"
+          },
+          "121760001": {
+            "type": "Text",
+            "id": 121760001,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "For a test",
+            "option": null,
+            "nextIds": [
+              121760002,
+              121760003
+            ],
+            "kind": "NPC"
+          },
+          "121760002": {
+            "type": "Text",
+            "id": 121760002,
+            "sectionId": 1217600,
+            "senderId": null,
+            "text": "Simulated Universe again?",
+            "option": "Simulated Universe?",
+            "nextIds": [
+              121760004
+            ],
+            "kind": "Player"
+          },
+          "121760004": {
+            "type": "Text",
+            "id": 121760004,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "We have a small update that can dissect and snapshot a section of time in the Simulated Universe",
+            "option": null,
+            "nextIds": [
+              121760005,
+              121760006
+            ],
+            "kind": "NPC"
+          },
+          "121760005": {
+            "type": "Text",
+            "id": 121760005,
+            "sectionId": 1217600,
+            "senderId": null,
+            "text": "Dissect? Snapshot?",
+            "option": "What???",
+            "nextIds": [
+              121760007
+            ],
+            "kind": "Player"
+          },
+          "121760007": {
+            "type": "Text",
+            "id": 121760007,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "It means we can customize the system parameters more",
+            "option": null,
+            "nextIds": [
+              121760008
+            ],
+            "kind": "NPC"
+          },
+          "121760008": {
+            "type": "Text",
+            "id": 121760008,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "Such as \"doubling\" the Planar Ornaments data that appear in each world",
+            "option": null,
+            "nextIds": [
+              121760009,
+              121760011
+            ],
+            "kind": "NPC"
+          },
+          "121760009": {
+            "type": "Text",
+            "id": 121760009,
+            "sectionId": 1217600,
+            "senderId": null,
+            "text": "Double the data?",
+            "option": "Double the data?",
+            "nextIds": [
+              121760010
+            ],
+            "kind": "Player"
+          },
+          "121760010": {
+            "type": "Text",
+            "id": 121760010,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "Yes",
+            "option": null,
+            "nextIds": [
+              121760013
+            ],
+            "kind": "NPC"
+          },
+          "121760013": {
+            "type": "Text",
+            "id": 121760013,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "This is Stephen's idea",
+            "option": null,
+            "nextIds": [
+              121760014
+            ],
+            "kind": "NPC"
+          },
+          "121760014": {
+            "type": "Text",
+            "id": 121760014,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "He pulled a bunch of weird analytics like daily active users, user retention rate, and average session length. I don't get it, but he says those are really important",
+            "option": null,
+            "nextIds": [
+              121760015
+            ],
+            "kind": "NPC"
+          },
+          "121760015": {
+            "type": "Text",
+            "id": 121760015,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "Anyways, now you know. The feature will stick around only for a few days. Remember to come test",
+            "option": null,
+            "nextIds": [
+              121760016,
+              121760017
+            ],
+            "kind": "NPC"
+          },
+          "121760016": {
+            "type": "Text",
+            "id": 121760016,
+            "sectionId": 1217600,
+            "senderId": null,
+            "text": "Can we keep this feature forever?",
+            "option": "Can it be a regular feature?",
+            "nextIds": [
+              121760018
+            ],
+            "kind": "Player"
+          },
+          "121760018": {
+            "type": "Text",
+            "id": 121760018,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "Go ask Stephen",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121760017": {
+            "type": "Text",
+            "id": 121760017,
+            "sectionId": 1217600,
+            "senderId": null,
+            "text": "Can we do triple drop rates? Ten-time rates???",
+            "option": "Can we triple the rates?",
+            "nextIds": [
+              121760018
+            ],
+            "kind": "Player"
+          },
+          "121760011": {
+            "type": "Text",
+            "id": 121760011,
+            "sectionId": 1217600,
+            "senderId": null,
+            "text": "Double drop rates???",
+            "option": "Double drop rates???",
+            "nextIds": [
+              121760012
+            ],
+            "kind": "Player"
+          },
+          "121760012": {
+            "type": "Text",
+            "id": 121760012,
+            "sectionId": 1217600,
+            "senderId": 1013,
+            "text": "What do you think this is? A video game?",
+            "option": null,
+            "nextIds": [
+              121760013
+            ],
+            "kind": "NPC"
+          },
+          "121760006": {
+            "type": "Text",
+            "id": 121760006,
+            "sectionId": 1217600,
+            "senderId": null,
+            "text": "Can you explain what you mean???",
+            "option": "Speak human plz",
+            "nextIds": [
+              121760007
+            ],
+            "kind": "Player"
+          },
+          "121760003": {
+            "type": "Text",
+            "id": 121760003,
+            "sectionId": 1217600,
+            "senderId": null,
+            "text": "A Simulated Universe update?",
+            "option": "A feature update?",
+            "nextIds": [
+              121760004
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1217800,
+        "startIds": [
+          121780000
+        ],
+        "messages": {
+          "121780000": {
+            "type": "Text",
+            "id": 121780000,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Come",
+            "option": null,
+            "nextIds": [
+              121780001
+            ],
+            "kind": "NPC"
+          },
+          "121780001": {
+            "type": "Text",
+            "id": 121780001,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "For a test",
+            "option": null,
+            "nextIds": [
+              121780002,
+              121780003,
+              121780004
+            ],
+            "kind": "NPC"
+          },
+          "121780002": {
+            "type": "Text",
+            "id": 121780002,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "Simulated Universe again?",
+            "option": "Simulated Universe?",
+            "nextIds": [
+              121780008
+            ],
+            "kind": "Player"
+          },
+          "121780008": {
+            "type": "Text",
+            "id": 121780008,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "We have a small update that can dissect and snapshot a section of time in the Simulated Universe",
+            "option": null,
+            "nextIds": [
+              121780009,
+              121780010,
+              121780011
+            ],
+            "kind": "NPC"
+          },
+          "121780009": {
+            "type": "Text",
+            "id": 121780009,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "Dissect? Snapshot?",
+            "option": "What???",
+            "nextIds": [
+              121780015
+            ],
+            "kind": "Player"
+          },
+          "121780015": {
+            "type": "Text",
+            "id": 121780015,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "It means we can customize the system parameters more",
+            "option": null,
+            "nextIds": [
+              121780016
+            ],
+            "kind": "NPC"
+          },
+          "121780016": {
+            "type": "Text",
+            "id": 121780016,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Such as \"doubling\" the Planar Ornaments data that appear in each world",
+            "option": null,
+            "nextIds": [
+              121780017,
+              121780019
+            ],
+            "kind": "NPC"
+          },
+          "121780017": {
+            "type": "Text",
+            "id": 121780017,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "Double the data?",
+            "option": "Double data?",
+            "nextIds": [
+              121780018
+            ],
+            "kind": "Player"
+          },
+          "121780018": {
+            "type": "Text",
+            "id": 121780018,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Yes",
+            "option": null,
+            "nextIds": [
+              121780021
+            ],
+            "kind": "NPC"
+          },
+          "121780021": {
+            "type": "Text",
+            "id": 121780021,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "This is Stephen's idea",
+            "option": null,
+            "nextIds": [
+              121780022
+            ],
+            "kind": "NPC"
+          },
+          "121780022": {
+            "type": "Text",
+            "id": 121780022,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "He pulled a bunch of weird analytics like daily active users, user retention rate, and average session length. I don't get it, but he says those are really important",
+            "option": null,
+            "nextIds": [
+              121780023
+            ],
+            "kind": "NPC"
+          },
+          "121780023": {
+            "type": "Text",
+            "id": 121780023,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Anyways, now you know. The feature will stick around only for a few days. Remember to come test",
+            "option": null,
+            "nextIds": [
+              121780024,
+              121780025,
+              121780026
+            ],
+            "kind": "NPC"
+          },
+          "121780024": {
+            "type": "Text",
+            "id": 121780024,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "Can we keep this feature forever?",
+            "option": "Can this feature stay?",
+            "nextIds": [
+              121780028
+            ],
+            "kind": "Player"
+          },
+          "121780028": {
+            "type": "Text",
+            "id": 121780028,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Go ask Stephen",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121780025": {
+            "type": "Text",
+            "id": 121780025,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "Can we do triple drop rates? Ten-time rates???",
+            "option": "Can we triple the rate?",
+            "nextIds": [
+              121780028
+            ],
+            "kind": "Player"
+          },
+          "121780026": {
+            "type": "Text",
+            "id": 121780026,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "If you give me ten-time drops",
+            "option": "×<unbreak>10</unbreak> rate up??? Please???",
+            "nextIds": [
+              121780027
+            ],
+            "kind": "Player"
+          },
+          "121780027": {
+            "type": "Text",
+            "id": 121780027,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "Then I'll leave a good review for the Simulated Universe",
+            "option": null,
+            "nextIds": [
+              121780028
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121780019": {
+            "type": "Text",
+            "id": 121780019,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "Double drop rates???",
+            "option": "Double drop rates???",
+            "nextIds": [
+              121780020
+            ],
+            "kind": "Player"
+          },
+          "121780020": {
+            "type": "Text",
+            "id": 121780020,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "What do you think this is? A video game?",
+            "option": null,
+            "nextIds": [
+              121780021
+            ],
+            "kind": "NPC"
+          },
+          "121780010": {
+            "type": "Text",
+            "id": 121780010,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "Can you explain what you mean???",
+            "option": "Speak human plz",
+            "nextIds": [
+              121780015
+            ],
+            "kind": "Player"
+          },
+          "121780011": {
+            "type": "Text",
+            "id": 121780011,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "This sounds so familiar. Did we talk about this before?",
+            "option": "Sounds familiar...",
+            "nextIds": [
+              121780012
+            ],
+            "kind": "Player"
+          },
+          "121780012": {
+            "type": "Text",
+            "id": 121780012,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Really? Maybe",
+            "option": null,
+            "nextIds": [
+              121780013
+            ],
+            "kind": "NPC"
+          },
+          "121780013": {
+            "type": "Text",
+            "id": 121780013,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Stephen insists on having comparative data. He's working really diligently and says this is just how much effort you need to put in for a project",
+            "option": null,
+            "nextIds": [
+              121780014
+            ],
+            "kind": "NPC"
+          },
+          "121780014": {
+            "type": "Text",
+            "id": 121780014,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Remember to come test. Bye",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121780003": {
+            "type": "Text",
+            "id": 121780003,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "A Simulated Universe update?",
+            "option": "A feature update?",
+            "nextIds": [
+              121780008
+            ],
+            "kind": "Player"
+          },
+          "121780004": {
+            "type": "Text",
+            "id": 121780004,
+            "sectionId": 1217800,
+            "senderId": null,
+            "text": "The same feature as last time?",
+            "option": "Again?",
+            "nextIds": [
+              121780005
+            ],
+            "kind": "Player"
+          },
+          "121780005": {
+            "type": "Text",
+            "id": 121780005,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Yep. Customizable parameters. Adjusting the Planar Ornaments dropped in each world to \"double\"",
+            "option": null,
+            "nextIds": [
+              121780006
+            ],
+            "kind": "NPC"
+          },
+          "121780006": {
+            "type": "Text",
+            "id": 121780006,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Stephen insists on having comparative data. He's working really diligently and says this is just how much effort you need to put in for a project",
+            "option": null,
+            "nextIds": [
+              121780007
+            ],
+            "kind": "NPC"
+          },
+          "121780007": {
+            "type": "Text",
+            "id": 121780007,
+            "sectionId": 1217800,
+            "senderId": 1013,
+            "text": "Remember to come test. Bye",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1013,
+    "name": "Herta",
+    "signature": "This account is disabled | Business Contact: Asta",
+    "iconPath": "icon/avatar/1013.png",
+    "type": 1,
+    "camp": 2
+  }
+}

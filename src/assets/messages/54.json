@@ -1,0 +1,725 @@
+{
+  "id": 54,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1212000,
+        "startIds": [
+          121200000
+        ],
+        "messages": {
+          "121200000": {
+            "type": "Text",
+            "id": 121200000,
+            "sectionId": 1212000,
+            "senderId": 54,
+            "text": "Hi, {NICKNAME}. I got your contact details from Miss Qingque",
+            "option": null,
+            "nextIds": [
+              121200001
+            ],
+            "kind": "NPC"
+          },
+          "121200001": {
+            "type": "Text",
+            "id": 121200001,
+            "sectionId": 1212000,
+            "senderId": 54,
+            "text": "I'm trying to decipher my master's plans. By the Reignbow, I feel like I'm overflowing with inspiration!",
+            "option": null,
+            "nextIds": [
+              121200002
+            ],
+            "kind": "NPC"
+          },
+          "121200002": {
+            "type": "Text",
+            "id": 121200002,
+            "sectionId": 1212000,
+            "senderId": 54,
+            "text": "I want to talk to someone about my ideas. Do you have the time?",
+            "option": null,
+            "nextIds": [
+              121200003,
+              121200007
+            ],
+            "kind": "NPC"
+          },
+          "121200003": {
+            "type": "Text",
+            "id": 121200003,
+            "sectionId": 1212000,
+            "senderId": null,
+            "text": "I won't be able to understand what you say...",
+            "option": "I won't understand it",
+            "nextIds": [
+              121200004
+            ],
+            "kind": "Player"
+          },
+          "121200004": {
+            "type": "Text",
+            "id": 121200004,
+            "sectionId": 1212000,
+            "senderId": 54,
+            "text": "Hehehe, I just want someone to chat with. Just treat it as listening to a new friend's rants.",
+            "option": null,
+            "nextIds": [
+              121200005,
+              121200006
+            ],
+            "kind": "NPC"
+          },
+          "121200005": {
+            "type": "Text",
+            "id": 121200005,
+            "sectionId": 1212000,
+            "senderId": null,
+            "text": "I charge a lot for counseling!",
+            "option": "I charge a lot!",
+            "nextIds": [
+              121200015
+            ],
+            "kind": "Player"
+          },
+          "121200015": {
+            "type": "Text",
+            "id": 121200015,
+            "sectionId": 1212000,
+            "senderId": 54,
+            "text": "Please, I'm begging you, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              121200016
+            ],
+            "kind": "NPC"
+          },
+          "121200016": {
+            "type": "Text",
+            "id": 121200016,
+            "sectionId": 1212000,
+            "senderId": 54,
+            "text": "I really need someone to supervise me. I'll definitely pay you for it!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121200006": {
+            "type": "Text",
+            "id": 121200006,
+            "sectionId": 1212000,
+            "senderId": null,
+            "text": "The user you have messaged is currently unavailable",
+            "option": "The user you have messaged is currently unavailable",
+            "nextIds": [
+              121200015
+            ],
+            "kind": "Player"
+          },
+          "121200007": {
+            "type": "Text",
+            "id": 121200007,
+            "sectionId": 1212000,
+            "senderId": null,
+            "text": "Have you talked to Qingque about your inspirations?",
+            "option": "Have you tried Qingque?",
+            "nextIds": [
+              121200008
+            ],
+            "kind": "Player"
+          },
+          "121200008": {
+            "type": "Text",
+            "id": 121200008,
+            "sectionId": 1212000,
+            "senderId": 54,
+            "text": "I have. She said she's too busy and doesn't have time, and asked me to find you",
+            "option": null,
+            "nextIds": [
+              121200009,
+              121200012
+            ],
+            "kind": "NPC"
+          },
+          "121200009": {
+            "type": "Text",
+            "id": 121200009,
+            "sectionId": 1212000,
+            "senderId": null,
+            "text": "Qingque and \"being busy\" are like fire and ice",
+            "option": "Qingque and \"being busy\" are like fire and ice",
+            "nextIds": [
+              121200010
+            ],
+            "kind": "Player"
+          },
+          "121200010": {
+            "type": "Text",
+            "id": 121200010,
+            "sectionId": 1212000,
+            "senderId": 54,
+            "text": "What does that mean? Is that some new proverb?",
+            "option": null,
+            "nextIds": [
+              121200011
+            ],
+            "kind": "NPC"
+          },
+          "121200011": {
+            "type": "Text",
+            "id": 121200011,
+            "sectionId": 1212000,
+            "senderId": null,
+            "text": "Fire and ice are so unrelated, they're practically incompatible",
+            "option": null,
+            "nextIds": [
+              121200015
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121200012": {
+            "type": "Text",
+            "id": 121200012,
+            "sectionId": 1212000,
+            "senderId": null,
+            "text": "Um, I actually don't have time either",
+            "option": "I'm very busy too",
+            "nextIds": [
+              121200013
+            ],
+            "kind": "Player"
+          },
+          "121200013": {
+            "type": "Text",
+            "id": 121200013,
+            "sectionId": 1212000,
+            "senderId": 54,
+            "text": "But Miss Qingque said you're in Xianzhou as a tourist, and must have plenty of free time. She also said the secret faction you belong to loves to help people. Why else would you help the general and save us at the Artisanship Commission?",
+            "option": null,
+            "nextIds": [
+              121200014
+            ],
+            "kind": "NPC"
+          },
+          "121200014": {
+            "type": "Text",
+            "id": 121200014,
+            "sectionId": 1212000,
+            "senderId": null,
+            "text": "What did I do to offend Qingque?",
+            "option": null,
+            "nextIds": [
+              121200015
+            ],
+            "kind": "PlayerAuto"
+          }
+        },
+        "mission": {
+          "id": 2020402,
+          "name": "A Teacher and a Friend: Interlude",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1212200,
+        "startIds": [
+          121220000
+        ],
+        "messages": {
+          "121220000": {
+            "type": "Text",
+            "id": 121220000,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "Ahhh, {NICKNAME}, I want to talk to you about something...",
+            "option": null,
+            "nextIds": [
+              121220001
+            ],
+            "kind": "NPC"
+          },
+          "121220001": {
+            "type": "Text",
+            "id": 121220001,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "I feel like I'm losing motivation.",
+            "option": null,
+            "nextIds": [
+              121220002,
+              121220006
+            ],
+            "kind": "NPC"
+          },
+          "121220002": {
+            "type": "Text",
+            "id": 121220002,
+            "sectionId": 1212200,
+            "senderId": null,
+            "text": "Is your starskiff design almost done?",
+            "option": "You're finished with the skiff?",
+            "nextIds": [
+              121220003
+            ],
+            "kind": "Player"
+          },
+          "121220003": {
+            "type": "Text",
+            "id": 121220003,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "No. There's a lot more to go",
+            "option": null,
+            "nextIds": [
+              121220004
+            ],
+            "kind": "NPC"
+          },
+          "121220004": {
+            "type": "Text",
+            "id": 121220004,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "Ahhh, but whenever I think about how much work still needs to be done, I feel it'd be ages before I fulfill my master's dream",
+            "option": null,
+            "nextIds": [
+              121220005
+            ],
+            "kind": "NPC"
+          },
+          "121220005": {
+            "type": "Text",
+            "id": 121220005,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "I'm so useless. I still can't practice on my own after more than a century...",
+            "option": null,
+            "nextIds": [
+              121220009
+            ],
+            "kind": "NPC"
+          },
+          "121220009": {
+            "type": "Text",
+            "id": 121220009,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "Say, {NICKNAME}, can you come and scold me face-to-face?",
+            "option": null,
+            "nextIds": [
+              121220010
+            ],
+            "kind": "NPC"
+          },
+          "121220010": {
+            "type": "Text",
+            "id": 121220010,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "The \"cheer up\" emotes Miss Qingque sends just aren't enough. They're not hitting the right spot...",
+            "option": null,
+            "nextIds": [
+              121220011
+            ],
+            "kind": "NPC"
+          },
+          "121220011": {
+            "type": "Text",
+            "id": 121220011,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "If you can scold me really hard — make me feel shame and motivation from the depths of my soul — then I can finish my master's work!",
+            "option": null,
+            "nextIds": [
+              121220012,
+              121220015
+            ],
+            "kind": "NPC"
+          },
+          "121220012": {
+            "type": "Text",
+            "id": 121220012,
+            "sectionId": 1212200,
+            "senderId": null,
+            "text": "You've got weird preferences. I've never heard of a request like that",
+            "option": "Never heard of a request like that...",
+            "nextIds": [
+              121220013
+            ],
+            "kind": "Player"
+          },
+          "121220013": {
+            "type": "Text",
+            "id": 121220013,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "Please! Master Ryan used to scold me to cheer me up, too. His scolding always managed to kick me back into action!",
+            "option": null,
+            "nextIds": [
+              121220014
+            ],
+            "kind": "NPC"
+          },
+          "121220014": {
+            "type": "Text",
+            "id": 121220014,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "...For just one day, though",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121220015": {
+            "type": "Text",
+            "id": 121220015,
+            "sectionId": 1212200,
+            "senderId": null,
+            "text": "If a few angry words are enough to motivate people into fulfilling their dreams, then the universe would be full of accomplished daydreams by now",
+            "option": "Would just a few angry words be enough?",
+            "nextIds": [
+              121220016
+            ],
+            "kind": "Player"
+          },
+          "121220016": {
+            "type": "Text",
+            "id": 121220016,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "You don't think that'd be enough? Then, maybe apply an appropriate amount of corporal punishment, too?",
+            "option": null,
+            "nextIds": [
+              121220017
+            ],
+            "kind": "NPC"
+          },
+          "121220017": {
+            "type": "Text",
+            "id": 121220017,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "I heard from Master Gongshu that you used only a stick to beat back the monsters. Maybe you can do the same to me... but you'd need to control your strength.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121220006": {
+            "type": "Text",
+            "id": 121220006,
+            "sectionId": 1212200,
+            "senderId": null,
+            "text": "Honestly, it feels like I'm supervising your work",
+            "option": "I'm like your supervisor",
+            "nextIds": [
+              121220007
+            ],
+            "kind": "Player"
+          },
+          "121220007": {
+            "type": "Text",
+            "id": 121220007,
+            "sectionId": 1212200,
+            "senderId": null,
+            "text": "What kind of invention needs an external supervisor?",
+            "option": null,
+            "nextIds": [
+              121220008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121220008": {
+            "type": "Text",
+            "id": 121220008,
+            "sectionId": 1212200,
+            "senderId": 54,
+            "text": "Sorry. I'm so useless. I still can't practice on my own after more than a century...",
+            "option": null,
+            "nextIds": [
+              121220009
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2020404,
+          "name": "A Teacher and a Friend: Interlude",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1212300,
+        "startIds": [
+          121230000
+        ],
+        "messages": {
+          "121230000": {
+            "type": "Text",
+            "id": 121230000,
+            "sectionId": 1212300,
+            "senderId": 54,
+            "text": "I'm sorry. I was the one who begged you to start all this, but now I'm also the one thinking of quitting...",
+            "option": null,
+            "nextIds": [
+              121230001,
+              121230004,
+              121230007
+            ],
+            "kind": "NPC"
+          },
+          "121230001": {
+            "type": "Text",
+            "id": 121230001,
+            "sectionId": 1212300,
+            "senderId": null,
+            "text": "I finally understand why you still can't practice on your own after two hundred years in the Artisanship Commission",
+            "option": "What a waste of my time...",
+            "nextIds": [
+              121230002
+            ],
+            "kind": "Player"
+          },
+          "121230002": {
+            "type": "Text",
+            "id": 121230002,
+            "sectionId": 1212300,
+            "senderId": null,
+            "text": "It's my mistake to waste time on someone like you",
+            "option": null,
+            "nextIds": [
+              121230003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121230003": {
+            "type": "Text",
+            "id": 121230003,
+            "sectionId": 1212300,
+            "senderId": 54,
+            "text": "...I'm sorry, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              121230012
+            ],
+            "kind": "NPC"
+          },
+          "121230012": {
+            "type": "Text",
+            "id": 121230012,
+            "sectionId": 1212300,
+            "senderId": 54,
+            "text": "I will finish the remaining work. Please come and see it when I'm done... just wait for my good news",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121230004": {
+            "type": "Text",
+            "id": 121230004,
+            "sectionId": 1212300,
+            "senderId": null,
+            "text": "Don't be sorry. It's always difficult to accomplish anything of value",
+            "option": "Please keep up...",
+            "nextIds": [
+              121230005
+            ],
+            "kind": "Player"
+          },
+          "121230005": {
+            "type": "Text",
+            "id": 121230005,
+            "sectionId": 1212300,
+            "senderId": null,
+            "text": "Giving up is something that's happening in this universe every second... the people who bear the pain and see things to completion are the most amazing of us all",
+            "option": null,
+            "nextIds": [
+              121230006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121230006": {
+            "type": "Text",
+            "id": 121230006,
+            "sectionId": 1212300,
+            "senderId": 54,
+            "text": "...Thank you, {NICKNAME}, for your enduring patience.",
+            "option": null,
+            "nextIds": [
+              121230012
+            ],
+            "kind": "NPC"
+          },
+          "121230007": {
+            "type": "Text",
+            "id": 121230007,
+            "sectionId": 1212300,
+            "senderId": null,
+            "text": "You really don't need to push yourself like this",
+            "option": "Take a step back. Don't push yourself",
+            "nextIds": [
+              121230008
+            ],
+            "kind": "Player"
+          },
+          "121230008": {
+            "type": "Text",
+            "id": 121230008,
+            "sectionId": 1212300,
+            "senderId": null,
+            "text": "What would completing one skiff accomplish? I understand it might mean something special to you, but if we step back...",
+            "option": null,
+            "nextIds": [
+              121230009
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121230009": {
+            "type": "Text",
+            "id": 121230009,
+            "sectionId": 1212300,
+            "senderId": null,
+            "text": "Everything humans do is meaningless. Give it a few more centuries, and who is going to remember the shame and hard work of a single apprentice in the Artisanship Commission?",
+            "option": null,
+            "nextIds": [
+              121230010
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121230010": {
+            "type": "Text",
+            "id": 121230010,
+            "sectionId": 1212300,
+            "senderId": 54,
+            "text": "...I",
+            "option": null,
+            "nextIds": [
+              121230011
+            ],
+            "kind": "NPC"
+          },
+          "121230011": {
+            "type": "Text",
+            "id": 121230011,
+            "sectionId": 1212300,
+            "senderId": 54,
+            "text": "...I will remember those things",
+            "option": null,
+            "nextIds": [
+              121230012
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1212500,
+        "startIds": [
+          121250000
+        ],
+        "messages": {
+          "121250000": {
+            "type": "Text",
+            "id": 121250000,
+            "sectionId": 1212500,
+            "senderId": 54,
+            "text": "{NICKNAME}, do you still remember when we watched the starskiffs go to and fro at Starskiff Haven?",
+            "option": null,
+            "nextIds": [
+              121250001
+            ],
+            "kind": "NPC"
+          },
+          "121250001": {
+            "type": "Text",
+            "id": 121250001,
+            "sectionId": 1212500,
+            "senderId": 54,
+            "text": "Back then, I thought I could rely on my momentary impulsiveness to complete the starskiff design. \"An average apprentice fulfilled his dead master's wishes\" ...Wouldn't that be a good story?",
+            "option": null,
+            "nextIds": [
+              121250002,
+              121250003
+            ],
+            "kind": "NPC"
+          },
+          "121250002": {
+            "type": "Text",
+            "id": 121250002,
+            "sectionId": 1212500,
+            "senderId": null,
+            "text": "If that's how it turned out, then it'd be a good story. But it didn't work out",
+            "option": "But it didn't work out",
+            "nextIds": [
+              121250005
+            ],
+            "kind": "Player"
+          },
+          "121250005": {
+            "type": "Text",
+            "id": 121250005,
+            "sectionId": 1212500,
+            "senderId": 54,
+            "text": "Oh right, you've helped me so much, and I haven't thanked you properly yet",
+            "option": null,
+            "nextIds": [
+              121250006
+            ],
+            "kind": "NPC"
+          },
+          "121250006": {
+            "type": "Text",
+            "id": 121250006,
+            "sectionId": 1212500,
+            "senderId": 54,
+            "text": "Could you please come to Starskiff Haven? I'll wait for you on the bridge where we watched starskiffs together",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121250003": {
+            "type": "Text",
+            "id": 121250003,
+            "sectionId": 1212500,
+            "senderId": null,
+            "text": "How can an average apprentice fulfill their master's wishes so easily? That's too idealistic",
+            "option": "That's too idealistic",
+            "nextIds": [
+              121250004
+            ],
+            "kind": "Player"
+          },
+          "121250004": {
+            "type": "Text",
+            "id": 121250004,
+            "sectionId": 1212500,
+            "senderId": 54,
+            "text": "Yeah...",
+            "option": null,
+            "nextIds": [
+              121250005
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 54,
+    "name": "Chengjie",
+    "signature": "Dreamchaser",
+    "iconPath": "icon/avatar/Chengjie.png",
+    "type": 2,
+    "camp": 4
+  }
+}

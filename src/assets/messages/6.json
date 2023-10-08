@@ -1,0 +1,147 @@
+{
+  "id": 6,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1010600,
+        "startIds": [
+          101060001
+        ],
+        "messages": {
+          "101060001": {
+            "type": "Text",
+            "id": 101060001,
+            "sectionId": 1010600,
+            "senderId": 6,
+            "text": "It's not scary to know there are people better than you. What's scary is that they even work harder than you!",
+            "option": null,
+            "nextIds": [
+              101060002
+            ],
+            "kind": "NPC"
+          },
+          "101060002": {
+            "type": "Text",
+            "id": 101060002,
+            "sectionId": 1010600,
+            "senderId": 6,
+            "text": "Youngster, how can you even sleep at night while knowing that other people are doing so much better than you!?",
+            "option": null,
+            "nextIds": [
+              101060003
+            ],
+            "kind": "NPC"
+          },
+          "101060003": {
+            "type": "Text",
+            "id": 101060003,
+            "sectionId": 1010600,
+            "senderId": 6,
+            "text": "The world has no magical conch shells, nor does it rain credits. You are not the chosen one, so if you want something, work hard for it!",
+            "option": null,
+            "nextIds": [
+              101060004,
+              101060005,
+              101060006
+            ],
+            "kind": "NPC"
+          },
+          "101060004": {
+            "type": "Text",
+            "id": 101060004,
+            "sectionId": 1010600,
+            "senderId": null,
+            "text": "I'm offended. You think you're funny?",
+            "option": "I'm offended. You think you're funny?",
+            "nextIds": [
+              101060007
+            ],
+            "kind": "Player"
+          },
+          "101060007": {
+            "type": "Text",
+            "id": 101060007,
+            "sectionId": 1010600,
+            "senderId": 7,
+            "text": "This is a kind reminder from the Security Center: please stay alert to anonymous messages sent from unknown sources and exercise extreme caution when reading any such information, as it may be fraudulent. If you need help, don't hesitate to reach out to the space station's Security Department. (Sent to all, please don't reply)",
+            "option": null,
+            "nextIds": [
+              101060008,
+              101060009,
+              101060010
+            ],
+            "kind": "NPC"
+          },
+          "101060008": {
+            "type": "Text",
+            "id": 101060008,
+            "sectionId": 1010600,
+            "senderId": null,
+            "text": "I knew it was a scam...",
+            "option": "I knew it was a scam...",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "101060009": {
+            "type": "Text",
+            "id": 101060009,
+            "sectionId": 1010600,
+            "senderId": null,
+            "text": "\"Please don't reply\"? Oh, I am definitely replying!!!",
+            "option": "\"Please don't reply\"? Oh, I am definitely replying!!!",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "101060010": {
+            "type": "Text",
+            "id": 101060010,
+            "sectionId": 1010600,
+            "senderId": null,
+            "text": "How do I unsubscribe?",
+            "option": "How do I unsubscribe?",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "101060005": {
+            "type": "Text",
+            "id": 101060005,
+            "sectionId": 1010600,
+            "senderId": null,
+            "text": "What's this spam? Does my phone have a virus...",
+            "option": "What's this spam? Does my phone have a virus...",
+            "nextIds": [
+              101060007
+            ],
+            "kind": "Player"
+          },
+          "101060006": {
+            "type": "Text",
+            "id": 101060006,
+            "sectionId": 1010600,
+            "senderId": null,
+            "text": "I'm curious. Are you related to the magic conch?",
+            "option": "I'm curious. Are you related to the magic conch?",
+            "nextIds": [
+              101060007
+            ],
+            "kind": "Player"
+          }
+        },
+        "mission": {
+          "id": 2000301,
+          "name": "Sensitive Beings (I)",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 6,
+    "name": "Crackup Conch",
+    "signature": "A bit corny, but hope you enjoy it",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 2
+  }
+}

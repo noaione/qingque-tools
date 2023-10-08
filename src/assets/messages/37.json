@@ -1,0 +1,93 @@
+{
+  "id": 37,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1210200,
+        "startIds": [
+          121020000
+        ],
+        "messages": {
+          "121020000": {
+            "type": "Text",
+            "id": 121020000,
+            "sectionId": 1210200,
+            "senderId": null,
+            "text": "Do you happen to know Mei? Are you her relative?",
+            "option": null,
+            "nextIds": [
+              121020001
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121020001": {
+            "type": "Text",
+            "id": 121020001,
+            "sectionId": 1210200,
+            "senderId": 37,
+            "text": "Greetings! Welcome to Cloudbreadth Sleeves. Have you seen an item of interest? I can give you more details about it~ I'm your online e-customer service representative, Intella!",
+            "option": null,
+            "nextIds": [
+              121020002
+            ],
+            "kind": "NPC"
+          },
+          "121020002": {
+            "type": "Text",
+            "id": 121020002,
+            "sectionId": 1210200,
+            "senderId": 37,
+            "text": "Do you wish to transfer to a live customer support representative?",
+            "option": null,
+            "nextIds": [
+              121020003,
+              121020005
+            ],
+            "kind": "NPC"
+          },
+          "121020003": {
+            "type": "Text",
+            "id": 121020003,
+            "sectionId": 1210200,
+            "senderId": null,
+            "text": "Please transfer me to a live customer support representative, thank you.",
+            "option": "Transfer to live support.",
+            "nextIds": [
+              121020004
+            ],
+            "kind": "Player"
+          },
+          "121020004": {
+            "type": "Text",
+            "id": 121020004,
+            "sectionId": 1210200,
+            "senderId": 39,
+            "text": "I'm afraid you might have the wrong person.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121020005": {
+            "type": "Text",
+            "id": 121020005,
+            "sectionId": 1210200,
+            "senderId": null,
+            "text": "Sorry, I think I have the wrong person.",
+            "option": "Sorry",
+            "nextIds": [],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 37,
+    "name": "Cloudbreadth Sleeves Automated Customer Service",
+    "signature": "Big sales are on! Leave positive comments for discounts!",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  }
+}

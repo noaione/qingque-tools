@@ -3,12 +3,8 @@
     <h2 class="text-2xl font-bold">Editor</h2>
     <hr class="mt-4 border-gray-500" />
     <div v-if="scores.loaded" class="flex flex-row justify-start mt-4 mb-2 gap-2">
-      <button class="btn-basic bg-green-700 hover:bg-green-600" @click="addModal = true">
-        Add New
-      </button>
-      <button class="btn-basic bg-red-700 hover:bg-red-600" @click="removeConfirm = true">
-        Remove this
-      </button>
+      <button class="btn-basic bg-green-700 hover:bg-green-600" @click="addModal = true">Add New</button>
+      <button class="btn-basic bg-red-700 hover:bg-red-600" @click="removeConfirm = true">Remove this</button>
     </div>
     <ScoreSelector v-if="scores.loaded" />
     <div v-if="scores.currentWithModel" class="flex flex-col gap-2 mt-3">
@@ -16,18 +12,14 @@
     </div>
   </div>
   <ScoresAdd :show="addModal" @close="addModal = false" />
-  <ModalView :show="removeConfirm">
+  <ModalView :show="removeConfirm" @close="removeConfirm = false">
     <template #header>
       <h3 class="text-xl font-bold">Are you sure?</h3>
     </template>
     <template #footer>
       <div class="flex flex-row gap-2">
-        <button class="btn-basic bg-red-600 hover:bg-red-500" @click="removeScoreKey">
-          Remove
-        </button>
-        <button class="btn-basic bg-gray-600 hover:bg-gray-500" @click="removeConfirm = false">
-          Cancel
-        </button>
+        <button class="btn-basic bg-red-600 hover:bg-red-500" @click="removeScoreKey">Remove</button>
+        <button class="btn-basic bg-gray-600 hover:bg-gray-500" @click="removeConfirm = false">Cancel</button>
       </div>
     </template>
 

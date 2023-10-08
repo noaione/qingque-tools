@@ -1,0 +1,172 @@
+{
+  "id": 92,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1218400,
+        "startIds": [
+          121840001
+        ],
+        "messages": {
+          "121840001": {
+            "type": "Text",
+            "id": 121840001,
+            "sectionId": 1218400,
+            "senderId": 92,
+            "text": "Hello {NICKNAME}, I'm Guangjin, a Realm-Keeping Commission orderly for the Scalegorge Waterscape delve",
+            "option": null,
+            "nextIds": [
+              121840002
+            ],
+            "kind": "NPC"
+          },
+          "121840002": {
+            "type": "Text",
+            "id": 121840002,
+            "sectionId": 1218400,
+            "senderId": 92,
+            "text": "I've heard a lot about you from the Exalting Sanctum's Realm-Keeping Commission and got your contact details from them",
+            "option": null,
+            "nextIds": [
+              121840003,
+              121840005
+            ],
+            "kind": "NPC"
+          },
+          "121840003": {
+            "type": "Text",
+            "id": 121840003,
+            "sectionId": 1218400,
+            "senderId": null,
+            "text": "You want me for something again?",
+            "option": "Looking for me again?",
+            "nextIds": [
+              121840004
+            ],
+            "kind": "Player"
+          },
+          "121840004": {
+            "type": "Text",
+            "id": 121840004,
+            "sectionId": 1218400,
+            "senderId": 92,
+            "text": "...Yes. Looks like you've got plenty of experience of this and saw this coming.",
+            "option": null,
+            "nextIds": [
+              121840007
+            ],
+            "kind": "NPC"
+          },
+          "121840007": {
+            "type": "Text",
+            "id": 121840007,
+            "sectionId": 1218400,
+            "senderId": 92,
+            "text": "Recently we got reports that some civilians have entered an unknown area and encountered monsters that can become invisible",
+            "option": null,
+            "nextIds": [
+              121840008
+            ],
+            "kind": "NPC"
+          },
+          "121840008": {
+            "type": "Text",
+            "id": 121840008,
+            "sectionId": 1218400,
+            "senderId": null,
+            "text": "I know the cloudhymn magic of the Vidyadhara can conceal their form. That's not it, right?",
+            "option": "It's Vidyadhara cloudhymn?",
+            "nextIds": [
+              121840009
+            ],
+            "kind": "Player"
+          },
+          "121840009": {
+            "type": "Text",
+            "id": 121840009,
+            "sectionId": 1218400,
+            "senderId": 92,
+            "text": "I didn't think you'd be so familiar with the Vidyadhara cloudhymn magic. That makes it much easier for me to explain what's going on",
+            "option": null,
+            "nextIds": [
+              121840010
+            ],
+            "kind": "NPC"
+          },
+          "121840010": {
+            "type": "Text",
+            "id": 121840010,
+            "sectionId": 1218400,
+            "senderId": 92,
+            "text": "I'm a Vidyadhara myself. What's happening here is similar to cloudhymn magic, but not completely identical",
+            "option": null,
+            "nextIds": [
+              121840011
+            ],
+            "kind": "NPC"
+          },
+          "121840011": {
+            "type": "Text",
+            "id": 121840011,
+            "sectionId": 1218400,
+            "senderId": 92,
+            "text": "It's hard to explain everything over text. Let's meet face-to-face",
+            "option": null,
+            "nextIds": [
+              121840012
+            ],
+            "kind": "NPC"
+          },
+          "121840012": {
+            "type": "Text",
+            "id": 121840012,
+            "sectionId": 1218400,
+            "senderId": 92,
+            "text": "Come whenever you have the time. I'll be at the Healer's Market in the Alchemy Commission",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121840005": {
+            "type": "Text",
+            "id": 121840005,
+            "sectionId": 1218400,
+            "senderId": null,
+            "text": "Why is the Realm-Keeping Commission after me? Am I in trouble?",
+            "option": "Am I in trouble?",
+            "nextIds": [
+              121840006
+            ],
+            "kind": "Player"
+          },
+          "121840006": {
+            "type": "Text",
+            "id": 121840006,
+            "sectionId": 1218400,
+            "senderId": 92,
+            "text": "Don't worry. I just have something for you",
+            "option": null,
+            "nextIds": [
+              121840007
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2020603,
+          "name": "Wraiths of Mirage",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 92,
+    "name": "Guangjin",
+    "signature": null,
+    "iconPath": "icon/avatar/Guangjin.png",
+    "type": 2,
+    "camp": 4
+  }
+}

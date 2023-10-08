@@ -1,0 +1,118 @@
+{
+  "id": 89,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1217700,
+        "startIds": [
+          121770001
+        ],
+        "messages": {
+          "121770001": {
+            "type": "Text",
+            "id": 121770001,
+            "sectionId": 1217700,
+            "senderId": null,
+            "text": "Hello, Yancui",
+            "option": null,
+            "nextIds": [
+              121770002
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121770002": {
+            "type": "Text",
+            "id": 121770002,
+            "sectionId": 1217700,
+            "senderId": null,
+            "text": "I found the lost takeout and sent the coordinates to you. If you have time, it might be good to get a Realm-Keeping Commission clerk to come over and have a look",
+            "option": "(Tell her about the meal box you found)",
+            "nextIds": [
+              121770003
+            ],
+            "kind": "Player"
+          },
+          "121770003": {
+            "type": "Text",
+            "id": 121770003,
+            "sectionId": 1217700,
+            "senderId": null,
+            "text": "The packaging is untouched, and I don't see anyone here. It's so weird...",
+            "option": null,
+            "nextIds": [
+              121770004
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121770004": {
+            "type": "Text",
+            "id": 121770004,
+            "sectionId": 1217700,
+            "senderId": 89,
+            "text": "!!",
+            "option": null,
+            "nextIds": [
+              121770005
+            ],
+            "kind": "NPC"
+          },
+          "121770005": {
+            "type": "Text",
+            "id": 121770005,
+            "sectionId": 1217700,
+            "senderId": 89,
+            "text": "I found out what happened. The staff from the logistic company just contacted me and said their cycranes are having some issues",
+            "option": null,
+            "nextIds": [
+              121770006
+            ],
+            "kind": "NPC"
+          },
+          "121770006": {
+            "type": "Text",
+            "id": 121770006,
+            "sectionId": 1217700,
+            "senderId": 89,
+            "text": "It looks like there were no \"thieves\" after the takeout. I was being too suspicious",
+            "option": null,
+            "nextIds": [
+              121770007
+            ],
+            "kind": "NPC"
+          },
+          "121770007": {
+            "type": "Text",
+            "id": 121770007,
+            "sectionId": 1217700,
+            "senderId": 89,
+            "text": "I'm so sorry to have bothered you, {NICKNAME}. Just leave the takeaway where you found it. I don't wanna litter the streets with expired food, so I asked the logistics folks to fetch them back",
+            "option": null,
+            "nextIds": [
+              121770008
+            ],
+            "kind": "NPC"
+          },
+          "121770008": {
+            "type": "Text",
+            "id": 121770008,
+            "sectionId": 1217700,
+            "senderId": 89,
+            "text": "Anyway... thank you so much for everything today",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 89,
+    "name": "Yancui",
+    "signature": "DM for details for group meal discounts",
+    "iconPath": "icon/avatar/Yancui.png",
+    "type": 2,
+    "camp": 4
+  }
+}

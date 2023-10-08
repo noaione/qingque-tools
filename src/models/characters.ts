@@ -1,19 +1,5 @@
-export type CharacterPath =
-  | "Warrior"
-  | "Rogue"
-  | "Mage"
-  | "Shaman"
-  | "Warlock"
-  | "Knight"
-  | "Priest";
-export type CharacterElement =
-  | "Physical"
-  | "Fire"
-  | "Ice"
-  | "Thunder"
-  | "Wind"
-  | "Quantum"
-  | "Imaginary";
+export type CharacterPath = "Warrior" | "Rogue" | "Mage" | "Shaman" | "Warlock" | "Knight" | "Priest";
+export type CharacterElement = "Physical" | "Fire" | "Ice" | "Thunder" | "Wind" | "Quantum" | "Imaginary";
 
 export type Character = {
   id: string;

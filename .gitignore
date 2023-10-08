@@ -26,3 +26,6 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+# Extra scripts
+scripts/*.py

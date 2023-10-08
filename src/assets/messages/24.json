@@ -1,0 +1,167 @@
+{
+  "id": 24,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1011000,
+        "startIds": [
+          101100000
+        ],
+        "messages": {
+          "101100000": {
+            "type": "Text",
+            "id": 101100000,
+            "sectionId": 1011000,
+            "senderId": 24,
+            "text": "Remember to send me the pictures when you get them!",
+            "option": null,
+            "nextIds": [
+              101100001
+            ],
+            "kind": "NPC"
+          },
+          "101100001": {
+            "type": "Text",
+            "id": 101100001,
+            "sectionId": 1011000,
+            "senderId": null,
+            "text": "[image sent]",
+            "option": null,
+            "nextIds": [
+              101100002
+            ],
+            "kind": "System"
+          },
+          "101100002": {
+            "type": "Text",
+            "id": 101100002,
+            "sectionId": 1011000,
+            "senderId": 24,
+            "text": "Oh my, Himeko really is beautiful. Hohoho, I'm going to print this out as a wallpaper and hang it in my room so that I can look at it all day",
+            "option": null,
+            "nextIds": [
+              101100003
+            ],
+            "kind": "NPC"
+          },
+          "101100003": {
+            "type": "Text",
+            "id": 101100003,
+            "sectionId": 1011000,
+            "senderId": 24,
+            "text": "Right, I said I was going to give you Richard_Knowitall's identity, didn't I?",
+            "option": null,
+            "nextIds": [
+              101100004
+            ],
+            "kind": "NPC"
+          },
+          "101100004": {
+            "type": "Text",
+            "id": 101100004,
+            "sectionId": 1011000,
+            "senderId": 24,
+            "text": "He's Richard from the Department of Galactic Geopolitics. This information is guaranteed to be authentic. He's a business rival, after all",
+            "option": null,
+            "nextIds": [
+              101100005,
+              101100007
+            ],
+            "kind": "NPC"
+          },
+          "101100005": {
+            "type": "Text",
+            "id": 101100005,
+            "sectionId": 1011000,
+            "senderId": null,
+            "text": "So, his real name is actually Richard!?",
+            "option": "So, his real name is actually Richard!?",
+            "nextIds": [
+              101100006
+            ],
+            "kind": "Player"
+          },
+          "101100006": {
+            "type": "Text",
+            "id": 101100006,
+            "sectionId": 1011000,
+            "senderId": 24,
+            "text": "Yes, he's that tall and thin man with black-rimmed glasses and a slanted fringe",
+            "option": null,
+            "nextIds": [
+              101100009
+            ],
+            "kind": "NPC"
+          },
+          "101100009": {
+            "type": "Text",
+            "id": 101100009,
+            "sectionId": 1011000,
+            "senderId": 24,
+            "text": "This guy had just been chased out by his own department, so he's always hanging around at the reception hall",
+            "option": null,
+            "nextIds": [
+              101100010
+            ],
+            "kind": "NPC"
+          },
+          "101100010": {
+            "type": "Text",
+            "id": 101100010,
+            "sectionId": 1011000,
+            "senderId": 24,
+            "text": "That \"inside scoop\" that he has? I know all about it too. You want to hear about it? The same terms of our deal still apply, hehe, Himeko...",
+            "option": null,
+            "nextIds": [
+              101100011
+            ],
+            "kind": "NPC"
+          },
+          "101100011": {
+            "type": "Text",
+            "id": 101100011,
+            "sectionId": 1011000,
+            "senderId": null,
+            "text": "Fine. I'll get it myself",
+            "option": "Fine. I'll get it myself",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "101100007": {
+            "type": "Text",
+            "id": 101100007,
+            "sectionId": 1011000,
+            "senderId": null,
+            "text": "Rivals have once again turned into nemeses!",
+            "option": "Rivals have once again turned into nemeses!",
+            "nextIds": [
+              101100008
+            ],
+            "kind": "Player"
+          },
+          "101100008": {
+            "type": "Text",
+            "id": 101100008,
+            "sectionId": 1011000,
+            "senderId": 24,
+            "text": "I told you so. Let me give you another hint for free: He's that tall and thin man with black-rimmed glasses and a slanted fringe",
+            "option": null,
+            "nextIds": [
+              101100009
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 24,
+    "name": "Pamela",
+    "signature": null,
+    "iconPath": "icon/avatar/Pamela.png",
+    "type": 2,
+    "camp": 2
+  }
+}

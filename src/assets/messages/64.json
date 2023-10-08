@@ -1,0 +1,387 @@
+{
+  "id": 64,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1270000,
+        "startIds": [
+          127000001
+        ],
+        "messages": {
+          "127000001": {
+            "type": "Text",
+            "id": 127000001,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "I am the president of the Hexanexus secret society. We are called the Hex Club.\\n\\n\"Have you heard of the Hexanexus?\"\\n\\nI have posed this question to countless people. Those I asked eventually began to learn about it, were saved by it, were moved by it, and became inspired by it.\\n\\nThere are innumerable masterpieces in the Artisanship Commission, but never has there been a pièce de résistance that symbolizes the artistry and workmanship of craftsmen — until the Hexanexus disrupted the status quo. To us, the Hexanexus represents the heart and soul of craft masters, and the original intent of creation. Only with such a soul can one begin their first step on the path to mastery. We who still walk the path will inevitably experience joy and sorrow, but as long as the Hexanexus exists, we can look at the future with hope and smiles.\\n\\nOur society's goal is to spread unforeseen joy and passion to all the people in the world through the Hexanexus, to fill life with curiosity and euphoria.\\n\\nWith Utmost Respect,\\nThe Hex Club",
+            "option": null,
+            "nextIds": [
+              127000002,
+              127000004,
+              127000006
+            ],
+            "kind": "NPC"
+          },
+          "127000002": {
+            "type": "Text",
+            "id": 127000002,
+            "sectionId": 1270000,
+            "senderId": null,
+            "text": "Cancel subscription",
+            "option": "Cancel",
+            "nextIds": [
+              127000003
+            ],
+            "kind": "Player"
+          },
+          "127000003": {
+            "type": "Text",
+            "id": 127000003,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "There is no such function",
+            "option": null,
+            "nextIds": [
+              127000008
+            ],
+            "kind": "NPC"
+          },
+          "127000008": {
+            "type": "Text",
+            "id": 127000008,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "We noticed you have engaged with our Hexanexus devices multiple times and had taken the treasure from the chests",
+            "option": null,
+            "nextIds": [
+              127000009
+            ],
+            "kind": "NPC"
+          },
+          "127000009": {
+            "type": "Text",
+            "id": 127000009,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "That is our treasure chest",
+            "option": null,
+            "nextIds": [
+              127000010,
+              127000013,
+              127000016
+            ],
+            "kind": "NPC"
+          },
+          "127000010": {
+            "type": "Text",
+            "id": 127000010,
+            "sectionId": 1270000,
+            "senderId": null,
+            "text": "That is your treasure chest... So?",
+            "option": "So?",
+            "nextIds": [
+              127000011
+            ],
+            "kind": "Player"
+          },
+          "127000011": {
+            "type": "Text",
+            "id": 127000011,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "You took our treasure chest and have the gall to be so obnoxious. You must have done many similar deeds",
+            "option": null,
+            "nextIds": [
+              127000012
+            ],
+            "kind": "NPC"
+          },
+          "127000012": {
+            "type": "Text",
+            "id": 127000012,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "But this time, it's not the same. You know, we can report you to the Realm-Keeping Commission",
+            "option": null,
+            "nextIds": [
+              127000018
+            ],
+            "kind": "NPC"
+          },
+          "127000018": {
+            "type": "Text",
+            "id": 127000018,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "However, us Hex Club is a reasonable organization. I promise you, so long as you continue to play with our Hexanexus devices, we won't make a report",
+            "option": null,
+            "nextIds": [
+              127000019
+            ],
+            "kind": "NPC"
+          },
+          "127000019": {
+            "type": "Text",
+            "id": 127000019,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "Also, if you complete all Hexanexus puzzles, we will present you with a Lifetime Member to the Secret Society",
+            "option": null,
+            "nextIds": [
+              127000020,
+              127000024
+            ],
+            "kind": "NPC"
+          },
+          "127000020": {
+            "type": "Text",
+            "id": 127000020,
+            "sectionId": 1270000,
+            "senderId": null,
+            "text": "I can continue to solve the Hexanexus, but will I be able to continue taking the treasures?",
+            "option": "Is the chest still up for grabs?",
+            "nextIds": [
+              127000021
+            ],
+            "kind": "Player"
+          },
+          "127000021": {
+            "type": "Text",
+            "id": 127000021,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "Of course",
+            "option": null,
+            "nextIds": [
+              127000022
+            ],
+            "kind": "NPC"
+          },
+          "127000022": {
+            "type": "Text",
+            "id": 127000022,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "That's part of the publicity budget",
+            "option": null,
+            "nextIds": [
+              127000023
+            ],
+            "kind": "NPC"
+          },
+          "127000023": {
+            "type": "Text",
+            "id": 127000023,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "But here's a warning. If you want out, you'll have to reimburse in double",
+            "option": null,
+            "nextIds": [
+              127000028
+            ],
+            "kind": "NPC"
+          },
+          "127000028": {
+            "type": "Text",
+            "id": 127000028,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "For as long as you continue to solve the Hexanexus, you will be our {F#sister}{M#brother} from another mother",
+            "option": null,
+            "nextIds": [
+              127000029
+            ],
+            "kind": "NPC"
+          },
+          "127000029": {
+            "type": "Text",
+            "id": 127000029,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "Hexanexus forever!",
+            "option": null,
+            "nextIds": [
+              127000030
+            ],
+            "kind": "NPC"
+          },
+          "127000030": {
+            "type": "Text",
+            "id": 127000030,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "Keep playing with the Hexanexus. We'll be in touch",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "127000024": {
+            "type": "Text",
+            "id": 127000024,
+            "sectionId": 1270000,
+            "senderId": null,
+            "text": "This is blackmail! I'll report you!",
+            "option": "This is blackmail!",
+            "nextIds": [
+              127000025
+            ],
+            "kind": "Player"
+          },
+          "127000025": {
+            "type": "Text",
+            "id": 127000025,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "You can report us to the Realm-Keeping Commission, but you will lose",
+            "option": null,
+            "nextIds": [
+              127000026
+            ],
+            "kind": "NPC"
+          },
+          "127000026": {
+            "type": "Text",
+            "id": 127000026,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "After all, we just set the devices down next to the road. You were the one who used them",
+            "option": null,
+            "nextIds": [
+              127000027
+            ],
+            "kind": "NPC"
+          },
+          "127000027": {
+            "type": "Text",
+            "id": 127000027,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "However, if you continue solving them, all these treasures will be yours",
+            "option": null,
+            "nextIds": [
+              127000028
+            ],
+            "kind": "NPC"
+          },
+          "127000013": {
+            "type": "Text",
+            "id": 127000013,
+            "sectionId": 1270000,
+            "senderId": null,
+            "text": "You say that's your treasure chest. Have you any proof",
+            "option": "Did it have your name on it?",
+            "nextIds": [
+              127000014
+            ],
+            "kind": "Player"
+          },
+          "127000014": {
+            "type": "Text",
+            "id": 127000014,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "I knew someone will try and lie their way out of it. We wrote our names there. You didn't read it properly, did ya?",
+            "option": null,
+            "nextIds": [
+              127000015
+            ],
+            "kind": "NPC"
+          },
+          "127000015": {
+            "type": "Text",
+            "id": 127000015,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "You know, we can report you to the Realm-Keeping Commission",
+            "option": null,
+            "nextIds": [
+              127000018
+            ],
+            "kind": "NPC"
+          },
+          "127000016": {
+            "type": "Text",
+            "id": 127000016,
+            "sectionId": 1270000,
+            "senderId": null,
+            "text": "The devices are left on the side of the road, and no one is there to lay claim. Pls forgive me",
+            "option": "I didn't think anyone wanted it",
+            "nextIds": [
+              127000017
+            ],
+            "kind": "Player"
+          },
+          "127000017": {
+            "type": "Text",
+            "id": 127000017,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "No use trying to wiggle out of this now. You know, we can always report you to the Realm-Keeping Commission",
+            "option": null,
+            "nextIds": [
+              127000018
+            ],
+            "kind": "NPC"
+          },
+          "127000004": {
+            "type": "Text",
+            "id": 127000004,
+            "sectionId": 1270000,
+            "senderId": null,
+            "text": "What kind of super long text is this? You got the wrong person",
+            "option": "What a long message",
+            "nextIds": [
+              127000005
+            ],
+            "kind": "Player"
+          },
+          "127000005": {
+            "type": "Text",
+            "id": 127000005,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "Don't worry, I didn't",
+            "option": null,
+            "nextIds": [
+              127000008
+            ],
+            "kind": "NPC"
+          },
+          "127000006": {
+            "type": "Text",
+            "id": 127000006,
+            "sectionId": 1270000,
+            "senderId": null,
+            "text": "Where did you get my contact details from?",
+            "option": "Where did you get the contact info?",
+            "nextIds": [
+              127000007
+            ],
+            "kind": "Player"
+          },
+          "127000007": {
+            "type": "Text",
+            "id": 127000007,
+            "sectionId": 1270000,
+            "senderId": 64,
+            "text": "That's not important. What's important is that we found you",
+            "option": null,
+            "nextIds": [
+              127000008
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 64,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  }
+}

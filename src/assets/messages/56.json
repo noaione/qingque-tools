@@ -1,0 +1,105 @@
+{
+  "id": 56,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1011400,
+        "startIds": [
+          101140000
+        ],
+        "messages": {
+          "101140000": {
+            "type": "Text",
+            "id": 101140000,
+            "sectionId": 1011400,
+            "senderId": 1013,
+            "text": "I see that {NICKNAME}'s coordinates are still at the space station. Maybe it'd be easier to chat in a group",
+            "option": null,
+            "nextIds": [
+              101140001
+            ],
+            "kind": "NPC"
+          },
+          "101140001": {
+            "type": "Text",
+            "id": 101140001,
+            "sectionId": 1011400,
+            "senderId": 1013,
+            "text": "There's a batch of my old manuscripts in the space station. And you know how I've been writing a book for the IPC. So, I've been thinking... maybe how I could just copy and paste a few pages of my old manuscripts for the extra book content",
+            "option": null,
+            "nextIds": [
+              101140002
+            ],
+            "kind": "NPC"
+          },
+          "101140002": {
+            "type": "Text",
+            "id": 101140002,
+            "sectionId": 1011400,
+            "senderId": 1013,
+            "text": "One of them is called decompression equation <unbreak>36</unbreak> or something. I can't remember the exact name. Anyway, that's the content. After you clean up the Antimatter Legion, help me find it and send it to the office",
+            "option": null,
+            "nextIds": [
+              101140003
+            ],
+            "kind": "NPC"
+          },
+          "101140003": {
+            "type": "Text",
+            "id": 101140003,
+            "sectionId": 1011400,
+            "senderId": 1008,
+            "text": "...Got it",
+            "option": null,
+            "nextIds": [
+              101140004,
+              101140006
+            ],
+            "kind": "NPC"
+          },
+          "101140004": {
+            "type": "Text",
+            "id": 101140004,
+            "sectionId": 1011400,
+            "senderId": null,
+            "text": "We found it.",
+            "option": "Mission accomplished",
+            "nextIds": [
+              101140005
+            ],
+            "kind": "Player"
+          },
+          "101140005": {
+            "type": "Text",
+            "id": 101140005,
+            "sectionId": 1011400,
+            "senderId": 1013,
+            "text": "Send it over then. Incidentally, I do have an experiment that could use some help from both of you",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "101140006": {
+            "type": "Text",
+            "id": 101140006,
+            "sectionId": 1011400,
+            "senderId": null,
+            "text": "Not interested. Good luck Arlan",
+            "option": "None of my business",
+            "nextIds": [],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 56,
+    "name": "Herta, Arlan, and {NICKNAME}'s Group Chat",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 2
+  }
+}

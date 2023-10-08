@@ -1,0 +1,964 @@
+{
+  "id": 1207,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2006700,
+        "startIds": [
+          200670000
+        ],
+        "messages": {
+          "200670000": {
+            "type": "Text",
+            "id": 200670000,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "I hope it's ok to ask, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              200670001
+            ],
+            "kind": "NPC"
+          },
+          "200670001": {
+            "type": "Text",
+            "id": 200670001,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "Do you actually like what you do? Does it align with your dreams?",
+            "option": null,
+            "nextIds": [
+              200670002,
+              200670003,
+              200670004
+            ],
+            "kind": "NPC"
+          },
+          "200670002": {
+            "type": "Text",
+            "id": 200670002,
+            "sectionId": 2006700,
+            "senderId": null,
+            "text": "Pretty similar, I quite like my situation right now",
+            "option": "Similar",
+            "nextIds": [
+              200670005
+            ],
+            "kind": "Player"
+          },
+          "200670005": {
+            "type": "Text",
+            "id": 200670005,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "Honestly, I never considered not working as a pilot",
+            "option": null,
+            "nextIds": [
+              200670006
+            ],
+            "kind": "NPC"
+          },
+          "200670006": {
+            "type": "Text",
+            "id": 200670006,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "If my dad saw me now, he might yell at me for being a coward who ran away from the battlefield",
+            "option": null,
+            "nextIds": [
+              200670007,
+              200670008
+            ],
+            "kind": "NPC"
+          },
+          "200670007": {
+            "type": "Text",
+            "id": 200670007,
+            "sectionId": 2006700,
+            "senderId": null,
+            "text": "A desk job is also a battlefield, it mustn't have been easy to reach this point",
+            "option": "The job market is a battlefield",
+            "nextIds": [
+              200670009
+            ],
+            "kind": "Player"
+          },
+          "200670009": {
+            "type": "Text",
+            "id": 200670009,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "Yeah... I'm different from dad...",
+            "option": null,
+            "nextIds": [
+              200670010
+            ],
+            "kind": "NPC"
+          },
+          "200670010": {
+            "type": "Text",
+            "id": 200670010,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "I just have one wish for my child...",
+            "option": null,
+            "nextIds": [
+              200670011
+            ],
+            "kind": "NPC"
+          },
+          "200670011": {
+            "type": "Text",
+            "id": 200670011,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "It doesn't matter if she's unexceptional, I just hope she's safe and sound",
+            "option": null,
+            "nextIds": [
+              200670012,
+              200670015
+            ],
+            "kind": "NPC"
+          },
+          "200670012": {
+            "type": "Text",
+            "id": 200670012,
+            "sectionId": 2006700,
+            "senderId": null,
+            "text": "I don't have a child, I wouldn't know...",
+            "option": "I have no kids. Can't relate.",
+            "nextIds": [
+              200670013
+            ],
+            "kind": "Player"
+          },
+          "200670013": {
+            "type": "Text",
+            "id": 200670013,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "That's right, maybe talking to you about this is a little too soon",
+            "option": null,
+            "nextIds": [
+              200670014
+            ],
+            "kind": "NPC"
+          },
+          "200670014": {
+            "type": "Text",
+            "id": 200670014,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "You're still young, after all",
+            "option": null,
+            "nextIds": [
+              200670017
+            ],
+            "kind": "NPC"
+          },
+          "200670017": {
+            "type": "Text",
+            "id": 200670017,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "Some things can only be understood through experience just like I did",
+            "option": null,
+            "nextIds": [
+              200670018
+            ],
+            "kind": "NPC"
+          },
+          "200670018": {
+            "type": "Text",
+            "id": 200670018,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "So many years have passed...",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200670015": {
+            "type": "Text",
+            "id": 200670015,
+            "sectionId": 2006700,
+            "senderId": null,
+            "text": "I can understand a parent's wishes, but your children should have a say too",
+            "option": "Your children should have a say",
+            "nextIds": [
+              200670016
+            ],
+            "kind": "Player"
+          },
+          "200670016": {
+            "type": "Text",
+            "id": 200670016,
+            "sectionId": 2006700,
+            "senderId": 1207,
+            "text": "They're still young, after all",
+            "option": null,
+            "nextIds": [
+              200670017
+            ],
+            "kind": "NPC"
+          },
+          "200670008": {
+            "type": "Text",
+            "id": 200670008,
+            "sectionId": 2006700,
+            "senderId": null,
+            "text": "Your life, your choice. As long as it fulfills you",
+            "option": "It's your choice to make",
+            "nextIds": [
+              200670009
+            ],
+            "kind": "Player"
+          },
+          "200670003": {
+            "type": "Text",
+            "id": 200670003,
+            "sectionId": 2006700,
+            "senderId": null,
+            "text": "Not quite what I thought it would be, but it's not bad",
+            "option": "Not the same",
+            "nextIds": [
+              200670005
+            ],
+            "kind": "Player"
+          },
+          "200670004": {
+            "type": "Text",
+            "id": 200670004,
+            "sectionId": 2006700,
+            "senderId": null,
+            "text": "I don't know, I can't remember it that well",
+            "option": "Can't remember",
+            "nextIds": [
+              200670005
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2006800,
+        "startIds": [
+          200680000
+        ],
+        "messages": {
+          "200680000": {
+            "type": "Text",
+            "id": 200680000,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "I haven't been here for so long",
+            "option": null,
+            "nextIds": [
+              200680001
+            ],
+            "kind": "NPC"
+          },
+          "200680001": {
+            "type": "Text",
+            "id": 200680001,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "Untouched places are few and far between on the Luofu...",
+            "option": null,
+            "nextIds": [
+              200680002,
+              200680003
+            ],
+            "kind": "NPC"
+          },
+          "200680002": {
+            "type": "Text",
+            "id": 200680002,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "Where are you?",
+            "option": "Where are you?",
+            "nextIds": [
+              200680004
+            ],
+            "kind": "Player"
+          },
+          "200680004": {
+            "type": "Text",
+            "id": 200680004,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "I'm on top of the Jade Gate",
+            "option": null,
+            "nextIds": [
+              200680005,
+              200680008
+            ],
+            "kind": "NPC"
+          },
+          "200680005": {
+            "type": "Text",
+            "id": 200680005,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "You can actually get on the Jade Gate?",
+            "option": "You can get on the Jade Gate?",
+            "nextIds": [
+              200680006
+            ],
+            "kind": "Player"
+          },
+          "200680006": {
+            "type": "Sticker",
+            "id": 200680006,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "[confused]",
+            "option": null,
+            "nextIds": [
+              200680007
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200680007": {
+            "type": "Text",
+            "id": 200680007,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "Of course, I did that a lot when I was young",
+            "option": null,
+            "nextIds": [
+              200680011
+            ],
+            "kind": "NPC"
+          },
+          "200680011": {
+            "type": "Text",
+            "id": 200680011,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "I finally got yesterday's workload done, so I'm taking a break",
+            "option": null,
+            "nextIds": [
+              200680012
+            ],
+            "kind": "NPC"
+          },
+          "200680012": {
+            "type": "Text",
+            "id": 200680012,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "I was going to send you a photo, but the signal's acting funny",
+            "option": null,
+            "nextIds": [
+              200680013
+            ],
+            "kind": "NPC"
+          },
+          "200680013": {
+            "type": "Text",
+            "id": 200680013,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "Even text messages are coming in slower than usual",
+            "option": null,
+            "nextIds": [
+              200680014
+            ],
+            "kind": "NPC"
+          },
+          "200680014": {
+            "type": "Text",
+            "id": 200680014,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "Your friend Yukong has gone offline",
+            "option": null,
+            "nextIds": [
+              200680015,
+              200680016
+            ],
+            "kind": "System"
+          },
+          "200680015": {
+            "type": "Text",
+            "id": 200680015,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "I'll check it out myself next time, I wanna see it with my own eyes",
+            "option": "Next time I'll check it out myself",
+            "nextIds": [
+              200680017
+            ],
+            "kind": "Player"
+          },
+          "200680017": {
+            "type": "Text",
+            "id": 200680017,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "Your friend Yukong has come online",
+            "option": null,
+            "nextIds": [
+              200680018
+            ],
+            "kind": "System"
+          },
+          "200680018": {
+            "type": "Text",
+            "id": 200680018,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "Big sigh",
+            "option": null,
+            "nextIds": [
+              200680019
+            ],
+            "kind": "NPC"
+          },
+          "200680019": {
+            "type": "Text",
+            "id": 200680019,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "Just when I thought nothing will go wrong... I'm leaving",
+            "option": null,
+            "nextIds": [
+              200680020
+            ],
+            "kind": "NPC"
+          },
+          "200680020": {
+            "type": "Text",
+            "id": 200680020,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "Something the matter?",
+            "option": "Something the matter?",
+            "nextIds": [
+              200680021
+            ],
+            "kind": "Player"
+          },
+          "200680021": {
+            "type": "Text",
+            "id": 200680021,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "A cycrane delivered an official document, and an emergency meeting is coming up, I gotta go back to the commission",
+            "option": null,
+            "nextIds": [
+              200680022,
+              200680026
+            ],
+            "kind": "NPC"
+          },
+          "200680022": {
+            "type": "Text",
+            "id": 200680022,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "...",
+            "option": "Those wicked cycrane!",
+            "nextIds": [
+              200680023
+            ],
+            "kind": "Player"
+          },
+          "200680023": {
+            "type": "Text",
+            "id": 200680023,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "You can run from signals, but never cycranes",
+            "option": null,
+            "nextIds": [
+              200680024
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200680024": {
+            "type": "Text",
+            "id": 200680024,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "Why are cycranes so dastardly efficient!",
+            "option": null,
+            "nextIds": [
+              200680025
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200680025": {
+            "type": "Sticker",
+            "id": 200680025,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "[cry]",
+            "option": null,
+            "nextIds": [
+              200680030
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "200680030": {
+            "type": "Text",
+            "id": 200680030,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "After all",
+            "option": null,
+            "nextIds": [
+              200680031
+            ],
+            "kind": "NPC"
+          },
+          "200680031": {
+            "type": "Text",
+            "id": 200680031,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "\"Heron Express — We Ship Whatever You Want.\"",
+            "option": null,
+            "nextIds": [
+              200680032
+            ],
+            "kind": "NPC"
+          },
+          "200680032": {
+            "type": "Text",
+            "id": 200680032,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "Tee-hee... \"Ship\"!",
+            "option": "Tee-hee... \"Ship\"!",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "200680026": {
+            "type": "Text",
+            "id": 200680026,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "...",
+            "option": "Excellent cycrane!",
+            "nextIds": [
+              200680027
+            ],
+            "kind": "Player"
+          },
+          "200680027": {
+            "type": "Text",
+            "id": 200680027,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "You can run from signals, but never cycranes",
+            "option": null,
+            "nextIds": [
+              200680028
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200680028": {
+            "type": "Text",
+            "id": 200680028,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "Why are cycranes so dastardly efficient!",
+            "option": null,
+            "nextIds": [
+              200680029
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200680029": {
+            "type": "Sticker",
+            "id": 200680029,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "[thumbs up]",
+            "option": null,
+            "nextIds": [
+              200680030
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200680016": {
+            "type": "Text",
+            "id": 200680016,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "It's fine that texts are not going through. I can finally enjoy some peace and quiet.",
+            "option": "It's fine that texts are not going through",
+            "nextIds": [
+              200680017
+            ],
+            "kind": "Player"
+          },
+          "200680008": {
+            "type": "Text",
+            "id": 200680008,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "Problem is, how do you even get down from there?",
+            "option": "How do you get down from there?",
+            "nextIds": [
+              200680009
+            ],
+            "kind": "Player"
+          },
+          "200680009": {
+            "type": "Sticker",
+            "id": 200680009,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "[confused]",
+            "option": null,
+            "nextIds": [
+              200680010
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200680010": {
+            "type": "Text",
+            "id": 200680010,
+            "sectionId": 2006800,
+            "senderId": 1207,
+            "text": "Naturally, if I can get on it, I can get off it",
+            "option": null,
+            "nextIds": [
+              200680011
+            ],
+            "kind": "NPC"
+          },
+          "200680003": {
+            "type": "Text",
+            "id": 200680003,
+            "sectionId": 2006800,
+            "senderId": null,
+            "text": "Pics or it didn't happen!",
+            "option": "Pics or it didn't happen!",
+            "nextIds": [
+              200680004
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2006900,
+        "startIds": [
+          200690000
+        ],
+        "messages": {
+          "200690000": {
+            "type": "Text",
+            "id": 200690000,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "{NICKNAME}, have you seen a starskiff-themed immersia before?",
+            "option": null,
+            "nextIds": [
+              200690001
+            ],
+            "kind": "NPC"
+          },
+          "200690001": {
+            "type": "Text",
+            "id": 200690001,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "Young people like you might like it",
+            "option": null,
+            "nextIds": [
+              200690002,
+              200690003
+            ],
+            "kind": "NPC"
+          },
+          "200690002": {
+            "type": "Text",
+            "id": 200690002,
+            "sectionId": 2006900,
+            "senderId": null,
+            "text": "I haven't heard of it, is it popular?",
+            "option": "Never heard of it...",
+            "nextIds": [
+              200690004
+            ],
+            "kind": "Player"
+          },
+          "200690004": {
+            "type": "Text",
+            "id": 200690004,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "Competitive, managerial, modification... there are many sub-genres, what do you like?",
+            "option": null,
+            "nextIds": [
+              200690005,
+              200690010,
+              200690015
+            ],
+            "kind": "NPC"
+          },
+          "200690005": {
+            "type": "Text",
+            "id": 200690005,
+            "sectionId": 2006900,
+            "senderId": null,
+            "text": "I like competitive ones",
+            "option": "Competitive",
+            "nextIds": [
+              200690006
+            ],
+            "kind": "Player"
+          },
+          "200690006": {
+            "type": "Text",
+            "id": 200690006,
+            "sectionId": 2006900,
+            "senderId": null,
+            "text": "I'd love to experience the adrenaline-pumping actions that you used to have when piloting",
+            "option": null,
+            "nextIds": [
+              200690007
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200690007": {
+            "type": "Text",
+            "id": 200690007,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "In that case, I recommend Flight Ace",
+            "option": null,
+            "nextIds": [
+              200690008
+            ],
+            "kind": "NPC"
+          },
+          "200690008": {
+            "type": "Text",
+            "id": 200690008,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "It's based on the topography of Xianzhou and was able to recreate many of her dangerous terrains, and emulate her weather conditions. You can even experience some pretty unique acrobatic maneuvers.",
+            "option": null,
+            "nextIds": [
+              200690009
+            ],
+            "kind": "NPC"
+          },
+          "200690009": {
+            "type": "Text",
+            "id": 200690009,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "But it might be a little complicated to control for a newbie, you might feel dizziness",
+            "option": null,
+            "nextIds": [
+              200690020
+            ],
+            "kind": "NPC"
+          },
+          "200690020": {
+            "type": "Text",
+            "id": 200690020,
+            "sectionId": 2006900,
+            "senderId": null,
+            "text": "Tight, I'm gonna try it next time!",
+            "option": "Gonna try it next time",
+            "nextIds": [
+              200690021
+            ],
+            "kind": "Player"
+          },
+          "200690021": {
+            "type": "Sticker",
+            "id": 200690021,
+            "sectionId": 2006900,
+            "senderId": null,
+            "text": "[greet]",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "200690010": {
+            "type": "Text",
+            "id": 200690010,
+            "sectionId": 2006900,
+            "senderId": null,
+            "text": "I like managerial ones",
+            "option": "Managerial",
+            "nextIds": [
+              200690011
+            ],
+            "kind": "Player"
+          },
+          "200690011": {
+            "type": "Text",
+            "id": 200690011,
+            "sectionId": 2006900,
+            "senderId": null,
+            "text": "I wanna experience managing and leading the Sky-Faring Commission and its troops like you",
+            "option": null,
+            "nextIds": [
+              200690012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200690012": {
+            "type": "Text",
+            "id": 200690012,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "I'd recommend Sky-Faring Helm Master",
+            "option": null,
+            "nextIds": [
+              200690013
+            ],
+            "kind": "NPC"
+          },
+          "200690013": {
+            "type": "Text",
+            "id": 200690013,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "You will be responsible for the job allocation of pilots and other employees, as well as starskiffs' R&D, upgrade, and strategies formulation in simulated wars",
+            "option": null,
+            "nextIds": [
+              200690014
+            ],
+            "kind": "NPC"
+          },
+          "200690014": {
+            "type": "Text",
+            "id": 200690014,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "But it completely recreates a war in real time, and a war can be as short as several years to as long as decades...",
+            "option": null,
+            "nextIds": [
+              200690020
+            ],
+            "kind": "NPC"
+          },
+          "200690015": {
+            "type": "Text",
+            "id": 200690015,
+            "sectionId": 2006900,
+            "senderId": null,
+            "text": "I like modification ones",
+            "option": "Modification",
+            "nextIds": [
+              200690016
+            ],
+            "kind": "Player"
+          },
+          "200690016": {
+            "type": "Text",
+            "id": 200690016,
+            "sectionId": 2006900,
+            "senderId": null,
+            "text": "I wanna mod my own starskiff. The driving experience isn't important to me, as long as its appearance has a unique personality.",
+            "option": null,
+            "nextIds": [
+              200690017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200690017": {
+            "type": "Text",
+            "id": 200690017,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "I recommend Extreme Flight: Skyline",
+            "option": null,
+            "nextIds": [
+              200690018
+            ],
+            "kind": "NPC"
+          },
+          "200690018": {
+            "type": "Text",
+            "id": 200690018,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "Technically, it's still a competitive-type immersia, it's just its modification system is too robust, so players love to customize their own starskiff inside...",
+            "option": null,
+            "nextIds": [
+              200690019
+            ],
+            "kind": "NPC"
+          },
+          "200690019": {
+            "type": "Text",
+            "id": 200690019,
+            "sectionId": 2006900,
+            "senderId": 1207,
+            "text": "Its weakness... well, aside from making you obsess over every detail in it, there really isn't any",
+            "option": null,
+            "nextIds": [
+              200690020
+            ],
+            "kind": "NPC"
+          },
+          "200690003": {
+            "type": "Text",
+            "id": 200690003,
+            "sectionId": 2006900,
+            "senderId": null,
+            "text": "I heard there are many like it, any recommendations?",
+            "option": "I'm having trouble choosing...",
+            "nextIds": [
+              200690004
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1207,
+    "name": "Yukong",
+    "signature": "I wish to take to the skies once more...",
+    "iconPath": "icon/avatar/1207.png",
+    "type": 1,
+    "camp": 4
+  }
+}

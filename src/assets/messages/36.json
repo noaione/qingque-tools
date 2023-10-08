@@ -1,0 +1,129 @@
+{
+  "id": 36,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1210100,
+        "startIds": [
+          121010000
+        ],
+        "messages": {
+          "121010000": {
+            "type": "Text",
+            "id": 121010000,
+            "sectionId": 1210100,
+            "senderId": null,
+            "text": "Do you happen to know Mei? Are you her relative?",
+            "option": null,
+            "nextIds": [
+              121010001
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121010001": {
+            "type": "Text",
+            "id": 121010001,
+            "sectionId": 1210100,
+            "senderId": 36,
+            "text": "Ah, you've got the wrong person. I'm not related to Mei",
+            "option": null,
+            "nextIds": [
+              121010002
+            ],
+            "kind": "NPC"
+          },
+          "121010002": {
+            "type": "Text",
+            "id": 121010002,
+            "sectionId": 1210100,
+            "senderId": 36,
+            "text": "But I do know her. Did something happen? I didn't see her today. I even went so far as to save a good piece of meat for her",
+            "option": null,
+            "nextIds": [
+              121010003,
+              121010007
+            ],
+            "kind": "NPC"
+          },
+          "121010003": {
+            "type": "Text",
+            "id": 121010003,
+            "sectionId": 1210100,
+            "senderId": null,
+            "text": "Mei had an accident. I'm helping to contact her relatives",
+            "option": "There's been an accident",
+            "nextIds": [
+              121010004
+            ],
+            "kind": "Player"
+          },
+          "121010004": {
+            "type": "Text",
+            "id": 121010004,
+            "sectionId": 1210100,
+            "senderId": 36,
+            "text": "Really?",
+            "option": null,
+            "nextIds": [
+              121010005
+            ],
+            "kind": "NPC"
+          },
+          "121010005": {
+            "type": "Text",
+            "id": 121010005,
+            "sectionId": 1210100,
+            "senderId": 36,
+            "text": "Oh no",
+            "option": null,
+            "nextIds": [
+              121010006
+            ],
+            "kind": "NPC"
+          },
+          "121010006": {
+            "type": "Text",
+            "id": 121010006,
+            "sectionId": 1210100,
+            "senderId": 36,
+            "text": "If there's anything I can do to help, lemme know.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121010007": {
+            "type": "Text",
+            "id": 121010007,
+            "sectionId": 1210100,
+            "senderId": null,
+            "text": "Don't worry. Not a serious issue, but I think she won't be visiting today",
+            "option": "No big deal",
+            "nextIds": [
+              121010008
+            ],
+            "kind": "Player"
+          },
+          "121010008": {
+            "type": "Text",
+            "id": 121010008,
+            "sectionId": 1210100,
+            "senderId": 36,
+            "text": "I see",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 36,
+    "name": "The Butcher's",
+    "signature": "Fresh meat every day! First come first served!",
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  }
+}
