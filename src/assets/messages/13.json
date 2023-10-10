@@ -521,6 +521,113 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1217300,
+        "startIds": [
+          121730001
+        ],
+        "messages": {
+          "121730001": {
+            "type": "Text",
+            "id": 121730001,
+            "sectionId": 1217300,
+            "senderId": 8000,
+            "text": "Is everything okay, Dan Heng?",
+            "option": null,
+            "nextIds": [
+              121730002
+            ],
+            "kind": "NPC"
+          },
+          "121730002": {
+            "type": "Text",
+            "id": 121730002,
+            "sectionId": 1217300,
+            "senderId": 1001,
+            "text": "{NICKNAME} and I heard you received an anonymous letter, and we were worried, so we came here to check on you, but you weren't in the archives.",
+            "option": null,
+            "nextIds": [
+              121730003
+            ],
+            "kind": "NPC"
+          },
+          "121730003": {
+            "type": "Text",
+            "id": 121730003,
+            "sectionId": 1217300,
+            "senderId": 1001,
+            "text": "Did that poker-faced Stellaron Hunter \"Blade\" give you any trouble again?",
+            "option": null,
+            "nextIds": [
+              121730004,
+              121730005,
+              121730006
+            ],
+            "kind": "NPC"
+          },
+          "121730004": {
+            "type": "Text",
+            "id": 121730004,
+            "sectionId": 1217300,
+            "senderId": 1002,
+            "text": "Don't worry. I just stepped away to enjoy the view.",
+            "option": "I'm okay...",
+            "nextIds": [
+              121730007
+            ],
+            "kind": "Player"
+          },
+          "121730007": {
+            "type": "Text",
+            "id": 121730007,
+            "sectionId": 1217300,
+            "senderId": 1001,
+            "text": "Phew, that's a relief, then.",
+            "option": null,
+            "nextIds": [
+              121730008
+            ],
+            "kind": "NPC"
+          },
+          "121730008": {
+            "type": "Text",
+            "id": 121730008,
+            "sectionId": 1217300,
+            "senderId": 1001,
+            "text": "By the way, don't forget to head back to the Express early. Himeko said she made coffee for us.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121730005": {
+            "type": "Text",
+            "id": 121730005,
+            "sectionId": 1217300,
+            "senderId": 1002,
+            "text": "Don't worry. I just stepped away for a bit to catch up with some old friends.",
+            "option": "I went to meet some old friends.",
+            "nextIds": [
+              121730007
+            ],
+            "kind": "Player"
+          },
+          "121730006": {
+            "type": "Text",
+            "id": 121730006,
+            "sectionId": 1217300,
+            "senderId": 1002,
+            "text": "Don't worry. I've got rid of that letter.",
+            "option": "I've thrown away the letter.",
+            "nextIds": [
+              121730007
+            ],
+            "kind": "Player"
+          }
+        }
+      }
     ]
   ],
   "info": {

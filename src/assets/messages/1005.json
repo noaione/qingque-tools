@@ -245,7 +245,7 @@
             "id": 200760027,
             "sectionId": 2007600,
             "senderId": null,
-            "text": "Send error: Recipient does not exist",
+            "text": "Error: Recipient does not exist",
             "option": null,
             "nextIds": [],
             "kind": "System"
@@ -411,7 +411,7 @@
             "id": 200770007,
             "sectionId": 2007700,
             "senderId": 1005,
-            "text": "How's life at the Express so far?",
+            "text": "How's life on the Express so far?",
             "option": null,
             "nextIds": [
               200770008,

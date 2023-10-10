@@ -1,0 +1,46 @@
+{
+  "id": 46,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1217200,
+        "startIds": [
+          121720001
+        ],
+        "messages": {
+          "121720001": {
+            "type": "Text",
+            "id": 121720001,
+            "sectionId": 1217200,
+            "senderId": 46,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              121720002
+            ],
+            "kind": "NPC"
+          },
+          "121720002": {
+            "type": "Text",
+            "id": 121720002,
+            "sectionId": 1217200,
+            "senderId": 46,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 46,
+    "name": "Diting",
+    "signature": "I'm cool. I don't chat.",
+    "iconPath": "icon/avatar/Diting.png",
+    "type": 2,
+    "camp": 4
+  }
+}

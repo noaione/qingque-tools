@@ -1,0 +1,156 @@
+{
+  "id": 88,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1115500,
+        "startIds": [
+          111550000
+        ],
+        "messages": {
+          "111550000": {
+            "type": "Text",
+            "id": 111550000,
+            "sectionId": 1115500,
+            "senderId": 88,
+            "text": "You and Miss March were amazing, {NICKNAME}!",
+            "option": null,
+            "nextIds": [
+              111550001
+            ],
+            "kind": "NPC"
+          },
+          "111550001": {
+            "type": "Text",
+            "id": 111550001,
+            "sectionId": 1115500,
+            "senderId": 88,
+            "text": "Congratulations on winning the championship!",
+            "option": null,
+            "nextIds": [
+              111550002,
+              111550004,
+              111550006
+            ],
+            "kind": "NPC"
+          },
+          "111550002": {
+            "type": "Text",
+            "id": 111550002,
+            "sectionId": 1115500,
+            "senderId": null,
+            "text": "Thank you for your kind words, Mr. Giovanni.",
+            "option": "Thank you for your kind words.",
+            "nextIds": [
+              111550003
+            ],
+            "kind": "Player"
+          },
+          "111550003": {
+            "type": "Text",
+            "id": 111550003,
+            "sectionId": 1115500,
+            "senderId": 88,
+            "text": "Hahaha, no problem at all. You definitely deserve the praise!",
+            "option": null,
+            "nextIds": [
+              111550008
+            ],
+            "kind": "NPC"
+          },
+          "111550008": {
+            "type": "Text",
+            "id": 111550008,
+            "sectionId": 1115500,
+            "senderId": 88,
+            "text": "Actually, I wanted to discuss what's next after the celebration.",
+            "option": null,
+            "nextIds": [
+              111550009
+            ],
+            "kind": "NPC"
+          },
+          "111550009": {
+            "type": "Text",
+            "id": 111550009,
+            "sectionId": 1115500,
+            "senderId": 88,
+            "text": "If you have time, let's meet at the entrance of Everwinter Hill.",
+            "option": null,
+            "nextIds": [
+              111550010
+            ],
+            "kind": "NPC"
+          },
+          "111550010": {
+            "type": "Text",
+            "id": 111550010,
+            "sectionId": 1115500,
+            "senderId": 88,
+            "text": "I'll be waiting for you there.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111550004": {
+            "type": "Text",
+            "id": 111550004,
+            "sectionId": 1115500,
+            "senderId": null,
+            "text": "Thank you. We were just lucky.",
+            "option": "We were just lucky.",
+            "nextIds": [
+              111550005
+            ],
+            "kind": "Player"
+          },
+          "111550005": {
+            "type": "Text",
+            "id": 111550005,
+            "sectionId": 1115500,
+            "senderId": 88,
+            "text": "Hahaha, while being humble is good, being too modest can seem hypocritical. Don't go overboard",
+            "option": null,
+            "nextIds": [
+              111550008
+            ],
+            "kind": "NPC"
+          },
+          "111550006": {
+            "type": "Text",
+            "id": 111550006,
+            "sectionId": 1115500,
+            "senderId": null,
+            "text": "Yeah, I guess I was born for this.",
+            "option": "I was born to win.",
+            "nextIds": [
+              111550007
+            ],
+            "kind": "Player"
+          },
+          "111550007": {
+            "type": "Text",
+            "id": 111550007,
+            "sectionId": 1115500,
+            "senderId": 88,
+            "text": "Hahaha, you still have a great sense of humor.",
+            "option": null,
+            "nextIds": [
+              111550008
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 88,
+    "name": "Giovanni",
+    "signature": "Live in the moment. Party all you want.",
+    "iconPath": "icon/avatar/Giovanni.png",
+    "type": 2,
+    "camp": 99
+  }
+}

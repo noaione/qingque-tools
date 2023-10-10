@@ -3,6 +3,295 @@
   "sections": [
     [
       {
+        "type": "Message",
+        "id": 2099900,
+        "startIds": [
+          209990000
+        ],
+        "messages": {
+          "209990000": {
+            "type": "Text",
+            "id": 209990000,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "Hello, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              209990001,
+              209990002
+            ],
+            "kind": "NPC"
+          },
+          "209990001": {
+            "type": "Text",
+            "id": 209990001,
+            "sectionId": 2099900,
+            "senderId": null,
+            "text": "Hey, Mr. Dahao!",
+            "option": "Hey.",
+            "nextIds": [
+              209990004
+            ],
+            "kind": "Player"
+          },
+          "209990004": {
+            "type": "Text",
+            "id": 209990004,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "I am reaching out this time to update you, Mr. Yang, and Miss March on some follow-up situations.",
+            "option": null,
+            "nextIds": [
+              209990005
+            ],
+            "kind": "NPC"
+          },
+          "209990005": {
+            "type": "Text",
+            "id": 209990005,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "Do you remember the previous invitation for you and a few others to come to the Realm-Keeping Commission to identify suspicious individuals?",
+            "option": null,
+            "nextIds": [
+              209990006,
+              209990008
+            ],
+            "kind": "NPC"
+          },
+          "209990006": {
+            "type": "Text",
+            "id": 209990006,
+            "sectionId": 2099900,
+            "senderId": null,
+            "text": "You mean that time when March played detective, making wild guesses about one traveling merchant's background and whereabouts, but couldn't nail down a single solid answer?",
+            "option": "I remember.",
+            "nextIds": [
+              209990007
+            ],
+            "kind": "Player"
+          },
+          "209990007": {
+            "type": "Text",
+            "id": 209990007,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "Yep, that's the one. Officer Jingyan even praised Miss March for her keen observation and unorthodox thinking during that incident. She mentioned that Miss March seemed like a natural for our line of work.",
+            "option": null,
+            "nextIds": [
+              209990011
+            ],
+            "kind": "NPC"
+          },
+          "209990011": {
+            "type": "Text",
+            "id": 209990011,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "Believe it or not, I received an official notice jointly issued by the Ten-Lords Commission and the Cloud Knights. That blond merchant, Luocha, is indeed an unlawful character who infiltrated the Xianzhou!",
+            "option": null,
+            "nextIds": [
+              209990012
+            ],
+            "kind": "NPC"
+          },
+          "209990012": {
+            "type": "Text",
+            "id": 209990012,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "Miss March's deduction and Mr. Yang's intuition... have come true! The Express Crew truly is a group of hidden talents! Much admiration!",
+            "option": null,
+            "nextIds": [
+              209990013,
+              209990014,
+              209990016
+            ],
+            "kind": "NPC"
+          },
+          "209990013": {
+            "type": "Text",
+            "id": 209990013,
+            "sectionId": 2099900,
+            "senderId": null,
+            "text": "We do have talents aplenty!",
+            "option": "We do have talents aplenty!",
+            "nextIds": [
+              209990017
+            ],
+            "kind": "Player"
+          },
+          "209990017": {
+            "type": "Text",
+            "id": 209990017,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "I can't go into the specifics as it's still part of Xianzhou's internal affairs.",
+            "option": null,
+            "nextIds": [
+              209990018
+            ],
+            "kind": "NPC"
+          },
+          "209990018": {
+            "type": "Text",
+            "id": 209990018,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "But, given our tight relationship, I can spill a bit of the beans for you. The official document states that he was arrested on charges of \"identity fraud and smuggling of dangerous bio-merchandise, among other crimes\". The use of the expression \"among other\" is quite intriguing.",
+            "option": null,
+            "nextIds": [
+              209990019
+            ],
+            "kind": "NPC"
+          },
+          "209990019": {
+            "type": "Text",
+            "id": 209990019,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "Of course, I have received the directive from the Realm-Keeping Commission's general affairs office, requesting to commend and express gratitude to enthusiastic guests such as yourselves.",
+            "option": null,
+            "nextIds": [
+              209990020
+            ],
+            "kind": "NPC"
+          },
+          "209990020": {
+            "type": "Text",
+            "id": 209990020,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "I would like to express my own gratitude to you all, and deliver to you your well-earned remuneration.",
+            "option": null,
+            "nextIds": [
+              209990021
+            ],
+            "kind": "NPC"
+          },
+          "209990021": {
+            "type": "Text",
+            "id": 209990021,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "In that case, if there are tasks involving apprehending fugitives or pursuing criminals in the future, I hope you and the Express Crew can continue to make full use of your intuition!",
+            "option": null,
+            "nextIds": [
+              209990022
+            ],
+            "kind": "NPC"
+          },
+          "209990022": {
+            "type": "Text",
+            "id": 209990022,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "Stay safe, I shall take my leave!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "209990014": {
+            "type": "Text",
+            "id": 209990014,
+            "sectionId": 2099900,
+            "senderId": null,
+            "text": "...and they got it right?",
+            "option": "I don't believe you.",
+            "nextIds": [
+              209990015
+            ],
+            "kind": "Player"
+          },
+          "209990015": {
+            "type": "Text",
+            "id": 209990015,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "Don't knock it, the official seal and signatures are all there. This is as real as they come.",
+            "option": null,
+            "nextIds": [
+              209990017
+            ],
+            "kind": "NPC"
+          },
+          "209990016": {
+            "type": "Text",
+            "id": 209990016,
+            "sectionId": 2099900,
+            "senderId": null,
+            "text": "So what did that man do?",
+            "option": "So what did that man do?",
+            "nextIds": [
+              209990017
+            ],
+            "kind": "Player"
+          },
+          "209990008": {
+            "type": "Text",
+            "id": 209990008,
+            "sectionId": 2099900,
+            "senderId": null,
+            "text": "I don't remember...",
+            "option": "I don't remember.",
+            "nextIds": [
+              209990009
+            ],
+            "kind": "Player"
+          },
+          "209990009": {
+            "type": "Text",
+            "id": 209990009,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "It seems you may be too preoccupied elsewhere. I still remember how Miss March deduced the whereabouts of an outworlder back then.",
+            "option": null,
+            "nextIds": [
+              209990010
+            ],
+            "kind": "NPC"
+          },
+          "209990010": {
+            "type": "Text",
+            "id": 209990010,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "Officer Jingyan even praised Miss March for her keen observation and unorthodox thinking during that incident. She mentioned that Miss March seemed like a natural for our line of work.",
+            "option": null,
+            "nextIds": [
+              209990011
+            ],
+            "kind": "NPC"
+          },
+          "209990002": {
+            "type": "Text",
+            "id": 209990002,
+            "sectionId": 2099900,
+            "senderId": null,
+            "text": "How do you do? Are there new missions at the Realm-Keeping Commission?",
+            "option": "Is there a new mission?",
+            "nextIds": [
+              209990003
+            ],
+            "kind": "Player"
+          },
+          "209990003": {
+            "type": "Text",
+            "id": 209990003,
+            "sectionId": 2099900,
+            "senderId": 42,
+            "text": "You and the members of the Express crew have been a great help with the many tasks previously entrusted to you. We are deeply grateful for your assistance.",
+            "option": null,
+            "nextIds": [
+              209990004
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
         "type": "MissionMessage",
         "id": 1210500,
         "startIds": [

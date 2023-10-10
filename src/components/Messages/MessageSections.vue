@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import contactsJSON from "@/assets/messages_contacts.json";
+import contactsJSON from "@/assets/message_contacts.json";
 import type {
   MessageAuthorInfo,
   MessageContents,

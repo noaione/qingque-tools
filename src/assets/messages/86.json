@@ -1,0 +1,845 @@
+{
+  "id": 86,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1114900,
+        "startIds": [
+          111490000
+        ],
+        "messages": {
+          "111490000": {
+            "type": "Text",
+            "id": 111490000,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Hello!",
+            "option": null,
+            "nextIds": [
+              111490001
+            ],
+            "kind": "NPC"
+          },
+          "111490001": {
+            "type": "Text",
+            "id": 111490001,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Is this {NICKNAME}?",
+            "option": "...",
+            "nextIds": [
+              111490002
+            ],
+            "kind": "NPC"
+          },
+          "111490002": {
+            "type": "Sticker",
+            "id": 111490002,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              111490003,
+              111490005
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "111490003": {
+            "type": "Text",
+            "id": 111490003,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "Yeah, I am. Who might you be",
+            "option": "Yes, I am.",
+            "nextIds": [
+              111490004
+            ],
+            "kind": "Player"
+          },
+          "111490004": {
+            "type": "Text",
+            "id": 111490004,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "That's good",
+            "option": null,
+            "nextIds": [
+              111490007
+            ],
+            "kind": "NPC"
+          },
+          "111490007": {
+            "type": "Text",
+            "id": 111490007,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Anyway, please allow me to introduce myself.",
+            "option": null,
+            "nextIds": [
+              111490008
+            ],
+            "kind": "NPC"
+          },
+          "111490008": {
+            "type": "Text",
+            "id": 111490008,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "I'm Wilder from the Interastral Peace Corporation's Strategic Investment Department",
+            "option": null,
+            "nextIds": [
+              111490009
+            ],
+            "kind": "NPC"
+          },
+          "111490009": {
+            "type": "Text",
+            "id": 111490009,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "I'm contacting you to recommend you a video game",
+            "option": null,
+            "nextIds": [
+              111490010,
+              111490012,
+              111490015
+            ],
+            "kind": "NPC"
+          },
+          "111490010": {
+            "type": "Text",
+            "id": 111490010,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "Game? Awesome! What game?",
+            "option": "What game?",
+            "nextIds": [
+              111490011
+            ],
+            "kind": "Player"
+          },
+          "111490011": {
+            "type": "Sticker",
+            "id": 111490011,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "[Thumbs Up]",
+            "option": null,
+            "nextIds": [
+              111490018
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "111490018": {
+            "type": "Text",
+            "id": 111490018,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Now, please allow me to get back to the introduction",
+            "option": null,
+            "nextIds": [
+              111490019
+            ],
+            "kind": "NPC"
+          },
+          "111490019": {
+            "type": "Text",
+            "id": 111490019,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "This game is called Aetherium Wars. It's a galactic-tier, top-class AAA cultural brand spearheaded by the IPC's Marketing Development Department in collaboration with the Interastral Network and Interastral Peace Media.",
+            "option": null,
+            "nextIds": [
+              111490020,
+              111490022
+            ],
+            "kind": "NPC"
+          },
+          "111490020": {
+            "type": "Text",
+            "id": 111490020,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "That impressive?",
+            "option": "It's that good?",
+            "nextIds": [
+              111490021
+            ],
+            "kind": "Player"
+          },
+          "111490021": {
+            "type": "Text",
+            "id": 111490021,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Hahaha, it's one of our blockbusters after all.",
+            "option": null,
+            "nextIds": [
+              111490024
+            ],
+            "kind": "NPC"
+          },
+          "111490024": {
+            "type": "Text",
+            "id": 111490024,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Aetherium Wars is a card-collection game, but it's nothing like the ordinary trading card games you've imagined!",
+            "option": null,
+            "nextIds": [
+              111490025
+            ],
+            "kind": "NPC"
+          },
+          "111490025": {
+            "type": "Text",
+            "id": 111490025,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Here, you can use the IPC's cutting-edge Aether copying technology to record any creature you've ever seen inside an Aether Coin.",
+            "option": null,
+            "nextIds": [
+              111490026
+            ],
+            "kind": "NPC"
+          },
+          "111490026": {
+            "type": "Text",
+            "id": 111490026,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "And then you can print them out and use them to compete against other players! Let your Aether Spirits fight for your glory!",
+            "option": null,
+            "nextIds": [
+              111490027
+            ],
+            "kind": "NPC"
+          },
+          "111490027": {
+            "type": "Text",
+            "id": 111490027,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "How does it sound? Pretty cool, right?",
+            "option": null,
+            "nextIds": [
+              111490028,
+              111490031,
+              111490034
+            ],
+            "kind": "NPC"
+          },
+          "111490028": {
+            "type": "Sticker",
+            "id": 111490028,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "[Thumbs Up]",
+            "option": "Sounds interesting.",
+            "nextIds": [
+              111490029
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "111490029": {
+            "type": "Text",
+            "id": 111490029,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "Sounds fun. Where can I play this game?",
+            "option": null,
+            "nextIds": [
+              111490030
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111490030": {
+            "type": "Text",
+            "id": 111490030,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Haha, awesome! I finally got a new player for my favorite game!",
+            "option": null,
+            "nextIds": [
+              111490037
+            ],
+            "kind": "NPC"
+          },
+          "111490037": {
+            "type": "Text",
+            "id": 111490037,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Anyway, if you're interested, feel free to come to the Rivet Town Plaza in Jarilo-VI to try it for yourself!",
+            "option": null,
+            "nextIds": [
+              111490038
+            ],
+            "kind": "NPC"
+          },
+          "111490038": {
+            "type": "Text",
+            "id": 111490038,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "We'll be holding the Interastral Tournament Festival, a great offline carnival for all Aetherium Wars fans! Please do come and enjoy it!",
+            "option": null,
+            "nextIds": [
+              111490039,
+              111490041
+            ],
+            "kind": "NPC"
+          },
+          "111490039": {
+            "type": "Text",
+            "id": 111490039,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "What a coincidence! I'm in Jarilo-VI right now.",
+            "option": "Be right there.",
+            "nextIds": [
+              111490040
+            ],
+            "kind": "Player"
+          },
+          "111490040": {
+            "type": "Text",
+            "id": 111490040,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "Don't run off. I'll be there soon.",
+            "option": null,
+            "nextIds": [
+              111490043
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111490043": {
+            "type": "Text",
+            "id": 111490043,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "No problem! I'll be here waiting for you!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111490041": {
+            "type": "Text",
+            "id": 111490041,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "Uhhhh",
+            "option": "Maybe later.",
+            "nextIds": [
+              111490042
+            ],
+            "kind": "Player"
+          },
+          "111490042": {
+            "type": "Text",
+            "id": 111490042,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "I'll go over when I have time",
+            "option": null,
+            "nextIds": [
+              111490043
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111490031": {
+            "type": "Sticker",
+            "id": 111490031,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "[Confused]",
+            "option": "It's kinda mid.",
+            "nextIds": [
+              111490032
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "111490032": {
+            "type": "Text",
+            "id": 111490032,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "This doesn't sound as fun as Cosmic Warfare...",
+            "option": null,
+            "nextIds": [
+              111490033
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111490033": {
+            "type": "Text",
+            "id": 111490033,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Cosmic Warfare? Seriously!? It's nowhere near as interesting as the Aetherium Wars!",
+            "option": null,
+            "nextIds": [
+              111490037
+            ],
+            "kind": "NPC"
+          },
+          "111490034": {
+            "type": "Sticker",
+            "id": 111490034,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "[Shocked]",
+            "option": "Calm down.",
+            "nextIds": [
+              111490035
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "111490035": {
+            "type": "Text",
+            "id": 111490035,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "Why are you so excited all of a sudden?",
+            "option": null,
+            "nextIds": [
+              111490036
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111490036": {
+            "type": "Text",
+            "id": 111490036,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Well, to be honest, I'm actually a huge fan of Aetherium Wars myself.",
+            "option": null,
+            "nextIds": [
+              111490037
+            ],
+            "kind": "NPC"
+          },
+          "111490022": {
+            "type": "Text",
+            "id": 111490022,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "Just get to the point...",
+            "option": "Get to the point...",
+            "nextIds": [
+              111490023
+            ],
+            "kind": "Player"
+          },
+          "111490023": {
+            "type": "Text",
+            "id": 111490023,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Don't worry. I'm getting there.",
+            "option": null,
+            "nextIds": [
+              111490024
+            ],
+            "kind": "NPC"
+          },
+          "111490012": {
+            "type": "Sticker",
+            "id": 111490012,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "[Confused]",
+            "option": "Not interested.",
+            "nextIds": [
+              111490013
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "111490013": {
+            "type": "Text",
+            "id": 111490013,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "Sorry, can we talk later? I'm busy with something else right now.",
+            "option": null,
+            "nextIds": [
+              111490014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111490014": {
+            "type": "Text",
+            "id": 111490014,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Hey, please don't block me so fast! Maybe you'll be interested after hearing more information about this game!",
+            "option": null,
+            "nextIds": [
+              111490018
+            ],
+            "kind": "NPC"
+          },
+          "111490015": {
+            "type": "Sticker",
+            "id": 111490015,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "[Confused]",
+            "option": "Another promotion...",
+            "nextIds": [
+              111490016
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "111490016": {
+            "type": "Text",
+            "id": 111490016,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "Doesn't your company have other ways for promotion...?",
+            "option": null,
+            "nextIds": [
+              111490017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111490017": {
+            "type": "Text",
+            "id": 111490017,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Haha, even with so much advanced technology, text messages are still the best way to develop rapport with people",
+            "option": null,
+            "nextIds": [
+              111490018
+            ],
+            "kind": "NPC"
+          },
+          "111490005": {
+            "type": "Text",
+            "id": 111490005,
+            "sectionId": 1114900,
+            "senderId": null,
+            "text": "Sorry, you got the wrong person",
+            "option": "No, I'm not.",
+            "nextIds": [
+              111490006
+            ],
+            "kind": "Player"
+          },
+          "111490006": {
+            "type": "Text",
+            "id": 111490006,
+            "sectionId": 1114900,
+            "senderId": 86,
+            "text": "Wrong person? But the number here suggests otherwise",
+            "option": null,
+            "nextIds": [
+              111490007
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 8014101,
+          "name": "Let's Go! Aetherium Wars!",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1115600,
+        "startIds": [
+          111560000
+        ],
+        "messages": {
+          "111560000": {
+            "type": "Text",
+            "id": 111560000,
+            "sectionId": 1115600,
+            "senderId": 86,
+            "text": "You there, {NICKNAME}?",
+            "option": null,
+            "nextIds": [
+              111560001
+            ],
+            "kind": "NPC"
+          },
+          "111560001": {
+            "type": "Text",
+            "id": 111560001,
+            "sectionId": 1115600,
+            "senderId": 86,
+            "text": "Are you still playing Aetherium Wars?",
+            "option": null,
+            "nextIds": [
+              111560002,
+              111560003
+            ],
+            "kind": "NPC"
+          },
+          "111560002": {
+            "type": "Text",
+            "id": 111560002,
+            "sectionId": 1115600,
+            "senderId": null,
+            "text": "What do you have for me this time?",
+            "option": "What's up?",
+            "nextIds": [
+              111560004
+            ],
+            "kind": "Player"
+          },
+          "111560004": {
+            "type": "Text",
+            "id": 111560004,
+            "sectionId": 1115600,
+            "senderId": 86,
+            "text": "No, no, here's the thing.",
+            "option": null,
+            "nextIds": [
+              111560005
+            ],
+            "kind": "NPC"
+          },
+          "111560005": {
+            "type": "Text",
+            "id": 111560005,
+            "sectionId": 1115600,
+            "senderId": 86,
+            "text": "Have you heard of Topaz's Support Squad? And an Aether Spirit with personality? A Warp Trotter?",
+            "option": null,
+            "nextIds": [
+              111560006,
+              111560007
+            ],
+            "kind": "NPC"
+          },
+          "111560006": {
+            "type": "Text",
+            "id": 111560006,
+            "sectionId": 1115600,
+            "senderId": null,
+            "text": "Topaz's Support Squad? I've actually met some of their members.",
+            "option": "I've met them already.",
+            "nextIds": [
+              111560008
+            ],
+            "kind": "Player"
+          },
+          "111560008": {
+            "type": "Sticker",
+            "id": 111560008,
+            "sectionId": 1115600,
+            "senderId": 86,
+            "text": "[Shocked]",
+            "option": null,
+            "nextIds": [
+              111560009
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "111560009": {
+            "type": "Text",
+            "id": 111560009,
+            "sectionId": 1115600,
+            "senderId": 86,
+            "text": "That makes it much easier for me!",
+            "option": null,
+            "nextIds": [
+              111560010
+            ],
+            "kind": "NPC"
+          },
+          "111560010": {
+            "type": "Text",
+            "id": 111560010,
+            "sectionId": 1115600,
+            "senderId": 86,
+            "text": "Could you please come to the Goethe Hotel in Jarilo-VI?",
+            "option": null,
+            "nextIds": [
+              111560011
+            ],
+            "kind": "NPC"
+          },
+          "111560011": {
+            "type": "Text",
+            "id": 111560011,
+            "sectionId": 1115600,
+            "senderId": 86,
+            "text": "I need to discuss something important with you.",
+            "option": null,
+            "nextIds": [
+              111560012,
+              111560014
+            ],
+            "kind": "NPC"
+          },
+          "111560012": {
+            "type": "Text",
+            "id": 111560012,
+            "sectionId": 1115600,
+            "senderId": null,
+            "text": "I'm on my way.",
+            "option": "I'm on my way.",
+            "nextIds": [
+              111560013
+            ],
+            "kind": "Player"
+          },
+          "111560013": {
+            "type": "Sticker",
+            "id": 111560013,
+            "sectionId": 1115600,
+            "senderId": null,
+            "text": "[Shocked]",
+            "option": null,
+            "nextIds": [
+              111560016
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "111560016": {
+            "type": "Sticker",
+            "id": 111560016,
+            "sectionId": 1115600,
+            "senderId": 86,
+            "text": "[Thanks]",
+            "option": null,
+            "nextIds": [
+              111560017
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "111560017": {
+            "type": "Text",
+            "id": 111560017,
+            "sectionId": 1115600,
+            "senderId": 86,
+            "text": "Thank you so much!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111560014": {
+            "type": "Text",
+            "id": 111560014,
+            "sectionId": 1115600,
+            "senderId": null,
+            "text": "I'll be there later.",
+            "option": "I'll be there later.",
+            "nextIds": [
+              111560015
+            ],
+            "kind": "Player"
+          },
+          "111560015": {
+            "type": "Sticker",
+            "id": 111560015,
+            "sectionId": 1115600,
+            "senderId": null,
+            "text": "[Shocked]",
+            "option": null,
+            "nextIds": [
+              111560016
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "111560007": {
+            "type": "Text",
+            "id": 111560007,
+            "sectionId": 1115600,
+            "senderId": null,
+            "text": "Yeah, I just got my hands on that Warp Trotter.",
+            "option": "I already have the Trotter.",
+            "nextIds": [
+              111560008
+            ],
+            "kind": "Player"
+          },
+          "111560003": {
+            "type": "Text",
+            "id": 111560003,
+            "sectionId": 1115600,
+            "senderId": null,
+            "text": "Is this a notification about a new update patch?",
+            "option": "A new update patch?",
+            "nextIds": [
+              111560004
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 86,
+    "name": "Wilder",
+    "signature": "Meetings at work, working after-hours",
+    "iconPath": "icon/avatar/Velite.png",
+    "type": 2,
+    "camp": 99
+  }
+}

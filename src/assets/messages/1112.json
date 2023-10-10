@@ -1,0 +1,1293 @@
+{
+  "id": 1112,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2009400,
+        "startIds": [
+          200940000
+        ],
+        "messages": {
+          "200940000": {
+            "type": "Text",
+            "id": 200940000,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "It can't be...",
+            "option": null,
+            "nextIds": [
+              200940001
+            ],
+            "kind": "NPC"
+          },
+          "200940001": {
+            "type": "Text",
+            "id": 200940001,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "This shouldn't have happened...",
+            "option": null,
+            "nextIds": [
+              200940002,
+              200940003
+            ],
+            "kind": "NPC"
+          },
+          "200940002": {
+            "type": "Text",
+            "id": 200940002,
+            "sectionId": 2009400,
+            "senderId": null,
+            "text": "What happened?",
+            "option": "What happened?",
+            "nextIds": [
+              200940005
+            ],
+            "kind": "Player"
+          },
+          "200940005": {
+            "type": "Text",
+            "id": 200940005,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Some stocks I hold have tanked, which is a bit unusual",
+            "option": null,
+            "nextIds": [
+              200940006
+            ],
+            "kind": "NPC"
+          },
+          "200940006": {
+            "type": "Text",
+            "id": 200940006,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Things were looking up with quite a few new planets joining the Cosmos market, so the stocks should've been on the rise, but how come they suddenly took a nosedive by seven percentage points?",
+            "option": null,
+            "nextIds": [
+              200940007
+            ],
+            "kind": "NPC"
+          },
+          "200940007": {
+            "type": "Text",
+            "id": 200940007,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Could it be the work of the Marketing Development Department? Doesn't seem like it. Those folks have the skills, maybe just a tad too zealous.",
+            "option": null,
+            "nextIds": [
+              200940008
+            ],
+            "kind": "NPC"
+          },
+          "200940008": {
+            "type": "Text",
+            "id": 200940008,
+            "sectionId": 2009400,
+            "senderId": null,
+            "text": "Were your losses significant?",
+            "option": "Huge loss?",
+            "nextIds": [
+              200940009
+            ],
+            "kind": "Player"
+          },
+          "200940009": {
+            "type": "Text",
+            "id": 200940009,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Oh nothing, just some disposable income",
+            "option": null,
+            "nextIds": [
+              200940010
+            ],
+            "kind": "NPC"
+          },
+          "200940010": {
+            "type": "Text",
+            "id": 200940010,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Losses and wins are normal. I'm just analyzing the reason it happened",
+            "option": null,
+            "nextIds": [
+              200940011,
+              200940014
+            ],
+            "kind": "NPC"
+          },
+          "200940011": {
+            "type": "Text",
+            "id": 200940011,
+            "sectionId": 2009400,
+            "senderId": null,
+            "text": "It must be Nanook!",
+            "option": "It must be Nanook!",
+            "nextIds": [
+              200940012
+            ],
+            "kind": "Player"
+          },
+          "200940012": {
+            "type": "Text",
+            "id": 200940012,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "The Antimatter Legion? They are indeed a focal point of the IPC's attention",
+            "option": null,
+            "nextIds": [
+              200940013
+            ],
+            "kind": "NPC"
+          },
+          "200940013": {
+            "type": "Text",
+            "id": 200940013,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Oh right, the effects of the Stellaron also cannot be ignored. A reasonable direction for speculation.",
+            "option": null,
+            "nextIds": [
+              200940020
+            ],
+            "kind": "NPC"
+          },
+          "200940020": {
+            "type": "Text",
+            "id": 200940020,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Thanks. Even though it's not a professional analysis, it does give me something to think about",
+            "option": null,
+            "nextIds": [
+              200940021
+            ],
+            "kind": "NPC"
+          },
+          "200940021": {
+            "type": "Text",
+            "id": 200940021,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "I'll continue with my work now~",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200940014": {
+            "type": "Text",
+            "id": 200940014,
+            "sectionId": 2009400,
+            "senderId": null,
+            "text": "Maybe it's because the Express trailblazed the star rail, causing the market to go bear...",
+            "option": "It must be the Astral Express!",
+            "nextIds": [
+              200940015
+            ],
+            "kind": "Player"
+          },
+          "200940015": {
+            "type": "Text",
+            "id": 200940015,
+            "sectionId": 2009400,
+            "senderId": null,
+            "text": "We from the Astral Express are so impactful!",
+            "option": null,
+            "nextIds": [
+              200940016
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200940016": {
+            "type": "Text",
+            "id": 200940016,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Oh? Does that mean my losses can be reimbursed by you?",
+            "option": null,
+            "nextIds": [
+              200940017
+            ],
+            "kind": "NPC"
+          },
+          "200940017": {
+            "type": "Sticker",
+            "id": 200940017,
+            "sectionId": 2009400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              200940018
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "200940018": {
+            "type": "Text",
+            "id": 200940018,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Hahah, just kidding",
+            "option": null,
+            "nextIds": [
+              200940019
+            ],
+            "kind": "NPC"
+          },
+          "200940019": {
+            "type": "Text",
+            "id": 200940019,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Buuuut... The effects of the Stellaron do need to be taken into account.",
+            "option": null,
+            "nextIds": [
+              200940020
+            ],
+            "kind": "NPC"
+          },
+          "200940003": {
+            "type": "Text",
+            "id": 200940003,
+            "sectionId": 2009400,
+            "senderId": null,
+            "text": "*sigh sigh sigh*",
+            "option": "*sigh sigh sigh*",
+            "nextIds": [
+              200940004
+            ],
+            "kind": "Player"
+          },
+          "200940004": {
+            "type": "Text",
+            "id": 200940004,
+            "sectionId": 2009400,
+            "senderId": 1112,
+            "text": "Why are you sighing?",
+            "option": null,
+            "nextIds": [
+              200940005
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2009500,
+        "startIds": [
+          200950000
+        ],
+        "messages": {
+          "200950000": {
+            "type": "Text",
+            "id": 200950000,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "The project is equipped with a massive protective barrier that can withstand even planetary impacts. It operates as a self-contained ecosystem, fulfilling the survival needs of entire Amber Eras. Under the IPC's protection, almost no external forces can affect this facility. Without a doubt, it's the safest sanctuary in the cosmos.",
+            "option": null,
+            "nextIds": [
+              200950001,
+              200950005
+            ],
+            "kind": "NPC"
+          },
+          "200950001": {
+            "type": "Text",
+            "id": 200950001,
+            "sectionId": 2009500,
+            "senderId": null,
+            "text": "Why do people keep getting hacked?",
+            "option": "Another hacked account?",
+            "nextIds": [
+              200950002
+            ],
+            "kind": "Player"
+          },
+          "200950002": {
+            "type": "Text",
+            "id": 200950002,
+            "sectionId": 2009500,
+            "senderId": null,
+            "text": "All these weird messages...",
+            "option": null,
+            "nextIds": [
+              200950003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200950003": {
+            "type": "Text",
+            "id": 200950003,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "This is a proposal I'm doing for a project",
+            "option": null,
+            "nextIds": [
+              200950004
+            ],
+            "kind": "NPC"
+          },
+          "200950004": {
+            "type": "Text",
+            "id": 200950004,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "Interested?",
+            "option": null,
+            "nextIds": [
+              200950009
+            ],
+            "kind": "NPC"
+          },
+          "200950009": {
+            "type": "Text",
+            "id": 200950009,
+            "sectionId": 2009500,
+            "senderId": null,
+            "text": "Do you not rest?",
+            "option": "Do you not need rest?",
+            "nextIds": [
+              200950010
+            ],
+            "kind": "Player"
+          },
+          "200950010": {
+            "type": "Text",
+            "id": 200950010,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "I *am* resting. Making proposals is relaxing for me",
+            "option": null,
+            "nextIds": [
+              200950011
+            ],
+            "kind": "NPC"
+          },
+          "200950011": {
+            "type": "Text",
+            "id": 200950011,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "Do you like your work?",
+            "option": null,
+            "nextIds": [
+              200950012,
+              200950015,
+              200950018
+            ],
+            "kind": "NPC"
+          },
+          "200950012": {
+            "type": "Text",
+            "id": 200950012,
+            "sectionId": 2009500,
+            "senderId": null,
+            "text": "I love it. I can't even eat properly if I don't work",
+            "option": "Love it",
+            "nextIds": [
+              200950013
+            ],
+            "kind": "Player"
+          },
+          "200950013": {
+            "type": "Text",
+            "id": 200950013,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "That's right. I knew you'd understand",
+            "option": null,
+            "nextIds": [
+              200950014
+            ],
+            "kind": "NPC"
+          },
+          "200950014": {
+            "type": "Text",
+            "id": 200950014,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "You've gained a few more points in my eyes",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200950015": {
+            "type": "Text",
+            "id": 200950015,
+            "sectionId": 2009500,
+            "senderId": null,
+            "text": "I don't like it. Just thinking about work gives me a full-body migraine",
+            "option": "I don't like it",
+            "nextIds": [
+              200950016
+            ],
+            "kind": "Player"
+          },
+          "200950016": {
+            "type": "Text",
+            "id": 200950016,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "Is it? That's unfortunate",
+            "option": null,
+            "nextIds": [
+              200950017
+            ],
+            "kind": "NPC"
+          },
+          "200950017": {
+            "type": "Text",
+            "id": 200950017,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "If everyone could find purpose in life in their work, wouldn't it be nice?",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200950018": {
+            "type": "Text",
+            "id": 200950018,
+            "sectionId": 2009500,
+            "senderId": null,
+            "text": "I don't have a job",
+            "option": "I don't have a job",
+            "nextIds": [
+              200950019
+            ],
+            "kind": "Player"
+          },
+          "200950019": {
+            "type": "Text",
+            "id": 200950019,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "Aren't you a Nameless?",
+            "option": null,
+            "nextIds": [
+              200950020,
+              200950021
+            ],
+            "kind": "NPC"
+          },
+          "200950020": {
+            "type": "Text",
+            "id": 200950020,
+            "sectionId": 2009500,
+            "senderId": null,
+            "text": "The Express doesn't pay me a salary",
+            "option": "The Express doesn't pay me a salary",
+            "nextIds": [
+              200950022
+            ],
+            "kind": "Player"
+          },
+          "200950022": {
+            "type": "Text",
+            "id": 200950022,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "I see...",
+            "option": null,
+            "nextIds": [
+              200950023
+            ],
+            "kind": "NPC"
+          },
+          "200950023": {
+            "type": "Text",
+            "id": 200950023,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "Looks like you've also gone past the stage of working just for money",
+            "option": null,
+            "nextIds": [
+              200950024
+            ],
+            "kind": "NPC"
+          },
+          "200950024": {
+            "type": "Text",
+            "id": 200950024,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "You've gained a few more points in my eyes",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200950021": {
+            "type": "Text",
+            "id": 200950021,
+            "sectionId": 2009500,
+            "senderId": null,
+            "text": "I work for love!",
+            "option": "I work for love!",
+            "nextIds": [
+              200950022
+            ],
+            "kind": "Player"
+          },
+          "200950005": {
+            "type": "Text",
+            "id": 200950005,
+            "sectionId": 2009500,
+            "senderId": null,
+            "text": "How much to invest? Count me in!",
+            "option": "How much? I'm in",
+            "nextIds": [
+              200950006
+            ],
+            "kind": "Player"
+          },
+          "200950006": {
+            "type": "Text",
+            "id": 200950006,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "Aye, someone's being decisive!",
+            "option": null,
+            "nextIds": [
+              200950007
+            ],
+            "kind": "NPC"
+          },
+          "200950007": {
+            "type": "Text",
+            "id": 200950007,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "This is a proposal I'm doing for a project",
+            "option": null,
+            "nextIds": [
+              200950008
+            ],
+            "kind": "NPC"
+          },
+          "200950008": {
+            "type": "Text",
+            "id": 200950008,
+            "sectionId": 2009500,
+            "senderId": 1112,
+            "text": "I knew you'd be interested",
+            "option": null,
+            "nextIds": [
+              200950009
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2009600,
+        "startIds": [
+          200960000
+        ],
+        "messages": {
+          "200960000": {
+            "type": "Text",
+            "id": 200960000,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "{NICKNAME}, are you there?",
+            "option": null,
+            "nextIds": [
+              200960001
+            ],
+            "kind": "NPC"
+          },
+          "200960001": {
+            "type": "Text",
+            "id": 200960001,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "I'm mulling something over, mind if I pick your brain?",
+            "option": null,
+            "nextIds": [
+              200960002
+            ],
+            "kind": "NPC"
+          },
+          "200960002": {
+            "type": "Sticker",
+            "id": 200960002,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              200960003
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "200960003": {
+            "type": "Text",
+            "id": 200960003,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "Do you...",
+            "option": null,
+            "nextIds": [
+              200960004
+            ],
+            "kind": "NPC"
+          },
+          "200960004": {
+            "type": "Text",
+            "id": 200960004,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "want to be my colleague?",
+            "option": null,
+            "nextIds": [
+              200960005
+            ],
+            "kind": "NPC"
+          },
+          "200960005": {
+            "type": "Sticker",
+            "id": 200960005,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              200960006
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "200960006": {
+            "type": "Text",
+            "id": 200960006,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "Based on my observation, you've got some serious potential to join the Strategic Investment Department",
+            "option": null,
+            "nextIds": [
+              200960007
+            ],
+            "kind": "NPC"
+          },
+          "200960007": {
+            "type": "Text",
+            "id": 200960007,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "The scale of our operations here at the IPC speaks for itself. With your skills, you could easily climb up to rank P<unbreak>20</unbreak> with just a few missions under your belt.",
+            "option": null,
+            "nextIds": [
+              200960008
+            ],
+            "kind": "NPC"
+          },
+          "200960008": {
+            "type": "Text",
+            "id": 200960008,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "If I were to put in a good word for you, becoming a branch manager in <unbreak>10</unbreak> years is not impossible for you!",
+            "option": null,
+            "nextIds": [
+              200960009
+            ],
+            "kind": "NPC"
+          },
+          "200960009": {
+            "type": "Text",
+            "id": 200960009,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "Give it a think?",
+            "option": null,
+            "nextIds": [
+              200960010,
+              200960015
+            ],
+            "kind": "NPC"
+          },
+          "200960010": {
+            "type": "Text",
+            "id": 200960010,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "What are the work meal options on-site?",
+            "option": "What are the work meal options on-site?",
+            "nextIds": [
+              200960011
+            ],
+            "kind": "Player"
+          },
+          "200960011": {
+            "type": "Text",
+            "id": 200960011,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "You should ask what's not available. Order whatever you want, and the system will have it covered. It's like a one-stop shop, they'll cater to all your cravings.",
+            "option": null,
+            "nextIds": [
+              200960012
+            ],
+            "kind": "NPC"
+          },
+          "200960012": {
+            "type": "Text",
+            "id": 200960012,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "Wanna try?",
+            "option": null,
+            "nextIds": [
+              200960013
+            ],
+            "kind": "NPC"
+          },
+          "200960013": {
+            "type": "Text",
+            "id": 200960013,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "Even if I'm not an employee?",
+            "option": "Even if I'm not an employee?",
+            "nextIds": [
+              200960014
+            ],
+            "kind": "Player"
+          },
+          "200960014": {
+            "type": "Text",
+            "id": 200960014,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "No worries. Put it on my tab",
+            "option": null,
+            "nextIds": [
+              200960022
+            ],
+            "kind": "NPC"
+          },
+          "200960022": {
+            "type": "Text",
+            "id": 200960022,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "Are there any other perks for me?",
+            "option": "Any other perks for me?",
+            "nextIds": [
+              200960023
+            ],
+            "kind": "Player"
+          },
+          "200960023": {
+            "type": "Text",
+            "id": 200960023,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "Of course, for example... you can bring your own pets to the office!",
+            "option": null,
+            "nextIds": [
+              200960024
+            ],
+            "kind": "NPC"
+          },
+          "200960024": {
+            "type": "Text",
+            "id": 200960024,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "I have so many little critters, and they're all super~ duper~ cute!",
+            "option": null,
+            "nextIds": [
+              200960025
+            ],
+            "kind": "NPC"
+          },
+          "200960025": {
+            "type": "Text",
+            "id": 200960025,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "As long as you become an employee of the IPC, they can be with you every day. Isn't that great?",
+            "option": null,
+            "nextIds": [
+              200960026
+            ],
+            "kind": "NPC"
+          },
+          "200960026": {
+            "type": "Text",
+            "id": 200960026,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "We have our conductor",
+            "option": "We have our conductor",
+            "nextIds": [
+              200960027
+            ],
+            "kind": "Player"
+          },
+          "200960027": {
+            "type": "Text",
+            "id": 200960027,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "How about you jump ship over to the Astral Express instead?",
+            "option": null,
+            "nextIds": [
+              200960028
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200960028": {
+            "type": "Sticker",
+            "id": 200960028,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              200960029
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "200960029": {
+            "type": "Text",
+            "id": 200960029,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "Oh dear, am I being reverse-poached?",
+            "option": null,
+            "nextIds": [
+              200960030
+            ],
+            "kind": "NPC"
+          },
+          "200960030": {
+            "type": "Text",
+            "id": 200960030,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "Don't worry. I'll be visiting the Express plenty",
+            "option": null,
+            "nextIds": [
+              200960031
+            ],
+            "kind": "NPC"
+          },
+          "200960031": {
+            "type": "Text",
+            "id": 200960031,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "I will definitely give Pom-Pom a good scritch~",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200960015": {
+            "type": "Text",
+            "id": 200960015,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "No one can poach me",
+            "option": "I'm loyal to the Astral Express",
+            "nextIds": [
+              200960016
+            ],
+            "kind": "Player"
+          },
+          "200960016": {
+            "type": "Text",
+            "id": 200960016,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "I am loyal to the Astral Express!",
+            "option": null,
+            "nextIds": [
+              200960017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200960017": {
+            "type": "Text",
+            "id": 200960017,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "Really? That's a shame",
+            "option": null,
+            "nextIds": [
+              200960018
+            ],
+            "kind": "NPC"
+          },
+          "200960018": {
+            "type": "Text",
+            "id": 200960018,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "But Miss Himeko does seem like a cool boss, I bet it's a blast working with her.",
+            "option": null,
+            "nextIds": [
+              200960019
+            ],
+            "kind": "NPC"
+          },
+          "200960019": {
+            "type": "Text",
+            "id": 200960019,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "Let's grab a meal another time, consider it relationship maintenance.",
+            "option": null,
+            "nextIds": [
+              200960020
+            ],
+            "kind": "NPC"
+          },
+          "200960020": {
+            "type": "Text",
+            "id": 200960020,
+            "sectionId": 2009600,
+            "senderId": null,
+            "text": "Are you sure? Sounds like it's gonna be expensive...",
+            "option": "Are you sure?",
+            "nextIds": [
+              200960021
+            ],
+            "kind": "Player"
+          },
+          "200960021": {
+            "type": "Text",
+            "id": 200960021,
+            "sectionId": 2009600,
+            "senderId": 1112,
+            "text": "No worries. Put it on my tab",
+            "option": null,
+            "nextIds": [
+              200960022
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1219700,
+        "startIds": [
+          121970000
+        ],
+        "messages": {
+          "121970000": {
+            "type": "Text",
+            "id": 121970000,
+            "sectionId": 1219700,
+            "senderId": 1112,
+            "text": "{NICKNAME}, I received a proposal for the Engine of Creation",
+            "option": null,
+            "nextIds": [
+              121970001
+            ],
+            "kind": "NPC"
+          },
+          "121970001": {
+            "type": "Text",
+            "id": 121970001,
+            "sectionId": 1219700,
+            "senderId": 1112,
+            "text": "It says you were part of the drafting team, do you know anything about it?",
+            "option": null,
+            "nextIds": [
+              121970002,
+              121970004
+            ],
+            "kind": "NPC"
+          },
+          "121970002": {
+            "type": "Text",
+            "id": 121970002,
+            "sectionId": 1219700,
+            "senderId": null,
+            "text": "Oh yeah, I did that",
+            "option": "Yes",
+            "nextIds": [
+              121970003
+            ],
+            "kind": "Player"
+          },
+          "121970003": {
+            "type": "Text",
+            "id": 121970003,
+            "sectionId": 1219700,
+            "senderId": 1112,
+            "text": "I can tell you're proud of it",
+            "option": null,
+            "nextIds": [
+              121970006
+            ],
+            "kind": "NPC"
+          },
+          "121970006": {
+            "type": "Text",
+            "id": 121970006,
+            "sectionId": 1219700,
+            "senderId": 1112,
+            "text": "I took a look at the proposal, I think...",
+            "option": null,
+            "nextIds": [
+              121970007
+            ],
+            "kind": "NPC"
+          },
+          "121970007": {
+            "type": "Text",
+            "id": 121970007,
+            "sectionId": 1219700,
+            "senderId": 1112,
+            "text": "It's pretty good. The ideas are great, and it is very feasible. 7 out of <unbreak>10</unbreak>",
+            "option": null,
+            "nextIds": [
+              121970008
+            ],
+            "kind": "NPC"
+          },
+          "121970008": {
+            "type": "Text",
+            "id": 121970008,
+            "sectionId": 1219700,
+            "senderId": 1112,
+            "text": "Please relay the message, and ask them to continue working according to the proposal",
+            "option": null,
+            "nextIds": [
+              121970009
+            ],
+            "kind": "NPC"
+          },
+          "121970009": {
+            "type": "Sticker",
+            "id": 121970009,
+            "sectionId": 1219700,
+            "senderId": null,
+            "text": "[ok]",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20004,
+              "path": "icon/emoji/20004.png",
+              "keywords": "Understood"
+            }
+          },
+          "121970004": {
+            "type": "Text",
+            "id": 121970004,
+            "sectionId": 1219700,
+            "senderId": null,
+            "text": "Idk, never heard of it. Don't ask me",
+            "option": "I don't know",
+            "nextIds": [
+              121970005
+            ],
+            "kind": "Player"
+          },
+          "121970005": {
+            "type": "Text",
+            "id": 121970005,
+            "sectionId": 1219700,
+            "senderId": 1112,
+            "text": "Is that so? I'll delete it",
+            "option": null,
+            "nextIds": [
+              121970006
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1219800,
+        "startIds": [
+          121980000
+        ],
+        "messages": {
+          "121980000": {
+            "type": "Text",
+            "id": 121980000,
+            "sectionId": 1219800,
+            "senderId": 1112,
+            "text": "{NICKNAME}, I received a proposal for the Engine of Creation",
+            "option": null,
+            "nextIds": [
+              121980001
+            ],
+            "kind": "NPC"
+          },
+          "121980001": {
+            "type": "Text",
+            "id": 121980001,
+            "sectionId": 1219800,
+            "senderId": 1112,
+            "text": "It says you were part of the drafting team, do you know anything about it?",
+            "option": null,
+            "nextIds": [
+              121980002,
+              121980004
+            ],
+            "kind": "NPC"
+          },
+          "121980002": {
+            "type": "Text",
+            "id": 121980002,
+            "sectionId": 1219800,
+            "senderId": null,
+            "text": "Oh yeah, I did that",
+            "option": "Yes",
+            "nextIds": [
+              121980003
+            ],
+            "kind": "Player"
+          },
+          "121980003": {
+            "type": "Text",
+            "id": 121980003,
+            "sectionId": 1219800,
+            "senderId": 1112,
+            "text": "...You're quite smug about it",
+            "option": null,
+            "nextIds": [
+              121980006
+            ],
+            "kind": "NPC"
+          },
+          "121980006": {
+            "type": "Text",
+            "id": 121980006,
+            "sectionId": 1219800,
+            "senderId": 1112,
+            "text": "I took a look at the proposal, I think...",
+            "option": null,
+            "nextIds": [
+              121980007
+            ],
+            "kind": "NPC"
+          },
+          "121980007": {
+            "type": "Text",
+            "id": 121980007,
+            "sectionId": 1219800,
+            "senderId": 1112,
+            "text": "It's a little ridiculous. I find it hard to comprehend the mental state of the person who drafted it.",
+            "option": null,
+            "nextIds": [
+              121980008
+            ],
+            "kind": "NPC"
+          },
+          "121980008": {
+            "type": "Text",
+            "id": 121980008,
+            "sectionId": 1219800,
+            "senderId": 1112,
+            "text": "Please relay the message to them and tell them to learn more and think harder. I've already dispatched employees to provide guidance",
+            "option": null,
+            "nextIds": [
+              121980009
+            ],
+            "kind": "NPC"
+          },
+          "121980009": {
+            "type": "Sticker",
+            "id": 121980009,
+            "sectionId": 1219800,
+            "senderId": null,
+            "text": "[Shocked]",
+            "option": null,
+            "nextIds": [
+              121980010
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "121980010": {
+            "type": "Text",
+            "id": 121980010,
+            "sectionId": 1219800,
+            "senderId": null,
+            "text": "Ok.",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto"
+          },
+          "121980004": {
+            "type": "Text",
+            "id": 121980004,
+            "sectionId": 1219800,
+            "senderId": null,
+            "text": "Idk, never heard of it. Don't ask me",
+            "option": "I don't know",
+            "nextIds": [
+              121980005
+            ],
+            "kind": "Player"
+          },
+          "121980005": {
+            "type": "Text",
+            "id": 121980005,
+            "sectionId": 1219800,
+            "senderId": 1112,
+            "text": "Right, thank goodness you had nothing to do with it.",
+            "option": null,
+            "nextIds": [
+              121980006
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1112,
+    "name": "Topaz",
+    "signature": "Off-site~ Call if important, otherwise text",
+    "iconPath": "icon/avatar/1112.png",
+    "type": 1,
+    "camp": 6
+  }
+}

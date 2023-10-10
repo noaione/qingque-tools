@@ -809,6 +809,288 @@
     [
       {
         "type": "Message",
+        "id": 2010200,
+        "startIds": [
+          201020000
+        ],
+        "messages": {
+          "201020000": {
+            "type": "Text",
+            "id": 201020000,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "{NICKNAME}, is everything alright on the Express?",
+            "option": null,
+            "nextIds": [
+              201020001,
+              201020004
+            ],
+            "kind": "NPC"
+          },
+          "201020001": {
+            "type": "Text",
+            "id": 201020001,
+            "sectionId": 2010200,
+            "senderId": null,
+            "text": "Seems fine, are you feeling alright?",
+            "option": "Are you feeling alright?",
+            "nextIds": [
+              201020002
+            ],
+            "kind": "Player"
+          },
+          "201020002": {
+            "type": "Text",
+            "id": 201020002,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "Haha, nothing too serious. After a few days cooped up in the apothecary, my injuries have healed to the point of being negligible.",
+            "option": null,
+            "nextIds": [
+              201020003
+            ],
+            "kind": "NPC"
+          },
+          "201020003": {
+            "type": "Text",
+            "id": 201020003,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "It must've been because that fight was close to the Ambrosial Arbor, so my body's healing speed exceeded all expectations.",
+            "option": null,
+            "nextIds": [
+              201020006
+            ],
+            "kind": "NPC"
+          },
+          "201020006": {
+            "type": "Text",
+            "id": 201020006,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "By the way, {NICKNAME}, perhaps you've already heard from Dan Heng about some recent events.",
+            "option": null,
+            "nextIds": [
+              201020007
+            ],
+            "kind": "NPC"
+          },
+          "201020007": {
+            "type": "Text",
+            "id": 201020007,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "My mentor has returned to the Luofu, gathering old friends to settle past grudges. She sent an anonymous letter to the Express to invite Dan Heng, which is quite... abrupt. I hope it hasn't caused any disturbance to everyone.",
+            "option": null,
+            "nextIds": [
+              201020008,
+              201020010,
+              201020014
+            ],
+            "kind": "NPC"
+          },
+          "201020008": {
+            "type": "Text",
+            "id": 201020008,
+            "sectionId": 2010200,
+            "senderId": null,
+            "text": "No worries, we have weathered worse storms",
+            "option": "No worries",
+            "nextIds": [
+              201020009
+            ],
+            "kind": "Player"
+          },
+          "201020009": {
+            "type": "Text",
+            "id": 201020009,
+            "sectionId": 2010200,
+            "senderId": null,
+            "text": "Your mentor is something else to be able to move on the Express unnoticed. After I found the letter, I only told Pom-Pom and Dan Heng, no one else",
+            "option": null,
+            "nextIds": [
+              201020015
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201020015": {
+            "type": "Text",
+            "id": 201020015,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "Dan Heng accepted the invitation. I admire his courage in facing the karma of his past life and understand his determination in this life. I will do my best to defuse the hostility that the Luofu has toward him.",
+            "option": null,
+            "nextIds": [
+              201020016
+            ],
+            "kind": "NPC"
+          },
+          "201020016": {
+            "type": "Text",
+            "id": 201020016,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "The matters regarding Dan Heng should come to a temporary conclusion. However, it seems the Alliance's situation is about to change again.",
+            "option": null,
+            "nextIds": [
+              201020017
+            ],
+            "kind": "NPC"
+          },
+          "201020017": {
+            "type": "Text",
+            "id": 201020017,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "I hear the Express will be journeying far again. I hope for your peace and safety.",
+            "option": null,
+            "nextIds": [
+              201020018,
+              201020019
+            ],
+            "kind": "NPC"
+          },
+          "201020018": {
+            "type": "Text",
+            "id": 201020018,
+            "sectionId": 2010200,
+            "senderId": null,
+            "text": "Same to you, General!",
+            "option": "You too!",
+            "nextIds": [
+              201020020
+            ],
+            "kind": "Player"
+          },
+          "201020020": {
+            "type": "Text",
+            "id": 201020020,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "Alright, I have a little something for everyone, consider it an apology for the troubles.",
+            "option": null,
+            "nextIds": [
+              201020021
+            ],
+            "kind": "NPC"
+          },
+          "201020021": {
+            "type": "Text",
+            "id": 201020021,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "If you require any aid or need a place to dock the Express, the Luofu will forever welcome your contingent.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201020019": {
+            "type": "Text",
+            "id": 201020019,
+            "sectionId": 2010200,
+            "senderId": null,
+            "text": "Dan Heng, I, and everyone else on the Express will definitely come back to visit!",
+            "option": "We'll come visit!",
+            "nextIds": [
+              201020020
+            ],
+            "kind": "Player"
+          },
+          "201020010": {
+            "type": "Text",
+            "id": 201020010,
+            "sectionId": 2010200,
+            "senderId": null,
+            "text": "Your mentor is something else to be able to leave the letter on the Express unnoticed",
+            "option": "It's indeed a bit spooky",
+            "nextIds": [
+              201020011
+            ],
+            "kind": "Player"
+          },
+          "201020011": {
+            "type": "Sticker",
+            "id": 201020011,
+            "sectionId": 2010200,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201020012
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "201020012": {
+            "type": "Text",
+            "id": 201020012,
+            "sectionId": 2010200,
+            "senderId": null,
+            "text": "I only told the conductor and Dan Heng, no one else. Pom-Pom seems a little worried...",
+            "option": null,
+            "nextIds": [
+              201020013
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201020013": {
+            "type": "Text",
+            "id": 201020013,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "Please relay my apology to the conductor for the rudeness of my mentor.",
+            "option": null,
+            "nextIds": [
+              201020015
+            ],
+            "kind": "NPC"
+          },
+          "201020014": {
+            "type": "Text",
+            "id": 201020014,
+            "sectionId": 2010200,
+            "senderId": null,
+            "text": "Dan Heng looked really serious after I received the letter. Is he okay?",
+            "option": "Is Dan Heng okay?",
+            "nextIds": [
+              201020015
+            ],
+            "kind": "Player"
+          },
+          "201020004": {
+            "type": "Text",
+            "id": 201020004,
+            "sectionId": 2010200,
+            "senderId": null,
+            "text": "What made you think of us, General?",
+            "option": "What made you think of us?",
+            "nextIds": [
+              201020005
+            ],
+            "kind": "Player"
+          },
+          "201020005": {
+            "type": "Text",
+            "id": 201020005,
+            "sectionId": 2010200,
+            "senderId": 1204,
+            "text": "The Express Crew are my friends who went through life and death with me. Isn't it normal to think about my friends?",
+            "option": null,
+            "nextIds": [
+              201020006
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
         "id": 1215101,
         "startIds": [
           121510101

@@ -215,6 +215,457 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1115000,
+        "startIds": [
+          111500000
+        ],
+        "messages": {
+          "111500000": {
+            "type": "Sticker",
+            "id": 111500000,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "[Lame Sticker]",
+            "option": null,
+            "nextIds": [
+              111500001
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30101,
+              "path": "icon/emoji/30101.png",
+              "keywords": "Cheers"
+            }
+          },
+          "111500001": {
+            "type": "Text",
+            "id": 111500001,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "Can you read this message, Express Crew?",
+            "option": null,
+            "nextIds": [
+              111500002,
+              111500004
+            ],
+            "kind": "NPC"
+          },
+          "111500002": {
+            "type": "Text",
+            "id": 111500002,
+            "sectionId": 1115000,
+            "senderId": null,
+            "text": "Yeah, I see it",
+            "option": "Hey, Bronya.",
+            "nextIds": [
+              111500003
+            ],
+            "kind": "Player"
+          },
+          "111500003": {
+            "type": "Text",
+            "id": 111500003,
+            "sectionId": 1115000,
+            "senderId": null,
+            "text": "It's been a while, Bronya",
+            "option": null,
+            "nextIds": [
+              111500006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "111500006": {
+            "type": "Text",
+            "id": 111500006,
+            "sectionId": 1115000,
+            "senderId": 1001,
+            "text": "Bronya! We're missing you so much!",
+            "option": null,
+            "nextIds": [
+              111500007
+            ],
+            "kind": "NPC"
+          },
+          "111500007": {
+            "type": "Text",
+            "id": 111500007,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "Great! I was worried that you couldn't receive messages",
+            "option": null,
+            "nextIds": [
+              111500008
+            ],
+            "kind": "NPC"
+          },
+          "111500008": {
+            "type": "Text",
+            "id": 111500008,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "I know you're busy, so I'll keep it short.",
+            "option": null,
+            "nextIds": [
+              111500009
+            ],
+            "kind": "NPC"
+          },
+          "111500009": {
+            "type": "Text",
+            "id": 111500009,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "Recently, I've been working on preparing the Solwarm Festival, a traditional Belobogian festival. The standard celebrations for this festival have been suspended for years due to the Fragmentum and the lockdown, and Belobogians now really need a heated celebration to lift their spirits.",
+            "option": null,
+            "nextIds": [
+              111500010
+            ],
+            "kind": "NPC"
+          },
+          "111500010": {
+            "type": "Text",
+            "id": 111500010,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "So, if you have time, I'd like to invite you to the Solwarm Festival and witness what we've achieved so far in reviving Belobog",
+            "option": null,
+            "nextIds": [
+              111500011,
+              111500013
+            ],
+            "kind": "NPC"
+          },
+          "111500011": {
+            "type": "Text",
+            "id": 111500011,
+            "sectionId": 1115000,
+            "senderId": null,
+            "text": "I will come, for sure!",
+            "option": "Sure thing!",
+            "nextIds": [
+              111500012
+            ],
+            "kind": "Player"
+          },
+          "111500012": {
+            "type": "Text",
+            "id": 111500012,
+            "sectionId": 1115000,
+            "senderId": 1001,
+            "text": "Me, too! Festivals and celebrations are right up my alley!",
+            "option": null,
+            "nextIds": [
+              111500016
+            ],
+            "kind": "NPC"
+          },
+          "111500016": {
+            "type": "Text",
+            "id": 111500016,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "It'd be great if you can come. Everyone has been missing you",
+            "option": null,
+            "nextIds": [
+              111500017
+            ],
+            "kind": "NPC"
+          },
+          "111500017": {
+            "type": "Text",
+            "id": 111500017,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "Has @DanHeng been busy these days? He hasn't sent any messages in the group chat",
+            "option": null,
+            "nextIds": [
+              111500018
+            ],
+            "kind": "NPC"
+          },
+          "111500018": {
+            "type": "Text",
+            "id": 111500018,
+            "sectionId": 1115000,
+            "senderId": 1001,
+            "text": "He's holed up in his room recently. I guess he's turned off all his devices",
+            "option": null,
+            "nextIds": [
+              111500019
+            ],
+            "kind": "NPC"
+          },
+          "111500019": {
+            "type": "Text",
+            "id": 111500019,
+            "sectionId": 1115000,
+            "senderId": 1001,
+            "text": "We'll check on him for you",
+            "option": null,
+            "nextIds": [
+              111500020
+            ],
+            "kind": "NPC"
+          },
+          "111500020": {
+            "type": "Text",
+            "id": 111500020,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "Thank you, March",
+            "option": null,
+            "nextIds": [
+              111500021
+            ],
+            "kind": "NPC"
+          },
+          "111500021": {
+            "type": "Text",
+            "id": 111500021,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "I'm looking forward to seeing you all at the Solwarm Festival",
+            "option": null,
+            "nextIds": [
+              111500022
+            ],
+            "kind": "NPC"
+          },
+          "111500022": {
+            "type": "Sticker",
+            "id": 111500022,
+            "sectionId": 1115000,
+            "senderId": 1101,
+            "text": "[Lame Sticker]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30102,
+              "path": "icon/emoji/30102.png",
+              "keywords": "Flower"
+            }
+          },
+          "111500013": {
+            "type": "Text",
+            "id": 111500013,
+            "sectionId": 1115000,
+            "senderId": null,
+            "text": "I'm sorry, but I may not have time for that...",
+            "option": "Sorry, maybe next time.",
+            "nextIds": [
+              111500014
+            ],
+            "kind": "Player"
+          },
+          "111500014": {
+            "type": "Text",
+            "id": 111500014,
+            "sectionId": 1115000,
+            "senderId": 1001,
+            "text": "Come on, @{NICKNAME}! Don't tell me you wanna stay in your room and play on your phone all day long?",
+            "option": null,
+            "nextIds": [
+              111500015
+            ],
+            "kind": "NPC"
+          },
+          "111500015": {
+            "type": "Text",
+            "id": 111500015,
+            "sectionId": 1115000,
+            "senderId": 1001,
+            "text": "Don't worry. We'll definitely go there! Festivals and celebrations are right up my alley!",
+            "option": null,
+            "nextIds": [
+              111500016
+            ],
+            "kind": "NPC"
+          },
+          "111500004": {
+            "type": "Text",
+            "id": 111500004,
+            "sectionId": 1115000,
+            "senderId": null,
+            "text": "Yeah, I see it",
+            "option": "Long time no see!",
+            "nextIds": [
+              111500005
+            ],
+            "kind": "Player"
+          },
+          "111500005": {
+            "type": "Text",
+            "id": 111500005,
+            "sectionId": 1115000,
+            "senderId": null,
+            "text": "It's been a while, Bronya",
+            "option": null,
+            "nextIds": [
+              111500006
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1115400,
+        "startIds": [
+          111540000
+        ],
+        "messages": {
+          "111540000": {
+            "type": "Text",
+            "id": 111540000,
+            "sectionId": 1115400,
+            "senderId": 1101,
+            "text": "Where are you, March and {NICKNAME}? Are you all right?",
+            "option": null,
+            "nextIds": [
+              111540001
+            ],
+            "kind": "NPC"
+          },
+          "111540001": {
+            "type": "Text",
+            "id": 111540001,
+            "sectionId": 1115400,
+            "senderId": 1001,
+            "text": "Bronya! We're in the Underworld right now",
+            "option": null,
+            "nextIds": [
+              111540002
+            ],
+            "kind": "NPC"
+          },
+          "111540002": {
+            "type": "Text",
+            "id": 111540002,
+            "sectionId": 1115400,
+            "senderId": 1001,
+            "text": "The IPC's people took over the Great Mine. Us and Seele just kicked them out",
+            "option": null,
+            "nextIds": [
+              111540003
+            ],
+            "kind": "NPC"
+          },
+          "111540003": {
+            "type": "Text",
+            "id": 111540003,
+            "sectionId": 1115400,
+            "senderId": 1101,
+            "text": "I see, you're with Seele",
+            "option": null,
+            "nextIds": [
+              111540004
+            ],
+            "kind": "NPC"
+          },
+          "111540004": {
+            "type": "Text",
+            "id": 111540004,
+            "sectionId": 1115400,
+            "senderId": 1101,
+            "text": "How are things going? Did you get hurt?",
+            "option": null,
+            "nextIds": [
+              111540005
+            ],
+            "kind": "NPC"
+          },
+          "111540005": {
+            "type": "Text",
+            "id": 111540005,
+            "sectionId": 1115400,
+            "senderId": 1001,
+            "text": "Don't worry. We can totally handle this!",
+            "option": null,
+            "nextIds": [
+              111540006,
+              111540008
+            ],
+            "kind": "NPC"
+          },
+          "111540006": {
+            "type": "Text",
+            "id": 111540006,
+            "sectionId": 1115400,
+            "senderId": null,
+            "text": "I'm sorry. We weren't able to persuade Topaz...",
+            "option": "I failed to persuade Topaz.",
+            "nextIds": [
+              111540007
+            ],
+            "kind": "Player"
+          },
+          "111540007": {
+            "type": "Text",
+            "id": 111540007,
+            "sectionId": 1115400,
+            "senderId": 1101,
+            "text": "No worries, {NICKNAME}! This wasn't your responsibility in the first place",
+            "option": null,
+            "nextIds": [
+              111540010
+            ],
+            "kind": "NPC"
+          },
+          "111540010": {
+            "type": "Text",
+            "id": 111540010,
+            "sectionId": 1115400,
+            "senderId": 1101,
+            "text": "Something just happened here, and I can't explain it clearly in messages.",
+            "option": null,
+            "nextIds": [
+              111540011
+            ],
+            "kind": "NPC"
+          },
+          "111540011": {
+            "type": "Text",
+            "id": 111540011,
+            "sectionId": 1115400,
+            "senderId": 1101,
+            "text": "Could you come back to Qlipoth Fort? I need advice from you two on this issue",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111540008": {
+            "type": "Text",
+            "id": 111540008,
+            "sectionId": 1115400,
+            "senderId": null,
+            "text": "I'm afraid the IPC won't stop there",
+            "option": "The IPC won't stop there.",
+            "nextIds": [
+              111540009
+            ],
+            "kind": "Player"
+          },
+          "111540009": {
+            "type": "Text",
+            "id": 111540009,
+            "sectionId": 1115400,
+            "senderId": 1101,
+            "text": "I see. Thanks for trying to negotiate with Topaz. This wasn't your responsibility in the first place.",
+            "option": null,
+            "nextIds": [
+              111540010
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
     ]
   ],
   "info": {

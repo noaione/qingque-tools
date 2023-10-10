@@ -1,0 +1,143 @@
+{
+  "id": 107,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1115100,
+        "startIds": [
+          111510000
+        ],
+        "messages": {
+          "111510000": {
+            "type": "Text",
+            "id": 111510000,
+            "sectionId": 1115100,
+            "senderId": 1001,
+            "text": "Are you there, Miss Topaz?",
+            "option": null,
+            "nextIds": [
+              111510001
+            ],
+            "kind": "NPC"
+          },
+          "111510001": {
+            "type": "Text",
+            "id": 111510001,
+            "sectionId": 1115100,
+            "senderId": 72,
+            "text": "Greetings. Director Topaz is currently busy and unable to reply to your message. Please wait.",
+            "option": null,
+            "nextIds": [
+              111510002
+            ],
+            "kind": "NPC"
+          },
+          "111510002": {
+            "type": "Text",
+            "id": 111510002,
+            "sectionId": 1115100,
+            "senderId": 1001,
+            "text": "An auto-reply? She really doesn't reply to messages during her work hours...",
+            "option": null,
+            "nextIds": [
+              111510003
+            ],
+            "kind": "NPC"
+          },
+          "111510003": {
+            "type": "Text",
+            "id": 111510003,
+            "sectionId": 1115100,
+            "senderId": 72,
+            "text": "Greetings. Director Topaz is currently busy and unable to reply to your message. Please wait.",
+            "option": null,
+            "nextIds": [
+              111510004,
+              111510005
+            ],
+            "kind": "NPC"
+          },
+          "111510004": {
+            "type": "Text",
+            "id": 111510004,
+            "sectionId": 1115100,
+            "senderId": null,
+            "text": "Can you tell me where Topaz has gone?",
+            "option": "AI, please tell me...",
+            "nextIds": [
+              111510006
+            ],
+            "kind": "Player"
+          },
+          "111510006": {
+            "type": "Text",
+            "id": 111510006,
+            "sectionId": 1115100,
+            "senderId": 72,
+            "text": "Hello. Checking Director Topaz's schedule for you...",
+            "option": null,
+            "nextIds": [
+              111510007
+            ],
+            "kind": "NPC"
+          },
+          "111510007": {
+            "type": "Text",
+            "id": 111510007,
+            "sectionId": 1115100,
+            "senderId": 72,
+            "text": "Currently, Director Topaz is on an inspection tour at the History and Culture Museum - The Overworld - Belobog - Jarilo-VI.",
+            "option": null,
+            "nextIds": [
+              111510008
+            ],
+            "kind": "NPC"
+          },
+          "111510008": {
+            "type": "Text",
+            "id": 111510008,
+            "sectionId": 1115100,
+            "senderId": 1001,
+            "text": "This thing is pretty smart. Thank you!",
+            "option": null,
+            "nextIds": [
+              111510009
+            ],
+            "kind": "NPC"
+          },
+          "111510009": {
+            "type": "Text",
+            "id": 111510009,
+            "sectionId": 1115100,
+            "senderId": 72,
+            "text": "Greetings. Director Topaz is currently busy and unable to reply to your message. Please wait.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111510005": {
+            "type": "Text",
+            "id": 111510005,
+            "sectionId": 1115100,
+            "senderId": null,
+            "text": "Just stop repeating yourself and tell me where Topaz has gone",
+            "option": "Stop repeating!",
+            "nextIds": [
+              111510006
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 107,
+    "name": "Group chat with Topaz, March 7th, and {NICKNAME}",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 99
+  }
+}

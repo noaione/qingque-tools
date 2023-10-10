@@ -67,7 +67,7 @@
             "id": 200490002,
             "sectionId": 2004900,
             "senderId": 1209,
-            "text": "I'm spoiled for choice and am having trouble choosing",
+            "text": "The choices are overwhelming and I don't know which to pick",
             "option": null,
             "nextIds": [
               200490003
@@ -103,7 +103,7 @@
             "id": 200490005,
             "sectionId": 2004900,
             "senderId": 1209,
-            "text": "One of them is of Vidyadhara make, forged with the exotic corallium metal of Scalegorge Waterscape and tempered with thaumaspring water, it can be wielded as normal under many extreme circumstances",
+            "text": "One of them is of Vidyadhara make, forged with the exotic corallium metal of Scalegorge Waterscape and tempered with thaumaspring water. Such a blade can be easily wielded even in extreme conditions.",
             "option": null,
             "nextIds": [
               200490006
@@ -230,7 +230,7 @@
             "id": 200490019,
             "sectionId": 2004900,
             "senderId": 1209,
-            "text": "I don't care, whatever comes, I'll deal with them at the end of the month!",
+            "text": "I don't care. I'll deal with whatever happens at the end of the month!",
             "option": null,
             "nextIds": [
               200490020

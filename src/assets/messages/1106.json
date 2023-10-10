@@ -957,7 +957,7 @@
             "id": 200370002,
             "sectionId": 2003700,
             "senderId": 1106,
-            "text": "Hey, do you know how to get sober?",
+            "text": "Hey, do you know how any way to stave off sleepiness?",
             "option": null,
             "nextIds": [
               200370003
@@ -2205,6 +2205,198 @@
               121400019
             ],
             "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1219900,
+        "startIds": [
+          121990000
+        ],
+        "messages": {
+          "121990000": {
+            "type": "Text",
+            "id": 121990000,
+            "sectionId": 1219900,
+            "senderId": 1106,
+            "text": "{NICKNAME}, you there?",
+            "option": null,
+            "nextIds": [
+              121990001,
+              121990002
+            ],
+            "kind": "NPC"
+          },
+          "121990001": {
+            "type": "Sticker",
+            "id": 121990001,
+            "sectionId": 1219900,
+            "senderId": null,
+            "text": "[Greet]",
+            "option": null,
+            "nextIds": [
+              121990003
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "121990003": {
+            "type": "Text",
+            "id": 121990003,
+            "sectionId": 1219900,
+            "senderId": 1106,
+            "text": "Recently, a batch of scraps that don't meet the construction standards have been filtered out at the Pillars of Creation",
+            "option": null,
+            "nextIds": [
+              121990004
+            ],
+            "kind": "NPC"
+          },
+          "121990004": {
+            "type": "Text",
+            "id": 121990004,
+            "sectionId": 1219900,
+            "senderId": 1106,
+            "text": "The staff casually piled these scraps aside for the sake of convenience",
+            "option": null,
+            "nextIds": [
+              121990005
+            ],
+            "kind": "NPC"
+          },
+          "121990005": {
+            "type": "Text",
+            "id": 121990005,
+            "sectionId": 1219900,
+            "senderId": 1106,
+            "text": "But they all disappeared, so I'm suspecting misappropriation",
+            "option": null,
+            "nextIds": [
+              121990006
+            ],
+            "kind": "NPC"
+          },
+          "121990006": {
+            "type": "Text",
+            "id": 121990006,
+            "sectionId": 1219900,
+            "senderId": 1106,
+            "text": "It wouldn't have been a big deal if those scraps aren't that low quality. It'd be bad if someone used it to build a house",
+            "option": null,
+            "nextIds": [
+              121990007
+            ],
+            "kind": "NPC"
+          },
+          "121990007": {
+            "type": "Text",
+            "id": 121990007,
+            "sectionId": 1219900,
+            "senderId": 1106,
+            "text": "If you have any clues, come find me at the work site",
+            "option": null,
+            "nextIds": [
+              121990010,
+              121990012
+            ],
+            "kind": "NPC"
+          },
+          "121990010": {
+            "type": "Sticker",
+            "id": 121990010,
+            "sectionId": 1219900,
+            "senderId": null,
+            "text": "[ok]",
+            "option": null,
+            "nextIds": [
+              121990011
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20004,
+              "path": "icon/emoji/20004.png",
+              "keywords": "Understood"
+            }
+          },
+          "121990011": {
+            "type": "Text",
+            "id": 121990011,
+            "sectionId": 1219900,
+            "senderId": null,
+            "text": "Will do",
+            "option": null,
+            "nextIds": [
+              121990014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121990014": {
+            "type": "Sticker",
+            "id": 121990014,
+            "sectionId": 1219900,
+            "senderId": 1106,
+            "text": "[Thumbs Up]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "121990012": {
+            "type": "Sticker",
+            "id": 121990012,
+            "sectionId": 1219900,
+            "senderId": null,
+            "text": "[Shocked]",
+            "option": null,
+            "nextIds": [
+              121990013
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "121990013": {
+            "type": "Text",
+            "id": 121990013,
+            "sectionId": 1219900,
+            "senderId": null,
+            "text": "Will do!",
+            "option": null,
+            "nextIds": [
+              121990014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121990002": {
+            "type": "Sticker",
+            "id": 121990002,
+            "sectionId": 1219900,
+            "senderId": null,
+            "text": "[Confused]",
+            "option": null,
+            "nextIds": [
+              121990003
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
           }
         }
       }

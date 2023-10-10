@@ -1397,8 +1397,8 @@
             "id": 121750105,
             "sectionId": 1216401,
             "senderId": null,
-            "text": "Imma legit gonna be late",
-            "option": "Imma legit gonna be late",
+            "text": "Imma legit be late",
+            "option": "Imma legit be late",
             "nextIds": [],
             "kind": "Player"
           },
@@ -1407,7 +1407,7 @@
             "id": 121640117,
             "sectionId": 1216401,
             "senderId": null,
-            "text": "In the case, doesn't that mean Xiaohan is also part of the guild?",
+            "text": "In that case, doesn't that mean Xiaohan is also part of the guild?",
             "option": "In that case...",
             "nextIds": [
               121640118
@@ -1469,6 +1469,6 @@
     "signature": null,
     "iconPath": "icon/avatar/GroupDefault.png",
     "type": 3,
-    "camp": 6
+    "camp": 99
   }
 }

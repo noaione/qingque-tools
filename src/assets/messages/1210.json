@@ -1,0 +1,374 @@
+{
+  "id": 1210,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2009700,
+        "startIds": [
+          200970000
+        ],
+        "messages": {
+          "200970000": {
+            "type": "Text",
+            "id": 200970000,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Hey fam, remember me?",
+            "option": null,
+            "nextIds": [
+              200970001,
+              200970003,
+              200970006
+            ],
+            "kind": "NPC"
+          },
+          "200970001": {
+            "type": "Text",
+            "id": 200970001,
+            "sectionId": 2009700,
+            "senderId": null,
+            "text": "Of course, Little Gui!",
+            "option": "Of course",
+            "nextIds": [
+              200970002
+            ],
+            "kind": "Player"
+          },
+          "200970002": {
+            "type": "Text",
+            "id": 200970002,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Heh, even you started calling me Little Gui",
+            "option": null,
+            "nextIds": [
+              200970010
+            ],
+            "kind": "NPC"
+          },
+          "200970010": {
+            "type": "Text",
+            "id": 200970010,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "We're practically friends!",
+            "option": null,
+            "nextIds": [
+              200970011
+            ],
+            "kind": "NPC"
+          },
+          "200970011": {
+            "type": "Text",
+            "id": 200970011,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "BTW, I never asked before, where are you from originally?",
+            "option": null,
+            "nextIds": [
+              200970012,
+              200970015,
+              200970018
+            ],
+            "kind": "NPC"
+          },
+          "200970012": {
+            "type": "Text",
+            "id": 200970012,
+            "sectionId": 2009700,
+            "senderId": null,
+            "text": "I'm but a Nameless aboard the Astral Express",
+            "option": "I'm from the Astral Express",
+            "nextIds": [
+              200970013
+            ],
+            "kind": "Player"
+          },
+          "200970013": {
+            "type": "Text",
+            "id": 200970013,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Even a Nameless comes from somewhere",
+            "option": null,
+            "nextIds": [
+              200970014
+            ],
+            "kind": "NPC"
+          },
+          "200970014": {
+            "type": "Text",
+            "id": 200970014,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "It's fine if you don't wanna spill the beans, we're all fish out of water at some point.",
+            "option": null,
+            "nextIds": [
+              200970021
+            ],
+            "kind": "NPC"
+          },
+          "200970021": {
+            "type": "Text",
+            "id": 200970021,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Sigh, my home world has already been destroyed by the Legion, so I technically don't have a home world either",
+            "option": null,
+            "nextIds": [
+              200970022
+            ],
+            "kind": "NPC"
+          },
+          "200970022": {
+            "type": "Text",
+            "id": 200970022,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "I guess we are both outworlders who are just temporarily calling the Xianzhou our home",
+            "option": null,
+            "nextIds": [
+              200970023
+            ],
+            "kind": "NPC"
+          },
+          "200970023": {
+            "type": "Text",
+            "id": 200970023,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "If you ever feel unsure about the Xianzhou life or run into any trouble, come find me anytime",
+            "option": null,
+            "nextIds": [
+              200970024
+            ],
+            "kind": "NPC"
+          },
+          "200970024": {
+            "type": "Text",
+            "id": 200970024,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "I'm mostly based in the Aurum Alley, working as a street performer, and occasionally doing some livestreaming as a side hustle.",
+            "option": null,
+            "nextIds": [
+              200970025
+            ],
+            "kind": "NPC"
+          },
+          "200970025": {
+            "type": "Text",
+            "id": 200970025,
+            "sectionId": 2009700,
+            "senderId": null,
+            "text": "If you ever run into any sticky situations or troublesome characters, just give me a holler",
+            "option": "If needed, call me",
+            "nextIds": [
+              200970026
+            ],
+            "kind": "Player"
+          },
+          "200970026": {
+            "type": "Text",
+            "id": 200970026,
+            "sectionId": 2009700,
+            "senderId": null,
+            "text": "I'm VERY strong",
+            "option": null,
+            "nextIds": [
+              200970027
+            ],
+            "kind": "PlayerAuto"
+          },
+          "200970027": {
+            "type": "Text",
+            "id": 200970027,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Aye aye, dependable new friend!",
+            "option": null,
+            "nextIds": [
+              200970028
+            ],
+            "kind": "NPC"
+          },
+          "200970028": {
+            "type": "Text",
+            "id": 200970028,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Let's hang out again some time, cheers!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "200970015": {
+            "type": "Text",
+            "id": 200970015,
+            "sectionId": 2009700,
+            "senderId": null,
+            "text": "I call the whole cosmos my home",
+            "option": "The Cosmos is my home",
+            "nextIds": [
+              200970016
+            ],
+            "kind": "Player"
+          },
+          "200970016": {
+            "type": "Text",
+            "id": 200970016,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Even someone who traverses the cosmos must've come from somewhere",
+            "option": null,
+            "nextIds": [
+              200970017
+            ],
+            "kind": "NPC"
+          },
+          "200970017": {
+            "type": "Text",
+            "id": 200970017,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "It's fine if you don't wanna spill the beans, we're all fish out of water at some point.",
+            "option": null,
+            "nextIds": [
+              200970021
+            ],
+            "kind": "NPC"
+          },
+          "200970018": {
+            "type": "Text",
+            "id": 200970018,
+            "sectionId": 2009700,
+            "senderId": null,
+            "text": "I actually don't remember where I come from",
+            "option": "I don't remember",
+            "nextIds": [
+              200970019
+            ],
+            "kind": "Player"
+          },
+          "200970019": {
+            "type": "Text",
+            "id": 200970019,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Oh",
+            "option": null,
+            "nextIds": [
+              200970020
+            ],
+            "kind": "NPC"
+          },
+          "200970020": {
+            "type": "Text",
+            "id": 200970020,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Seems like I stumbled on some touchy subjects, my apologies",
+            "option": null,
+            "nextIds": [
+              200970021
+            ],
+            "kind": "NPC"
+          },
+          "200970003": {
+            "type": "Text",
+            "id": 200970003,
+            "sectionId": 2009700,
+            "senderId": null,
+            "text": "Sorry, met too many people lately, who are you",
+            "option": "Who are you again?",
+            "nextIds": [
+              200970004
+            ],
+            "kind": "Player"
+          },
+          "200970004": {
+            "type": "Text",
+            "id": 200970004,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Ouch, I thought I'd be unforgetable",
+            "option": null,
+            "nextIds": [
+              200970005
+            ],
+            "kind": "NPC"
+          },
+          "200970005": {
+            "type": "Text",
+            "id": 200970005,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Aetherium Wars! Interastral Tournament Festival! Guinaifen! Remember now?",
+            "option": null,
+            "nextIds": [
+              200970010
+            ],
+            "kind": "NPC"
+          },
+          "200970006": {
+            "type": "Text",
+            "id": 200970006,
+            "sectionId": 2009700,
+            "senderId": null,
+            "text": "Sorry, I'm not interested in tea leaves, insurance, or anything else",
+            "option": "Not interested",
+            "nextIds": [
+              200970007
+            ],
+            "kind": "Player"
+          },
+          "200970007": {
+            "type": "Text",
+            "id": 200970007,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Augh",
+            "option": null,
+            "nextIds": [
+              200970008
+            ],
+            "kind": "NPC"
+          },
+          "200970008": {
+            "type": "Text",
+            "id": 200970008,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "What even are those",
+            "option": null,
+            "nextIds": [
+              200970009
+            ],
+            "kind": "NPC"
+          },
+          "200970009": {
+            "type": "Text",
+            "id": 200970009,
+            "sectionId": 2009700,
+            "senderId": 1210,
+            "text": "Aetherium Wars! Interastral Tournament Festival! Guinaifen! Remember now?",
+            "option": null,
+            "nextIds": [
+              200970010
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1210,
+    "name": "Guinaifen",
+    "signature": "Not causing trouble, not fearing trouble, and no crazy challenges",
+    "iconPath": "icon/avatar/1210.png",
+    "type": 1,
+    "camp": 4
+  }
+}

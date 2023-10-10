@@ -1,0 +1,167 @@
+{
+  "id": 77,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1115300,
+        "startIds": [
+          111530000
+        ],
+        "messages": {
+          "111530000": {
+            "type": "Text",
+            "id": 111530000,
+            "sectionId": 1115300,
+            "senderId": 1101,
+            "text": "We can talk here, Gepard",
+            "option": null,
+            "nextIds": [
+              111530001
+            ],
+            "kind": "NPC"
+          },
+          "111530001": {
+            "type": "Text",
+            "id": 111530001,
+            "sectionId": 1115300,
+            "senderId": 1101,
+            "text": "And share your reports with the Crew",
+            "option": null,
+            "nextIds": [
+              111530002
+            ],
+            "kind": "NPC"
+          },
+          "111530002": {
+            "type": "Text",
+            "id": 111530002,
+            "sectionId": 1115300,
+            "senderId": 1104,
+            "text": "Yes, Lady Bronya",
+            "option": null,
+            "nextIds": [
+              111530010,
+              111530011
+            ],
+            "kind": "NPC"
+          },
+          "111530010": {
+            "type": "Text",
+            "id": 111530010,
+            "sectionId": 1115300,
+            "senderId": null,
+            "text": "The more details, the better",
+            "option": "The more details, the better",
+            "nextIds": [
+              111530003
+            ],
+            "kind": "Player"
+          },
+          "111530003": {
+            "type": "Text",
+            "id": 111530003,
+            "sectionId": 1115300,
+            "senderId": 1104,
+            "text": "The Supreme Guardian ordered me to garrison in Rivet Town with Silvermane Guards and automatons to stop the IPC's infiltration.",
+            "option": null,
+            "nextIds": [
+              111530004
+            ],
+            "kind": "NPC"
+          },
+          "111530004": {
+            "type": "Text",
+            "id": 111530004,
+            "sectionId": 1115300,
+            "senderId": 1104,
+            "text": "The defense went smoothly at first, but then Topaz herself appeared with some special technology that allowed her to seize control of all our automatons in an instant.",
+            "option": null,
+            "nextIds": [
+              111530005
+            ],
+            "kind": "NPC"
+          },
+          "111530005": {
+            "type": "Text",
+            "id": 111530005,
+            "sectionId": 1115300,
+            "senderId": 1104,
+            "text": "It seems Topaz is heading for a certain area in the depths of Rivet Town. For some reason, Svarog is with her too",
+            "option": null,
+            "nextIds": [
+              111530006
+            ],
+            "kind": "NPC"
+          },
+          "111530006": {
+            "type": "Text",
+            "id": 111530006,
+            "sectionId": 1115300,
+            "senderId": 1001,
+            "text": "Svarog!? Is he trying to go against us again...?",
+            "option": null,
+            "nextIds": [
+              111530007
+            ],
+            "kind": "NPC"
+          },
+          "111530007": {
+            "type": "Text",
+            "id": 111530007,
+            "sectionId": 1115300,
+            "senderId": 1101,
+            "text": "I hope not. My instinct tells me that there's something else behind this... but I don't know for sure yet",
+            "option": null,
+            "nextIds": [
+              111530008
+            ],
+            "kind": "NPC"
+          },
+          "111530008": {
+            "type": "Text",
+            "id": 111530008,
+            "sectionId": 1115300,
+            "senderId": 1003,
+            "text": "At least we know where we can find Topaz",
+            "option": null,
+            "nextIds": [
+              111530009
+            ],
+            "kind": "NPC"
+          },
+          "111530009": {
+            "type": "Text",
+            "id": 111530009,
+            "sectionId": 1115300,
+            "senderId": 1003,
+            "text": "Let's go, March, {NICKNAME}.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111530011": {
+            "type": "Text",
+            "id": 111530011,
+            "sectionId": 1115300,
+            "senderId": null,
+            "text": "Did you have a fight?",
+            "option": "Did you have a fight?",
+            "nextIds": [
+              111530003
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 77,
+    "name": "Group chat with Bronya, Gepard, and {NICKNAME}",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 3
+  }
+}
