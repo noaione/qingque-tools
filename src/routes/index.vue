@@ -6,7 +6,7 @@
       <p class="text-lg mt-2 text-center">A collection of tools for Honkai: Star Rail</p>
     </div>
     <hr class="border-gray-500 mt-2" />
-    <div class="flex flex-row justify-center items-center mt-4 gap-8 mx-2">
+    <div class="flex flex-row flex-wrap justify-center items-center mt-4 gap-8 mx-2">
       <NavButton
         title="Scoring"
         target="/scores"
