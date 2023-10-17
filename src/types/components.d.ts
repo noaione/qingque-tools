@@ -8,10 +8,10 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ClearBtn: typeof import('./../components/Buttons/ClearBtn.vue')['default']
-    GambaChara: typeof import('./../components/GambaChara.vue')['default']
-    GambaCharacters: typeof import('./../components/GambaCharacters.vue')['default']
-    GambaSlot: typeof import('./../components/GambaSlot.vue')['default']
-    GambaSlots: typeof import('./../components/GambaSlots.vue')['default']
+    GambaChara: typeof import('./../components/Gamba/GambaChara.vue')['default']
+    GambaCharacters: typeof import('./../components/Gamba/GambaCharacters.vue')['default']
+    GambaSlot: typeof import('./../components/Gamba/GambaSlot.vue')['default']
+    GambaSlots: typeof import('./../components/Gamba/GambaSlots.vue')['default']
     IMdiBellOutline: typeof import('~icons/mdi/bell-outline')['default']
     IMdiMail: typeof import('~icons/mdi/mail')['default']
     IMdiStarFourPointsOutline: typeof import('~icons/mdi/star-four-points-outline')['default']
@@ -29,13 +29,13 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SaveBtn: typeof import('./../components/Buttons/SaveBtn.vue')['default']
-    ScoreEditor: typeof import('./../components/ScoreEditor.vue')['default']
+    ScoreEditor: typeof import('./../components/Scores/ScoreEditor.vue')['default']
     ScoreHead: typeof import('./../components/Scores/ScoreHead.vue')['default']
     ScoreMainStats: typeof import('./../components/Scores/ScoreMainStats.vue')['default']
     ScoresAdd: typeof import('./../components/Scores/ScoresAdd.vue')['default']
     ScoreSelector: typeof import('./../components/Scores/ScoreSelector.vue')['default']
     ScoreTable: typeof import('./../components/Scores/ScoreTable.vue')['default']
     ScoreView: typeof import('./../components/Scores/ScoreView.vue')['default']
-    UploadArea: typeof import('./../components/UploadArea.vue')['default']
+    UploadArea: typeof import('./../components/Scores/UploadArea.vue')['default']
   }
 }
