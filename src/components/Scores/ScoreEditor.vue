@@ -11,7 +11,7 @@
       <ScoreView />
     </div>
   </div>
-  <ScoresAdd :show="addModal" @close="addModal = false" />
+  <ScoresAdd v-if="missingCharacters" :show="addModal" @close="addModal = false" />
   <ModalView :show="removeConfirm" @close="removeConfirm = false">
     <template #header>
       <h3 class="text-xl font-bold">Are you sure?</h3>
@@ -37,11 +37,20 @@
 
 <script setup lang="ts">
 import { useScoresStore } from "@/stores";
+import charactersJSON from "@/assets/characters.json";
 
 const scores = useScoresStore();
 
 const addModal = ref(false);
 const removeConfirm = ref(false);
+
+const missingCharacters = computed(() => {
+  const scoreIds = scores.scores.map((s) => s.id);
+  const charaIds = Object.keys(charactersJSON);
+
+  // Find charaIds that are not in scoreIds
+  return charaIds.filter((id) => !scoreIds.includes(id));
+});
 
 function removeScoreKey() {
   if (scores.current) {

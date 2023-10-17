@@ -50,7 +50,7 @@ export const StatsTypeList: StatsType[] = [
 ];
 
 export type StatsTypeDict = {
-  [stats in StatsType]: number;
+  [stats in StatsType]?: number;
 };
 
 export type ScoreMainAffix = {

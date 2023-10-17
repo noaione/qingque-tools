@@ -18,6 +18,66 @@ interface ScoreStore {
   cIdx: string | null; // index
 }
 
+const defaultScore: ScoreCharacter = {
+  main: {
+    "1": {
+      HPDelta: 0
+    },
+    "2": {
+      AttackDelta: 0
+    },
+    "3": {
+      HPAddedRatio: 0,
+      AttackAddedRatio: 0,
+      DefenceAddedRatio: 0,
+      CriticalChanceBase: 0,
+      CriticalDamageBase: 0,
+      HealRatioBase: 0,
+      StatusProbabilityBase: 0
+    },
+    "4": {
+      HPAddedRatio: 0,
+      AttackAddedRatio: 0,
+      DefenceAddedRatio: 0,
+      SpeedDelta: 0
+    },
+    "5": {
+      HPAddedRatio: 0,
+      AttackAddedRatio: 0,
+      DefenceAddedRatio: 0,
+      PhysicalAddedRatio: 0,
+      FireAddedRatio: 0,
+      IceAddedRatio: 0,
+      ThunderAddedRatio: 0,
+      WindAddedRatio: 0,
+      QuantumAddedRatio: 0,
+      ImaginaryAddedRatio: 0
+    },
+    "6": {
+      BreakDamageAddedRatioBase: 0,
+      SPRatioBase: 0,
+      HPAddedRatio: 0,
+      AttackAddedRatio: 0,
+      DefenceAddedRatio: 0
+    }
+  },
+  weight: {
+    HPDelta: 0,
+    AttackDelta: 0,
+    DefenceDelta: 0,
+    HPAddedRatio: 0,
+    AttackAddedRatio: 0,
+    DefenceAddedRatio: 0,
+    SpeedDelta: 0,
+    CriticalChanceBase: 0,
+    CriticalDamageBase: 0,
+    StatusProbabilityBase: 0,
+    StatusResistanceBase: 0,
+    BreakDamageAddedRatioBase: 0
+  },
+  max: 0.0
+};
+
 export const useScoresStore = defineStore("scores", {
   state: (): ScoreStore => {
     return {
@@ -139,6 +199,31 @@ export const useScoresStore = defineStore("scores", {
       } else {
         this.cIdx = newId;
       }
+    },
+    addCharacter(id: string) {
+      const index = this.scores.findIndex((score) => score.id === id);
+      if (index !== -1) return;
+
+      // Copy dict
+      const score = JSON.parse(JSON.stringify(defaultScore)) as ScoreCharacter;
+      const scores = this.scores;
+      // Push the new character
+      scores.push({
+        id,
+        data: score,
+        max: calculateMaximumPossibleValues(score)
+      });
+
+      // Sort the characters
+      scores.sort((a, b) => {
+        const aModel = Number(a.id);
+        const bModel = Number(b.id);
+        return aModel - bModel;
+      });
+
+      this.scores = scores;
+      // Set the current character
+      this.cIdx = id;
     }
   }
 });

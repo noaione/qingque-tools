@@ -5,7 +5,11 @@
     </template>
     <template #footer>
       <div class="flex flex-row gap-2">
-        <button class="btn-basic btn-green-add" @click="addCharacter" :disabled="charaExist || !charaInGame">
+        <button
+          class="btn-basic btn-green-add"
+          @click="addCharacter"
+          :disabled="missingCharacters.length < 1"
+        >
           Add
         </button>
         <button class="btn-basic bg-red-600 hover:bg-red-500" @click="emit('close')">Cancel</button>
@@ -14,18 +18,17 @@
 
     <div class="flex flex-col">
       <div class="flex flex-col">
-        <label class="text-gray-200 mb-1">ID</label>
-        <input
-          type="number"
-          class="form-input rounded-md bg-gray-900"
-          placeholder="ID"
+        <label class="text-gray-200 mb-2 font-semibold">Character</label>
+        <select
+          class="form-select bg-gray-900 rounded-md text-gray-100"
           :value="valueId"
-          @change="valueId = ($event.currentTarget as HTMLInputElement)?.value"
-        />
-      </div>
-      <div class="flex flex-col mt-4">
-        <label class="text-gray-200">Character:</label>
-        <p class="font-bold">{{ charaName }}</p>
+          :disabled="missingCharacters.length < 1"
+          @change="onSelectChara"
+        >
+          <option v-for="chara in missingCharacters" :key="chara.tag" :value="chara.id">
+            {{ getName(chara) }}
+          </option>
+        </select>
       </div>
     </div>
   </ModalView>
@@ -33,8 +36,8 @@
 
 <script setup lang="ts">
 import characterJSON from "@/assets/characters.json";
+import { type Character, getCharacterPath } from "@/models/characters";
 import { useScoresStore } from "@/stores";
-import { isNone } from "@/utils";
 
 const props = defineProps<{
   show: boolean;
@@ -47,42 +50,40 @@ const modal = ref(false);
 const valueId = ref<string>();
 const stores = useScoresStore();
 
-function isCharaExist(charaId: string) {
-  const charaFound = stores.scoresWithModel.find((score) => score.model.id === charaId);
-  return charaFound !== undefined;
+const missingCharacters = computed(() => {
+  const ignoredIds = ["8002", "8003"];
+
+  const scoreIds = stores.scores.map((s) => s.id);
+  const charaIds = Object.keys(characterJSON);
+
+  // Find charaIds that are not in scoreIds
+  const missingIds = charaIds.filter((id) => !scoreIds.includes(id)).filter((id) => !ignoredIds.includes(id));
+  if (missingIds.length === 0) {
+    return [];
+  }
+
+  return missingIds.map((id) => characterJSON[id as keyof typeof characterJSON]) as Character[];
+});
+
+function getName(model: Character) {
+  if (model.name.includes("{NICKNAME}")) {
+    return (
+      model.name.replace("{NICKNAME}", "Trailblazer") + ` (${getCharacterPath(model.path)}/${model.element})`
+    );
+  }
+  return model.name;
 }
 
-const charaExist = computed(() => {
-  return isCharaExist(valueId.value ?? "");
-});
-const charaInGame = computed(() => {
-  if (isNone(valueId.value)) {
-    return false;
+function onSelectChara(e: Event) {
+  const target = e.currentTarget as HTMLSelectElement;
+  const id = target.value;
+  if (id) {
+    valueId.value = id;
   }
-  const charaInfo = characterJSON[valueId.value as keyof typeof characterJSON];
-  return charaInfo !== undefined;
-});
-
-const charaName = computed(() => {
-  if (isNone(valueId.value)) {
-    return "Waiting...";
-  }
-
-  const charaInfo = characterJSON[valueId.value as keyof typeof characterJSON];
-
-  let charaNameEx = charaInfo?.name;
-  if (charaExist.value && charaNameEx !== undefined) {
-    charaNameEx += " (Already exist!)";
-  }
-
-  return charaNameEx ?? "Not found!";
-});
+}
 
 function addCharacter() {
-  if (charaExist.value) {
-    return;
-  }
-  // stores.addCharacter();
+  stores.addCharacter(valueId.value ?? "");
   emit("close");
 }
 
