@@ -60,10 +60,13 @@ function onMessageOptionSelected(message: MessageContents) {
 
 function startMessageSectionsChaining(messageChains: MessageSections[]) {
   clearTimeout(nextWaiter.value);
+  optionsSelections.value = [];
   activeSections.value = [];
+  selectedMessage.value = undefined;
   console.log("Starting message sections chaining");
   messagesGroups.value = messageChains;
   // Start first chain
+  activeSection.value = messageChains[0].id;
   activeSections.value = [messageChains[0].id];
 }
 
