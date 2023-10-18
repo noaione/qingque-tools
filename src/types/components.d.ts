@@ -18,6 +18,7 @@ declare module 'vue' {
     LoadBtn: typeof import('./../components/Buttons/LoadBtn.vue')['default']
     MessageContent: typeof import('./../components/Messages/MessageContent.vue')['default']
     MessageMission: typeof import('./../components/Messages/MessageMission.vue')['default']
+    MessageNavButton: typeof import('./../components/Messages/MessageNavButton.vue')['default']
     MessageOptions: typeof import('./../components/Messages/MessageOptions.vue')['default']
     MessagesConfig: typeof import('./../components/Messages/MessagesConfig.vue')['default']
     MessageSections: typeof import('./../components/Messages/MessageSections.vue')['default']

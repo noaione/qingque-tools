@@ -16,12 +16,13 @@
       <div class="flex flex-col">
         <label class="text-gray-200 mb-1">Name</label>
         <input
+          v-model="tbName"
           type="text"
           class="form-input rounded-md bg-gray-900"
           placeholder="Name..."
           maxlength="20"
-          :value="tbName"
-          @change="tbName = ($event.currentTarget as HTMLInputElement)?.value"
+          @keypress="nameLimiter"
+          @paste="pasteLimiter"
         />
       </div>
       <div class="flex flex-col mt-2">
@@ -50,6 +51,22 @@ const modal = ref(false);
 
 const tbName = useMessageConfigStorage("tbName", "Trailblazer");
 const tbGender = useMessageConfigStorage("tbGender", "M");
+
+function nameLimiter(ev: KeyboardEvent) {
+  // Only allow letters and numbers
+  if (!/[a-zA-Z0-9]/.test(ev.key)) {
+    ev.preventDefault();
+  }
+}
+
+function pasteLimiter(ev: ClipboardEvent) {
+  // Strip out non-alphanumeric characters
+  ev.preventDefault();
+  // get data
+  const text = ev.clipboardData?.getData("text/plain");
+  // insert stripped data
+  tbName.value = text?.replace(/[^a-zA-Z0-9]/g, "") ?? tbName.value;
+}
 </script>
 
 <style scoped lang="postcss">

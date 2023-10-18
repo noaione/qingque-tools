@@ -7,12 +7,13 @@
       <MessagesConfig class="mt-4" />
     </div>
     <hr class="border-gray-500 mt-2" />
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 justify-center items-center gap-4 mt-4 mx-2">
-      <NavButton
-        :target="`/messages/${message.id}`"
-        :title="message.name.replace('{NICKNAME}', 'Trailblazer')"
-        :description="message.signature ?? `ID: ${message.id}` ?? undefined"
-        :key="`msg-${message.id}`"
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 justify-center items-start gap-4 mt-4 mx-2">
+      <MessageNavButton
+        :target="message.id"
+        :key="`msg-nav-${message.id}`"
+        :author="message.name"
+        :signature="message.signature"
+        :icon="message.iconPath"
         v-for="message in allMessages"
       />
     </div>
