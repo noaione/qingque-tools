@@ -3,7 +3,15 @@ import { useLocalStorage } from "@vueuse/core";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
 
+export interface MessageContentsWithGroup {
+  groupId: number;
+  contents: MessageContents;
+}
+
 export const messageKey = Symbol("Message Sections Handling Key") as InjectionKey<Ref<readonly number[]>>;
+export const messageOptionKey = Symbol("Message Sections Option Handling Key") as InjectionKey<
+  Ref<MessageContentsWithGroup | undefined>
+>;
 
 export function useMessageConfigStorage<T = any>(
   configName: string,
@@ -79,4 +87,15 @@ export function* makeMessagesChain(section: MessageSections, startId?: number) {
     currentId = currentMessage.nextIds[0];
     parentMessage = currentMessage;
   }
+}
+
+export function targetMessageScroll(id: string) {
+  nextTick(() => {
+    const target = document.getElementById(id);
+    if (target) {
+      setTimeout(() => {
+        target.scrollIntoView({ behavior: "smooth" });
+      }, 250);
+    }
+  });
 }

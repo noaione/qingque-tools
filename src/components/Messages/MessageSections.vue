@@ -1,5 +1,5 @@
 <template>
-  <TransitionGroup tag="div" name="message-popup">
+  <TransitionGroup tag="div" name="message-popup" v-if="isActive">
     <MessageContent
       :id="`msg-${message.id}`"
       :message="message"
@@ -9,7 +9,6 @@
       v-for="(message, index) in messagesQueue"
     />
   </TransitionGroup>
-  <MessageOptions :messages="optionsSelections" @message-select="onMessageOptionSelected" />
   <MessageMission v-if="activeMission" :mission="activeMission" />
 </template>
 
@@ -23,7 +22,14 @@ import type {
   MessageSections
 } from "@/models/messages";
 import { isNone } from "@/utils";
-import { makeMessagesChain, MessageChain, messageKey } from "@/utils/messages";
+import {
+  makeMessagesChain,
+  MessageChain,
+  type MessageContentsWithGroup,
+  messageKey,
+  messageOptionKey,
+  targetMessageScroll
+} from "@/utils/messages";
 
 const props = defineProps<{
   messageSection: MessageSections;
@@ -31,9 +37,11 @@ const props = defineProps<{
 }>();
 const emits = defineEmits<{
   (e: "completed", id: number): void;
+  (e: "choices", choices: MessageContents[]): void;
 }>();
 
-const activeSections = inject(messageKey) as Ref<number[]>;
+const activeSections = inject(messageKey) as Ref<readonly number[]>;
+const selectedOption = inject(messageOptionKey) as Ref<MessageContentsWithGroup | undefined>;
 console.log("Injection active sections", activeSections);
 
 const chainInterval = ref<number>();
@@ -41,19 +49,11 @@ const completed = ref(false);
 const messagesGroups = ref(props.messageSection);
 const messagesGenerator = ref<Generator<MessageChain, void, unknown>>();
 const messagesQueue = ref<MessageContents[]>([]);
-const optionsSelections = ref<MessageContents[]>([]);
 const activeMission = ref<MessageMission>();
 
-function targetScroll(id: string) {
-  nextTick(() => {
-    const target = document.getElementById(id);
-    if (target) {
-      setTimeout(() => {
-        target.scrollIntoView({ behavior: "smooth" });
-      }, 250);
-    }
-  });
-}
+const isActive = computed(() => {
+  return activeSections.value.includes(props.messageSection.id);
+});
 
 const usedContacts = computed(() => {
   const contacts = {} as Record<string, MessageAuthorInfo>;
@@ -76,11 +76,7 @@ function chainMessageOptionsByIds(startIds: number[]) {
     return message;
   });
 
-  optionsSelections.value = mappedMessages;
-  const lastValue = mappedMessages[mappedMessages.length - 1];
-  nextTick(() => {
-    targetScroll(`msg-opts-${lastValue.id}`);
-  });
+  emits("choices", mappedMessages);
 }
 
 function chainMessageOptions(message: MessageContents) {
@@ -122,7 +118,7 @@ function setSectionAsComplete() {
     // add separator
     const separator = createSectionSeparator();
     messagesQueue.value.push(createSectionSeparator());
-    targetScroll(`msg-${separator.id}`);
+    targetMessageScroll(`msg-${separator.id}`);
   }
   nextTick(() => {
     setTimeout(() => {
@@ -161,7 +157,7 @@ function startGeneratorProcess() {
         chainMessageOptions(nextMessage);
       } else {
         messagesQueue.value.push(message.current);
-        targetScroll(`msg-${message.current.id}`);
+        targetMessageScroll(`msg-${message.current.id}`);
       }
     }
   }, 1000);
@@ -175,7 +171,6 @@ function startMessageChain(newValue: MessageSections) {
   messagesGenerator.value = undefined;
   chainInterval.value = undefined;
   messagesQueue.value = [];
-  optionsSelections.value = [];
   messagesGroups.value = newValue;
 
   const precomputedChain = makeMessagesChain(newValue);
@@ -196,10 +191,9 @@ function startMessageChain(newValue: MessageSections) {
 }
 
 function onMessageOptionSelected(message: MessageContents) {
-  optionsSelections.value = [];
   // Push selection to queue
   messagesQueue.value.push(message);
-  targetScroll(`msg-${message.id}`);
+  targetMessageScroll(`msg-${message.id}`);
   // Create new chain
   const { nextIds } = message;
   if (!nextIds.length) {
@@ -221,6 +215,16 @@ watch(
     console.log("Active sections changed", newSections);
     if (newSections.includes(props.messageSection.id)) {
       startMessageChain(props.messageSection);
+    }
+  }
+);
+watch(
+  () => selectedOption.value,
+  (newOption) => {
+    console.log("Selected option changed", newOption);
+    if (newOption && newOption.groupId === props.messageSection.id) {
+      selectedOption.value = undefined;
+      onMessageOptionSelected(newOption.contents);
     }
   }
 );
