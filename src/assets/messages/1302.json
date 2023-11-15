@@ -1,0 +1,1503 @@
+{
+  "id": 1302,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1012500,
+        "startIds": [
+          101250001
+        ],
+        "messages": {
+          "101250001": {
+            "type": "Text",
+            "id": 101250001,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "{NICKNAME}, how do you fare? Have you all reached Washtopia?",
+            "option": null,
+            "nextIds": [
+              101250002,
+              101250004
+            ],
+            "kind": "NPC"
+          },
+          "101250002": {
+            "type": "Text",
+            "id": 101250002,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "Feeling pretty good. The Express is safely at the station now!",
+            "option": "Feels great!",
+            "nextIds": [
+              101250003
+            ],
+            "kind": "Player"
+          },
+          "101250003": {
+            "type": "Text",
+            "id": 101250003,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "We scrubbed the Express clean inside and out with the staff at Washtopia...",
+            "option": null,
+            "nextIds": [
+              101250006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101250006": {
+            "type": "Text",
+            "id": 101250006,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "That's good.",
+            "option": null,
+            "nextIds": [
+              101250007
+            ],
+            "kind": "NPC"
+          },
+          "101250007": {
+            "type": "Text",
+            "id": 101250007,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "{NICKNAME}, I have been hesitating about whether or not to tell you something.",
+            "option": null,
+            "nextIds": [
+              101250008
+            ],
+            "kind": "NPC"
+          },
+          "101250008": {
+            "type": "Text",
+            "id": 101250008,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "I am uncertain whether you have noticed this, but...",
+            "option": null,
+            "nextIds": [
+              101250009
+            ],
+            "kind": "NPC"
+          },
+          "101250009": {
+            "type": "Text",
+            "id": 101250009,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "There's a fourth bug in the Express.",
+            "option": null,
+            "nextIds": [
+              101250010
+            ],
+            "kind": "NPC"
+          },
+          "101250010": {
+            "type": "Text",
+            "id": 101250010,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "I didn't realize that at all!",
+            "option": "Huh? A fourth one?",
+            "nextIds": [
+              101250011
+            ],
+            "kind": "Player"
+          },
+          "101250011": {
+            "type": "Text",
+            "id": 101250011,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "It's hiding inside Velite's armor, a mini insect. However, it was none other than the overlord they mentioned.",
+            "option": null,
+            "nextIds": [
+              101250012
+            ],
+            "kind": "NPC"
+          },
+          "101250012": {
+            "type": "Text",
+            "id": 101250012,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "The Giant True Sting is at the bottom of the ladder to them",
+            "option": null,
+            "nextIds": [
+              101250013,
+              101250015
+            ],
+            "kind": "NPC"
+          },
+          "101250013": {
+            "type": "Text",
+            "id": 101250013,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "But the overlord is small enough to hide inside Velite's armor",
+            "option": "So the overlord is not the Giant True Sting",
+            "nextIds": [
+              101250014
+            ],
+            "kind": "Player"
+          },
+          "101250014": {
+            "type": "Text",
+            "id": 101250014,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "It must have quite the temper, too",
+            "option": null,
+            "nextIds": [
+              101250018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101250018": {
+            "type": "Text",
+            "id": 101250018,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "When I tracked down Velite, he said he saw himself flying, and steering the One and Only.",
+            "option": null,
+            "nextIds": [
+              101250019
+            ],
+            "kind": "NPC"
+          },
+          "101250019": {
+            "type": "Text",
+            "id": 101250019,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "I helped him to defeat the insect boss. However, he seemed a little lost after the illusion faded away.",
+            "option": null,
+            "nextIds": [
+              101250020,
+              101250023
+            ],
+            "kind": "NPC"
+          },
+          "101250020": {
+            "type": "Text",
+            "id": 101250020,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "It's like when you see beautiful things",
+            "option": "He's still \"obsessed\"!",
+            "nextIds": [
+              101250021
+            ],
+            "kind": "Player"
+          },
+          "101250021": {
+            "type": "Text",
+            "id": 101250021,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "And yet he says he has no obsessions and is immune to hallucinations",
+            "option": null,
+            "nextIds": [
+              101250022
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101250022": {
+            "type": "Text",
+            "id": 101250022,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "I suspect he was quietly affected by you...",
+            "option": null,
+            "nextIds": [
+              101250026
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101250026": {
+            "type": "Text",
+            "id": 101250026,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "He thought it over for a few days, but for some reason chose to give up this idea of using currency to spread Beauty... He seemed keen to become a pilot instead, and I showed him my support.",
+            "option": null,
+            "nextIds": [
+              101250027
+            ],
+            "kind": "NPC"
+          },
+          "101250027": {
+            "type": "Text",
+            "id": 101250027,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "However, regarding the basis of the hallucination... {NICKNAME}, I'm still confounded.",
+            "option": null,
+            "nextIds": [
+              101250028
+            ],
+            "kind": "NPC"
+          },
+          "101250028": {
+            "type": "Text",
+            "id": 101250028,
+            "sectionId": 1012500,
+            "senderId": 1302,
+            "text": "According to you, the wing dust made everyone saw the same fireworks at the end... Why?",
+            "option": null,
+            "nextIds": [
+              101250029
+            ],
+            "kind": "NPC"
+          },
+          "101250029": {
+            "type": "Text",
+            "id": 101250029,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "Heh, everyone longs to return to the stars. That thought's too strong",
+            "option": null,
+            "nextIds": [
+              101250030
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101250030": {
+            "type": "Text",
+            "id": 101250030,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "It's also what everyone saw as a medal ceremony to you, Argenti!",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto"
+          },
+          "101250023": {
+            "type": "Text",
+            "id": 101250023,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "I remembered he said he wanted to be a pilot",
+            "option": "I think he gave up being a pilot",
+            "nextIds": [
+              101250024
+            ],
+            "kind": "Player"
+          },
+          "101250024": {
+            "type": "Text",
+            "id": 101250024,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "And yet he says he has no obsessions and is immune to hallucinations",
+            "option": null,
+            "nextIds": [
+              101250025
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101250025": {
+            "type": "Text",
+            "id": 101250025,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "I suspect he was quietly affected by you...",
+            "option": null,
+            "nextIds": [
+              101250026
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101250015": {
+            "type": "Text",
+            "id": 101250015,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "The biggest is the least powerful...",
+            "option": "Ha, the big guy is what rank?",
+            "nextIds": [
+              101250016
+            ],
+            "kind": "Player"
+          },
+          "101250016": {
+            "type": "Text",
+            "id": 101250016,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "I thought that one was the overlord",
+            "option": null,
+            "nextIds": [
+              101250017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101250017": {
+            "type": "Text",
+            "id": 101250017,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "Maybe it looks super scary, too",
+            "option": null,
+            "nextIds": [
+              101250018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101250004": {
+            "type": "Text",
+            "id": 101250004,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "It doesn't feel like we've gotten over it... but the Express is safely at the station already!",
+            "option": "Not good...",
+            "nextIds": [
+              101250005
+            ],
+            "kind": "Player"
+          },
+          "101250005": {
+            "type": "Text",
+            "id": 101250005,
+            "sectionId": 1012500,
+            "senderId": null,
+            "text": "We scrubbed the Express clean inside and out with the staff at Washtopia...",
+            "option": null,
+            "nextIds": [
+              101250006
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2010600,
+        "startIds": [
+          201060000
+        ],
+        "messages": {
+          "201060000": {
+            "type": "Text",
+            "id": 201060000,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201060001
+            ],
+            "kind": "NPC"
+          },
+          "201060001": {
+            "type": "Text",
+            "id": 201060001,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "I believe people love to hear compliments.",
+            "option": null,
+            "nextIds": [
+              201060002
+            ],
+            "kind": "NPC"
+          },
+          "201060002": {
+            "type": "Text",
+            "id": 201060002,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "That's why I've started my daily podcast where I give out compliments.",
+            "option": null,
+            "nextIds": [
+              201060003
+            ],
+            "kind": "NPC"
+          },
+          "201060003": {
+            "type": "Text",
+            "id": 201060003,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Would you like to have a try?",
+            "option": null,
+            "nextIds": [
+              201060004,
+              201060039
+            ],
+            "kind": "NPC"
+          },
+          "201060004": {
+            "type": "Text",
+            "id": 201060004,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "Absolutely!",
+            "option": "Absolutely!",
+            "nextIds": [
+              201060005,
+              201060010,
+              201060015
+            ],
+            "kind": "Player"
+          },
+          "201060005": {
+            "type": "Text",
+            "id": 201060005,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "Shower my soul with compliments!",
+            "option": "Shower my soul with compliments!",
+            "nextIds": [
+              201060006
+            ],
+            "kind": "Player"
+          },
+          "201060006": {
+            "type": "Text",
+            "id": 201060006,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201060007
+            ],
+            "kind": "NPC"
+          },
+          "201060007": {
+            "type": "Text",
+            "id": 201060007,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "You radiate with the brilliance of the universe, your noble character is akin to stars adorning the nocturnal expanse.",
+            "option": null,
+            "nextIds": [
+              201060008
+            ],
+            "kind": "NPC"
+          },
+          "201060008": {
+            "type": "Text",
+            "id": 201060008,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Your presence is singular, unmatched in its essence.",
+            "option": null,
+            "nextIds": [
+              201060009
+            ],
+            "kind": "NPC"
+          },
+          "201060009": {
+            "type": "Text",
+            "id": 201060009,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Allow me to bask in the splendor of your \"Beauty\".",
+            "option": null,
+            "nextIds": [
+              201060022,
+              201060028
+            ],
+            "kind": "NPC"
+          },
+          "201060022": {
+            "type": "Text",
+            "id": 201060022,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "Okay, okay, stop! Now this is getting embarrassing...",
+            "option": "Stop! This is getting embarrassing.",
+            "nextIds": [
+              201060023
+            ],
+            "kind": "Player"
+          },
+          "201060023": {
+            "type": "Text",
+            "id": 201060023,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Trust me. It's not embarrassing once you get used to it. Please come to me often and let me shower you with compliments, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              201060024
+            ],
+            "kind": "NPC"
+          },
+          "201060024": {
+            "type": "Text",
+            "id": 201060024,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Because compliments lift spirits and bring out beauty.",
+            "option": null,
+            "nextIds": [
+              201060025,
+              201060026,
+              201060027
+            ],
+            "kind": "NPC"
+          },
+          "201060025": {
+            "type": "Sticker",
+            "id": 201060025,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "201060026": {
+            "type": "Sticker",
+            "id": 201060026,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "201060027": {
+            "type": "Sticker",
+            "id": 201060027,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "201060028": {
+            "type": "Text",
+            "id": 201060028,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "Is that all? I'm pretty sure I'm better at this compliment game.",
+            "option": "Is that all? I'm better at this.",
+            "nextIds": [
+              201060029
+            ],
+            "kind": "Player"
+          },
+          "201060029": {
+            "type": "Text",
+            "id": 201060029,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "What a wondrous soul stands before me!",
+            "option": "O, honorable and magnificent...",
+            "nextIds": [
+              201060030
+            ],
+            "kind": "Player"
+          },
+          "201060030": {
+            "type": "Text",
+            "id": 201060030,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "O, honorable and magnificent Lord Argenti!",
+            "option": null,
+            "nextIds": [
+              201060031
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201060031": {
+            "type": "Text",
+            "id": 201060031,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "Your heart can touch the deepest of the night sky, recherché yet tantalizing.",
+            "option": null,
+            "nextIds": [
+              201060032
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201060032": {
+            "type": "Text",
+            "id": 201060032,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "You're gracefully endowed with innate valor, unyielding resilience, profound worth, untapped potential, unwavering disposition, and boundless happiness.",
+            "option": null,
+            "nextIds": [
+              201060033
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201060033": {
+            "type": "Text",
+            "id": 201060033,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "March forth with grace, for you are simply peerless!",
+            "option": null,
+            "nextIds": [
+              201060034
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201060034": {
+            "type": "Text",
+            "id": 201060034,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Thank you, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              201060035
+            ],
+            "kind": "NPC"
+          },
+          "201060035": {
+            "type": "Text",
+            "id": 201060035,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Please allow me to shower you with praise once more!",
+            "option": null,
+            "nextIds": [
+              201060036,
+              201060037,
+              201060038
+            ],
+            "kind": "NPC"
+          },
+          "201060036": {
+            "type": "Sticker",
+            "id": 201060036,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "201060037": {
+            "type": "Sticker",
+            "id": 201060037,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "201060038": {
+            "type": "Sticker",
+            "id": 201060038,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "201060010": {
+            "type": "Text",
+            "id": 201060010,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "Praise my graceful countenance!",
+            "option": "Praise my graceful countenance!",
+            "nextIds": [
+              201060011
+            ],
+            "kind": "Player"
+          },
+          "201060011": {
+            "type": "Text",
+            "id": 201060011,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201060012
+            ],
+            "kind": "NPC"
+          },
+          "201060012": {
+            "type": "Text",
+            "id": 201060012,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "You are akin to a flower unfurling in the wintry plains of spring, pristine and pure.",
+            "option": null,
+            "nextIds": [
+              201060013
+            ],
+            "kind": "NPC"
+          },
+          "201060013": {
+            "type": "Text",
+            "id": 201060013,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "As the snow recedes, you shall become an enchanting vision.",
+            "option": null,
+            "nextIds": [
+              201060014
+            ],
+            "kind": "NPC"
+          },
+          "201060014": {
+            "type": "Text",
+            "id": 201060014,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Allow me to bask in the splendor of your \"Beauty\".",
+            "option": null,
+            "nextIds": [
+              201060022,
+              201060028
+            ],
+            "kind": "NPC"
+          },
+          "201060015": {
+            "type": "Text",
+            "id": 201060015,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "Praise me as you please!",
+            "option": "Praise me as you please!",
+            "nextIds": [
+              201060016
+            ],
+            "kind": "Player"
+          },
+          "201060016": {
+            "type": "Text",
+            "id": 201060016,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201060017
+            ],
+            "kind": "NPC"
+          },
+          "201060017": {
+            "type": "Text",
+            "id": 201060017,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "You are akin to a flower unfurling in the wintry plains of spring, pristine and pure.",
+            "option": null,
+            "nextIds": [
+              201060018
+            ],
+            "kind": "NPC"
+          },
+          "201060018": {
+            "type": "Text",
+            "id": 201060018,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "As the snow recedes, you shall become an enchanting vision.",
+            "option": null,
+            "nextIds": [
+              201060019
+            ],
+            "kind": "NPC"
+          },
+          "201060019": {
+            "type": "Text",
+            "id": 201060019,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "You radiate with the brilliance of the universe, your noble character is akin to stars adorning the nocturnal expanse.",
+            "option": null,
+            "nextIds": [
+              201060020
+            ],
+            "kind": "NPC"
+          },
+          "201060020": {
+            "type": "Text",
+            "id": 201060020,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Your presence is singular, unmatched in its essence.",
+            "option": null,
+            "nextIds": [
+              201060021
+            ],
+            "kind": "NPC"
+          },
+          "201060021": {
+            "type": "Text",
+            "id": 201060021,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Allow me to bask in the splendor of your \"Beauty\".",
+            "option": null,
+            "nextIds": [
+              201060022,
+              201060028
+            ],
+            "kind": "NPC"
+          },
+          "201060039": {
+            "type": "Text",
+            "id": 201060039,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "No! Please, no thanks!",
+            "option": "No! Please, no thanks!",
+            "nextIds": [
+              201060040
+            ],
+            "kind": "Player"
+          },
+          "201060040": {
+            "type": "Text",
+            "id": 201060040,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "Really no?",
+            "option": null,
+            "nextIds": [
+              201060041
+            ],
+            "kind": "NPC"
+          },
+          "201060041": {
+            "type": "Text",
+            "id": 201060041,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "I can't believe someone would refuse praise... There are truly noble souls in the world!",
+            "option": null,
+            "nextIds": [
+              201060042
+            ],
+            "kind": "NPC"
+          },
+          "201060042": {
+            "type": "Text",
+            "id": 201060042,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "I'm really impressed by your qualities, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              201060043
+            ],
+            "kind": "NPC"
+          },
+          "201060043": {
+            "type": "Text",
+            "id": 201060043,
+            "sectionId": 2010600,
+            "senderId": null,
+            "text": "...Thank you!",
+            "option": "...Thank you!",
+            "nextIds": [
+              201060044
+            ],
+            "kind": "Player"
+          },
+          "201060044": {
+            "type": "Text",
+            "id": 201060044,
+            "sectionId": 2010600,
+            "senderId": 1302,
+            "text": "You're welcome. I swear, I mean every word of what I said",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2010700,
+        "startIds": [
+          201070000
+        ],
+        "messages": {
+          "201070000": {
+            "type": "Text",
+            "id": 201070000,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "{NICKNAME}, I just finished a space race during my journey",
+            "option": null,
+            "nextIds": [
+              201070001,
+              201070002
+            ],
+            "kind": "NPC"
+          },
+          "201070001": {
+            "type": "Text",
+            "id": 201070001,
+            "sectionId": 2010700,
+            "senderId": null,
+            "text": "Space race...? What's that?",
+            "option": "A space race?",
+            "nextIds": [
+              201070003
+            ],
+            "kind": "Player"
+          },
+          "201070003": {
+            "type": "Text",
+            "id": 201070003,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "Oh, nothing, it's only the highest-level  of racing competition in the entire cosmos",
+            "option": null,
+            "nextIds": [
+              201070004
+            ],
+            "kind": "NPC"
+          },
+          "201070004": {
+            "type": "Text",
+            "id": 201070004,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "That's why every year, I make modifications to the engine of the One and Only",
+            "option": null,
+            "nextIds": [
+              201070005
+            ],
+            "kind": "NPC"
+          },
+          "201070005": {
+            "type": "Text",
+            "id": 201070005,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "All types of aircrafts, ships, and shuttles are welcome to participate in the race.",
+            "option": null,
+            "nextIds": [
+              201070006
+            ],
+            "kind": "NPC"
+          },
+          "201070006": {
+            "type": "Text",
+            "id": 201070006,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "And if you're interested, I can make introductions for the Astral Express to join the competition",
+            "option": null,
+            "nextIds": [
+              201070007
+            ],
+            "kind": "NPC"
+          },
+          "201070007": {
+            "type": "Text",
+            "id": 201070007,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "We do, however, encounter dust storms during the race from time to time",
+            "option": null,
+            "nextIds": [
+              201070008
+            ],
+            "kind": "NPC"
+          },
+          "201070008": {
+            "type": "Text",
+            "id": 201070008,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "These storms bring in star debris that sticks to the One and Only. It shines so brightly that I can't help bringing myself to remove the debris every time I see it",
+            "option": null,
+            "nextIds": [
+              201070009,
+              201070015
+            ],
+            "kind": "NPC"
+          },
+          "201070009": {
+            "type": "Text",
+            "id": 201070009,
+            "sectionId": 2010700,
+            "senderId": null,
+            "text": "Oh, yeah. Pom-Pom once mentioned that too",
+            "option": "Pom-Pom once mentioned it too...",
+            "nextIds": [
+              201070010
+            ],
+            "kind": "Player"
+          },
+          "201070010": {
+            "type": "Text",
+            "id": 201070010,
+            "sectionId": 2010700,
+            "senderId": null,
+            "text": "We once got caught in a dust storm, too",
+            "option": null,
+            "nextIds": [
+              201070011
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201070011": {
+            "type": "Text",
+            "id": 201070011,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "That substance clings to my armor and glows",
+            "option": null,
+            "nextIds": [
+              201070012
+            ],
+            "kind": "NPC"
+          },
+          "201070012": {
+            "type": "Text",
+            "id": 201070012,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "And it might get stuck in Pom-Pom's fur, making it a hassle to clean",
+            "option": null,
+            "nextIds": [
+              201070013
+            ],
+            "kind": "NPC"
+          },
+          "201070013": {
+            "type": "Text",
+            "id": 201070013,
+            "sectionId": 2010700,
+            "senderId": null,
+            "text": "I'm already picturing it in my mind",
+            "option": "Shiny Pom-Pom!",
+            "nextIds": [
+              201070014
+            ],
+            "kind": "Player"
+          },
+          "201070014": {
+            "type": "Text",
+            "id": 201070014,
+            "sectionId": 2010700,
+            "senderId": null,
+            "text": "Shiny Pom-Pom!",
+            "option": null,
+            "nextIds": [
+              201070018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201070018": {
+            "type": "Text",
+            "id": 201070018,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "Alright, enough small talk for today. I have to clean my One and Only",
+            "option": null,
+            "nextIds": [
+              201070019
+            ],
+            "kind": "NPC"
+          },
+          "201070019": {
+            "type": "Text",
+            "id": 201070019,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "When the opportunity arises, I'd like to invite {NICKNAME} and the Crew to participate in the race",
+            "option": null,
+            "nextIds": [
+              201070020
+            ],
+            "kind": "NPC"
+          },
+          "201070020": {
+            "type": "Sticker",
+            "id": 201070020,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "201070015": {
+            "type": "Text",
+            "id": 201070015,
+            "sectionId": 2010700,
+            "senderId": null,
+            "text": "I'd love to see Pom-Pom driving the Astral Express in the race",
+            "option": "I'd love to see Pom-Pom in the race.",
+            "nextIds": [
+              201070016
+            ],
+            "kind": "Player"
+          },
+          "201070016": {
+            "type": "Text",
+            "id": 201070016,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "I believe the Astral Express would impress everyone",
+            "option": null,
+            "nextIds": [
+              201070017
+            ],
+            "kind": "NPC"
+          },
+          "201070017": {
+            "type": "Text",
+            "id": 201070017,
+            "sectionId": 2010700,
+            "senderId": 1302,
+            "text": "I'm looking forward to competing with you",
+            "option": null,
+            "nextIds": [
+              201070018
+            ],
+            "kind": "NPC"
+          },
+          "201070002": {
+            "type": "Text",
+            "id": 201070002,
+            "sectionId": 2010700,
+            "senderId": null,
+            "text": "What's got you so thrilled?",
+            "option": "Looks like you enjoyed yourself.",
+            "nextIds": [
+              201070003
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2010800,
+        "startIds": [
+          201080000
+        ],
+        "messages": {
+          "201080000": {
+            "type": "Text",
+            "id": 201080000,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201080001
+            ],
+            "kind": "NPC"
+          },
+          "201080001": {
+            "type": "Text",
+            "id": 201080001,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "I'm struggling with what to have for dinner tonight.",
+            "option": null,
+            "nextIds": [
+              201080002
+            ],
+            "kind": "NPC"
+          },
+          "201080002": {
+            "type": "Text",
+            "id": 201080002,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "This might seem sudden, but I need your opinion on flavors.",
+            "option": null,
+            "nextIds": [
+              201080003
+            ],
+            "kind": "NPC"
+          },
+          "201080003": {
+            "type": "Text",
+            "id": 201080003,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "Which one do you like best, {NICKNAME}? Soft bread, hard bread, or perhaps buttered bread?",
+            "option": null,
+            "nextIds": [
+              201080004,
+              201080006,
+              201080008
+            ],
+            "kind": "NPC"
+          },
+          "201080004": {
+            "type": "Text",
+            "id": 201080004,
+            "sectionId": 2010800,
+            "senderId": null,
+            "text": "Fluffy soft bread with a sweet flavor sounds like a great choice...",
+            "option": "Soft bread.",
+            "nextIds": [
+              201080005
+            ],
+            "kind": "Player"
+          },
+          "201080005": {
+            "type": "Text",
+            "id": 201080005,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "Yes, it's indeed a great choice.",
+            "option": null,
+            "nextIds": [
+              201080010
+            ],
+            "kind": "NPC"
+          },
+          "201080010": {
+            "type": "Text",
+            "id": 201080010,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "Due to my rigorous training and constant traveling, I rarely had anything other than hard bread.",
+            "option": null,
+            "nextIds": [
+              201080011
+            ],
+            "kind": "NPC"
+          },
+          "201080011": {
+            "type": "Text",
+            "id": 201080011,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "But of course, I personally enjoy its rustic texture and slightly bitter flavor.",
+            "option": null,
+            "nextIds": [
+              201080012
+            ],
+            "kind": "NPC"
+          },
+          "201080012": {
+            "type": "Text",
+            "id": 201080012,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "It's just like the serene view outside the window right now.",
+            "option": null,
+            "nextIds": [
+              201080013
+            ],
+            "kind": "NPC"
+          },
+          "201080013": {
+            "type": "Text",
+            "id": 201080013,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "Great. I'll go with my usual choice of hard bread.",
+            "option": null,
+            "nextIds": [
+              201080014
+            ],
+            "kind": "NPC"
+          },
+          "201080014": {
+            "type": "Text",
+            "id": 201080014,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "Do you have any recommendations for what to have with it?",
+            "option": null,
+            "nextIds": [
+              201080015,
+              201080017,
+              201080019
+            ],
+            "kind": "NPC"
+          },
+          "201080015": {
+            "type": "Text",
+            "id": 201080015,
+            "sectionId": 2010800,
+            "senderId": null,
+            "text": "Milk would be a perfect pairing.",
+            "option": "Milk.",
+            "nextIds": [
+              201080016
+            ],
+            "kind": "Player"
+          },
+          "201080016": {
+            "type": "Text",
+            "id": 201080016,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "Great. Please accept my gratitude.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201080017": {
+            "type": "Text",
+            "id": 201080017,
+            "sectionId": 2010800,
+            "senderId": null,
+            "text": "Perhaps some savory sausage.",
+            "option": "Sausage.",
+            "nextIds": [
+              201080018
+            ],
+            "kind": "Player"
+          },
+          "201080018": {
+            "type": "Text",
+            "id": 201080018,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "Great. Please accept my gratitude.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201080019": {
+            "type": "Text",
+            "id": 201080019,
+            "sectionId": 2010800,
+            "senderId": null,
+            "text": "What could be the best pair for hard bread?",
+            "option": "Bread.",
+            "nextIds": [
+              201080020
+            ],
+            "kind": "Player"
+          },
+          "201080020": {
+            "type": "Text",
+            "id": 201080020,
+            "sectionId": 2010800,
+            "senderId": null,
+            "text": "The answer is: another type of bread.",
+            "option": null,
+            "nextIds": [
+              201080021
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201080021": {
+            "type": "Text",
+            "id": 201080021,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "Great. Please accept my gratitude.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201080006": {
+            "type": "Text",
+            "id": 201080006,
+            "sectionId": 2010800,
+            "senderId": null,
+            "text": "I think hard bread with its coarse texture would suit you.",
+            "option": "Hard bread.",
+            "nextIds": [
+              201080007
+            ],
+            "kind": "Player"
+          },
+          "201080007": {
+            "type": "Text",
+            "id": 201080007,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "Excellent. That's actually my favorite.",
+            "option": null,
+            "nextIds": [
+              201080010
+            ],
+            "kind": "NPC"
+          },
+          "201080008": {
+            "type": "Text",
+            "id": 201080008,
+            "sectionId": 2010800,
+            "senderId": null,
+            "text": "How about trying buttered bread? It could be something new for you.",
+            "option": "Buttered bread.",
+            "nextIds": [
+              201080009
+            ],
+            "kind": "Player"
+          },
+          "201080009": {
+            "type": "Text",
+            "id": 201080009,
+            "sectionId": 2010800,
+            "senderId": 1302,
+            "text": "Hmm, that sounds interesting. Maybe I'll give it a try.",
+            "option": null,
+            "nextIds": [
+              201080010
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1302,
+    "name": "Argenti",
+    "signature": "I swear to a rose",
+    "iconPath": "icon/avatar/1302.png",
+    "type": 1,
+    "camp": 7
+  }
+}

@@ -3019,6 +3019,231 @@
           "type": "Companion"
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1300800,
+        "startIds": [
+          130080000
+        ],
+        "messages": {
+          "130080000": {
+            "type": "Text",
+            "id": 130080000,
+            "sectionId": 1300800,
+            "senderId": null,
+            "text": "Message forwarded: \"My dearest outworlder friend, I am the esteemed Vidyadhara High Elder. I was wounded by abominations and have been in dormancy for a thousand years. I only awakened very recently and plan to restore the glory of the Vidyadhara lineage. Unfortunately, I have lost all worldly possessions, and currently find myself in financial shortfall. So, I was hoping you could lend me <unbreak>50,000</unbreak> credits. Once I return to the Xianzhou, I'll pay you back tenfold and even let you choose anything you desire from our precious Vidyadhara treasures.\"",
+            "option": null,
+            "nextIds": [
+              130080001,
+              130080003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130080001": {
+            "type": "Text",
+            "id": 130080001,
+            "sectionId": 1300800,
+            "senderId": null,
+            "text": "New message received.",
+            "option": "Dan Heng, you...",
+            "nextIds": [
+              130080002
+            ],
+            "kind": "Player"
+          },
+          "130080002": {
+            "type": "Text",
+            "id": 130080002,
+            "sectionId": 1300800,
+            "senderId": null,
+            "text": "Why didn't you tell me anything about this? And you're even using an alt account. How can you treat your friend this way?",
+            "option": null,
+            "nextIds": [
+              130080005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130080005": {
+            "type": "Text",
+            "id": 130080005,
+            "sectionId": 1300800,
+            "senderId": 1002,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              130080006
+            ],
+            "kind": "NPC"
+          },
+          "130080006": {
+            "type": "Text",
+            "id": 130080006,
+            "sectionId": 1300800,
+            "senderId": 1002,
+            "text": "I didn't send that message.",
+            "option": null,
+            "nextIds": [
+              130080007
+            ],
+            "kind": "NPC"
+          },
+          "130080007": {
+            "type": "Text",
+            "id": 130080007,
+            "sectionId": 1300800,
+            "senderId": 1002,
+            "text": "Don't fall for it, and don't transfer any credits, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              130080008
+            ],
+            "kind": "NPC"
+          },
+          "130080008": {
+            "type": "Text",
+            "id": 130080008,
+            "sectionId": 1300800,
+            "senderId": 1002,
+            "text": "Be careful if you receive these kinds of messages in the future.",
+            "option": null,
+            "nextIds": [
+              130080009
+            ],
+            "kind": "NPC"
+          },
+          "130080009": {
+            "type": "Text",
+            "id": 130080009,
+            "sectionId": 1300800,
+            "senderId": 1002,
+            "text": "...By the way, you didn't actually get scammed and transfer any credits, did you?",
+            "option": null,
+            "nextIds": [
+              130080010,
+              130080013
+            ],
+            "kind": "NPC"
+          },
+          "130080010": {
+            "type": "Text",
+            "id": 130080010,
+            "sectionId": 1300800,
+            "senderId": null,
+            "text": "Come on, how could someone as smart as me fall for such a basic scam?",
+            "option": "Don't worry. I didn't fall for it.",
+            "nextIds": [
+              130080011
+            ],
+            "kind": "Player"
+          },
+          "130080011": {
+            "type": "Text",
+            "id": 130080011,
+            "sectionId": 1300800,
+            "senderId": null,
+            "text": "I forwarded the message to you as soon as I received it.",
+            "option": null,
+            "nextIds": [
+              130080012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130080012": {
+            "type": "Text",
+            "id": 130080012,
+            "sectionId": 1300800,
+            "senderId": 1002,
+            "text": "Good to know.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130080013": {
+            "type": "Text",
+            "id": 130080013,
+            "sectionId": 1300800,
+            "senderId": null,
+            "text": "No, but I almost fell for it.",
+            "option": "Would you help me if I got scammed?",
+            "nextIds": [
+              130080014
+            ],
+            "kind": "Player"
+          },
+          "130080014": {
+            "type": "Text",
+            "id": 130080014,
+            "sectionId": 1300800,
+            "senderId": null,
+            "text": "If I had been scammed and transferred credits to that scammer, you'd help me out, right?",
+            "option": null,
+            "nextIds": [
+              130080015
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130080015": {
+            "type": "Text",
+            "id": 130080015,
+            "sectionId": 1300800,
+            "senderId": 1002,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              130080016
+            ],
+            "kind": "NPC"
+          },
+          "130080016": {
+            "type": "Text",
+            "id": 130080016,
+            "sectionId": 1300800,
+            "senderId": 1002,
+            "text": "Don't worry. I'd help you.",
+            "option": null,
+            "nextIds": [
+              130080017
+            ],
+            "kind": "NPC"
+          },
+          "130080017": {
+            "type": "Text",
+            "id": 130080017,
+            "sectionId": 1300800,
+            "senderId": 1002,
+            "text": "I'll take you to the Realm-Keeping Commission to report the case.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130080003": {
+            "type": "Text",
+            "id": 130080003,
+            "sectionId": 1300800,
+            "senderId": null,
+            "text": "New message received.",
+            "option": "Dan Heng, I met an imposter.",
+            "nextIds": [
+              130080004
+            ],
+            "kind": "Player"
+          },
+          "130080004": {
+            "type": "Text",
+            "id": 130080004,
+            "sectionId": 1300800,
+            "senderId": null,
+            "text": "Dan Heng, someone was pretending to be you and tried to scam me. LMAO",
+            "option": null,
+            "nextIds": [
+              130080005
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
     ]
   ],
   "info": {

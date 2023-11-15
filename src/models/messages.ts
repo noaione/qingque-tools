@@ -56,6 +56,18 @@ export interface MessageContentRaid extends MessageContent {
   raid: MessageRaid;
 }
 
+export interface MessageLink {
+  id: number;
+  name: string;
+  image: string;
+  type: string;
+}
+
+export interface MessageContentLink extends MessageContent {
+  type: "Link";
+  link: MessageLink;
+}
+
 export interface MessageContentSeparator extends MessageContent {
   // Our own type, not from the game
   type: "SectionSeparator";
@@ -66,8 +78,9 @@ export type MessageContents =
   | MessageContentSticker
   | MessageContentImage
   | MessageContentRaid
+  | MessageContentLink
   | MessageContentSeparator;
-export type MessageMissionType = "Main" | "Daily" | "Branch" | "Companion";
+export type MessageMissionType = "Main" | "Daily" | "Branch" | "Companion" | "Gap";
 
 export interface MessageMission {
   id: number;

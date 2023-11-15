@@ -112,6 +112,129 @@
           "type": "Branch"
         }
       }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1301100,
+        "startIds": [
+          130110000
+        ],
+        "messages": {
+          "130110000": {
+            "type": "Text",
+            "id": 130110000,
+            "sectionId": 1301100,
+            "senderId": 2,
+            "text": "Hey, {NICKNAME}! Got a minute for some matches?",
+            "option": null,
+            "nextIds": [
+              130110001
+            ],
+            "kind": "NPC"
+          },
+          "130110001": {
+            "type": "Text",
+            "id": 130110001,
+            "sectionId": 1301100,
+            "senderId": 2,
+            "text": "The Fight Club is gearing up for an awesome Martial Exhibition. All amazing fighters like you are welcome!",
+            "option": null,
+            "nextIds": [
+              130110002,
+              130110003
+            ],
+            "kind": "NPC"
+          },
+          "130110002": {
+            "type": "Text",
+            "id": 130110002,
+            "sectionId": 1301100,
+            "senderId": null,
+            "text": "What's this \"Martial Exhibition\" all about?",
+            "option": "What's a \"Martial Exhibition\"?",
+            "nextIds": [
+              130110005
+            ],
+            "kind": "Player"
+          },
+          "130110005": {
+            "type": "Text",
+            "id": 130110005,
+            "sectionId": 1301100,
+            "senderId": 2,
+            "text": "A Martial Exhibition is built around a different kind of match where the focus is more on the overall entertainment value rather than the actual outcome. The Fight Club organizes several of these matches each year.",
+            "option": null,
+            "nextIds": [
+              130110006
+            ],
+            "kind": "NPC"
+          },
+          "130110006": {
+            "type": "Text",
+            "id": 130110006,
+            "sectionId": 1301100,
+            "senderId": 2,
+            "text": "Unlike regular matches, fighters get to showcase their unique style of \"martialism\" in each bout.",
+            "option": null,
+            "nextIds": [
+              130110007
+            ],
+            "kind": "NPC"
+          },
+          "130110007": {
+            "type": "Text",
+            "id": 130110007,
+            "sectionId": 1301100,
+            "senderId": 2,
+            "text": "It's hard to put into words, but once you step into that ring, you'll get it!",
+            "option": null,
+            "nextIds": [
+              130110008
+            ],
+            "kind": "NPC"
+          },
+          "130110008": {
+            "type": "Text",
+            "id": 130110008,
+            "sectionId": 1301100,
+            "senderId": 2,
+            "text": "If you're interested, just head over to the Fight Club and sign up.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130110003": {
+            "type": "Text",
+            "id": 130110003,
+            "sectionId": 1301100,
+            "senderId": null,
+            "text": "Exhibition? Does that mean it's like fake fighting or something?",
+            "option": "Like fake fighting or something?",
+            "nextIds": [
+              130110004
+            ],
+            "kind": "Player"
+          },
+          "130110004": {
+            "type": "Text",
+            "id": 130110004,
+            "sectionId": 1301100,
+            "senderId": 2,
+            "text": "Oh, come on! It's nothing like that!",
+            "option": null,
+            "nextIds": [
+              130110005
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 8015202,
+          "name": "Martialist Fighters",
+          "type": "Branch"
+        }
+      }
     ]
   ],
   "info": {

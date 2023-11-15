@@ -158,7 +158,7 @@
   ],
   "info": {
     "id": 77,
-    "name": "Group chat with Bronya, Gepard, and {NICKNAME}",
+    "name": "Group chat with Bronya, Gepard, {NICKNAME} and others",
     "signature": null,
     "iconPath": "icon/avatar/GroupDefault.png",
     "type": 3,

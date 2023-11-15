@@ -170,14 +170,14 @@ export function calculateMaximumPossibleValues(scoreData: Omit<ScoreCharacter, "
   // sort by the biggest weight
   const subStatsSorted = Object.entries(subStats).sort((a, b) => b[1] - a[1]);
   const subStatsMax: { [key: string]: number } = {};
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 5; i++) {
     const [subStat, weight] = subStatsSorted[i];
-    subStatsMax[subStat] = (3 + 2 * 0.1) * weight;
+    subStatsMax[subStat] = (4 + 2 * 0.1) * weight;
   }
   // Sum all values of substats
   const subStatsMaxSum = Object.values(subStatsMax).reduce((a, b) => a + b, 0) * 6;
   const mainStatsMaxSum = Object.values(mainStatsMax).reduce((a, b) => a + b.value, 0) * 6;
-  const maxScore = ((subStatsMaxSum / mainStatsMaxSum) * 0.5 + 0.5) * 6 + 1.5;
+  const maxScore = (subStatsMaxSum / mainStatsMaxSum) * 0.5 * 6 + 2;
 
   return Number(maxScore.toFixed(2));
 }

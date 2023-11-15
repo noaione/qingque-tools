@@ -1,0 +1,442 @@
+{
+  "id": 110,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1220300,
+        "startIds": [
+          122030000
+        ],
+        "messages": {
+          "122030000": {
+            "type": "Text",
+            "id": 122030000,
+            "sectionId": 1220300,
+            "senderId": 111,
+            "text": "Have you arrived yet?",
+            "option": null,
+            "nextIds": [
+              122030001,
+              122030002
+            ],
+            "kind": "NPC"
+          },
+          "122030001": {
+            "type": "Text",
+            "id": 122030001,
+            "sectionId": 1220300,
+            "senderId": null,
+            "text": "Don't worry. We just got to the dock.",
+            "option": "I just arrived. Still searching.",
+            "nextIds": [
+              122030003
+            ],
+            "kind": "Player"
+          },
+          "122030003": {
+            "type": "Text",
+            "id": 122030003,
+            "sectionId": 1220300,
+            "senderId": 111,
+            "text": "Hang on. I just called back and it got through! The location is now at ██████.",
+            "option": null,
+            "nextIds": [
+              122030004
+            ],
+            "kind": "NPC"
+          },
+          "122030004": {
+            "type": "Text",
+            "id": 122030004,
+            "sectionId": 1220300,
+            "senderId": 111,
+            "text": "This place used to be a passenger terminal, but it's been empty since the starskiff line was changed.",
+            "option": null,
+            "nextIds": [
+              122030005
+            ],
+            "kind": "NPC"
+          },
+          "122030005": {
+            "type": "Text",
+            "id": 122030005,
+            "sectionId": 1220300,
+            "senderId": 111,
+            "text": "Something feels off. Anyway, you've got to be careful.",
+            "option": null,
+            "nextIds": [
+              122030006
+            ],
+            "kind": "NPC"
+          },
+          "122030006": {
+            "type": "Text",
+            "id": 122030006,
+            "sectionId": 1220300,
+            "senderId": 1210,
+            "text": "Yeah, you stay safe too. @A-Yue",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122030002": {
+            "type": "Text",
+            "id": 122030002,
+            "sectionId": 1220300,
+            "senderId": null,
+            "text": "We're there, but we don't see anyone around.",
+            "option": "I don't see anyone here.",
+            "nextIds": [
+              122030003
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1220400,
+        "startIds": [
+          122040000
+        ],
+        "messages": {
+          "122040000": {
+            "type": "Text",
+            "id": 122040000,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "Well, turns out this whole thing was just a misunderstanding. I'm really sorry about that...",
+            "option": null,
+            "nextIds": [
+              122040001
+            ],
+            "kind": "NPC"
+          },
+          "122040001": {
+            "type": "Text",
+            "id": 122040001,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "But I never thought I'd ever see my sister again after all these years.",
+            "option": null,
+            "nextIds": [
+              122040002,
+              122040003
+            ],
+            "kind": "NPC"
+          },
+          "122040002": {
+            "type": "Text",
+            "id": 122040002,
+            "sectionId": 1220400,
+            "senderId": null,
+            "text": "Umm, so what's the full story between you two? Care to tell me more about it?",
+            "option": "I need more details.",
+            "nextIds": [
+              122040004
+            ],
+            "kind": "Player"
+          },
+          "122040004": {
+            "type": "Text",
+            "id": 122040004,
+            "sectionId": 1220400,
+            "senderId": 1210,
+            "text": "Same here.",
+            "option": null,
+            "nextIds": [
+              122040005
+            ],
+            "kind": "NPC"
+          },
+          "122040005": {
+            "type": "Text",
+            "id": 122040005,
+            "sectionId": 1220400,
+            "senderId": 1206,
+            "text": "Same here.",
+            "option": null,
+            "nextIds": [
+              122040006
+            ],
+            "kind": "NPC"
+          },
+          "122040006": {
+            "type": "Text",
+            "id": 122040006,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "My parents were Cloud Knights, but they passed away when we were young.",
+            "option": null,
+            "nextIds": [
+              122040007
+            ],
+            "kind": "NPC"
+          },
+          "122040007": {
+            "type": "Text",
+            "id": 122040007,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "Since I had to support both of us, I had to work all day and didn't have much time to discipline my sister.",
+            "option": null,
+            "nextIds": [
+              122040008
+            ],
+            "kind": "NPC"
+          },
+          "122040008": {
+            "type": "Text",
+            "id": 122040008,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "As a result, she ended up becoming a troublemaker and didn't even finish school.",
+            "option": null,
+            "nextIds": [
+              122040009
+            ],
+            "kind": "NPC"
+          },
+          "122040009": {
+            "type": "Text",
+            "id": 122040009,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "So, I secretly applied for her to join the Cloud Knights, hoping that being in the forces would straighten her out... and maybe she'd become a better person.",
+            "option": null,
+            "nextIds": [
+              122040010
+            ],
+            "kind": "NPC"
+          },
+          "122040010": {
+            "type": "Text",
+            "id": 122040010,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "When she found out what I did, we had a huge argument. She thought I was meddling in her life.",
+            "option": null,
+            "nextIds": [
+              122040011
+            ],
+            "kind": "NPC"
+          },
+          "122040011": {
+            "type": "Text",
+            "id": 122040011,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "I thought she'd refuse to serve and spill the beans to the Military Affairs Office, but... she actually joined the Cloud Knights.",
+            "option": null,
+            "nextIds": [
+              122040012
+            ],
+            "kind": "NPC"
+          },
+          "122040012": {
+            "type": "Text",
+            "id": 122040012,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "After that, we started to drift apart and eventually, one day, she disappeared without a trace.",
+            "option": null,
+            "nextIds": [
+              122040013,
+              122040014
+            ],
+            "kind": "NPC"
+          },
+          "122040013": {
+            "type": "Text",
+            "id": 122040013,
+            "sectionId": 1220400,
+            "senderId": null,
+            "text": "You did what you thought was best for her. She'll understand it when she grows up. Don't blame yourself over it.",
+            "option": "You did what was best for her.",
+            "nextIds": [
+              122040015
+            ],
+            "kind": "Player"
+          },
+          "122040015": {
+            "type": "Text",
+            "id": 122040015,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "I always thought she didn't want to see me because she resented me for enlisting her in the Cloud Knights.",
+            "option": null,
+            "nextIds": [
+              122040016
+            ],
+            "kind": "NPC"
+          },
+          "122040016": {
+            "type": "Text",
+            "id": 122040016,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "But when I saw her today, she told me she got transferred to the Ten-Lords Commission and didn't have the chance to contact me and explain everything.",
+            "option": null,
+            "nextIds": [
+              122040017
+            ],
+            "kind": "NPC"
+          },
+          "122040017": {
+            "type": "Text",
+            "id": 122040017,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "Now that I see she's doing well, I can finally breathe a sigh of relief. As long as she doesn't regret it, I'm okay with it.",
+            "option": null,
+            "nextIds": [
+              122040018
+            ],
+            "kind": "NPC"
+          },
+          "122040018": {
+            "type": "Text",
+            "id": 122040018,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "Anyway, it was a misunderstanding from the start. Sorry for dragging you into my family drama.",
+            "option": null,
+            "nextIds": [
+              122040019
+            ],
+            "kind": "NPC"
+          },
+          "122040019": {
+            "type": "Text",
+            "id": 122040019,
+            "sectionId": 1220400,
+            "senderId": 111,
+            "text": "Go for it, Little Gui! I'll be supporting you!",
+            "option": null,
+            "nextIds": [
+              122040020
+            ],
+            "kind": "NPC"
+          },
+          "122040020": {
+            "type": "Sticker",
+            "id": 122040020,
+            "sectionId": 1220400,
+            "senderId": 1210,
+            "text": "(Sticker: Pom-Pom Crying)",
+            "option": null,
+            "nextIds": [
+              122040021
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "122040021": {
+            "type": "Sticker",
+            "id": 122040021,
+            "sectionId": 1220400,
+            "senderId": 1206,
+            "text": "(Sticker: Pom-Pom Crying)",
+            "option": null,
+            "nextIds": [
+              122040022
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "122040022": {
+            "type": "Sticker",
+            "id": 122040022,
+            "sectionId": 1220400,
+            "senderId": 1217,
+            "text": "(Sticker: Pom-Pom Crying)",
+            "option": null,
+            "nextIds": [
+              122040023,
+              122040024
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "122040023": {
+            "type": "Sticker",
+            "id": 122040023,
+            "sectionId": 1220400,
+            "senderId": null,
+            "text": "(Sticker: Pom-Pom Crying)",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "122040024": {
+            "type": "Sticker",
+            "id": 122040024,
+            "sectionId": 1220400,
+            "senderId": null,
+            "text": "(Sticker: Pom-Pom Like)",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "122040014": {
+            "type": "Text",
+            "id": 122040014,
+            "sectionId": 1220400,
+            "senderId": null,
+            "text": "It's good for unruly youngsters to go through some tough experiences to shape them up.",
+            "option": "Unruly youngsters should go through tough experiences.",
+            "nextIds": [
+              122040015
+            ],
+            "kind": "Player"
+          },
+          "122040003": {
+            "type": "Text",
+            "id": 122040003,
+            "sectionId": 1220400,
+            "senderId": null,
+            "text": "Wait, hold on. What's happening here? Can you give me some context first?",
+            "option": "Can I have some context?",
+            "nextIds": [
+              122040004
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 110,
+    "name": "Ghost-Hunting Squad Comms",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 4
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": 102,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1219600,
+        "startIds": [
+          121960000
+        ],
+        "messages": {
+          "121960000": {
+            "type": "Text",
+            "id": 121960000,
+            "sectionId": 1219600,
+            "senderId": 9,
+            "text": "Greetings, do you remember me? It's me, the heliobus who disguised as Wenyuan's wife.",
+            "option": null,
+            "nextIds": [
+              121960001
+            ],
+            "kind": "NPC"
+          },
+          "121960001": {
+            "type": "Text",
+            "id": 121960001,
+            "sectionId": 1219600,
+            "senderId": 9,
+            "text": "The healers from the Alchemy Commission took him away... and they never came back.",
+            "option": null,
+            "nextIds": [
+              121960002
+            ],
+            "kind": "NPC"
+          },
+          "121960002": {
+            "type": "Text",
+            "id": 121960002,
+            "sectionId": 1219600,
+            "senderId": 9,
+            "text": "According to the Foxian tradition, those close to the deceased should present an item from their belongings.",
+            "option": null,
+            "nextIds": [
+              121960003
+            ],
+            "kind": "NPC"
+          },
+          "121960003": {
+            "type": "Text",
+            "id": 121960003,
+            "sectionId": 1219600,
+            "senderId": 9,
+            "text": "I'll offer him a kite at the Foxsomn Tomb in the Fyxestroll Garden. It will be my personal way of remembering him.",
+            "option": null,
+            "nextIds": [
+              121960004
+            ],
+            "kind": "NPC"
+          },
+          "121960004": {
+            "type": "Text",
+            "id": 121960004,
+            "sectionId": 1219600,
+            "senderId": 9,
+            "text": "Once this is done, I'll be waiting for you to seal me once again. See you there.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 102,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  }
+}

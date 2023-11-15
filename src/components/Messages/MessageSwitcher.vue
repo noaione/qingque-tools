@@ -25,10 +25,16 @@ defineEmits<{
 
 const previewMessage = computed(() => {
   if (props.preview) {
-    return renderTextMessage(
-      formatTextMessage(props.preview, trailblazerGender.value, trailblazerName.value),
-      true
-    );
+    let previewMessage = formatTextMessage(props.preview, trailblazerGender.value, trailblazerName.value);
+
+    // Stop until \n
+    const newLineIndex = previewMessage.indexOf("\\n");
+
+    if (newLineIndex > 0) {
+      previewMessage = previewMessage.substring(0, newLineIndex);
+    }
+
+    return renderTextMessage(previewMessage, true);
   }
 
   return `ID: ${props.id}`;

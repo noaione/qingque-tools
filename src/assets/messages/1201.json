@@ -1684,6 +1684,111 @@
           "type": "Branch"
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1218100,
+        "startIds": [
+          121810000
+        ],
+        "messages": {
+          "121810000": {
+            "type": "Text",
+            "id": 121810000,
+            "sectionId": 1218100,
+            "senderId": null,
+            "text": "Is everything all right on your end?",
+            "option": null,
+            "nextIds": [
+              121810001
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121810001": {
+            "type": "Text",
+            "id": 121810001,
+            "sectionId": 1218100,
+            "senderId": null,
+            "text": "Stay away from the Divination Commission for now. It could be dangerous there.",
+            "option": "Don't go to the Divination Commission",
+            "nextIds": [
+              121810002
+            ],
+            "kind": "Player"
+          },
+          "121810002": {
+            "type": "Text",
+            "id": 121810002,
+            "sectionId": 1218100,
+            "senderId": 1201,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              121810003
+            ],
+            "kind": "NPC"
+          },
+          "121810003": {
+            "type": "Text",
+            "id": 121810003,
+            "sectionId": 1218100,
+            "senderId": 1201,
+            "text": "Don't worry. I just saw what happened and posted about it as soon as I took a left turn out the door.",
+            "option": null,
+            "nextIds": [
+              121810004
+            ],
+            "kind": "NPC"
+          },
+          "121810004": {
+            "type": "Text",
+            "id": 121810004,
+            "sectionId": 1218100,
+            "senderId": 1201,
+            "text": "So, what exactly has happened? Why is everyone looking so sluggish?",
+            "option": null,
+            "nextIds": [
+              121810005
+            ],
+            "kind": "NPC"
+          },
+          "121810005": {
+            "type": "Text",
+            "id": 121810005,
+            "sectionId": 1218100,
+            "senderId": null,
+            "text": "Guard the gate, Qingque. Don't let anyone in or out of the Divination Commission.",
+            "option": "Guard the gate.",
+            "nextIds": [
+              121810006
+            ],
+            "kind": "Player"
+          },
+          "121810006": {
+            "type": "Text",
+            "id": 121810006,
+            "sectionId": 1218100,
+            "senderId": null,
+            "text": "Stay safe. We'll be right there!",
+            "option": null,
+            "nextIds": [
+              121810007
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121810007": {
+            "type": "Text",
+            "id": 121810007,
+            "sectionId": 1218100,
+            "senderId": 1201,
+            "text": "Got it. Now I'm a real door guardian.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
     ]
   ],
   "info": {

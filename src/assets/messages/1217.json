@@ -1,0 +1,1382 @@
+{
+  "id": 1217,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2010300,
+        "startIds": [
+          201030000
+        ],
+        "messages": {
+          "201030000": {
+            "type": "Text",
+            "id": 201030000,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "H—Help me...",
+            "option": null,
+            "nextIds": [
+              201030001,
+              201030003
+            ],
+            "kind": "NPC"
+          },
+          "201030001": {
+            "type": "Text",
+            "id": 201030001,
+            "sectionId": 2010300,
+            "senderId": null,
+            "text": "Huohuo, what's going on?",
+            "option": "What's wrong?",
+            "nextIds": [
+              201030002
+            ],
+            "kind": "Player"
+          },
+          "201030002": {
+            "type": "Text",
+            "id": 201030002,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "It's actually nothing",
+            "option": null,
+            "nextIds": [
+              201030006
+            ],
+            "kind": "NPC"
+          },
+          "201030006": {
+            "type": "Text",
+            "id": 201030006,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "Just now, in the group chat, I said something and nobody replied",
+            "option": null,
+            "nextIds": [
+              201030007
+            ],
+            "kind": "NPC"
+          },
+          "201030007": {
+            "type": "Text",
+            "id": 201030007,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "I waited so long, but still nobody replied",
+            "option": null,
+            "nextIds": [
+              201030008
+            ],
+            "kind": "NPC"
+          },
+          "201030008": {
+            "type": "Text",
+            "id": 201030008,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "Did I kill the mood?",
+            "option": null,
+            "nextIds": [
+              201030009
+            ],
+            "kind": "NPC"
+          },
+          "201030009": {
+            "type": "Text",
+            "id": 201030009,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "What do I do",
+            "option": null,
+            "nextIds": [
+              201030010,
+              201030013,
+              201030017
+            ],
+            "kind": "NPC"
+          },
+          "201030010": {
+            "type": "Text",
+            "id": 201030010,
+            "sectionId": 2010300,
+            "senderId": null,
+            "text": "Hmm, so that's it?",
+            "option": "So that's it?",
+            "nextIds": [
+              201030011
+            ],
+            "kind": "Player"
+          },
+          "201030011": {
+            "type": "Text",
+            "id": 201030011,
+            "sectionId": 2010300,
+            "senderId": null,
+            "text": "Don't worry. This kind of awkwardness is no big deal as long as your skin is thick enough",
+            "option": null,
+            "nextIds": [
+              201030012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201030012": {
+            "type": "Text",
+            "id": 201030012,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "I envy you",
+            "option": null,
+            "nextIds": [
+              201030021
+            ],
+            "kind": "NPC"
+          },
+          "201030021": {
+            "type": "Text",
+            "id": 201030021,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "!",
+            "option": null,
+            "nextIds": [
+              201030022
+            ],
+            "kind": "NPC"
+          },
+          "201030022": {
+            "type": "Text",
+            "id": 201030022,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "Nice!",
+            "option": null,
+            "nextIds": [
+              201030023
+            ],
+            "kind": "NPC"
+          },
+          "201030023": {
+            "type": "Text",
+            "id": 201030023,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "Madam Xueyi replied to me",
+            "option": null,
+            "nextIds": [
+              201030024
+            ],
+            "kind": "NPC"
+          },
+          "201030024": {
+            "type": "Text",
+            "id": 201030024,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "I'm saved",
+            "option": null,
+            "nextIds": [
+              201030025
+            ],
+            "kind": "NPC"
+          },
+          "201030025": {
+            "type": "Text",
+            "id": 201030025,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "Madam Xueyi is my eternal savior",
+            "option": null,
+            "nextIds": [
+              201030026,
+              201030029
+            ],
+            "kind": "NPC"
+          },
+          "201030026": {
+            "type": "Text",
+            "id": 201030026,
+            "sectionId": 2010300,
+            "senderId": null,
+            "text": "That's amazing",
+            "option": "That's amazing",
+            "nextIds": [
+              201030027
+            ],
+            "kind": "Player"
+          },
+          "201030027": {
+            "type": "Text",
+            "id": 201030027,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "I was just planning out my resignation",
+            "option": null,
+            "nextIds": [
+              201030028
+            ],
+            "kind": "NPC"
+          },
+          "201030028": {
+            "type": "Text",
+            "id": 201030028,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "But someone's replied. That's great!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201030029": {
+            "type": "Text",
+            "id": 201030029,
+            "sectionId": 2010300,
+            "senderId": null,
+            "text": "What a pity. Would be awesome if the silence keeps going",
+            "option": "That's a real pity",
+            "nextIds": [
+              201030030
+            ],
+            "kind": "Player"
+          },
+          "201030030": {
+            "type": "Text",
+            "id": 201030030,
+            "sectionId": 2010300,
+            "senderId": null,
+            "text": "Maybe you'll be able to take that step and grow",
+            "option": null,
+            "nextIds": [
+              201030031
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201030031": {
+            "type": "Text",
+            "id": 201030031,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "Waaaaaa",
+            "option": null,
+            "nextIds": [
+              201030032
+            ],
+            "kind": "NPC"
+          },
+          "201030032": {
+            "type": "Text",
+            "id": 201030032,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "That'd be terrible",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201030013": {
+            "type": "Text",
+            "id": 201030013,
+            "sectionId": 2010300,
+            "senderId": null,
+            "text": "You're starting to make me feel awkward",
+            "option": "It's starting to get awkward",
+            "nextIds": [
+              201030014
+            ],
+            "kind": "Player"
+          },
+          "201030014": {
+            "type": "Text",
+            "id": 201030014,
+            "sectionId": 2010300,
+            "senderId": null,
+            "text": "Seems like we're birds of a feather",
+            "option": null,
+            "nextIds": [
+              201030015
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201030015": {
+            "type": "Text",
+            "id": 201030015,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "Waaaaaa",
+            "option": null,
+            "nextIds": [
+              201030016
+            ],
+            "kind": "NPC"
+          },
+          "201030016": {
+            "type": "Text",
+            "id": 201030016,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "Fist bump",
+            "option": null,
+            "nextIds": [
+              201030021
+            ],
+            "kind": "NPC"
+          },
+          "201030017": {
+            "type": "Text",
+            "id": 201030017,
+            "sectionId": 2010300,
+            "senderId": null,
+            "text": "Which group? I can go drop an emote sticker in there",
+            "option": "I'll save the day",
+            "nextIds": [
+              201030018
+            ],
+            "kind": "Player"
+          },
+          "201030018": {
+            "type": "Text",
+            "id": 201030018,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "The Judges work chat group...",
+            "option": null,
+            "nextIds": [
+              201030019
+            ],
+            "kind": "NPC"
+          },
+          "201030019": {
+            "type": "Text",
+            "id": 201030019,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "Waaaaaa",
+            "option": null,
+            "nextIds": [
+              201030020
+            ],
+            "kind": "NPC"
+          },
+          "201030020": {
+            "type": "Text",
+            "id": 201030020,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "I appreciate it",
+            "option": null,
+            "nextIds": [
+              201030021
+            ],
+            "kind": "NPC"
+          },
+          "201030003": {
+            "type": "Text",
+            "id": 201030003,
+            "sectionId": 2010300,
+            "senderId": null,
+            "text": "Are you in danger? Where are you, I'm coming",
+            "option": "Are you in danger?",
+            "nextIds": [
+              201030004
+            ],
+            "kind": "Player"
+          },
+          "201030004": {
+            "type": "Text",
+            "id": 201030004,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "Aaaaah",
+            "option": null,
+            "nextIds": [
+              201030005
+            ],
+            "kind": "NPC"
+          },
+          "201030005": {
+            "type": "Text",
+            "id": 201030005,
+            "sectionId": 2010300,
+            "senderId": 1217,
+            "text": "No, I'm not in danger",
+            "option": null,
+            "nextIds": [
+              201030006
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2010400,
+        "startIds": [
+          201040000
+        ],
+        "messages": {
+          "201040000": {
+            "type": "Text",
+            "id": 201040000,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201040001
+            ],
+            "kind": "NPC"
+          },
+          "201040001": {
+            "type": "Text",
+            "id": 201040001,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "Sorry",
+            "option": null,
+            "nextIds": [
+              201040002
+            ],
+            "kind": "NPC"
+          },
+          "201040002": {
+            "type": "Text",
+            "id": 201040002,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "to bug you",
+            "option": null,
+            "nextIds": [
+              201040003
+            ],
+            "kind": "NPC"
+          },
+          "201040003": {
+            "type": "Text",
+            "id": 201040003,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "Is now a good time?",
+            "option": null,
+            "nextIds": [
+              201040004
+            ],
+            "kind": "NPC"
+          },
+          "201040004": {
+            "type": "Sticker",
+            "id": 201040004,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201040005
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "201040005": {
+            "type": "Text",
+            "id": 201040005,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "Is now not a good time?",
+            "option": null,
+            "nextIds": [
+              201040006
+            ],
+            "kind": "NPC"
+          },
+          "201040006": {
+            "type": "Text",
+            "id": 201040006,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "Gah...",
+            "option": null,
+            "nextIds": [
+              201040007,
+              201040008,
+              201040010
+            ],
+            "kind": "NPC"
+          },
+          "201040007": {
+            "type": "Text",
+            "id": 201040007,
+            "sectionId": 2010400,
+            "senderId": null,
+            "text": "Sorry, I just saw your message. I'm free, go on",
+            "option": "I just saw this. Please go ahead",
+            "nextIds": [
+              201040012
+            ],
+            "kind": "Player"
+          },
+          "201040012": {
+            "type": "Text",
+            "id": 201040012,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "Nothing",
+            "option": null,
+            "nextIds": [
+              201040013
+            ],
+            "kind": "NPC"
+          },
+          "201040013": {
+            "type": "Text",
+            "id": 201040013,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "Sorry to bother you",
+            "option": null,
+            "nextIds": [
+              201040014
+            ],
+            "kind": "NPC"
+          },
+          "201040014": {
+            "type": "Text",
+            "id": 201040014,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "I remembered this Empathic Immersia redemption code that I hadn't claimed yet",
+            "option": null,
+            "nextIds": [
+              201040015
+            ],
+            "kind": "NPC"
+          },
+          "201040015": {
+            "type": "Text",
+            "id": 201040015,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "But I was out on this field mission",
+            "option": null,
+            "nextIds": [
+              201040016
+            ],
+            "kind": "NPC"
+          },
+          "201040016": {
+            "type": "Text",
+            "id": 201040016,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "The code expires at midday",
+            "option": null,
+            "nextIds": [
+              201040017,
+              201040019
+            ],
+            "kind": "NPC"
+          },
+          "201040017": {
+            "type": "Text",
+            "id": 201040017,
+            "sectionId": 2010400,
+            "senderId": null,
+            "text": "Is there still time for me to help you redeem it?",
+            "option": "Is there still time?",
+            "nextIds": [
+              201040018
+            ],
+            "kind": "Player"
+          },
+          "201040018": {
+            "type": "Text",
+            "id": 201040018,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "It's already too late",
+            "option": null,
+            "nextIds": [
+              201040021
+            ],
+            "kind": "NPC"
+          },
+          "201040021": {
+            "type": "Text",
+            "id": 201040021,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "I managed to get hold of Guinaifen later, and she helped me redeem it",
+            "option": null,
+            "nextIds": [
+              201040022
+            ],
+            "kind": "NPC"
+          },
+          "201040022": {
+            "type": "Text",
+            "id": 201040022,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "What a relief",
+            "option": null,
+            "nextIds": [
+              201040023
+            ],
+            "kind": "NPC"
+          },
+          "201040023": {
+            "type": "Text",
+            "id": 201040023,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "...But still, thank you",
+            "option": null,
+            "nextIds": [
+              201040024,
+              201040026
+            ],
+            "kind": "NPC"
+          },
+          "201040024": {
+            "type": "Text",
+            "id": 201040024,
+            "sectionId": 2010400,
+            "senderId": null,
+            "text": "You're too kind. Helping out friends is the least I can do",
+            "option": "No no. It's the least I can do",
+            "nextIds": [
+              201040025
+            ],
+            "kind": "Player"
+          },
+          "201040025": {
+            "type": "Text",
+            "id": 201040025,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "{NICKNAME}, you can come and find me if you ever have any problems",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201040026": {
+            "type": "Text",
+            "id": 201040026,
+            "sectionId": 2010400,
+            "senderId": null,
+            "text": "Don't thank me. It wasn't me who helped you",
+            "option": "I didn't manage to help",
+            "nextIds": [
+              201040027
+            ],
+            "kind": "Player"
+          },
+          "201040027": {
+            "type": "Text",
+            "id": 201040027,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "If you'd seen it, you definitely would have helped me though",
+            "option": null,
+            "nextIds": [
+              201040028
+            ],
+            "kind": "NPC"
+          },
+          "201040028": {
+            "type": "Text",
+            "id": 201040028,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "{NICKNAME}, you can come and find me if you ever have any problems",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201040019": {
+            "type": "Text",
+            "id": 201040019,
+            "sectionId": 2010400,
+            "senderId": null,
+            "text": "Then that really is urgent. That'd be a huge loss",
+            "option": "That really is urgent...",
+            "nextIds": [
+              201040020
+            ],
+            "kind": "Player"
+          },
+          "201040020": {
+            "type": "Text",
+            "id": 201040020,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "Mmm-hmm",
+            "option": null,
+            "nextIds": [
+              201040021
+            ],
+            "kind": "NPC"
+          },
+          "201040008": {
+            "type": "Text",
+            "id": 201040008,
+            "sectionId": 2010400,
+            "senderId": null,
+            "text": "What if I'm busy?",
+            "option": "What if I'm busy?",
+            "nextIds": [
+              201040009
+            ],
+            "kind": "Player"
+          },
+          "201040009": {
+            "type": "Text",
+            "id": 201040009,
+            "sectionId": 2010400,
+            "senderId": 1217,
+            "text": "Really",
+            "option": null,
+            "nextIds": [
+              201040012
+            ],
+            "kind": "NPC"
+          },
+          "201040010": {
+            "type": "Text",
+            "id": 201040010,
+            "sectionId": 2010400,
+            "senderId": null,
+            "text": "You're too polite. If there's anything to say, just tell me",
+            "option": "You are too polite",
+            "nextIds": [
+              201040011
+            ],
+            "kind": "Player"
+          },
+          "201040011": {
+            "type": "Text",
+            "id": 201040011,
+            "sectionId": 2010400,
+            "senderId": null,
+            "text": "I'll reply if I see it",
+            "option": null,
+            "nextIds": [
+              201040012
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2010500,
+        "startIds": [
+          201050000
+        ],
+        "messages": {
+          "201050000": {
+            "type": "Text",
+            "id": 201050000,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Save me...",
+            "option": null,
+            "nextIds": [
+              201050001
+            ],
+            "kind": "NPC"
+          },
+          "201050001": {
+            "type": "Text",
+            "id": 201050001,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201050002
+            ],
+            "kind": "NPC"
+          },
+          "201050002": {
+            "type": "Text",
+            "id": 201050002,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Sorry to bother you once again...",
+            "option": null,
+            "nextIds": [
+              201050003
+            ],
+            "kind": "NPC"
+          },
+          "201050003": {
+            "type": "Text",
+            "id": 201050003,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Sorry",
+            "option": null,
+            "nextIds": [
+              201050004,
+              201050005
+            ],
+            "kind": "NPC"
+          },
+          "201050004": {
+            "type": "Text",
+            "id": 201050004,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "Did something happen?",
+            "option": "Did something happen?",
+            "nextIds": [
+              201050007
+            ],
+            "kind": "Player"
+          },
+          "201050007": {
+            "type": "Text",
+            "id": 201050007,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "It's like this",
+            "option": null,
+            "nextIds": [
+              201050008
+            ],
+            "kind": "NPC"
+          },
+          "201050008": {
+            "type": "Text",
+            "id": 201050008,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "I said I'd like to go to a Foxian barber to get my tail trimmed",
+            "option": null,
+            "nextIds": [
+              201050009
+            ],
+            "kind": "NPC"
+          },
+          "201050009": {
+            "type": "Text",
+            "id": 201050009,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Mr. Tail wouldn't do it",
+            "option": null,
+            "nextIds": [
+              201050010
+            ],
+            "kind": "NPC"
+          },
+          "201050010": {
+            "type": "Text",
+            "id": 201050010,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "I said, this is my tail",
+            "option": null,
+            "nextIds": [
+              201050011
+            ],
+            "kind": "NPC"
+          },
+          "201050011": {
+            "type": "Text",
+            "id": 201050011,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "He said, not anymore",
+            "option": null,
+            "nextIds": [
+              201050012
+            ],
+            "kind": "NPC"
+          },
+          "201050012": {
+            "type": "Text",
+            "id": 201050012,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "{NICKNAME}, what do you think?",
+            "option": null,
+            "nextIds": [
+              201050013
+            ],
+            "kind": "NPC"
+          },
+          "201050013": {
+            "type": "Text",
+            "id": 201050013,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Waaaaaa",
+            "option": null,
+            "nextIds": [
+              201050014,
+              201050017,
+              201050019
+            ],
+            "kind": "NPC"
+          },
+          "201050014": {
+            "type": "Text",
+            "id": 201050014,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "You tell him that you're the one with the legs. He's going over whether he likes it or not.",
+            "option": "You've got the legs",
+            "nextIds": [
+              201050015
+            ],
+            "kind": "Player"
+          },
+          "201050015": {
+            "type": "Text",
+            "id": 201050015,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "He said, I've always been too embarrassed to go into a barber shop anyway",
+            "option": null,
+            "nextIds": [
+              201050016
+            ],
+            "kind": "NPC"
+          },
+          "201050016": {
+            "type": "Text",
+            "id": 201050016,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "...He makes a good point",
+            "option": null,
+            "nextIds": [
+              201050022
+            ],
+            "kind": "NPC"
+          },
+          "201050022": {
+            "type": "Text",
+            "id": 201050022,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Oh, Madam Hanya is coming over",
+            "option": null,
+            "nextIds": [
+              201050023
+            ],
+            "kind": "NPC"
+          },
+          "201050023": {
+            "type": "Text",
+            "id": 201050023,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Hold on a second",
+            "option": null,
+            "nextIds": [
+              201050024
+            ],
+            "kind": "NPC"
+          },
+          "201050024": {
+            "type": "Text",
+            "id": 201050024,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "Your friend Huohuo has gone offline",
+            "option": null,
+            "nextIds": [
+              201050025
+            ],
+            "kind": "System"
+          },
+          "201050025": {
+            "type": "Text",
+            "id": 201050025,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              201050026
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201050026": {
+            "type": "Text",
+            "id": 201050026,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "Your friend Huohuo has come online",
+            "option": null,
+            "nextIds": [
+              201050027
+            ],
+            "kind": "System"
+          },
+          "201050027": {
+            "type": "Text",
+            "id": 201050027,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Madam Hanya said she'd help me trim it",
+            "option": null,
+            "nextIds": [
+              201050028
+            ],
+            "kind": "NPC"
+          },
+          "201050028": {
+            "type": "Text",
+            "id": 201050028,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Mr. Tail didn't dare to refuse",
+            "option": null,
+            "nextIds": [
+              201050029
+            ],
+            "kind": "NPC"
+          },
+          "201050029": {
+            "type": "Text",
+            "id": 201050029,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "I'm so happy",
+            "option": null,
+            "nextIds": [
+              201050030
+            ],
+            "kind": "NPC"
+          },
+          "201050030": {
+            "type": "Text",
+            "id": 201050030,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Madam Hanya is my eternal savior",
+            "option": null,
+            "nextIds": [
+              201050031,
+              201050033
+            ],
+            "kind": "NPC"
+          },
+          "201050031": {
+            "type": "Text",
+            "id": 201050031,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "LOL. Mr. Tail is still a chicken",
+            "option": "Mr. Tail backed down",
+            "nextIds": [
+              201050032
+            ],
+            "kind": "Player"
+          },
+          "201050032": {
+            "type": "Text",
+            "id": 201050032,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "He said \"you better watch out when you go to bed tonight\"",
+            "option": null,
+            "nextIds": [
+              201050036
+            ],
+            "kind": "NPC"
+          },
+          "201050036": {
+            "type": "Text",
+            "id": 201050036,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Anyway, thank you",
+            "option": null,
+            "nextIds": [
+              201050037
+            ],
+            "kind": "NPC"
+          },
+          "201050037": {
+            "type": "Text",
+            "id": 201050037,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "See you later",
+            "option": null,
+            "nextIds": [
+              201050038
+            ],
+            "kind": "NPC"
+          },
+          "201050038": {
+            "type": "Text",
+            "id": 201050038,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "Later",
+            "option": "Later",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "201050033": {
+            "type": "Text",
+            "id": 201050033,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "It had to be Madam Hanya. you can always count on her",
+            "option": "Madam Hanya is so reliable",
+            "nextIds": [
+              201050034
+            ],
+            "kind": "Player"
+          },
+          "201050034": {
+            "type": "Text",
+            "id": 201050034,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "She said she's just blowing off some steam",
+            "option": null,
+            "nextIds": [
+              201050035
+            ],
+            "kind": "NPC"
+          },
+          "201050035": {
+            "type": "Text",
+            "id": 201050035,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "???",
+            "option": null,
+            "nextIds": [
+              201050036
+            ],
+            "kind": "NPC"
+          },
+          "201050017": {
+            "type": "Text",
+            "id": 201050017,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "In your case, you could go to the pet store. They're the experts",
+            "option": "Just go to a pet store",
+            "nextIds": [
+              201050018
+            ],
+            "kind": "Player"
+          },
+          "201050018": {
+            "type": "Text",
+            "id": 201050018,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "He said, \"who are you calling a pet? You are the pet\"",
+            "option": null,
+            "nextIds": [
+              201050022
+            ],
+            "kind": "NPC"
+          },
+          "201050019": {
+            "type": "Text",
+            "id": 201050019,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "What about looking after it yourself at home?",
+            "option": "Groom yourself at home?",
+            "nextIds": [
+              201050020
+            ],
+            "kind": "Player"
+          },
+          "201050020": {
+            "type": "Text",
+            "id": 201050020,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "I'm at fault for not being good enough at it",
+            "option": null,
+            "nextIds": [
+              201050021
+            ],
+            "kind": "NPC"
+          },
+          "201050021": {
+            "type": "Text",
+            "id": 201050021,
+            "sectionId": 2010500,
+            "senderId": 1217,
+            "text": "Lemme try",
+            "option": null,
+            "nextIds": [
+              201050022
+            ],
+            "kind": "NPC"
+          },
+          "201050005": {
+            "type": "Text",
+            "id": 201050005,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "It's nothing, the Trailblazers are already used to putting up with all kinds of hassles",
+            "option": "It's cool, I'm used to it",
+            "nextIds": [
+              201050006
+            ],
+            "kind": "Player"
+          },
+          "201050006": {
+            "type": "Text",
+            "id": 201050006,
+            "sectionId": 2010500,
+            "senderId": null,
+            "text": "I'd like to see exactly how much of a hassle this is",
+            "option": null,
+            "nextIds": [
+              201050007
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1301200,
+        "startIds": [
+          130120000
+        ],
+        "messages": {
+          "130120000": {
+            "type": "Text",
+            "id": 130120000,
+            "sectionId": 1301200,
+            "senderId": 1217,
+            "text": "Excuse me, {NICKNAME}. Is everything going alright?",
+            "option": null,
+            "nextIds": [
+              130120001
+            ],
+            "kind": "NPC"
+          },
+          "130120001": {
+            "type": "Text",
+            "id": 130120001,
+            "sectionId": 1301200,
+            "senderId": null,
+            "text": "That heliobus has left the Xianzhou",
+            "option": "The heliobus has left",
+            "nextIds": [
+              130120002
+            ],
+            "kind": "Player"
+          },
+          "130120002": {
+            "type": "Text",
+            "id": 130120002,
+            "sectionId": 1301200,
+            "senderId": null,
+            "text": "It won't be coming back",
+            "option": null,
+            "nextIds": [
+              130120003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130120003": {
+            "type": "Text",
+            "id": 130120003,
+            "sectionId": 1301200,
+            "senderId": 1217,
+            "text": "Oh? That works out, too",
+            "option": null,
+            "nextIds": [
+              130120004
+            ],
+            "kind": "NPC"
+          },
+          "130120004": {
+            "type": "Text",
+            "id": 130120004,
+            "sectionId": 1301200,
+            "senderId": null,
+            "text": "But I captured another dangerous heliobus and I'm gonna to take it back to the suppression tower",
+            "option": "I captured another heliobus",
+            "nextIds": [
+              130120005
+            ],
+            "kind": "Player"
+          },
+          "130120005": {
+            "type": "Text",
+            "id": 130120005,
+            "sectionId": 1301200,
+            "senderId": 1217,
+            "text": "As expected of you",
+            "option": null,
+            "nextIds": [
+              130120006
+            ],
+            "kind": "NPC"
+          },
+          "130120006": {
+            "type": "Text",
+            "id": 130120006,
+            "sectionId": 1301200,
+            "senderId": 1217,
+            "text": "You'd never come back empty-handed",
+            "option": null,
+            "nextIds": [
+              130120007
+            ],
+            "kind": "NPC"
+          },
+          "130120007": {
+            "type": "Text",
+            "id": 130120007,
+            "sectionId": 1301200,
+            "senderId": 1217,
+            "text": "I'll wait for you at the suppression tower",
+            "option": null,
+            "nextIds": [
+              130120008
+            ],
+            "kind": "NPC"
+          },
+          "130120008": {
+            "type": "Text",
+            "id": 130120008,
+            "sectionId": 1301200,
+            "senderId": 1217,
+            "text": "Thank you for your hard work",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1217,
+    "name": "Huohuo",
+    "signature": "Mr. Tail's \"Tail\"",
+    "iconPath": "icon/avatar/1217.png",
+    "type": 1,
+    "camp": 4
+  }
+}

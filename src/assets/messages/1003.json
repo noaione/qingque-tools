@@ -52,7 +52,7 @@
             "id": 111160007,
             "sectionId": 1111600,
             "senderId": 1003,
-            "text": "New members? Of course. So long as they are willing to travel with us, the Express's door will always be open",
+            "text": "New members? Of course. So long as they are willing to travel with us, the Express' door will always be open",
             "option": null,
             "nextIds": [
               111160010
@@ -233,7 +233,7 @@
             "id": 111160008,
             "sectionId": 1111600,
             "senderId": 1003,
-            "text": "A potential new crew mate? Of course. So long as they are willing to travel with us, the Express's door will always be open",
+            "text": "A potential new crew mate? Of course. So long as they are willing to travel with us, the Express' door will always be open",
             "option": null,
             "nextIds": [
               111160010

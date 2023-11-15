@@ -1,0 +1,752 @@
+{
+  "id": 1215,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2010900,
+        "startIds": [
+          201090000
+        ],
+        "messages": {
+          "201090000": {
+            "type": "Text",
+            "id": 201090000,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "Failed to send the attachment <i>Seawater</i>.",
+            "option": null,
+            "nextIds": [
+              201090001
+            ],
+            "kind": "System"
+          },
+          "201090001": {
+            "type": "Text",
+            "id": 201090001,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "Failed to send the attachment <i>Seawater</i>.",
+            "option": null,
+            "nextIds": [
+              201090002
+            ],
+            "kind": "System"
+          },
+          "201090002": {
+            "type": "Text",
+            "id": 201090002,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "Failed to send the attachment <i>Seawater</i>.",
+            "option": null,
+            "nextIds": [
+              201090003
+            ],
+            "kind": "System"
+          },
+          "201090003": {
+            "type": "Text",
+            "id": 201090003,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Strange. Why won't it go through?",
+            "option": null,
+            "nextIds": [
+              201090004
+            ],
+            "kind": "NPC"
+          },
+          "201090004": {
+            "type": "Text",
+            "id": 201090004,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Could it be that the signal from the Shackling Prison is still blocked?",
+            "option": null,
+            "nextIds": [
+              201090005
+            ],
+            "kind": "NPC"
+          },
+          "201090005": {
+            "type": "Text",
+            "id": 201090005,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Hmm... they proposed maintenance last year, but it's been delayed in the approval process...",
+            "option": null,
+            "nextIds": [
+              201090006
+            ],
+            "kind": "NPC"
+          },
+          "201090006": {
+            "type": "Text",
+            "id": 201090006,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "So, what were you trying to send me?",
+            "option": "What are you going to send me?",
+            "nextIds": [
+              201090007
+            ],
+            "kind": "Player"
+          },
+          "201090007": {
+            "type": "Text",
+            "id": 201090007,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "A novel. I wrote it.",
+            "option": null,
+            "nextIds": [
+              201090008
+            ],
+            "kind": "NPC"
+          },
+          "201090008": {
+            "type": "Text",
+            "id": 201090008,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "My sister loves thriller novels. Lately, she's been running out of interesting stories, so I thought I'd write something for her. It's my first attempt, though.",
+            "option": null,
+            "nextIds": [
+              201090009
+            ],
+            "kind": "NPC"
+          },
+          "201090009": {
+            "type": "Text",
+            "id": 201090009,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "Failed to send the attachment <i>Seawater</i>.",
+            "option": null,
+            "nextIds": [
+              201090010
+            ],
+            "kind": "System"
+          },
+          "201090010": {
+            "type": "Text",
+            "id": 201090010,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "The attachment failed again. I'll copy and paste the content here. It's a bit long, and I hope you don't mind.",
+            "option": null,
+            "nextIds": [
+              201090011
+            ],
+            "kind": "NPC"
+          },
+          "201090011": {
+            "type": "Text",
+            "id": 201090011,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "<i>Seawater</i>, Written by Hanya",
+            "option": null,
+            "nextIds": [
+              201090012
+            ],
+            "kind": "NPC"
+          },
+          "201090012": {
+            "type": "Text",
+            "id": 201090012,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Judges have forever grappled with the burden of excruciating decisions. Among them, few weigh on their conscience as heavily as the relentless pursuit of the betrayer. Motivated by greed, disdain, or the intoxication of danger, comrades can swiftly transform into enemies. And when the moment arrives to dispense justice upon a former ally in the name of the revered Ten Lords, the torment becomes unbearable.",
+            "option": null,
+            "nextIds": [
+              201090013
+            ],
+            "kind": "NPC"
+          },
+          "201090013": {
+            "type": "Text",
+            "id": 201090013,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "The place I now journey towards bears witness to a heart-rending spectacle. Long ago, I meticulously constructed a trap to ensnare the perpetrator who conspired with the Denizens of Abundance. This elusive criminal, known only as \"Seawater,\" peddled invaluable secrets, unraveling the intricate tapestry of the Alliance within the Ryansnaut Sector. Engaged in an unyielding battle with \"Seawater\" for an extended duration, I now find myself poised to tighten the noose.",
+            "option": null,
+            "nextIds": [
+              201090014
+            ],
+            "kind": "NPC"
+          },
+          "201090014": {
+            "type": "Text",
+            "id": 201090014,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "As I hasten towards the scene, a vivid tableau unfolds within my mind. A greenhorn Cloud Knight, a spirited street performer, a guileless Foxian girl, and one enigmatic Nameless... Which among them could be \"Seawater\"? And when the truth is ultimately unveiled, how shall I confront the inevitable, merciless denouement...?",
+            "option": null,
+            "nextIds": [
+              201090015
+            ],
+            "kind": "NPC"
+          },
+          "201090015": {
+            "type": "Text",
+            "id": 201090015,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Without warning, an arrow, launched from the shadows, pierces my heart. I collapse to the ground, I find my gaze locked onto the countenance of the assailant...",
+            "option": null,
+            "nextIds": [
+              201090016
+            ],
+            "kind": "NPC"
+          },
+          "201090016": {
+            "type": "Text",
+            "id": 201090016,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "Wait, hold on a sec!",
+            "option": "What a wall of text!",
+            "nextIds": [
+              201090017
+            ],
+            "kind": "Player"
+          },
+          "201090017": {
+            "type": "Text",
+            "id": 201090017,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "Are you seriously planning to send me the entire novel through text messages?!",
+            "option": null,
+            "nextIds": [
+              201090018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201090018": {
+            "type": "Text",
+            "id": 201090018,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Sorry. I'm not done yet.",
+            "option": null,
+            "nextIds": [
+              201090019
+            ],
+            "kind": "NPC"
+          },
+          "201090019": {
+            "type": "Text",
+            "id": 201090019,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "\"Seawater... It is you!\"",
+            "option": null,
+            "nextIds": [
+              201090020
+            ],
+            "kind": "NPC"
+          },
+          "201090020": {
+            "type": "Text",
+            "id": 201090020,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "It ends here.",
+            "option": null,
+            "nextIds": [
+              201090021
+            ],
+            "kind": "NPC"
+          },
+          "201090021": {
+            "type": "Text",
+            "id": 201090021,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "That's all I've managed to write so far. I'm a bit stuck and need some advice.",
+            "option": null,
+            "nextIds": [
+              201090022,
+              201090025,
+              201090028
+            ],
+            "kind": "NPC"
+          },
+          "201090022": {
+            "type": "Text",
+            "id": 201090022,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "It's great. Keep going with it.",
+            "option": "Very well-written.",
+            "nextIds": [
+              201090023
+            ],
+            "kind": "Player"
+          },
+          "201090023": {
+            "type": "Text",
+            "id": 201090023,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Really?",
+            "option": null,
+            "nextIds": [
+              201090024
+            ],
+            "kind": "NPC"
+          },
+          "201090024": {
+            "type": "Text",
+            "id": 201090024,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "While I'm not entirely satisfied with it, you've given me the confidence to keep going.",
+            "option": null,
+            "nextIds": [
+              201090031
+            ],
+            "kind": "NPC"
+          },
+          "201090031": {
+            "type": "Text",
+            "id": 201090031,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Any other suggestions besides that?",
+            "option": null,
+            "nextIds": [
+              201090032
+            ],
+            "kind": "NPC"
+          },
+          "201090032": {
+            "type": "Text",
+            "id": 201090032,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "The biggest question is, who is this \"Seawater\" anyway?",
+            "option": "Who is \"Seawater,\" anyway?",
+            "nextIds": [
+              201090033
+            ],
+            "kind": "Player"
+          },
+          "201090033": {
+            "type": "Text",
+            "id": 201090033,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "That... I haven't decided yet.",
+            "option": null,
+            "nextIds": [
+              201090034
+            ],
+            "kind": "NPC"
+          },
+          "201090034": {
+            "type": "Text",
+            "id": 201090034,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Maybe that's why I'm struggling with the writing.",
+            "option": null,
+            "nextIds": [
+              201090035
+            ],
+            "kind": "NPC"
+          },
+          "201090035": {
+            "type": "Text",
+            "id": 201090035,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Thanks for your advice. I'll think about it and send it to you once it's ready.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201090025": {
+            "type": "Text",
+            "id": 201090025,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "To be honest, it's a bit long-winded. It lacks detail, and now I understand why you're stuck.",
+            "option": "Not very well-written.",
+            "nextIds": [
+              201090026
+            ],
+            "kind": "Player"
+          },
+          "201090026": {
+            "type": "Text",
+            "id": 201090026,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "I feel the same way. The story definitely needs refinement.",
+            "option": null,
+            "nextIds": [
+              201090027
+            ],
+            "kind": "NPC"
+          },
+          "201090027": {
+            "type": "Text",
+            "id": 201090027,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "Well, I'll try reading more of my sister's favorite novels and maybe I'll learn something about storytelling intricacies.",
+            "option": null,
+            "nextIds": [
+              201090031
+            ],
+            "kind": "NPC"
+          },
+          "201090028": {
+            "type": "Text",
+            "id": 201090028,
+            "sectionId": 2010900,
+            "senderId": null,
+            "text": "Why are we the suspects in your story?",
+            "option": "Are we suspects?",
+            "nextIds": [
+              201090029
+            ],
+            "kind": "Player"
+          },
+          "201090029": {
+            "type": "Text",
+            "id": 201090029,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "My sister mentioned that it's easier to write a novel when the characters are based on familiar faces.",
+            "option": null,
+            "nextIds": [
+              201090030
+            ],
+            "kind": "NPC"
+          },
+          "201090030": {
+            "type": "Text",
+            "id": 201090030,
+            "sectionId": 2010900,
+            "senderId": 1215,
+            "text": "I've been thinking about it. Maybe it's because you guys are always too kind for me to imagine you doing anything evil. No wonder I'm stuck now. Perhaps I should draw inspiration from the criminals I usually deal with.",
+            "option": null,
+            "nextIds": [
+              201090031
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2011000,
+        "startIds": [
+          201100000
+        ],
+        "messages": {
+          "201100000": {
+            "type": "Text",
+            "id": 201100000,
+            "sectionId": 2011000,
+            "senderId": 1215,
+            "text": "You got a minute?",
+            "option": null,
+            "nextIds": [
+              201100001
+            ],
+            "kind": "NPC"
+          },
+          "201100001": {
+            "type": "Text",
+            "id": 201100001,
+            "sectionId": 2011000,
+            "senderId": 1215,
+            "text": "Or, are you free sometime in the next few days?",
+            "option": null,
+            "nextIds": [
+              201100002
+            ],
+            "kind": "NPC"
+          },
+          "201100002": {
+            "type": "Text",
+            "id": 201100002,
+            "sectionId": 2011000,
+            "senderId": 1215,
+            "text": "And if not, how about next week?",
+            "option": null,
+            "nextIds": [
+              201100003
+            ],
+            "kind": "NPC"
+          },
+          "201100003": {
+            "type": "Text",
+            "id": 201100003,
+            "sectionId": 2011000,
+            "senderId": 1215,
+            "text": "And if not, how about next month?",
+            "option": null,
+            "nextIds": [
+              201100004,
+              201100006
+            ],
+            "kind": "NPC"
+          },
+          "201100004": {
+            "type": "Text",
+            "id": 201100004,
+            "sectionId": 2011000,
+            "senderId": null,
+            "text": "I'm busy these next couple of days.",
+            "option": "I'm busy these next couple of days",
+            "nextIds": [
+              201100005
+            ],
+            "kind": "Player"
+          },
+          "201100005": {
+            "type": "Text",
+            "id": 201100005,
+            "sectionId": 2011000,
+            "senderId": 1215,
+            "text": "Never mind. If you are free afterward, would you like to watch an immersia together with me?",
+            "option": null,
+            "nextIds": [
+              201100008
+            ],
+            "kind": "NPC"
+          },
+          "201100008": {
+            "type": "Text",
+            "id": 201100008,
+            "sectionId": 2011000,
+            "senderId": null,
+            "text": "What's with the sudden interest in immersia?",
+            "option": "What's with the sudden interest in immersia?",
+            "nextIds": [
+              201100009
+            ],
+            "kind": "Player"
+          },
+          "201100009": {
+            "type": "Text",
+            "id": 201100009,
+            "sectionId": 2011000,
+            "senderId": 1215,
+            "text": "Well, since my sister is a puppet and only able to spend a limited amount of time in the mortal world, I always try to make the most of it by taking her to watch interesting things, have fun, and enjoy good food.",
+            "option": null,
+            "nextIds": [
+              201100010
+            ],
+            "kind": "NPC"
+          },
+          "201100010": {
+            "type": "Text",
+            "id": 201100010,
+            "sectionId": 2011000,
+            "senderId": 1215,
+            "text": "Lately, I've been thinking about exploring some new immersias with her, but due to my job, I've lost interest in many things, and I'm not sure if the immersias I choose will be enjoyable. It's such a rare occasion for my sister to be in the mortal world, and if I waste her precious time on dull immersias, I'll feel incredibly guilty, to the point of mara corruption. That's why I need someone else's suggestion. I believe someone as knowledgeable as you could help me find captivating immersias",
+            "option": null,
+            "nextIds": [
+              201100011
+            ],
+            "kind": "NPC"
+          },
+          "201100011": {
+            "type": "Text",
+            "id": 201100011,
+            "sectionId": 2011000,
+            "senderId": null,
+            "text": "That makes sense, but everyone has their own preferences. I wonder what kind of immersias Miss Xueyi likes?",
+            "option": "What type of immersia does Xueyi like?",
+            "nextIds": [
+              201100012
+            ],
+            "kind": "Player"
+          },
+          "201100012": {
+            "type": "Text",
+            "id": 201100012,
+            "sectionId": 2011000,
+            "senderId": 1215,
+            "text": "My sister loves thrillers. Murder mysteries, spy flicks, zombies, and basically anything with thrilling plots. However, I find it difficult to discern what is \"thrilling.\" If you were like me, immersed in the first-person experiences of various mara-struck individuals all day, you will also come to feel that no immersia can be \"thrilling.\" That's why I need your help to tell me what is \"thrilling\" with the eyes of an ordinary person.",
+            "option": null,
+            "nextIds": [
+              201100013
+            ],
+            "kind": "NPC"
+          },
+          "201100013": {
+            "type": "Text",
+            "id": 201100013,
+            "sectionId": 2011000,
+            "senderId": 1215,
+            "text": "I'll get back to you once I've got the tickets.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201100006": {
+            "type": "Text",
+            "id": 201100006,
+            "sectionId": 2011000,
+            "senderId": null,
+            "text": "Feel free to call me anytime of the day",
+            "option": "For you, I'm free any time",
+            "nextIds": [
+              201100007
+            ],
+            "kind": "Player"
+          },
+          "201100007": {
+            "type": "Text",
+            "id": 201100007,
+            "sectionId": 2011000,
+            "senderId": 1215,
+            "text": "Great. Would you like to watch an immersia together with me?",
+            "option": null,
+            "nextIds": [
+              201100008
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2011100,
+        "startIds": [
+          201110000
+        ],
+        "messages": {
+          "201110000": {
+            "type": "Text",
+            "id": 201110000,
+            "sectionId": 2011100,
+            "senderId": 1215,
+            "text": "Sometimes I may have some thoughts that I'm not sure if you'll get, but it might be worth a try. So, I'd like to share them with you.",
+            "option": null,
+            "nextIds": [
+              201110001
+            ],
+            "kind": "NPC"
+          },
+          "201110001": {
+            "type": "Text",
+            "id": 201110001,
+            "sectionId": 2011100,
+            "senderId": 1215,
+            "text": "In the Shackling Prison, I've been immersed in memories of mara-struck individuals for days on end. Meanwhile, in the outside world, I constantly hear people complaining about trivial things like having too much homework or feeling exhausted with only four hours of playtime each day. They complain about being tired.",
+            "option": null,
+            "nextIds": [
+              201110002
+            ],
+            "kind": "NPC"
+          },
+          "201110002": {
+            "type": "Text",
+            "id": 201110002,
+            "sectionId": 2011100,
+            "senderId": 1215,
+            "text": "For me, even a short thirty-minute break every few days would be a precious gift from the Ten Lords.",
+            "option": null,
+            "nextIds": [
+              201110003,
+              201110004
+            ],
+            "kind": "NPC"
+          },
+          "201110003": {
+            "type": "Text",
+            "id": 201110003,
+            "sectionId": 2011100,
+            "senderId": null,
+            "text": "Younger people tend to have a lower threshold for stress.",
+            "option": "Everyone carries their own burden.",
+            "nextIds": [
+              201110005
+            ],
+            "kind": "Player"
+          },
+          "201110005": {
+            "type": "Text",
+            "id": 201110005,
+            "sectionId": 2011100,
+            "senderId": 1215,
+            "text": "Well, the more I think about it, the more I understand them. Actually, I used to complain about those things too when I was younger.",
+            "option": null,
+            "nextIds": [
+              201110006
+            ],
+            "kind": "NPC"
+          },
+          "201110006": {
+            "type": "Text",
+            "id": 201110006,
+            "sectionId": 2011100,
+            "senderId": 1215,
+            "text": "I vaguely remember when I was a child, believing that I wasn't cut out for work. My sister would comfort me, although I can't recall exactly what she said. It was only after I started working that I realized no one is truly cut out for work, especially in the Ten-Lords Commission. Even if you don't have what it takes, once you drink the Wine of Oblivion, you simply do what needs to be done.",
+            "option": null,
+            "nextIds": [
+              201110007
+            ],
+            "kind": "NPC"
+          },
+          "201110007": {
+            "type": "Text",
+            "id": 201110007,
+            "sectionId": 2011100,
+            "senderId": 1215,
+            "text": "However, I never let my daily stress build up to the point of mara corruption. That's why I visit Du's Teahouse after work to enjoy some tea. His tea works wonders.",
+            "option": null,
+            "nextIds": [
+              201110008
+            ],
+            "kind": "NPC"
+          },
+          "201110008": {
+            "type": "Text",
+            "id": 201110008,
+            "sectionId": 2011100,
+            "senderId": 1215,
+            "text": "If you're free, don't hesitate to join me.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201110004": {
+            "type": "Text",
+            "id": 201110004,
+            "sectionId": 2011100,
+            "senderId": null,
+            "text": "That's true. Many people don't realize how good they have it",
+            "option": "Yes. Highly annoying.",
+            "nextIds": [
+              201110005
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1215,
+    "name": "Hanya",
+    "signature": "Engaging in oneiromancy, do not disturb.",
+    "iconPath": "icon/avatar/1215.png",
+    "type": 1,
+    "camp": 4
+  }
+}

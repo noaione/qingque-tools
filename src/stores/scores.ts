@@ -1,6 +1,6 @@
 import type { Character, MainAffixKey, ScoreCharacter, ScoreCharacterJSON, StatsTypeDict } from "@/models";
 import charactersModels from "@/assets/characters.json";
-import { calculateMaximumPossibleValues } from "@/utils";
+import { calculateMaximumPossibleValues, isNone } from "@/utils";
 import { defineStore } from "pinia";
 
 export interface SCStore {
@@ -87,7 +87,14 @@ export const useScoresStore = defineStore("scores", {
   },
   getters: {
     current(state): SCStore | undefined {
-      return state.scores.find((score) => score.id === state.cIdx);
+      const selected = state.scores.find((score) => score.id === state.cIdx);
+      if (isNone(selected)) return undefined;
+
+      return {
+        ...selected,
+        // recalibratee the max value
+        max: calculateMaximumPossibleValues(selected.data)
+      };
     },
     currentIndex(state): number | undefined {
       return state.scores.findIndex((score) => score.id === state.cIdx);

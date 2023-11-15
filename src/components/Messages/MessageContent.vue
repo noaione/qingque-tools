@@ -54,6 +54,15 @@
               :title="message.text"
             />
           </div>
+          <div v-else-if="message.type === 'Link'" class="flex flex-wrap flex-col items-center pb-1 mt-2">
+            <img
+              class="object-contain h-36 w-36"
+              :src="`/assets/${message.link.image.replace('.png', '.webp')}`"
+              :alt="message.link.name"
+              :title="message.text"
+            />
+            <span class="mt-1 font-semibold italic">{{ message.link.name }}</span>
+          </div>
           <div
             v-else-if="message.type === 'Raid'"
             :class="`flex flex-col flex-wrap pb-1 mt-2 ${isMe ? 'text-right' : 'text-left'}`"

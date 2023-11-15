@@ -3,6 +3,206 @@
   "sections": [
     [
       {
+        "type": "MissionMessage",
+        "id": 1012301,
+        "startIds": [
+          101230101
+        ],
+        "messages": {
+          "101230101": {
+            "type": "Text",
+            "id": 101230101,
+            "sectionId": 1012301,
+            "senderId": 1000,
+            "text": "Aaaaaahh!",
+            "option": null,
+            "nextIds": [
+              101230102
+            ],
+            "kind": "NPC"
+          },
+          "101230102": {
+            "type": "Text",
+            "id": 101230102,
+            "sectionId": 1012301,
+            "senderId": 1000,
+            "text": "{NICKNAME}! Are you there?!",
+            "option": null,
+            "nextIds": [
+              101230103,
+              101230104
+            ],
+            "kind": "NPC"
+          },
+          "101230103": {
+            "type": "Text",
+            "id": 101230103,
+            "sectionId": 1012301,
+            "senderId": null,
+            "text": "What's going on?",
+            "option": "What's the hurry?",
+            "nextIds": [
+              101230105
+            ],
+            "kind": "Player"
+          },
+          "101230105": {
+            "type": "Text",
+            "id": 101230105,
+            "sectionId": 1012301,
+            "senderId": 1000,
+            "text": "It's something super urgent!",
+            "option": null,
+            "nextIds": [
+              101230106
+            ],
+            "kind": "NPC"
+          },
+          "101230106": {
+            "type": "Text",
+            "id": 101230106,
+            "sectionId": 1012301,
+            "senderId": 1000,
+            "text": "Pom-Pom doesn't even want to think about it...",
+            "option": null,
+            "nextIds": [
+              101230107
+            ],
+            "kind": "NPC"
+          },
+          "101230107": {
+            "type": "Text",
+            "id": 101230107,
+            "sectionId": 1012301,
+            "senderId": 1000,
+            "text": "The train's long overdue cleaning day is almost upon us! Aaaaahhh!",
+            "option": null,
+            "nextIds": [
+              101230108
+            ],
+            "kind": "NPC"
+          },
+          "101230108": {
+            "type": "Text",
+            "id": 101230108,
+            "sectionId": 1012301,
+            "senderId": null,
+            "text": "...Huh?",
+            "option": "...",
+            "nextIds": [
+              101230109
+            ],
+            "kind": "Player"
+          },
+          "101230109": {
+            "type": "Text",
+            "id": 101230109,
+            "sectionId": 1012301,
+            "senderId": null,
+            "text": "I get it now.",
+            "option": null,
+            "nextIds": [
+              101230110
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101230110": {
+            "type": "Text",
+            "id": 101230110,
+            "sectionId": 1012301,
+            "senderId": null,
+            "text": "So, you want me to come back and help you with the cleaning?",
+            "option": null,
+            "nextIds": [
+              101230111
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101230111": {
+            "type": "Sticker",
+            "id": 101230111,
+            "sectionId": 1012301,
+            "senderId": null,
+            "text": "[cry]",
+            "option": null,
+            "nextIds": [
+              101230112
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "101230112": {
+            "type": "Text",
+            "id": 101230112,
+            "sectionId": 1012301,
+            "senderId": 1000,
+            "text": "Not really...",
+            "option": null,
+            "nextIds": [
+              101230113
+            ],
+            "kind": "NPC"
+          },
+          "101230113": {
+            "type": "Text",
+            "id": 101230113,
+            "sectionId": 1012301,
+            "senderId": 1000,
+            "text": "But if you're willing to lend a hand, {NICKNAME}, that would be great!",
+            "option": null,
+            "nextIds": [
+              101230114
+            ],
+            "kind": "NPC"
+          },
+          "101230114": {
+            "type": "Text",
+            "id": 101230114,
+            "sectionId": 1012301,
+            "senderId": 1000,
+            "text": "We're on our way to the nearest Washtopia.",
+            "option": null,
+            "nextIds": [
+              101230115
+            ],
+            "kind": "NPC"
+          },
+          "101230115": {
+            "type": "Text",
+            "id": 101230115,
+            "sectionId": 1012301,
+            "senderId": 1000,
+            "text": "Come back and see me when you have time!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "101230104": {
+            "type": "Text",
+            "id": 101230104,
+            "sectionId": 1012301,
+            "senderId": null,
+            "text": "Take your time, okay?",
+            "option": "Calm down.",
+            "nextIds": [
+              101230105
+            ],
+            "kind": "Player"
+          }
+        },
+        "mission": {
+          "id": 2000801,
+          "name": "Night of Universal Hallucinations",
+          "type": "Companion"
+        }
+      }
+    ],
+    [
+      {
         "type": "Message",
         "id": 1150000,
         "startIds": [
@@ -992,6 +1192,93 @@
             "nextIds": [],
             "kind": "NPC"
           }
+        }
+      }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1220900,
+        "startIds": [
+          122090001
+        ],
+        "messages": {
+          "122090001": {
+            "type": "Text",
+            "id": 122090001,
+            "sectionId": 1220900,
+            "senderId": 1000,
+            "text": "Passenger {NICKNAME}, ever since the start of this journey, there have been a lot of new visitors boarding the Express",
+            "option": null,
+            "nextIds": [
+              122090002,
+              122090003
+            ],
+            "kind": "NPC"
+          },
+          "122090002": {
+            "type": "Text",
+            "id": 122090002,
+            "sectionId": 1220900,
+            "senderId": null,
+            "text": "I noticed that too!",
+            "option": "I noticed that too!",
+            "nextIds": [
+              122090004
+            ],
+            "kind": "Player"
+          },
+          "122090004": {
+            "type": "Text",
+            "id": 122090004,
+            "sectionId": 1220900,
+            "senderId": 1000,
+            "text": "Yeah. You have to treasure these encounters!",
+            "option": null,
+            "nextIds": [
+              122090005
+            ],
+            "kind": "NPC"
+          },
+          "122090005": {
+            "type": "Text",
+            "id": 122090005,
+            "sectionId": 1220900,
+            "senderId": 1000,
+            "text": "To savor these precious memories, the Express has left a guest book for all our new friends. They can write comments in it.",
+            "option": null,
+            "nextIds": [
+              122090006
+            ],
+            "kind": "NPC"
+          },
+          "122090006": {
+            "type": "Text",
+            "id": 122090006,
+            "sectionId": 1220900,
+            "senderId": 1000,
+            "text": "The guest book is on the bar counter. Go take a look when you have time",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122090003": {
+            "type": "Text",
+            "id": 122090003,
+            "sectionId": 1220900,
+            "senderId": null,
+            "text": "These must be the rewards of the journey!",
+            "option": "Our good friends!",
+            "nextIds": [
+              122090004
+            ],
+            "kind": "Player"
+          }
+        },
+        "mission": {
+          "id": 4010141,
+          "name": "Old Friends and New Learnings",
+          "type": "Branch"
         }
       }
     ]

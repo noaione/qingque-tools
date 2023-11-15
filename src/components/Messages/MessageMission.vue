@@ -71,13 +71,15 @@ const MissionColor: MappedMissionType = {
   Main: "#ffd52b",
   Companion: "#b886ed",
   Branch: "#54a9be",
-  Daily: "#9eb464"
+  Daily: "#9eb464",
+  Gap: "#e37b3e"
 };
 const MissionText: MappedMissionType = {
   Main: "Trailblaze Mission",
   Companion: "Companion Mission",
   Branch: "Adventure Mission",
-  Daily: "Daily Mission"
+  Daily: "Daily Mission",
+  Gap: "Trailblaze Continuance"
 };
 
 /**

@@ -1,0 +1,221 @@
+{
+  "id": 108,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1300700,
+        "startIds": [
+          130070000
+        ],
+        "messages": {
+          "130070000": {
+            "type": "Text",
+            "id": 130070000,
+            "sectionId": 1300700,
+            "senderId": 108,
+            "text": "My dearest outworlder friend, I am the esteemed Vidyadhara High Elder. I was wounded by abominations and have been in dormancy for a thousand years. I only awakened very recently and plan to restore the glory of the Vidyadhara lineage. Unfortunately, I have lost all worldly possessions, and currently find myself in financial shortfall. So, I was hoping you could lend me <unbreak>50,000</unbreak> credits. Once I return to the Xianzhou, I'll pay you back tenfold and even let you choose anything you desire from our precious Vidyadhara treasures.",
+            "option": null,
+            "nextIds": [
+              130070001,
+              130070008
+            ],
+            "kind": "NPC"
+          },
+          "130070001": {
+            "type": "Text",
+            "id": 130070001,
+            "sectionId": 1300700,
+            "senderId": null,
+            "text": "There are so many High Elders on the Xianzhou. Who exactly are you? Tell me your name, and maybe it's someone I know.",
+            "option": "Which High Elder are you?",
+            "nextIds": [
+              130070002
+            ],
+            "kind": "Player"
+          },
+          "130070002": {
+            "type": "Text",
+            "id": 130070002,
+            "sectionId": 1300700,
+            "senderId": 108,
+            "text": "Well, I'd rather not reveal my identity to avoid drawing unwanted attention. After all, I'm not on the Xianzhou.",
+            "option": null,
+            "nextIds": [
+              130070003,
+              130070006
+            ],
+            "kind": "NPC"
+          },
+          "130070003": {
+            "type": "Text",
+            "id": 130070003,
+            "sectionId": 1300700,
+            "senderId": null,
+            "text": "Come on, why be a stranger? Just tell me if you need money! We're best buddies, aren't we?",
+            "option": "Come on! Just tell me if you need money!",
+            "nextIds": [
+              130070004
+            ],
+            "kind": "Player"
+          },
+          "130070004": {
+            "type": "Text",
+            "id": 130070004,
+            "sectionId": 1300700,
+            "senderId": null,
+            "text": "Why using a sockpuppet? Just log in to your main account, and we can talk.",
+            "option": null,
+            "nextIds": [
+              130070005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130070005": {
+            "type": "Text",
+            "id": 130070005,
+            "sectionId": 1300700,
+            "senderId": 108,
+            "text": "But this is my main account.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130070006": {
+            "type": "Text",
+            "id": 130070006,
+            "sectionId": 1300700,
+            "senderId": null,
+            "text": "You're not on the Xianzhou? Wait a sec. I think I know who you are. Hang on. I'm coming to say hi",
+            "option": "Don't worry. I'll ask you in person.",
+            "nextIds": [
+              130070007
+            ],
+            "kind": "Player"
+          },
+          "130070007": {
+            "type": "Text",
+            "id": 130070007,
+            "sectionId": 1300700,
+            "senderId": 108,
+            "text": "???",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130070008": {
+            "type": "Text",
+            "id": 130070008,
+            "sectionId": 1300700,
+            "senderId": null,
+            "text": "Come on, what are you even thinking? Do you really believe <unbreak>50,000</unbreak> credits would be enough to socialize with the right people to restore glory for the entire Vidyadhara race?!",
+            "option": "<unbreak>50,000</unbreak> credits won't be enough.",
+            "nextIds": [
+              130070009
+            ],
+            "kind": "Player"
+          },
+          "130070009": {
+            "type": "Text",
+            "id": 130070009,
+            "sectionId": 1300700,
+            "senderId": 108,
+            "text": "???",
+            "option": null,
+            "nextIds": [
+              130070010
+            ],
+            "kind": "NPC"
+          },
+          "130070010": {
+            "type": "Text",
+            "id": 130070010,
+            "sectionId": 1300700,
+            "senderId": 108,
+            "text": "Huh?",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1300900,
+        "startIds": [
+          130090000
+        ],
+        "messages": {
+          "130090000": {
+            "type": "Text",
+            "id": 130090000,
+            "sectionId": 1300900,
+            "senderId": 108,
+            "text": "If you really want to help, transfer <unbreak>50,000</unbreak> credits first.",
+            "option": null,
+            "nextIds": [
+              130090001
+            ],
+            "kind": "NPC"
+          },
+          "130090001": {
+            "type": "Text",
+            "id": 130090001,
+            "sectionId": 1300900,
+            "senderId": null,
+            "text": "<color=#eb4d3dff>[Pending Receipt]</color> <unbreak>50,000</unbreak> Credits",
+            "option": "[Transfer] <unbreak>50,000</unbreak> credits.",
+            "nextIds": [
+              130090002
+            ],
+            "kind": "Player"
+          },
+          "130090002": {
+            "type": "Text",
+            "id": 130090002,
+            "sectionId": 1300900,
+            "senderId": null,
+            "text": "Transfer failed.",
+            "option": null,
+            "nextIds": [
+              130090003
+            ],
+            "kind": "System"
+          },
+          "130090003": {
+            "type": "Text",
+            "id": 130090003,
+            "sectionId": 1300900,
+            "senderId": null,
+            "text": "Transfer cancelled.",
+            "option": null,
+            "nextIds": [
+              130090004
+            ],
+            "kind": "System"
+          },
+          "130090004": {
+            "type": "Text",
+            "id": 130090004,
+            "sectionId": 1300900,
+            "senderId": null,
+            "text": "?",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 108,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 4
+  }
+}

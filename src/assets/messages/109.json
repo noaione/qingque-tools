@@ -1,0 +1,287 @@
+{
+  "id": 109,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1012400,
+        "startIds": [
+          101240001
+        ],
+        "messages": {
+          "101240001": {
+            "type": "Text",
+            "id": 101240001,
+            "sectionId": 1012400,
+            "senderId": 1302,
+            "text": "{NICKNAME}, are you all safe and sound?",
+            "option": null,
+            "nextIds": [
+              101240002
+            ],
+            "kind": "NPC"
+          },
+          "101240002": {
+            "type": "Text",
+            "id": 101240002,
+            "sectionId": 1012400,
+            "senderId": 1302,
+            "text": "I am sincerely worried.",
+            "option": null,
+            "nextIds": [
+              101240003
+            ],
+            "kind": "NPC"
+          },
+          "101240003": {
+            "type": "Text",
+            "id": 101240003,
+            "sectionId": 1012400,
+            "senderId": null,
+            "text": "??????",
+            "option": "???",
+            "nextIds": [
+              101240004
+            ],
+            "kind": "Player"
+          },
+          "101240004": {
+            "type": "Text",
+            "id": 101240004,
+            "sectionId": 1012400,
+            "senderId": null,
+            "text": "Enough about us",
+            "option": null,
+            "nextIds": [
+              101240005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101240005": {
+            "type": "Text",
+            "id": 101240005,
+            "sectionId": 1012400,
+            "senderId": 1001,
+            "text": "????????",
+            "option": null,
+            "nextIds": [
+              101240006
+            ],
+            "kind": "NPC"
+          },
+          "101240006": {
+            "type": "Text",
+            "id": 101240006,
+            "sectionId": 1012400,
+            "senderId": 1000,
+            "text": "??????????",
+            "option": null,
+            "nextIds": [
+              101240007
+            ],
+            "kind": "NPC"
+          },
+          "101240007": {
+            "type": "Text",
+            "id": 101240007,
+            "sectionId": 1012400,
+            "senderId": 1001,
+            "text": "Aaaaah",
+            "option": null,
+            "nextIds": [
+              101240008
+            ],
+            "kind": "NPC"
+          },
+          "101240008": {
+            "type": "Text",
+            "id": 101240008,
+            "sectionId": 1012400,
+            "senderId": 1000,
+            "text": "Waaaa, it's Argenti!",
+            "option": null,
+            "nextIds": [
+              101240009
+            ],
+            "kind": "NPC"
+          },
+          "101240009": {
+            "type": "Text",
+            "id": 101240009,
+            "sectionId": 1012400,
+            "senderId": 1001,
+            "text": "Argenti!",
+            "option": null,
+            "nextIds": [
+              101240010
+            ],
+            "kind": "NPC"
+          },
+          "101240010": {
+            "type": "Text",
+            "id": 101240010,
+            "sectionId": 1012400,
+            "senderId": 1001,
+            "text": "I knew it. You're still alive!",
+            "option": null,
+            "nextIds": [
+              101240011
+            ],
+            "kind": "NPC"
+          },
+          "101240011": {
+            "type": "Text",
+            "id": 101240011,
+            "sectionId": 1012400,
+            "senderId": 1001,
+            "text": "It's so good to see that you made it through!!!",
+            "option": null,
+            "nextIds": [
+              101240012
+            ],
+            "kind": "NPC"
+          },
+          "101240012": {
+            "type": "Text",
+            "id": 101240012,
+            "sectionId": 1012400,
+            "senderId": 1302,
+            "text": "The moment a knight enters battle, they should already have full belief in their victory.",
+            "option": null,
+            "nextIds": [
+              101240013
+            ],
+            "kind": "NPC"
+          },
+          "101240013": {
+            "type": "Text",
+            "id": 101240013,
+            "sectionId": 1012400,
+            "senderId": 1302,
+            "text": "When I fought against it, it was as if the light of Beauty protected me.",
+            "option": null,
+            "nextIds": [
+              101240014
+            ],
+            "kind": "NPC"
+          },
+          "101240014": {
+            "type": "Text",
+            "id": 101240014,
+            "sectionId": 1012400,
+            "senderId": 1302,
+            "text": "Whatever happened next, alas, I do not recall.",
+            "option": null,
+            "nextIds": [
+              101240015
+            ],
+            "kind": "NPC"
+          },
+          "101240015": {
+            "type": "Text",
+            "id": 101240015,
+            "sectionId": 1012400,
+            "senderId": 1302,
+            "text": "But the True Sting mayhaps have a case of... bad breath. Something akin to indigestion.",
+            "option": null,
+            "nextIds": [
+              101240016
+            ],
+            "kind": "NPC"
+          },
+          "101240016": {
+            "type": "Text",
+            "id": 101240016,
+            "sectionId": 1012400,
+            "senderId": 1302,
+            "text": "Afterwards, I spent a long time wiping and polishing my armor",
+            "option": null,
+            "nextIds": [
+              101240017,
+              101240019
+            ],
+            "kind": "NPC"
+          },
+          "101240017": {
+            "type": "Text",
+            "id": 101240017,
+            "sectionId": 1012400,
+            "senderId": null,
+            "text": "That's great",
+            "option": "I'm so glad you're alive...",
+            "nextIds": [
+              101240018
+            ],
+            "kind": "Player"
+          },
+          "101240018": {
+            "type": "Text",
+            "id": 101240018,
+            "sectionId": 1012400,
+            "senderId": null,
+            "text": "I'm gonna start crying",
+            "option": null,
+            "nextIds": [
+              101240021
+            ],
+            "kind": "PlayerAuto"
+          },
+          "101240021": {
+            "type": "Text",
+            "id": 101240021,
+            "sectionId": 1012400,
+            "senderId": 1000,
+            "text": "Boohoo...",
+            "option": null,
+            "nextIds": [
+              101240022
+            ],
+            "kind": "NPC"
+          },
+          "101240022": {
+            "type": "Text",
+            "id": 101240022,
+            "sectionId": 1012400,
+            "senderId": 1000,
+            "text": "Pom-Pom will drive the Express over to pick you up!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "101240019": {
+            "type": "Text",
+            "id": 101240019,
+            "sectionId": 1012400,
+            "senderId": null,
+            "text": "Everyone was worried sick...",
+            "option": "I knew you'd be okay...",
+            "nextIds": [
+              101240020
+            ],
+            "kind": "Player"
+          },
+          "101240020": {
+            "type": "Text",
+            "id": 101240020,
+            "sectionId": 1012400,
+            "senderId": null,
+            "text": "Himeko even contacted the IPC to track you through the universe",
+            "option": null,
+            "nextIds": [
+              101240021
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 109,
+    "name": "Group chat with Argenti, March 7th, Pom-Pom, and {NICKNAME}",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 99
+  }
+}

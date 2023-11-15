@@ -37,6 +37,473 @@
     [
       {
         "type": "Message",
+        "id": 1116001,
+        "startIds": [
+          111600100
+        ],
+        "messages": {
+          "111600100": {
+            "type": "Sticker",
+            "id": 111600100,
+            "sectionId": 1116001,
+            "senderId": 1001,
+            "text": "[Pew Pew]",
+            "option": null,
+            "nextIds": [
+              111600101
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101002,
+              "path": "icon/emoji/101002.png",
+              "keywords": "Pew Pew"
+            }
+          },
+          "111600101": {
+            "type": "Text",
+            "id": 111600101,
+            "sectionId": 1116001,
+            "senderId": 1001,
+            "text": "Huh? Did you find something to photograph yet?",
+            "option": null,
+            "nextIds": [
+              111600102
+            ],
+            "kind": "NPC"
+          },
+          "111600102": {
+            "type": "Image",
+            "id": 111600102,
+            "sectionId": 1116001,
+            "senderId": null,
+            "text": "[Image]",
+            "option": "(Show photo)",
+            "nextIds": [
+              111600103
+            ],
+            "kind": "Player",
+            "image": {
+              "id": 10028,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto70.png"
+            }
+          },
+          "111600103": {
+            "type": "Image",
+            "id": 111600103,
+            "sectionId": 1116001,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              111600104
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10020,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto14.png"
+            }
+          },
+          "111600104": {
+            "type": "Text",
+            "id": 111600104,
+            "sectionId": 1116001,
+            "senderId": 1001,
+            "text": "Aww, Hook still looks so cute in this photo",
+            "option": null,
+            "nextIds": [
+              111600105
+            ],
+            "kind": "NPC"
+          },
+          "111600105": {
+            "type": "Text",
+            "id": 111600105,
+            "sectionId": 1116001,
+            "senderId": 1001,
+            "text": "I remember this club. We even fought a match here!",
+            "option": null,
+            "nextIds": [
+              111600106,
+              111600110
+            ],
+            "kind": "NPC"
+          },
+          "111600106": {
+            "type": "Text",
+            "id": 111600106,
+            "sectionId": 1116001,
+            "senderId": null,
+            "text": "I'm a lot better at taking pics now, no?",
+            "option": "Am I getting better?",
+            "nextIds": [
+              111600107
+            ],
+            "kind": "Player"
+          },
+          "111600107": {
+            "type": "Text",
+            "id": 111600107,
+            "sectionId": 1116001,
+            "senderId": 1001,
+            "text": "Don't get too cocky. You've still got lots to learn if you want to take great photos!",
+            "option": null,
+            "nextIds": [
+              111600108
+            ],
+            "kind": "NPC"
+          },
+          "111600108": {
+            "type": "Text",
+            "id": 111600108,
+            "sectionId": 1116001,
+            "senderId": 1001,
+            "text": "But I won't be teaching you that, because I don't want you to surpass me hehe",
+            "option": null,
+            "nextIds": [
+              111600109
+            ],
+            "kind": "NPC"
+          },
+          "111600109": {
+            "type": "Sticker",
+            "id": 111600109,
+            "sectionId": 1116001,
+            "senderId": 1001,
+            "text": "[Whisper]",
+            "option": null,
+            "nextIds": [
+              111600113
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101005,
+              "path": "icon/emoji/101005.png",
+              "keywords": "Whisper"
+            }
+          },
+          "111600113": {
+            "type": "Text",
+            "id": 111600113,
+            "sectionId": 1116001,
+            "senderId": 1001,
+            "text": "The photos are almost all gathered up. Keep up the great job!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111600110": {
+            "type": "Text",
+            "id": 111600110,
+            "sectionId": 1116001,
+            "senderId": null,
+            "text": "These photos are all really interesting",
+            "option": "These are very interesting photos",
+            "nextIds": [
+              111600111
+            ],
+            "kind": "Player"
+          },
+          "111600111": {
+            "type": "Text",
+            "id": 111600111,
+            "sectionId": 1116001,
+            "senderId": 1001,
+            "text": "Of course, I took my time curating them!",
+            "option": null,
+            "nextIds": [
+              111600112
+            ],
+            "kind": "NPC"
+          },
+          "111600112": {
+            "type": "Sticker",
+            "id": 111600112,
+            "sectionId": 1116001,
+            "senderId": 1001,
+            "text": "[Proud]",
+            "option": null,
+            "nextIds": [
+              111600113
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30004,
+              "path": "icon/emoji/30004.png",
+              "keywords": "Proud"
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1116101,
+        "startIds": [
+          111610100
+        ],
+        "messages": {
+          "111610100": {
+            "type": "Sticker",
+            "id": 111610100,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "[Pew Pew]",
+            "option": null,
+            "nextIds": [
+              111610101
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101002,
+              "path": "icon/emoji/101002.png",
+              "keywords": "Pew Pew"
+            }
+          },
+          "111610101": {
+            "type": "Text",
+            "id": 111610101,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "Huh? Did you find something to photograph yet?",
+            "option": null,
+            "nextIds": [
+              111610102
+            ],
+            "kind": "NPC"
+          },
+          "111610102": {
+            "type": "Image",
+            "id": 111610102,
+            "sectionId": 1116101,
+            "senderId": null,
+            "text": "[Image]",
+            "option": "(Show photo)",
+            "nextIds": [
+              111610103
+            ],
+            "kind": "Player",
+            "image": {
+              "id": 10028,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto70.png"
+            }
+          },
+          "111610103": {
+            "type": "Image",
+            "id": 111610103,
+            "sectionId": 1116101,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              111610104
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10020,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto14.png"
+            }
+          },
+          "111610104": {
+            "type": "Image",
+            "id": 111610104,
+            "sectionId": 1116101,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              111610105
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10027,
+              "path": "image/messages/MarchGuessTheSilhouettePhotoSP04.png"
+            }
+          },
+          "111610105": {
+            "type": "Text",
+            "id": 111610105,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "Aww, Hook still looks so cute in this photo",
+            "option": null,
+            "nextIds": [
+              111610106
+            ],
+            "kind": "NPC"
+          },
+          "111610106": {
+            "type": "Text",
+            "id": 111610106,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "I remember this club. We even fought a match here!",
+            "option": null,
+            "nextIds": [
+              111610107
+            ],
+            "kind": "NPC"
+          },
+          "111610107": {
+            "type": "Text",
+            "id": 111610107,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "Hang on — why do I have a photo of Sampo in here!",
+            "option": null,
+            "nextIds": [
+              111610108,
+              111610112,
+              111610115
+            ],
+            "kind": "NPC"
+          },
+          "111610108": {
+            "type": "Text",
+            "id": 111610108,
+            "sectionId": 1116101,
+            "senderId": null,
+            "text": "I'm a lot better at taking pics now, no?",
+            "option": "Am I getting better?",
+            "nextIds": [
+              111610109
+            ],
+            "kind": "Player"
+          },
+          "111610109": {
+            "type": "Text",
+            "id": 111610109,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "Don't get too cocky. You've still got lots to learn if you want to take great photos!",
+            "option": null,
+            "nextIds": [
+              111610110
+            ],
+            "kind": "NPC"
+          },
+          "111610110": {
+            "type": "Text",
+            "id": 111610110,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "But I won't be teaching you that, because I don't want you to surpass me hehe",
+            "option": null,
+            "nextIds": [
+              111610111
+            ],
+            "kind": "NPC"
+          },
+          "111610111": {
+            "type": "Sticker",
+            "id": 111610111,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "[Whisper]",
+            "option": null,
+            "nextIds": [
+              111610118
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101005,
+              "path": "icon/emoji/101005.png",
+              "keywords": "Whisper"
+            }
+          },
+          "111610118": {
+            "type": "Text",
+            "id": 111610118,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "The photos are almost all gathered up. Keep up the great job!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "111610112": {
+            "type": "Text",
+            "id": 111610112,
+            "sectionId": 1116101,
+            "senderId": null,
+            "text": "These photos are all really interesting",
+            "option": "These are very interesting photos",
+            "nextIds": [
+              111610113
+            ],
+            "kind": "Player"
+          },
+          "111610113": {
+            "type": "Text",
+            "id": 111610113,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "Of course, I took my time curating them!",
+            "option": null,
+            "nextIds": [
+              111610114
+            ],
+            "kind": "NPC"
+          },
+          "111610114": {
+            "type": "Sticker",
+            "id": 111610114,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "[Proud]",
+            "option": null,
+            "nextIds": [
+              111610118
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30004,
+              "path": "icon/emoji/30004.png",
+              "keywords": "Proud"
+            }
+          },
+          "111610115": {
+            "type": "Text",
+            "id": 111610115,
+            "sectionId": 1116101,
+            "senderId": null,
+            "text": "I took a pic of Sampo",
+            "option": "I snapped a pic of Sampo",
+            "nextIds": [
+              111610116
+            ],
+            "kind": "Player"
+          },
+          "111610116": {
+            "type": "Text",
+            "id": 111610116,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "Uhh...",
+            "option": null,
+            "nextIds": [
+              111610117
+            ],
+            "kind": "NPC"
+          },
+          "111610117": {
+            "type": "Text",
+            "id": 111610117,
+            "sectionId": 1116101,
+            "senderId": 1001,
+            "text": "Then at least make it a good photo!",
+            "option": null,
+            "nextIds": [
+              111610118
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
         "id": 2000100,
         "startIds": [
           200010000
@@ -1246,6 +1713,1493 @@
             "text": "You'll know when you're here. Hurry!",
             "option": null,
             "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1214201,
+        "startIds": [
+          121420101
+        ],
+        "messages": {
+          "121420101": {
+            "type": "Text",
+            "id": 121420101,
+            "sectionId": 1214201,
+            "senderId": 1001,
+            "text": "How are the photos?",
+            "option": null,
+            "nextIds": [
+              121420102
+            ],
+            "kind": "NPC"
+          },
+          "121420102": {
+            "type": "Image",
+            "id": 121420102,
+            "sectionId": 1214201,
+            "senderId": null,
+            "text": "[Image]",
+            "option": "(Show photo)",
+            "nextIds": [
+              121420103
+            ],
+            "kind": "Player",
+            "image": {
+              "id": 10013,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto2.png"
+            }
+          },
+          "121420103": {
+            "type": "Image",
+            "id": 121420103,
+            "sectionId": 1214201,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              121420104
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10014,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto4.png"
+            }
+          },
+          "121420104": {
+            "type": "Text",
+            "id": 121420104,
+            "sectionId": 1214201,
+            "senderId": 1001,
+            "text": "Thank you, {NICKNAME}!",
+            "option": null,
+            "nextIds": [
+              121420105,
+              121420108
+            ],
+            "kind": "NPC"
+          },
+          "121420105": {
+            "type": "Text",
+            "id": 121420105,
+            "sectionId": 1214201,
+            "senderId": null,
+            "text": "Nice photo, right?",
+            "option": "Nice photo, right?",
+            "nextIds": [
+              121420106
+            ],
+            "kind": "Player"
+          },
+          "121420106": {
+            "type": "Text",
+            "id": 121420106,
+            "sectionId": 1214201,
+            "senderId": 1001,
+            "text": "Hey, you're indeed talented.",
+            "option": null,
+            "nextIds": [
+              121420107
+            ],
+            "kind": "NPC"
+          },
+          "121420107": {
+            "type": "Sticker",
+            "id": 121420107,
+            "sectionId": 1214201,
+            "senderId": 1001,
+            "text": "[Like]",
+            "option": null,
+            "nextIds": [
+              121420111
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101003,
+              "path": "icon/emoji/101003.png",
+              "keywords": "Like"
+            }
+          },
+          "121420111": {
+            "type": "Text",
+            "id": 121420111,
+            "sectionId": 1214201,
+            "senderId": 1001,
+            "text": "Great job. I'll send you new pics tomorrow!",
+            "option": null,
+            "nextIds": [
+              121420112
+            ],
+            "kind": "NPC"
+          },
+          "121420112": {
+            "type": "Text",
+            "id": 121420112,
+            "sectionId": 1214201,
+            "senderId": 1001,
+            "text": "I'll be waiting for your good news!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121420108": {
+            "type": "Text",
+            "id": 121420108,
+            "sectionId": 1214201,
+            "senderId": null,
+            "text": "Doesn't look great to me...",
+            "option": "Don't think that's the best photo...",
+            "nextIds": [
+              121420109
+            ],
+            "kind": "Player"
+          },
+          "121420109": {
+            "type": "Text",
+            "id": 121420109,
+            "sectionId": 1214201,
+            "senderId": 1001,
+            "text": "That's fine, it's already great!",
+            "option": null,
+            "nextIds": [
+              121420110
+            ],
+            "kind": "NPC"
+          },
+          "121420110": {
+            "type": "Sticker",
+            "id": 121420110,
+            "sectionId": 1214201,
+            "senderId": 1001,
+            "text": "[Cheer On]",
+            "option": null,
+            "nextIds": [
+              121420111
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101007,
+              "path": "icon/emoji/101007.png",
+              "keywords": "Cheer On"
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1214301,
+        "startIds": [
+          121430100
+        ],
+        "messages": {
+          "121430100": {
+            "type": "Sticker",
+            "id": 121430100,
+            "sectionId": 1214301,
+            "senderId": 1001,
+            "text": "[Stare]",
+            "option": null,
+            "nextIds": [
+              121430101
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101006,
+              "path": "icon/emoji/101006.png",
+              "keywords": "Stare"
+            }
+          },
+          "121430101": {
+            "type": "Text",
+            "id": 121430101,
+            "sectionId": 1214301,
+            "senderId": 1001,
+            "text": "Don't forget to show me all the photos you take~",
+            "option": null,
+            "nextIds": [
+              121430102
+            ],
+            "kind": "NPC"
+          },
+          "121430102": {
+            "type": "Image",
+            "id": 121430102,
+            "sectionId": 1214301,
+            "senderId": null,
+            "text": "[Image]",
+            "option": "(Show photo)",
+            "nextIds": [
+              121430103
+            ],
+            "kind": "Player",
+            "image": {
+              "id": 10015,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto6.png"
+            }
+          },
+          "121430103": {
+            "type": "Image",
+            "id": 121430103,
+            "sectionId": 1214301,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              121430104
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10016,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto52.png"
+            }
+          },
+          "121430104": {
+            "type": "Text",
+            "id": 121430104,
+            "sectionId": 1214301,
+            "senderId": 1001,
+            "text": "I actually took this pic? Fascinating!",
+            "option": null,
+            "nextIds": [
+              121430105
+            ],
+            "kind": "NPC"
+          },
+          "121430105": {
+            "type": "Text",
+            "id": 121430105,
+            "sectionId": 1214301,
+            "senderId": 1001,
+            "text": "Thanks for helping me get them back, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              121430106,
+              121430110
+            ],
+            "kind": "NPC"
+          },
+          "121430106": {
+            "type": "Text",
+            "id": 121430106,
+            "sectionId": 1214301,
+            "senderId": null,
+            "text": "Don't worry about it",
+            "option": "I think it's fascinating too",
+            "nextIds": [
+              121430107
+            ],
+            "kind": "Player"
+          },
+          "121430107": {
+            "type": "Text",
+            "id": 121430107,
+            "sectionId": 1214301,
+            "senderId": null,
+            "text": "I think photography is really interesting",
+            "option": null,
+            "nextIds": [
+              121430108
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121430108": {
+            "type": "Text",
+            "id": 121430108,
+            "sectionId": 1214301,
+            "senderId": 1001,
+            "text": "Right? You get it",
+            "option": null,
+            "nextIds": [
+              121430109
+            ],
+            "kind": "NPC"
+          },
+          "121430109": {
+            "type": "Sticker",
+            "id": 121430109,
+            "sectionId": 1214301,
+            "senderId": 1001,
+            "text": "[Proud]",
+            "option": null,
+            "nextIds": [
+              121430114
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30004,
+              "path": "icon/emoji/30004.png",
+              "keywords": "Proud"
+            }
+          },
+          "121430114": {
+            "type": "Text",
+            "id": 121430114,
+            "sectionId": 1214301,
+            "senderId": 1001,
+            "text": "Please do the rest of the photos as well. Keep snapping those pics tomorrow!",
+            "option": null,
+            "nextIds": [
+              121430115
+            ],
+            "kind": "NPC"
+          },
+          "121430115": {
+            "type": "Sticker",
+            "id": 121430115,
+            "sectionId": 1214301,
+            "senderId": 1001,
+            "text": "[Stare]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101006,
+              "path": "icon/emoji/101006.png",
+              "keywords": "Stare"
+            }
+          },
+          "121430110": {
+            "type": "Text",
+            "id": 121430110,
+            "sectionId": 1214301,
+            "senderId": null,
+            "text": "Don't worry about it",
+            "option": "Pay me a little bit more, then",
+            "nextIds": [
+              121430111
+            ],
+            "kind": "Player"
+          },
+          "121430111": {
+            "type": "Text",
+            "id": 121430111,
+            "sectionId": 1214301,
+            "senderId": null,
+            "text": "Just remember to pay up",
+            "option": null,
+            "nextIds": [
+              121430112
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121430112": {
+            "type": "Text",
+            "id": 121430112,
+            "sectionId": 1214301,
+            "senderId": 1001,
+            "text": "You're so greedy!",
+            "option": null,
+            "nextIds": [
+              121430113
+            ],
+            "kind": "NPC"
+          },
+          "121430113": {
+            "type": "Text",
+            "id": 121430113,
+            "sectionId": 1214301,
+            "senderId": 1001,
+            "text": "Got it. I won't skimp on the fees",
+            "option": null,
+            "nextIds": [
+              121430114
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1214401,
+        "startIds": [
+          121440101
+        ],
+        "messages": {
+          "121440101": {
+            "type": "Text",
+            "id": 121440101,
+            "sectionId": 1214401,
+            "senderId": 1001,
+            "text": "{NICKNAME}!",
+            "option": null,
+            "nextIds": [
+              121440102
+            ],
+            "kind": "NPC"
+          },
+          "121440102": {
+            "type": "Text",
+            "id": 121440102,
+            "sectionId": 1214401,
+            "senderId": 1001,
+            "text": "Did you take today's photos?",
+            "option": null,
+            "nextIds": [
+              121440103
+            ],
+            "kind": "NPC"
+          },
+          "121440103": {
+            "type": "Text",
+            "id": 121440103,
+            "sectionId": 1214401,
+            "senderId": 1001,
+            "text": "{NICKNAME}, you there?",
+            "option": null,
+            "nextIds": [
+              121440104
+            ],
+            "kind": "NPC"
+          },
+          "121440104": {
+            "type": "Image",
+            "id": 121440104,
+            "sectionId": 1214401,
+            "senderId": null,
+            "text": "[Image]",
+            "option": "(Show photo)",
+            "nextIds": [
+              121440105
+            ],
+            "kind": "Player",
+            "image": {
+              "id": 10017,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto54.png"
+            }
+          },
+          "121440105": {
+            "type": "Image",
+            "id": 121440105,
+            "sectionId": 1214401,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              121440106,
+              121440111,
+              121440114
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10018,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto48.png"
+            }
+          },
+          "121440106": {
+            "type": "Text",
+            "id": 121440106,
+            "sectionId": 1214401,
+            "senderId": null,
+            "text": "I just got hit by a tram and went flying",
+            "option": "Got hit by a tram",
+            "nextIds": [
+              121440107
+            ],
+            "kind": "Player"
+          },
+          "121440107": {
+            "type": "Text",
+            "id": 121440107,
+            "sectionId": 1214401,
+            "senderId": null,
+            "text": "Luckily I maxed out my DEF and didn't get hurt",
+            "option": null,
+            "nextIds": [
+              121440108
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121440108": {
+            "type": "Text",
+            "id": 121440108,
+            "sectionId": 1214401,
+            "senderId": 1001,
+            "text": "!",
+            "option": null,
+            "nextIds": [
+              121440109
+            ],
+            "kind": "NPC"
+          },
+          "121440109": {
+            "type": "Text",
+            "id": 121440109,
+            "sectionId": 1214401,
+            "senderId": 1001,
+            "text": "!!",
+            "option": null,
+            "nextIds": [
+              121440110
+            ],
+            "kind": "NPC"
+          },
+          "121440110": {
+            "type": "Text",
+            "id": 121440110,
+            "sectionId": 1214401,
+            "senderId": 1001,
+            "text": "Take care of yourself!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121440111": {
+            "type": "Text",
+            "id": 121440111,
+            "sectionId": 1214401,
+            "senderId": null,
+            "text": "I was just in a fight",
+            "option": "I was fighting",
+            "nextIds": [
+              121440112
+            ],
+            "kind": "Player"
+          },
+          "121440112": {
+            "type": "Text",
+            "id": 121440112,
+            "sectionId": 1214401,
+            "senderId": null,
+            "text": "There's an enemy that looked just like a tram",
+            "option": null,
+            "nextIds": [
+              121440113
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121440113": {
+            "type": "Text",
+            "id": 121440113,
+            "sectionId": 1214401,
+            "senderId": 1001,
+            "text": "That kind of enemy exists? Curious!",
+            "option": null,
+            "nextIds": [
+              121440117
+            ],
+            "kind": "NPC"
+          },
+          "121440117": {
+            "type": "Text",
+            "id": 121440117,
+            "sectionId": 1214401,
+            "senderId": 1001,
+            "text": "Let's take more pics next time, and you can show your pics to me!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121440114": {
+            "type": "Text",
+            "id": 121440114,
+            "sectionId": 1214401,
+            "senderId": null,
+            "text": "I got too into my photography just then",
+            "option": "I was too into taking pics",
+            "nextIds": [
+              121440115
+            ],
+            "kind": "Player"
+          },
+          "121440115": {
+            "type": "Text",
+            "id": 121440115,
+            "sectionId": 1214401,
+            "senderId": 1001,
+            "text": "You love photography that much?",
+            "option": null,
+            "nextIds": [
+              121440116
+            ],
+            "kind": "NPC"
+          },
+          "121440116": {
+            "type": "Text",
+            "id": 121440116,
+            "sectionId": 1214401,
+            "senderId": 1001,
+            "text": "You can keep taking photos with me in future trips",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1214501,
+        "startIds": [
+          121450100
+        ],
+        "messages": {
+          "121450100": {
+            "type": "Sticker",
+            "id": 121450100,
+            "sectionId": 1214501,
+            "senderId": 1001,
+            "text": "[Pew Pew]",
+            "option": null,
+            "nextIds": [
+              121450101
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101002,
+              "path": "icon/emoji/101002.png",
+              "keywords": "Pew Pew"
+            }
+          },
+          "121450101": {
+            "type": "Text",
+            "id": 121450101,
+            "sectionId": 1214501,
+            "senderId": 1001,
+            "text": "So? Did you find something to photograph yet?",
+            "option": null,
+            "nextIds": [
+              121450102
+            ],
+            "kind": "NPC"
+          },
+          "121450102": {
+            "type": "Image",
+            "id": 121450102,
+            "sectionId": 1214501,
+            "senderId": null,
+            "text": "[Image]",
+            "option": "(Show photo)",
+            "nextIds": [
+              121450103
+            ],
+            "kind": "Player",
+            "image": {
+              "id": 10019,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto40.png"
+            }
+          },
+          "121450103": {
+            "type": "Image",
+            "id": 121450103,
+            "sectionId": 1214501,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              121450104
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10020,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto14.png"
+            }
+          },
+          "121450104": {
+            "type": "Text",
+            "id": 121450104,
+            "sectionId": 1214501,
+            "senderId": 1001,
+            "text": "Aww, Hook still looks so cute in this photo",
+            "option": null,
+            "nextIds": [
+              121450105
+            ],
+            "kind": "NPC"
+          },
+          "121450105": {
+            "type": "Text",
+            "id": 121450105,
+            "sectionId": 1214501,
+            "senderId": 1001,
+            "text": "I remember this club. We even fought a match here!",
+            "option": null,
+            "nextIds": [
+              121450106,
+              121450110
+            ],
+            "kind": "NPC"
+          },
+          "121450106": {
+            "type": "Text",
+            "id": 121450106,
+            "sectionId": 1214501,
+            "senderId": null,
+            "text": "I'm a lot better at taking pics now, no?",
+            "option": "Am I getting better?",
+            "nextIds": [
+              121450107
+            ],
+            "kind": "Player"
+          },
+          "121450107": {
+            "type": "Text",
+            "id": 121450107,
+            "sectionId": 1214501,
+            "senderId": 1001,
+            "text": "Don't get too cocky. You've still got lots to learn if you want to take great photos!",
+            "option": null,
+            "nextIds": [
+              121450108
+            ],
+            "kind": "NPC"
+          },
+          "121450108": {
+            "type": "Text",
+            "id": 121450108,
+            "sectionId": 1214501,
+            "senderId": 1001,
+            "text": "But I won't be teaching you that, because I don't want you to surpass me hehe",
+            "option": null,
+            "nextIds": [
+              121450109
+            ],
+            "kind": "NPC"
+          },
+          "121450109": {
+            "type": "Sticker",
+            "id": 121450109,
+            "sectionId": 1214501,
+            "senderId": 1001,
+            "text": "[Whisper]",
+            "option": null,
+            "nextIds": [
+              121450113
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101005,
+              "path": "icon/emoji/101005.png",
+              "keywords": "Whisper"
+            }
+          },
+          "121450113": {
+            "type": "Text",
+            "id": 121450113,
+            "sectionId": 1214501,
+            "senderId": 1001,
+            "text": "The photos are almost all gathered up. Keep up the great job!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121450110": {
+            "type": "Text",
+            "id": 121450110,
+            "sectionId": 1214501,
+            "senderId": null,
+            "text": "These photos are all really interesting",
+            "option": "These are very interesting photos",
+            "nextIds": [
+              121450111
+            ],
+            "kind": "Player"
+          },
+          "121450111": {
+            "type": "Text",
+            "id": 121450111,
+            "sectionId": 1214501,
+            "senderId": 1001,
+            "text": "Of course, I took my time curating them!",
+            "option": null,
+            "nextIds": [
+              121450112
+            ],
+            "kind": "NPC"
+          },
+          "121450112": {
+            "type": "Sticker",
+            "id": 121450112,
+            "sectionId": 1214501,
+            "senderId": 1001,
+            "text": "[Proud]",
+            "option": null,
+            "nextIds": [
+              121450113
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30004,
+              "path": "icon/emoji/30004.png",
+              "keywords": "Proud"
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1214601,
+        "startIds": [
+          121460100
+        ],
+        "messages": {
+          "121460100": {
+            "type": "Sticker",
+            "id": 121460100,
+            "sectionId": 1214601,
+            "senderId": 1001,
+            "text": "[Stare]",
+            "option": null,
+            "nextIds": [
+              121460101
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101006,
+              "path": "icon/emoji/101006.png",
+              "keywords": "Stare"
+            }
+          },
+          "121460101": {
+            "type": "Text",
+            "id": 121460101,
+            "sectionId": 1214601,
+            "senderId": 1001,
+            "text": "How are your spoils today?",
+            "option": null,
+            "nextIds": [
+              121460102
+            ],
+            "kind": "NPC"
+          },
+          "121460102": {
+            "type": "Image",
+            "id": 121460102,
+            "sectionId": 1214601,
+            "senderId": null,
+            "text": "[Image]",
+            "option": "(Show photo)",
+            "nextIds": [
+              121460103
+            ],
+            "kind": "Player",
+            "image": {
+              "id": 10021,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto68.png"
+            }
+          },
+          "121460103": {
+            "type": "Image",
+            "id": 121460103,
+            "sectionId": 1214601,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              121460104
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10022,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto18.png"
+            }
+          },
+          "121460104": {
+            "type": "Text",
+            "id": 121460104,
+            "sectionId": 1214601,
+            "senderId": 1001,
+            "text": "Great work!",
+            "option": null,
+            "nextIds": [
+              121460105
+            ],
+            "kind": "NPC"
+          },
+          "121460105": {
+            "type": "Text",
+            "id": 121460105,
+            "sectionId": 1214601,
+            "senderId": 1001,
+            "text": "But... it seems different from when I took it?",
+            "option": null,
+            "nextIds": [
+              121460106,
+              121460109
+            ],
+            "kind": "NPC"
+          },
+          "121460106": {
+            "type": "Text",
+            "id": 121460106,
+            "sectionId": 1214601,
+            "senderId": null,
+            "text": "Doesn't look any different to me",
+            "option": "No difference, right?",
+            "nextIds": [
+              121460107
+            ],
+            "kind": "Player"
+          },
+          "121460107": {
+            "type": "Text",
+            "id": 121460107,
+            "sectionId": 1214601,
+            "senderId": 1001,
+            "text": "Well, maybe I'm remembering it wrong",
+            "option": null,
+            "nextIds": [
+              121460108
+            ],
+            "kind": "NPC"
+          },
+          "121460108": {
+            "type": "Text",
+            "id": 121460108,
+            "sectionId": 1214601,
+            "senderId": 1001,
+            "text": "But surely I've never taken a pic of something as weird as two Trotters...",
+            "option": null,
+            "nextIds": [
+              121460111
+            ],
+            "kind": "NPC"
+          },
+          "121460111": {
+            "type": "Text",
+            "id": 121460111,
+            "sectionId": 1214601,
+            "senderId": 1001,
+            "text": "Oh yeah, my collection over here is also almost done",
+            "option": null,
+            "nextIds": [
+              121460112
+            ],
+            "kind": "NPC"
+          },
+          "121460112": {
+            "type": "Text",
+            "id": 121460112,
+            "sectionId": 1214601,
+            "senderId": 1001,
+            "text": "There are just two photos left. I'll leave them to you!",
+            "option": null,
+            "nextIds": [
+              121460113
+            ],
+            "kind": "NPC"
+          },
+          "121460113": {
+            "type": "Sticker",
+            "id": 121460113,
+            "sectionId": 1214601,
+            "senderId": 1001,
+            "text": "[Cheer On]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101007,
+              "path": "icon/emoji/101007.png",
+              "keywords": "Cheer On"
+            }
+          },
+          "121460109": {
+            "type": "Text",
+            "id": 121460109,
+            "sectionId": 1214601,
+            "senderId": null,
+            "text": "Times have changed, and the people aren't the same...",
+            "option": "Times have changed, and the people aren't the same...",
+            "nextIds": [
+              121460110
+            ],
+            "kind": "Player"
+          },
+          "121460110": {
+            "type": "Text",
+            "id": 121460110,
+            "sectionId": 1214601,
+            "senderId": 1001,
+            "text": "You sound so sentimental!",
+            "option": null,
+            "nextIds": [
+              121460111
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1214701,
+        "startIds": [
+          121470100
+        ],
+        "messages": {
+          "121470100": {
+            "type": "Text",
+            "id": 121470100,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "{NICKNAME}...",
+            "option": null,
+            "nextIds": [
+              121470101
+            ],
+            "kind": "NPC"
+          },
+          "121470101": {
+            "type": "Text",
+            "id": 121470101,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "Did you take your photos today?",
+            "option": null,
+            "nextIds": [
+              121470102
+            ],
+            "kind": "NPC"
+          },
+          "121470102": {
+            "type": "Image",
+            "id": 121470102,
+            "sectionId": 1214701,
+            "senderId": null,
+            "text": "[Image]",
+            "option": "(Show photo)",
+            "nextIds": [
+              121470103
+            ],
+            "kind": "Player",
+            "image": {
+              "id": 10023,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto56.png"
+            }
+          },
+          "121470103": {
+            "type": "Image",
+            "id": 121470103,
+            "sectionId": 1214701,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              121470104
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10024,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto58.png"
+            }
+          },
+          "121470104": {
+            "type": "Text",
+            "id": 121470104,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "Wubbaboos are so cute!",
+            "option": null,
+            "nextIds": [
+              121470105,
+              121470108
+            ],
+            "kind": "NPC"
+          },
+          "121470105": {
+            "type": "Text",
+            "id": 121470105,
+            "sectionId": 1214701,
+            "senderId": null,
+            "text": "They really are",
+            "option": "They really are",
+            "nextIds": [
+              121470106
+            ],
+            "kind": "Player"
+          },
+          "121470106": {
+            "type": "Text",
+            "id": 121470106,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "Right?",
+            "option": null,
+            "nextIds": [
+              121470107
+            ],
+            "kind": "NPC"
+          },
+          "121470107": {
+            "type": "Text",
+            "id": 121470107,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "I wish we could have one on the Express",
+            "option": null,
+            "nextIds": [
+              121470112
+            ],
+            "kind": "NPC"
+          },
+          "121470112": {
+            "type": "Text",
+            "id": 121470112,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "I'm getting more and more curious about exactly what photos I've taken!",
+            "option": null,
+            "nextIds": [
+              121470113
+            ],
+            "kind": "NPC"
+          },
+          "121470113": {
+            "type": "Sticker",
+            "id": 121470113,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "[Observe]",
+            "option": null,
+            "nextIds": [
+              121470114
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30003,
+              "path": "icon/emoji/30003.png",
+              "keywords": "Undercover"
+            }
+          },
+          "121470114": {
+            "type": "Text",
+            "id": 121470114,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "Please keep up the good work tomorrow too!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121470108": {
+            "type": "Text",
+            "id": 121470108,
+            "sectionId": 1214701,
+            "senderId": null,
+            "text": "It's just kinda slightly annoying though",
+            "option": "It's just kinda slightly annoying though",
+            "nextIds": [
+              121470109
+            ],
+            "kind": "Player"
+          },
+          "121470109": {
+            "type": "Text",
+            "id": 121470109,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "How can you talk about Wubbaboo like that!",
+            "option": null,
+            "nextIds": [
+              121470110
+            ],
+            "kind": "NPC"
+          },
+          "121470110": {
+            "type": "Sticker",
+            "id": 121470110,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "[Angry]",
+            "option": null,
+            "nextIds": [
+              121470111
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30006,
+              "path": "icon/emoji/30006.png",
+              "keywords": "Angry"
+            }
+          },
+          "121470111": {
+            "type": "Text",
+            "id": 121470111,
+            "sectionId": 1214701,
+            "senderId": 1001,
+            "text": "Watch out, it's gonna bug you at night",
+            "option": null,
+            "nextIds": [
+              121470112
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1214801,
+        "startIds": [
+          121480100
+        ],
+        "messages": {
+          "121480100": {
+            "type": "Sticker",
+            "id": 121480100,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "[Pew Pew]",
+            "option": null,
+            "nextIds": [
+              121480101
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101002,
+              "path": "icon/emoji/101002.png",
+              "keywords": "Pew Pew"
+            }
+          },
+          "121480101": {
+            "type": "Text",
+            "id": 121480101,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "So? Did you find something to photograph yet?",
+            "option": null,
+            "nextIds": [
+              121480102
+            ],
+            "kind": "NPC"
+          },
+          "121480102": {
+            "type": "Image",
+            "id": 121480102,
+            "sectionId": 1214801,
+            "senderId": null,
+            "text": "[Image]",
+            "option": "(Show photo)",
+            "nextIds": [
+              121480103
+            ],
+            "kind": "Player",
+            "image": {
+              "id": 10019,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto40.png"
+            }
+          },
+          "121480103": {
+            "type": "Image",
+            "id": 121480103,
+            "sectionId": 1214801,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              121480104
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10020,
+              "path": "image/messages/MarchGuessTheSilhouettePhoto14.png"
+            }
+          },
+          "121480104": {
+            "type": "Image",
+            "id": 121480104,
+            "sectionId": 1214801,
+            "senderId": null,
+            "text": "[Image]",
+            "option": null,
+            "nextIds": [
+              121480105
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10027,
+              "path": "image/messages/MarchGuessTheSilhouettePhotoSP04.png"
+            }
+          },
+          "121480105": {
+            "type": "Text",
+            "id": 121480105,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "Aww, Hook still looks so cute in this photo",
+            "option": null,
+            "nextIds": [
+              121480106
+            ],
+            "kind": "NPC"
+          },
+          "121480106": {
+            "type": "Text",
+            "id": 121480106,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "I remember this club. We even fought a match here!",
+            "option": null,
+            "nextIds": [
+              121480107
+            ],
+            "kind": "NPC"
+          },
+          "121480107": {
+            "type": "Text",
+            "id": 121480107,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "Hang on — why do I have a photo of Sampo in here!",
+            "option": null,
+            "nextIds": [
+              121480108,
+              121480112,
+              121480115
+            ],
+            "kind": "NPC"
+          },
+          "121480108": {
+            "type": "Text",
+            "id": 121480108,
+            "sectionId": 1214801,
+            "senderId": null,
+            "text": "I'm a lot better at taking pics now, no?",
+            "option": "Am I getting better?",
+            "nextIds": [
+              121480109
+            ],
+            "kind": "Player"
+          },
+          "121480109": {
+            "type": "Text",
+            "id": 121480109,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "Don't get too cocky. You've still got lots to learn if you want to take great photos!",
+            "option": null,
+            "nextIds": [
+              121480110
+            ],
+            "kind": "NPC"
+          },
+          "121480110": {
+            "type": "Text",
+            "id": 121480110,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "But I won't be teaching you that, because I don't want you to surpass me hehe",
+            "option": null,
+            "nextIds": [
+              121480111
+            ],
+            "kind": "NPC"
+          },
+          "121480111": {
+            "type": "Sticker",
+            "id": 121480111,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "[Whisper]",
+            "option": null,
+            "nextIds": [
+              121480118
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101005,
+              "path": "icon/emoji/101005.png",
+              "keywords": "Whisper"
+            }
+          },
+          "121480118": {
+            "type": "Text",
+            "id": 121480118,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "The photos are almost all gathered up. Keep up the great job!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121480112": {
+            "type": "Text",
+            "id": 121480112,
+            "sectionId": 1214801,
+            "senderId": null,
+            "text": "These photos are all really interesting",
+            "option": "These are very interesting photos",
+            "nextIds": [
+              121480113
+            ],
+            "kind": "Player"
+          },
+          "121480113": {
+            "type": "Text",
+            "id": 121480113,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "Of course, I took my time curating them!",
+            "option": null,
+            "nextIds": [
+              121480114
+            ],
+            "kind": "NPC"
+          },
+          "121480114": {
+            "type": "Sticker",
+            "id": 121480114,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "[Proud]",
+            "option": null,
+            "nextIds": [
+              121480118
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30004,
+              "path": "icon/emoji/30004.png",
+              "keywords": "Proud"
+            }
+          },
+          "121480115": {
+            "type": "Text",
+            "id": 121480115,
+            "sectionId": 1214801,
+            "senderId": null,
+            "text": "I took a pic of Sampo",
+            "option": "I snapped a pic of Sampo",
+            "nextIds": [
+              121480116
+            ],
+            "kind": "Player"
+          },
+          "121480116": {
+            "type": "Text",
+            "id": 121480116,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "Uhh...",
+            "option": null,
+            "nextIds": [
+              121480117
+            ],
+            "kind": "NPC"
+          },
+          "121480117": {
+            "type": "Text",
+            "id": 121480117,
+            "sectionId": 1214801,
+            "senderId": 1001,
+            "text": "Then at least make it a good photo!",
+            "option": null,
+            "nextIds": [
+              121480118
+            ],
             "kind": "NPC"
           }
         }
