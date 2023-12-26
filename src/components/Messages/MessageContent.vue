@@ -46,6 +46,18 @@
               :alt="message.text"
             />
           </div>
+          <div v-else-if="message.type === 'Video'" class="flex flex-wrap pb-2 mt-2 relative">
+            <img
+              class="object-contain h-[10rem] w-[20rem] shadow-md"
+              alt="Video Thumbnail"
+              :src="`/assets/${message.video.path.replace('.png', '.webp')}`"
+            />
+            <div class="absolute w-full h-full flex items-center justify-center">
+              <i-mdi-play-circle-outline
+                class="absolute size-12 cursor-pointer text-neutral-300 hover:opacity-80 transition"
+              />
+            </div>
+          </div>
           <div v-else-if="message.type === 'Sticker'" class="flex flex-wrap pb-1 mt-2">
             <img
               class="object-contain h-36 w-36"

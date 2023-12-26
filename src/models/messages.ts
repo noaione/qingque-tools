@@ -44,6 +44,16 @@ export interface MessageContentImage extends MessageContent {
   image: MessageImage;
 }
 
+export interface MessageVideo {
+  id: number;
+  path: string;
+}
+
+export interface MessageContentVideo extends MessageContent {
+  type: "Video";
+  video: MessageVideo;
+}
+
 export interface MessageRaid {
   id: number;
   name: string;
@@ -77,6 +87,7 @@ export type MessageContents =
   | MessageContentText
   | MessageContentSticker
   | MessageContentImage
+  | MessageContentVideo
   | MessageContentRaid
   | MessageContentLink
   | MessageContentSeparator;

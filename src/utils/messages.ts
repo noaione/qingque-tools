@@ -20,6 +20,14 @@ export function useMessageConfigStorage<T = any>(
   return useLocalStorage(`qqmessages:${configName}`, initialValue);
 }
 
+function isMobileDevice(): boolean {
+  // Check touch support
+  const touchDevice = navigator.maxTouchPoints > 1 || "ontouchstart" in document.documentElement;
+  // Check if have orientation lock
+  const hasOrientation = typeof screen.orientation !== "undefined";
+  return touchDevice && hasOrientation;
+}
+
 /**
  * Format the text message to be gendered and replace the nickname
  * @param text The text to format
@@ -44,6 +52,35 @@ export function formatTextMessage(
   }
   const matcher = /\{([FM])#(.*?)\}/g;
   text = text.replace(matcher, (match, g, text) => (g === genderStr ? text : ""));
+
+  // Check if text has <color> tags
+  const colorRegex = /<color=.*?>(.*?)<\/color>/g;
+  // If yes, replace it into <span style="color: #xxxxxx">...</span>
+  const colorReplacer = (match: string, innerText: string) => {
+    const color = match.slice(7, -8).replace(`>${innerText}`, "");
+    return `<span style="color: ${color}">${innerText}</span>`;
+  };
+  text = text.replace(colorRegex, colorReplacer);
+
+  // Check if text has {LAYOUT_...#Text} identifiers
+  const layoutRegex = /\{LAYOUT_(.*?)#(.*?)\}/g;
+  // If yes, select the layout we want to use:
+  // - LAYOUT_MOBILE: if we're on a mobile device
+  // - LAYOUT_KEYBOARD: if we're on a desktop device
+  const mobileDevice = isMobileDevice();
+
+  // Then, replace the layout identifier with the text
+  const layoutReplacer = (match: string, layout: string, innerText: string) => {
+    if (layout === "MOBILE" && mobileDevice) {
+      return innerText;
+    } else if (layout === "KEYBOARD" && !mobileDevice) {
+      return innerText;
+    } else {
+      return "";
+    }
+  };
+  text = text.replace(layoutRegex, layoutReplacer);
+
   // replace all \n with <br/>
   return replaceNewline ? text.replace(/\\n/g, "<br/>") : text;
 }
@@ -54,7 +91,9 @@ export function renderTextMessage(content: string, stripHtml: boolean = false) {
       breaks: true,
       gfm: true
     })
-    .parse(content);
+    .parse(content, {
+      async: false
+    }) as string;
   return DOMPurify.sanitize(html, {
     USE_PROFILES: {
       html: stripHtml ? false : true

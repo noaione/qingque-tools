@@ -14,6 +14,7 @@ declare module 'vue' {
     GambaSlots: typeof import('./../components/Gamba/GambaSlots.vue')['default']
     IMdiBellOutline: typeof import('~icons/mdi/bell-outline')['default']
     IMdiMail: typeof import('~icons/mdi/mail')['default']
+    IMdiPlayCircleOutline: typeof import('~icons/mdi/play-circle-outline')['default']
     IMdiStarFourPointsOutline: typeof import('~icons/mdi/star-four-points-outline')['default']
     LoadBtn: typeof import('./../components/Buttons/LoadBtn.vue')['default']
     MessageContent: typeof import('./../components/Messages/MessageContent.vue')['default']
