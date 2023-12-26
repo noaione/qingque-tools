@@ -1,0 +1,1182 @@
+{
+  "id": 1214,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2011500,
+        "startIds": [
+          201150000
+        ],
+        "messages": {
+          "201150000": {
+            "type": "Text",
+            "id": 201150000,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "Got time for a chat?",
+            "option": null,
+            "nextIds": [
+              201150001,
+              201150003
+            ],
+            "kind": "NPC"
+          },
+          "201150001": {
+            "type": "Text",
+            "id": 201150001,
+            "sectionId": 2011500,
+            "senderId": null,
+            "text": "Sure thing. What do you wanna chat about, Madam Xueyi?",
+            "option": "Sure thing. What about?",
+            "nextIds": [
+              201150002
+            ],
+            "kind": "Player"
+          },
+          "201150002": {
+            "type": "Text",
+            "id": 201150002,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "You seem to be free, which is great",
+            "option": null,
+            "nextIds": [
+              201150006
+            ],
+            "kind": "NPC"
+          },
+          "201150006": {
+            "type": "Text",
+            "id": 201150006,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "Just finished a mission. Got a few perplexities, reckon I could inquire of thee?",
+            "option": null,
+            "nextIds": [
+              201150007
+            ],
+            "kind": "NPC"
+          },
+          "201150007": {
+            "type": "Text",
+            "id": 201150007,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "The Ten-Lords Commission was notified that someone had been flooding the internet with claims \"I'm mara-struck\"",
+            "option": null,
+            "nextIds": [
+              201150008
+            ],
+            "kind": "NPC"
+          },
+          "201150008": {
+            "type": "Text",
+            "id": 201150008,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "There were lots of posts like that",
+            "option": null,
+            "nextIds": [
+              201150009
+            ],
+            "kind": "NPC"
+          },
+          "201150009": {
+            "type": "Text",
+            "id": 201150009,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "It seemed to be a call for help",
+            "option": null,
+            "nextIds": [
+              201150010
+            ],
+            "kind": "NPC"
+          },
+          "201150010": {
+            "type": "Text",
+            "id": 201150010,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "So, I went and did some sleuthing",
+            "option": null,
+            "nextIds": [
+              201150011,
+              201150014
+            ],
+            "kind": "NPC"
+          },
+          "201150011": {
+            "type": "Text",
+            "id": 201150011,
+            "sectionId": 2011500,
+            "senderId": null,
+            "text": "The mara-struck claim isn't real, right?",
+            "option": "The mara-struck claim is real?",
+            "nextIds": [
+              201150012
+            ],
+            "kind": "Player"
+          },
+          "201150012": {
+            "type": "Text",
+            "id": 201150012,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "No",
+            "option": null,
+            "nextIds": [
+              201150013
+            ],
+            "kind": "NPC"
+          },
+          "201150013": {
+            "type": "Text",
+            "id": 201150013,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "He doesn't even have any early symptoms of it",
+            "option": null,
+            "nextIds": [
+              201150017
+            ],
+            "kind": "NPC"
+          },
+          "201150017": {
+            "type": "Text",
+            "id": 201150017,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "I have some free time now after making sure he's not mara-struck.",
+            "option": null,
+            "nextIds": [
+              201150018
+            ],
+            "kind": "NPC"
+          },
+          "201150018": {
+            "type": "Text",
+            "id": 201150018,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "So, why does he go around and tell everyone he is mara-struck? I'm baffled.",
+            "option": null,
+            "nextIds": [
+              201150019,
+              201150023
+            ],
+            "kind": "NPC"
+          },
+          "201150019": {
+            "type": "Text",
+            "id": 201150019,
+            "sectionId": 2011500,
+            "senderId": null,
+            "text": "Perhaps, by claiming so, he can use it as a get-out-of-jail-free card",
+            "option": "He is using it as a get-out-of-jail-free card",
+            "nextIds": [
+              201150020
+            ],
+            "kind": "Player"
+          },
+          "201150020": {
+            "type": "Text",
+            "id": 201150020,
+            "sectionId": 2011500,
+            "senderId": null,
+            "text": "\"Don't mess with me, because I'm mara-struck.\" Something like that",
+            "option": null,
+            "nextIds": [
+              201150021
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201150021": {
+            "type": "Text",
+            "id": 201150021,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "I see. Now I get it",
+            "option": null,
+            "nextIds": [
+              201150022
+            ],
+            "kind": "NPC"
+          },
+          "201150022": {
+            "type": "Text",
+            "id": 201150022,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "In other words, he doesn't want to be responsible for his words and actions",
+            "option": null,
+            "nextIds": [
+              201150027
+            ],
+            "kind": "NPC"
+          },
+          "201150027": {
+            "type": "Text",
+            "id": 201150027,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "To me, being mara-struck isn't something one should joke about",
+            "option": null,
+            "nextIds": [
+              201150028
+            ],
+            "kind": "NPC"
+          },
+          "201150028": {
+            "type": "Text",
+            "id": 201150028,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "Thank you. I've learned a lot from this conversation",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201150023": {
+            "type": "Text",
+            "id": 201150023,
+            "sectionId": 2011500,
+            "senderId": null,
+            "text": "It could be just a self-deprecating and playful remark. I've seen similar ones",
+            "option": "It could be just a playful remark",
+            "nextIds": [
+              201150024
+            ],
+            "kind": "Player"
+          },
+          "201150024": {
+            "type": "Text",
+            "id": 201150024,
+            "sectionId": 2011500,
+            "senderId": null,
+            "text": "\"I could have become mara-struck without you!\" Something like that",
+            "option": null,
+            "nextIds": [
+              201150025
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201150025": {
+            "type": "Text",
+            "id": 201150025,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "Do people think it's funny?",
+            "option": null,
+            "nextIds": [
+              201150026
+            ],
+            "kind": "NPC"
+          },
+          "201150026": {
+            "type": "Text",
+            "id": 201150026,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "Seems like I don't have a good sense of humor?",
+            "option": null,
+            "nextIds": [
+              201150027
+            ],
+            "kind": "NPC"
+          },
+          "201150014": {
+            "type": "Text",
+            "id": 201150014,
+            "sectionId": 2011500,
+            "senderId": null,
+            "text": "I reckon it was just some internet shenanigans, right?",
+            "option": "Was it just some internet shenanigans?",
+            "nextIds": [
+              201150015
+            ],
+            "kind": "Player"
+          },
+          "201150015": {
+            "type": "Text",
+            "id": 201150015,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "Seems like you have crossed paths with many who are full of hot air",
+            "option": null,
+            "nextIds": [
+              201150016
+            ],
+            "kind": "NPC"
+          },
+          "201150016": {
+            "type": "Text",
+            "id": 201150016,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "He isn't mara-struck, and he doesn't even have any early symptoms of it.",
+            "option": null,
+            "nextIds": [
+              201150017
+            ],
+            "kind": "NPC"
+          },
+          "201150003": {
+            "type": "Text",
+            "id": 201150003,
+            "sectionId": 2011500,
+            "senderId": null,
+            "text": "I thought you were a woman of few words, as you usually seem quite taciturn",
+            "option": "I thought you never chat",
+            "nextIds": [
+              201150004
+            ],
+            "kind": "Player"
+          },
+          "201150004": {
+            "type": "Text",
+            "id": 201150004,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "I do get taciturn",
+            "option": null,
+            "nextIds": [
+              201150005
+            ],
+            "kind": "NPC"
+          },
+          "201150005": {
+            "type": "Text",
+            "id": 201150005,
+            "sectionId": 2011500,
+            "senderId": 1214,
+            "text": "But I can talk just as normal",
+            "option": null,
+            "nextIds": [
+              201150006
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2011600,
+        "startIds": [
+          201160000
+        ],
+        "messages": {
+          "201160000": {
+            "type": "Text",
+            "id": 201160000,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "{NICKNAME}, I need your advice.",
+            "option": null,
+            "nextIds": [
+              201160001,
+              201160003
+            ],
+            "kind": "NPC"
+          },
+          "201160001": {
+            "type": "Text",
+            "id": 201160001,
+            "sectionId": 2011600,
+            "senderId": null,
+            "text": "Sure thing. What is it about, Madam Xueyi?",
+            "option": "Advice?",
+            "nextIds": [
+              201160002
+            ],
+            "kind": "Player"
+          },
+          "201160002": {
+            "type": "Text",
+            "id": 201160002,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "Thank you.",
+            "option": null,
+            "nextIds": [
+              201160005
+            ],
+            "kind": "NPC"
+          },
+          "201160005": {
+            "type": "Text",
+            "id": 201160005,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "You know my sister, Hanya, don't you? She works in the netherworld and is always on duty",
+            "option": null,
+            "nextIds": [
+              201160006
+            ],
+            "kind": "NPC"
+          },
+          "201160006": {
+            "type": "Text",
+            "id": 201160006,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "I'd like to send her a gift",
+            "option": null,
+            "nextIds": [
+              201160007
+            ],
+            "kind": "NPC"
+          },
+          "201160007": {
+            "type": "Text",
+            "id": 201160007,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "I'm not good at choosing gifts, so I'd like to ask for your advice",
+            "option": null,
+            "nextIds": [
+              201160008,
+              201160011,
+              201160014
+            ],
+            "kind": "NPC"
+          },
+          "201160008": {
+            "type": "Text",
+            "id": 201160008,
+            "sectionId": 2011600,
+            "senderId": null,
+            "text": "Madam Hanya is very pretty. I'm sure you won't go wrong with getting her some nice clothing or beauty products",
+            "option": "Things like fancy clothing, or beauty products",
+            "nextIds": [
+              201160009
+            ],
+            "kind": "Player"
+          },
+          "201160009": {
+            "type": "Text",
+            "id": 201160009,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "Yeah, she's pretty",
+            "option": null,
+            "nextIds": [
+              201160010
+            ],
+            "kind": "NPC"
+          },
+          "201160010": {
+            "type": "Text",
+            "id": 201160010,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "But I'm bad at choosing such gifts",
+            "option": null,
+            "nextIds": [
+              201160017
+            ],
+            "kind": "NPC"
+          },
+          "201160017": {
+            "type": "Text",
+            "id": 201160017,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "If there's nothing special with the gift, I bet she'll just take it and put it aside",
+            "option": null,
+            "nextIds": [
+              201160018
+            ],
+            "kind": "NPC"
+          },
+          "201160018": {
+            "type": "Text",
+            "id": 201160018,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "Is there a more suitable gift for someone like my sister?",
+            "option": null,
+            "nextIds": [
+              201160019,
+              201160020
+            ],
+            "kind": "NPC"
+          },
+          "201160019": {
+            "type": "Text",
+            "id": 201160019,
+            "sectionId": 2011600,
+            "senderId": null,
+            "text": "This may sound a little abstract, but I think what Madam Hanya needs is time.",
+            "option": "Time",
+            "nextIds": [
+              201160021
+            ],
+            "kind": "Player"
+          },
+          "201160021": {
+            "type": "Text",
+            "id": 201160021,
+            "sectionId": 2011600,
+            "senderId": null,
+            "text": "You can go shopping or watch an immersia with her. Spending time with her is your gift to her",
+            "option": null,
+            "nextIds": [
+              201160022
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201160022": {
+            "type": "Text",
+            "id": 201160022,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "I never thought of this...",
+            "option": null,
+            "nextIds": [
+              201160023
+            ],
+            "kind": "NPC"
+          },
+          "201160023": {
+            "type": "Text",
+            "id": 201160023,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "I'll ask her",
+            "option": null,
+            "nextIds": [
+              201160024
+            ],
+            "kind": "NPC"
+          },
+          "201160024": {
+            "type": "Text",
+            "id": 201160024,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "Thank you, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201160025
+            ],
+            "kind": "NPC"
+          },
+          "201160025": {
+            "type": "Text",
+            "id": 201160025,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "Huohuo's right to say that I need advice from someone mortal",
+            "option": null,
+            "nextIds": [
+              201160026
+            ],
+            "kind": "NPC"
+          },
+          "201160026": {
+            "type": "Text",
+            "id": 201160026,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "Sorry, wrong words",
+            "option": null,
+            "nextIds": [
+              201160027
+            ],
+            "kind": "NPC"
+          },
+          "201160027": {
+            "type": "Text",
+            "id": 201160027,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "I meant to say someone who lives in the mortal world",
+            "option": null,
+            "nextIds": [
+              201160028
+            ],
+            "kind": "NPC"
+          },
+          "201160028": {
+            "type": "Text",
+            "id": 201160028,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "Until next time",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201160020": {
+            "type": "Text",
+            "id": 201160020,
+            "sectionId": 2011600,
+            "senderId": null,
+            "text": "This may sound a little abstract, but I think what Madam Hanya needs is company",
+            "option": "Company",
+            "nextIds": [
+              201160021
+            ],
+            "kind": "Player"
+          },
+          "201160011": {
+            "type": "Text",
+            "id": 201160011,
+            "sectionId": 2011600,
+            "senderId": null,
+            "text": "You don't always have to send physical stuff. Sometimes, just a simple \"thank you\" will do",
+            "option": "Simple words of appreciation",
+            "nextIds": [
+              201160012
+            ],
+            "kind": "Player"
+          },
+          "201160012": {
+            "type": "Text",
+            "id": 201160012,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "I've told her that many times before",
+            "option": null,
+            "nextIds": [
+              201160013
+            ],
+            "kind": "NPC"
+          },
+          "201160013": {
+            "type": "Text",
+            "id": 201160013,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "It's not enough",
+            "option": null,
+            "nextIds": [
+              201160017
+            ],
+            "kind": "NPC"
+          },
+          "201160014": {
+            "type": "Text",
+            "id": 201160014,
+            "sectionId": 2011600,
+            "senderId": null,
+            "text": "To send someone a gift, we need to know their preferences first. What does Madam Hanya like?",
+            "option": "What does Hanya like?",
+            "nextIds": [
+              201160015
+            ],
+            "kind": "Player"
+          },
+          "201160015": {
+            "type": "Text",
+            "id": 201160015,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "She likes to write novels",
+            "option": null,
+            "nextIds": [
+              201160016
+            ],
+            "kind": "NPC"
+          },
+          "201160016": {
+            "type": "Text",
+            "id": 201160016,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "But she doesn't need any more stationery or books",
+            "option": null,
+            "nextIds": [
+              201160017
+            ],
+            "kind": "NPC"
+          },
+          "201160003": {
+            "type": "Text",
+            "id": 201160003,
+            "sectionId": 2011600,
+            "senderId": null,
+            "text": "Are you sure about that? My advice might not be advisable. Do take it with many a grain of salt",
+            "option": "Are you sure about that?",
+            "nextIds": [
+              201160004
+            ],
+            "kind": "Player"
+          },
+          "201160004": {
+            "type": "Text",
+            "id": 201160004,
+            "sectionId": 2011600,
+            "senderId": 1214,
+            "text": "Good enough for me",
+            "option": null,
+            "nextIds": [
+              201160005
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2011700,
+        "startIds": [
+          201170000
+        ],
+        "messages": {
+          "201170000": {
+            "type": "Text",
+            "id": 201170000,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "|ω・´)",
+            "option": null,
+            "nextIds": [
+              201170001
+            ],
+            "kind": "NPC"
+          },
+          "201170001": {
+            "type": "Text",
+            "id": 201170001,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "|ー`)",
+            "option": null,
+            "nextIds": [
+              201170002
+            ],
+            "kind": "NPC"
+          },
+          "201170002": {
+            "type": "Text",
+            "id": 201170002,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "|-`)",
+            "option": null,
+            "nextIds": [
+              201170003
+            ],
+            "kind": "NPC"
+          },
+          "201170003": {
+            "type": "Text",
+            "id": 201170003,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "|",
+            "option": null,
+            "nextIds": [
+              201170004,
+              201170006,
+              201170008
+            ],
+            "kind": "NPC"
+          },
+          "201170004": {
+            "type": "Text",
+            "id": 201170004,
+            "sectionId": 2011700,
+            "senderId": null,
+            "text": "Madam Xueyi, what happened to you? What's going on?",
+            "option": "Madam Xueyi, what happened to you?",
+            "nextIds": [
+              201170005
+            ],
+            "kind": "Player"
+          },
+          "201170005": {
+            "type": "Text",
+            "id": 201170005,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "Nothing.",
+            "option": null,
+            "nextIds": [
+              201170010
+            ],
+            "kind": "NPC"
+          },
+          "201170010": {
+            "type": "Text",
+            "id": 201170010,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "I'm just trying out the emoticons",
+            "option": null,
+            "nextIds": [
+              201170011
+            ],
+            "kind": "NPC"
+          },
+          "201170011": {
+            "type": "Text",
+            "id": 201170011,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "Huohuo says I'm often expressionless",
+            "option": null,
+            "nextIds": [
+              201170012
+            ],
+            "kind": "NPC"
+          },
+          "201170012": {
+            "type": "Text",
+            "id": 201170012,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "And even my text messages sound too serious",
+            "option": null,
+            "nextIds": [
+              201170013
+            ],
+            "kind": "NPC"
+          },
+          "201170013": {
+            "type": "Text",
+            "id": 201170013,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "Per her suggestion, I am now testing these emoticons",
+            "option": null,
+            "nextIds": [
+              201170014
+            ],
+            "kind": "NPC"
+          },
+          "201170014": {
+            "type": "Text",
+            "id": 201170014,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "(´_っ`)",
+            "option": null,
+            "nextIds": [
+              201170015
+            ],
+            "kind": "NPC"
+          },
+          "201170015": {
+            "type": "Text",
+            "id": 201170015,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "What do you think?",
+            "option": null,
+            "nextIds": [
+              201170016,
+              201170020,
+              201170024
+            ],
+            "kind": "NPC"
+          },
+          "201170016": {
+            "type": "Text",
+            "id": 201170016,
+            "sectionId": 2011700,
+            "senderId": null,
+            "text": "Truth be told, I'm not quite used to it. This isn't the Madam Xueyi I'm familiar with.",
+            "option": "I'm not quite used to it",
+            "nextIds": [
+              201170017
+            ],
+            "kind": "Player"
+          },
+          "201170017": {
+            "type": "Text",
+            "id": 201170017,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "Hmm",
+            "option": null,
+            "nextIds": [
+              201170018
+            ],
+            "kind": "NPC"
+          },
+          "201170018": {
+            "type": "Text",
+            "id": 201170018,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "I don't think there's much difference.",
+            "option": null,
+            "nextIds": [
+              201170019
+            ],
+            "kind": "NPC"
+          },
+          "201170019": {
+            "type": "Text",
+            "id": 201170019,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "(ﾟ3ﾟ)",
+            "option": null,
+            "nextIds": [
+              201170028,
+              201170030
+            ],
+            "kind": "NPC"
+          },
+          "201170028": {
+            "type": "Text",
+            "id": 201170028,
+            "sectionId": 2011700,
+            "senderId": null,
+            "text": "This feels kind of odd, but I'm now fine with you using them",
+            "option": "You know what, I'm now fine with you using them",
+            "nextIds": [
+              201170029
+            ],
+            "kind": "Player"
+          },
+          "201170029": {
+            "type": "Text",
+            "id": 201170029,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "(´ー`)",
+            "option": null,
+            "nextIds": [
+              201170032
+            ],
+            "kind": "NPC"
+          },
+          "201170032": {
+            "type": "Text",
+            "id": 201170032,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "I just copy and paste the emoticons I find interesting. Don't know what they mean",
+            "option": null,
+            "nextIds": [
+              201170033
+            ],
+            "kind": "NPC"
+          },
+          "201170033": {
+            "type": "Text",
+            "id": 201170033,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "Already not planning to use them after this",
+            "option": null,
+            "nextIds": [
+              201170034
+            ],
+            "kind": "NPC"
+          },
+          "201170034": {
+            "type": "Text",
+            "id": 201170034,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "Copying them is a hassle",
+            "option": null,
+            "nextIds": [
+              201170035
+            ],
+            "kind": "NPC"
+          },
+          "201170035": {
+            "type": "Text",
+            "id": 201170035,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "(ﾟωﾟ)",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201170030": {
+            "type": "Text",
+            "id": 201170030,
+            "sectionId": 2011700,
+            "senderId": null,
+            "text": "Please stop using these emoticons. It's so not you",
+            "option": "Please stop using them...",
+            "nextIds": [
+              201170031
+            ],
+            "kind": "Player"
+          },
+          "201170031": {
+            "type": "Text",
+            "id": 201170031,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "(`ー´)",
+            "option": null,
+            "nextIds": [
+              201170032
+            ],
+            "kind": "NPC"
+          },
+          "201170020": {
+            "type": "Text",
+            "id": 201170020,
+            "sectionId": 2011700,
+            "senderId": null,
+            "text": "Before asking for my opinion, why don't you find out what you think of it yourself?",
+            "option": "What do you think of it yourself?",
+            "nextIds": [
+              201170021
+            ],
+            "kind": "Player"
+          },
+          "201170021": {
+            "type": "Text",
+            "id": 201170021,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "Hmm",
+            "option": null,
+            "nextIds": [
+              201170022
+            ],
+            "kind": "NPC"
+          },
+          "201170022": {
+            "type": "Text",
+            "id": 201170022,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "I don't think there's much difference",
+            "option": null,
+            "nextIds": [
+              201170023
+            ],
+            "kind": "NPC"
+          },
+          "201170023": {
+            "type": "Text",
+            "id": 201170023,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "(ﾟ3ﾟ)",
+            "option": null,
+            "nextIds": [
+              201170028,
+              201170030
+            ],
+            "kind": "NPC"
+          },
+          "201170024": {
+            "type": "Text",
+            "id": 201170024,
+            "sectionId": 2011700,
+            "senderId": null,
+            "text": "What about Huohuo, who made the suggestion? What does she think?",
+            "option": "What does Huohuo think?",
+            "nextIds": [
+              201170025
+            ],
+            "kind": "Player"
+          },
+          "201170025": {
+            "type": "Text",
+            "id": 201170025,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "She told me not to send these emoticons to anyone",
+            "option": null,
+            "nextIds": [
+              201170026
+            ],
+            "kind": "NPC"
+          },
+          "201170026": {
+            "type": "Text",
+            "id": 201170026,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "I don't think there's much difference",
+            "option": null,
+            "nextIds": [
+              201170027
+            ],
+            "kind": "NPC"
+          },
+          "201170027": {
+            "type": "Text",
+            "id": 201170027,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "(ﾟ3ﾟ)",
+            "option": null,
+            "nextIds": [
+              201170028,
+              201170030
+            ],
+            "kind": "NPC"
+          },
+          "201170006": {
+            "type": "Text",
+            "id": 201170006,
+            "sectionId": 2011700,
+            "senderId": null,
+            "text": "Please return the jade abacus you found to its owner — Madam Xueyi from the Ten-Lords Commission",
+            "option": "Please return the jade abacus to its owner",
+            "nextIds": [
+              201170007
+            ],
+            "kind": "Player"
+          },
+          "201170007": {
+            "type": "Text",
+            "id": 201170007,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "I AM Madam Xueyi",
+            "option": null,
+            "nextIds": [
+              201170010
+            ],
+            "kind": "NPC"
+          },
+          "201170008": {
+            "type": "Text",
+            "id": 201170008,
+            "sectionId": 2011700,
+            "senderId": null,
+            "text": "(;ﾟдﾟ) Stop right there!",
+            "option": "(;ﾟдﾟ) Stop right there!",
+            "nextIds": [
+              201170009
+            ],
+            "kind": "Player"
+          },
+          "201170009": {
+            "type": "Text",
+            "id": 201170009,
+            "sectionId": 2011700,
+            "senderId": 1214,
+            "text": "I'm not going anywhere",
+            "option": null,
+            "nextIds": [
+              201170010
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1214,
+    "name": "Xueyi",
+    "signature": "In seclusion. Do not disturb.",
+    "iconPath": "icon/avatar/1214.png",
+    "type": 1,
+    "camp": 4
+  }
+}

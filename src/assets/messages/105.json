@@ -1,0 +1,1343 @@
+{
+  "id": 105,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1218900,
+        "startIds": [
+          121890000
+        ],
+        "messages": {
+          "121890000": {
+            "type": "Text",
+            "id": 121890000,
+            "sectionId": 1218900,
+            "senderId": null,
+            "text": "You Already Know Me invited Take-Ultimate-To-The-Face to the group chat",
+            "option": null,
+            "nextIds": [
+              121890001
+            ],
+            "kind": "System"
+          },
+          "121890001": {
+            "type": "Text",
+            "id": 121890001,
+            "sectionId": 1218900,
+            "senderId": 16,
+            "text": "Ok, invited",
+            "option": null,
+            "nextIds": [
+              121890002
+            ],
+            "kind": "NPC"
+          },
+          "121890002": {
+            "type": "Text",
+            "id": 121890002,
+            "sectionId": 1218900,
+            "senderId": 16,
+            "text": "Spill",
+            "option": null,
+            "nextIds": [
+              121890003
+            ],
+            "kind": "NPC"
+          },
+          "121890003": {
+            "type": "Text",
+            "id": 121890003,
+            "sectionId": 1218900,
+            "senderId": 103,
+            "text": "Looks like we're in for some juicy news",
+            "option": null,
+            "nextIds": [
+              121890004
+            ],
+            "kind": "NPC"
+          },
+          "121890004": {
+            "type": "Text",
+            "id": 121890004,
+            "sectionId": 1218900,
+            "senderId": 28,
+            "text": "Got the deets?",
+            "option": "Oh?",
+            "nextIds": [
+              121890005
+            ],
+            "kind": "Player"
+          },
+          "121890005": {
+            "type": "Text",
+            "id": 121890005,
+            "sectionId": 1218900,
+            "senderId": 103,
+            "text": "Don't leak this from the chat",
+            "option": null,
+            "nextIds": [
+              121890006
+            ],
+            "kind": "NPC"
+          },
+          "121890006": {
+            "type": "Text",
+            "id": 121890006,
+            "sectionId": 1218900,
+            "senderId": 103,
+            "text": "Ruan Mei's coming to the space station!",
+            "option": null,
+            "nextIds": [
+              121890007
+            ],
+            "kind": "NPC"
+          },
+          "121890007": {
+            "type": "Text",
+            "id": 121890007,
+            "sectionId": 1218900,
+            "senderId": 28,
+            "text": "...Isn't she already here?",
+            "option": "...She's already here.",
+            "nextIds": [
+              121890008
+            ],
+            "kind": "Player"
+          },
+          "121890008": {
+            "type": "Text",
+            "id": 121890008,
+            "sectionId": 1218900,
+            "senderId": 28,
+            "text": "You're getting slow with your gossip",
+            "option": null,
+            "nextIds": [
+              121890009
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121890009": {
+            "type": "Text",
+            "id": 121890009,
+            "sectionId": 1218900,
+            "senderId": 103,
+            "text": "You really are something",
+            "option": null,
+            "nextIds": [
+              121890010
+            ],
+            "kind": "NPC"
+          },
+          "121890010": {
+            "type": "Text",
+            "id": 121890010,
+            "sectionId": 1218900,
+            "senderId": 20,
+            "text": "But we're still preparing for the welcome ceremony",
+            "option": null,
+            "nextIds": [
+              121890011
+            ],
+            "kind": "NPC"
+          },
+          "121890011": {
+            "type": "Text",
+            "id": 121890011,
+            "sectionId": 1218900,
+            "senderId": 103,
+            "text": "Ruan Mei doesn't appreciate it",
+            "option": null,
+            "nextIds": [
+              121890012
+            ],
+            "kind": "NPC"
+          },
+          "121890012": {
+            "type": "Text",
+            "id": 121890012,
+            "sectionId": 1218900,
+            "senderId": 18,
+            "text": "I heard she's a loner even among the geniuses",
+            "option": null,
+            "nextIds": [
+              121890013
+            ],
+            "kind": "NPC"
+          },
+          "121890013": {
+            "type": "Text",
+            "id": 121890013,
+            "sectionId": 1218900,
+            "senderId": 20,
+            "text": "So all our work was for nothing?",
+            "option": null,
+            "nextIds": [
+              121890014
+            ],
+            "kind": "NPC"
+          },
+          "121890014": {
+            "type": "Text",
+            "id": 121890014,
+            "sectionId": 1218900,
+            "senderId": 20,
+            "text": "Why didn't you give a heads-up ahead of time",
+            "option": null,
+            "nextIds": [
+              121890015
+            ],
+            "kind": "NPC"
+          },
+          "121890015": {
+            "type": "Text",
+            "id": 121890015,
+            "sectionId": 1218900,
+            "senderId": 18,
+            "text": "Herta's also turned a blind eye to what she does",
+            "option": null,
+            "nextIds": [
+              121890016
+            ],
+            "kind": "NPC"
+          },
+          "121890016": {
+            "type": "Text",
+            "id": 121890016,
+            "sectionId": 1218900,
+            "senderId": 18,
+            "text": "That's the \"big shot\" special treatment",
+            "option": null,
+            "nextIds": [
+              121890017,
+              121890019
+            ],
+            "kind": "NPC"
+          },
+          "121890017": {
+            "type": "Text",
+            "id": 121890017,
+            "sectionId": 1218900,
+            "senderId": 28,
+            "text": "It's okay. Other big shots will show up sooner or later",
+            "option": "It's okay",
+            "nextIds": [
+              121890018
+            ],
+            "kind": "Player"
+          },
+          "121890018": {
+            "type": "Text",
+            "id": 121890018,
+            "sectionId": 1218900,
+            "senderId": 20,
+            "text": "Hmm, I'll be waiting then",
+            "option": null,
+            "nextIds": [
+              121890021
+            ],
+            "kind": "NPC"
+          },
+          "121890021": {
+            "type": "Text",
+            "id": 121890021,
+            "sectionId": 1218900,
+            "senderId": 103,
+            "text": "Apparently Miss Ruan Mei's personality isn't all that great",
+            "option": null,
+            "nextIds": [
+              121890022
+            ],
+            "kind": "NPC"
+          },
+          "121890022": {
+            "type": "Text",
+            "id": 121890022,
+            "sectionId": 1218900,
+            "senderId": 20,
+            "text": "Word? Is there ever a genius who's normal?",
+            "option": null,
+            "nextIds": [
+              121890023
+            ],
+            "kind": "NPC"
+          },
+          "121890023": {
+            "type": "Text",
+            "id": 121890023,
+            "sectionId": 1218900,
+            "senderId": 17,
+            "text": "Screwllum seems pretty chill",
+            "option": null,
+            "nextIds": [
+              121890024
+            ],
+            "kind": "NPC"
+          },
+          "121890024": {
+            "type": "Text",
+            "id": 121890024,
+            "sectionId": 1218900,
+            "senderId": 20,
+            "text": "Ok fine, I'll give you that",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121890019": {
+            "type": "Text",
+            "id": 121890019,
+            "sectionId": 1218900,
+            "senderId": 28,
+            "text": "This is what you get when you work hard",
+            "option": "Stop working hard",
+            "nextIds": [
+              121890020
+            ],
+            "kind": "Player"
+          },
+          "121890020": {
+            "type": "Text",
+            "id": 121890020,
+            "sectionId": 1218900,
+            "senderId": 20,
+            "text": "You seem pretty enlightened",
+            "option": null,
+            "nextIds": [
+              121890021
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1219000,
+        "startIds": [
+          121900000
+        ],
+        "messages": {
+          "121900000": {
+            "type": "Text",
+            "id": 121900000,
+            "sectionId": 1219000,
+            "senderId": null,
+            "text": "Rich_Knowit invited Peoplebreaker to the group chat",
+            "option": null,
+            "nextIds": [
+              121900001
+            ],
+            "kind": "System"
+          },
+          "121900001": {
+            "type": "Text",
+            "id": 121900001,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "Welcome, new friend",
+            "option": null,
+            "nextIds": [
+              121900039
+            ],
+            "kind": "NPC"
+          },
+          "121900039": {
+            "type": "Sticker",
+            "id": 121900039,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              121900002
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30012,
+              "path": "icon/emoji/111005.png",
+              "keywords": "Offers Tea"
+            }
+          },
+          "121900002": {
+            "type": "Text",
+            "id": 121900002,
+            "sectionId": 1219000,
+            "senderId": 16,
+            "text": "What an honor to see you here",
+            "option": null,
+            "nextIds": [
+              121900003
+            ],
+            "kind": "NPC"
+          },
+          "121900003": {
+            "type": "Sticker",
+            "id": 121900003,
+            "sectionId": 1219000,
+            "senderId": 20,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              121900004
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 106002,
+              "path": "icon/emoji/106002.png",
+              "keywords": "Startled"
+            }
+          },
+          "121900004": {
+            "type": "Text",
+            "id": 121900004,
+            "sectionId": 1219000,
+            "senderId": 20,
+            "text": "Looks like my importance in this chat is now downgraded by 1.",
+            "option": null,
+            "nextIds": [
+              121900005
+            ],
+            "kind": "NPC"
+          },
+          "121900005": {
+            "type": "Text",
+            "id": 121900005,
+            "sectionId": 1219000,
+            "senderId": 17,
+            "text": "Looks like my importance in this chat is now downgraded by 1.",
+            "option": null,
+            "nextIds": [
+              121900006,
+              121900008
+            ],
+            "kind": "NPC"
+          },
+          "121900006": {
+            "type": "Text",
+            "id": 121900006,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "Why do I have the feeling that I've seen this chat before?",
+            "option": "This chat feels like deja vu",
+            "nextIds": [
+              121900007
+            ],
+            "kind": "Player"
+          },
+          "121900007": {
+            "type": "Text",
+            "id": 121900007,
+            "sectionId": 1219000,
+            "senderId": 16,
+            "text": "Fr",
+            "option": null,
+            "nextIds": [
+              121900010
+            ],
+            "kind": "NPC"
+          },
+          "121900010": {
+            "type": "Text",
+            "id": 121900010,
+            "sectionId": 1219000,
+            "senderId": 18,
+            "text": "Ok ok, let's get back to the topic. How do we deal with the situation?",
+            "option": null,
+            "nextIds": [
+              121900011
+            ],
+            "kind": "NPC"
+          },
+          "121900011": {
+            "type": "Text",
+            "id": 121900011,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "Accountability! Accountability must be held!",
+            "option": null,
+            "nextIds": [
+              121900012,
+              121900013
+            ],
+            "kind": "NPC"
+          },
+          "121900012": {
+            "type": "Text",
+            "id": 121900012,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "What's all the fuss about?",
+            "option": "What's wrong?",
+            "nextIds": [
+              121900014
+            ],
+            "kind": "Player"
+          },
+          "121900014": {
+            "type": "Text",
+            "id": 121900014,
+            "sectionId": 1219000,
+            "senderId": 20,
+            "text": "So you still don't know?",
+            "option": null,
+            "nextIds": [
+              121900015
+            ],
+            "kind": "NPC"
+          },
+          "121900015": {
+            "type": "Video",
+            "id": 121900015,
+            "sectionId": 1219000,
+            "senderId": 20,
+            "text": "[Video link] ({LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} to play static cutscene-1)",
+            "option": null,
+            "nextIds": [
+              121900016
+            ],
+            "kind": "NPC",
+            "video": {
+              "id": 121901,
+              "path": "image/messages/10016.png",
+              "video_id": 301
+            }
+          },
+          "121900016": {
+            "type": "Text",
+            "id": 121900016,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "Just look at this! They are walking all over us! Positively assaulting Madam Herta at this rate!",
+            "option": null,
+            "nextIds": [
+              121900017
+            ],
+            "kind": "NPC"
+          },
+          "121900017": {
+            "type": "Text",
+            "id": 121900017,
+            "sectionId": 1219000,
+            "senderId": 17,
+            "text": "Yeah, right. And the management of this space station is for real so crappy.",
+            "option": null,
+            "nextIds": [
+              121900018
+            ],
+            "kind": "NPC"
+          },
+          "121900018": {
+            "type": "Text",
+            "id": 121900018,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "The Legion incident aside, how could they allow Madam Herta to be attacked on our own turf?",
+            "option": null,
+            "nextIds": [
+              121900019
+            ],
+            "kind": "NPC"
+          },
+          "121900019": {
+            "type": "Text",
+            "id": 121900019,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "J—Just what is going on!?",
+            "option": null,
+            "nextIds": [
+              121900020
+            ],
+            "kind": "NPC"
+          },
+          "121900020": {
+            "type": "Text",
+            "id": 121900020,
+            "sectionId": 1219000,
+            "senderId": 18,
+            "text": "*sighs* I really hate these imbecilic pests sit in high places and do nothing.",
+            "option": null,
+            "nextIds": [
+              121900021
+            ],
+            "kind": "NPC"
+          },
+          "121900021": {
+            "type": "Text",
+            "id": 121900021,
+            "sectionId": 1219000,
+            "senderId": 25,
+            "text": "But when all is said and done, after the Legion crisis, the space station has done a good job in revitalizing and rebuilding.",
+            "option": null,
+            "nextIds": [
+              121900022
+            ],
+            "kind": "NPC"
+          },
+          "121900022": {
+            "type": "Text",
+            "id": 121900022,
+            "sectionId": 1219000,
+            "senderId": 17,
+            "text": "You got a point.",
+            "option": null,
+            "nextIds": [
+              121900023
+            ],
+            "kind": "NPC"
+          },
+          "121900023": {
+            "type": "Text",
+            "id": 121900023,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "Those are two different kettles of fish. Besides, they were never that competent to begin with?",
+            "option": null,
+            "nextIds": [
+              121900024,
+              121900026,
+              121900028
+            ],
+            "kind": "NPC"
+          },
+          "121900024": {
+            "type": "Text",
+            "id": 121900024,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "That's more like it!",
+            "option": "That's more like it",
+            "nextIds": [
+              121900025
+            ],
+            "kind": "Player"
+          },
+          "121900025": {
+            "type": "Text",
+            "id": 121900025,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "But isn't the main focus here Herta's safety?",
+            "option": null,
+            "nextIds": [
+              121900031
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121900031": {
+            "type": "Text",
+            "id": 121900031,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "Let's not poke our noses into other people's business. Isn't that Asta's job?",
+            "option": null,
+            "nextIds": [
+              121900032
+            ],
+            "kind": "NPC"
+          },
+          "121900032": {
+            "type": "Text",
+            "id": 121900032,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "Our job is to sit here and judge the quality of their work. As for HOW to get things done, that's for them to worry about!",
+            "option": null,
+            "nextIds": [
+              121900033
+            ],
+            "kind": "NPC"
+          },
+          "121900033": {
+            "type": "Text",
+            "id": 121900033,
+            "sectionId": 1219000,
+            "senderId": 25,
+            "text": "You sure have some bizarre reasoning, but you're spitting facts here.",
+            "option": null,
+            "nextIds": [
+              121900034
+            ],
+            "kind": "NPC"
+          },
+          "121900034": {
+            "type": "Text",
+            "id": 121900034,
+            "sectionId": 1219000,
+            "senderId": 18,
+            "text": "You're absolutely right bro! Rich_Knowit, you spoke my mind!",
+            "option": null,
+            "nextIds": [
+              121900035
+            ],
+            "kind": "NPC"
+          },
+          "121900035": {
+            "type": "Text",
+            "id": 121900035,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "...",
+            "option": "...",
+            "nextIds": [
+              121900036
+            ],
+            "kind": "Player"
+          },
+          "121900036": {
+            "type": "Text",
+            "id": 121900036,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "Comrades, what is our goal?",
+            "option": null,
+            "nextIds": [
+              121900037
+            ],
+            "kind": "NPC"
+          },
+          "121900037": {
+            "type": "Text",
+            "id": 121900037,
+            "sectionId": 1219000,
+            "senderId": 18,
+            "text": "To rid ourselves of all imbecilic pests!",
+            "option": null,
+            "nextIds": [
+              121900038
+            ],
+            "kind": "NPC"
+          },
+          "121900038": {
+            "type": "Text",
+            "id": 121900038,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "Good. You passed",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "121900026": {
+            "type": "Text",
+            "id": 121900026,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "Aren't you jumping ahead...",
+            "option": "Aren't you jumping ahead",
+            "nextIds": [
+              121900027
+            ],
+            "kind": "Player"
+          },
+          "121900027": {
+            "type": "Text",
+            "id": 121900027,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "Isn't the main focus Herta's safety?",
+            "option": null,
+            "nextIds": [
+              121900031
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121900028": {
+            "type": "Text",
+            "id": 121900028,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "You're right!",
+            "option": "You're right!",
+            "nextIds": [
+              121900029
+            ],
+            "kind": "Player"
+          },
+          "121900029": {
+            "type": "Text",
+            "id": 121900029,
+            "sectionId": 1219000,
+            "senderId": 16,
+            "text": "You think so too? Huh, interesting. Let's have a chat later... PRIVATELY",
+            "option": null,
+            "nextIds": [
+              121900030
+            ],
+            "kind": "NPC"
+          },
+          "121900030": {
+            "type": "Text",
+            "id": 121900030,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "No need... Isn't the main focus Herta's safety?",
+            "option": null,
+            "nextIds": [
+              121900031
+            ],
+            "kind": "PlayerAuto"
+          },
+          "121900013": {
+            "type": "Text",
+            "id": 121900013,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "What accountability?",
+            "option": "What accountability?",
+            "nextIds": [
+              121900014
+            ],
+            "kind": "Player"
+          },
+          "121900008": {
+            "type": "Text",
+            "id": 121900008,
+            "sectionId": 1219000,
+            "senderId": 28,
+            "text": "Say... Your ID Rich_Knowit seems familiar... Are you perhaps related to Richard_Knowitall?",
+            "option": "The ID here looks familiar",
+            "nextIds": [
+              121900009
+            ],
+            "kind": "Player"
+          },
+          "121900009": {
+            "type": "Text",
+            "id": 121900009,
+            "sectionId": 1219000,
+            "senderId": 103,
+            "text": "...So you knew of the handle I used before that account got nuked. Looks like you're chronically online.",
+            "option": null,
+            "nextIds": [
+              121900010
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1219100,
+        "startIds": [
+          121910000
+        ],
+        "messages": {
+          "121910000": {
+            "type": "Text",
+            "id": 121910000,
+            "sectionId": 1219100,
+            "senderId": 103,
+            "text": "She's here! She's here! She's here!",
+            "option": null,
+            "nextIds": [
+              121910001
+            ],
+            "kind": "NPC"
+          },
+          "121910001": {
+            "type": "Text",
+            "id": 121910001,
+            "sectionId": 1219100,
+            "senderId": 18,
+            "text": "Who?",
+            "option": null,
+            "nextIds": [
+              121910002
+            ],
+            "kind": "NPC"
+          },
+          "121910002": {
+            "type": "Text",
+            "id": 121910002,
+            "sectionId": 1219100,
+            "senderId": 103,
+            "text": "The bigshot!",
+            "option": null,
+            "nextIds": [
+              121910003
+            ],
+            "kind": "NPC"
+          },
+          "121910003": {
+            "type": "Text",
+            "id": 121910003,
+            "sectionId": 1219100,
+            "senderId": 25,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              121910004
+            ],
+            "kind": "NPC"
+          },
+          "121910004": {
+            "type": "Text",
+            "id": 121910004,
+            "sectionId": 1219100,
+            "senderId": 20,
+            "text": "OMG!",
+            "option": null,
+            "nextIds": [
+              121910005
+            ],
+            "kind": "NPC"
+          },
+          "121910005": {
+            "type": "Video",
+            "id": 121910005,
+            "sectionId": 1219100,
+            "senderId": 20,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "video": {
+              "id": 121911,
+              "path": "image/messages/10017.png",
+              "video_id": 302
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1221000,
+        "startIds": [
+          122100000
+        ],
+        "messages": {
+          "122100000": {
+            "type": "Text",
+            "id": 122100000,
+            "sectionId": 1221000,
+            "senderId": null,
+            "text": "\"Rich_Knowit\" uploaded the [Document] — Missing Researcher Profile",
+            "option": null,
+            "nextIds": [
+              122100001
+            ],
+            "kind": "System"
+          },
+          "122100001": {
+            "type": "Text",
+            "id": 122100001,
+            "sectionId": 1221000,
+            "senderId": 18,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              122100002
+            ],
+            "kind": "NPC"
+          },
+          "122100002": {
+            "type": "Text",
+            "id": 122100002,
+            "sectionId": 1221000,
+            "senderId": 25,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              122100003
+            ],
+            "kind": "NPC"
+          },
+          "122100003": {
+            "type": "Text",
+            "id": 122100003,
+            "sectionId": 1221000,
+            "senderId": 25,
+            "text": "What on earth is this?",
+            "option": null,
+            "nextIds": [
+              122100004
+            ],
+            "kind": "NPC"
+          },
+          "122100004": {
+            "type": "Text",
+            "id": 122100004,
+            "sectionId": 1221000,
+            "senderId": 20,
+            "text": "\"The missing researchers are all opinion leaders on the space station's Dark Web...\"",
+            "option": null,
+            "nextIds": [
+              122100005
+            ],
+            "kind": "NPC"
+          },
+          "122100005": {
+            "type": "Text",
+            "id": 122100005,
+            "sectionId": 1221000,
+            "senderId": 20,
+            "text": "Holy moly, you know stuff that even the Security Department isn't aware of.",
+            "option": null,
+            "nextIds": [
+              122100006
+            ],
+            "kind": "NPC"
+          },
+          "122100006": {
+            "type": "Text",
+            "id": 122100006,
+            "sectionId": 1221000,
+            "senderId": 103,
+            "text": "Ahem, I just got the file from next door.",
+            "option": null,
+            "nextIds": [
+              122100007
+            ],
+            "kind": "NPC"
+          },
+          "122100007": {
+            "type": "Text",
+            "id": 122100007,
+            "sectionId": 1221000,
+            "senderId": 25,
+            "text": "It sounds far-fetched, but on the off chance that it's true...",
+            "option": null,
+            "nextIds": [
+              122100008
+            ],
+            "kind": "NPC"
+          },
+          "122100008": {
+            "type": "Text",
+            "id": 122100008,
+            "sectionId": 1221000,
+            "senderId": 18,
+            "text": "I smell a conspiracy.",
+            "option": null,
+            "nextIds": [
+              122100009
+            ],
+            "kind": "NPC"
+          },
+          "122100009": {
+            "type": "Text",
+            "id": 122100009,
+            "sectionId": 1221000,
+            "senderId": 103,
+            "text": "They staged the whole missing thing to get rid of dissenters.",
+            "option": null,
+            "nextIds": [
+              122100010
+            ],
+            "kind": "NPC"
+          },
+          "122100010": {
+            "type": "Text",
+            "id": 122100010,
+            "sectionId": 1221000,
+            "senderId": 103,
+            "text": "Tsk, tsk, that's such a brilliant plot. Justice may come late, but it will be served. The management must step down!",
+            "option": null,
+            "nextIds": [
+              122100011
+            ],
+            "kind": "NPC"
+          },
+          "122100011": {
+            "type": "Text",
+            "id": 122100011,
+            "sectionId": 1221000,
+            "senderId": 18,
+            "text": "The management must step down!",
+            "option": null,
+            "nextIds": [
+              122100012
+            ],
+            "kind": "NPC"
+          },
+          "122100012": {
+            "type": "Text",
+            "id": 122100012,
+            "sectionId": 1221000,
+            "senderId": 25,
+            "text": "If that's really the case, doesn't it mean this chat group is in grave danger?",
+            "option": null,
+            "nextIds": [
+              122100013
+            ],
+            "kind": "NPC"
+          },
+          "122100013": {
+            "type": "Text",
+            "id": 122100013,
+            "sectionId": 1221000,
+            "senderId": 18,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              122100014
+            ],
+            "kind": "NPC"
+          },
+          "122100014": {
+            "type": "Text",
+            "id": 122100014,
+            "sectionId": 1221000,
+            "senderId": 20,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              122100015
+            ],
+            "kind": "NPC"
+          },
+          "122100015": {
+            "type": "Text",
+            "id": 122100015,
+            "sectionId": 1221000,
+            "senderId": 103,
+            "text": "?",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1222300,
+        "startIds": [
+          122230000
+        ],
+        "messages": {
+          "122230000": {
+            "type": "Text",
+            "id": 122230000,
+            "sectionId": 1222300,
+            "senderId": 20,
+            "text": "Have you heard",
+            "option": null,
+            "nextIds": [
+              122230001
+            ],
+            "kind": "NPC"
+          },
+          "122230001": {
+            "type": "Text",
+            "id": 122230001,
+            "sectionId": 1222300,
+            "senderId": 25,
+            "text": "Hmm",
+            "option": null,
+            "nextIds": [
+              122230002
+            ],
+            "kind": "NPC"
+          },
+          "122230002": {
+            "type": "Text",
+            "id": 122230002,
+            "sectionId": 1222300,
+            "senderId": 25,
+            "text": "Lead Research Asta was attacked too.",
+            "option": null,
+            "nextIds": [
+              122230003
+            ],
+            "kind": "NPC"
+          },
+          "122230003": {
+            "type": "Text",
+            "id": 122230003,
+            "sectionId": 1222300,
+            "senderId": 17,
+            "text": "That Duke Inferno",
+            "option": null,
+            "nextIds": [
+              122230004
+            ],
+            "kind": "NPC"
+          },
+          "122230004": {
+            "type": "Text",
+            "id": 122230004,
+            "sectionId": 1222300,
+            "senderId": 17,
+            "text": "Devious! Conniving!",
+            "option": null,
+            "nextIds": [
+              122230005
+            ],
+            "kind": "NPC"
+          },
+          "122230005": {
+            "type": "Text",
+            "id": 122230005,
+            "sectionId": 1222300,
+            "senderId": 25,
+            "text": "Psyops on the masses have always been the most terrifying kind of attack",
+            "option": null,
+            "nextIds": [
+              122230006
+            ],
+            "kind": "NPC"
+          },
+          "122230006": {
+            "type": "Text",
+            "id": 122230006,
+            "sectionId": 1222300,
+            "senderId": 20,
+            "text": "Indeed. It seems that the Annihilation Gang isn't just about mindless violence, as the rumors suggest.",
+            "option": null,
+            "nextIds": [
+              122230007
+            ],
+            "kind": "NPC"
+          },
+          "122230007": {
+            "type": "Text",
+            "id": 122230007,
+            "sectionId": 1222300,
+            "senderId": 20,
+            "text": "If the Lead Researcher wasn't rescued at the end, we'd all be in deep, deep trouble",
+            "option": null,
+            "nextIds": [
+              122230008
+            ],
+            "kind": "NPC"
+          },
+          "122230008": {
+            "type": "Text",
+            "id": 122230008,
+            "sectionId": 1222300,
+            "senderId": 18,
+            "text": "Not necessarily. Maybe she's the one who orchestrated it all",
+            "option": null,
+            "nextIds": [
+              122230009
+            ],
+            "kind": "NPC"
+          },
+          "122230009": {
+            "type": "Text",
+            "id": 122230009,
+            "sectionId": 1222300,
+            "senderId": 18,
+            "text": "Masterminding this elaborate ruse by deliberately harming herself to earn some sympathy points",
+            "option": null,
+            "nextIds": [
+              122230010
+            ],
+            "kind": "NPC"
+          },
+          "122230010": {
+            "type": "Text",
+            "id": 122230010,
+            "sectionId": 1222300,
+            "senderId": 17,
+            "text": "That line of thoughts do have some merit...",
+            "option": null,
+            "nextIds": [
+              122230011
+            ],
+            "kind": "NPC"
+          },
+          "122230011": {
+            "type": "Text",
+            "id": 122230011,
+            "sectionId": 1222300,
+            "senderId": 25,
+            "text": "Enough already. This is ridiculous.",
+            "option": null,
+            "nextIds": [
+              122230012
+            ],
+            "kind": "NPC"
+          },
+          "122230012": {
+            "type": "Text",
+            "id": 122230012,
+            "sectionId": 1222300,
+            "senderId": 25,
+            "text": "Is that really worth it? All that hassle just to palliate a few keyboard warriors?",
+            "option": null,
+            "nextIds": [
+              122230013
+            ],
+            "kind": "NPC"
+          },
+          "122230013": {
+            "type": "Text",
+            "id": 122230013,
+            "sectionId": 1222300,
+            "senderId": 17,
+            "text": "True Dat!",
+            "option": null,
+            "nextIds": [
+              122230014
+            ],
+            "kind": "NPC"
+          },
+          "122230014": {
+            "type": "Text",
+            "id": 122230014,
+            "sectionId": 1222300,
+            "senderId": 20,
+            "text": "Speaking of which, where's that very first rabble-rouser, Rich_Knowit",
+            "option": null,
+            "nextIds": [
+              122230015
+            ],
+            "kind": "NPC"
+          },
+          "122230015": {
+            "type": "Text",
+            "id": 122230015,
+            "sectionId": 1222300,
+            "senderId": 25,
+            "text": "Oh, right. He was real righteous sounding when he invited me into the group",
+            "option": null,
+            "nextIds": [
+              122230016
+            ],
+            "kind": "NPC"
+          },
+          "122230016": {
+            "type": "Text",
+            "id": 122230016,
+            "sectionId": 1222300,
+            "senderId": 20,
+            "text": "Let me see",
+            "option": null,
+            "nextIds": [
+              122230017
+            ],
+            "kind": "NPC"
+          },
+          "122230017": {
+            "type": "Text",
+            "id": 122230017,
+            "sectionId": 1222300,
+            "senderId": 20,
+            "text": "Ugh, the guy left the group without making any noise...",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 105,
+    "name": "Herta Surveillance Team",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 2
+  }
+}

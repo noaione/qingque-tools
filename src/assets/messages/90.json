@@ -160,7 +160,7 @@
             "id": 121820012,
             "sectionId": 1218200,
             "senderId": 1210,
-            "text": "Just stop \"@\"-ing people and come to the Fyxestroll Garden.",
+            "text": "Just stop \"@\"-ing people and come to Fyxestroll Garden.",
             "option": null,
             "nextIds": [],
             "kind": "NPC"
@@ -251,7 +251,7 @@
             "id": 121950004,
             "sectionId": 1219500,
             "senderId": 1206,
-            "text": "Turns out it's actually an ancient guqin that can just self-play. And someone recently gave it a new battery.",
+            "text": "Turns out it's just an ancient battery-powered guqin. And a nosy someone recently gave it a new battery",
             "option": null,
             "nextIds": [
               121950005
@@ -1832,7 +1832,7 @@
             "id": 130200025,
             "sectionId": 1302000,
             "senderId": 1217,
-            "text": "I-I-I'm not upset, no need to feel so bad about it",
+            "text": "I—I—I'm not upset, no need to feel so bad about it",
             "option": null,
             "nextIds": [
               130200030
@@ -1888,7 +1888,9 @@
             "kind": "NPC"
           }
         }
-      },
+      }
+    ],
+    [
       {
         "type": "Message",
         "id": 1302001,
@@ -2351,7 +2353,9 @@
             "kind": "NPC"
           }
         }
-      },
+      }
+    ],
+    [
       {
         "type": "Message",
         "id": 1302002,
@@ -2785,7 +2789,9 @@
             "kind": "NPC"
           }
         }
-      },
+      }
+    ],
+    [
       {
         "type": "Message",
         "id": 1302003,
@@ -3172,8 +3178,8 @@
             "id": 130200321,
             "sectionId": 1302003,
             "senderId": null,
-            "text": "What's with the \"What!?\", Sushang? Aren't you the one who told us this",
-            "option": "What's with the \"WHAT!?\", Sushang?",
+            "text": "What do you mean \"What!?\", Sushang? Aren't you the one who told us this",
+            "option": "What do you mean \"WHAT!?\", Sushang?",
             "nextIds": [
               130200322
             ],
@@ -3276,7 +3282,9 @@
             "kind": "NPC"
           }
         }
-      },
+      }
+    ],
+    [
       {
         "type": "Message",
         "id": 1302004,

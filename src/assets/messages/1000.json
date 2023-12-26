@@ -26,7 +26,7 @@
             "id": 101230102,
             "sectionId": 1012301,
             "senderId": 1000,
-            "text": "{NICKNAME}! Are you there?!",
+            "text": "{NICKNAME}! Are you there!?",
             "option": null,
             "nextIds": [
               101230103,

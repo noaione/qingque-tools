@@ -1620,6 +1620,823 @@
           "type": "Branch"
         }
       }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1221200,
+        "startIds": [
+          122120000
+        ],
+        "messages": {
+          "122120000": {
+            "type": "Sticker",
+            "id": 122120000,
+            "sectionId": 1221200,
+            "senderId": 1009,
+            "text": "[Tea]",
+            "option": null,
+            "nextIds": [
+              122120001
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30012,
+              "path": "icon/emoji/111005.png",
+              "keywords": "Offers Tea"
+            }
+          },
+          "122120001": {
+            "type": "Text",
+            "id": 122120001,
+            "sectionId": 1221200,
+            "senderId": 1009,
+            "text": "{NICKNAME}, I need your help with something",
+            "option": null,
+            "nextIds": [
+              122120002,
+              122120004
+            ],
+            "kind": "NPC"
+          },
+          "122120002": {
+            "type": "Text",
+            "id": 122120002,
+            "sectionId": 1221200,
+            "senderId": null,
+            "text": "Help with what?",
+            "option": "Help with what?",
+            "nextIds": [
+              122120003
+            ],
+            "kind": "Player"
+          },
+          "122120003": {
+            "type": "Sticker",
+            "id": 122120003,
+            "sectionId": 1221200,
+            "senderId": null,
+            "text": "[Confused]",
+            "option": null,
+            "nextIds": [
+              122120005
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "122120005": {
+            "type": "Text",
+            "id": 122120005,
+            "sectionId": 1221200,
+            "senderId": 1009,
+            "text": "Madam Ruan Mei created some interesting little critters on the space station, I accommodate them temporarily in the Seclusion Zone",
+            "option": null,
+            "nextIds": [
+              122120006
+            ],
+            "kind": "NPC"
+          },
+          "122120006": {
+            "type": "Text",
+            "id": 122120006,
+            "sectionId": 1221200,
+            "senderId": 1009,
+            "text": "And now, I would like you to nurture these little ones",
+            "option": null,
+            "nextIds": [
+              122120007,
+              122120009
+            ],
+            "kind": "NPC"
+          },
+          "122120007": {
+            "type": "Text",
+            "id": 122120007,
+            "sectionId": 1221200,
+            "senderId": null,
+            "text": "Why me? Wouldn't it be better if you do it yourself?",
+            "option": "Why me?",
+            "nextIds": [
+              122120008
+            ],
+            "kind": "Player"
+          },
+          "122120008": {
+            "type": "Text",
+            "id": 122120008,
+            "sectionId": 1221200,
+            "senderId": 1009,
+            "text": "Among the people I know, you showed as the best match. Also... these things Madam Ruan Mei left behind is kind of related to you",
+            "option": null,
+            "nextIds": [
+              122120012
+            ],
+            "kind": "NPC"
+          },
+          "122120012": {
+            "type": "Text",
+            "id": 122120012,
+            "sectionId": 1221200,
+            "senderId": 1009,
+            "text": "With Mr Screwllum's help, I upgraded the robot programs. The helper robot will assist you the entire way. Of course, I'll keep an eye on you",
+            "option": null,
+            "nextIds": [
+              122120013
+            ],
+            "kind": "NPC"
+          },
+          "122120013": {
+            "type": "Text",
+            "id": 122120013,
+            "sectionId": 1221200,
+            "senderId": 1009,
+            "text": "You've got this",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122120009": {
+            "type": "Text",
+            "id": 122120009,
+            "sectionId": 1221200,
+            "senderId": null,
+            "text": "But there are so many idling researchers on the space station, why am I even chosen...",
+            "option": "There are so many researchers...",
+            "nextIds": [
+              122120010
+            ],
+            "kind": "Player"
+          },
+          "122120010": {
+            "type": "Sticker",
+            "id": 122120010,
+            "sectionId": 1221200,
+            "senderId": null,
+            "text": "[decline]",
+            "option": null,
+            "nextIds": [
+              122120011
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "122120011": {
+            "type": "Text",
+            "id": 122120011,
+            "sectionId": 1221200,
+            "senderId": 1009,
+            "text": "Heh, they won't be soon enough",
+            "option": null,
+            "nextIds": [
+              122120012
+            ],
+            "kind": "NPC"
+          },
+          "122120004": {
+            "type": "Text",
+            "id": 122120004,
+            "sectionId": 1221200,
+            "senderId": null,
+            "text": "Needs specifics, what's the context?",
+            "option": "Context?",
+            "nextIds": [
+              122120005
+            ],
+            "kind": "Player"
+          }
+        },
+        "mission": {
+          "id": 8016201,
+          "name": "Critter Pick: Nurture",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1221300,
+        "startIds": [
+          122130000
+        ],
+        "messages": {
+          "122130000": {
+            "type": "Text",
+            "id": 122130000,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "{NICKNAME}, did Peppy look for you",
+            "option": null,
+            "nextIds": [
+              122130001,
+              122130003
+            ],
+            "kind": "NPC"
+          },
+          "122130001": {
+            "type": "Text",
+            "id": 122130001,
+            "sectionId": 1221300,
+            "senderId": null,
+            "text": "Nope, isn't he at the master control zone?",
+            "option": "Nope",
+            "nextIds": [
+              122130002
+            ],
+            "kind": "Player"
+          },
+          "122130002": {
+            "type": "Text",
+            "id": 122130002,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "He's there when he has time to kill, but he's on a mission",
+            "option": null,
+            "nextIds": [
+              122130005
+            ],
+            "kind": "NPC"
+          },
+          "122130005": {
+            "type": "Text",
+            "id": 122130005,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "A Curio was stolen recently, so I asked him to enlist your help...",
+            "option": null,
+            "nextIds": [
+              122130006
+            ],
+            "kind": "NPC"
+          },
+          "122130006": {
+            "type": "Text",
+            "id": 122130006,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "I kept seeing him in the storage room, so I thought you met up",
+            "option": null,
+            "nextIds": [
+              122130007,
+              122130009
+            ],
+            "kind": "NPC"
+          },
+          "122130007": {
+            "type": "Text",
+            "id": 122130007,
+            "sectionId": 1221300,
+            "senderId": null,
+            "text": "A Curio was stolen? You should allocate more money to upgrade the security system, lead researcher!",
+            "option": "A Curio was stolen?",
+            "nextIds": [
+              122130008
+            ],
+            "kind": "Player"
+          },
+          "122130008": {
+            "type": "Text",
+            "id": 122130008,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "Any problem you can solve with money isn't a problem. This is a special case",
+            "option": null,
+            "nextIds": [
+              122130010
+            ],
+            "kind": "NPC"
+          },
+          "122130010": {
+            "type": "Text",
+            "id": 122130010,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "The lost Curio is the Joy Filtration Set, a cube used to store happiness. It's very popular among the researchers, judging by the consistently high application rate",
+            "option": null,
+            "nextIds": [
+              122130011
+            ],
+            "kind": "NPC"
+          },
+          "122130011": {
+            "type": "Text",
+            "id": 122130011,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "I'd like to start investigating from the researchers, but lately... Madam Ruan Mei has been visiting the station",
+            "option": null,
+            "nextIds": [
+              122130012
+            ],
+            "kind": "NPC"
+          },
+          "122130012": {
+            "type": "Text",
+            "id": 122130012,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "I'm worried this might not be a good look",
+            "option": null,
+            "nextIds": [
+              122130013
+            ],
+            "kind": "NPC"
+          },
+          "122130013": {
+            "type": "Text",
+            "id": 122130013,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "Peppy has a sharp sense of smell and does not attract attention wandering about, so I think he is the best for this investigation",
+            "option": null,
+            "nextIds": [
+              122130014
+            ],
+            "kind": "NPC"
+          },
+          "122130014": {
+            "type": "Text",
+            "id": 122130014,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "I've placed other zones under lockdown when everyone's focused on Madam Ruan Mei's visit",
+            "option": null,
+            "nextIds": [
+              122130015
+            ],
+            "kind": "NPC"
+          },
+          "122130015": {
+            "type": "Text",
+            "id": 122130015,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "However, Peppy has gone radio silent. I'm concerned that it has run into danger. {NICKNAME}, can you go take a look?",
+            "option": null,
+            "nextIds": [
+              122130016,
+              122130018
+            ],
+            "kind": "NPC"
+          },
+          "122130016": {
+            "type": "Text",
+            "id": 122130016,
+            "sectionId": 1221300,
+            "senderId": null,
+            "text": "Leave it to me, this is nothing",
+            "option": "Leave it to me.",
+            "nextIds": [
+              122130017
+            ],
+            "kind": "Player"
+          },
+          "122130017": {
+            "type": "Text",
+            "id": 122130017,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "Great! I'll share its coordinates with you right away",
+            "option": null,
+            "nextIds": [
+              122130020
+            ],
+            "kind": "NPC"
+          },
+          "122130020": {
+            "type": "Text",
+            "id": 122130020,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "Oh, right, I installed a specially made device on Peppy. When you find him, remember to activate the beacon. There's a surprise for you",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122130018": {
+            "type": "Text",
+            "id": 122130018,
+            "sectionId": 1221300,
+            "senderId": null,
+            "text": "Wait a sec, this all seems eerily familiar...",
+            "option": "Why do I feel deja vu?",
+            "nextIds": [
+              122130019
+            ],
+            "kind": "Player"
+          },
+          "122130019": {
+            "type": "Text",
+            "id": 122130019,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "Don't worry. Peppy's very obedient",
+            "option": null,
+            "nextIds": [
+              122130020
+            ],
+            "kind": "NPC"
+          },
+          "122130009": {
+            "type": "Text",
+            "id": 122130009,
+            "sectionId": 1221300,
+            "senderId": null,
+            "text": "Why would you send Peppy for me? If something's lost, shouldn't you ask the Security Department?",
+            "option": "Why would you send Peppy for me?",
+            "nextIds": [
+              122130010
+            ],
+            "kind": "Player"
+          },
+          "122130003": {
+            "type": "Text",
+            "id": 122130003,
+            "sectionId": 1221300,
+            "senderId": null,
+            "text": "Why would you ask me? I tried calling him over, he wouldn't even lift a paw. Why would he look for me",
+            "option": "Why would he look for me?",
+            "nextIds": [
+              122130004
+            ],
+            "kind": "Player"
+          },
+          "122130004": {
+            "type": "Text",
+            "id": 122130004,
+            "sectionId": 1221300,
+            "senderId": 1009,
+            "text": "Peppy's a big boy now, he has his own ideas",
+            "option": null,
+            "nextIds": [
+              122130005
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1222400,
+        "startIds": [
+          122240000
+        ],
+        "messages": {
+          "122240000": {
+            "type": "Text",
+            "id": 122240000,
+            "sectionId": 1222400,
+            "senderId": 1009,
+            "text": "Peppy found the \"Joy Filtration Set.\" I know you're definitely to thank for this, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              122240001
+            ],
+            "kind": "NPC"
+          },
+          "122240001": {
+            "type": "Text",
+            "id": 122240001,
+            "sectionId": 1222400,
+            "senderId": 1009,
+            "text": "Peppy alone definitely couldn't do it",
+            "option": null,
+            "nextIds": [
+              122240002
+            ],
+            "kind": "NPC"
+          },
+          "122240002": {
+            "type": "Text",
+            "id": 122240002,
+            "sectionId": 1222400,
+            "senderId": 1009,
+            "text": "He was talking you up ever since he got back",
+            "option": null,
+            "nextIds": [
+              122240003,
+              122240005
+            ],
+            "kind": "NPC"
+          },
+          "122240003": {
+            "type": "Text",
+            "id": 122240003,
+            "sectionId": 1222400,
+            "senderId": null,
+            "text": "I wonder what pitch of woof Peppy makes when he is glazing me up",
+            "option": "What pitch of woof is he using?",
+            "nextIds": [
+              122240004
+            ],
+            "kind": "Player"
+          },
+          "122240004": {
+            "type": "Text",
+            "id": 122240004,
+            "sectionId": 1222400,
+            "senderId": 1009,
+            "text": "Next time, you can ask him in person",
+            "option": null,
+            "nextIds": [
+              122240008
+            ],
+            "kind": "NPC"
+          },
+          "122240008": {
+            "type": "Text",
+            "id": 122240008,
+            "sectionId": 1222400,
+            "senderId": 1009,
+            "text": "Alright. Enough about Peppy for now. I actually wanted to talk with you about something else today",
+            "option": null,
+            "nextIds": [
+              122240009
+            ],
+            "kind": "NPC"
+          },
+          "122240009": {
+            "type": "Text",
+            "id": 122240009,
+            "sectionId": 1222400,
+            "senderId": 1009,
+            "text": "You should go back and talk with the robot helper. It discovered something pretty wondrous near its location",
+            "option": null,
+            "nextIds": [
+              122240010,
+              122240011
+            ],
+            "kind": "NPC"
+          },
+          "122240010": {
+            "type": "Text",
+            "id": 122240010,
+            "sectionId": 1222400,
+            "senderId": null,
+            "text": "How wondrous?",
+            "option": "How wondrous?",
+            "nextIds": [
+              122240012
+            ],
+            "kind": "Player"
+          },
+          "122240012": {
+            "type": "Text",
+            "id": 122240012,
+            "sectionId": 1222400,
+            "senderId": 1009,
+            "text": "You'll see as soon as you get over there. To keep the surprise, I won't spoil anything",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122240011": {
+            "type": "Text",
+            "id": 122240011,
+            "sectionId": 1222400,
+            "senderId": null,
+            "text": "I'm on my way.",
+            "option": "I'm on my way.",
+            "nextIds": [
+              122240012
+            ],
+            "kind": "Player"
+          },
+          "122240005": {
+            "type": "Text",
+            "id": 122240005,
+            "sectionId": 1222400,
+            "senderId": null,
+            "text": "Ah, it's nothing. No need to be so polite with me. I just wanted to help you",
+            "option": "Easy-peasy.",
+            "nextIds": [
+              122240006
+            ],
+            "kind": "Player"
+          },
+          "122240006": {
+            "type": "Sticker",
+            "id": 122240006,
+            "sectionId": 1222400,
+            "senderId": 1009,
+            "text": "[Tea]",
+            "option": null,
+            "nextIds": [
+              122240008
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30012,
+              "path": "icon/emoji/111005.png",
+              "keywords": "Offers Tea"
+            }
+          }
+        }
+      },
+      {
+        "type": "Message",
+        "id": 1222401,
+        "startIds": [
+          122240100
+        ],
+        "messages": {
+          "122240100": {
+            "type": "Text",
+            "id": 122240100,
+            "sectionId": 1222401,
+            "senderId": 1009,
+            "text": "Thanks for the help with the research, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              122240101
+            ],
+            "kind": "NPC"
+          },
+          "122240101": {
+            "type": "Text",
+            "id": 122240101,
+            "sectionId": 1222401,
+            "senderId": 1009,
+            "text": "Speaking of which, did you see the creation that looks like Madam Herta? Isn't it interesting? What did it say to you?",
+            "option": null,
+            "nextIds": [
+              122240102
+            ],
+            "kind": "NPC"
+          },
+          "122240102": {
+            "type": "Text",
+            "id": 122240102,
+            "sectionId": 1222401,
+            "senderId": null,
+            "text": "Oh, you're talking about Wisteria Cake. Yeah, she looks a bit like Herta. Even her personality is a bit similar",
+            "option": "(Tell her what happened)",
+            "nextIds": [
+              122240103
+            ],
+            "kind": "Player"
+          },
+          "122240103": {
+            "type": "Text",
+            "id": 122240103,
+            "sectionId": 1222401,
+            "senderId": null,
+            "text": "And she likes science. That day, she brought a few sidekicks with her and told me she wanted to finish a gene sequencing project, requesting that I nurture more creations for her to use for an in-depth research",
+            "option": null,
+            "nextIds": [
+              122240104
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122240104": {
+            "type": "Sticker",
+            "id": 122240104,
+            "sectionId": 1222401,
+            "senderId": 1009,
+            "text": "[Shocked]",
+            "option": null,
+            "nextIds": [
+              122240105
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "122240105": {
+            "type": "Text",
+            "id": 122240105,
+            "sectionId": 1222401,
+            "senderId": 1009,
+            "text": "Though I'm not sure I understand why Madam Ruan Mei's creation will be so similar to Madam Herta",
+            "option": null,
+            "nextIds": [
+              122240106
+            ],
+            "kind": "NPC"
+          },
+          "122240106": {
+            "type": "Text",
+            "id": 122240106,
+            "sectionId": 1222401,
+            "senderId": 1009,
+            "text": "I'm more curious about the \"sidekicks\" she had with her. Do those also look like other people",
+            "option": null,
+            "nextIds": [
+              122240107,
+              122240108
+            ],
+            "kind": "NPC"
+          },
+          "122240107": {
+            "type": "Text",
+            "id": 122240107,
+            "sectionId": 1222401,
+            "senderId": null,
+            "text": "Yes, but not as close as you think... It's like running into someone wearing a matching shirt on the street. There are some similarities, but it isn't entirely the same",
+            "option": "Yes, but not that close",
+            "nextIds": [
+              122240109
+            ],
+            "kind": "Player"
+          },
+          "122240109": {
+            "type": "Text",
+            "id": 122240109,
+            "sectionId": 1222401,
+            "senderId": 1009,
+            "text": "The two little critters are pretty special. Their situation... the helper bot sent me the report",
+            "option": null,
+            "nextIds": [
+              122240110
+            ],
+            "kind": "NPC"
+          },
+          "122240110": {
+            "type": "Text",
+            "id": 122240110,
+            "sectionId": 1222401,
+            "senderId": 1009,
+            "text": "Right, the bot said it wants to see you. It sounds like the little one that looks like Herta has some problems",
+            "option": null,
+            "nextIds": [
+              122240111
+            ],
+            "kind": "NPC"
+          },
+          "122240111": {
+            "type": "Text",
+            "id": 122240111,
+            "sectionId": 1222401,
+            "senderId": 1009,
+            "text": "I'm not sure what they're trying to get up to... I have too much on my plate, so I can't leave. Besides, they asked for you specifically. Anyway, {NICKNAME}, head over when you have the time",
+            "option": null,
+            "nextIds": [
+              122240112,
+              122240113
+            ],
+            "kind": "NPC"
+          },
+          "122240112": {
+            "type": "Text",
+            "id": 122240112,
+            "sectionId": 1222401,
+            "senderId": null,
+            "text": "That's a very Herta way of doing things...",
+            "option": "That's a very Herta way of doing things...",
+            "nextIds": [
+              122240114
+            ],
+            "kind": "Player"
+          },
+          "122240114": {
+            "type": "Text",
+            "id": 122240114,
+            "sectionId": 1222401,
+            "senderId": 1009,
+            "text": "Mmm-hmm",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122240113": {
+            "type": "Text",
+            "id": 122240113,
+            "sectionId": 1222401,
+            "senderId": null,
+            "text": "I'm on my way.",
+            "option": "I'm on my way.",
+            "nextIds": [
+              122240114
+            ],
+            "kind": "Player"
+          },
+          "122240108": {
+            "type": "Text",
+            "id": 122240108,
+            "sectionId": 1222401,
+            "senderId": null,
+            "text": "Exactly! I think it's almost a splitting image, right? I dub it the Micro-Herta and there is also a Mini-Mei!",
+            "option": "Yes, they look exactly the same.",
+            "nextIds": [
+              122240109
+            ],
+            "kind": "Player"
+          }
+        }
+      }
     ]
   ],
   "info": {

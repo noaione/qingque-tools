@@ -1,0 +1,135 @@
+{
+  "id": 114,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1070300,
+        "startIds": [
+          107030000
+        ],
+        "messages": {
+          "107030000": {
+            "type": "Text",
+            "id": 107030000,
+            "sectionId": 1070300,
+            "senderId": null,
+            "text": "RedBeanStan has invited Take-Ultimate-To-The-Face to the group chat.",
+            "option": null,
+            "nextIds": [
+              107030001
+            ],
+            "kind": "System"
+          },
+          "107030001": {
+            "type": "Text",
+            "id": 107030001,
+            "sectionId": 1070300,
+            "senderId": 97,
+            "text": "Hey, I've got some juicy gossip!",
+            "option": null,
+            "nextIds": [
+              107030002
+            ],
+            "kind": "NPC"
+          },
+          "107030002": {
+            "type": "Text",
+            "id": 107030002,
+            "sectionId": 1070300,
+            "senderId": 97,
+            "text": "The IPC is sending their guys to the space station!",
+            "option": null,
+            "nextIds": [
+              107030003
+            ],
+            "kind": "NPC"
+          },
+          "107030003": {
+            "type": "Text",
+            "id": 107030003,
+            "sectionId": 1070300,
+            "senderId": 28,
+            "text": "Go on?",
+            "option": "Go on?",
+            "nextIds": [
+              107030004
+            ],
+            "kind": "Player"
+          },
+          "107030004": {
+            "type": "Text",
+            "id": 107030004,
+            "sectionId": 1070300,
+            "senderId": 20,
+            "text": "For real?",
+            "option": null,
+            "nextIds": [
+              107030005
+            ],
+            "kind": "NPC"
+          },
+          "107030005": {
+            "type": "Text",
+            "id": 107030005,
+            "sectionId": 1070300,
+            "senderId": 20,
+            "text": "Where are they?",
+            "option": null,
+            "nextIds": [
+              107030006
+            ],
+            "kind": "NPC"
+          },
+          "107030006": {
+            "type": "Text",
+            "id": 107030006,
+            "sectionId": 1070300,
+            "senderId": 18,
+            "text": "They just sneaked in without any notice",
+            "option": null,
+            "nextIds": [
+              107030007
+            ],
+            "kind": "NPC"
+          },
+          "107030007": {
+            "type": "Text",
+            "id": 107030007,
+            "sectionId": 1070300,
+            "senderId": 18,
+            "text": "I've got a hunch that IPC caught wind of the Genius Society big shots having a meeting, and now they're planning to work with them on the Simulated Universe project",
+            "option": null,
+            "nextIds": [
+              107030008
+            ],
+            "kind": "NPC"
+          },
+          "107030008": {
+            "type": "Text",
+            "id": 107030008,
+            "sectionId": 1070300,
+            "senderId": 20,
+            "text": "So... who's coming?",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 8016101,
+          "name": "Gold and Gears: The Beginning",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 114,
+    "name": "RedBeanStan, Bill Portcullis, and Licenseless Space Driving...",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 2
+  }
+}

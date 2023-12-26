@@ -55,6 +55,14 @@
     "type": 1,
     "camp": 5
   },
+  "1007": {
+    "id": 1007,
+    "name": "Screwllum",
+    "signature": null,
+    "iconPath": "icon/avatar/Screwllum.png",
+    "type": 1,
+    "camp": 2
+  },
   "1008": {
     "id": 1008,
     "name": "Arlan",
@@ -263,6 +271,14 @@
     "type": 1,
     "camp": 4
   },
+  "1214": {
+    "id": 1214,
+    "name": "Xueyi",
+    "signature": "In seclusion. Do not disturb.",
+    "iconPath": "icon/avatar/1214.png",
+    "type": 1,
+    "camp": 4
+  },
   "1215": {
     "id": 1215,
     "name": "Hanya",
@@ -286,6 +302,22 @@
     "iconPath": "icon/avatar/1302.png",
     "type": 1,
     "camp": 7
+  },
+  "1303": {
+    "id": 1303,
+    "name": "Ruan Mei",
+    "signature": "Those are new cakes... Where did you get them?",
+    "iconPath": "icon/avatar/1303.png",
+    "type": 1,
+    "camp": 2
+  },
+  "1305": {
+    "id": 1305,
+    "name": "Dr. Ratio",
+    "signature": "\"There's no rush.\"",
+    "iconPath": "icon/avatar/1305.png",
+    "type": 1,
+    "camp": 8
   },
   "8000": {
     "id": 8000,
@@ -1015,6 +1047,30 @@
     "type": 3,
     "camp": 99
   },
+  "95": {
+    "id": 95,
+    "name": "Ecology Researcher",
+    "signature": null,
+    "iconPath": "icon/avatar/JieZhongKe.png",
+    "type": 2,
+    "camp": 2
+  },
+  "97": {
+    "id": 97,
+    "name": "RedBeanStan",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 2
+  },
+  "98": {
+    "id": 98,
+    "name": "Pro Tea-Spiller",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 2
+  },
   "102": {
     "id": 102,
     "name": "???",
@@ -1022,6 +1078,30 @@
     "iconPath": "icon/avatar/Anonymous.png",
     "type": 2,
     "camp": 4
+  },
+  "103": {
+    "id": 103,
+    "name": "Rich_Knowit",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "104": {
+    "id": 104,
+    "name": "Misunderestimate",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "105": {
+    "id": 105,
+    "name": "Herta Surveillance Team",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 2
   },
   "107": {
     "id": 107,
@@ -1062,5 +1142,29 @@
     "iconPath": "icon/avatar/Anonymous.png",
     "type": 2,
     "camp": 4
+  },
+  "112": {
+    "id": 112,
+    "name": "Test_tube",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": null,
+    "camp": null
+  },
+  "113": {
+    "id": 113,
+    "name": "Space Station - Genius Society Comms",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 2
+  },
+  "114": {
+    "id": 114,
+    "name": "RedBeanStan, Bill Portcullis, and Licenseless Space Driving...",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 2
   }
 }

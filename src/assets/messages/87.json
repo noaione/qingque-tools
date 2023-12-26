@@ -148,6 +148,115 @@
           "type": "Branch"
         }
       }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1301400,
+        "startIds": [
+          130140000
+        ],
+        "messages": {
+          "130140000": {
+            "type": "Text",
+            "id": 130140000,
+            "sectionId": 1301400,
+            "senderId": 87,
+            "text": "{F#Ms.}{M#Mr.} {NICKNAME}, I recently received a pet — a fun creature — from an avid listener. I thought you might be interested.",
+            "option": null,
+            "nextIds": [
+              130140001
+            ],
+            "kind": "NPC"
+          },
+          "130140001": {
+            "type": "Text",
+            "id": 130140001,
+            "sectionId": 1301400,
+            "senderId": 87,
+            "text": "I can't bring it with me when I'm telling stories, so I've left it at Spare Time Book Shop, which is my store.",
+            "option": null,
+            "nextIds": [
+              130140002
+            ],
+            "kind": "NPC"
+          },
+          "130140002": {
+            "type": "Text",
+            "id": 130140002,
+            "sectionId": 1301400,
+            "senderId": 87,
+            "text": "If you're interested, you can drop by Spare Time Book Shop and take a look. I believe you'll like it!",
+            "option": null,
+            "nextIds": [
+              130140003,
+              130140005
+            ],
+            "kind": "NPC"
+          },
+          "130140003": {
+            "type": "Text",
+            "id": 130140003,
+            "sectionId": 1301400,
+            "senderId": null,
+            "text": "A pet? I adore small animals. Let me check it out now.",
+            "option": "Yeah, I'm interested.",
+            "nextIds": [
+              130140004
+            ],
+            "kind": "Player"
+          },
+          "130140004": {
+            "type": "Text",
+            "id": 130140004,
+            "sectionId": 1301400,
+            "senderId": 87,
+            "text": "Heheh, I'm sure you've never seen the animal before. It's very fascinating.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130140005": {
+            "type": "Text",
+            "id": 130140005,
+            "sectionId": 1301400,
+            "senderId": null,
+            "text": "I'm not really keen on it... As a Trailblazer, I'm too busy to check out a pet.",
+            "option": "I'm not interested.",
+            "nextIds": [
+              130140006
+            ],
+            "kind": "Player"
+          },
+          "130140006": {
+            "type": "Text",
+            "id": 130140006,
+            "sectionId": 1301400,
+            "senderId": 87,
+            "text": "Don't jump to conclusions so soon! I'm sure you've never seen the animal before. It's very fascinating.",
+            "option": null,
+            "nextIds": [
+              130140007
+            ],
+            "kind": "NPC"
+          },
+          "130140007": {
+            "type": "Text",
+            "id": 130140007,
+            "sectionId": 1301400,
+            "senderId": 87,
+            "text": "Go ahead and take a look when you change your mind.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 8017101,
+          "name": "Youci's Clever Decor",
+          "type": "Branch"
+        }
+      }
     ]
   ],
   "info": {

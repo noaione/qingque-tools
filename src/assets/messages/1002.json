@@ -3023,6 +3023,446 @@
     [
       {
         "type": "Message",
+        "id": 1219400,
+        "startIds": [
+          121940000
+        ],
+        "messages": {
+          "121940000": {
+            "type": "Text",
+            "id": 121940000,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "I think we only scratched the surface of this Ifrit.",
+            "option": null,
+            "nextIds": [
+              121940001
+            ],
+            "kind": "NPC"
+          },
+          "121940001": {
+            "type": "Text",
+            "id": 121940001,
+            "sectionId": 1219400,
+            "senderId": null,
+            "text": "What happened?",
+            "option": "What happened?",
+            "nextIds": [
+              121940002
+            ],
+            "kind": "Player"
+          },
+          "121940002": {
+            "type": "Text",
+            "id": 121940002,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "The fire demons of Fetora are ferocious and cruel by nature, but Ifrit easily rose to the position of clan leader.",
+            "option": null,
+            "nextIds": [
+              121940003
+            ],
+            "kind": "NPC"
+          },
+          "121940003": {
+            "type": "Text",
+            "id": 121940003,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "And even among the fire demons, his flame belongs to a special category.",
+            "option": null,
+            "nextIds": [
+              121940004
+            ],
+            "kind": "NPC"
+          },
+          "121940004": {
+            "type": "Text",
+            "id": 121940004,
+            "sectionId": 1219400,
+            "senderId": null,
+            "text": "What do you mean?",
+            "option": "Wdym?",
+            "nextIds": [
+              121940005
+            ],
+            "kind": "Player"
+          },
+          "121940005": {
+            "type": "Text",
+            "id": 121940005,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "In many vicious incidents instigated by the Ever-Flame Mansion, I found similar eyewitness reports claiming that \"miscreants materialized from the inferno.\"",
+            "option": null,
+            "nextIds": [
+              121940006
+            ],
+            "kind": "NPC"
+          },
+          "121940006": {
+            "type": "Text",
+            "id": 121940006,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "I speculate that Ifrit's flame may have inherited some ability other than burning, and that is related to his origin.",
+            "option": null,
+            "nextIds": [
+              121940007
+            ],
+            "kind": "NPC"
+          },
+          "121940007": {
+            "type": "Text",
+            "id": 121940007,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "I have heard of a flame with similar properties that was difficult to capture because it kept shifting between phases.",
+            "option": null,
+            "nextIds": [
+              121940008
+            ],
+            "kind": "NPC"
+          },
+          "121940008": {
+            "type": "Text",
+            "id": 121940008,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "There is not much information about it, only one line that catches the eye: \"Burns through worlds, leaving numerous scions of flame behind.\"",
+            "option": null,
+            "nextIds": [
+              121940009
+            ],
+            "kind": "NPC"
+          },
+          "121940009": {
+            "type": "Text",
+            "id": 121940009,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "Ifrit... is perhaps one of its descendants.",
+            "option": null,
+            "nextIds": [
+              121940010
+            ],
+            "kind": "NPC"
+          },
+          "121940010": {
+            "type": "Text",
+            "id": 121940010,
+            "sectionId": 1219400,
+            "senderId": null,
+            "text": "Shifting between phases...",
+            "option": "Shifting between phases...",
+            "nextIds": [
+              121940011
+            ],
+            "kind": "Player"
+          },
+          "121940011": {
+            "type": "Text",
+            "id": 121940011,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "That's all I have.",
+            "option": null,
+            "nextIds": [
+              121940012
+            ],
+            "kind": "NPC"
+          },
+          "121940012": {
+            "type": "Text",
+            "id": 121940012,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "The number of related records is limited. I'm not sure if that was helpful to you.",
+            "option": null,
+            "nextIds": [
+              121940013
+            ],
+            "kind": "NPC"
+          },
+          "121940013": {
+            "type": "Text",
+            "id": 121940013,
+            "sectionId": 1219400,
+            "senderId": null,
+            "text": "It's enough, thanks",
+            "option": "Enough.",
+            "nextIds": [
+              121940014
+            ],
+            "kind": "Player"
+          },
+          "121940014": {
+            "type": "Text",
+            "id": 121940014,
+            "sectionId": 1219400,
+            "senderId": 1002,
+            "text": "That's good.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1220000,
+        "startIds": [
+          122000000
+        ],
+        "messages": {
+          "122000000": {
+            "type": "Text",
+            "id": 122000000,
+            "sectionId": 1220000,
+            "senderId": null,
+            "text": "I need your help",
+            "option": "I need your help",
+            "nextIds": [
+              122000001
+            ],
+            "kind": "Player"
+          },
+          "122000001": {
+            "type": "Text",
+            "id": 122000001,
+            "sectionId": 1220000,
+            "senderId": 1002,
+            "text": "What is it?",
+            "option": null,
+            "nextIds": [
+              122000002
+            ],
+            "kind": "NPC"
+          },
+          "122000002": {
+            "type": "Text",
+            "id": 122000002,
+            "sectionId": 1220000,
+            "senderId": null,
+            "text": "Do you know the \"Duke Inferno,\" Ifrit?",
+            "option": "About Duke Inferno...",
+            "nextIds": [
+              122000003
+            ],
+            "kind": "Player"
+          },
+          "122000003": {
+            "type": "Text",
+            "id": 122000003,
+            "sectionId": 1220000,
+            "senderId": 1002,
+            "text": "From the Annihilation Gang?",
+            "option": null,
+            "nextIds": [
+              122000004
+            ],
+            "kind": "NPC"
+          },
+          "122000004": {
+            "type": "Text",
+            "id": 122000004,
+            "sectionId": 1220000,
+            "senderId": 1002,
+            "text": "It's best not to get involved with him.",
+            "option": null,
+            "nextIds": [
+              122000005
+            ],
+            "kind": "NPC"
+          },
+          "122000005": {
+            "type": "Text",
+            "id": 122000005,
+            "sectionId": 1220000,
+            "senderId": null,
+            "text": "The space station's met with some trouble, and it has something to do with him",
+            "option": "The space station is in trouble.",
+            "nextIds": [
+              122000006
+            ],
+            "kind": "Player"
+          },
+          "122000006": {
+            "type": "Text",
+            "id": 122000006,
+            "sectionId": 1220000,
+            "senderId": null,
+            "text": "Arlan will fill you in on the details",
+            "option": null,
+            "nextIds": [
+              122000007
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122000007": {
+            "type": "Text",
+            "id": 122000007,
+            "sectionId": 1220000,
+            "senderId": null,
+            "text": "I want to know more about him",
+            "option": null,
+            "nextIds": [
+              122000008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122000008": {
+            "type": "Text",
+            "id": 122000008,
+            "sectionId": 1220000,
+            "senderId": 1002,
+            "text": "Understood. Wait for my contact.",
+            "option": null,
+            "nextIds": [
+              122000009
+            ],
+            "kind": "NPC"
+          },
+          "122000009": {
+            "type": "Text",
+            "id": 122000009,
+            "sectionId": 1220000,
+            "senderId": 1002,
+            "text": "You be careful yourself. If the situation changes, notify us as soon as possible.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1221500,
+        "startIds": [
+          122150000
+        ],
+        "messages": {
+          "122150000": {
+            "type": "Text",
+            "id": 122150000,
+            "sectionId": 1221500,
+            "senderId": null,
+            "text": "It looks just like you",
+            "option": "(Send the picture to Dan Heng)",
+            "nextIds": [
+              122150001
+            ],
+            "kind": "Player"
+          },
+          "122150001": {
+            "type": "Image",
+            "id": 122150001,
+            "sectionId": 1221500,
+            "senderId": null,
+            "text": "<unbreak>10030</unbreak>",
+            "option": null,
+            "nextIds": [
+              122150002
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10030,
+              "path": "image/messages/31001.png"
+            }
+          },
+          "122150002": {
+            "type": "Text",
+            "id": 122150002,
+            "sectionId": 1221500,
+            "senderId": 1002,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              122150003
+            ],
+            "kind": "NPC"
+          },
+          "122150003": {
+            "type": "Text",
+            "id": 122150003,
+            "sectionId": 1221500,
+            "senderId": 1002,
+            "text": "No.",
+            "option": null,
+            "nextIds": [
+              122150004,
+              122150006
+            ],
+            "kind": "NPC"
+          },
+          "122150004": {
+            "type": "Text",
+            "id": 122150004,
+            "sectionId": 1221500,
+            "senderId": null,
+            "text": "Its eyes are totally like yours!",
+            "option": "Its eyes are totally like yours!",
+            "nextIds": [
+              122150005
+            ],
+            "kind": "Player"
+          },
+          "122150005": {
+            "type": "Text",
+            "id": 122150005,
+            "sectionId": 1221500,
+            "senderId": 1002,
+            "text": "No.",
+            "option": null,
+            "nextIds": [
+              122150008
+            ],
+            "kind": "NPC"
+          },
+          "122150008": {
+            "type": "Text",
+            "id": 122150008,
+            "sectionId": 1221500,
+            "senderId": 1002,
+            "text": "I have never seen a lifeform like this before. If you have data about them, remember to enter them into the data bank once you get back to the Express.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122150006": {
+            "type": "Text",
+            "id": 122150006,
+            "sectionId": 1221500,
+            "senderId": null,
+            "text": "Its vibe is totally like yours!",
+            "option": "Its vibe is totally like yours!",
+            "nextIds": [
+              122150007
+            ],
+            "kind": "Player"
+          },
+          "122150007": {
+            "type": "Text",
+            "id": 122150007,
+            "sectionId": 1221500,
+            "senderId": 1002,
+            "text": "Can't tell from the picture.",
+            "option": null,
+            "nextIds": [
+              122150008
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
         "id": 1300800,
         "startIds": [
           130080000

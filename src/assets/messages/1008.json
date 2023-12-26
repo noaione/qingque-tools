@@ -1581,6 +1581,187 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1301300,
+        "startIds": [
+          130130000
+        ],
+        "messages": {
+          "130130000": {
+            "type": "Text",
+            "id": 130130000,
+            "sectionId": 1301300,
+            "senderId": 1008,
+            "text": "{NICKNAME}, are you back at the space station?",
+            "option": null,
+            "nextIds": [
+              130130001,
+              130130002
+            ],
+            "kind": "NPC"
+          },
+          "130130001": {
+            "type": "Text",
+            "id": 130130001,
+            "sectionId": 1301300,
+            "senderId": null,
+            "text": "I'm not there at the moment. What's the matter? Did something happen?",
+            "option": "Nope",
+            "nextIds": [
+              130130003
+            ],
+            "kind": "Player"
+          },
+          "130130003": {
+            "type": "Text",
+            "id": 130130003,
+            "sectionId": 1301300,
+            "senderId": 1008,
+            "text": "I need a favor from you. There are a lot of critters at the space station.",
+            "option": null,
+            "nextIds": [
+              130130004
+            ],
+            "kind": "NPC"
+          },
+          "130130004": {
+            "type": "Text",
+            "id": 130130004,
+            "sectionId": 1301300,
+            "senderId": 1008,
+            "text": "Um, it's too complicated to explain over text. Let's meet up.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130130002": {
+            "type": "Text",
+            "id": 130130002,
+            "sectionId": 1301300,
+            "senderId": null,
+            "text": "You're really impressive as the head of the Security Department. I've just got back, and you already know about this stuff.",
+            "option": "Just got back",
+            "nextIds": [
+              130130003
+            ],
+            "kind": "Player"
+          }
+        },
+        "mission": {
+          "id": 8016301,
+          "name": "Virtual Scentventure",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1301500,
+        "startIds": [
+          130150000
+        ],
+        "messages": {
+          "130150000": {
+            "type": "Text",
+            "id": 130150000,
+            "sectionId": 1301500,
+            "senderId": 1008,
+            "text": "{NICKNAME}, you've got my respect.",
+            "option": null,
+            "nextIds": [
+              130150001
+            ],
+            "kind": "NPC"
+          },
+          "130150001": {
+            "type": "Text",
+            "id": 130150001,
+            "sectionId": 1301500,
+            "senderId": 1008,
+            "text": "A guy from the Maintenance Department just told me the terminal nearly went kaput. The data collected has reached the threshold, according to the researchers from the Department of Ecology.",
+            "option": null,
+            "nextIds": [
+              130150002
+            ],
+            "kind": "NPC"
+          },
+          "130150002": {
+            "type": "Text",
+            "id": 130150002,
+            "sectionId": 1301500,
+            "senderId": 1008,
+            "text": "I feel so bad for always troubling you with the space station's issues",
+            "option": null,
+            "nextIds": [
+              130150003,
+              130150005
+            ],
+            "kind": "NPC"
+          },
+          "130150003": {
+            "type": "Text",
+            "id": 130150003,
+            "sectionId": 1301500,
+            "senderId": null,
+            "text": "We're good buddies. There's no need to stand on ceremony with me. Don't you think so, Arlan?",
+            "option": "No worries, Arlan!",
+            "nextIds": [
+              130150004
+            ],
+            "kind": "Player"
+          },
+          "130150004": {
+            "type": "Text",
+            "id": 130150004,
+            "sectionId": 1301500,
+            "senderId": 1008,
+            "text": "We're close, and that's all the more reason that I feel bad for bothering you with my problems...",
+            "option": null,
+            "nextIds": [
+              130150007
+            ],
+            "kind": "NPC"
+          },
+          "130150007": {
+            "type": "Text",
+            "id": 130150007,
+            "sectionId": 1301500,
+            "senderId": 1008,
+            "text": "I really appreciate what you did. If there's a chance, I hope I'll be able to help you with something too.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130150005": {
+            "type": "Text",
+            "id": 130150005,
+            "sectionId": 1301500,
+            "senderId": null,
+            "text": "In a sense, the space station is my second home. I'm glad to help, and you're welcome.",
+            "option": "I'm glad to help.",
+            "nextIds": [
+              130150006
+            ],
+            "kind": "Player"
+          },
+          "130150006": {
+            "type": "Text",
+            "id": 130150006,
+            "sectionId": 1301500,
+            "senderId": 1008,
+            "text": "I'm so lucky to be your friend. Kind people like you are a rare find.",
+            "option": null,
+            "nextIds": [
+              130150007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
     ]
   ],
   "info": {

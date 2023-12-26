@@ -1789,6 +1789,140 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1221800,
+        "startIds": [
+          122180000
+        ],
+        "messages": {
+          "122180000": {
+            "type": "Text",
+            "id": 122180000,
+            "sectionId": 1221800,
+            "senderId": null,
+            "text": "It looks just like you",
+            "option": "(Send the picture to Qingque)",
+            "nextIds": [
+              122180001
+            ],
+            "kind": "Player"
+          },
+          "122180001": {
+            "type": "Image",
+            "id": 122180001,
+            "sectionId": 1221800,
+            "senderId": null,
+            "text": "<unbreak>10035</unbreak>",
+            "option": null,
+            "nextIds": [
+              122180002
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10035,
+              "path": "image/messages/31006.png"
+            }
+          },
+          "122180002": {
+            "type": "Text",
+            "id": 122180002,
+            "sectionId": 1221800,
+            "senderId": 1201,
+            "text": "Can it play Celestial Jade?",
+            "option": null,
+            "nextIds": [
+              122180003,
+              122180005
+            ],
+            "kind": "NPC"
+          },
+          "122180003": {
+            "type": "Text",
+            "id": 122180003,
+            "sectionId": 1221800,
+            "senderId": null,
+            "text": "I don't think so. Look at its paws. I don't think it can hold tiles",
+            "option": "Probably not. Look at its hands...",
+            "nextIds": [
+              122180004
+            ],
+            "kind": "Player"
+          },
+          "122180004": {
+            "type": "Text",
+            "id": 122180004,
+            "sectionId": 1221800,
+            "senderId": 1201,
+            "text": "True",
+            "option": null,
+            "nextIds": [
+              122180008
+            ],
+            "kind": "NPC"
+          },
+          "122180008": {
+            "type": "Text",
+            "id": 122180008,
+            "sectionId": 1221800,
+            "senderId": 1201,
+            "text": "Remember to ask if it has any interest in Celestial Jade",
+            "option": null,
+            "nextIds": [
+              122180009
+            ],
+            "kind": "NPC"
+          },
+          "122180009": {
+            "type": "Text",
+            "id": 122180009,
+            "sectionId": 1221800,
+            "senderId": 1201,
+            "text": "If the answer is yes, then come to the Luofu and we can be game-buddies",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122180005": {
+            "type": "Text",
+            "id": 122180005,
+            "sectionId": 1221800,
+            "senderId": null,
+            "text": "Has Celestial Jade ever been popular on the space station? I think they probably don't know how to play. I'm not really sure about the specifics.",
+            "option": "I'm not sure about this.",
+            "nextIds": [
+              122180006
+            ],
+            "kind": "Player"
+          },
+          "122180006": {
+            "type": "Text",
+            "id": 122180006,
+            "sectionId": 1221800,
+            "senderId": 1201,
+            "text": "A pity. A life without Celestial Jade is a life lived incomplete",
+            "option": null,
+            "nextIds": [
+              122180007
+            ],
+            "kind": "NPC"
+          },
+          "122180007": {
+            "type": "Text",
+            "id": 122180007,
+            "sectionId": 1221800,
+            "senderId": 1201,
+            "text": "*sigh* With so many people, it would be easy to set up matches. A shame",
+            "option": null,
+            "nextIds": [
+              122180008
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
     ]
   ],
   "info": {

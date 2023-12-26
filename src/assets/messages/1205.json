@@ -1190,6 +1190,205 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1221900,
+        "startIds": [
+          122190000
+        ],
+        "messages": {
+          "122190000": {
+            "type": "Text",
+            "id": 122190000,
+            "sectionId": 1221900,
+            "senderId": null,
+            "text": "Have a look",
+            "option": "(Send the picture to Blade)",
+            "nextIds": [
+              122190001
+            ],
+            "kind": "Player"
+          },
+          "122190001": {
+            "type": "Image",
+            "id": 122190001,
+            "sectionId": 1221900,
+            "senderId": null,
+            "text": "<unbreak>10036</unbreak>",
+            "option": null,
+            "nextIds": [
+              122190002
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10036,
+              "path": "image/messages/31007.png"
+            }
+          },
+          "122190002": {
+            "type": "Text",
+            "id": 122190002,
+            "sectionId": 1221900,
+            "senderId": 1205,
+            "text": "Oh",
+            "option": null,
+            "nextIds": [
+              122190003
+            ],
+            "kind": "NPC"
+          },
+          "122190003": {
+            "type": "Text",
+            "id": 122190003,
+            "sectionId": 1221900,
+            "senderId": 1205,
+            "text": "I can see the resemblance!",
+            "option": null,
+            "nextIds": [
+              122190004
+            ],
+            "kind": "NPC"
+          },
+          "122190004": {
+            "type": "Text",
+            "id": 122190004,
+            "sectionId": 1221900,
+            "senderId": 1205,
+            "text": "Is there one for me",
+            "option": null,
+            "nextIds": [
+              122190005
+            ],
+            "kind": "NPC"
+          },
+          "122190005": {
+            "type": "Sticker",
+            "id": 122190005,
+            "sectionId": 1221900,
+            "senderId": 1205,
+            "text": "[Blowing bubbles]",
+            "option": null,
+            "nextIds": [
+              122190006,
+              122190008
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30007,
+              "path": "icon/emoji/30007.png",
+              "keywords": "Bubblegum"
+            }
+          },
+          "122190006": {
+            "type": "Text",
+            "id": 122190006,
+            "sectionId": 1221900,
+            "senderId": null,
+            "text": "?",
+            "option": "Are you really Blade?",
+            "nextIds": [
+              122190007
+            ],
+            "kind": "Player"
+          },
+          "122190007": {
+            "type": "Text",
+            "id": 122190007,
+            "sectionId": 1221900,
+            "senderId": null,
+            "text": "...Are you really Blade?",
+            "option": null,
+            "nextIds": [
+              122190010
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122190010": {
+            "type": "Text",
+            "id": 122190010,
+            "sectionId": 1221900,
+            "senderId": 1205,
+            "text": "It's me, Silver Wolf",
+            "option": null,
+            "nextIds": [
+              122190011
+            ],
+            "kind": "NPC"
+          },
+          "122190011": {
+            "type": "Text",
+            "id": 122190011,
+            "sectionId": 1221900,
+            "senderId": 1205,
+            "text": "I showed it to Bladie",
+            "option": null,
+            "nextIds": [
+              122190012
+            ],
+            "kind": "NPC"
+          },
+          "122190012": {
+            "type": "Text",
+            "id": 122190012,
+            "sectionId": 1221900,
+            "senderId": 1205,
+            "text": "He said it's very cute",
+            "option": null,
+            "nextIds": [
+              122190013
+            ],
+            "kind": "NPC"
+          },
+          "122190013": {
+            "type": "Text",
+            "id": 122190013,
+            "sectionId": 1221900,
+            "senderId": 1205,
+            "text": "Alright. He didn't say anything. But I can tell",
+            "option": null,
+            "nextIds": [
+              122190014
+            ],
+            "kind": "NPC"
+          },
+          "122190014": {
+            "type": "Text",
+            "id": 122190014,
+            "sectionId": 1221900,
+            "senderId": 1205,
+            "text": "He definitely likes it a lot",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122190008": {
+            "type": "Text",
+            "id": 122190008,
+            "sectionId": 1221900,
+            "senderId": null,
+            "text": "?",
+            "option": "Silver Wolf?",
+            "nextIds": [
+              122190009
+            ],
+            "kind": "Player"
+          },
+          "122190009": {
+            "type": "Text",
+            "id": 122190009,
+            "sectionId": 1221900,
+            "senderId": null,
+            "text": "Silver Wolf, isn't it? Give the phone back to Blade",
+            "option": null,
+            "nextIds": [
+              122190010
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
     ]
   ],
   "info": {

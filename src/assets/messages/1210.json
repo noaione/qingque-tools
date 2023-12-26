@@ -763,7 +763,7 @@
             "sectionId": 2009900,
             "senderId": null,
             "text": "How about teaching your followers about Xianzhou culture?",
-            "option": "How about teaching your followers about Xianzhou culture?",
+            "option": "How about Xianzhou culture?",
             "nextIds": [
               200990015
             ],
@@ -857,7 +857,7 @@
             "sectionId": 2009900,
             "senderId": null,
             "text": "How about teaching your followers about your doggerel skills?",
-            "option": "How about teaching your followers about your doggerel skills?",
+            "option": "How about your doggerel skills?",
             "nextIds": [
               200990021
             ],
@@ -917,7 +917,7 @@
             "sectionId": 2009900,
             "senderId": null,
             "text": "How about teaching your followers how to catch bullets with their bare hands? Seriously, I'd love to learn this trick now!",
-            "option": "How about teaching your followers how to catch bullets with bare hands?",
+            "option": "How about catching bullets with bare hands?",
             "nextIds": [
               200990026
             ],
@@ -1061,7 +1061,7 @@
             "id": 121800001,
             "sectionId": 1218000,
             "senderId": null,
-            "text": "What are you planning to do at the Fyxestroll Garden? By the way, are you feeling better now?",
+            "text": "What are you planning to do at Fyxestroll Garden? By the way, are you feeling better now?",
             "option": "Are you all right?",
             "nextIds": [
               121800002
@@ -1155,7 +1155,7 @@
             "id": 121800007,
             "sectionId": 1218000,
             "senderId": null,
-            "text": "Didn't you cause a lot of trouble last time at the Fyxestroll Garden?",
+            "text": "Didn't you cause a lot of trouble last time at Fyxestroll Garden?",
             "option": "Fyxestroll Garden again?",
             "nextIds": [
               121800008
@@ -1453,6 +1453,140 @@
           "id": 2021701,
           "name": "Sojourners' Ghastly Reverie",
           "type": "Gap"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1222100,
+        "startIds": [
+          122210000
+        ],
+        "messages": {
+          "122210000": {
+            "type": "Text",
+            "id": 122210000,
+            "sectionId": 1222100,
+            "senderId": null,
+            "text": "Holy! I encountered a little lifeform that looks just like you",
+            "option": "(Send the picture to Guinaifen)",
+            "nextIds": [
+              122210001
+            ],
+            "kind": "Player"
+          },
+          "122210001": {
+            "type": "Image",
+            "id": 122210001,
+            "sectionId": 1222100,
+            "senderId": null,
+            "text": "<unbreak>10031</unbreak>",
+            "option": null,
+            "nextIds": [
+              122210002
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10031,
+              "path": "image/messages/31002.png"
+            }
+          },
+          "122210002": {
+            "type": "Text",
+            "id": 122210002,
+            "sectionId": 1222100,
+            "senderId": 1210,
+            "text": "So true!",
+            "option": null,
+            "nextIds": [
+              122210003
+            ],
+            "kind": "NPC"
+          },
+          "122210003": {
+            "type": "Text",
+            "id": 122210003,
+            "sectionId": 1222100,
+            "senderId": 1210,
+            "text": "Where did you get such a cute little thing",
+            "option": null,
+            "nextIds": [
+              122210004
+            ],
+            "kind": "NPC"
+          },
+          "122210004": {
+            "type": "Text",
+            "id": 122210004,
+            "sectionId": 1222100,
+            "senderId": 1210,
+            "text": "Why don't you bring it over to the Luofu, and let me and Sushang have a look",
+            "option": null,
+            "nextIds": [
+              122210005
+            ],
+            "kind": "NPC"
+          },
+          "122210005": {
+            "type": "Text",
+            "id": 122210005,
+            "sectionId": 1222100,
+            "senderId": 1210,
+            "text": "Oh, cutey pie, you look sooo adorable! Let me rub my face against you!",
+            "option": null,
+            "nextIds": [
+              122210006,
+              122210008
+            ],
+            "kind": "NPC"
+          },
+          "122210006": {
+            "type": "Text",
+            "id": 122210006,
+            "sectionId": 1222100,
+            "senderId": null,
+            "text": "...",
+            "option": "Calm down.",
+            "nextIds": [
+              122210007
+            ],
+            "kind": "Player"
+          },
+          "122210007": {
+            "type": "Text",
+            "id": 122210007,
+            "sectionId": 1222100,
+            "senderId": null,
+            "text": "Relax. This thing isn't a cat. It might even be dangerous",
+            "option": null,
+            "nextIds": [
+              122210009
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122210009": {
+            "type": "Text",
+            "id": 122210009,
+            "sectionId": 1222100,
+            "senderId": 1210,
+            "text": "If I get a chance, I think I can go to it instead. Hmm. Yeah, that should be a work trip for my stream",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122210008": {
+            "type": "Text",
+            "id": 122210008,
+            "sectionId": 1222100,
+            "senderId": null,
+            "text": "Forget it. It has its own desires. It doesn't want to go anywhere, and just wants to stay at the space station",
+            "option": "It doesn't want to come.",
+            "nextIds": [
+              122210009
+            ],
+            "kind": "Player"
+          }
         }
       }
     ]

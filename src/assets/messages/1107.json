@@ -2056,6 +2056,128 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1222000,
+        "startIds": [
+          122200000
+        ],
+        "messages": {
+          "122200000": {
+            "type": "Text",
+            "id": 122200000,
+            "sectionId": 1222000,
+            "senderId": null,
+            "text": "I encountered a cute creature that looks just like Clara!",
+            "option": "(Send the picture to Clara)",
+            "nextIds": [
+              122200001
+            ],
+            "kind": "Player"
+          },
+          "122200001": {
+            "type": "Image",
+            "id": 122200001,
+            "sectionId": 1222000,
+            "senderId": null,
+            "text": "<unbreak>10034</unbreak>",
+            "option": null,
+            "nextIds": [
+              122200002
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10034,
+              "path": "image/messages/31005.png"
+            }
+          },
+          "122200002": {
+            "type": "Text",
+            "id": 122200002,
+            "sectionId": 1222000,
+            "senderId": 1107,
+            "text": "(*´ω`*)",
+            "option": null,
+            "nextIds": [
+              122200003
+            ],
+            "kind": "NPC"
+          },
+          "122200003": {
+            "type": "Text",
+            "id": 122200003,
+            "sectionId": 1222000,
+            "senderId": 1107,
+            "text": "Is it a cat? It's soooo cute. I want to pet her little head",
+            "option": null,
+            "nextIds": [
+              122200004
+            ],
+            "kind": "NPC"
+          },
+          "122200004": {
+            "type": "Text",
+            "id": 122200004,
+            "sectionId": 1222000,
+            "senderId": 1107,
+            "text": "{F#Big sister}{M#Big brother}, if you get the chance, can you bring it over to where I am",
+            "option": null,
+            "nextIds": [
+              122200005,
+              122200006
+            ],
+            "kind": "NPC"
+          },
+          "122200005": {
+            "type": "Text",
+            "id": 122200005,
+            "sectionId": 1222000,
+            "senderId": null,
+            "text": "Okay. If I can... I'll definitely do it next time!",
+            "option": "Next time!",
+            "nextIds": [
+              122200008
+            ],
+            "kind": "Player"
+          },
+          "122200008": {
+            "type": "Text",
+            "id": 122200008,
+            "sectionId": 1222000,
+            "senderId": 1107,
+            "text": "Belobog is quite cold, so if it can come over, you should give it a few more layers of clothing, {F#big sister}{M#big brother} (*´ω`*)",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122200006": {
+            "type": "Text",
+            "id": 122200006,
+            "sectionId": 1222000,
+            "senderId": null,
+            "text": "Of course! But it's not a pet. It has its own will, so we'll need to check with how it feels",
+            "option": "I'll need to ask its opinion.",
+            "nextIds": [
+              122200007
+            ],
+            "kind": "Player"
+          },
+          "122200007": {
+            "type": "Text",
+            "id": 122200007,
+            "sectionId": 1222000,
+            "senderId": 1107,
+            "text": "|ω・´) Okay",
+            "option": null,
+            "nextIds": [
+              122200008
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
     ]
   ],
   "info": {

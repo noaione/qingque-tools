@@ -1092,6 +1092,205 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1222500,
+        "startIds": [
+          122250000
+        ],
+        "messages": {
+          "122250000": {
+            "type": "Text",
+            "id": 122250000,
+            "sectionId": 1222500,
+            "senderId": 1006,
+            "text": "Yo, look",
+            "option": null,
+            "nextIds": [
+              122250001,
+              122250003
+            ],
+            "kind": "NPC"
+          },
+          "122250001": {
+            "type": "Text",
+            "id": 122250001,
+            "sectionId": 1222500,
+            "senderId": null,
+            "text": "How did you know I was going to send you photos",
+            "option": "How did you know I...",
+            "nextIds": [
+              122250002
+            ],
+            "kind": "Player"
+          },
+          "122250002": {
+            "type": "Sticker",
+            "id": 122250002,
+            "sectionId": 1222500,
+            "senderId": null,
+            "text": "[Confused]",
+            "option": null,
+            "nextIds": [
+              122250005
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "122250005": {
+            "type": "Text",
+            "id": 122250005,
+            "sectionId": 1222500,
+            "senderId": 1006,
+            "text": "Take a guess",
+            "option": null,
+            "nextIds": [
+              122250006
+            ],
+            "kind": "NPC"
+          },
+          "122250006": {
+            "type": "Text",
+            "id": 122250006,
+            "sectionId": 1222500,
+            "senderId": 1006,
+            "text": "Just send it over",
+            "option": null,
+            "nextIds": [
+              122250007
+            ],
+            "kind": "NPC"
+          },
+          "122250007": {
+            "type": "Image",
+            "id": 122250007,
+            "sectionId": 1222500,
+            "senderId": null,
+            "text": "<unbreak>10033</unbreak>",
+            "option": null,
+            "nextIds": [
+              122250008
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10033,
+              "path": "image/messages/31004.png"
+            }
+          },
+          "122250008": {
+            "type": "Text",
+            "id": 122250008,
+            "sectionId": 1222500,
+            "senderId": 1006,
+            "text": "Cute",
+            "option": null,
+            "nextIds": [
+              122250009
+            ],
+            "kind": "NPC"
+          },
+          "122250009": {
+            "type": "Text",
+            "id": 122250009,
+            "sectionId": 1222500,
+            "senderId": 1006,
+            "text": "I'm not sure what this thing is, but it looks like you put a lot of energy into it",
+            "option": null,
+            "nextIds": [
+              122250010
+            ],
+            "kind": "NPC"
+          },
+          "122250010": {
+            "type": "Text",
+            "id": 122250010,
+            "sectionId": 1222500,
+            "senderId": 1006,
+            "text": "Kafka's pretty happy",
+            "option": null,
+            "nextIds": [
+              122250011
+            ],
+            "kind": "NPC"
+          },
+          "122250011": {
+            "type": "Text",
+            "id": 122250011,
+            "sectionId": 1222500,
+            "senderId": 1006,
+            "text": "Thank you, {NICKNAME}, I really like it.",
+            "option": null,
+            "nextIds": [
+              122250012
+            ],
+            "kind": "NPC"
+          },
+          "122250012": {
+            "type": "Text",
+            "id": 122250012,
+            "sectionId": 1222500,
+            "senderId": 1006,
+            "text": "Silver Wolf and I are out on a job. Catch you later",
+            "option": null,
+            "nextIds": [
+              122250013
+            ],
+            "kind": "NPC"
+          },
+          "122250013": {
+            "type": "Text",
+            "id": 122250013,
+            "sectionId": 1222500,
+            "senderId": 1006,
+            "text": "Don't worry",
+            "option": null,
+            "nextIds": [
+              122250014
+            ],
+            "kind": "NPC"
+          },
+          "122250014": {
+            "type": "Text",
+            "id": 122250014,
+            "sectionId": 1222500,
+            "senderId": 1006,
+            "text": "Bye-bye",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122250003": {
+            "type": "Text",
+            "id": 122250003,
+            "sectionId": 1222500,
+            "senderId": null,
+            "text": "Can you send it over to Kafka for me?",
+            "option": "Let Kafka look.",
+            "nextIds": [
+              122250004
+            ],
+            "kind": "Player"
+          },
+          "122250004": {
+            "type": "Text",
+            "id": 122250004,
+            "sectionId": 1222500,
+            "senderId": null,
+            "text": "Wait, how did you know I was going to send you photos",
+            "option": null,
+            "nextIds": [
+              122250005
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
     ]
   ],
   "info": {

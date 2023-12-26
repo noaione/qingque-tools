@@ -154,6 +154,336 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1219200,
+        "startIds": [
+          121920000
+        ],
+        "messages": {
+          "121920000": {
+            "type": "Text",
+            "id": 121920000,
+            "sectionId": 1219200,
+            "senderId": null,
+            "text": "It's been a while",
+            "option": "It's been a while",
+            "nextIds": [
+              121920001
+            ],
+            "kind": "Player"
+          },
+          "121920001": {
+            "type": "Text",
+            "id": 121920001,
+            "sectionId": 1219200,
+            "senderId": 24,
+            "text": "As usual, 1 pic of Himeko for 1 piece of gossip, quid pro quo",
+            "option": null,
+            "nextIds": [
+              121920002
+            ],
+            "kind": "NPC"
+          },
+          "121920002": {
+            "type": "Text",
+            "id": 121920002,
+            "sectionId": 1219200,
+            "senderId": null,
+            "text": "Can I put it on my tab?",
+            "option": "Can I put it on my tab?",
+            "nextIds": [
+              121920003
+            ],
+            "kind": "Player"
+          },
+          "121920003": {
+            "type": "Text",
+            "id": 121920003,
+            "sectionId": 1219200,
+            "senderId": 24,
+            "text": "Only for you. <unbreak>20%</unbreak> interest, for every 5 trades, you give me 1 more pic",
+            "option": null,
+            "nextIds": [
+              121920004
+            ],
+            "kind": "NPC"
+          },
+          "121920004": {
+            "type": "Text",
+            "id": 121920004,
+            "sectionId": 1219200,
+            "senderId": null,
+            "text": "So very like you.",
+            "option": "So very like you.",
+            "nextIds": [
+              121920005
+            ],
+            "kind": "Player"
+          },
+          "121920005": {
+            "type": "Text",
+            "id": 121920005,
+            "sectionId": 1219200,
+            "senderId": 24,
+            "text": "Now that's settled, go ahead and tell me what you need",
+            "option": null,
+            "nextIds": [
+              121920006
+            ],
+            "kind": "NPC"
+          },
+          "121920006": {
+            "type": "Text",
+            "id": 121920006,
+            "sectionId": 1219200,
+            "senderId": null,
+            "text": "Help me find the connection between these people",
+            "option": "(Forward missing researcher list)",
+            "nextIds": [
+              121920007
+            ],
+            "kind": "Player"
+          },
+          "121920007": {
+            "type": "Text",
+            "id": 121920007,
+            "sectionId": 1219200,
+            "senderId": 24,
+            "text": "Oh? How interesting",
+            "option": null,
+            "nextIds": [
+              121920008
+            ],
+            "kind": "NPC"
+          },
+          "121920008": {
+            "type": "Text",
+            "id": 121920008,
+            "sectionId": 1219200,
+            "senderId": 24,
+            "text": "This disappearance has been a hot topic, and the news is tightly controlled. Even I don't have a complete list.",
+            "option": null,
+            "nextIds": [
+              121920009
+            ],
+            "kind": "NPC"
+          },
+          "121920009": {
+            "type": "Text",
+            "id": 121920009,
+            "sectionId": 1219200,
+            "senderId": null,
+            "text": "You're upset at management too?",
+            "option": "You're upset at management too?",
+            "nextIds": [
+              121920010
+            ],
+            "kind": "Player"
+          },
+          "121920010": {
+            "type": "Text",
+            "id": 121920010,
+            "sectionId": 1219200,
+            "senderId": 24,
+            "text": "Why would I be? I'm just a small fry. I'll take any chance to slack off whenever I can",
+            "option": null,
+            "nextIds": [
+              121920011
+            ],
+            "kind": "NPC"
+          },
+          "121920011": {
+            "type": "Text",
+            "id": 121920011,
+            "sectionId": 1219200,
+            "senderId": 24,
+            "text": "Those who love gossiping about the higher-ups just doesn't have enough things to do in their lives.",
+            "option": null,
+            "nextIds": [
+              121920012
+            ],
+            "kind": "NPC"
+          },
+          "121920012": {
+            "type": "Text",
+            "id": 121920012,
+            "sectionId": 1219200,
+            "senderId": 24,
+            "text": "It's the same people who randomly create their own expectations and then get disappointed when those aren't met. Nothing good will come out of hanging out with them.",
+            "option": null,
+            "nextIds": [
+              121920013
+            ],
+            "kind": "NPC"
+          },
+          "121920013": {
+            "type": "Text",
+            "id": 121920013,
+            "sectionId": 1219200,
+            "senderId": null,
+            "text": "You seem to be pretty enlightened",
+            "option": "You sure are enlightened",
+            "nextIds": [
+              121920014
+            ],
+            "kind": "Player"
+          },
+          "121920014": {
+            "type": "Text",
+            "id": 121920014,
+            "sectionId": 1219200,
+            "senderId": 24,
+            "text": "You flatter me, but I'll still remember what you owe me. Don't worry. I'll get in touch if I have any news",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1219300,
+        "startIds": [
+          121930000
+        ],
+        "messages": {
+          "121930000": {
+            "type": "Text",
+            "id": 121930000,
+            "sectionId": 1219300,
+            "senderId": 24,
+            "text": "Yo",
+            "option": null,
+            "nextIds": [
+              121930001
+            ],
+            "kind": "NPC"
+          },
+          "121930001": {
+            "type": "Text",
+            "id": 121930001,
+            "sectionId": 1219300,
+            "senderId": null,
+            "text": "You got something?",
+            "option": "You got something?",
+            "nextIds": [
+              121930002
+            ],
+            "kind": "Player"
+          },
+          "121930002": {
+            "type": "Text",
+            "id": 121930002,
+            "sectionId": 1219300,
+            "senderId": 24,
+            "text": "Yep, but it's not what you'd expect.",
+            "option": null,
+            "nextIds": [
+              121930003
+            ],
+            "kind": "NPC"
+          },
+          "121930003": {
+            "type": "Text",
+            "id": 121930003,
+            "sectionId": 1219300,
+            "senderId": null,
+            "text": "Go on.",
+            "option": "Go on.",
+            "nextIds": [
+              121930004
+            ],
+            "kind": "Player"
+          },
+          "121930004": {
+            "type": "Text",
+            "id": 121930004,
+            "sectionId": 1219300,
+            "senderId": 24,
+            "text": "These victims and their interpersonal relationships don't seem to have any overlaps",
+            "option": null,
+            "nextIds": [
+              121930005
+            ],
+            "kind": "NPC"
+          },
+          "121930005": {
+            "type": "Text",
+            "id": 121930005,
+            "sectionId": 1219300,
+            "senderId": 24,
+            "text": "But...",
+            "option": null,
+            "nextIds": [
+              121930006
+            ],
+            "kind": "NPC"
+          },
+          "121930006": {
+            "type": "Text",
+            "id": 121930006,
+            "sectionId": 1219300,
+            "senderId": 24,
+            "text": "They have all posted pretty extreme comments against the management on the dark web, and have a large number of supporters",
+            "option": null,
+            "nextIds": [
+              121930007
+            ],
+            "kind": "NPC"
+          },
+          "121930007": {
+            "type": "Text",
+            "id": 121930007,
+            "sectionId": 1219300,
+            "senderId": null,
+            "text": "...What?",
+            "option": "...What?",
+            "nextIds": [
+              121930008
+            ],
+            "kind": "Player"
+          },
+          "121930008": {
+            "type": "Text",
+            "id": 121930008,
+            "sectionId": 1219300,
+            "senderId": 24,
+            "text": "I know this result will bring a lot of things to mind",
+            "option": null,
+            "nextIds": [
+              121930009
+            ],
+            "kind": "NPC"
+          },
+          "121930009": {
+            "type": "Text",
+            "id": 121930009,
+            "sectionId": 1219300,
+            "senderId": 24,
+            "text": "But regrettably, it's the truth",
+            "option": null,
+            "nextIds": [
+              121930010
+            ],
+            "kind": "NPC"
+          },
+          "121930010": {
+            "type": "Text",
+            "id": 121930010,
+            "sectionId": 1219300,
+            "senderId": null,
+            "text": "...Thanks.",
+            "option": "...Thanks.",
+            "nextIds": [],
+            "kind": "Player"
+          }
+        }
+      }
     ]
   ],
   "info": {

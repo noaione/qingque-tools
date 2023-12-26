@@ -123,7 +123,7 @@
             "id": 101250012,
             "sectionId": 1012500,
             "senderId": 1302,
-            "text": "The Giant True Sting is at the bottom of the ladder to them",
+            "text": "The Giant Sting is at the bottom of the ladder to them",
             "option": null,
             "nextIds": [
               101250013,
@@ -137,7 +137,7 @@
             "sectionId": 1012500,
             "senderId": null,
             "text": "But the overlord is small enough to hide inside Velite's armor",
-            "option": "So the overlord is not the Giant True Sting",
+            "option": "So the overlord is not the Giant Sting",
             "nextIds": [
               101250014
             ],

@@ -1,0 +1,381 @@
+{
+  "id": 113,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1222200,
+        "startIds": [
+          122220000
+        ],
+        "messages": {
+          "122220000": {
+            "type": "Text",
+            "id": 122220000,
+            "sectionId": 1222200,
+            "senderId": 1009,
+            "text": "I heard the helper robot reporting about some recent happenings. If you are going to take group photos, it's best to bring in the person who is directly involved",
+            "option": null,
+            "nextIds": [
+              122220001
+            ],
+            "kind": "NPC"
+          },
+          "122220001": {
+            "type": "Text",
+            "id": 122220001,
+            "sectionId": 1222200,
+            "senderId": 1007,
+            "text": "Hm. Ruan Mei got back just in time, too.",
+            "option": null,
+            "nextIds": [
+              122220002
+            ],
+            "kind": "NPC"
+          },
+          "122220002": {
+            "type": "Text",
+            "id": 122220002,
+            "sectionId": 1222200,
+            "senderId": null,
+            "text": "Asta has invited {NICKNAME} into group chat",
+            "option": null,
+            "nextIds": [
+              122220003
+            ],
+            "kind": "System"
+          },
+          "122220003": {
+            "type": "Text",
+            "id": 122220003,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "Hmm",
+            "option": null,
+            "nextIds": [
+              122220004
+            ],
+            "kind": "NPC"
+          },
+          "122220004": {
+            "type": "Text",
+            "id": 122220004,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "I just got back from a desolate region to a place with signal",
+            "option": null,
+            "nextIds": [
+              122220005,
+              122220006
+            ],
+            "kind": "NPC"
+          },
+          "122220005": {
+            "type": "Text",
+            "id": 122220005,
+            "sectionId": 1222200,
+            "senderId": null,
+            "text": "Great. I was looking for you, Madam Ruan Mei",
+            "option": "I was just looking for you.",
+            "nextIds": [
+              122220007
+            ],
+            "kind": "Player"
+          },
+          "122220007": {
+            "type": "Text",
+            "id": 122220007,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "What is it?",
+            "option": null,
+            "nextIds": [
+              122220008
+            ],
+            "kind": "NPC"
+          },
+          "122220008": {
+            "type": "Text",
+            "id": 122220008,
+            "sectionId": 1222200,
+            "senderId": null,
+            "text": "The size of the photo you sent is too large. Please compress the file and then try again.",
+            "option": "(Send the group photo)",
+            "nextIds": [
+              122220009
+            ],
+            "kind": "System"
+          },
+          "122220009": {
+            "type": "Text",
+            "id": 122220009,
+            "sectionId": 1222200,
+            "senderId": 1009,
+            "text": "Send it as an attachment. It will be clearer that way",
+            "option": null,
+            "nextIds": [
+              122220010
+            ],
+            "kind": "NPC"
+          },
+          "122220010": {
+            "type": "Text",
+            "id": 122220010,
+            "sectionId": 1222200,
+            "senderId": null,
+            "text": "Attachment \"We miss you on the space station\" has been sent",
+            "option": "(Send attachment)",
+            "nextIds": [
+              122220011
+            ],
+            "kind": "System"
+          },
+          "122220011": {
+            "type": "Text",
+            "id": 122220011,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "What's this?",
+            "option": null,
+            "nextIds": [
+              122220012
+            ],
+            "kind": "NPC"
+          },
+          "122220012": {
+            "type": "Text",
+            "id": 122220012,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "Let me have a look...",
+            "option": null,
+            "nextIds": [
+              122220013
+            ],
+            "kind": "NPC"
+          },
+          "122220013": {
+            "type": "Sticker",
+            "id": 122220013,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "[Please]",
+            "option": null,
+            "nextIds": [
+              122220014
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30011,
+              "path": "icon/emoji/111004.png",
+              "keywords": "Please"
+            }
+          },
+          "122220014": {
+            "type": "Text",
+            "id": 122220014,
+            "sectionId": 1222200,
+            "senderId": 1007,
+            "text": "I've heard that organic lifeforms are capable of expressing affection in a variety of ways. These creations have exhibited infinite possibilities... marvelous,",
+            "option": null,
+            "nextIds": [
+              122220015
+            ],
+            "kind": "NPC"
+          },
+          "122220015": {
+            "type": "Text",
+            "id": 122220015,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "...I didn't expect them to develop to such an extent. It's almost like a miniature civilization",
+            "option": null,
+            "nextIds": [
+              122220016
+            ],
+            "kind": "NPC"
+          },
+          "122220016": {
+            "type": "Text",
+            "id": 122220016,
+            "sectionId": 1222200,
+            "senderId": 1007,
+            "text": "They are still in their infancy. Calculated per the metrics of organic creatures' lifespans, their society is but in its cradle",
+            "option": null,
+            "nextIds": [
+              122220017,
+              122220018
+            ],
+            "kind": "NPC"
+          },
+          "122220017": {
+            "type": "Text",
+            "id": 122220017,
+            "sectionId": 1222200,
+            "senderId": null,
+            "text": "Is there anything you want to say to them?",
+            "option": "Anything you wanna say to them?",
+            "nextIds": [
+              122220019
+            ],
+            "kind": "Player"
+          },
+          "122220019": {
+            "type": "Text",
+            "id": 122220019,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              122220020
+            ],
+            "kind": "NPC"
+          },
+          "122220020": {
+            "type": "Text",
+            "id": 122220020,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "It's enchanting... This might just be my most beautiful \"accident.\"",
+            "option": null,
+            "nextIds": [
+              122220021
+            ],
+            "kind": "NPC"
+          },
+          "122220021": {
+            "type": "Text",
+            "id": 122220021,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "Maybe I will visit the space station soon again",
+            "option": null,
+            "nextIds": [
+              122220022
+            ],
+            "kind": "NPC"
+          },
+          "122220022": {
+            "type": "Text",
+            "id": 122220022,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "And visit these little ones",
+            "option": null,
+            "nextIds": [
+              122220023
+            ],
+            "kind": "NPC"
+          },
+          "122220023": {
+            "type": "Text",
+            "id": 122220023,
+            "sectionId": 1222200,
+            "senderId": 1009,
+            "text": "The creations are currently being taken care of by {NICKNAME} and the helper robot. If you need anything, please contact me at any time",
+            "option": null,
+            "nextIds": [
+              122220024,
+              122220025
+            ],
+            "kind": "NPC"
+          },
+          "122220024": {
+            "type": "Sticker",
+            "id": 122220024,
+            "sectionId": 1222200,
+            "senderId": null,
+            "text": "[Jenga]",
+            "option": "[Jenga]",
+            "nextIds": [
+              122220026
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30013,
+              "path": "icon/emoji/111006.png",
+              "keywords": "Jenga"
+            }
+          },
+          "122220026": {
+            "type": "Text",
+            "id": 122220026,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "Mm, most certainly.",
+            "option": null,
+            "nextIds": [
+              122220027
+            ],
+            "kind": "NPC"
+          },
+          "122220027": {
+            "type": "Sticker",
+            "id": 122220027,
+            "sectionId": 1222200,
+            "senderId": 1303,
+            "text": "[Snacks]",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30008,
+              "path": "icon/emoji/111001.png",
+              "keywords": "Eat Snakes"
+            }
+          },
+          "122220025": {
+            "type": "Sticker",
+            "id": 122220025,
+            "sectionId": 1222200,
+            "senderId": null,
+            "text": "[Tea]",
+            "option": "[Tea]",
+            "nextIds": [
+              122220026
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30012,
+              "path": "icon/emoji/111005.png",
+              "keywords": "Offers Tea"
+            }
+          },
+          "122220018": {
+            "type": "Text",
+            "id": 122220018,
+            "sectionId": 1222200,
+            "senderId": null,
+            "text": "So you want to come back and visit them?",
+            "option": "Wanna come back and visit them?",
+            "nextIds": [
+              122220019
+            ],
+            "kind": "Player"
+          },
+          "122220006": {
+            "type": "Text",
+            "id": 122220006,
+            "sectionId": 1222200,
+            "senderId": null,
+            "text": "Well, well, look who we have here! I was just thinking about having a chat with Madam Ruan Mei, and lo and behold, I caught up with her!",
+            "option": "What a chance encounter!",
+            "nextIds": [
+              122220007
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 113,
+    "name": "Space Station - Genius Society Comms",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 2
+  }
+}
