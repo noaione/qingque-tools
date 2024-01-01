@@ -18,9 +18,10 @@
     "@vueuse/core": "10.7.0",
     "dompurify": "3.0.6",
     "gsap": "3.12.4",
+    "jassub": "^1.7.15",
     "lodash.samplesize": "4.2.0",
     "lodash.sortby": "4.7.0",
-    "marked": "11.1.0",
+    "marked": "^11.1.0",
     "pinia": "2.1.7",
     "vue": "3.3.13",
     "vue-router": "4.2.5"
