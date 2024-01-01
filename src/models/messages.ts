@@ -47,6 +47,7 @@ export interface MessageContentImage extends MessageContent {
 export interface MessageVideo {
   id: number;
   path: string;
+  video_id: number;
 }
 
 export interface MessageContentVideo extends MessageContent {

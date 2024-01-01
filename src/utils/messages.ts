@@ -1,4 +1,4 @@
-import type { MessageContents, MessageSections } from "@/models/messages";
+import type { MessageContents, MessageContentVideo, MessageSections } from "@/models/messages";
 import { useLocalStorage } from "@vueuse/core";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
@@ -8,10 +8,20 @@ export interface MessageContentsWithGroup {
   contents: MessageContents;
 }
 
+export interface MessageVideoUrl {
+  video: string;
+  audio: {
+    src: string;
+    type: string;
+  }[];
+  merged: string;
+}
+
 export const messageKey = Symbol("Message Sections Handling Key") as InjectionKey<Ref<readonly number[]>>;
 export const messageOptionKey = Symbol("Message Sections Option Handling Key") as InjectionKey<
   Ref<MessageContentsWithGroup | undefined>
 >;
+const videoHost = "https://nao-archive.s3.eu-central-1.wasabisys.com/qingque/messages";
 
 export function useMessageConfigStorage<T = any>(
   configName: string,
@@ -99,6 +109,27 @@ export function renderTextMessage(content: string, stripHtml: boolean = false) {
       html: stripHtml ? false : true
     }
   });
+}
+
+export function getVideoAndAudioUrl(message: MessageContentVideo): MessageVideoUrl {
+  const videoUrl = `${videoHost}/${message.video.video_id}/video.webm`;
+  const audioUrl = `${videoHost}/${message.video.video_id}/audio.wav`;
+  const audioOpusUrl = `${videoHost}/${message.video.video_id}/audio.opus`;
+
+  return {
+    video: videoUrl,
+    audio: [
+      {
+        src: audioOpusUrl,
+        type: "audio/opus"
+      },
+      {
+        src: audioUrl,
+        type: "audio/wav"
+      }
+    ],
+    merged: `${videoHost}/${message.video.video_id}0_merged.webm`
+  };
 }
 
 export class MessageChain {

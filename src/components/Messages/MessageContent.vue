@@ -55,6 +55,7 @@
             <div class="absolute w-full h-full flex items-center justify-center">
               <i-mdi-play-circle-outline
                 class="absolute size-12 cursor-pointer text-neutral-300 hover:opacity-80 transition"
+                @click="$emit('play', message)"
               />
             </div>
           </div>
@@ -102,7 +103,7 @@
 </template>
 
 <script setup lang="ts">
-import type { MessageAuthorInfo, MessageContents } from "@/models/messages";
+import type { MessageAuthorInfo, MessageContentVideo, MessageContents } from "@/models/messages";
 import { formatTextMessage, renderTextMessage, useMessageConfigStorage } from "@/utils/messages";
 
 const trailblazerName = useMessageConfigStorage("tbName", "Trailblazer");
@@ -112,6 +113,10 @@ const props = defineProps<{
   message: MessageContents;
   author?: MessageAuthorInfo;
   class?: string;
+}>();
+
+defineEmits<{
+  (e: "play", message: MessageContentVideo): void;
 }>();
 
 const showTrans = ref(false);

@@ -6,20 +6,23 @@
       :author="!isNone(message.senderId) ? usedContacts[message.senderId] : undefined"
       :key="message.id"
       :class="index > 0 ? (index === messagesQueue.length - 1 ? 'mb-6 mt-2' : 'my-2') : 'mb-2'"
+      @play="onVideoPlay"
       v-for="(message, index) in messagesQueue"
     />
   </TransitionGroup>
   <MessageMission v-if="activeMission" :mission="activeMission" />
+  <MessageVideoPlayer v-if="activeVideo" :message="activeVideo" @close="onVideoClose" />
 </template>
 
 <script setup lang="ts">
 import contactsJSON from "@/assets/message_contacts.json";
-import type {
-  MessageAuthorInfo,
-  MessageContents,
-  MessageContentSeparator,
-  MessageMission,
-  MessageSections
+import {
+  type MessageAuthorInfo,
+  type MessageContents,
+  type MessageContentSeparator,
+  type MessageContentVideo,
+  type MessageMission,
+  type MessageSections
 } from "@/models/messages";
 import { isNone } from "@/utils";
 import {
@@ -50,6 +53,7 @@ const messagesGroups = ref(props.messageSection);
 const messagesGenerator = ref<Generator<MessageChain, void, unknown>>();
 const messagesQueue = ref<MessageContents[]>([]);
 const activeMission = ref<MessageMission>();
+const activeVideo = ref<MessageContentVideo>();
 
 const isActive = computed(() => {
   return activeSections.value.includes(props.messageSection.id);
@@ -150,6 +154,14 @@ function startGeneratorProcess() {
     }
     if (message) {
       // Check if messages if Player
+      if (message.current.type === "Video") {
+        clearInterval(chainInterval.value);
+        messagesQueue.value.push(message.current);
+        targetMessageScroll(`msg-${message.current.id}`);
+
+        return;
+      }
+
       if (message.current.kind === "Player") {
         // Stop iteration, wait for user input
         clearInterval(chainInterval.value);
@@ -203,6 +215,30 @@ function onMessageOptionSelected(message: MessageContents) {
   if (nextIds.length > 1) {
     // TODO: Handle again
   } else {
+    const nextChain = makeMessagesChain(messagesGroups.value, nextIds[0]);
+    messagesGenerator.value = nextChain;
+    startGeneratorProcess();
+  }
+}
+
+function onVideoPlay(videoMsg: MessageContentVideo) {
+  activeVideo.value = videoMsg;
+}
+
+function onVideoClose(videoMsg: MessageContentVideo) {
+  activeVideo.value = undefined;
+  const { nextIds } = videoMsg;
+  if (!nextIds.length) {
+    setSectionAsComplete();
+    return;
+  }
+
+  // check if we have more than one option
+  if (nextIds.length > 1) {
+    // if yes, we need to show the options
+    chainMessageOptionsByIds(nextIds);
+  } else {
+    // if not, continue the chain
     const nextChain = makeMessagesChain(messagesGroups.value, nextIds[0]);
     messagesGenerator.value = nextChain;
     startGeneratorProcess();
