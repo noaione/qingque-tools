@@ -148,7 +148,7 @@ export class MessageChain {
 // provided IDs.
 export function* makeMessagesChain(section: MessageSections, startId?: number) {
   // continue the chain until we hit a message with no nextIds
-  console.log("Creating chain with startId", startId);
+  import.meta.env.DEV && console.log("Creating chain with startId", startId);
   let currentId = startId ?? section.startIds[0];
   let parentMessage = undefined;
   while (currentId) {

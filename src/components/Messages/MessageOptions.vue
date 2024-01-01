@@ -47,6 +47,7 @@
 <script setup lang="ts">
 import gsap, { Quad } from "gsap";
 import type { MessageContents, MessageContentSticker } from "@/models/messages";
+import { log } from "@/utils";
 import { formatTextMessage, renderTextMessage, useMessageConfigStorage } from "@/utils/messages";
 
 const trailblazerName = useMessageConfigStorage("tbName", "Trailblazer");
@@ -121,7 +122,7 @@ function onAniLeave(el: Element, done: () => void) {
 watch(
   () => props.messages,
   (messages) => {
-    console.log("Options changed", messages);
+    log("Options changed", messages);
     stringContents.value = messages.filter((msg) => msg.type !== "Sticker");
     stickerContents.value = messages.filter((msg) => msg.type === "Sticker") as MessageContentSticker[];
     selected.value = undefined;

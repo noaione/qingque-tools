@@ -1,6 +1,6 @@
 import type { Character, MainAffixKey, ScoreCharacter, ScoreCharacterJSON, StatsTypeDict } from "@/models";
 import charactersModels from "@/assets/characters.json";
-import { calculateMaximumPossibleValues, isNone } from "@/utils";
+import { calculateMaximumPossibleValues, isNone, log } from "@/utils";
 import { defineStore } from "pinia";
 
 export interface SCStore {
@@ -157,7 +157,7 @@ export const useScoresStore = defineStore("scores", {
      * @param id Character ID
      */
     setCurrent(id: string) {
-      console.log("setCurrent", id);
+      log("setCurrent", id);
       this.cIdx = id;
     },
     /**

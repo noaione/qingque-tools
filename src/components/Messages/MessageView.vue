@@ -14,7 +14,13 @@
 
 <script setup lang="ts">
 import type { MessageContents, MessageSections } from "@/models/messages";
-import { type MessageContentsWithGroup, messageKey, messageOptionKey, targetMessageScroll } from "@/utils";
+import {
+  log,
+  type MessageContentsWithGroup,
+  messageKey,
+  messageOptionKey,
+  targetMessageScroll
+} from "@/utils";
 
 const props = defineProps<{
   messageGroup: MessageSections[];
@@ -30,7 +36,7 @@ const activeSection = ref<number>(props.messageGroup[0].id);
 function onSectionsCompleted(completedId: number) {
   const index = messagesGroups.value.findIndex((sect) => sect.id === completedId);
   const nextIndex = index + 1;
-  console.log("Completed section", completedId, index, nextIndex, messagesGroups.value.length);
+  log("Completed section", completedId, index, nextIndex, messagesGroups.value.length);
   const nextSection = messagesGroups.value[nextIndex];
   if (nextSection) {
     // Set new active section
@@ -63,7 +69,7 @@ function startMessageSectionsChaining(messageChains: MessageSections[]) {
   optionsSelections.value = [];
   activeSections.value = [];
   selectedMessage.value = undefined;
-  console.log("Starting message sections chaining");
+  log("Starting message sections chaining");
   messagesGroups.value = messageChains;
   // Start first chain
   activeSection.value = messageChains[0].id;

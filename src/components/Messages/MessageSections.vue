@@ -24,7 +24,7 @@ import {
   type MessageMission,
   type MessageSections
 } from "@/models/messages";
-import { isNone } from "@/utils";
+import { isNone, log } from "@/utils";
 import {
   makeMessagesChain,
   MessageChain,
@@ -45,7 +45,7 @@ const emits = defineEmits<{
 
 const activeSections = inject(messageKey) as Ref<readonly number[]>;
 const selectedOption = inject(messageOptionKey) as Ref<MessageContentsWithGroup | undefined>;
-console.log("Injection active sections", activeSections);
+log("Injection active sections", activeSections);
 
 const chainInterval = ref<number>();
 const completed = ref(false);
@@ -115,7 +115,7 @@ function emitCompleteOnDelay(delay: number = 500) {
 }
 
 function setSectionAsComplete() {
-  console.log("Section completed", messagesGroups.value.id);
+  log("Section completed", messagesGroups.value.id);
   clearInterval(chainInterval.value);
   completed.value = true;
   if (props.hasMore) {
@@ -126,7 +126,7 @@ function setSectionAsComplete() {
   }
   nextTick(() => {
     setTimeout(() => {
-      console.log("Starting message mission animation", messagesGroups.value.id);
+      log("Starting message mission animation", messagesGroups.value.id);
       if (messagesGroups.value.type === "MissionMessage") {
         activeMission.value = messagesGroups.value.mission;
         nextTick(() => {
@@ -147,7 +147,7 @@ function startGeneratorProcess() {
       return;
     }
     const { value: message, done } = messagesGenerator.value.next();
-    console.log(message, done);
+    log(message, done);
     if (done) {
       setSectionAsComplete();
       return;
@@ -178,7 +178,7 @@ function startGeneratorProcess() {
 function startMessageChain(newValue: MessageSections) {
   if (completed.value) return;
 
-  console.log("Starting message chain", newValue.id);
+  log("Starting message chain", newValue.id);
   clearInterval(chainInterval.value);
   messagesGenerator.value = undefined;
   chainInterval.value = undefined;
@@ -248,7 +248,7 @@ function onVideoClose(videoMsg: MessageContentVideo) {
 watch(
   () => activeSections.value,
   (newSections) => {
-    console.log("Active sections changed", newSections);
+    log("Active sections changed", newSections);
     if (newSections.includes(props.messageSection.id)) {
       startMessageChain(props.messageSection);
     }
@@ -257,7 +257,7 @@ watch(
 watch(
   () => selectedOption.value,
   (newOption) => {
-    console.log("Selected option changed", newOption);
+    log("Selected option changed", newOption);
     if (newOption && newOption.groupId === props.messageSection.id) {
       selectedOption.value = undefined;
       onMessageOptionSelected(newOption.contents);
