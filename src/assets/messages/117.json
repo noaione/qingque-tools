@@ -1,0 +1,51 @@
+{
+  "id": 117,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1303100,
+        "startIds": [
+          130310000
+        ],
+        "messages": {
+          "130310000": {
+            "type": "Text",
+            "id": 130310000,
+            "sectionId": 1303100,
+            "senderId": 116,
+            "text": "Unofficial channels indicate that Lesley Dean, the superstar actor who passed away at a young age, has recently appeared in Golden Hour in Penacony, creating quite a shock.",
+            "option": null,
+            "nextIds": [
+              130310001
+            ],
+            "kind": "NPC"
+          },
+          "130310001": {
+            "type": "Text",
+            "id": 130310001,
+            "sectionId": 1303100,
+            "senderId": 116,
+            "text": "There is currently no evidence to show that the Lesley Dean appearing in the Dreamscape is the real \"Cosmic Star.\" The Sweet Dream Times editorial office would like to urge fans to act with constraint and not to break the rules in the Dreamscape.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2030001,
+          "name": "Cosmic Star",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 117,
+    "name": "Lesley Dean Fans, Unite!",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 99
+  }
+}

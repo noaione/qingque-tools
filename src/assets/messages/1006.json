@@ -373,7 +373,7 @@
             "id": 200730027,
             "sectionId": 2007300,
             "senderId": null,
-            "text": "[greet]",
+            "text": "[Greet]",
             "option": null,
             "nextIds": [
               200730028
@@ -862,7 +862,7 @@
             "id": 200750002,
             "sectionId": 2007500,
             "senderId": 1006,
-            "text": "[image]",
+            "text": "[Image]",
             "option": null,
             "nextIds": [
               200750003,
@@ -1172,7 +1172,7 @@
             "id": 122250007,
             "sectionId": 1222500,
             "senderId": null,
-            "text": "<unbreak>10033</unbreak>",
+            "text": "",
             "option": null,
             "nextIds": [
               122250008

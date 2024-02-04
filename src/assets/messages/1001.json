@@ -1184,7 +1184,7 @@
             "id": 200030002,
             "sectionId": 2000300,
             "senderId": 1001,
-            "text": "[observe]",
+            "text": "[Observe]",
             "option": null,
             "nextIds": [
               200030003
@@ -1252,8 +1252,8 @@
             "id": 200030009,
             "sectionId": 2000300,
             "senderId": null,
-            "text": "[proud]",
-            "option": "[proud]",
+            "text": "[Proud]",
+            "option": "[Proud]",
             "nextIds": [
               200030010
             ],
@@ -1293,7 +1293,7 @@
             "id": 200030012,
             "sectionId": 2000300,
             "senderId": 1001,
-            "text": "[proud]",
+            "text": "[Proud]",
             "option": null,
             "nextIds": [],
             "kind": "NPC",
@@ -1364,8 +1364,8 @@
             "id": 200030017,
             "sectionId": 2000300,
             "senderId": null,
-            "text": "[angry]",
-            "option": "[angry]",
+            "text": "[Angry]",
+            "option": "[Angry]",
             "nextIds": [
               200030018
             ],
@@ -1405,7 +1405,7 @@
             "id": 200030020,
             "sectionId": 2000300,
             "senderId": 1001,
-            "text": "[angry]",
+            "text": "[Angry]",
             "option": null,
             "nextIds": [],
             "kind": "NPC",
@@ -3230,7 +3230,7 @@
             "id": 122140001,
             "sectionId": 1221400,
             "senderId": null,
-            "text": "<unbreak>10038</unbreak>",
+            "text": "",
             "option": null,
             "nextIds": [
               122140002
@@ -3323,6 +3323,177 @@
               122140007
             ],
             "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1300500,
+        "startIds": [
+          130050000
+        ],
+        "messages": {
+          "130050000": {
+            "type": "Text",
+            "id": 130050000,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "Hehe",
+            "option": null,
+            "nextIds": [
+              130050001
+            ],
+            "kind": "NPC"
+          },
+          "130050001": {
+            "type": "Text",
+            "id": 130050001,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "Awesome! We can send messages even in the dream!",
+            "option": null,
+            "nextIds": [
+              130050002
+            ],
+            "kind": "NPC"
+          },
+          "130050002": {
+            "type": "Text",
+            "id": 130050002,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "You there yet?",
+            "option": null,
+            "nextIds": [
+              130050003,
+              130050005
+            ],
+            "kind": "NPC"
+          },
+          "130050003": {
+            "type": "Text",
+            "id": 130050003,
+            "sectionId": 1300500,
+            "senderId": null,
+            "text": "I'm there now",
+            "option": "I'm there now.",
+            "nextIds": [
+              130050004
+            ],
+            "kind": "Player"
+          },
+          "130050004": {
+            "type": "Text",
+            "id": 130050004,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "Yay",
+            "option": null,
+            "nextIds": [
+              130050007
+            ],
+            "kind": "NPC"
+          },
+          "130050007": {
+            "type": "Text",
+            "id": 130050007,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "I just got in touch with Himeko and Mr. Yang. They all went to different Dreamscapes",
+            "option": null,
+            "nextIds": [
+              130050008
+            ],
+            "kind": "NPC"
+          },
+          "130050008": {
+            "type": "Text",
+            "id": 130050008,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "I'm at the Moment of Dusk! I'm planning to check out the auction",
+            "option": null,
+            "nextIds": [
+              130050009
+            ],
+            "kind": "NPC"
+          },
+          "130050009": {
+            "type": "Text",
+            "id": 130050009,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "It's gonna be a pain to meet up again, so why don't we split up for now",
+            "option": null,
+            "nextIds": [
+              130050010
+            ],
+            "kind": "NPC"
+          },
+          "130050010": {
+            "type": "Sticker",
+            "id": 130050010,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "[Like]",
+            "option": null,
+            "nextIds": [
+              130050011
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 101003,
+              "path": "icon/emoji/101003.png",
+              "keywords": "Like"
+            }
+          },
+          "130050011": {
+            "type": "Text",
+            "id": 130050011,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "You're at the Golden Hour? I heard the Dreamscape Sales Store there is super famous",
+            "option": null,
+            "nextIds": [
+              130050012
+            ],
+            "kind": "NPC"
+          },
+          "130050012": {
+            "type": "Text",
+            "id": 130050012,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "Can you plz check it out for me? Pretty plz? If it's really fun, then I'll head over there next!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130050005": {
+            "type": "Text",
+            "id": 130050005,
+            "sectionId": 1300500,
+            "senderId": null,
+            "text": "Still omw",
+            "option": "Not yet",
+            "nextIds": [
+              130050006
+            ],
+            "kind": "Player"
+          },
+          "130050006": {
+            "type": "Text",
+            "id": 130050006,
+            "sectionId": 1300500,
+            "senderId": 1001,
+            "text": "Liar :(",
+            "option": null,
+            "nextIds": [
+              130050007
+            ],
+            "kind": "NPC"
           }
         }
       }

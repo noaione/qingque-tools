@@ -1,0 +1,1027 @@
+{
+  "id": 1312,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2012700,
+        "startIds": [
+          201270000
+        ],
+        "messages": {
+          "201270000": {
+            "type": "Text",
+            "id": 201270000,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "I want to buy a big storage chest",
+            "option": null,
+            "nextIds": [
+              201270001
+            ],
+            "kind": "NPC"
+          },
+          "201270001": {
+            "type": "Text",
+            "id": 201270001,
+            "sectionId": 2012700,
+            "senderId": null,
+            "text": "You've got too many things?",
+            "option": "You've got too many things?",
+            "nextIds": [
+              201270002
+            ],
+            "kind": "Player"
+          },
+          "201270002": {
+            "type": "Text",
+            "id": 201270002,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "Yeah! With the exploding cloud candies that the customer gave me yesterday, my drawers are already stuffed full of souvenirs from various planets...",
+            "option": null,
+            "nextIds": [
+              201270003
+            ],
+            "kind": "NPC"
+          },
+          "201270003": {
+            "type": "Text",
+            "id": 201270003,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "I split some into smaller portions. I'll bring you some when I see you next time!",
+            "option": null,
+            "nextIds": [
+              201270004
+            ],
+            "kind": "NPC"
+          },
+          "201270004": {
+            "type": "Text",
+            "id": 201270004,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "They taste a bit like a spicier version of mint, but the aftertaste is surprisingly fresh and sweet! This flavor matches the impression I get from that customer perfectly",
+            "option": null,
+            "nextIds": [
+              201270005
+            ],
+            "kind": "NPC"
+          },
+          "201270005": {
+            "type": "Text",
+            "id": 201270005,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "He was tall and strong with a ferocious expression and a great ax on his back. He looked a lot like Boss Stone",
+            "option": null,
+            "nextIds": [
+              201270006
+            ],
+            "kind": "NPC"
+          },
+          "201270006": {
+            "type": "Text",
+            "id": 201270006,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "I spent a lot of time preparing myself mentally before going to help him...",
+            "option": null,
+            "nextIds": [
+              201270007
+            ],
+            "kind": "NPC"
+          },
+          "201270007": {
+            "type": "Text",
+            "id": 201270007,
+            "sectionId": 2012700,
+            "senderId": null,
+            "text": "A customer like that gifting you sweets. It's got a nice contrast to it",
+            "option": "Interesting contrast",
+            "nextIds": [
+              201270008
+            ],
+            "kind": "Player"
+          },
+          "201270008": {
+            "type": "Text",
+            "id": 201270008,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "It does. I was super cautious when I asked if he wanted help taking his luggage up! When I realized he was the silent type, I got even more scared and actually tripped over. When I climbed back to my feet, I realized that the customer had already taken his luggage and taken the lift upstairs...",
+            "option": null,
+            "nextIds": [
+              201270009
+            ],
+            "kind": "NPC"
+          },
+          "201270009": {
+            "type": "Text",
+            "id": 201270009,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "Thankfully I didn't make any mistakes when I went to clean his room and I even fixed his Dreamscape room clock. When I went back, he was not there, but he had left a pack of exploding cloud candy for me. I breathed huge a sigh of relief... That kind of recognition felt amazing!",
+            "option": null,
+            "nextIds": [
+              201270010
+            ],
+            "kind": "NPC"
+          },
+          "201270010": {
+            "type": "Text",
+            "id": 201270010,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "Do you think... if I keep working hard like this, I'll receive enough candies from guests to cover me for the rest of my life?",
+            "option": null,
+            "nextIds": [
+              201270011,
+              201270015
+            ],
+            "kind": "NPC"
+          },
+          "201270011": {
+            "type": "Text",
+            "id": 201270011,
+            "sectionId": 2012700,
+            "senderId": null,
+            "text": "Probably, but your teeth will rot! Kids should take better care of their teeth!",
+            "option": "Yes, but your teeth will rot",
+            "nextIds": [
+              201270012
+            ],
+            "kind": "Player"
+          },
+          "201270012": {
+            "type": "Text",
+            "id": 201270012,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "I'm not a kid anymore! I may have had tooth decay before, but I've been careful ever since!",
+            "option": null,
+            "nextIds": [
+              201270013
+            ],
+            "kind": "NPC"
+          },
+          "201270013": {
+            "type": "Text",
+            "id": 201270013,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "Ah, I have to go and greet guests. Talk to you again soon!",
+            "option": null,
+            "nextIds": [
+              201270014
+            ],
+            "kind": "NPC"
+          },
+          "201270014": {
+            "type": "Sticker",
+            "id": 201270014,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "201270015": {
+            "type": "Text",
+            "id": 201270015,
+            "sectionId": 2012700,
+            "senderId": null,
+            "text": "Yeah! Because you're amazing!",
+            "option": "Yeah! You're amazing!",
+            "nextIds": [
+              201270016
+            ],
+            "kind": "Player"
+          },
+          "201270016": {
+            "type": "Text",
+            "id": 201270016,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "Hehe, hearing you say that makes me feel so proud! It's more that the guests put up with me, though",
+            "option": null,
+            "nextIds": [
+              201270017
+            ],
+            "kind": "NPC"
+          },
+          "201270017": {
+            "type": "Text",
+            "id": 201270017,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "Thank you for your approval though. I need to go and greet guests. Talk to you again soon!",
+            "option": null,
+            "nextIds": [
+              201270018
+            ],
+            "kind": "NPC"
+          },
+          "201270018": {
+            "type": "Sticker",
+            "id": 201270018,
+            "sectionId": 2012700,
+            "senderId": 1312,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2012800,
+        "startIds": [
+          201280000
+        ],
+        "messages": {
+          "201280000": {
+            "type": "Text",
+            "id": 201280000,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "Are you there...? Excuse me, I wanted to ask if there are any recommendations for things I'll need for traveling?",
+            "option": null,
+            "nextIds": [
+              201280001,
+              201280004
+            ],
+            "kind": "NPC"
+          },
+          "201280001": {
+            "type": "Text",
+            "id": 201280001,
+            "sectionId": 2012800,
+            "senderId": null,
+            "text": "The Express has everything you need. You don't need to bring anything",
+            "option": "The Express has everything",
+            "nextIds": [
+              201280002
+            ],
+            "kind": "Player"
+          },
+          "201280002": {
+            "type": "Text",
+            "id": 201280002,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "They even prepare a change of clothes? The Express really is the best!",
+            "option": null,
+            "nextIds": [
+              201280003
+            ],
+            "kind": "NPC"
+          },
+          "201280003": {
+            "type": "Text",
+            "id": 201280003,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "Although, hearing you say that makes me worry even more... Ah, what else do I need to take with me?",
+            "option": null,
+            "nextIds": [
+              201280007
+            ],
+            "kind": "NPC"
+          },
+          "201280007": {
+            "type": "Text",
+            "id": 201280007,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "I finally got a short amount of vacation time, but I haven't even decided where I want to travel to!",
+            "option": null,
+            "nextIds": [
+              201280008
+            ],
+            "kind": "NPC"
+          },
+          "201280008": {
+            "type": "Text",
+            "id": 201280008,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "I want to prepare my luggage, then select my destination. Then, I can just set off right away!",
+            "option": null,
+            "nextIds": [
+              201280009,
+              201280011,
+              201280014
+            ],
+            "kind": "NPC"
+          },
+          "201280009": {
+            "type": "Text",
+            "id": 201280009,
+            "sectionId": 2012800,
+            "senderId": null,
+            "text": "Would you like to come with us? We'll leave tomorrow!",
+            "option": "Would you like to come with us?",
+            "nextIds": [
+              201280010
+            ],
+            "kind": "Player"
+          },
+          "201280010": {
+            "type": "Text",
+            "id": 201280010,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "That's very tempting, but I only have three days... I don't think that's very suitable for long-distance travel",
+            "option": null,
+            "nextIds": [
+              201280016
+            ],
+            "kind": "NPC"
+          },
+          "201280016": {
+            "type": "Text",
+            "id": 201280016,
+            "sectionId": 2012800,
+            "senderId": null,
+            "text": "Remember to send me pictures",
+            "option": "Remember to send pictures",
+            "nextIds": [
+              201280017
+            ],
+            "kind": "Player"
+          },
+          "201280017": {
+            "type": "Text",
+            "id": 201280017,
+            "sectionId": 2012800,
+            "senderId": null,
+            "text": "No matter where you are, pictures can always bring us closer together",
+            "option": null,
+            "nextIds": [
+              201280018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201280018": {
+            "type": "Image",
+            "id": 201280018,
+            "sectionId": 2012800,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201280019
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10040,
+              "path": "image/messages/10019.png"
+            }
+          },
+          "201280019": {
+            "type": "Text",
+            "id": 201280019,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "...A solitary and frozen land... do these Snow Plains have a name? What planet are they on? Can you visit without an invitation?",
+            "option": null,
+            "nextIds": [
+              201280020
+            ],
+            "kind": "NPC"
+          },
+          "201280020": {
+            "type": "Text",
+            "id": 201280020,
+            "sectionId": 2012800,
+            "senderId": null,
+            "text": "These Snow Plains are on the planet Jarilo-VI, outside the town of Belobog. You are free to go whenever you like",
+            "option": "You can go whenever you like",
+            "nextIds": [
+              201280021
+            ],
+            "kind": "Player"
+          },
+          "201280021": {
+            "type": "Text",
+            "id": 201280021,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "Great. I have to go and see this place!",
+            "option": null,
+            "nextIds": [
+              201280022
+            ],
+            "kind": "NPC"
+          },
+          "201280022": {
+            "type": "Text",
+            "id": 201280022,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "Speaking with you makes me so happy! It feels like I've already started on my dream adventure. You have to tell me more next time!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201280011": {
+            "type": "Text",
+            "id": 201280011,
+            "sectionId": 2012800,
+            "senderId": null,
+            "text": "You could actually spend your holiday in the hotel",
+            "option": "You could vacation in the hotel",
+            "nextIds": [
+              201280012
+            ],
+            "kind": "Player"
+          },
+          "201280012": {
+            "type": "Text",
+            "id": 201280012,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "That's a really good idea... I may have worked here for a long time, but I've never enjoyed the hotel's services as a guest before!",
+            "option": null,
+            "nextIds": [
+              201280013
+            ],
+            "kind": "NPC"
+          },
+          "201280013": {
+            "type": "Text",
+            "id": 201280013,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "I just know there are lots of exciting things to explore. Just thinking about it makes me so happy!!!",
+            "option": null,
+            "nextIds": [
+              201280016
+            ],
+            "kind": "NPC"
+          },
+          "201280014": {
+            "type": "Text",
+            "id": 201280014,
+            "sectionId": 2012800,
+            "senderId": null,
+            "text": "Are you not scared traveling alone? What if you run into bad people?",
+            "option": "Are you not scared traveling alone?",
+            "nextIds": [
+              201280015
+            ],
+            "kind": "Player"
+          },
+          "201280015": {
+            "type": "Text",
+            "id": 201280015,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "I'm not scared! I decided I am going to learn from you, {NICKNAME}! I'm going to buy a baseball bat to protect myself!",
+            "option": null,
+            "nextIds": [
+              201280016
+            ],
+            "kind": "NPC"
+          },
+          "201280004": {
+            "type": "Text",
+            "id": 201280004,
+            "sectionId": 2012800,
+            "senderId": null,
+            "text": "Phone, credits, a baseball bat! They're all pretty practical, right?",
+            "option": "Phone, credits, a baseball bat...",
+            "nextIds": [
+              201280005
+            ],
+            "kind": "Player"
+          },
+          "201280005": {
+            "type": "Text",
+            "id": 201280005,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "Yeah! Communications, currency, and an item for self-defense... are all absolute necessities!",
+            "option": null,
+            "nextIds": [
+              201280006
+            ],
+            "kind": "NPC"
+          },
+          "201280006": {
+            "type": "Text",
+            "id": 201280006,
+            "sectionId": 2012800,
+            "senderId": 1312,
+            "text": "But these things aside, what else will I need...",
+            "option": null,
+            "nextIds": [
+              201280007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2012900,
+        "startIds": [
+          201290000
+        ],
+        "messages": {
+          "201290000": {
+            "type": "Sticker",
+            "id": 201290000,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201290001
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "201290001": {
+            "type": "Sticker",
+            "id": 201290001,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201290002
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "201290002": {
+            "type": "Sticker",
+            "id": 201290002,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201290003
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "201290003": {
+            "type": "Text",
+            "id": 201290003,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "It's getting closer...",
+            "option": null,
+            "nextIds": [
+              201290004
+            ],
+            "kind": "NPC"
+          },
+          "201290004": {
+            "type": "Text",
+            "id": 201290004,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "There's a huge shadow in the hotel...",
+            "option": null,
+            "nextIds": [
+              201290005,
+              201290009
+            ],
+            "kind": "NPC"
+          },
+          "201290005": {
+            "type": "Text",
+            "id": 201290005,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "Where are you? I'll head over to you",
+            "option": "Where are you? I'll head over",
+            "nextIds": [
+              201290006
+            ],
+            "kind": "Player"
+          },
+          "201290006": {
+            "type": "Text",
+            "id": 201290006,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "I'm in the hotel corridor...",
+            "option": null,
+            "nextIds": [
+              201290007
+            ],
+            "kind": "NPC"
+          },
+          "201290007": {
+            "type": "Text",
+            "id": 201290007,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "There's a huge shadow... It's getting closer",
+            "option": null,
+            "nextIds": [
+              201290008
+            ],
+            "kind": "NPC"
+          },
+          "201290008": {
+            "type": "Text",
+            "id": 201290008,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "Your friend Misha has gone offline",
+            "option": null,
+            "nextIds": [
+              201290012
+            ],
+            "kind": "System"
+          },
+          "201290012": {
+            "type": "Text",
+            "id": 201290012,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "Your friend Misha is online",
+            "option": null,
+            "nextIds": [
+              201290013
+            ],
+            "kind": "System"
+          },
+          "201290013": {
+            "type": "Text",
+            "id": 201290013,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "I was saved... I ran into the elevator and came down when it turned to go in a different direction",
+            "option": null,
+            "nextIds": [
+              201290014
+            ],
+            "kind": "NPC"
+          },
+          "201290014": {
+            "type": "Text",
+            "id": 201290014,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "Thank you. Your message comforted me a lot",
+            "option": null,
+            "nextIds": [
+              201290015,
+              201290023
+            ],
+            "kind": "NPC"
+          },
+          "201290015": {
+            "type": "Text",
+            "id": 201290015,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "I'm just glad you're okay. Tell me more about this shadow",
+            "option": "I'm just glad you're okay",
+            "nextIds": [
+              201290016
+            ],
+            "kind": "Player"
+          },
+          "201290016": {
+            "type": "Text",
+            "id": 201290016,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "I actually don't know much about it... I've heard before that there's a black shadow haunting the hotel at night, sometimes crying, sometimes laughing...",
+            "option": null,
+            "nextIds": [
+              201290017
+            ],
+            "kind": "NPC"
+          },
+          "201290017": {
+            "type": "Text",
+            "id": 201290017,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "Ah, what bad luck... At least I managed to get away! I heard that one of my brave co-workers came across it last night and then...",
+            "option": null,
+            "nextIds": [
+              201290018,
+              201290021
+            ],
+            "kind": "NPC"
+          },
+          "201290018": {
+            "type": "Text",
+            "id": 201290018,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "And then... Are they still alive?",
+            "option": "...Are they still alive?",
+            "nextIds": [
+              201290019
+            ],
+            "kind": "Player"
+          },
+          "201290019": {
+            "type": "Sticker",
+            "id": 201290019,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201290020
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "201290020": {
+            "type": "Text",
+            "id": 201290020,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "They are! It's just that when the shadow passed them, all of the lights in the corridor suddenly went out! Before they did... he saw a grimacing shadow...",
+            "option": null,
+            "nextIds": [
+              201290033
+            ],
+            "kind": "NPC"
+          },
+          "201290033": {
+            "type": "Text",
+            "id": 201290033,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "Wait! A grimacing shadow... Crying... It's back...",
+            "option": null,
+            "nextIds": [
+              201290034
+            ],
+            "kind": "NPC"
+          },
+          "201290034": {
+            "type": "Text",
+            "id": 201290034,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "I'll use my broom as a baseball bat... It should work just as well, right?",
+            "option": null,
+            "nextIds": [
+              201290035
+            ],
+            "kind": "NPC"
+          },
+          "201290035": {
+            "type": "Text",
+            "id": 201290035,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "I'm going in!",
+            "option": null,
+            "nextIds": [
+              201290036
+            ],
+            "kind": "NPC"
+          },
+          "201290036": {
+            "type": "Text",
+            "id": 201290036,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "You can do it!",
+            "option": "You can do it!",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "201290021": {
+            "type": "Text",
+            "id": 201290021,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "Did they give the shadow a good beating?",
+            "option": "Did they beat up the shadow?",
+            "nextIds": [
+              201290022
+            ],
+            "kind": "Player"
+          },
+          "201290022": {
+            "type": "Text",
+            "id": 201290022,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "My colleague was getting ready for a fight, but all of the lights in the corridor suddenly went out! Before they did... he saw a grimacing shadow...",
+            "option": null,
+            "nextIds": [
+              201290033
+            ],
+            "kind": "NPC"
+          },
+          "201290023": {
+            "type": "Text",
+            "id": 201290023,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "No need to thank me, I've seen it before, too",
+            "option": "I've seen it before, too",
+            "nextIds": [
+              201290024
+            ],
+            "kind": "Player"
+          },
+          "201290024": {
+            "type": "Text",
+            "id": 201290024,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "Actually, it is not {NICKNAME} that is speaking with you now, it is me...",
+            "option": null,
+            "nextIds": [
+              201290025
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201290025": {
+            "type": "Text",
+            "id": 201290025,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "You never would have guessed, would you? I have already devoured your friend...",
+            "option": null,
+            "nextIds": [
+              201290026
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201290026": {
+            "type": "Text",
+            "id": 201290026,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              201290027
+            ],
+            "kind": "NPC"
+          },
+          "201290027": {
+            "type": "Text",
+            "id": 201290027,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "Is this real?",
+            "option": null,
+            "nextIds": [
+              201290028
+            ],
+            "kind": "NPC"
+          },
+          "201290028": {
+            "type": "Text",
+            "id": 201290028,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "*cough* It's a joke! Of course it's not real!",
+            "option": "Of course it isn't!",
+            "nextIds": [
+              201290029
+            ],
+            "kind": "Player"
+          },
+          "201290029": {
+            "type": "Text",
+            "id": 201290029,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "Your friend Misha has gone offline",
+            "option": null,
+            "nextIds": [
+              201290031
+            ],
+            "kind": "System"
+          },
+          "201290031": {
+            "type": "Text",
+            "id": 201290031,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "Misha...? Hello? Helloooo?",
+            "option": null,
+            "nextIds": [
+              201290030
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201290030": {
+            "type": "Text",
+            "id": 201290030,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "Your friend Misha is online",
+            "option": null,
+            "nextIds": [
+              201290032
+            ],
+            "kind": "System"
+          },
+          "201290032": {
+            "type": "Text",
+            "id": 201290032,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "You scared me silly! I'm so glad you're okay! I was just looking for a way to rescue you!",
+            "option": null,
+            "nextIds": [
+              201290033
+            ],
+            "kind": "NPC"
+          },
+          "201290009": {
+            "type": "Text",
+            "id": 201290009,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "Run!!!",
+            "option": "Run!!!",
+            "nextIds": [
+              201290010
+            ],
+            "kind": "Player"
+          },
+          "201290010": {
+            "type": "Text",
+            "id": 201290010,
+            "sectionId": 2012900,
+            "senderId": 1312,
+            "text": "I want to... But my legs have gone weak. I can't move...",
+            "option": null,
+            "nextIds": [
+              201290011
+            ],
+            "kind": "NPC"
+          },
+          "201290011": {
+            "type": "Text",
+            "id": 201290011,
+            "sectionId": 2012900,
+            "senderId": null,
+            "text": "Your friend Misha has gone offline",
+            "option": null,
+            "nextIds": [
+              201290012
+            ],
+            "kind": "System"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1312,
+    "name": "Misha",
+    "signature": "Keep it up! The new world is just ahead!",
+    "iconPath": "icon/avatar/1312.png",
+    "type": 1,
+    "camp": 11
+  }
+}

@@ -3363,7 +3363,7 @@
             "id": 122150001,
             "sectionId": 1221500,
             "senderId": null,
-            "text": "<unbreak>10030</unbreak>",
+            "text": "",
             "option": null,
             "nextIds": [
               122150002
@@ -3681,6 +3681,123 @@
               130080005
             ],
             "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1303800,
+        "startIds": [
+          130380000
+        ],
+        "messages": {
+          "130380000": {
+            "type": "Text",
+            "id": 130380000,
+            "sectionId": 1303800,
+            "senderId": 1002,
+            "text": "I got the gift. Did you send it?",
+            "option": null,
+            "nextIds": [
+              130380001
+            ],
+            "kind": "NPC"
+          },
+          "130380001": {
+            "type": "Text",
+            "id": 130380001,
+            "sectionId": 1303800,
+            "senderId": null,
+            "text": "It's a special gift for guarding the Express. Thanks for all your hard work",
+            "option": "Special something for Team Express",
+            "nextIds": [
+              130380002
+            ],
+            "kind": "Player"
+          },
+          "130380002": {
+            "type": "Text",
+            "id": 130380002,
+            "sectionId": 1303800,
+            "senderId": 1002,
+            "text": "No problem.",
+            "option": null,
+            "nextIds": [
+              130380003
+            ],
+            "kind": "NPC"
+          },
+          "130380003": {
+            "type": "Text",
+            "id": 130380003,
+            "sectionId": 1303800,
+            "senderId": 1002,
+            "text": "I found some entries that you might be interested in the data bank. You can take a look once you get back.",
+            "option": null,
+            "nextIds": [
+              130380004
+            ],
+            "kind": "NPC"
+          },
+          "130380004": {
+            "type": "Text",
+            "id": 130380004,
+            "sectionId": 1303800,
+            "senderId": null,
+            "text": "It's a specialty product I got from inside a dream in Penacony. Open it up and have a taste!",
+            "option": "Open it up and have a taste!",
+            "nextIds": [
+              130380005
+            ],
+            "kind": "Player"
+          },
+          "130380005": {
+            "type": "Text",
+            "id": 130380005,
+            "sectionId": 1303800,
+            "senderId": 1002,
+            "text": "? Ok.",
+            "option": null,
+            "nextIds": [
+              130380006
+            ],
+            "kind": "NPC"
+          },
+          "130380006": {
+            "type": "Text",
+            "id": 130380006,
+            "sectionId": 1303800,
+            "senderId": 1002,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              130380007
+            ],
+            "kind": "NPC"
+          },
+          "130380007": {
+            "type": "Text",
+            "id": 130380007,
+            "sectionId": 1303800,
+            "senderId": null,
+            "text": "How do you like it?",
+            "option": "How do you like it?",
+            "nextIds": [
+              130380008
+            ],
+            "kind": "Player"
+          },
+          "130380008": {
+            "type": "Text",
+            "id": 130380008,
+            "sectionId": 1303800,
+            "senderId": 1002,
+            "text": "It's a bit too much for me. It's something March might enjoy.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
           }
         }
       }

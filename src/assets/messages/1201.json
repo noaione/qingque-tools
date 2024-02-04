@@ -811,7 +811,7 @@
             "id": 200600001,
             "sectionId": 2006000,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               200600002
@@ -1815,7 +1815,7 @@
             "id": 122180001,
             "sectionId": 1221800,
             "senderId": null,
-            "text": "<unbreak>10035</unbreak>",
+            "text": "",
             "option": null,
             "nextIds": [
               122180002

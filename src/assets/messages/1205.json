@@ -1216,7 +1216,7 @@
             "id": 122190001,
             "sectionId": 1221900,
             "senderId": null,
-            "text": "<unbreak>10036</unbreak>",
+            "text": "",
             "option": null,
             "nextIds": [
               122190002
@@ -1397,6 +1397,6 @@
     "signature": null,
     "iconPath": "icon/avatar/1205.png",
     "type": 1,
-    "camp": 4
+    "camp": 5
   }
 }

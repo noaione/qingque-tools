@@ -1730,7 +1730,7 @@
             "id": 122120008,
             "sectionId": 1221200,
             "senderId": 1009,
-            "text": "Among the people I know, you showed as the best match. Also... these things Madam Ruan Mei left behind is kind of related to you",
+            "text": "Among the people I know, you showed as the best match. Also... these things Madam Ruan Mei left behind are kind of related to you",
             "option": null,
             "nextIds": [
               122120012
@@ -2134,7 +2134,7 @@
             "id": 122240003,
             "sectionId": 1222400,
             "senderId": null,
-            "text": "I wonder what pitch of woof Peppy makes when he is glazing me up",
+            "text": "I wonder what pitch of woof Peppy makes when he is buttering me up",
             "option": "What pitch of woof is he using?",
             "nextIds": [
               122240004

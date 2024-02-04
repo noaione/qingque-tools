@@ -1,0 +1,70 @@
+{
+  "id": 132,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1305500,
+        "startIds": [
+          130550000
+        ],
+        "messages": {
+          "130550000": {
+            "type": "Text",
+            "id": 130550000,
+            "sectionId": 1305500,
+            "senderId": 132,
+            "text": "I see you have collected enough origami birds",
+            "option": null,
+            "nextIds": [
+              130550001
+            ],
+            "kind": "NPC"
+          },
+          "130550001": {
+            "type": "Text",
+            "id": 130550001,
+            "sectionId": 1305500,
+            "senderId": 132,
+            "text": "It is time to claim your reward",
+            "option": null,
+            "nextIds": [
+              130550002
+            ],
+            "kind": "NPC"
+          },
+          "130550002": {
+            "type": "Text",
+            "id": 130550002,
+            "sectionId": 1305500,
+            "senderId": 132,
+            "text": "\"Thank you for your contribution to Dreamville.\" That's what the script says.",
+            "option": null,
+            "nextIds": [
+              130550003
+            ],
+            "kind": "NPC"
+          },
+          "130550003": {
+            "type": "Text",
+            "id": 130550003,
+            "sectionId": 1305500,
+            "senderId": 132,
+            "text": "Find me outside the hotel <u>VIP Lounge, in front of the giant clock</u>.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 132,
+    "name": "Dr. Blues",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  }
+}

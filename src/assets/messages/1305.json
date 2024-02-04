@@ -450,7 +450,7 @@
             "id": 201180028,
             "sectionId": 2011800,
             "senderId": 1305,
-            "text": "Indeed, strides made in medical technologies have, undeniably, saved many a soul from afflictions and ailments. But medical treatments are not necessary synonymous with prolongation of life.",
+            "text": "Indeed, strides made in medical technologies have, undeniably, saved many a soul from afflictions and ailments. But medical treatments are not necessarily synonymous with prolongation of life.",
             "option": null,
             "nextIds": [
               201180029
@@ -1097,7 +1097,7 @@
             "id": 201200010,
             "sectionId": 2012000,
             "senderId": 1305,
-            "text": "\"...for he took an extensive period of time to provide an entirely accurate answer, albeit utterly inconsequential.\"",
+            "text": "\"...for he took an extensive period of time to produce an entirely accurate answer, albeit utterly inconsequential.\"",
             "option": null,
             "nextIds": [
               201200011

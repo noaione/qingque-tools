@@ -58,7 +58,7 @@
   "1007": {
     "id": 1007,
     "name": "Screwllum",
-    "signature": null,
+    "signature": "Looking forward to meeting every little insect again",
     "iconPath": "icon/avatar/Screwllum.png",
     "type": 1,
     "camp": 2
@@ -221,7 +221,7 @@
     "signature": null,
     "iconPath": "icon/avatar/1205.png",
     "type": 1,
-    "camp": 4
+    "camp": 5
   },
   "1206": {
     "id": 1206,
@@ -319,19 +319,35 @@
     "type": 1,
     "camp": 8
   },
+  "1306": {
+    "id": 1306,
+    "name": "Sparkle",
+    "signature": "Your cute little sparkle suddenly appears",
+    "iconPath": "icon/avatar/1306.png",
+    "type": 1,
+    "camp": 9
+  },
+  "1307": {
+    "id": 1307,
+    "name": "Black Swan",
+    "signature": "Memories are soft amber",
+    "iconPath": "icon/avatar/1307.png",
+    "type": 1,
+    "camp": 10
+  },
+  "1312": {
+    "id": 1312,
+    "name": "Misha",
+    "signature": "Keep it up! The new world is just ahead!",
+    "iconPath": "icon/avatar/1312.png",
+    "type": 1,
+    "camp": 11
+  },
   "8000": {
     "id": 8000,
     "name": "{NICKNAME}",
     "signature": null,
     "iconPath": "",
-    "type": null,
-    "camp": null
-  },
-  "8001": {
-    "id": 8001,
-    "name": "{NICKNAME}",
-    "signature": null,
-    "iconPath": "icon/avatar/8001.png",
     "type": null,
     "camp": null
   },
@@ -1103,6 +1119,14 @@
     "type": 3,
     "camp": 2
   },
+  "106": {
+    "id": 106,
+    "name": "Dr. Edward",
+    "signature": "Unconsciousness is the language of the Big Other.",
+    "iconPath": "icon/avatar/DreamStore.png",
+    "type": 2,
+    "camp": 99
+  },
   "107": {
     "id": 107,
     "name": "Group chat with Topaz, March 7th, and {NICKNAME}",
@@ -1166,5 +1190,165 @@
     "iconPath": "icon/avatar/GroupDefault.png",
     "type": 3,
     "camp": 2
+  },
+  "115": {
+    "id": 115,
+    "name": "Team Penacony",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 1
+  },
+  "116": {
+    "id": 116,
+    "name": "Sweet Dream Times",
+    "signature": null,
+    "iconPath": "icon/avatar/DreamOffice.png",
+    "type": 2,
+    "camp": 99
+  },
+  "117": {
+    "id": 117,
+    "name": "Lesley Dean Fans, Unite!",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 99
+  },
+  "118": {
+    "id": 118,
+    "name": "Woolsey",
+    "signature": null,
+    "iconPath": "icon/avatar/Woolsey.png",
+    "type": 2,
+    "camp": 99
+  },
+  "119": {
+    "id": 119,
+    "name": "Clo■■■",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  },
+  "120": {
+    "id": 120,
+    "name": "Clock Diner",
+    "signature": null,
+    "iconPath": "icon/avatar/DelicayExpress.png",
+    "type": 2,
+    "camp": 99
+  },
+  "121": {
+    "id": 121,
+    "name": "Uma",
+    "signature": null,
+    "iconPath": "icon/avatar/Uma.png",
+    "type": 2,
+    "camp": 99
+  },
+  "122": {
+    "id": 122,
+    "name": "Penacony Luxury Goods",
+    "signature": null,
+    "iconPath": "icon/avatar/LuxuryStore.png",
+    "type": 2,
+    "camp": 99
+  },
+  "123": {
+    "id": 123,
+    "name": "Crystal Chalice",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  },
+  "124": {
+    "id": 124,
+    "name": "Old Friend",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  },
+  "125": {
+    "id": 125,
+    "name": "Trashcan",
+    "signature": null,
+    "iconPath": "icon/avatar/202002.png",
+    "type": 2,
+    "camp": 99
+  },
+  "126": {
+    "id": 126,
+    "name": "Fiery Trashcan",
+    "signature": null,
+    "iconPath": "icon/avatar/202002.png",
+    "type": 2,
+    "camp": 99
+  },
+  "127": {
+    "id": 127,
+    "name": "Trashcan With a Passion Like Fire",
+    "signature": null,
+    "iconPath": "icon/avatar/202002.png",
+    "type": 2,
+    "camp": 99
+  },
+  "128": {
+    "id": 128,
+    "name": "Heartbroken Trashcan",
+    "signature": null,
+    "iconPath": "icon/avatar/202002.png",
+    "type": 2,
+    "camp": 99
+  },
+  "129": {
+    "id": 129,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  },
+  "130": {
+    "id": 130,
+    "name": "Dream Jigsaw Research Group",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  },
+  "131": {
+    "id": 131,
+    "name": "Sweet Dream Times",
+    "signature": null,
+    "iconPath": "icon/avatar/DreamOffice.png",
+    "type": 2,
+    "camp": 99
+  },
+  "132": {
+    "id": 132,
+    "name": "Dr. Blues",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  },
+  "134": {
+    "id": 134,
+    "name": "Tizocic III",
+    "signature": "Kindness should be paid forward",
+    "iconPath": "icon/avatar/DesolaTheSecond.png",
+    "type": 2,
+    "camp": 11
+  },
+  "135": {
+    "id": 135,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
   }
 }

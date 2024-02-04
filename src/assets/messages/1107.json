@@ -1164,7 +1164,7 @@
             "id": 200240004,
             "sectionId": 2002400,
             "senderId": null,
-            "text": "[Sure]",
+            "text": "[Okay]",
             "option": "No problem",
             "nextIds": [
               200240005
@@ -1291,7 +1291,7 @@
             "id": 200240029,
             "sectionId": 2002400,
             "senderId": 1107,
-            "text": "[thanks]",
+            "text": "[Thanks]",
             "option": null,
             "nextIds": [],
             "kind": "NPC",
@@ -2008,7 +2008,7 @@
             "id": 200480026,
             "sectionId": 2004800,
             "senderId": 1107,
-            "text": "[thanks]",
+            "text": "[Thanks]",
             "option": null,
             "nextIds": [],
             "kind": "NPC",
@@ -2082,7 +2082,7 @@
             "id": 122200001,
             "sectionId": 1222000,
             "senderId": null,
-            "text": "<unbreak>10034</unbreak>",
+            "text": "",
             "option": null,
             "nextIds": [
               122200002

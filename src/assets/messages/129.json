@@ -1,0 +1,2494 @@
+{
+  "id": 129,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2012400,
+        "startIds": [
+          201240000
+        ],
+        "messages": {
+          "201240000": {
+            "type": "Text",
+            "id": 201240000,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "An old friend has sent you a message request.",
+            "option": null,
+            "nextIds": [
+              201240001
+            ],
+            "kind": "System"
+          },
+          "201240001": {
+            "type": "Text",
+            "id": 201240001,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "My dear, are you there?",
+            "option": null,
+            "nextIds": [
+              201240002
+            ],
+            "kind": "NPC"
+          },
+          "201240002": {
+            "type": "Text",
+            "id": 201240002,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Warning! This account has been reported by multiple users. You and this user currently have no mutual friends, please be cautious during your interaction.",
+            "option": null,
+            "nextIds": [
+              201240003
+            ],
+            "kind": "System"
+          },
+          "201240003": {
+            "type": "Text",
+            "id": 201240003,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "?",
+            "option": "?",
+            "nextIds": [
+              201240004
+            ],
+            "kind": "Player"
+          },
+          "201240004": {
+            "type": "Text",
+            "id": 201240004,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "I'm your old friend, I hear you're in Penacony too? Fancy meeting up?",
+            "option": null,
+            "nextIds": [
+              201240005,
+              201240008
+            ],
+            "kind": "NPC"
+          },
+          "201240005": {
+            "type": "Text",
+            "id": 201240005,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "My old friend? Which one?",
+            "option": "Old friend?",
+            "nextIds": [
+              201240006
+            ],
+            "kind": "Player"
+          },
+          "201240006": {
+            "type": "Text",
+            "id": 201240006,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "It's me!",
+            "option": null,
+            "nextIds": [
+              201240007
+            ],
+            "kind": "NPC"
+          },
+          "201240007": {
+            "type": "Text",
+            "id": 201240007,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "I know you're busy, but I need your help with something",
+            "option": null,
+            "nextIds": [
+              201240011
+            ],
+            "kind": "NPC"
+          },
+          "201240011": {
+            "type": "Text",
+            "id": 201240011,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Have you heard about the Charmony Festival? There's going to be a performance by Robin, a singer known across the cosmos!",
+            "option": null,
+            "nextIds": [
+              201240012,
+              201240015
+            ],
+            "kind": "NPC"
+          },
+          "201240012": {
+            "type": "Text",
+            "id": 201240012,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "I have a ticket, I'm not buying one",
+            "option": "I have a ticket",
+            "nextIds": [
+              201240013
+            ],
+            "kind": "Player"
+          },
+          "201240013": {
+            "type": "Text",
+            "id": 201240013,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Ah, how did you know I had extra tickets?",
+            "option": null,
+            "nextIds": [
+              201240014
+            ],
+            "kind": "NPC"
+          },
+          "201240014": {
+            "type": "Text",
+            "id": 201240014,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "I should have expected this from you. These tickets are almost impossible to get hold of, I never imagined that you would have managed to grab one",
+            "option": null,
+            "nextIds": [
+              201240017
+            ],
+            "kind": "NPC"
+          },
+          "201240017": {
+            "type": "Text",
+            "id": 201240017,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Looks like the market isn't looking great at the moment, I just can't sell these tickets. Fortunately, that wasn't the business I was calling you about",
+            "option": null,
+            "nextIds": [
+              201240018
+            ],
+            "kind": "NPC"
+          },
+          "201240018": {
+            "type": "Text",
+            "id": 201240018,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Robin had two backing performers that had to drop out due to sickness, I received a quota to fill in and thought of you straight away",
+            "option": null,
+            "nextIds": [
+              201240019
+            ],
+            "kind": "NPC"
+          },
+          "201240019": {
+            "type": "Text",
+            "id": 201240019,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "I can teach you the steps and you can just head straight out on stage",
+            "option": null,
+            "nextIds": [
+              201240020
+            ],
+            "kind": "NPC"
+          },
+          "201240020": {
+            "type": "Text",
+            "id": 201240020,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "What do you think? Interested?",
+            "option": null,
+            "nextIds": [
+              201240021,
+              201240034
+            ],
+            "kind": "NPC"
+          },
+          "201240021": {
+            "type": "Text",
+            "id": 201240021,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "I'm interested, tell me more!",
+            "option": "I am, tell me more",
+            "nextIds": [
+              201240022
+            ],
+            "kind": "Player"
+          },
+          "201240022": {
+            "type": "Text",
+            "id": 201240022,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "<u>Don't miss out! Click this link to register your number and appear on stage with Robin</u>",
+            "option": null,
+            "nextIds": [
+              201240023
+            ],
+            "kind": "NPC"
+          },
+          "201240023": {
+            "type": "Text",
+            "id": 201240023,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Click this link and enter your personal details as well as your address",
+            "option": null,
+            "nextIds": [
+              201240024
+            ],
+            "kind": "NPC"
+          },
+          "201240024": {
+            "type": "Text",
+            "id": 201240024,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Remember to upload a front-on photo of yourself. It has to be front-facing! Even better if you can do a <unbreak>360</unbreak>-degree shot!",
+            "option": null,
+            "nextIds": [
+              201240025
+            ],
+            "kind": "NPC"
+          },
+          "201240025": {
+            "type": "Text",
+            "id": 201240025,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Show me once you've uploaded it!",
+            "option": null,
+            "nextIds": [
+              201240026
+            ],
+            "kind": "NPC"
+          },
+          "201240026": {
+            "type": "Text",
+            "id": 201240026,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "It will help you pass through facial recognition",
+            "option": null,
+            "nextIds": [
+              201240027
+            ],
+            "kind": "NPC"
+          },
+          "201240027": {
+            "type": "Text",
+            "id": 201240027,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Warning! Please do not use external chat applications to complete transactions to avoid the risk of scams and fraudulent activity!",
+            "option": null,
+            "nextIds": [
+              201240028,
+              201240033
+            ],
+            "kind": "System"
+          },
+          "201240028": {
+            "type": "Text",
+            "id": 201240028,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "I've signed up!",
+            "option": "I've signed up",
+            "nextIds": [
+              201240029
+            ],
+            "kind": "Player"
+          },
+          "201240029": {
+            "type": "Text",
+            "id": 201240029,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Here's my picture!",
+            "option": null,
+            "nextIds": [
+              201240030,
+              201240031,
+              201240032
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201240030": {
+            "type": "Sticker",
+            "id": 201240030,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201240048
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30014,
+              "path": "icon/emoji/30014.png",
+              "keywords": "Photo"
+            }
+          },
+          "201240048": {
+            "type": "Text",
+            "id": 201240048,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Quit messing around, Sparkle",
+            "option": "Quit messing around, Sparkle",
+            "nextIds": [
+              201240049
+            ],
+            "kind": "Player"
+          },
+          "201240049": {
+            "type": "Text",
+            "id": 201240049,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "You've been spamming too much. The system is sending out scam warnings...",
+            "option": null,
+            "nextIds": [
+              201240050
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201240050": {
+            "type": "Text",
+            "id": 201240050,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              201240051
+            ],
+            "kind": "NPC"
+          },
+          "201240051": {
+            "type": "Text",
+            "id": 201240051,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "No way! I didn't get them on my end!",
+            "option": null,
+            "nextIds": [
+              201240052
+            ],
+            "kind": "NPC"
+          },
+          "201240052": {
+            "type": "Text",
+            "id": 201240052,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Ah, this is terrible",
+            "option": null,
+            "nextIds": [
+              201240053
+            ],
+            "kind": "NPC"
+          },
+          "201240053": {
+            "type": "Text",
+            "id": 201240053,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "These system warnings are so annoying!",
+            "option": null,
+            "nextIds": [
+              201240054
+            ],
+            "kind": "NPC"
+          },
+          "201240054": {
+            "type": "Text",
+            "id": 201240054,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "What's wrong with reaching out to an old friend to get back in touch?",
+            "option": null,
+            "nextIds": [
+              201240060
+            ],
+            "kind": "NPC"
+          },
+          "201240060": {
+            "type": "Text",
+            "id": 201240060,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Friend...? Have we met before?",
+            "option": "I ain't your friend",
+            "nextIds": [
+              201240061
+            ],
+            "kind": "Player"
+          },
+          "201240061": {
+            "type": "Text",
+            "id": 201240061,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "What? I can't text you just because I haven't met you?",
+            "option": null,
+            "nextIds": [
+              201240055
+            ],
+            "kind": "NPC"
+          },
+          "201240055": {
+            "type": "Text",
+            "id": 201240055,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Fine! Forget it. I'll come back with something fun for you next time!",
+            "option": null,
+            "nextIds": [
+              201240056,
+              201240057
+            ],
+            "kind": "NPC"
+          },
+          "201240056": {
+            "type": "Text",
+            "id": 201240056,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Bring it on, we'll see who tricks whom next time!",
+            "option": "Bring it on",
+            "nextIds": [
+              201240058
+            ],
+            "kind": "Player"
+          },
+          "201240058": {
+            "type": "Text",
+            "id": 201240058,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Message failed to send.",
+            "option": null,
+            "nextIds": [
+              201240059
+            ],
+            "kind": "System"
+          },
+          "201240059": {
+            "type": "Text",
+            "id": 201240059,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "This account is no longer available due to multiple reports by other users.",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "201240057": {
+            "type": "Text",
+            "id": 201240057,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Please don't come back! Nothing good ever comes from hanging about with a Fool...",
+            "option": "Please don't come back",
+            "nextIds": [
+              201240058
+            ],
+            "kind": "Player"
+          },
+          "201240031": {
+            "type": "Sticker",
+            "id": 201240031,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201240048
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30015,
+              "path": "icon/emoji/30015.png",
+              "keywords": "Photo"
+            }
+          },
+          "201240032": {
+            "type": "Sticker",
+            "id": 201240032,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201240048
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30016,
+              "path": "icon/emoji/30016.png",
+              "keywords": "Photo"
+            }
+          },
+          "201240033": {
+            "type": "Text",
+            "id": 201240033,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "This is a scam!",
+            "option": "This is a scam!",
+            "nextIds": [
+              201240048
+            ],
+            "kind": "Player"
+          },
+          "201240034": {
+            "type": "Text",
+            "id": 201240034,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Thanks, I'm not interested in scams",
+            "option": "Thanks, I'm not interested",
+            "nextIds": [
+              201240035
+            ],
+            "kind": "Player"
+          },
+          "201240035": {
+            "type": "Text",
+            "id": 201240035,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Hey, don't just leave me hanging! It's really simple!",
+            "option": null,
+            "nextIds": [
+              201240036
+            ],
+            "kind": "NPC"
+          },
+          "201240036": {
+            "type": "Text",
+            "id": 201240036,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "<u>Don't miss out! Click this link to register your number and appear on stage with Robin</u>",
+            "option": null,
+            "nextIds": [
+              201240037
+            ],
+            "kind": "NPC"
+          },
+          "201240037": {
+            "type": "Text",
+            "id": 201240037,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Click this link and enter your personal details as well as your address",
+            "option": null,
+            "nextIds": [
+              201240038
+            ],
+            "kind": "NPC"
+          },
+          "201240038": {
+            "type": "Text",
+            "id": 201240038,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Oh yeah, remember to upload a front-on photo of yourself. It has to be front-facing! Even better if you can do a <unbreak>360</unbreak>-degree shot!",
+            "option": null,
+            "nextIds": [
+              201240039
+            ],
+            "kind": "NPC"
+          },
+          "201240039": {
+            "type": "Text",
+            "id": 201240039,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Show me once you've uploaded it!",
+            "option": null,
+            "nextIds": [
+              201240040
+            ],
+            "kind": "NPC"
+          },
+          "201240040": {
+            "type": "Text",
+            "id": 201240040,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "It will help you pass through facial recognition",
+            "option": null,
+            "nextIds": [
+              201240041
+            ],
+            "kind": "NPC"
+          },
+          "201240041": {
+            "type": "Text",
+            "id": 201240041,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Warning! Please do not use external chat applications to complete transactions to avoid the risk of scams and fraudulent activity!",
+            "option": null,
+            "nextIds": [
+              201240042,
+              201240047
+            ],
+            "kind": "System"
+          },
+          "201240042": {
+            "type": "Text",
+            "id": 201240042,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "You know what? I'll put my faith in my old friend",
+            "option": "I'll trust my old friend",
+            "nextIds": [
+              201240043
+            ],
+            "kind": "Player"
+          },
+          "201240043": {
+            "type": "Text",
+            "id": 201240043,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "I've signed up! Here's the picture!",
+            "option": null,
+            "nextIds": [
+              201240044,
+              201240045,
+              201240046
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201240044": {
+            "type": "Sticker",
+            "id": 201240044,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201240048
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30014,
+              "path": "icon/emoji/30014.png",
+              "keywords": "Photo"
+            }
+          },
+          "201240045": {
+            "type": "Sticker",
+            "id": 201240045,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201240048
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30015,
+              "path": "icon/emoji/30015.png",
+              "keywords": "Photo"
+            }
+          },
+          "201240046": {
+            "type": "Sticker",
+            "id": 201240046,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201240048
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 30016,
+              "path": "icon/emoji/30016.png",
+              "keywords": "Photo"
+            }
+          },
+          "201240047": {
+            "type": "Text",
+            "id": 201240047,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "This is still a scam!",
+            "option": "This is still a scam!",
+            "nextIds": [
+              201240048
+            ],
+            "kind": "Player"
+          },
+          "201240015": {
+            "type": "Text",
+            "id": 201240015,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "If you don't have a ticket, you can buy one from me. I've got as many as you need",
+            "option": "You want to buy a ticket?",
+            "nextIds": [
+              201240016
+            ],
+            "kind": "Player"
+          },
+          "201240016": {
+            "type": "Text",
+            "id": 201240016,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Are you serious...? These tickets are almost impossible to get hold of, how did you manage to bag so many? You didn't do anything illegal, did you?",
+            "option": null,
+            "nextIds": [
+              201240017
+            ],
+            "kind": "NPC"
+          },
+          "201240008": {
+            "type": "Text",
+            "id": 201240008,
+            "sectionId": 2012400,
+            "senderId": null,
+            "text": "Sorry, I have no friends",
+            "option": "I have no friends",
+            "nextIds": [
+              201240009
+            ],
+            "kind": "Player"
+          },
+          "201240009": {
+            "type": "Text",
+            "id": 201240009,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "Ah, sorry! I think I got the wrong person",
+            "option": null,
+            "nextIds": [
+              201240010
+            ],
+            "kind": "NPC"
+          },
+          "201240010": {
+            "type": "Text",
+            "id": 201240010,
+            "sectionId": 2012400,
+            "senderId": 124,
+            "text": "But perhaps this is fate!",
+            "option": null,
+            "nextIds": [
+              201240011
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2012500,
+        "startIds": [
+          201250000
+        ],
+        "messages": {
+          "201250000": {
+            "type": "Text",
+            "id": 201250000,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Pom-Pom has sent you a message request.",
+            "option": null,
+            "nextIds": [
+              201250001
+            ],
+            "kind": "System"
+          },
+          "201250001": {
+            "type": "Text",
+            "id": 201250001,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "{NICKNAME}! Help Pom-Pom!!",
+            "option": null,
+            "nextIds": [
+              201250002
+            ],
+            "kind": "NPC"
+          },
+          "201250002": {
+            "type": "Text",
+            "id": 201250002,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Pom-Pom noticed something weird's gotten onto the Express!!!",
+            "option": null,
+            "nextIds": [
+              201250003
+            ],
+            "kind": "NPC"
+          },
+          "201250003": {
+            "type": "Text",
+            "id": 201250003,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "So, Pom-Pom chased it into the engine room!!!",
+            "option": null,
+            "nextIds": [
+              201250004
+            ],
+            "kind": "NPC"
+          },
+          "201250004": {
+            "type": "Text",
+            "id": 201250004,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Come and save Pom-Pom!!!",
+            "option": null,
+            "nextIds": [
+              201250005,
+              201250006
+            ],
+            "kind": "NPC"
+          },
+          "201250005": {
+            "type": "Text",
+            "id": 201250005,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Who are you again?",
+            "option": "Who are you again?",
+            "nextIds": [
+              201250007
+            ],
+            "kind": "Player"
+          },
+          "201250007": {
+            "type": "Text",
+            "id": 201250007,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "What are you talking about? Pom-Pom is Pom-Pom, conductor of the Express!!!",
+            "option": null,
+            "nextIds": [
+              201250008
+            ],
+            "kind": "NPC"
+          },
+          "201250008": {
+            "type": "Sticker",
+            "id": 201250008,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201250009
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "201250009": {
+            "type": "Text",
+            "id": 201250009,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Pom-Pom broke the comms device during Pom-Pom's routine inspection, so Pom-Pom had to change to a temporary account of Pom-Pom's!!!",
+            "option": null,
+            "nextIds": [
+              201250010,
+              201250022
+            ],
+            "kind": "NPC"
+          },
+          "201250010": {
+            "type": "Text",
+            "id": 201250010,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "I still suspect that you are Sparkle",
+            "option": "I suspect you are Sparkle",
+            "nextIds": [
+              201250011
+            ],
+            "kind": "Player"
+          },
+          "201250011": {
+            "type": "Text",
+            "id": 201250011,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Because...",
+            "option": null,
+            "nextIds": [
+              201250012,
+              201250015,
+              201250018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201250012": {
+            "type": "Text",
+            "id": 201250012,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "You're spamming way too many Pom-Poms than the normal level!",
+            "option": "You're spamming too many Pom-Poms!!!",
+            "nextIds": [
+              201250013
+            ],
+            "kind": "Player"
+          },
+          "201250013": {
+            "type": "Text",
+            "id": 201250013,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Ohh... I see...",
+            "option": null,
+            "nextIds": [
+              201250014
+            ],
+            "kind": "NPC"
+          },
+          "201250014": {
+            "type": "Text",
+            "id": 201250014,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "My plan of being loyal to the character ended up backfiring, my mistake...",
+            "option": null,
+            "nextIds": [
+              201250045
+            ],
+            "kind": "NPC"
+          },
+          "201250045": {
+            "type": "Text",
+            "id": 201250045,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Being exposed so quickly is just embarrassing...",
+            "option": null,
+            "nextIds": [
+              201250046
+            ],
+            "kind": "NPC"
+          },
+          "201250046": {
+            "type": "Text",
+            "id": 201250046,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "I need to prepare properly for the next time we chat. I'll be back when I think of something good",
+            "option": null,
+            "nextIds": [
+              201250047,
+              201250048
+            ],
+            "kind": "NPC"
+          },
+          "201250047": {
+            "type": "Text",
+            "id": 201250047,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Bring it on, we'll see who tricks whom next time!",
+            "option": "Bring it on",
+            "nextIds": [
+              201250049
+            ],
+            "kind": "Player"
+          },
+          "201250049": {
+            "type": "Text",
+            "id": 201250049,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Awww...",
+            "option": null,
+            "nextIds": [
+              201250050
+            ],
+            "kind": "NPC"
+          },
+          "201250050": {
+            "type": "Text",
+            "id": 201250050,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "You're really starting to sound like a broken record with that term",
+            "option": null,
+            "nextIds": [
+              201250051
+            ],
+            "kind": "NPC"
+          },
+          "201250051": {
+            "type": "Text",
+            "id": 201250051,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "How can you call having fun \"making trouble\"?",
+            "option": null,
+            "nextIds": [
+              201250052
+            ],
+            "kind": "NPC"
+          },
+          "201250052": {
+            "type": "Text",
+            "id": 201250052,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Have you never heard the phrase: \"A bit of fun a day keeps the Masked Fool away?\"",
+            "option": null,
+            "nextIds": [
+              201250053
+            ],
+            "kind": "NPC"
+          },
+          "201250053": {
+            "type": "Text",
+            "id": 201250053,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Masked Fools prefer to stir up things in life that are inherently boring, making them more wonderful!",
+            "option": null,
+            "nextIds": [
+              201250054
+            ],
+            "kind": "NPC"
+          },
+          "201250054": {
+            "type": "Text",
+            "id": 201250054,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Alright, I've got things to do. If you don't want me back, I won't come back",
+            "option": null,
+            "nextIds": [
+              201250055
+            ],
+            "kind": "NPC"
+          },
+          "201250055": {
+            "type": "Text",
+            "id": 201250055,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Let me know next time if you have something fun coming up",
+            "option": null,
+            "nextIds": [
+              201250056
+            ],
+            "kind": "NPC"
+          },
+          "201250056": {
+            "type": "Sticker",
+            "id": 201250056,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201250057,
+              201250058
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 106012,
+              "path": "icon/emoji/106012.png",
+              "keywords": "Prank"
+            }
+          },
+          "201250057": {
+            "type": "Sticker",
+            "id": 201250057,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201250059
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 106011,
+              "path": "icon/emoji/106011.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "201250059": {
+            "type": "Text",
+            "id": 201250059,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Message failed to send.",
+            "option": null,
+            "nextIds": [
+              201250060
+            ],
+            "kind": "System"
+          },
+          "201250060": {
+            "type": "Text",
+            "id": 201250060,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "This account has been deleted.",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "201250058": {
+            "type": "Sticker",
+            "id": 201250058,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201250059
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 106010,
+              "path": "icon/emoji/106010.png",
+              "keywords": "Grumble"
+            }
+          },
+          "201250048": {
+            "type": "Text",
+            "id": 201250048,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Please don't come back! Nothing good ever comes from hanging about with a Fool...",
+            "option": "Please don't come back",
+            "nextIds": [
+              201250049
+            ],
+            "kind": "Player"
+          },
+          "201250015": {
+            "type": "Text",
+            "id": 201250015,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Pom-Pom would punish anyone that breaks into the engine room!",
+            "option": "No one can get inside the engine room!",
+            "nextIds": [
+              201250016
+            ],
+            "kind": "Player"
+          },
+          "201250016": {
+            "type": "Text",
+            "id": 201250016,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Wow",
+            "option": null,
+            "nextIds": [
+              201250017
+            ],
+            "kind": "NPC"
+          },
+          "201250017": {
+            "type": "Text",
+            "id": 201250017,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "I didn't realize that little plush was so dangerous. That's pretty cool...",
+            "option": null,
+            "nextIds": [
+              201250045
+            ],
+            "kind": "NPC"
+          },
+          "201250018": {
+            "type": "Text",
+            "id": 201250018,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "No one can infiltrate the Express apart from Nameless and guests who have been explicitly invited!",
+            "option": "No one can infiltrate the Express!",
+            "nextIds": [
+              201250019
+            ],
+            "kind": "Player"
+          },
+          "201250019": {
+            "type": "Text",
+            "id": 201250019,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Oh?",
+            "option": null,
+            "nextIds": [
+              201250020
+            ],
+            "kind": "NPC"
+          },
+          "201250020": {
+            "type": "Text",
+            "id": 201250020,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "I don't believe that. There are quite a number of hitchhikers that have successfully made it onboard",
+            "option": null,
+            "nextIds": [
+              201250021
+            ],
+            "kind": "NPC"
+          },
+          "201250021": {
+            "type": "Text",
+            "id": 201250021,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "You think there is no Masked Fool among them?",
+            "option": null,
+            "nextIds": [
+              201250045
+            ],
+            "kind": "NPC"
+          },
+          "201250022": {
+            "type": "Text",
+            "id": 201250022,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "It's you! The great Express conductor!",
+            "option": "It's you! The great Express conductor!",
+            "nextIds": [
+              201250023
+            ],
+            "kind": "Player"
+          },
+          "201250023": {
+            "type": "Text",
+            "id": 201250023,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Now you're using a suspicious temporary account, it means the cat is finally out of the bag!",
+            "option": null,
+            "nextIds": [
+              201250024
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201250024": {
+            "type": "Text",
+            "id": 201250024,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              201250025
+            ],
+            "kind": "NPC"
+          },
+          "201250025": {
+            "type": "Text",
+            "id": 201250025,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Sorry... But I have always known your secret... the secret of the Express...",
+            "option": null,
+            "nextIds": [
+              201250026
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201250026": {
+            "type": "Text",
+            "id": 201250026,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              201250027,
+              201250032,
+              201250037
+            ],
+            "kind": "NPC"
+          },
+          "201250027": {
+            "type": "Text",
+            "id": 201250027,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "What is hidden in the engine room is actually...",
+            "option": "What is hidden in the engine room is actually...",
+            "nextIds": [
+              201250028
+            ],
+            "kind": "Player"
+          },
+          "201250028": {
+            "type": "Text",
+            "id": 201250028,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "The previous Express conductor!",
+            "option": null,
+            "nextIds": [
+              201250029
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201250029": {
+            "type": "Text",
+            "id": 201250029,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              201250030
+            ],
+            "kind": "NPC"
+          },
+          "201250030": {
+            "type": "Text",
+            "id": 201250030,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Huh? That is actually true?",
+            "option": null,
+            "nextIds": [
+              201250031
+            ],
+            "kind": "NPC"
+          },
+          "201250031": {
+            "type": "Text",
+            "id": 201250031,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "You Astral Express people would go that far?",
+            "option": null,
+            "nextIds": [
+              201250042
+            ],
+            "kind": "NPC"
+          },
+          "201250042": {
+            "type": "Text",
+            "id": 201250042,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Sparkle, you've exposed yourself",
+            "option": "Sparkle, you've exposed yourself",
+            "nextIds": [
+              201250043
+            ],
+            "kind": "Player"
+          },
+          "201250043": {
+            "type": "Text",
+            "id": 201250043,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Ah, I really thought that was true... I dropped the act in the heat of the moment",
+            "option": null,
+            "nextIds": [
+              201250044
+            ],
+            "kind": "NPC"
+          },
+          "201250044": {
+            "type": "Text",
+            "id": 201250044,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "You're pretty bold to make up such a lie",
+            "option": null,
+            "nextIds": [
+              201250045
+            ],
+            "kind": "NPC"
+          },
+          "201250032": {
+            "type": "Text",
+            "id": 201250032,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "You, the Express conductor, are actually a Masked Fool",
+            "option": "The Express conductor is a Masked Fool",
+            "nextIds": [
+              201250033
+            ],
+            "kind": "Player"
+          },
+          "201250033": {
+            "type": "Text",
+            "id": 201250033,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Pom-Pom and Aha are family!",
+            "option": null,
+            "nextIds": [
+              201250034
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201250034": {
+            "type": "Text",
+            "id": 201250034,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              201250035
+            ],
+            "kind": "NPC"
+          },
+          "201250035": {
+            "type": "Text",
+            "id": 201250035,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Huh? How come I didn't know that?",
+            "option": null,
+            "nextIds": [
+              201250036
+            ],
+            "kind": "NPC"
+          },
+          "201250036": {
+            "type": "Text",
+            "id": 201250036,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "You Nameless would really go that far?",
+            "option": null,
+            "nextIds": [
+              201250042
+            ],
+            "kind": "NPC"
+          },
+          "201250037": {
+            "type": "Text",
+            "id": 201250037,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Everyone on the Express was created by the Express' conductor!",
+            "option": "Pom-Pom created everyone",
+            "nextIds": [
+              201250038
+            ],
+            "kind": "Player"
+          },
+          "201250038": {
+            "type": "Text",
+            "id": 201250038,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "They are all Pom-Pom!",
+            "option": null,
+            "nextIds": [
+              201250039
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201250039": {
+            "type": "Text",
+            "id": 201250039,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              201250040
+            ],
+            "kind": "NPC"
+          },
+          "201250040": {
+            "type": "Text",
+            "id": 201250040,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Huh? Even I wouldn't make something like that up",
+            "option": null,
+            "nextIds": [
+              201250041
+            ],
+            "kind": "NPC"
+          },
+          "201250041": {
+            "type": "Text",
+            "id": 201250041,
+            "sectionId": 2012500,
+            "senderId": 1000,
+            "text": "Seriously, my friend, you've gone too far!",
+            "option": null,
+            "nextIds": [
+              201250042
+            ],
+            "kind": "NPC"
+          },
+          "201250006": {
+            "type": "Text",
+            "id": 201250006,
+            "sectionId": 2012500,
+            "senderId": null,
+            "text": "Sparkle? Again??",
+            "option": "Again?",
+            "nextIds": [
+              201250007
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2012600,
+        "startIds": [
+          201260000
+        ],
+        "messages": {
+          "201260000": {
+            "type": "Text",
+            "id": 201260000,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "Trashcan has sent you a message request.",
+            "option": null,
+            "nextIds": [
+              201260001
+            ],
+            "kind": "System"
+          },
+          "201260001": {
+            "type": "Text",
+            "id": 201260001,
+            "sectionId": 2012600,
+            "senderId": 125,
+            "text": "Hello.",
+            "option": null,
+            "nextIds": [
+              201260002,
+              201260003,
+              201260004
+            ],
+            "kind": "NPC"
+          },
+          "201260002": {
+            "type": "Text",
+            "id": 201260002,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "Hello",
+            "option": "Hello",
+            "nextIds": [
+              201260005
+            ],
+            "kind": "Player"
+          },
+          "201260005": {
+            "type": "Text",
+            "id": 201260005,
+            "sectionId": 2012600,
+            "senderId": 125,
+            "text": "That's right, I am your favorite trashcan.",
+            "option": null,
+            "nextIds": [
+              201260006
+            ],
+            "kind": "NPC"
+          },
+          "201260006": {
+            "type": "Text",
+            "id": 201260006,
+            "sectionId": 2012600,
+            "senderId": 125,
+            "text": "Your fiery passion has ignited my trashie heart that has laid dormant for so long.",
+            "option": null,
+            "nextIds": [
+              201260007,
+              201260009
+            ],
+            "kind": "NPC"
+          },
+          "201260007": {
+            "type": "Text",
+            "id": 201260007,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "Ignited? Seriously? You're saying I'm an incinerator?",
+            "option": "So I'm an incinerator?",
+            "nextIds": [
+              201260008
+            ],
+            "kind": "Player"
+          },
+          "201260008": {
+            "type": "Text",
+            "id": 201260008,
+            "sectionId": 2012600,
+            "senderId": 125,
+            "text": "That's right! You've caused my frozen heart to burn and become the energy that drives me to continue living!",
+            "option": null,
+            "nextIds": [
+              201260011
+            ],
+            "kind": "NPC"
+          },
+          "201260011": {
+            "type": "Text",
+            "id": 201260011,
+            "sectionId": 2012600,
+            "senderId": 125,
+            "text": "I am no longer just a regular trashcan.",
+            "option": null,
+            "nextIds": [
+              201260012
+            ],
+            "kind": "NPC"
+          },
+          "201260012": {
+            "type": "Text",
+            "id": 201260012,
+            "sectionId": 2012600,
+            "senderId": 126,
+            "text": "I am now a burning trashcan.",
+            "option": null,
+            "nextIds": [
+              201260013
+            ],
+            "kind": "NPC"
+          },
+          "201260013": {
+            "type": "Text",
+            "id": 201260013,
+            "sectionId": 2012600,
+            "senderId": 126,
+            "text": "Underneath my exterior as cold as steel... My heart burns brightly and brilliantly like fireworks.",
+            "option": null,
+            "nextIds": [
+              201260014
+            ],
+            "kind": "NPC"
+          },
+          "201260014": {
+            "type": "Text",
+            "id": 201260014,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "Sparkle, what are you playing at now?",
+            "option": "Sparkle, what is this?",
+            "nextIds": [
+              201260015
+            ],
+            "kind": "Player"
+          },
+          "201260015": {
+            "type": "Text",
+            "id": 201260015,
+            "sectionId": 2012600,
+            "senderId": 126,
+            "text": "I am not a sparkle! I am just a...",
+            "option": null,
+            "nextIds": [
+              201260016
+            ],
+            "kind": "NPC"
+          },
+          "201260016": {
+            "type": "Text",
+            "id": 201260016,
+            "sectionId": 2012600,
+            "senderId": 127,
+            "text": "...Trashcan that has a passion like fire!",
+            "option": null,
+            "nextIds": [
+              201260017
+            ],
+            "kind": "NPC"
+          },
+          "201260017": {
+            "type": "Text",
+            "id": 201260017,
+            "sectionId": 2012600,
+            "senderId": 127,
+            "text": "I cannot believe that you mistook me for someone else. This is heartbreaking. You are a horrible person!",
+            "option": null,
+            "nextIds": [
+              201260018
+            ],
+            "kind": "NPC"
+          },
+          "201260018": {
+            "type": "Text",
+            "id": 201260018,
+            "sectionId": 2012600,
+            "senderId": 128,
+            "text": "I no longer believe in love. Goodbye.",
+            "option": null,
+            "nextIds": [
+              201260019,
+              201260020
+            ],
+            "kind": "NPC"
+          },
+          "201260019": {
+            "type": "Text",
+            "id": 201260019,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "I'm begging you. Try some better acting next time...",
+            "option": "Try better acting next time...",
+            "nextIds": [
+              201260021
+            ],
+            "kind": "Player"
+          },
+          "201260021": {
+            "type": "Text",
+            "id": 201260021,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "Message failed to send.",
+            "option": null,
+            "nextIds": [
+              201260022
+            ],
+            "kind": "System"
+          },
+          "201260022": {
+            "type": "Text",
+            "id": 201260022,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "This account has been deleted.",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "201260020": {
+            "type": "Text",
+            "id": 201260020,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "Goodbye...",
+            "option": "Goodbye...",
+            "nextIds": [
+              201260021
+            ],
+            "kind": "Player"
+          },
+          "201260009": {
+            "type": "Text",
+            "id": 201260009,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "A trashcan is messaging me to express their heartfelt feelings... What kind of plot is this?",
+            "option": "What kind of plot is this?",
+            "nextIds": [
+              201260010
+            ],
+            "kind": "Player"
+          },
+          "201260010": {
+            "type": "Text",
+            "id": 201260010,
+            "sectionId": 2012600,
+            "senderId": 125,
+            "text": "This is nothing to be surprised by, my brethren. Love can move mountains and fill the oceans. Love can transcend the borders between humans and trash.",
+            "option": null,
+            "nextIds": [
+              201260011
+            ],
+            "kind": "NPC"
+          },
+          "201260003": {
+            "type": "Text",
+            "id": 201260003,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "Who are you again?",
+            "option": "And you are?",
+            "nextIds": [
+              201260005
+            ],
+            "kind": "Player"
+          },
+          "201260004": {
+            "type": "Text",
+            "id": 201260004,
+            "sectionId": 2012600,
+            "senderId": null,
+            "text": "???",
+            "option": "???",
+            "nextIds": [
+              201260005
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1304100,
+        "startIds": [
+          130410000
+        ],
+        "messages": {
+          "130410000": {
+            "type": "Text",
+            "id": 130410000,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "Black Swan has sent you a message request.",
+            "option": null,
+            "nextIds": [
+              130410001
+            ],
+            "kind": "System"
+          },
+          "130410001": {
+            "type": "Text",
+            "id": 130410001,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "{NICKNAME}, I imagine you have already seen that dream bubble?",
+            "option": null,
+            "nextIds": [
+              130410002
+            ],
+            "kind": "NPC"
+          },
+          "130410002": {
+            "type": "Text",
+            "id": 130410002,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Relax, I just want to know if anyone has come looking for you yet",
+            "option": null,
+            "nextIds": [
+              130410003,
+              130410006
+            ],
+            "kind": "NPC"
+          },
+          "130410003": {
+            "type": "Text",
+            "id": 130410003,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "You're Black Swan?",
+            "option": "Black Swan?",
+            "nextIds": [
+              130410004
+            ],
+            "kind": "Player"
+          },
+          "130410004": {
+            "type": "Text",
+            "id": 130410004,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Indeed, the Memokeeper you know.",
+            "option": null,
+            "nextIds": [
+              130410005
+            ],
+            "kind": "NPC"
+          },
+          "130410005": {
+            "type": "Sticker",
+            "id": 130410005,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130410007
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 106013,
+              "path": "icon/emoji/106013.png",
+              "keywords": "Evil Laugh"
+            }
+          },
+          "130410007": {
+            "type": "Text",
+            "id": 130410007,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "I'll make this simple: That Fool named \"Sparkle\" is currently searching all over the place for that dream bubble",
+            "option": null,
+            "nextIds": [
+              130410008
+            ],
+            "kind": "NPC"
+          },
+          "130410008": {
+            "type": "Text",
+            "id": 130410008,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "I do not know what her intentions are, but allowing it to slip into her hands will only make this situation more confusing",
+            "option": null,
+            "nextIds": [
+              130410009
+            ],
+            "kind": "NPC"
+          },
+          "130410009": {
+            "type": "Text",
+            "id": 130410009,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "{NICKNAME}, can you do me a favor and go to reclaim that dream bubble?",
+            "option": null,
+            "nextIds": [
+              130410010,
+              130410012
+            ],
+            "kind": "NPC"
+          },
+          "130410010": {
+            "type": "Text",
+            "id": 130410010,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "Of course!",
+            "option": "Of course!",
+            "nextIds": [
+              130410011
+            ],
+            "kind": "Player"
+          },
+          "130410011": {
+            "type": "Text",
+            "id": 130410011,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Your attitude is reassuring, I will go with you",
+            "option": null,
+            "nextIds": [
+              130410014
+            ],
+            "kind": "NPC"
+          },
+          "130410014": {
+            "type": "Text",
+            "id": 130410014,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "But I don't remember where that dream bubble was left",
+            "option": null,
+            "nextIds": [
+              130410015
+            ],
+            "kind": "NPC"
+          },
+          "130410015": {
+            "type": "Text",
+            "id": 130410015,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Can you remind me?",
+            "option": null,
+            "nextIds": [
+              130410016,
+              130410022,
+              130410028
+            ],
+            "kind": "NPC"
+          },
+          "130410016": {
+            "type": "Text",
+            "id": 130410016,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "In the Dreamscape Sales Store, Dr. Edward has it",
+            "option": "In the Dreamscape Sales Store",
+            "nextIds": [
+              130410017
+            ],
+            "kind": "Player"
+          },
+          "130410017": {
+            "type": "Text",
+            "id": 130410017,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "You don't remember?",
+            "option": null,
+            "nextIds": [
+              130410018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130410018": {
+            "type": "Text",
+            "id": 130410018,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Heehee~",
+            "option": null,
+            "nextIds": [
+              130410019
+            ],
+            "kind": "NPC"
+          },
+          "130410019": {
+            "type": "Text",
+            "id": 130410019,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Well, my memory is nothing compared to a true Memokeeper",
+            "option": null,
+            "nextIds": [
+              130410020
+            ],
+            "kind": "NPC"
+          },
+          "130410020": {
+            "type": "Sticker",
+            "id": 130410020,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130410021
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 106012,
+              "path": "icon/emoji/106012.png",
+              "keywords": "Prank"
+            }
+          },
+          "130410021": {
+            "type": "Text",
+            "id": 130410021,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Ah, I can't believe I got the intel so easily. I was really worried I was going to be exposed!",
+            "option": null,
+            "nextIds": [
+              130410034
+            ],
+            "kind": "NPC"
+          },
+          "130410034": {
+            "type": "Text",
+            "id": 130410034,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Pranks are all about the back-and-forth! You've seen how much fun I have with that Memokeeper...",
+            "option": null,
+            "nextIds": [
+              130410035
+            ],
+            "kind": "NPC"
+          },
+          "130410035": {
+            "type": "Text",
+            "id": 130410035,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "You should learn from her, young Nameless",
+            "option": null,
+            "nextIds": [
+              130410036
+            ],
+            "kind": "NPC"
+          },
+          "130410036": {
+            "type": "Text",
+            "id": 130410036,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "This is just the beginning, I'll be back!",
+            "option": null,
+            "nextIds": [
+              130410037
+            ],
+            "kind": "NPC"
+          },
+          "130410037": {
+            "type": "Sticker",
+            "id": 130410037,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130410038,
+              130410039
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 106013,
+              "path": "icon/emoji/106013.png",
+              "keywords": "Evil Laugh"
+            }
+          },
+          "130410038": {
+            "type": "Text",
+            "id": 130410038,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "Bring it on, we'll see who tricks whom next time!",
+            "option": "Bring it on",
+            "nextIds": [
+              130410040
+            ],
+            "kind": "Player"
+          },
+          "130410040": {
+            "type": "Text",
+            "id": 130410040,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "Message failed to send.",
+            "option": null,
+            "nextIds": [
+              130410041
+            ],
+            "kind": "System"
+          },
+          "130410041": {
+            "type": "Text",
+            "id": 130410041,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "This user does not exist.",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "130410039": {
+            "type": "Text",
+            "id": 130410039,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "Please don't come back! Nothing good ever comes from hanging about with a Fool...",
+            "option": "Please don't come back",
+            "nextIds": [
+              130410040
+            ],
+            "kind": "Player"
+          },
+          "130410022": {
+            "type": "Text",
+            "id": 130410022,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "I stole it, stuffed it in a SoulGlad bottle, and threw it away",
+            "option": "I stole it",
+            "nextIds": [
+              130410023
+            ],
+            "kind": "Player"
+          },
+          "130410023": {
+            "type": "Text",
+            "id": 130410023,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "It's probably still floating around in some trashcan's dream",
+            "option": null,
+            "nextIds": [
+              130410024
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130410024": {
+            "type": "Text",
+            "id": 130410024,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Do you really love trashcans that much?",
+            "option": null,
+            "nextIds": [
+              130410025
+            ],
+            "kind": "NPC"
+          },
+          "130410025": {
+            "type": "Text",
+            "id": 130410025,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "I told you, Trashcan Kingdom was super fun! No one ever believes me",
+            "option": null,
+            "nextIds": [
+              130410026
+            ],
+            "kind": "NPC"
+          },
+          "130410026": {
+            "type": "Text",
+            "id": 130410026,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Looks like disguising myself as Sampo was actually worth it",
+            "option": null,
+            "nextIds": [
+              130410027
+            ],
+            "kind": "NPC"
+          },
+          "130410027": {
+            "type": "Sticker",
+            "id": 130410027,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130410034
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 106012,
+              "path": "icon/emoji/106012.png",
+              "keywords": "Prank"
+            }
+          },
+          "130410028": {
+            "type": "Text",
+            "id": 130410028,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "I'm curious... How could a Memokeeper forget a memory?",
+            "option": "How could a Memokeeper forget a memory?",
+            "nextIds": [
+              130410029
+            ],
+            "kind": "Player"
+          },
+          "130410029": {
+            "type": "Text",
+            "id": 130410029,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "Are you really Black Swan?",
+            "option": null,
+            "nextIds": [
+              130410030
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130410030": {
+            "type": "Text",
+            "id": 130410030,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Hm? You've figured me out?",
+            "option": null,
+            "nextIds": [
+              130410031
+            ],
+            "kind": "NPC"
+          },
+          "130410031": {
+            "type": "Text",
+            "id": 130410031,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "Well, I'm not a true Memokeeper, after all",
+            "option": null,
+            "nextIds": [
+              130410032
+            ],
+            "kind": "NPC"
+          },
+          "130410032": {
+            "type": "Sticker",
+            "id": 130410032,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130410033
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 106012,
+              "path": "icon/emoji/106012.png",
+              "keywords": "Prank"
+            }
+          },
+          "130410033": {
+            "type": "Text",
+            "id": 130410033,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "I can't believe you figured me out so quickly, how dull",
+            "option": null,
+            "nextIds": [
+              130410034
+            ],
+            "kind": "NPC"
+          },
+          "130410012": {
+            "type": "Text",
+            "id": 130410012,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "Why don't you do it yourself?",
+            "option": "Why don't you do it yourself?",
+            "nextIds": [
+              130410013
+            ],
+            "kind": "Player"
+          },
+          "130410013": {
+            "type": "Text",
+            "id": 130410013,
+            "sectionId": 1304100,
+            "senderId": 1307,
+            "text": "I didn't expect you to refuse me... I guess I could go myself",
+            "option": null,
+            "nextIds": [
+              130410014
+            ],
+            "kind": "NPC"
+          },
+          "130410006": {
+            "type": "Text",
+            "id": 130410006,
+            "sectionId": 1304100,
+            "senderId": null,
+            "text": "What's up?",
+            "option": "What's up?",
+            "nextIds": [
+              130410007
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1305200,
+        "startIds": [
+          130520000
+        ],
+        "messages": {
+          "130520000": {
+            "type": "Text",
+            "id": 130520000,
+            "sectionId": 1305200,
+            "senderId": 129,
+            "text": "Tick-tock, tick-tock, tick-tock",
+            "option": null,
+            "nextIds": [
+              130520001
+            ],
+            "kind": "NPC"
+          },
+          "130520001": {
+            "type": "Text",
+            "id": 130520001,
+            "sectionId": 1305200,
+            "senderId": null,
+            "text": "?",
+            "option": "?",
+            "nextIds": [
+              130520002
+            ],
+            "kind": "Player"
+          },
+          "130520002": {
+            "type": "Text",
+            "id": 130520002,
+            "sectionId": 1305200,
+            "senderId": 129,
+            "text": "Tick, tock, tick, tock, tick, tock, tick...",
+            "option": null,
+            "nextIds": [
+              130520003,
+              130520004
+            ],
+            "kind": "NPC"
+          },
+          "130520003": {
+            "type": "Text",
+            "id": 130520003,
+            "sectionId": 1305200,
+            "senderId": null,
+            "text": "What's going on?",
+            "option": "?",
+            "nextIds": [
+              130520005
+            ],
+            "kind": "Player"
+          },
+          "130520005": {
+            "type": "Text",
+            "id": 130520005,
+            "sectionId": 1305200,
+            "senderId": 129,
+            "text": "Tick-tock, The Reverie, tick-tock, the snooker room, tick-tock...",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130520004": {
+            "type": "Text",
+            "id": 130520004,
+            "sectionId": 1305200,
+            "senderId": null,
+            "text": "Tick-tock, tick-tock!",
+            "option": "Tick-tock, tick-tock...",
+            "nextIds": [
+              130520005
+            ],
+            "kind": "Player"
+          }
+        },
+        "mission": {
+          "id": 8020236,
+          "name": "Dreams and the Art of Clock Maintenance (I)",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 129,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  }
+}

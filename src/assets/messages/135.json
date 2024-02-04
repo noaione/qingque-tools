@@ -1,0 +1,348 @@
+{
+  "id": 135,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1305000,
+        "startIds": [
+          130500000
+        ],
+        "messages": {
+          "130500000": {
+            "type": "Text",
+            "id": 130500000,
+            "sectionId": 1305000,
+            "senderId": 135,
+            "text": "Dearest customer, thank you for experiencing the Dreamscape immersive game <i>Hanu's Adventure</i> brought by Clock Studios. We hope that you had an enjoyable experience! Please do let us know how you would rate your gaming experience: 1: Great, 2: Good. Please respond with the corresponding number alone. We look forward to your response!",
+            "option": null,
+            "nextIds": [
+              130500001,
+              130500003,
+              130500005
+            ],
+            "kind": "NPC"
+          },
+          "130500001": {
+            "type": "Text",
+            "id": 130500001,
+            "sectionId": 1305000,
+            "senderId": null,
+            "text": "1",
+            "option": "1",
+            "nextIds": [
+              130500002
+            ],
+            "kind": "Player"
+          },
+          "130500002": {
+            "type": "Text",
+            "id": 130500002,
+            "sectionId": 1305000,
+            "senderId": 135,
+            "text": "Thank you for your feedback, we wish you a pleasant time in the dreamland",
+            "option": null,
+            "nextIds": [
+              130500008
+            ],
+            "kind": "NPC"
+          },
+          "130500008": {
+            "type": "Text",
+            "id": 130500008,
+            "sectionId": 1305000,
+            "senderId": 135,
+            "text": "Clock Studios has prepared a great number of clearance rewards for customers inside the game scene, as well as a limited-edition <i>Hanu's Adventure</i> storybook.",
+            "option": null,
+            "nextIds": [
+              130500009
+            ],
+            "kind": "NPC"
+          },
+          "130500009": {
+            "type": "Text",
+            "id": 130500009,
+            "sectionId": 1305000,
+            "senderId": 135,
+            "text": "However, please be aware: If any special content unrelated to cartoon characters such as Clockie, Brother Hanu, Boss Stone etc. should appear inside the storybook, you are advised to stop reading immediately and destroy the book.",
+            "option": null,
+            "nextIds": [
+              130500010,
+              130500012
+            ],
+            "kind": "NPC"
+          },
+          "130500010": {
+            "type": "Text",
+            "id": 130500010,
+            "sectionId": 1305000,
+            "senderId": null,
+            "text": "Some \"special\" stuff?",
+            "option": "What is this special content?",
+            "nextIds": [
+              130500011
+            ],
+            "kind": "Player"
+          },
+          "130500011": {
+            "type": "Text",
+            "id": 130500011,
+            "sectionId": 1305000,
+            "senderId": null,
+            "text": "Family-friendly stuff?",
+            "option": null,
+            "nextIds": [
+              130500014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130500014": {
+            "type": "Text",
+            "id": 130500014,
+            "sectionId": 1305000,
+            "senderId": 135,
+            "text": "This question will not be answered in accordance with Clock Studios customer service guidelines. However, in order to ensure that you do not encounter anything unexpected within the Dreamscape, please make sure to honor this warning.",
+            "option": null,
+            "nextIds": [
+              130500015
+            ],
+            "kind": "NPC"
+          },
+          "130500015": {
+            "type": "Text",
+            "id": 130500015,
+            "sectionId": 1305000,
+            "senderId": 135,
+            "text": "If you can just listen to this suggestion, you will have a joyful dream adventure! I hope that you will reap great happiness inside this cartoon world we have created!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130500012": {
+            "type": "Text",
+            "id": 130500012,
+            "sectionId": 1305000,
+            "senderId": null,
+            "text": "Is it safe for me to read?",
+            "option": "What happens if I read it?",
+            "nextIds": [
+              130500013
+            ],
+            "kind": "Player"
+          },
+          "130500013": {
+            "type": "Text",
+            "id": 130500013,
+            "sectionId": 1305000,
+            "senderId": null,
+            "text": "I won't be put behind bars for this, will I?",
+            "option": null,
+            "nextIds": [
+              130500014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130500003": {
+            "type": "Text",
+            "id": 130500003,
+            "sectionId": 1305000,
+            "senderId": null,
+            "text": "2",
+            "option": "2",
+            "nextIds": [
+              130500004
+            ],
+            "kind": "Player"
+          },
+          "130500004": {
+            "type": "Text",
+            "id": 130500004,
+            "sectionId": 1305000,
+            "senderId": 135,
+            "text": "Thank you for your feedback, we wish you a pleasant time in the dreamland",
+            "option": null,
+            "nextIds": [
+              130500008
+            ],
+            "kind": "NPC"
+          },
+          "130500005": {
+            "type": "Text",
+            "id": 130500005,
+            "sectionId": 1305000,
+            "senderId": null,
+            "text": "Why can I only rate it good?",
+            "option": "There's no bad rating?",
+            "nextIds": [
+              130500006
+            ],
+            "kind": "Player"
+          },
+          "130500006": {
+            "type": "Text",
+            "id": 130500006,
+            "sectionId": 1305000,
+            "senderId": 135,
+            "text": "The existence of a negative rating would expose the Dreamers to negative emotions and lead to unnecessary risks being taken in the game design. Therefore, we have not created a channel for negative feedback, we hope that you will understand.",
+            "option": null,
+            "nextIds": [
+              130500007
+            ],
+            "kind": "NPC"
+          },
+          "130500007": {
+            "type": "Text",
+            "id": 130500007,
+            "sectionId": 1305000,
+            "senderId": 135,
+            "text": "If you are unsatisfied with your gaming experience, please complete offline feedback with Clock Studios Theme Park. We will be sure to accept any suggestions you make and present them to the designers in a tactful way.",
+            "option": null,
+            "nextIds": [
+              130500008
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1305100,
+        "startIds": [
+          130510000
+        ],
+        "messages": {
+          "130510000": {
+            "type": "Text",
+            "id": 130510000,
+            "sectionId": 1305100,
+            "senderId": 135,
+            "text": "Dearest customer, congratulations on completing the first challenge of <i>Hanu's Adventure</i>! I believe you have collected all of the five limited-edition storybooks that we distributed?",
+            "option": null,
+            "nextIds": [
+              130510001
+            ],
+            "kind": "NPC"
+          },
+          "130510001": {
+            "type": "Text",
+            "id": 130510001,
+            "sectionId": 1305100,
+            "senderId": 135,
+            "text": "May I ask if you discovered any content that was not associated with the Clockie cartoon while reading?",
+            "option": null,
+            "nextIds": [
+              130510002,
+              130510004,
+              130510006
+            ],
+            "kind": "NPC"
+          },
+          "130510002": {
+            "type": "Text",
+            "id": 130510002,
+            "sectionId": 1305100,
+            "senderId": null,
+            "text": "There was some strange content, it didn't seem like a cartoon story",
+            "option": "I think there was something...",
+            "nextIds": [
+              130510003
+            ],
+            "kind": "Player"
+          },
+          "130510003": {
+            "type": "Text",
+            "id": 130510003,
+            "sectionId": 1305100,
+            "senderId": 135,
+            "text": "It is possible that you received one of our faulty products, my sincerest apologies. In consideration of your safety, please destroy the defective storybook immediately.",
+            "option": null,
+            "nextIds": [
+              130510009
+            ],
+            "kind": "NPC"
+          },
+          "130510009": {
+            "type": "Text",
+            "id": 130510009,
+            "sectionId": 1305100,
+            "senderId": 135,
+            "text": "Furthermore, follow-up content for <i>Hanu's Adventure</i> is currently in development. You will be able to experience a brand-new story of Brother Hanu in the Dreamscape very soon. Stay tuned!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130510004": {
+            "type": "Text",
+            "id": 130510004,
+            "sectionId": 1305100,
+            "senderId": null,
+            "text": "Nothing at all, it just all seemed like children's stories",
+            "option": "Nothing at all",
+            "nextIds": [
+              130510005
+            ],
+            "kind": "Player"
+          },
+          "130510005": {
+            "type": "Text",
+            "id": 130510005,
+            "sectionId": 1305100,
+            "senderId": 135,
+            "text": "Understood. If in the future you do obtain a <i>Hanu's Adventure</i> storybook and discover any strange content inside, please make sure to destroy it immediately.",
+            "option": null,
+            "nextIds": [
+              130510009
+            ],
+            "kind": "NPC"
+          },
+          "130510006": {
+            "type": "Text",
+            "id": 130510006,
+            "sectionId": 1305100,
+            "senderId": null,
+            "text": "I don't know, I didn't read a word.",
+            "option": "I didn't even read it.",
+            "nextIds": [
+              130510007
+            ],
+            "kind": "Player"
+          },
+          "130510007": {
+            "type": "Text",
+            "id": 130510007,
+            "sectionId": 1305100,
+            "senderId": 135,
+            "text": "That is a real shame, Brother Hanu's story is very interesting. I would ask that if you do get time, you give it a read!",
+            "option": null,
+            "nextIds": [
+              130510008
+            ],
+            "kind": "NPC"
+          },
+          "130510008": {
+            "type": "Text",
+            "id": 130510008,
+            "sectionId": 1305100,
+            "senderId": 135,
+            "text": "If in future you do obtain a <i>Hanu's Adventure</i> storybook and discover any strange content inside, please make sure to destroy it immediately.",
+            "option": null,
+            "nextIds": [
+              130510009
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 135,
+    "name": "???",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  }
+}

@@ -472,7 +472,7 @@
             "id": 200220024,
             "sectionId": 2002200,
             "senderId": 1103,
-            "text": "[decline]",
+            "text": "[Decline]",
             "option": null,
             "nextIds": [
               200220026
@@ -1057,7 +1057,7 @@
             "id": 200440003,
             "sectionId": 2004400,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": "No, why?",
             "nextIds": [
               200440005

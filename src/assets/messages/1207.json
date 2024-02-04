@@ -317,7 +317,7 @@
             "id": 200680006,
             "sectionId": 2006800,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               200680007
@@ -591,7 +591,7 @@
             "id": 200680029,
             "sectionId": 2006800,
             "senderId": null,
-            "text": "[thumbs up]",
+            "text": "[Thumbs Up]",
             "option": null,
             "nextIds": [
               200680030
@@ -632,7 +632,7 @@
             "id": 200680009,
             "sectionId": 2006800,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               200680010
@@ -807,7 +807,7 @@
             "id": 200690021,
             "sectionId": 2006900,
             "senderId": null,
-            "text": "[greet]",
+            "text": "[Greet]",
             "option": null,
             "nextIds": [],
             "kind": "PlayerAuto",

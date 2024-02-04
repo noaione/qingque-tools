@@ -1,0 +1,63 @@
+{
+  "id": 131,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1305400,
+        "startIds": [
+          130540000
+        ],
+        "messages": {
+          "130540000": {
+            "type": "Text",
+            "id": 130540000,
+            "sectionId": 1305400,
+            "senderId": 131,
+            "text": "How much do you know about The Reverie's indefinite closure?",
+            "option": null,
+            "nextIds": [
+              130540001
+            ],
+            "kind": "NPC"
+          },
+          "130540001": {
+            "type": "Text",
+            "id": 130540001,
+            "sectionId": 1305400,
+            "senderId": 131,
+            "text": "\"The Reverie located in Golden Hour is currently undergoing renovations.\" I am sure that every guest has seen this notice on their Dreamscape Pass. Certainly, the majority of guests will have no reason to doubt this official explanation provided by The Family. However, should one have a particular hunger for the truth, they may not have to delve too deep in order to find holes in this story.",
+            "option": null,
+            "nextIds": [
+              130540002
+            ],
+            "kind": "NPC"
+          },
+          "130540002": {
+            "type": "Text",
+            "id": 130540002,
+            "sectionId": 1305400,
+            "senderId": 131,
+            "text": "If you are naturally a person of truth and integrity and wish to explore the truth, please feel free to contact Singler, investigative reporter of the Sweet Dream Times. Together, we will expose the truth behind the closure of The Reverie that The Family seeks to cover up.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 8020233,
+          "name": "Slaughterhouse",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 131,
+    "name": "Sweet Dream Times",
+    "signature": null,
+    "iconPath": "icon/avatar/DreamOffice.png",
+    "type": 2,
+    "camp": 99
+  }
+}

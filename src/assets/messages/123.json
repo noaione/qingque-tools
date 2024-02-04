@@ -1,0 +1,148 @@
+{
+  "id": 123,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1304400,
+        "startIds": [
+          130440000
+        ],
+        "messages": {
+          "130440000": {
+            "type": "Text",
+            "id": 130440000,
+            "sectionId": 1304400,
+            "senderId": 123,
+            "text": "{F#Ms.}{M#Mr.} {NICKNAME}, are you there?",
+            "option": null,
+            "nextIds": [
+              130440001
+            ],
+            "kind": "NPC"
+          },
+          "130440001": {
+            "type": "Text",
+            "id": 130440001,
+            "sectionId": 1304400,
+            "senderId": 123,
+            "text": "I just wanted to let you know that, thanks to your suggestion, I am now dating the red wine bottle.",
+            "option": null,
+            "nextIds": [
+              130440002
+            ],
+            "kind": "NPC"
+          },
+          "130440002": {
+            "type": "Text",
+            "id": 130440002,
+            "sectionId": 1304400,
+            "senderId": 123,
+            "text": "If you get some time, please feel free to come and visit us in Aideen park.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1304500,
+        "startIds": [
+          130450000
+        ],
+        "messages": {
+          "130450000": {
+            "type": "Text",
+            "id": 130450000,
+            "sectionId": 1304500,
+            "senderId": 123,
+            "text": "{F#Ms.}{M#Mr.} {NICKNAME}, are you there?",
+            "option": null,
+            "nextIds": [
+              130450001
+            ],
+            "kind": "NPC"
+          },
+          "130450001": {
+            "type": "Text",
+            "id": 130450001,
+            "sectionId": 1304500,
+            "senderId": 123,
+            "text": "I just wanted to let you know that, thanks to your suggestion, I am now dating the gold wine bottle.",
+            "option": null,
+            "nextIds": [
+              130450002
+            ],
+            "kind": "NPC"
+          },
+          "130450002": {
+            "type": "Text",
+            "id": 130450002,
+            "sectionId": 1304500,
+            "senderId": 123,
+            "text": "If you get some time, please feel free to come and visit us in Aideen park.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1304600,
+        "startIds": [
+          130460000
+        ],
+        "messages": {
+          "130460000": {
+            "type": "Text",
+            "id": 130460000,
+            "sectionId": 1304600,
+            "senderId": 123,
+            "text": "{F#Ms.}{M#Mr.} {NICKNAME}, are you there?",
+            "option": null,
+            "nextIds": [
+              130460001
+            ],
+            "kind": "NPC"
+          },
+          "130460001": {
+            "type": "Text",
+            "id": 130460001,
+            "sectionId": 1304600,
+            "senderId": 123,
+            "text": "I just wanted to let you know that, thanks to your suggestion, I am now dating the green wine bottle.",
+            "option": null,
+            "nextIds": [
+              130460002
+            ],
+            "kind": "NPC"
+          },
+          "130460002": {
+            "type": "Text",
+            "id": 130460002,
+            "sectionId": 1304600,
+            "senderId": 123,
+            "text": "If you get some time, please feel free to come and visit us in Aideen park.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 123,
+    "name": "Crystal Chalice",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  }
+}

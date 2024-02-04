@@ -401,7 +401,7 @@
             "id": 200290019,
             "sectionId": 2002900,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": "?",
             "nextIds": [
               200290020
@@ -669,7 +669,7 @@
             "id": 200300014,
             "sectionId": 2003000,
             "senderId": null,
-            "text": "[decline]",
+            "text": "[Decline]",
             "option": null,
             "nextIds": [
               200300017
@@ -720,7 +720,7 @@
             "id": 200300016,
             "sectionId": 2003000,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               200300017
@@ -1904,7 +1904,7 @@
             "id": 122160001,
             "sectionId": 1221600,
             "senderId": null,
-            "text": "<unbreak>10032</unbreak>",
+            "text": "",
             "option": null,
             "nextIds": [
               122160002
@@ -2358,6 +2358,220 @@
               130240005
             ],
             "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1303500,
+        "startIds": [
+          130350001
+        ],
+        "messages": {
+          "130350001": {
+            "type": "Text",
+            "id": 130350001,
+            "sectionId": 1303500,
+            "senderId": null,
+            "text": "I want to ask you something",
+            "option": null,
+            "nextIds": [
+              130350002
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130350002": {
+            "type": "Text",
+            "id": 130350002,
+            "sectionId": 1303500,
+            "senderId": null,
+            "text": "Do you know someone called Chadwick?",
+            "option": null,
+            "nextIds": [
+              130350003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130350003": {
+            "type": "Text",
+            "id": 130350003,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "Chadwick?",
+            "option": null,
+            "nextIds": [
+              130350004
+            ],
+            "kind": "NPC"
+          },
+          "130350004": {
+            "type": "Text",
+            "id": 130350004,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "That's a pretty common name, there must be tens of billions of Chadwicks across the universe...",
+            "option": null,
+            "nextIds": [
+              130350005
+            ],
+            "kind": "NPC"
+          },
+          "130350005": {
+            "type": "Text",
+            "id": 130350005,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "Can you be more specific?",
+            "option": null,
+            "nextIds": [
+              130350006
+            ],
+            "kind": "NPC"
+          },
+          "130350006": {
+            "type": "Text",
+            "id": 130350006,
+            "sectionId": 1303500,
+            "senderId": null,
+            "text": "I met an old man named Chadwick inside the Penacony Dreamscape",
+            "option": "He's a Genius Society member",
+            "nextIds": [
+              130350007
+            ],
+            "kind": "Player"
+          },
+          "130350007": {
+            "type": "Text",
+            "id": 130350007,
+            "sectionId": 1303500,
+            "senderId": null,
+            "text": "He said he was once a member of the \"Genius Society\"",
+            "option": null,
+            "nextIds": [
+              130350008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130350008": {
+            "type": "Text",
+            "id": 130350008,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "???",
+            "option": null,
+            "nextIds": [
+              130350009
+            ],
+            "kind": "NPC"
+          },
+          "130350009": {
+            "type": "Text",
+            "id": 130350009,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "You think I have the time to waste joking around with you?",
+            "option": null,
+            "nextIds": [
+              130350010
+            ],
+            "kind": "NPC"
+          },
+          "130350010": {
+            "type": "Text",
+            "id": 130350010,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "You're joking, aren't you?",
+            "option": null,
+            "nextIds": [
+              130350011,
+              130350012
+            ],
+            "kind": "NPC"
+          },
+          "130350011": {
+            "type": "Text",
+            "id": 130350011,
+            "sectionId": 1303500,
+            "senderId": null,
+            "text": "I don't understand what is funny about that",
+            "option": "I am very serious",
+            "nextIds": [
+              130350013
+            ],
+            "kind": "Player"
+          },
+          "130350013": {
+            "type": "Text",
+            "id": 130350013,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "...So, you're serious?",
+            "option": null,
+            "nextIds": [
+              130350014
+            ],
+            "kind": "NPC"
+          },
+          "130350014": {
+            "type": "Text",
+            "id": 130350014,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "Come back to the space station and meet me, ASAP",
+            "option": null,
+            "nextIds": [
+              130350015
+            ],
+            "kind": "NPC"
+          },
+          "130350015": {
+            "type": "Text",
+            "id": 130350015,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "Oh, and...",
+            "option": null,
+            "nextIds": [
+              130350016
+            ],
+            "kind": "NPC"
+          },
+          "130350016": {
+            "type": "Text",
+            "id": 130350016,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "Keep your lips sealed about this, do not go blabbing about this to anyone",
+            "option": null,
+            "nextIds": [
+              130350017
+            ],
+            "kind": "NPC"
+          },
+          "130350017": {
+            "type": "Text",
+            "id": 130350017,
+            "sectionId": 1303500,
+            "senderId": 1013,
+            "text": "I am not joking, either",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130350012": {
+            "type": "Text",
+            "id": 130350012,
+            "sectionId": 1303500,
+            "senderId": null,
+            "text": "I don't understand what is funny about that",
+            "option": "I'm not joking...",
+            "nextIds": [
+              130350013
+            ],
+            "kind": "Player"
           }
         }
       }

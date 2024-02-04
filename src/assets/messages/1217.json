@@ -1135,7 +1135,7 @@
             "id": 201050033,
             "sectionId": 2010500,
             "senderId": null,
-            "text": "It had to be Madam Hanya. you can always count on her",
+            "text": "It had to be Madam Hanya. You can always count on her",
             "option": "Madam Hanya is so reliable",
             "nextIds": [
               201050034
@@ -1314,7 +1314,7 @@
             "id": 130120004,
             "sectionId": 1301200,
             "senderId": null,
-            "text": "But I captured another dangerous heliobus and I'm gonna to take it back to the suppression tower",
+            "text": "But I captured another dangerous heliobus and I'm gonna take it back to the suppression tower",
             "option": "I captured another heliobus",
             "nextIds": [
               130120005

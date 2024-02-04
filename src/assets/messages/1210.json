@@ -763,7 +763,7 @@
             "sectionId": 2009900,
             "senderId": null,
             "text": "How about teaching your followers about Xianzhou culture?",
-            "option": "How about Xianzhou culture?",
+            "option": "Teach Xianzhou culture",
             "nextIds": [
               200990015
             ],
@@ -857,7 +857,7 @@
             "sectionId": 2009900,
             "senderId": null,
             "text": "How about teaching your followers about your doggerel skills?",
-            "option": "How about your doggerel skills?",
+            "option": "Teach your doggerel skills",
             "nextIds": [
               200990021
             ],
@@ -917,7 +917,7 @@
             "sectionId": 2009900,
             "senderId": null,
             "text": "How about teaching your followers how to catch bullets with their bare hands? Seriously, I'd love to learn this trick now!",
-            "option": "How about catching bullets with bare hands?",
+            "option": "Teach catching bullets with bare hands",
             "nextIds": [
               200990026
             ],
@@ -1481,7 +1481,7 @@
             "id": 122210001,
             "sectionId": 1222100,
             "senderId": null,
-            "text": "<unbreak>10031</unbreak>",
+            "text": "",
             "option": null,
             "nextIds": [
               122210002

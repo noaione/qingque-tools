@@ -189,7 +189,7 @@
             "id": 200490016,
             "sectionId": 2004900,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": "?",
             "nextIds": [
               200490017
@@ -672,7 +672,7 @@
             "id": 200510011,
             "sectionId": 2005100,
             "senderId": 1209,
-            "text": "Looking at them, sigh...",
+            "text": "Looking at them *sigh*...",
             "option": null,
             "nextIds": [
               200510012

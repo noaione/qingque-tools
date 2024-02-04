@@ -389,7 +389,7 @@
             "id": 200310004,
             "sectionId": 2003100,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": "Why do you need so much money",
             "nextIds": [
               200310006
@@ -597,7 +597,7 @@
             "id": 200310027,
             "sectionId": 2003100,
             "senderId": 1109,
-            "text": "[thanks]",
+            "text": "[Thanks]",
             "option": null,
             "nextIds": [],
             "kind": "NPC",
@@ -753,7 +753,7 @@
             "id": 200320005,
             "sectionId": 2003200,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               200320006
@@ -820,7 +820,7 @@
             "id": 200320010,
             "sectionId": 2003200,
             "senderId": 1109,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               200320011
@@ -943,7 +943,7 @@
             "id": 200320020,
             "sectionId": 2003200,
             "senderId": 1109,
-            "text": "[decline]",
+            "text": "[Decline]",
             "option": null,
             "nextIds": [
               200320021
@@ -1066,7 +1066,7 @@
             "id": 200320030,
             "sectionId": 2003200,
             "senderId": 1109,
-            "text": "[decline]",
+            "text": "[Decline]",
             "option": null,
             "nextIds": [
               200320031

@@ -1558,7 +1558,7 @@
             "id": 130200009,
             "sectionId": 1302000,
             "senderId": 1217,
-            "text": "[OK]",
+            "text": "[Okay]",
             "option": null,
             "nextIds": [
               130200010
@@ -2084,7 +2084,7 @@
             "id": 130200121,
             "sectionId": 1302001,
             "senderId": 1206,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               130200122
@@ -3435,7 +3435,7 @@
             "id": 130200413,
             "sectionId": 1302004,
             "senderId": 1210,
-            "text": "Come and hang out with us more. With both of us as your wingwomen, you will definitely overcome your social anxiety and become the biggest extrovert in of the Ten-Lords Commission",
+            "text": "Come and hang out with us more. With both of us as your wingwomen, you will definitely overcome your social anxiety and become the biggest extrovert in the Ten-Lords Commission",
             "option": null,
             "nextIds": [
               130200414

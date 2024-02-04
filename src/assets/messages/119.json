@@ -1,0 +1,86 @@
+{
+  "id": 119,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1303300,
+        "startIds": [
+          130330000
+        ],
+        "messages": {
+          "130330000": {
+            "type": "Text",
+            "id": 130330000,
+            "sectionId": 1303300,
+            "senderId": 119,
+            "text": "You don't ■■ fit ■■ visitor ■■ hunt not ■■ welcome",
+            "option": null,
+            "nextIds": [
+              130330001
+            ],
+            "kind": "NPC"
+          },
+          "130330001": {
+            "type": "Text",
+            "id": 130330001,
+            "sectionId": 1303300,
+            "senderId": 119,
+            "text": "■■ inferior ■■ qualified ■■ selected ■■ disappear ■■ dis■■ ■■ppear ■■ disappear ■■■■■■■■■■■■■■■■",
+            "option": null,
+            "nextIds": [
+              130330002
+            ],
+            "kind": "NPC"
+          },
+          "130330002": {
+            "type": "Text",
+            "id": 130330002,
+            "sectionId": 1303300,
+            "senderId": 119,
+            "text": "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■",
+            "option": null,
+            "nextIds": [
+              130330003
+            ],
+            "kind": "NPC"
+          },
+          "130330003": {
+            "type": "Text",
+            "id": 130330003,
+            "sectionId": 1303300,
+            "senderId": 119,
+            "text": "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■",
+            "option": null,
+            "nextIds": [
+              130330004
+            ],
+            "kind": "NPC"
+          },
+          "130330004": {
+            "type": "Image",
+            "id": 130330004,
+            "sectionId": 1303300,
+            "senderId": 119,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "image": {
+              "id": 10039,
+              "path": "image/messages/31010.png"
+            }
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 119,
+    "name": "Clo■■■",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 99
+  }
+}

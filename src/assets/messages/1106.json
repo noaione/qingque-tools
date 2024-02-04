@@ -415,7 +415,7 @@
             "id": 111480013,
             "sectionId": 1114800,
             "senderId": null,
-            "text": "[thumbs up]",
+            "text": "[Thumbs Up]",
             "option": null,
             "nextIds": [
               111480014
@@ -468,7 +468,7 @@
             "id": 111480025,
             "sectionId": 1114800,
             "senderId": 1106,
-            "text": "[greet]",
+            "text": "[Greet]",
             "option": null,
             "nextIds": [],
             "kind": "NPC",
@@ -560,7 +560,7 @@
             "id": 111480021,
             "sectionId": 1114800,
             "senderId": 1106,
-            "text": "[decline]",
+            "text": "[Decline]",
             "option": null,
             "nextIds": [
               111480022
@@ -888,8 +888,8 @@
             "id": 200190007,
             "sectionId": 2001900,
             "senderId": null,
-            "text": "[decline]",
-            "option": "[decline]",
+            "text": "[Decline]",
+            "option": "[Decline]",
             "nextIds": [
               200190008
             ],
@@ -905,7 +905,7 @@
             "id": 200190008,
             "sectionId": 2001900,
             "senderId": 1106,
-            "text": "[decline]",
+            "text": "[Decline]",
             "option": null,
             "nextIds": [
               200190009
@@ -1533,7 +1533,7 @@
             "id": 200380007,
             "sectionId": 2003800,
             "senderId": 1106,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               200380008
@@ -2313,7 +2313,7 @@
             "id": 121990010,
             "sectionId": 1219900,
             "senderId": null,
-            "text": "[ok]",
+            "text": "[Okay]",
             "option": null,
             "nextIds": [
               121990011

@@ -1281,6 +1281,145 @@
           "type": "Branch"
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1303700,
+        "startIds": [
+          130370000
+        ],
+        "messages": {
+          "130370000": {
+            "type": "Text",
+            "id": 130370000,
+            "sectionId": 1303700,
+            "senderId": 1000,
+            "text": "Passenger {NICKNAME}, your mail has been received.",
+            "option": null,
+            "nextIds": [
+              130370001
+            ],
+            "kind": "NPC"
+          },
+          "130370001": {
+            "type": "Text",
+            "id": 130370001,
+            "sectionId": 1303700,
+            "senderId": 1000,
+            "text": "Remember to sign it once you get back!",
+            "option": null,
+            "nextIds": [
+              130370002
+            ],
+            "kind": "NPC"
+          },
+          "130370002": {
+            "type": "Text",
+            "id": 130370002,
+            "sectionId": 1303700,
+            "senderId": null,
+            "text": "This is a gift for the conductor. Open it up and check it out",
+            "option": "It's a gift",
+            "nextIds": [
+              130370003
+            ],
+            "kind": "Player"
+          },
+          "130370003": {
+            "type": "Sticker",
+            "id": 130370003,
+            "sectionId": 1303700,
+            "senderId": 1000,
+            "text": "[Gift]",
+            "option": null,
+            "nextIds": [
+              130370004
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 107002,
+              "path": "icon/emoji/107002.png",
+              "keywords": "Gift"
+            }
+          },
+          "130370004": {
+            "type": "Text",
+            "id": 130370004,
+            "sectionId": 1303700,
+            "senderId": 1000,
+            "text": "Whoa. That's really caring of you, {NICKNAME}! Let's see what goodies are inside...",
+            "option": null,
+            "nextIds": [
+              130370005
+            ],
+            "kind": "NPC"
+          },
+          "130370005": {
+            "type": "Text",
+            "id": 130370005,
+            "sectionId": 1303700,
+            "senderId": 1000,
+            "text": "Whoa. This candy's super sour!",
+            "option": null,
+            "nextIds": [
+              130370006
+            ],
+            "kind": "NPC"
+          },
+          "130370006": {
+            "type": "Text",
+            "id": 130370006,
+            "sectionId": 1303700,
+            "senderId": null,
+            "text": "It's a unique assortment from Penacony. Every piece tastes different",
+            "option": "Every piece tastes different",
+            "nextIds": [
+              130370009
+            ],
+            "kind": "Player"
+          },
+          "130370009": {
+            "type": "Text",
+            "id": 130370009,
+            "sectionId": 1303700,
+            "senderId": 1000,
+            "text": "Feels like it did become sweeter...",
+            "option": null,
+            "nextIds": [
+              130370007
+            ],
+            "kind": "NPC"
+          },
+          "130370007": {
+            "type": "Sticker",
+            "id": 130370007,
+            "sectionId": 1303700,
+            "senderId": 1000,
+            "text": "[Shocked]",
+            "option": null,
+            "nextIds": [
+              130370008
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "130370008": {
+            "type": "Text",
+            "id": 130370008,
+            "sectionId": 1303700,
+            "senderId": 1000,
+            "text": "Anyway. Thank you for your gift!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
     ]
   ],
   "info": {

@@ -1,0 +1,1232 @@
+{
+  "id": 1307,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2012100,
+        "startIds": [
+          201210000
+        ],
+        "messages": {
+          "201210000": {
+            "type": "Text",
+            "id": 201210000,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "I am curious, {NICKNAME}. Having traveled so many places before, have you come encountered divination before?",
+            "option": null,
+            "nextIds": [
+              201210001,
+              201210003
+            ],
+            "kind": "NPC"
+          },
+          "201210001": {
+            "type": "Text",
+            "id": 201210001,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "The Xianzhou Luofu uses the Matrix of Prescience to make predictions about the future",
+            "option": "I did on the Xianzhou",
+            "nextIds": [
+              201210002
+            ],
+            "kind": "Player"
+          },
+          "201210002": {
+            "type": "Text",
+            "id": 201210002,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "You mean the Divination Commission, right... I have heard tales of them before.",
+            "option": null,
+            "nextIds": [
+              201210005
+            ],
+            "kind": "NPC"
+          },
+          "201210005": {
+            "type": "Text",
+            "id": 201210005,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "Everyone has their own beliefs when it comes to divination methods. If you ask me, I believe you can predict a person's future using only their memories.",
+            "option": null,
+            "nextIds": [
+              201210006
+            ],
+            "kind": "NPC"
+          },
+          "201210006": {
+            "type": "Text",
+            "id": 201210006,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "This method of divination is based on a law of life, that we are constantly living under the influence of our pasts.",
+            "option": null,
+            "nextIds": [
+              201210007
+            ],
+            "kind": "NPC"
+          },
+          "201210007": {
+            "type": "Text",
+            "id": 201210007,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "The deeper the memory is carved into someone's mind, the more complete and original it is, the clearer the trajectory of the destiny that leads from it.",
+            "option": null,
+            "nextIds": [
+              201210008
+            ],
+            "kind": "NPC"
+          },
+          "201210008": {
+            "type": "Text",
+            "id": 201210008,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "Well, would you like to try?",
+            "option": null,
+            "nextIds": [
+              201210009
+            ],
+            "kind": "NPC"
+          },
+          "201210009": {
+            "type": "Text",
+            "id": 201210009,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "There are lots of things that I do not remember...",
+            "option": "I don't remember lotsa things",
+            "nextIds": [
+              201210010
+            ],
+            "kind": "Player"
+          },
+          "201210010": {
+            "type": "Text",
+            "id": 201210010,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "Yes, you and that March 7th are very special...",
+            "option": null,
+            "nextIds": [
+              201210011
+            ],
+            "kind": "NPC"
+          },
+          "201210011": {
+            "type": "Text",
+            "id": 201210011,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "As neither of you have any memories for me to divine from, why don't you take the lead and use this method to perform a divination using someone else's memories?",
+            "option": null,
+            "nextIds": [
+              201210012
+            ],
+            "kind": "NPC"
+          },
+          "201210012": {
+            "type": "Text",
+            "id": 201210012,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "There is a reason for every word we speak, you must simply just say what is in your heart.",
+            "option": null,
+            "nextIds": [
+              201210013
+            ],
+            "kind": "NPC"
+          },
+          "201210013": {
+            "type": "Text",
+            "id": 201210013,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "I shall describe a memory to you, you can make predictions about the future based on it as you please.",
+            "option": null,
+            "nextIds": [
+              201210014,
+              201210017
+            ],
+            "kind": "NPC"
+          },
+          "201210014": {
+            "type": "Text",
+            "id": 201210014,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "I can do that?",
+            "option": "I can do that?",
+            "nextIds": [
+              201210015
+            ],
+            "kind": "Player"
+          },
+          "201210015": {
+            "type": "Text",
+            "id": 201210015,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "Then I'm going to be bold and make some predictions!",
+            "option": null,
+            "nextIds": [
+              201210016
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201210016": {
+            "type": "Sticker",
+            "id": 201210016,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201210019
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "201210019": {
+            "type": "Text",
+            "id": 201210019,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "\"A young girl wanders alone, observing the influence that the past has had on the reality of different worlds and recording those fleeting moments that went overlooked.\"",
+            "option": null,
+            "nextIds": [
+              201210020
+            ],
+            "kind": "NPC"
+          },
+          "201210020": {
+            "type": "Text",
+            "id": 201210020,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "What kind of future do you think the owner of this memory is headed towards?",
+            "option": null,
+            "nextIds": [
+              201210021,
+              201210024,
+              201210026
+            ],
+            "kind": "NPC"
+          },
+          "201210021": {
+            "type": "Text",
+            "id": 201210021,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "Being able to roam alone throughout different worlds, she must be a considerably powerful person",
+            "option": "A bright future.",
+            "nextIds": [
+              201210022
+            ],
+            "kind": "Player"
+          },
+          "201210022": {
+            "type": "Text",
+            "id": 201210022,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "She enjoys observing the lives of others but is still able to leave without causing a disturbance. I imagine she is an attentive and optimistic person",
+            "option": null,
+            "nextIds": [
+              201210023
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201210023": {
+            "type": "Text",
+            "id": 201210023,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "So, I imagine that she will live happily, no matter what happens",
+            "option": null,
+            "nextIds": [
+              201210029
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201210029": {
+            "type": "Text",
+            "id": 201210029,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "I'm glad I was able to hear your thoughts. Not bad.",
+            "option": null,
+            "nextIds": [
+              201210030
+            ],
+            "kind": "NPC"
+          },
+          "201210030": {
+            "type": "Text",
+            "id": 201210030,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "Did that give you a sense of the power within memories? It leads to the future and allows us to catch a glimpse of the whole picture... However, keep in mind that the future can also change, never forget that.",
+            "option": null,
+            "nextIds": [
+              201210031
+            ],
+            "kind": "NPC"
+          },
+          "201210031": {
+            "type": "Text",
+            "id": 201210031,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "So, who is the owner of this memory? What is her future like?",
+            "option": "Whose memory was that?",
+            "nextIds": [
+              201210032
+            ],
+            "kind": "Player"
+          },
+          "201210032": {
+            "type": "Text",
+            "id": 201210032,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "She may be someone you know, she may also just be a passing figure in your life.",
+            "option": null,
+            "nextIds": [
+              201210033
+            ],
+            "kind": "NPC"
+          },
+          "201210033": {
+            "type": "Text",
+            "id": 201210033,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "Ah, another customer for divination. Talk to you again, soon!",
+            "option": null,
+            "nextIds": [
+              201210034
+            ],
+            "kind": "NPC"
+          },
+          "201210034": {
+            "type": "Text",
+            "id": 201210034,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "You haven't answered my question!",
+            "option": "You haven't answered my question",
+            "nextIds": [],
+            "kind": "Player"
+          },
+          "201210024": {
+            "type": "Text",
+            "id": 201210024,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "If she spends the rest of her life as nothing more than an observer from the sidelines, I imagine her life will be very bland",
+            "option": "A bland future.",
+            "nextIds": [
+              201210025
+            ],
+            "kind": "Player"
+          },
+          "201210025": {
+            "type": "Text",
+            "id": 201210025,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "Perhaps she will continue like this until she reaches the end of her life, before leaving in silence with no one to remember her",
+            "option": null,
+            "nextIds": [
+              201210029
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201210026": {
+            "type": "Text",
+            "id": 201210026,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "If she continues to wander the cosmos alone like this, she will inevitably encounter a lot of danger",
+            "option": "An unfortunate future.",
+            "nextIds": [
+              201210027
+            ],
+            "kind": "Player"
+          },
+          "201210027": {
+            "type": "Text",
+            "id": 201210027,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "It is very likely that she will lose her life along this journey one day",
+            "option": null,
+            "nextIds": [
+              201210028
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201210028": {
+            "type": "Text",
+            "id": 201210028,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "Also, if she spends her entire life as a bystander and observer, I imagine she will be very lonely",
+            "option": null,
+            "nextIds": [
+              201210029
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201210017": {
+            "type": "Text",
+            "id": 201210017,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "Then I'm going to be bold and make some predictions!",
+            "option": "I'm ready!",
+            "nextIds": [
+              201210018
+            ],
+            "kind": "Player"
+          },
+          "201210018": {
+            "type": "Sticker",
+            "id": 201210018,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201210019
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "201210003": {
+            "type": "Text",
+            "id": 201210003,
+            "sectionId": 2012100,
+            "senderId": null,
+            "text": "I think the Stellaron Hunters have this ability, too.",
+            "option": "The Stellaron Hunters use it, too.",
+            "nextIds": [
+              201210004
+            ],
+            "kind": "Player"
+          },
+          "201210004": {
+            "type": "Text",
+            "id": 201210004,
+            "sectionId": 2012100,
+            "senderId": 1307,
+            "text": "You mean that Destiny's Slave... Say no more.",
+            "option": null,
+            "nextIds": [
+              201210005
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2012200,
+        "startIds": [
+          201220000
+        ],
+        "messages": {
+          "201220000": {
+            "type": "Text",
+            "id": 201220000,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "Having a chance to see the return of the Astral Express truly is a joyous thing.",
+            "option": null,
+            "nextIds": [
+              201220001
+            ],
+            "kind": "NPC"
+          },
+          "201220001": {
+            "type": "Text",
+            "id": 201220001,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "When going to other worlds, I always came across memories related to the Express. As time has gone on, I feel like we have become friends that have never met.",
+            "option": null,
+            "nextIds": [
+              201220002
+            ],
+            "kind": "NPC"
+          },
+          "201220002": {
+            "type": "Text",
+            "id": 201220002,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "For example?",
+            "option": "For example...",
+            "nextIds": [
+              201220003
+            ],
+            "kind": "Player"
+          },
+          "201220003": {
+            "type": "Text",
+            "id": 201220003,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "I once visited a world that stood high up in the sky. The people of this world hid amongst the clouds, driving huge monsters to bring down the rainwater.",
+            "option": null,
+            "nextIds": [
+              201220004
+            ],
+            "kind": "NPC"
+          },
+          "201220004": {
+            "type": "Text",
+            "id": 201220004,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "In their legends, these huge monsters were brought there by a giant Nameless, allowing their local civilization to thrive.",
+            "option": null,
+            "nextIds": [
+              201220005
+            ],
+            "kind": "NPC"
+          },
+          "201220005": {
+            "type": "Text",
+            "id": 201220005,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "I also once visited a world that rained gems. The people of this world predict the weather, collect the gems and use them in trade with other worlds. Their legends also state that this was also a revelation brought about by a Nameless that traveled on the Express.",
+            "option": null,
+            "nextIds": [
+              201220006
+            ],
+            "kind": "NPC"
+          },
+          "201220006": {
+            "type": "Text",
+            "id": 201220006,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "Hearing all of these legends that sounded so unbelievable, I could not help but wonder what the life of a Nameless is truly like.",
+            "option": null,
+            "nextIds": [
+              201220007,
+              201220009
+            ],
+            "kind": "NPC"
+          },
+          "201220007": {
+            "type": "Text",
+            "id": 201220007,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "Though I have not been to many worlds yet, the Nameless are indeed the kind of people that will assist those around them wherever they go",
+            "option": "Very similar!",
+            "nextIds": [
+              201220008
+            ],
+            "kind": "Player"
+          },
+          "201220008": {
+            "type": "Text",
+            "id": 201220008,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "But it's not as miraculous and astounding as these legends",
+            "option": null,
+            "nextIds": [
+              201220011
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201220011": {
+            "type": "Text",
+            "id": 201220011,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "It seems to be a path full of both challenges and rewards. I wonder what has allowed the Express and the Nameless to persist for all this time?",
+            "option": null,
+            "nextIds": [
+              201220012,
+              201220013,
+              201220014
+            ],
+            "kind": "NPC"
+          },
+          "201220012": {
+            "type": "Text",
+            "id": 201220012,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "We all practice the values of the Trailblaze, which is the Nameless' motivation to keep moving forwards",
+            "option": "Conviction",
+            "nextIds": [
+              201220015
+            ],
+            "kind": "Player"
+          },
+          "201220015": {
+            "type": "Text",
+            "id": 201220015,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "Our path is unlike that which you have chosen with the Express, as you advance to distant lands, we spend our time seeking the past. You form a bond and travel together, where we often journey alone.",
+            "option": null,
+            "nextIds": [
+              201220016
+            ],
+            "kind": "NPC"
+          },
+          "201220016": {
+            "type": "Text",
+            "id": 201220016,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "However, in this vast existence, the footprints of both Memokeepers and Nameless often overlap. Perhaps we shall meet each other at our final destination.",
+            "option": null,
+            "nextIds": [
+              201220017
+            ],
+            "kind": "NPC"
+          },
+          "201220017": {
+            "type": "Text",
+            "id": 201220017,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "What is the life of a Memokeeper like?",
+            "option": "The life of a Memokeeper...",
+            "nextIds": [
+              201220018
+            ],
+            "kind": "Player"
+          },
+          "201220018": {
+            "type": "Text",
+            "id": 201220018,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "Memokeepers live a memetic existence, traveling through worlds through the medium of concepts and memories.",
+            "option": null,
+            "nextIds": [
+              201220019
+            ],
+            "kind": "NPC"
+          },
+          "201220019": {
+            "type": "Text",
+            "id": 201220019,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "Like a passing visitor in the lives of others, I do not often get involved in the worlds I visit as all we care for are the memories contained within.",
+            "option": null,
+            "nextIds": [
+              201220020,
+              201220022
+            ],
+            "kind": "NPC"
+          },
+          "201220020": {
+            "type": "Text",
+            "id": 201220020,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "Travelling through concepts, that sounds so cool!",
+            "option": "That sounds cool",
+            "nextIds": [
+              201220021
+            ],
+            "kind": "Player"
+          },
+          "201220021": {
+            "type": "Text",
+            "id": 201220021,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "Indeed, entering another's memory is like walking into a whole new world.",
+            "option": null,
+            "nextIds": [
+              201220024
+            ],
+            "kind": "NPC"
+          },
+          "201220024": {
+            "type": "Text",
+            "id": 201220024,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "In the future, if you come across any interesting stories, don't forget to come and share them with me.",
+            "option": null,
+            "nextIds": [
+              201220025
+            ],
+            "kind": "NPC"
+          },
+          "201220025": {
+            "type": "Sticker",
+            "id": 201220025,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "201220022": {
+            "type": "Text",
+            "id": 201220022,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "That sounds quite boring...",
+            "option": "That sounds boring",
+            "nextIds": [
+              201220023
+            ],
+            "kind": "Player"
+          },
+          "201220023": {
+            "type": "Text",
+            "id": 201220023,
+            "sectionId": 2012200,
+            "senderId": 1307,
+            "text": "Memories are the most precious when they have not been interfered with by others.",
+            "option": null,
+            "nextIds": [
+              201220024
+            ],
+            "kind": "NPC"
+          },
+          "201220013": {
+            "type": "Text",
+            "id": 201220013,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "It is likely the legacy passed down from generation to generation of Nameless. Though one Trailblazer is lost, the embers they leave behind are passed down to ignite the passion of the next generation.",
+            "option": "Legacy",
+            "nextIds": [
+              201220015
+            ],
+            "kind": "Player"
+          },
+          "201220014": {
+            "type": "Text",
+            "id": 201220014,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "I imagine it is the amazing opportunities offered up by the Express. As long as one is willing to set forth together on an adventure, the Express's doors will freely open to them.",
+            "option": "Openness",
+            "nextIds": [
+              201220015
+            ],
+            "kind": "Player"
+          },
+          "201220009": {
+            "type": "Text",
+            "id": 201220009,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "These legends are so magnificent, but our daily lives tend to be quite unremarkable most of the time",
+            "option": "Very different!",
+            "nextIds": [
+              201220010
+            ],
+            "kind": "Player"
+          },
+          "201220010": {
+            "type": "Text",
+            "id": 201220010,
+            "sectionId": 2012200,
+            "senderId": null,
+            "text": "However, the Nameless are indeed the kind of people that will assist those around them wherever they go",
+            "option": null,
+            "nextIds": [
+              201220011
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2012300,
+        "startIds": [
+          201230000
+        ],
+        "messages": {
+          "201230000": {
+            "type": "Text",
+            "id": 201230000,
+            "sectionId": 2012300,
+            "senderId": 1307,
+            "text": "Come to think of it, did you know that memories related to the sense of smell are some of the strongest and most vivid in humans?",
+            "option": null,
+            "nextIds": [
+              201230001,
+              201230002,
+              201230003
+            ],
+            "kind": "NPC"
+          },
+          "201230001": {
+            "type": "Text",
+            "id": 201230001,
+            "sectionId": 2012300,
+            "senderId": null,
+            "text": "I feel like I've heard that theory before",
+            "option": "Heard that before",
+            "nextIds": [
+              201230004
+            ],
+            "kind": "Player"
+          },
+          "201230004": {
+            "type": "Text",
+            "id": 201230004,
+            "sectionId": 2012300,
+            "senderId": 1307,
+            "text": "No real reason, it's just that I used up all the pine incense I use during divination and a perfumer friend gave me a new box. When I lit it, I realized that the aroma seemed very familiar.",
+            "option": null,
+            "nextIds": [
+              201230005
+            ],
+            "kind": "NPC"
+          },
+          "201230005": {
+            "type": "Text",
+            "id": 201230005,
+            "sectionId": 2012300,
+            "senderId": 1307,
+            "text": "Reflecting on my memories, I realized that it must be very similar to the essence of the Trailblaze.",
+            "option": null,
+            "nextIds": [
+              201230006
+            ],
+            "kind": "NPC"
+          },
+          "201230006": {
+            "type": "Text",
+            "id": 201230006,
+            "sectionId": 2012300,
+            "senderId": null,
+            "text": "I never thought you'd know about things like aromatherapy",
+            "option": "Never thought you'd know these",
+            "nextIds": [
+              201230007
+            ],
+            "kind": "Player"
+          },
+          "201230007": {
+            "type": "Text",
+            "id": 201230007,
+            "sectionId": 2012300,
+            "senderId": 1307,
+            "text": "As I said before, memories related to the sense of smell are some of the strongest in humans.",
+            "option": null,
+            "nextIds": [
+              201230008
+            ],
+            "kind": "NPC"
+          },
+          "201230008": {
+            "type": "Text",
+            "id": 201230008,
+            "sectionId": 2012300,
+            "senderId": 1307,
+            "text": "So, certain aromas often come with set memories. Even a Memokeeper like myself sometimes enjoys using these kinds of indirect methods to recall those memories.",
+            "option": null,
+            "nextIds": [
+              201230009
+            ],
+            "kind": "NPC"
+          },
+          "201230009": {
+            "type": "Text",
+            "id": 201230009,
+            "sectionId": 2012300,
+            "senderId": 1307,
+            "text": "Next time we meet, I shall bring some of the styles I enjoy for you to experience, too.",
+            "option": null,
+            "nextIds": [
+              201230010
+            ],
+            "kind": "NPC"
+          },
+          "201230010": {
+            "type": "Sticker",
+            "id": 201230010,
+            "sectionId": 2012300,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "201230002": {
+            "type": "Text",
+            "id": 201230002,
+            "sectionId": 2012300,
+            "senderId": null,
+            "text": "I've never heard that before",
+            "option": "Never heard that before",
+            "nextIds": [
+              201230004
+            ],
+            "kind": "Player"
+          },
+          "201230003": {
+            "type": "Text",
+            "id": 201230003,
+            "sectionId": 2012300,
+            "senderId": null,
+            "text": "Hm? What made you bring that up all of a sudden?",
+            "option": "Why did you bring that up?",
+            "nextIds": [
+              201230004
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1304200,
+        "startIds": [
+          130420000
+        ],
+        "messages": {
+          "130420000": {
+            "type": "Text",
+            "id": 130420000,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "{NICKNAME}, I imagine you have already seen that dream bubble?",
+            "option": null,
+            "nextIds": [
+              130420001
+            ],
+            "kind": "NPC"
+          },
+          "130420001": {
+            "type": "Text",
+            "id": 130420001,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "Relax, I just want to know if anyone has come looking for you yet",
+            "option": null,
+            "nextIds": [
+              130420002,
+              130420003
+            ],
+            "kind": "NPC"
+          },
+          "130420002": {
+            "type": "Text",
+            "id": 130420002,
+            "sectionId": 1304200,
+            "senderId": null,
+            "text": "What happened?",
+            "option": "What happened?",
+            "nextIds": [
+              130420004
+            ],
+            "kind": "Player"
+          },
+          "130420004": {
+            "type": "Text",
+            "id": 130420004,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "You may also know that interesting young Fool, Sparkle.",
+            "option": null,
+            "nextIds": [
+              130420005
+            ],
+            "kind": "NPC"
+          },
+          "130420005": {
+            "type": "Text",
+            "id": 130420005,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "She's recently gotten into disguising herself as other people. {NICKNAME}, has she tried this with you already?",
+            "option": null,
+            "nextIds": [
+              130420006
+            ],
+            "kind": "NPC"
+          },
+          "130420006": {
+            "type": "Text",
+            "id": 130420006,
+            "sectionId": 1304200,
+            "senderId": null,
+            "text": "If that's the case, you could be Sparkle in disguise, too.",
+            "option": "Wait... Then you might be...",
+            "nextIds": [
+              130420007
+            ],
+            "kind": "Player"
+          },
+          "130420007": {
+            "type": "Text",
+            "id": 130420007,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "I see you're on high alert. What would you have me do to prove I am \"me\"?",
+            "option": null,
+            "nextIds": [
+              130420008,
+              130420009
+            ],
+            "kind": "NPC"
+          },
+          "130420008": {
+            "type": "Text",
+            "id": 130420008,
+            "sectionId": 1304200,
+            "senderId": null,
+            "text": "Some unique linguistic habits, like whether you add full-stops or not to messages",
+            "option": "A unique expression?",
+            "nextIds": [
+              130420010
+            ],
+            "kind": "Player"
+          },
+          "130420010": {
+            "type": "Text",
+            "id": 130420010,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "But, if that little Miss Fool excels in observation, there is a chance that she could perfectly imitate everything about a person.",
+            "option": null,
+            "nextIds": [
+              130420011
+            ],
+            "kind": "NPC"
+          },
+          "130420011": {
+            "type": "Text",
+            "id": 130420011,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "I think that the only thing that can differentiate someone from another is their \"memories.\" There is no way for an outsider to completely steal or imitate every ounce of a person's memory.",
+            "option": null,
+            "nextIds": [
+              130420012
+            ],
+            "kind": "NPC"
+          },
+          "130420012": {
+            "type": "Text",
+            "id": 130420012,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "It's just like when we met in Penacony, is it not? A strange dreamland surrounding us, a series of strange murders, people with differing dreams, the truth that lies beneath the water's surface...",
+            "option": null,
+            "nextIds": [
+              130420013
+            ],
+            "kind": "NPC"
+          },
+          "130420013": {
+            "type": "Sticker",
+            "id": 130420013,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "(Image) [Pom-Pom Sticker - Greet]",
+            "option": null,
+            "nextIds": [
+              130420014
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "130420014": {
+            "type": "Text",
+            "id": 130420014,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "Do you need me to go on?",
+            "option": null,
+            "nextIds": [
+              130420015,
+              130420016
+            ],
+            "kind": "NPC"
+          },
+          "130420015": {
+            "type": "Text",
+            "id": 130420015,
+            "sectionId": 1304200,
+            "senderId": null,
+            "text": "I think that's enough",
+            "option": "That's enough",
+            "nextIds": [
+              130420017
+            ],
+            "kind": "Player"
+          },
+          "130420017": {
+            "type": "Text",
+            "id": 130420017,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "I can't be the one doing all the talking. By your logic, you should also have to prove that you are not Sparkle, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              130420018
+            ],
+            "kind": "NPC"
+          },
+          "130420018": {
+            "type": "Text",
+            "id": 130420018,
+            "sectionId": 1304200,
+            "senderId": null,
+            "text": "Huh?",
+            "option": "Huh?",
+            "nextIds": [
+              130420019
+            ],
+            "kind": "Player"
+          },
+          "130420019": {
+            "type": "Sticker",
+            "id": 130420019,
+            "sectionId": 1304200,
+            "senderId": null,
+            "text": "(Image) [Pom-Pom Sticker - Shocked]",
+            "option": null,
+            "nextIds": [
+              130420020
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "130420020": {
+            "type": "Text",
+            "id": 130420020,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "I'm just joking. As a Memokeeper, I naturally know who the person is on the other side of my screen.",
+            "option": null,
+            "nextIds": [
+              130420021
+            ],
+            "kind": "NPC"
+          },
+          "130420021": {
+            "type": "Text",
+            "id": 130420021,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "Miss Sparkle's pranks are not without their benefits, she is able to make us re-examine what we have seen and think about the appearance and reality of the Dreamscape. This is also the reason that I shared the dream bubble with you.",
+            "option": null,
+            "nextIds": [
+              130420022
+            ],
+            "kind": "NPC"
+          },
+          "130420022": {
+            "type": "Text",
+            "id": 130420022,
+            "sectionId": 1304200,
+            "senderId": 1307,
+            "text": "Alright, looks like she hasn't caused any major damage, I will put my mind at ease. Talk to you again soon!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130420016": {
+            "type": "Text",
+            "id": 130420016,
+            "sectionId": 1304200,
+            "senderId": null,
+            "text": "I think I need more",
+            "option": "I need more",
+            "nextIds": [
+              130420017
+            ],
+            "kind": "Player"
+          },
+          "130420009": {
+            "type": "Text",
+            "id": 130420009,
+            "sectionId": 1304200,
+            "senderId": null,
+            "text": "Some unique actions you do out of habit, like looking in the mirror a lot",
+            "option": "A unique action?",
+            "nextIds": [
+              130420010
+            ],
+            "kind": "Player"
+          },
+          "130420003": {
+            "type": "Text",
+            "id": 130420003,
+            "sectionId": 1304200,
+            "senderId": null,
+            "text": "I'm getting déjà vu here...",
+            "option": "I'm getting déjà vu here...",
+            "nextIds": [
+              130420004
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1307,
+    "name": "Black Swan",
+    "signature": "Memories are soft amber",
+    "iconPath": "icon/avatar/1307.png",
+    "type": 1,
+    "camp": 10
+  }
+}

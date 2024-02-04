@@ -594,7 +594,7 @@
             "id": 200390008,
             "sectionId": 2003900,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": "Are you scared?",
             "nextIds": [
               200390009
@@ -866,7 +866,7 @@
             "id": 200390032,
             "sectionId": 2003900,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               200390033

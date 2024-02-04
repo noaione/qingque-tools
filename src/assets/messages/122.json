@@ -1,0 +1,63 @@
+{
+  "id": 122,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1304300,
+        "startIds": [
+          130430001
+        ],
+        "messages": {
+          "130430001": {
+            "type": "Text",
+            "id": 130430001,
+            "sectionId": 1304300,
+            "senderId": 122,
+            "text": "Special Deal! Spent <unbreak>46,700,000</unbreak> Alfalfa credits to enjoy a <unbreak>12%</unbreak> discount on an additional item.",
+            "option": null,
+            "nextIds": [
+              130430002
+            ],
+            "kind": "NPC"
+          },
+          "130430002": {
+            "type": "Text",
+            "id": 130430002,
+            "sectionId": 1304300,
+            "senderId": 122,
+            "text": "Discounted items include, but are not limited to: jewelry, watches, bags, high-quality tailored clothing items, and more. Our distinguished customers are welcome to stop by and make a selection as they please when visiting the Oti Mall.",
+            "option": null,
+            "nextIds": [
+              130430003
+            ],
+            "kind": "NPC"
+          },
+          "130430003": {
+            "type": "Text",
+            "id": 130430003,
+            "sectionId": 1304300,
+            "senderId": 122,
+            "text": "For detailed information regarding the sales event, please speak to the store manager Cocona.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2030101,
+          "name": "Envision a Rose Forthcoming",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 122,
+    "name": "Penacony Luxury Goods",
+    "signature": null,
+    "iconPath": "icon/avatar/LuxuryStore.png",
+    "type": 2,
+    "camp": 99
+  }
+}

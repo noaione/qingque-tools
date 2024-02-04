@@ -638,7 +638,7 @@
             "id": 200540004,
             "sectionId": 2005400,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": "Who's the healer here?",
             "nextIds": [
               200540006
@@ -667,7 +667,7 @@
             "id": 200540010,
             "sectionId": 2005400,
             "senderId": 1211,
-            "text": "[decline]",
+            "text": "[Decline]",
             "option": null,
             "nextIds": [
               200540011

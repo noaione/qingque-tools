@@ -1,0 +1,113 @@
+{
+  "id": 106,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1300200,
+        "startIds": [
+          130020000
+        ],
+        "messages": {
+          "130020000": {
+            "type": "Text",
+            "id": 130020000,
+            "sectionId": 1300200,
+            "senderId": 106,
+            "text": "Hello, {M#Mr.}{F#Ms.} {NICKNAME}. Someone just donated a dream bubble to our store. After conducting psychometric spectral analysis on it, I suspect you would be interested in the contents of this dream bubble.",
+            "option": null,
+            "nextIds": [
+              130020001,
+              130020003,
+              130020004
+            ],
+            "kind": "NPC"
+          },
+          "130020001": {
+            "type": "Text",
+            "id": 130020001,
+            "sectionId": 1300200,
+            "senderId": null,
+            "text": "Sounds suspicious...",
+            "option": "Sounds suspicious...",
+            "nextIds": [
+              130020002
+            ],
+            "kind": "Player"
+          },
+          "130020002": {
+            "type": "Text",
+            "id": 130020002,
+            "sectionId": 1300200,
+            "senderId": 106,
+            "text": "Don't worry, all the dreams in our store have been strictly inspected and there is absolutely no possibility of hidden harm.",
+            "option": null,
+            "nextIds": [
+              130020006
+            ],
+            "kind": "NPC"
+          },
+          "130020006": {
+            "type": "Text",
+            "id": 130020006,
+            "sectionId": 1300200,
+            "senderId": 106,
+            "text": "The donor is an elegant lady with the name \"Black Swan.\" If you have the time, we would love to have you any time.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130020003": {
+            "type": "Text",
+            "id": 130020003,
+            "sectionId": 1300200,
+            "senderId": null,
+            "text": "Who donated it to you?",
+            "option": "Who donated it to you?",
+            "nextIds": [
+              130020006
+            ],
+            "kind": "Player"
+          },
+          "130020004": {
+            "type": "Text",
+            "id": 130020004,
+            "sectionId": 1300200,
+            "senderId": null,
+            "text": "How did you know I'd be interested?",
+            "option": "How did you know I'd be interested?",
+            "nextIds": [
+              130020005
+            ],
+            "kind": "Player"
+          },
+          "130020005": {
+            "type": "Text",
+            "id": 130020005,
+            "sectionId": 1300200,
+            "senderId": 106,
+            "text": "It's the magic of psychoanalysis, {F#madam}{M#sir}!",
+            "option": null,
+            "nextIds": [
+              130020006
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2021801,
+          "name": "Masquerade Duet",
+          "type": "Companion"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 106,
+    "name": "Dr. Edward",
+    "signature": "Unconsciousness is the language of the Big Other.",
+    "iconPath": "icon/avatar/DreamStore.png",
+    "type": 2,
+    "camp": 99
+  }
+}

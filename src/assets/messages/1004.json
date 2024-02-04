@@ -1125,7 +1125,7 @@
             "id": 200100011,
             "sectionId": 2001000,
             "senderId": 1004,
-            "text": "[image]",
+            "text": "[Image]",
             "option": null,
             "nextIds": [
               200100012
@@ -1419,7 +1419,7 @@
             "id": 200110017,
             "sectionId": 2001100,
             "senderId": 1004,
-            "text": "[thumbs up]",
+            "text": "[Thumbs Up]",
             "option": null,
             "nextIds": [],
             "kind": "NPC",
@@ -1796,8 +1796,8 @@
             "id": 200120004,
             "sectionId": 2001200,
             "senderId": null,
-            "text": "[decline]",
-            "option": "[decline]",
+            "text": "[Decline]",
+            "option": "[Decline]",
             "nextIds": [
               200120005
             ],
@@ -1889,6 +1889,111 @@
             "sectionId": 5000600,
             "senderId": 1004,
             "text": "In your coming journey, you might come across other Calyxes like this, and the reality data stored in different Calyxes may vary, so look out for that.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1303900,
+        "startIds": [
+          130390000
+        ],
+        "messages": {
+          "130390000": {
+            "type": "Text",
+            "id": 130390000,
+            "sectionId": 1303900,
+            "senderId": 1004,
+            "text": "\"Dreamlight\" Mixed Sweets? That's an interesting name. The Commercial District sells snacks like this?",
+            "option": null,
+            "nextIds": [
+              130390001
+            ],
+            "kind": "NPC"
+          },
+          "130390001": {
+            "type": "Text",
+            "id": 130390001,
+            "sectionId": 1303900,
+            "senderId": null,
+            "text": "It's for you, Mr. Yang. Thanks for all you've done",
+            "option": "It's for you, Mr. Yang",
+            "nextIds": [
+              130390002
+            ],
+            "kind": "Player"
+          },
+          "130390002": {
+            "type": "Text",
+            "id": 130390002,
+            "sectionId": 1303900,
+            "senderId": 1004,
+            "text": "Well, if that's the case, I'd like to thank you all too. Adventuring together has been a real treat for me as well.",
+            "option": null,
+            "nextIds": [
+              130390003
+            ],
+            "kind": "NPC"
+          },
+          "130390003": {
+            "type": "Text",
+            "id": 130390003,
+            "sectionId": 1303900,
+            "senderId": 1004,
+            "text": "I hope our trailblazing expedition never ends.",
+            "option": null,
+            "nextIds": [
+              130390004
+            ],
+            "kind": "NPC"
+          },
+          "130390004": {
+            "type": "Text",
+            "id": 130390004,
+            "sectionId": 1303900,
+            "senderId": null,
+            "text": "It's said these candies have a unique design. You should have a taste",
+            "option": "Remember to have a taste",
+            "nextIds": [
+              130390005
+            ],
+            "kind": "Player"
+          },
+          "130390005": {
+            "type": "Text",
+            "id": 130390005,
+            "sectionId": 1303900,
+            "senderId": 1004,
+            "text": "Alright. I'll give it a try.",
+            "option": null,
+            "nextIds": [
+              130390006
+            ],
+            "kind": "NPC"
+          },
+          "130390006": {
+            "type": "Text",
+            "id": 130390006,
+            "sectionId": 1303900,
+            "senderId": 1004,
+            "text": "It's got a very interesting flavor. Are these all ingrained with memoria?",
+            "option": null,
+            "nextIds": [
+              130390007
+            ],
+            "kind": "NPC"
+          },
+          "130390007": {
+            "type": "Text",
+            "id": 130390007,
+            "sectionId": 1303900,
+            "senderId": 1004,
+            "text": "If I can apply these techniques to the creation of animations, then it'll definitely be more...",
             "option": null,
             "nextIds": [],
             "kind": "NPC"

@@ -628,6 +628,395 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1300100,
+        "startIds": [
+          130010000
+        ],
+        "messages": {
+          "130010000": {
+            "type": "Text",
+            "id": 130010000,
+            "sectionId": 1300100,
+            "senderId": 1000,
+            "text": "Hey, hey!",
+            "option": null,
+            "nextIds": [
+              130010001
+            ],
+            "kind": "NPC"
+          },
+          "130010001": {
+            "type": "Text",
+            "id": 130010001,
+            "sectionId": 1300100,
+            "senderId": 1001,
+            "text": "Hey, hey!",
+            "option": null,
+            "nextIds": [
+              130010002
+            ],
+            "kind": "NPC"
+          },
+          "130010002": {
+            "type": "Text",
+            "id": 130010002,
+            "sectionId": 1300100,
+            "senderId": 1002,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              130010003,
+              130010004
+            ],
+            "kind": "NPC"
+          },
+          "130010003": {
+            "type": "Text",
+            "id": 130010003,
+            "sectionId": 1300100,
+            "senderId": null,
+            "text": "What's up?",
+            "option": "What's up?",
+            "nextIds": [
+              130010006
+            ],
+            "kind": "Player"
+          },
+          "130010006": {
+            "type": "Text",
+            "id": 130010006,
+            "sectionId": 1300100,
+            "senderId": 1003,
+            "text": "Are we ready to set off to the next stop?",
+            "option": null,
+            "nextIds": [
+              130010007
+            ],
+            "kind": "NPC"
+          },
+          "130010007": {
+            "type": "Text",
+            "id": 130010007,
+            "sectionId": 1300100,
+            "senderId": 1000,
+            "text": "We sure are! The warp jump device is all calibrated.",
+            "option": null,
+            "nextIds": [
+              130010008
+            ],
+            "kind": "NPC"
+          },
+          "130010008": {
+            "type": "Text",
+            "id": 130010008,
+            "sectionId": 1300100,
+            "senderId": 1000,
+            "text": "But, as the Express conductor, I have three things I wanted to stress before we depart.",
+            "option": null,
+            "nextIds": [
+              130010009
+            ],
+            "kind": "NPC"
+          },
+          "130010009": {
+            "type": "Text",
+            "id": 130010009,
+            "sectionId": 1300100,
+            "senderId": 1000,
+            "text": "That's why I'm here for this little Express meeting, too.",
+            "option": null,
+            "nextIds": [
+              130010010
+            ],
+            "kind": "NPC"
+          },
+          "130010010": {
+            "type": "Text",
+            "id": 130010010,
+            "sectionId": 1300100,
+            "senderId": 1001,
+            "text": "Alright! Then you know the rules.",
+            "option": null,
+            "nextIds": [
+              130010011
+            ],
+            "kind": "NPC"
+          },
+          "130010011": {
+            "type": "Text",
+            "id": 130010011,
+            "sectionId": 1300100,
+            "senderId": 1001,
+            "text": "We'll meet in the Parlor Car!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130010004": {
+            "type": "Text",
+            "id": 130010004,
+            "sectionId": 1300100,
+            "senderId": null,
+            "text": "Hey, hey!",
+            "option": "Hello.",
+            "nextIds": [
+              130010005
+            ],
+            "kind": "Player"
+          },
+          "130010005": {
+            "type": "Text",
+            "id": 130010005,
+            "sectionId": 1300100,
+            "senderId": 1004,
+            "text": "Alright, let's see what the conductor has to say first.",
+            "option": null,
+            "nextIds": [
+              130010006
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1300300,
+        "startIds": [
+          130030000
+        ],
+        "messages": {
+          "130030000": {
+            "type": "Text",
+            "id": 130030000,
+            "sectionId": 1300300,
+            "senderId": null,
+            "text": "Himeko invited {NICKNAME}, March, and Welt to join the group chat",
+            "option": null,
+            "nextIds": [
+              130030001
+            ],
+            "kind": "System"
+          },
+          "130030001": {
+            "type": "Text",
+            "id": 130030001,
+            "sectionId": 1300300,
+            "senderId": 1003,
+            "text": "Are we all having fun?",
+            "option": null,
+            "nextIds": [
+              130030002
+            ],
+            "kind": "NPC"
+          },
+          "130030002": {
+            "type": "Text",
+            "id": 130030002,
+            "sectionId": 1300300,
+            "senderId": 1001,
+            "text": "Lots of fun, sure",
+            "option": null,
+            "nextIds": [
+              130030003
+            ],
+            "kind": "NPC"
+          },
+          "130030003": {
+            "type": "Text",
+            "id": 130030003,
+            "sectionId": 1300300,
+            "senderId": 1001,
+            "text": "But something feels off...",
+            "option": null,
+            "nextIds": [
+              130030004
+            ],
+            "kind": "NPC"
+          },
+          "130030004": {
+            "type": "Text",
+            "id": 130030004,
+            "sectionId": 1300300,
+            "senderId": 1001,
+            "text": "It doesn't feel very real. It's odd. I can't describe it",
+            "option": null,
+            "nextIds": [
+              130030005,
+              130030006
+            ],
+            "kind": "NPC"
+          },
+          "130030005": {
+            "type": "Text",
+            "id": 130030005,
+            "sectionId": 1300300,
+            "senderId": null,
+            "text": "We're in a dream, after all",
+            "option": "We're in a dream, after all",
+            "nextIds": [
+              130030007
+            ],
+            "kind": "Player"
+          },
+          "130030007": {
+            "type": "Text",
+            "id": 130030007,
+            "sectionId": 1300300,
+            "senderId": 1001,
+            "text": "I saw a guy wearing a plaster head sculpture at the auction, and he walked off without doing anything. That's pretty suspicious",
+            "option": null,
+            "nextIds": [
+              130030008
+            ],
+            "kind": "NPC"
+          },
+          "130030008": {
+            "type": "Text",
+            "id": 130030008,
+            "sectionId": 1300300,
+            "senderId": 1004,
+            "text": "I also had some unpleasant discoveries. It's a bit complicated. It's best if we meet up face-to-face.",
+            "option": null,
+            "nextIds": [
+              130030009
+            ],
+            "kind": "NPC"
+          },
+          "130030009": {
+            "type": "Text",
+            "id": 130030009,
+            "sectionId": 1300300,
+            "senderId": 1003,
+            "text": "Me too",
+            "option": null,
+            "nextIds": [
+              130030010
+            ],
+            "kind": "NPC"
+          },
+          "130030010": {
+            "type": "Text",
+            "id": 130030010,
+            "sectionId": 1300300,
+            "senderId": 1003,
+            "text": "Looks like a trip back to reality is overdue",
+            "option": null,
+            "nextIds": [
+              130030011
+            ],
+            "kind": "NPC"
+          },
+          "130030011": {
+            "type": "Text",
+            "id": 130030011,
+            "sectionId": 1300300,
+            "senderId": 1003,
+            "text": "Let's meet up in my room",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130030006": {
+            "type": "Text",
+            "id": 130030006,
+            "sectionId": 1300300,
+            "senderId": null,
+            "text": "There's some progress",
+            "option": "There's some progress",
+            "nextIds": [
+              130030007
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1303000,
+        "startIds": [
+          130300000
+        ],
+        "messages": {
+          "130300000": {
+            "type": "Text",
+            "id": 130300000,
+            "sectionId": 1303000,
+            "senderId": 1003,
+            "text": "Looks like a trip back to reality is overdue",
+            "option": null,
+            "nextIds": [
+              130300001
+            ],
+            "kind": "NPC"
+          },
+          "130300001": {
+            "type": "Text",
+            "id": 130300001,
+            "sectionId": 1303000,
+            "senderId": 1003,
+            "text": "Let's meet up in my room",
+            "option": null,
+            "nextIds": [
+              130300002
+            ],
+            "kind": "NPC"
+          },
+          "130300002": {
+            "type": "Text",
+            "id": 130300002,
+            "sectionId": 1303000,
+            "senderId": null,
+            "text": "I've run into a little trouble...",
+            "option": "I've run into a little trouble...",
+            "nextIds": [
+              130300003
+            ],
+            "kind": "Player"
+          },
+          "130300003": {
+            "type": "Text",
+            "id": 130300003,
+            "sectionId": 1303000,
+            "senderId": null,
+            "text": "(Message failed to send)",
+            "option": null,
+            "nextIds": [
+              130300004
+            ],
+            "kind": "System"
+          },
+          "130300004": {
+            "type": "Text",
+            "id": 130300004,
+            "sectionId": 1303000,
+            "senderId": null,
+            "text": "Huh...",
+            "option": "Huh...",
+            "nextIds": [
+              130300005
+            ],
+            "kind": "Player"
+          },
+          "130300005": {
+            "type": "Text",
+            "id": 130300005,
+            "sectionId": 1303000,
+            "senderId": null,
+            "text": "(Message failed to send)",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          }
+        }
+      }
     ]
   ],
   "info": {

@@ -800,7 +800,7 @@
             "id": 200630002,
             "sectionId": 2006300,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": "What?",
             "nextIds": [
               200630004
@@ -883,7 +883,7 @@
             "id": 200630009,
             "sectionId": 2006300,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               200630010
@@ -1088,7 +1088,7 @@
             "id": 200630014,
             "sectionId": 2006300,
             "senderId": null,
-            "text": "[confused]",
+            "text": "[Confused]",
             "option": null,
             "nextIds": [
               200630015

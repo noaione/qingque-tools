@@ -1,0 +1,143 @@
+{
+  "id": 118,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1303200,
+        "startIds": [
+          130320000
+        ],
+        "messages": {
+          "130320000": {
+            "type": "Text",
+            "id": 130320000,
+            "sectionId": 1303200,
+            "senderId": 118,
+            "text": "Dear guest, we have just received information that a highly dangerous contamination source has been detected on your person.",
+            "option": null,
+            "nextIds": [
+              130320001
+            ],
+            "kind": "NPC"
+          },
+          "130320001": {
+            "type": "Text",
+            "id": 130320001,
+            "sectionId": 1303200,
+            "senderId": 118,
+            "text": "Have you picked up a cassette recently? Please hurry to the hotel in the Dreamscape lobby and find me",
+            "option": null,
+            "nextIds": [
+              130320002,
+              130320005
+            ],
+            "kind": "NPC"
+          },
+          "130320002": {
+            "type": "Text",
+            "id": 130320002,
+            "sectionId": 1303200,
+            "senderId": null,
+            "text": "Are the scam messages all so obvious these days?",
+            "option": "A scam?",
+            "nextIds": [
+              130320003
+            ],
+            "kind": "Player"
+          },
+          "130320003": {
+            "type": "Text",
+            "id": 130320003,
+            "sectionId": 1303200,
+            "senderId": 118,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              130320004
+            ],
+            "kind": "NPC"
+          },
+          "130320004": {
+            "type": "Text",
+            "id": 130320004,
+            "sectionId": 1303200,
+            "senderId": 118,
+            "text": "No! This isn't a scam! I'm the Bloodhound Family's head guard!",
+            "option": null,
+            "nextIds": [
+              130320007
+            ],
+            "kind": "NPC"
+          },
+          "130320007": {
+            "type": "Text",
+            "id": 130320007,
+            "sectionId": 1303200,
+            "senderId": 118,
+            "text": "I know you must have many questions. I'll explain everything in a little while",
+            "option": null,
+            "nextIds": [
+              130320008
+            ],
+            "kind": "NPC"
+          },
+          "130320008": {
+            "type": "Text",
+            "id": 130320008,
+            "sectionId": 1303200,
+            "senderId": 118,
+            "text": "But the longer you delay, the more harm it will do to you",
+            "option": null,
+            "nextIds": [
+              130320009
+            ],
+            "kind": "NPC"
+          },
+          "130320009": {
+            "type": "Text",
+            "id": 130320009,
+            "sectionId": 1303200,
+            "senderId": 118,
+            "text": "Hurry to the hotel in the Dreamscape. I'll be waiting for you there",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130320005": {
+            "type": "Text",
+            "id": 130320005,
+            "sectionId": 1303200,
+            "senderId": null,
+            "text": "I don't even know that I have a contamination source on me. How would you know?",
+            "option": "How do you know?",
+            "nextIds": [
+              130320006
+            ],
+            "kind": "Player"
+          },
+          "130320006": {
+            "type": "Text",
+            "id": 130320006,
+            "sectionId": 1303200,
+            "senderId": 118,
+            "text": "We of the Bloodhound Family bear the heavy burden of ensuring Penacony's safety. We have our own ways of detecting contamination",
+            "option": null,
+            "nextIds": [
+              130320007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 118,
+    "name": "Woolsey",
+    "signature": null,
+    "iconPath": "icon/avatar/Woolsey.png",
+    "type": 2,
+    "camp": 99
+  }
+}
