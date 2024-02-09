@@ -33,7 +33,7 @@ import sortBy from "lodash.sortby";
 const gambaStore = useGambaStore();
 
 const characters = computed(() => {
-  const DUPES = ["8002", "8003", "8004"];
+  const DUPES = ["8002", "8003"];
   const characters = Object.values(charactersJSON) as Character[];
   return sortBy(
     characters.filter((chara) => !DUPES.includes(chara.id)),

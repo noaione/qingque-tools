@@ -55,7 +55,18 @@ const charaGrad = computed(() => {
 });
 const charaName = computed(() => {
   if (props.character) {
-    return props.character.name.replace("{NICKNAME}", "Trailblazer");
+    const destTb = ["8001", "8002"];
+    const presTb = ["8003", "8004"];
+
+    let nicknamed = props.character.name.replace("{NICKNAME}", "Trailblazer");
+
+    if (destTb.includes(props.character.id)) {
+      nicknamed += " (Destruction)";
+    } else if (presTb.includes(props.character.id)) {
+      nicknamed += " (Preservation)";
+    }
+
+    return nicknamed;
   }
 
   return null;
