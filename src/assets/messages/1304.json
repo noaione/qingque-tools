@@ -1,0 +1,420 @@
+{
+  "id": 1304,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2013300,
+        "startIds": [
+          201330000
+        ],
+        "messages": {
+          "201330000": {
+            "type": "Text",
+            "id": 201330000,
+            "sectionId": 2013300,
+            "senderId": 1304,
+            "text": "Hello, {F#Miss}{M#Mr.} Stellaron!",
+            "option": null,
+            "nextIds": [
+              201330001,
+              201330002
+            ],
+            "kind": "NPC"
+          },
+          "201330001": {
+            "type": "Text",
+            "id": 201330001,
+            "sectionId": 2013300,
+            "senderId": null,
+            "text": "You! How!?",
+            "option": "You! How!?",
+            "nextIds": [
+              201330003
+            ],
+            "kind": "Player"
+          },
+          "201330003": {
+            "type": "Text",
+            "id": 201330003,
+            "sectionId": 2013300,
+            "senderId": 1304,
+            "text": "Such a pity I cannot read your response",
+            "option": null,
+            "nextIds": [
+              201330004
+            ],
+            "kind": "NPC"
+          },
+          "201330004": {
+            "type": "Text",
+            "id": 201330004,
+            "sectionId": 2013300,
+            "senderId": 1304,
+            "text": "This is a scheduled message",
+            "option": null,
+            "nextIds": [
+              201330005
+            ],
+            "kind": "NPC"
+          },
+          "201330005": {
+            "type": "Text",
+            "id": 201330005,
+            "sectionId": 2013300,
+            "senderId": 1304,
+            "text": "By the time this text arrives, our conflict should have come to an end",
+            "option": null,
+            "nextIds": [
+              201330006
+            ],
+            "kind": "NPC"
+          },
+          "201330006": {
+            "type": "Text",
+            "id": 201330006,
+            "sectionId": 2013300,
+            "senderId": 1304,
+            "text": "If all goes well, we may still have a chance to meet again",
+            "option": null,
+            "nextIds": [
+              201330007
+            ],
+            "kind": "NPC"
+          },
+          "201330007": {
+            "type": "Text",
+            "id": 201330007,
+            "sectionId": 2013300,
+            "senderId": 1304,
+            "text": "But who knows, sometimes I too have my share of setbacks",
+            "option": null,
+            "nextIds": [
+              201330008
+            ],
+            "kind": "NPC"
+          },
+          "201330008": {
+            "type": "Text",
+            "id": 201330008,
+            "sectionId": 2013300,
+            "senderId": 1304,
+            "text": "Let's say goodbye for now, friend. Aventurine sends you his heartfelt gratitude and utmost respect.",
+            "option": null,
+            "nextIds": [
+              201330009
+            ],
+            "kind": "NPC"
+          },
+          "201330009": {
+            "type": "Text",
+            "id": 201330009,
+            "sectionId": 2013300,
+            "senderId": 1304,
+            "text": "May joy reign over your journey",
+            "option": null,
+            "nextIds": [
+              201330010,
+              201330011,
+              201330012
+            ],
+            "kind": "NPC"
+          },
+          "201330010": {
+            "type": "Text",
+            "id": 201330010,
+            "sectionId": 2013300,
+            "senderId": null,
+            "text": "See you later. Hope to see you again soon",
+            "option": "See you later",
+            "nextIds": [
+              201330013
+            ],
+            "kind": "Player"
+          },
+          "201330013": {
+            "type": "Text",
+            "id": 201330013,
+            "sectionId": 2013300,
+            "senderId": null,
+            "text": "Message failed to send.",
+            "option": null,
+            "nextIds": [
+              201330014
+            ],
+            "kind": "System"
+          },
+          "201330014": {
+            "type": "Text",
+            "id": 201330014,
+            "sectionId": 2013300,
+            "senderId": null,
+            "text": "The user you're trying to reach is currently out of the service area. Please try again later.",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "201330011": {
+            "type": "Text",
+            "id": 201330011,
+            "sectionId": 2013300,
+            "senderId": null,
+            "text": "You'll pay for what you did when you come back",
+            "option": "You'll pay when you're back",
+            "nextIds": [
+              201330013
+            ],
+            "kind": "Player"
+          },
+          "201330012": {
+            "type": "Text",
+            "id": 201330012,
+            "sectionId": 2013300,
+            "senderId": null,
+            "text": "Don't ever come back",
+            "option": "Don't ever come back",
+            "nextIds": [
+              201330013
+            ],
+            "kind": "Player"
+          },
+          "201330002": {
+            "type": "Text",
+            "id": 201330002,
+            "sectionId": 2013300,
+            "senderId": null,
+            "text": "You're still alive?",
+            "option": "You're still alive?",
+            "nextIds": [
+              201330003
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1302200,
+        "startIds": [
+          130220000
+        ],
+        "messages": {
+          "130220000": {
+            "type": "Text",
+            "id": 130220000,
+            "sectionId": 1302200,
+            "senderId": null,
+            "text": "We've decided to accept your request for collaboration",
+            "option": "We'll collaborate.",
+            "nextIds": [
+              130220001
+            ],
+            "kind": "Player"
+          },
+          "130220001": {
+            "type": "Text",
+            "id": 130220001,
+            "sectionId": 1302200,
+            "senderId": 1304,
+            "text": "Wonderful. Your response came faster than I expected",
+            "option": null,
+            "nextIds": [
+              130220002
+            ],
+            "kind": "NPC"
+          },
+          "130220002": {
+            "type": "Text",
+            "id": 130220002,
+            "sectionId": 1302200,
+            "senderId": 1304,
+            "text": "From now on, we'll all be in this together",
+            "option": null,
+            "nextIds": [
+              130220003
+            ],
+            "kind": "NPC"
+          },
+          "130220003": {
+            "type": "Text",
+            "id": 130220003,
+            "sectionId": 1302200,
+            "senderId": 1304,
+            "text": "Here's a small something for our upcoming partnership",
+            "option": null,
+            "nextIds": [
+              130220004
+            ],
+            "kind": "NPC"
+          },
+          "130220004": {
+            "type": "Text",
+            "id": 130220004,
+            "sectionId": 1302200,
+            "senderId": null,
+            "text": "You have received <unbreak>100,000</unbreak> credits",
+            "option": null,
+            "nextIds": [
+              130220005,
+              130220007,
+              130220009
+            ],
+            "kind": "System"
+          },
+          "130220005": {
+            "type": "Text",
+            "id": 130220005,
+            "sectionId": 1302200,
+            "senderId": null,
+            "text": "Wow wee",
+            "option": "Thanks, boss.",
+            "nextIds": [
+              130220006
+            ],
+            "kind": "Player"
+          },
+          "130220006": {
+            "type": "Text",
+            "id": 130220006,
+            "sectionId": 1302200,
+            "senderId": null,
+            "text": "That's so generous of you, boss. Thanks!",
+            "option": null,
+            "nextIds": [
+              130220011
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130220011": {
+            "type": "Text",
+            "id": 130220011,
+            "sectionId": 1302200,
+            "senderId": 1304,
+            "text": "Oops. I pressed send too early",
+            "option": null,
+            "nextIds": [
+              130220012
+            ],
+            "kind": "NPC"
+          },
+          "130220012": {
+            "type": "Text",
+            "id": 130220012,
+            "sectionId": 1302200,
+            "senderId": 1304,
+            "text": "Here's a little extra just for good luck with this new gig",
+            "option": null,
+            "nextIds": [
+              130220013
+            ],
+            "kind": "NPC"
+          },
+          "130220013": {
+            "type": "Text",
+            "id": 130220013,
+            "sectionId": 1302200,
+            "senderId": null,
+            "text": "You have received <unbreak>100,000</unbreak> credits",
+            "option": null,
+            "nextIds": [
+              130220014
+            ],
+            "kind": "System"
+          },
+          "130220014": {
+            "type": "Text",
+            "id": 130220014,
+            "sectionId": 1302200,
+            "senderId": 1304,
+            "text": "Just as I anticipated, The Family is going to sweep Robin's case under the rug for as long as they can. So, her case is only a secret between us",
+            "option": null,
+            "nextIds": [
+              130220015
+            ],
+            "kind": "NPC"
+          },
+          "130220015": {
+            "type": "Text",
+            "id": 130220015,
+            "sectionId": 1302200,
+            "senderId": 1304,
+            "text": "But the other case... that depends on what excuses they have prepared for you guys",
+            "option": null,
+            "nextIds": [
+              130220016
+            ],
+            "kind": "NPC"
+          },
+          "130220016": {
+            "type": "Text",
+            "id": 130220016,
+            "sectionId": 1302200,
+            "senderId": 1304,
+            "text": "I'll take my leave for now. And I look forward to outstanding performance from you guys!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130220007": {
+            "type": "Text",
+            "id": 130220007,
+            "sectionId": 1302200,
+            "senderId": null,
+            "text": "Bro, you should be more prudent with your money",
+            "option": "That's a LOTTA money!",
+            "nextIds": [
+              130220008
+            ],
+            "kind": "Player"
+          },
+          "130220008": {
+            "type": "Text",
+            "id": 130220008,
+            "sectionId": 1302200,
+            "senderId": null,
+            "text": "But I'll take them all just this one time.",
+            "option": null,
+            "nextIds": [
+              130220011
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130220009": {
+            "type": "Text",
+            "id": 130220009,
+            "sectionId": 1302200,
+            "senderId": null,
+            "text": "That's it?",
+            "option": "That's it?",
+            "nextIds": [
+              130220010
+            ],
+            "kind": "Player"
+          },
+          "130220010": {
+            "type": "Text",
+            "id": 130220010,
+            "sectionId": 1302200,
+            "senderId": null,
+            "text": "That doesn't seem like much. Gimme another <unbreak>100</unbreak>k, rich boy. Lemme see what you've got",
+            "option": null,
+            "nextIds": [
+              130220011
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1304,
+    "name": "Aventurine",
+    "signature": "Always open to pull for your game account",
+    "iconPath": "icon/avatar/1304.png",
+    "type": 1,
+    "camp": 6
+  }
+}

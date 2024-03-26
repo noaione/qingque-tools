@@ -1,0 +1,388 @@
+{
+  "id": 141,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1306100,
+        "startIds": [
+          130610000
+        ],
+        "messages": {
+          "130610000": {
+            "type": "Text",
+            "id": 130610000,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "Friend, the case is closed.",
+            "option": null,
+            "nextIds": [
+              130610001
+            ],
+            "kind": "NPC"
+          },
+          "130610001": {
+            "type": "Text",
+            "id": 130610001,
+            "sectionId": 1306100,
+            "senderId": null,
+            "text": "Go on.",
+            "option": null,
+            "nextIds": [
+              130610002
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130610002": {
+            "type": "Text",
+            "id": 130610002,
+            "sectionId": 1306100,
+            "senderId": null,
+            "text": "Love to hear it.",
+            "option": null,
+            "nextIds": [
+              130610003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130610003": {
+            "type": "Text",
+            "id": 130610003,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "The Ruff Tape was the killer, not the victim.",
+            "option": null,
+            "nextIds": [
+              130610004
+            ],
+            "kind": "NPC"
+          },
+          "130610004": {
+            "type": "Text",
+            "id": 130610004,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "He lured the boss with the excusing of giving him the evidence and killed him.",
+            "option": null,
+            "nextIds": [
+              130610005
+            ],
+            "kind": "NPC"
+          },
+          "130610005": {
+            "type": "Text",
+            "id": 130610005,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "With the loud music, the witnesses all assumed the tape was the victim.",
+            "option": null,
+            "nextIds": [
+              130610006
+            ],
+            "kind": "NPC"
+          },
+          "130610006": {
+            "type": "Text",
+            "id": 130610006,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "Of course, aside from the sounds they play, all the tapes in Penacony look the same.",
+            "option": null,
+            "nextIds": [
+              130610007
+            ],
+            "kind": "NPC"
+          },
+          "130610007": {
+            "type": "Text",
+            "id": 130610007,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "Finally, he put his boss's tape inside himself, stealing the other's sound and identity before fleeing the scene.",
+            "option": null,
+            "nextIds": [
+              130610008
+            ],
+            "kind": "NPC"
+          },
+          "130610008": {
+            "type": "Text",
+            "id": 130610008,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "The key clue was that the tape inside his body had been fixed before.",
+            "option": null,
+            "nextIds": [
+              130610009,
+              130610011
+            ],
+            "kind": "NPC"
+          },
+          "130610009": {
+            "type": "Text",
+            "id": 130610009,
+            "sectionId": 1306100,
+            "senderId": null,
+            "text": "Even in the end, I have no clue what his boss had on him.",
+            "option": "What about the boss' secret?",
+            "nextIds": [
+              130610010
+            ],
+            "kind": "Player"
+          },
+          "130610010": {
+            "type": "Text",
+            "id": 130610010,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "Ah, don't think about that stuff.",
+            "option": null,
+            "nextIds": [
+              130610013
+            ],
+            "kind": "NPC"
+          },
+          "130610013": {
+            "type": "Text",
+            "id": 130610013,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "It was all thanks to your help this time, otherwise the truth would've been lost forever.",
+            "option": null,
+            "nextIds": [
+              130610014
+            ],
+            "kind": "NPC"
+          },
+          "130610014": {
+            "type": "Text",
+            "id": 130610014,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "Looking forward to working with you again in the future.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130610011": {
+            "type": "Text",
+            "id": 130610011,
+            "sectionId": 1306100,
+            "senderId": null,
+            "text": "They're supposed to be cassette tapes. How could they be so cruel?",
+            "option": "That's one vicious tape.",
+            "nextIds": [
+              130610012
+            ],
+            "kind": "Player"
+          },
+          "130610012": {
+            "type": "Text",
+            "id": 130610012,
+            "sectionId": 1306100,
+            "senderId": 141,
+            "text": "That's why we're needed.",
+            "option": null,
+            "nextIds": [
+              130610013
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1306200,
+        "startIds": [
+          130620000
+        ],
+        "messages": {
+          "130620000": {
+            "type": "Text",
+            "id": 130620000,
+            "sectionId": 1306200,
+            "senderId": 141,
+            "text": "Sorry, I didn't find the killer in the end.",
+            "option": null,
+            "nextIds": [
+              130620001
+            ],
+            "kind": "NPC"
+          },
+          "130620001": {
+            "type": "Text",
+            "id": 130620001,
+            "sectionId": 1306200,
+            "senderId": 141,
+            "text": "There just weren't enough clues at the scene. I plan to investigate the victim's whereabouts leading up to their deaths.",
+            "option": null,
+            "nextIds": [
+              130620002,
+              130620004
+            ],
+            "kind": "NPC"
+          },
+          "130620002": {
+            "type": "Text",
+            "id": 130620002,
+            "sectionId": 1306200,
+            "senderId": null,
+            "text": "When you crack the case, call me first so we can celebrate together.",
+            "option": "I'll wait for your good news.",
+            "nextIds": [
+              130620003
+            ],
+            "kind": "Player"
+          },
+          "130620003": {
+            "type": "Text",
+            "id": 130620003,
+            "sectionId": 1306200,
+            "senderId": 141,
+            "text": "Alright, it's a deal, then.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130620004": {
+            "type": "Text",
+            "id": 130620004,
+            "sectionId": 1306200,
+            "senderId": null,
+            "text": "The criminal is a vicious one. Be careful when conducting your investigation.",
+            "option": "Stay safe.",
+            "nextIds": [
+              130620005
+            ],
+            "kind": "Player"
+          },
+          "130620005": {
+            "type": "Text",
+            "id": 130620005,
+            "sectionId": 1306200,
+            "senderId": 141,
+            "text": "I will. Thanks for the concern.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1306300,
+        "startIds": [
+          130630000
+        ],
+        "messages": {
+          "130630000": {
+            "type": "Text",
+            "id": 130630000,
+            "sectionId": 1306300,
+            "senderId": 141,
+            "text": "Thanks for the advice, friend.",
+            "option": null,
+            "nextIds": [
+              130630001
+            ],
+            "kind": "NPC"
+          },
+          "130630001": {
+            "type": "Text",
+            "id": 130630001,
+            "sectionId": 1306300,
+            "senderId": 141,
+            "text": "Never experienced a lightness and joy like this in my life.",
+            "option": null,
+            "nextIds": [
+              130630002
+            ],
+            "kind": "NPC"
+          },
+          "130630002": {
+            "type": "Text",
+            "id": 130630002,
+            "sectionId": 1306300,
+            "senderId": null,
+            "text": "What happened? Did I miss an episode?",
+            "option": null,
+            "nextIds": [
+              130630003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130630003": {
+            "type": "Text",
+            "id": 130630003,
+            "sectionId": 1306300,
+            "senderId": 141,
+            "text": "It's only after what you said that I realized you were right. I really don't have the talent to be a detective.",
+            "option": null,
+            "nextIds": [
+              130630004
+            ],
+            "kind": "NPC"
+          },
+          "130630004": {
+            "type": "Text",
+            "id": 130630004,
+            "sectionId": 1306300,
+            "senderId": null,
+            "text": "What are you trying to say?",
+            "option": "What are you saying?",
+            "nextIds": [
+              130630005
+            ],
+            "kind": "Player"
+          },
+          "130630005": {
+            "type": "Text",
+            "id": 130630005,
+            "sectionId": 1306300,
+            "senderId": 141,
+            "text": "I'm done with this detective stuff, friend.",
+            "option": null,
+            "nextIds": [
+              130630006
+            ],
+            "kind": "NPC"
+          },
+          "130630006": {
+            "type": "Text",
+            "id": 130630006,
+            "sectionId": 1306300,
+            "senderId": 141,
+            "text": "Farewell, I'm going on vacation at the Blue Hour.",
+            "option": null,
+            "nextIds": [
+              130630007
+            ],
+            "kind": "NPC"
+          },
+          "130630007": {
+            "type": "Text",
+            "id": 130630007,
+            "sectionId": 1306300,
+            "senderId": null,
+            "text": "???",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 141,
+    "name": "Billboard Investigator",
+    "signature": null,
+    "iconPath": "icon/avatar/AdvertBoard.png",
+    "type": 2,
+    "camp": 11
+  }
+}

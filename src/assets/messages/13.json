@@ -631,7 +631,7 @@
     ],
     [
       {
-        "type": "Message",
+        "type": "MissionMessage",
         "id": 1300100,
         "startIds": [
           130010000
@@ -780,6 +780,11 @@
             ],
             "kind": "NPC"
           }
+        },
+        "mission": {
+          "id": 1030101,
+          "name": "Long Day's Journey Into Night",
+          "type": "Main"
         }
       }
     ],
@@ -940,6 +945,304 @@
     [
       {
         "type": "Message",
+        "id": 1302100,
+        "startIds": [
+          130210000
+        ],
+        "messages": {
+          "130210000": {
+            "type": "Text",
+            "id": 130210000,
+            "sectionId": 1302100,
+            "senderId": 1001,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              130210001
+            ],
+            "kind": "NPC"
+          },
+          "130210001": {
+            "type": "Text",
+            "id": 130210001,
+            "sectionId": 1302100,
+            "senderId": 1001,
+            "text": "You still at hotel in the dreamscape?",
+            "option": null,
+            "nextIds": [
+              130210002
+            ],
+            "kind": "NPC"
+          },
+          "130210002": {
+            "type": "Text",
+            "id": 130210002,
+            "sectionId": 1302100,
+            "senderId": 1001,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              130210003
+            ],
+            "kind": "NPC"
+          },
+          "130210003": {
+            "type": "Text",
+            "id": 130210003,
+            "sectionId": 1302100,
+            "senderId": 1001,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              130210004
+            ],
+            "kind": "NPC"
+          },
+          "130210004": {
+            "type": "Text",
+            "id": 130210004,
+            "sectionId": 1302100,
+            "senderId": 1004,
+            "text": "Have you run into trouble?",
+            "option": null,
+            "nextIds": [
+              130210005
+            ],
+            "kind": "NPC"
+          },
+          "130210005": {
+            "type": "Text",
+            "id": 130210005,
+            "sectionId": 1302100,
+            "senderId": 1003,
+            "text": "We got separated in the Memory Zone, but {NICKNAME} is with the Memokeeper",
+            "option": null,
+            "nextIds": [
+              130210006
+            ],
+            "kind": "NPC"
+          },
+          "130210006": {
+            "type": "Text",
+            "id": 130210006,
+            "sectionId": 1302100,
+            "senderId": 1001,
+            "text": "I feel so antsy",
+            "option": null,
+            "nextIds": [
+              130210007
+            ],
+            "kind": "NPC"
+          },
+          "130210007": {
+            "type": "Text",
+            "id": 130210007,
+            "sectionId": 1302100,
+            "senderId": 1001,
+            "text": "Help",
+            "option": null,
+            "nextIds": [
+              130210008
+            ],
+            "kind": "NPC"
+          },
+          "130210008": {
+            "type": "Text",
+            "id": 130210008,
+            "sectionId": 1302100,
+            "senderId": 1003,
+            "text": "March, stay calm",
+            "option": null,
+            "nextIds": [
+              130210009
+            ],
+            "kind": "NPC"
+          },
+          "130210009": {
+            "type": "Text",
+            "id": 130210009,
+            "sectionId": 1302100,
+            "senderId": 1002,
+            "text": "Do I need to get off the Express and help?",
+            "option": null,
+            "nextIds": [
+              130210010
+            ],
+            "kind": "NPC"
+          },
+          "130210010": {
+            "type": "Text",
+            "id": 130210010,
+            "sectionId": 1302100,
+            "senderId": 1003,
+            "text": "Not at the moment",
+            "option": null,
+            "nextIds": [
+              130210011
+            ],
+            "kind": "NPC"
+          },
+          "130210011": {
+            "type": "Text",
+            "id": 130210011,
+            "sectionId": 1302100,
+            "senderId": 1002,
+            "text": "Sure. Just let me know if you need me",
+            "option": null,
+            "nextIds": [
+              130210012
+            ],
+            "kind": "NPC"
+          },
+          "130210012": {
+            "type": "Text",
+            "id": 130210012,
+            "sectionId": 1302100,
+            "senderId": 1004,
+            "text": "The Reverie Hotel in the real world is very calm. Not much is happening.",
+            "option": null,
+            "nextIds": [
+              130210013
+            ],
+            "kind": "NPC"
+          },
+          "130210013": {
+            "type": "Text",
+            "id": 130210013,
+            "sectionId": 1302100,
+            "senderId": null,
+            "text": "— Message History —",
+            "option": null,
+            "nextIds": [
+              130210014,
+              130210016
+            ],
+            "kind": "System"
+          },
+          "130210014": {
+            "type": "Text",
+            "id": 130210014,
+            "sectionId": 1302100,
+            "senderId": null,
+            "text": "I finished investigating on my side.",
+            "option": "I'm done.",
+            "nextIds": [
+              130210015
+            ],
+            "kind": "Player"
+          },
+          "130210015": {
+            "type": "Text",
+            "id": 130210015,
+            "sectionId": 1302100,
+            "senderId": null,
+            "text": "Where should we meet?",
+            "option": null,
+            "nextIds": [
+              130210018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130210018": {
+            "type": "Text",
+            "id": 130210018,
+            "sectionId": 1302100,
+            "senderId": 1001,
+            "text": "{NICKNAME}!",
+            "option": null,
+            "nextIds": [
+              130210019
+            ],
+            "kind": "NPC"
+          },
+          "130210019": {
+            "type": "Text",
+            "id": 130210019,
+            "sectionId": 1302100,
+            "senderId": 1003,
+            "text": "{NICKNAME}, it's great that you're safe.",
+            "option": null,
+            "nextIds": [
+              130210020
+            ],
+            "kind": "NPC"
+          },
+          "130210020": {
+            "type": "Text",
+            "id": 130210020,
+            "sectionId": 1302100,
+            "senderId": 1001,
+            "text": "That lady didn't do anything bad, did she?",
+            "option": null,
+            "nextIds": [
+              130210021
+            ],
+            "kind": "NPC"
+          },
+          "130210021": {
+            "type": "Text",
+            "id": 130210021,
+            "sectionId": 1302100,
+            "senderId": 1003,
+            "text": "I'm sorry... about what happened to Firefly.",
+            "option": null,
+            "nextIds": [
+              130210022
+            ],
+            "kind": "NPC"
+          },
+          "130210022": {
+            "type": "Text",
+            "id": 130210022,
+            "sectionId": 1302100,
+            "senderId": 1003,
+            "text": "The scene has been cordoned off by The Family. We're wrapping up negotiations with some Family delegates.",
+            "option": null,
+            "nextIds": [
+              130210023
+            ],
+            "kind": "NPC"
+          },
+          "130210023": {
+            "type": "Text",
+            "id": 130210023,
+            "sectionId": 1302100,
+            "senderId": 1003,
+            "text": "Let's meet somewhere near the Clockie Statue later.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130210016": {
+            "type": "Text",
+            "id": 130210016,
+            "sectionId": 1302100,
+            "senderId": null,
+            "text": "I finished investigating on my side.",
+            "option": "Where are you?",
+            "nextIds": [
+              130210017
+            ],
+            "kind": "Player"
+          },
+          "130210017": {
+            "type": "Text",
+            "id": 130210017,
+            "sectionId": 1302100,
+            "senderId": null,
+            "text": "Where should I go to meet you?",
+            "option": null,
+            "nextIds": [
+              130210018
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
         "id": 1303000,
         "startIds": [
           130300000
@@ -1014,6 +1317,485 @@
             "option": null,
             "nextIds": [],
             "kind": "System"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1306400,
+        "startIds": [
+          130640000
+        ],
+        "messages": {
+          "130640000": {
+            "type": "Image",
+            "id": 130640000,
+            "sectionId": 1306400,
+            "senderId": 1000,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130640001
+            ],
+            "kind": "NPC",
+            "image": {
+              "id": 10301,
+              "path": "image/messages/10020.png"
+            }
+          },
+          "130640001": {
+            "type": "Text",
+            "id": 130640001,
+            "sectionId": 1306400,
+            "senderId": 1000,
+            "text": "Got a package delivered to the Express",
+            "option": null,
+            "nextIds": [
+              130640002
+            ],
+            "kind": "NPC"
+          },
+          "130640002": {
+            "type": "Sticker",
+            "id": 130640002,
+            "sectionId": 1306400,
+            "senderId": 1000,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130640003
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 107002,
+              "path": "icon/emoji/107002.png",
+              "keywords": "Gift"
+            }
+          },
+          "130640003": {
+            "type": "Text",
+            "id": 130640003,
+            "sectionId": 1306400,
+            "senderId": 1004,
+            "text": "I do recall the Express has received one of these things before, no?",
+            "option": null,
+            "nextIds": [
+              130640004
+            ],
+            "kind": "NPC"
+          },
+          "130640004": {
+            "type": "Sticker",
+            "id": 130640004,
+            "sectionId": 1306400,
+            "senderId": 1001,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130640005
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30003,
+              "path": "icon/emoji/30003.png",
+              "keywords": "Undercover"
+            }
+          },
+          "130640005": {
+            "type": "Text",
+            "id": 130640005,
+            "sectionId": 1306400,
+            "senderId": 1001,
+            "text": "What kind of package? So mysterious",
+            "option": null,
+            "nextIds": [
+              130640006
+            ],
+            "kind": "NPC"
+          },
+          "130640006": {
+            "type": "Text",
+            "id": 130640006,
+            "sectionId": 1306400,
+            "senderId": 1002,
+            "text": "Yes. The Express' records did mention this has happened before.",
+            "option": null,
+            "nextIds": [
+              130640007
+            ],
+            "kind": "NPC"
+          },
+          "130640007": {
+            "type": "Sticker",
+            "id": 130640007,
+            "sectionId": 1306400,
+            "senderId": 1002,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130640008
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 102001,
+              "path": "icon/emoji/102001.png",
+              "keywords": "Pondering"
+            }
+          },
+          "130640008": {
+            "type": "Text",
+            "id": 130640008,
+            "sectionId": 1306400,
+            "senderId": 1001,
+            "text": "Oh, that thing. I remember now",
+            "option": null,
+            "nextIds": [
+              130640009
+            ],
+            "kind": "NPC"
+          },
+          "130640009": {
+            "type": "Text",
+            "id": 130640009,
+            "sectionId": 1306400,
+            "senderId": 1001,
+            "text": "{NICKNAME}, this is some good stuff. You better get back and have a look!",
+            "option": null,
+            "nextIds": [
+              130640010,
+              130640013
+            ],
+            "kind": "NPC"
+          },
+          "130640010": {
+            "type": "Text",
+            "id": 130640010,
+            "sectionId": 1306400,
+            "senderId": null,
+            "text": "This is a gift specifically for me.",
+            "option": "I already know what to expect",
+            "nextIds": [
+              130640011
+            ],
+            "kind": "Player"
+          },
+          "130640011": {
+            "type": "Sticker",
+            "id": 130640011,
+            "sectionId": 1306400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130640016
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 103004,
+              "path": "icon/emoji/103004.png",
+              "keywords": "Melon"
+            }
+          },
+          "130640016": {
+            "type": "Text",
+            "id": 130640016,
+            "sectionId": 1306400,
+            "senderId": 1003,
+            "text": "This is a package sent to the Express from another Nameless in the cosmos",
+            "option": null,
+            "nextIds": [
+              130640017
+            ],
+            "kind": "NPC"
+          },
+          "130640017": {
+            "type": "Sticker",
+            "id": 130640017,
+            "sectionId": 1306400,
+            "senderId": 1003,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130640018
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 102002,
+              "path": "icon/emoji/102002.png",
+              "keywords": "Smiling"
+            }
+          },
+          "130640018": {
+            "type": "Text",
+            "id": 130640018,
+            "sectionId": 1306400,
+            "senderId": 1003,
+            "text": "I knew you'd be interested, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              130640019
+            ],
+            "kind": "NPC"
+          },
+          "130640019": {
+            "type": "Text",
+            "id": 130640019,
+            "sectionId": 1306400,
+            "senderId": 1003,
+            "text": "Remember to take a look once you get back to the Express",
+            "option": null,
+            "nextIds": [
+              130640020,
+              130640023,
+              130640026
+            ],
+            "kind": "NPC"
+          },
+          "130640020": {
+            "type": "Text",
+            "id": 130640020,
+            "sectionId": 1306400,
+            "senderId": null,
+            "text": "I'll be there soon. I'm about to reach a Space Anchor",
+            "option": "Got it. I'm on my way",
+            "nextIds": [
+              130640021
+            ],
+            "kind": "Player"
+          },
+          "130640021": {
+            "type": "Text",
+            "id": 130640021,
+            "sectionId": 1306400,
+            "senderId": 1000,
+            "text": "Pom-Pom will be waiting",
+            "option": null,
+            "nextIds": [
+              130640022
+            ],
+            "kind": "NPC"
+          },
+          "130640022": {
+            "type": "Sticker",
+            "id": 130640022,
+            "sectionId": 1306400,
+            "senderId": 1000,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 107006,
+              "path": "icon/emoji/107006.png",
+              "keywords": "Overtime"
+            }
+          },
+          "130640023": {
+            "type": "Text",
+            "id": 130640023,
+            "sectionId": 1306400,
+            "senderId": null,
+            "text": "No problem. What if the conductor doesn't know either?",
+            "option": "What if Pom-Pom doesn't know?",
+            "nextIds": [
+              130640024
+            ],
+            "kind": "Player"
+          },
+          "130640024": {
+            "type": "Text",
+            "id": 130640024,
+            "sectionId": 1306400,
+            "senderId": 1000,
+            "text": "Hmph. Pom-Pom thinks you're the one that doesn't have a clue",
+            "option": null,
+            "nextIds": [
+              130640025
+            ],
+            "kind": "NPC"
+          },
+          "130640025": {
+            "type": "Sticker",
+            "id": 130640025,
+            "sectionId": 1306400,
+            "senderId": 1000,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "130640026": {
+            "type": "Text",
+            "id": 130640026,
+            "sectionId": 1306400,
+            "senderId": null,
+            "text": "Actually, I already saw the package. Your message came a bit late, conductor",
+            "option": "Message came a bit late",
+            "nextIds": [
+              130640027
+            ],
+            "kind": "Player"
+          },
+          "130640027": {
+            "type": "Text",
+            "id": 130640027,
+            "sectionId": 1306400,
+            "senderId": 1000,
+            "text": "You're the one who replied late, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              130640028
+            ],
+            "kind": "NPC"
+          },
+          "130640028": {
+            "type": "Sticker",
+            "id": 130640028,
+            "sectionId": 1306400,
+            "senderId": 1000,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "130640013": {
+            "type": "Text",
+            "id": 130640013,
+            "sectionId": 1306400,
+            "senderId": null,
+            "text": "Does it say who's supposed to receive it? Does it have {NICKNAME}'s name on it?",
+            "option": "Who's the recipient?",
+            "nextIds": [
+              130640014
+            ],
+            "kind": "Player"
+          },
+          "130640014": {
+            "type": "Sticker",
+            "id": 130640014,
+            "sectionId": 1306400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              130640016
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 103004,
+              "path": "icon/emoji/103004.png",
+              "keywords": "Melon"
+            }
+          }
+        },
+        "mission": {
+          "id": 8021301,
+          "name": "Package for the Nameless",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1307600,
+        "startIds": [
+          130760000
+        ],
+        "messages": {
+          "130760000": {
+            "type": "Text",
+            "id": 130760000,
+            "sectionId": 1307600,
+            "senderId": null,
+            "text": "Mr. Yang, our investigation here has come to an end",
+            "option": "Ask about Welt's situation.",
+            "nextIds": [
+              130760001
+            ],
+            "kind": "Player"
+          },
+          "130760001": {
+            "type": "Text",
+            "id": 130760001,
+            "sectionId": 1307600,
+            "senderId": null,
+            "text": "How's progress going on your end?",
+            "option": null,
+            "nextIds": [
+              130760002
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130760002": {
+            "type": "Text",
+            "id": 130760002,
+            "sectionId": 1307600,
+            "senderId": 1004,
+            "text": "Not too bad. The Galaxy Ranger and I agree that The Family might be hiding something extremely important.",
+            "option": null,
+            "nextIds": [
+              130760003
+            ],
+            "kind": "NPC"
+          },
+          "130760003": {
+            "type": "Text",
+            "id": 130760003,
+            "sectionId": 1307600,
+            "senderId": 1004,
+            "text": "We're now headed to Dewlight Pavilion.",
+            "option": null,
+            "nextIds": [
+              130760004
+            ],
+            "kind": "NPC"
+          },
+          "130760004": {
+            "type": "Text",
+            "id": 130760004,
+            "sectionId": 1307600,
+            "senderId": 1001,
+            "text": "Acheron, huh? Didn't Aventurine say she was dangerous...",
+            "option": null,
+            "nextIds": [
+              130760005
+            ],
+            "kind": "NPC"
+          },
+          "130760005": {
+            "type": "Text",
+            "id": 130760005,
+            "sectionId": 1307600,
+            "senderId": 1004,
+            "text": "I've confirmed that she's on our side.",
+            "option": null,
+            "nextIds": [
+              130760006
+            ],
+            "kind": "NPC"
+          },
+          "130760006": {
+            "type": "Text",
+            "id": 130760006,
+            "sectionId": 1307600,
+            "senderId": 1004,
+            "text": "Don't worry. Please wait for a while. I'll keep you posted as soon as I find anything.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
           }
         }
       }

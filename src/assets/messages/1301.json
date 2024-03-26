@@ -1,0 +1,1262 @@
+{
+  "id": 1301,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2013000,
+        "startIds": [
+          201300000
+        ],
+        "messages": {
+          "201300000": {
+            "type": "Text",
+            "id": 201300000,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "Wanna try the new mix I have? I call it the \"Vaporizer\"",
+            "option": null,
+            "nextIds": [
+              201300001,
+              201300004
+            ],
+            "kind": "NPC"
+          },
+          "201300001": {
+            "type": "Text",
+            "id": 201300001,
+            "sectionId": 2013000,
+            "senderId": null,
+            "text": "Will it vaporize me on the spot if I try it?",
+            "option": "Will it vaporize me on the spot if I try it?",
+            "nextIds": [
+              201300002
+            ],
+            "kind": "Player"
+          },
+          "201300002": {
+            "type": "Text",
+            "id": 201300002,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "Just one sip of the drink and you get vaporized on the spot? Nah, I can't pull off something like that.",
+            "option": null,
+            "nextIds": [
+              201300003
+            ],
+            "kind": "NPC"
+          },
+          "201300003": {
+            "type": "Text",
+            "id": 201300003,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "But the taste and texture won't let you down",
+            "option": null,
+            "nextIds": [
+              201300009
+            ],
+            "kind": "NPC"
+          },
+          "201300009": {
+            "type": "Text",
+            "id": 201300009,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "In Penacony, you can find all kinds of drink-mixing ingredients, and sometimes, the flavor that comes out of the mix is hard to describe",
+            "option": null,
+            "nextIds": [
+              201300010
+            ],
+            "kind": "NPC"
+          },
+          "201300010": {
+            "type": "Text",
+            "id": 201300010,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "I don't know how many \"unique\" drinks I've tasted before the \"Vaporizer\" was created",
+            "option": null,
+            "nextIds": [
+              201300011
+            ],
+            "kind": "NPC"
+          },
+          "201300011": {
+            "type": "Text",
+            "id": 201300011,
+            "sectionId": 2013000,
+            "senderId": null,
+            "text": "Please tell me about some of these unique flavors",
+            "option": "Tell me about these unique flavors",
+            "nextIds": [
+              201300012
+            ],
+            "kind": "Player"
+          },
+          "201300012": {
+            "type": "Text",
+            "id": 201300012,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "There are way too many examples",
+            "option": null,
+            "nextIds": [
+              201300013
+            ],
+            "kind": "NPC"
+          },
+          "201300013": {
+            "type": "Text",
+            "id": 201300013,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "Among recent mixes, \"Feast and Exile\" and \"Masked Talent\" can be considered classics. They left me with the deepest impressions",
+            "option": null,
+            "nextIds": [
+              201300014,
+              201300018
+            ],
+            "kind": "NPC"
+          },
+          "201300014": {
+            "type": "Text",
+            "id": 201300014,
+            "sectionId": 2013000,
+            "senderId": null,
+            "text": "Tell me about \"Feast and Exile\"",
+            "option": "Tell me about \"Feast and Exile\"",
+            "nextIds": [
+              201300015
+            ],
+            "kind": "Player"
+          },
+          "201300015": {
+            "type": "Text",
+            "id": 201300015,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "I wanted to mix something lustrous but didn't expect the industrial-grade syrup to be so sweet, dominating all other flavors entirely",
+            "option": null,
+            "nextIds": [
+              201300016
+            ],
+            "kind": "NPC"
+          },
+          "201300016": {
+            "type": "Text",
+            "id": 201300016,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "To rectify that, I added a bit of \"bitterness\"",
+            "option": null,
+            "nextIds": [
+              201300017
+            ],
+            "kind": "NPC"
+          },
+          "201300017": {
+            "type": "Text",
+            "id": 201300017,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "But I totally didn't expect the supplemental flavors to be that intense... One bite and my old hound soul almost got lost in the utter bitterness",
+            "option": null,
+            "nextIds": [
+              201300022
+            ],
+            "kind": "NPC"
+          },
+          "201300022": {
+            "type": "Text",
+            "id": 201300022,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "Comparatively, the \"Vaporizer\" is doing something really impressive",
+            "option": null,
+            "nextIds": [
+              201300023
+            ],
+            "kind": "NPC"
+          },
+          "201300023": {
+            "type": "Text",
+            "id": 201300023,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "Using SoulGlad as a foundation, and imbued with \"Atmo-Sweet\" and \"Recollection\" as supporting ingredients",
+            "option": null,
+            "nextIds": [
+              201300024
+            ],
+            "kind": "NPC"
+          },
+          "201300024": {
+            "type": "Text",
+            "id": 201300024,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "The incongruity woven from both sweet and bitter when you take one sip. It's like you're tasting life itself",
+            "option": null,
+            "nextIds": [
+              201300025
+            ],
+            "kind": "NPC"
+          },
+          "201300025": {
+            "type": "Text",
+            "id": 201300025,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "Every time you try to reminisce and grasp onto something, you're only left with fleeting nothingness",
+            "option": null,
+            "nextIds": [
+              201300026,
+              201300028
+            ],
+            "kind": "NPC"
+          },
+          "201300026": {
+            "type": "Text",
+            "id": 201300026,
+            "sectionId": 2013000,
+            "senderId": null,
+            "text": "Alright, I'll be there to have a taste of \"life\"!",
+            "option": "Alright, I'm on my way!",
+            "nextIds": [
+              201300027
+            ],
+            "kind": "Player"
+          },
+          "201300027": {
+            "type": "Text",
+            "id": 201300027,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "See you at the lounge",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201300028": {
+            "type": "Text",
+            "id": 201300028,
+            "sectionId": 2013000,
+            "senderId": null,
+            "text": "This just like me fr! Do I even need to make a special trip for this drink",
+            "option": "This just like me fr!",
+            "nextIds": [
+              201300029
+            ],
+            "kind": "Player"
+          },
+          "201300029": {
+            "type": "Text",
+            "id": 201300029,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "Trust me this once. You won't be disappointed",
+            "option": null,
+            "nextIds": [
+              201300030
+            ],
+            "kind": "NPC"
+          },
+          "201300030": {
+            "type": "Text",
+            "id": 201300030,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "See you at the lounge",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201300018": {
+            "type": "Text",
+            "id": 201300018,
+            "sectionId": 2013000,
+            "senderId": null,
+            "text": "Tell me about \"Masked Talent\"",
+            "option": "Tell me about \"Masked Talent\"",
+            "nextIds": [
+              201300019
+            ],
+            "kind": "Player"
+          },
+          "201300019": {
+            "type": "Text",
+            "id": 201300019,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "The original point of the mix was to let people find a bit of sour and sweet amidst the cold shaved ice",
+            "option": null,
+            "nextIds": [
+              201300020
+            ],
+            "kind": "NPC"
+          },
+          "201300020": {
+            "type": "Text",
+            "id": 201300020,
+            "sectionId": 2013000,
+            "senderId": null,
+            "text": "Like finding candy among glass shards?",
+            "option": null,
+            "nextIds": [
+              201300021
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201300021": {
+            "type": "Text",
+            "id": 201300021,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "Kinda, but after it went down, it was like drinking a cup of cold water. Nothing sour at all. Boring",
+            "option": null,
+            "nextIds": [
+              201300022
+            ],
+            "kind": "NPC"
+          },
+          "201300004": {
+            "type": "Text",
+            "id": 201300004,
+            "sectionId": 2013000,
+            "senderId": null,
+            "text": "\"Vaporizer.\" Sounds like a drink that doesn't exist",
+            "option": "Sounds like a drink that doesn't exist",
+            "nextIds": [
+              201300005
+            ],
+            "kind": "Player"
+          },
+          "201300005": {
+            "type": "Text",
+            "id": 201300005,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "You know, the way you're describing it actually kinda fits",
+            "option": null,
+            "nextIds": [
+              201300006
+            ],
+            "kind": "NPC"
+          },
+          "201300006": {
+            "type": "Sticker",
+            "id": 201300006,
+            "sectionId": 2013000,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201300007
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "201300007": {
+            "type": "Text",
+            "id": 201300007,
+            "sectionId": 2013000,
+            "senderId": null,
+            "text": "So, what, I'm going to be drinking air???",
+            "option": null,
+            "nextIds": [
+              201300008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201300008": {
+            "type": "Text",
+            "id": 201300008,
+            "sectionId": 2013000,
+            "senderId": 1301,
+            "text": "Hey, scamming guests isn't my style",
+            "option": null,
+            "nextIds": [
+              201300009
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2013100,
+        "startIds": [
+          201310000
+        ],
+        "messages": {
+          "201310000": {
+            "type": "Sticker",
+            "id": 201310000,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201310001
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "201310001": {
+            "type": "Sticker",
+            "id": 201310001,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201310002
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "201310002": {
+            "type": "Text",
+            "id": 201310002,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "What awawaaw",
+            "option": null,
+            "nextIds": [
+              201310003
+            ],
+            "kind": "NPC"
+          },
+          "201310003": {
+            "type": "Text",
+            "id": 201310003,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "What are you saying? awawaaw?",
+            "option": "awawaaw?",
+            "nextIds": [
+              201310004
+            ],
+            "kind": "Player"
+          },
+          "201310004": {
+            "type": "Text",
+            "id": 201310004,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Scuse me. Phone's got a good stomping by my peg",
+            "option": null,
+            "nextIds": [
+              201310005
+            ],
+            "kind": "NPC"
+          },
+          "201310005": {
+            "type": "Text",
+            "id": 201310005,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "PE",
+            "option": null,
+            "nextIds": [
+              201310006
+            ],
+            "kind": "NPC"
+          },
+          "201310006": {
+            "type": "Text",
+            "id": 201310006,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "T",
+            "option": null,
+            "nextIds": [
+              201310007
+            ],
+            "kind": "NPC"
+          },
+          "201310007": {
+            "type": "Text",
+            "id": 201310007,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "Uh... Is your phone okay?",
+            "option": "Uh... Is your phone okay?",
+            "nextIds": [
+              201310008
+            ],
+            "kind": "Player"
+          },
+          "201310008": {
+            "type": "Text",
+            "id": 201310008,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "One secxd",
+            "option": null,
+            "nextIds": [
+              201310009
+            ],
+            "kind": "NPC"
+          },
+          "201310009": {
+            "type": "Text",
+            "id": 201310009,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "Your friend Gallagher has gone offline",
+            "option": null,
+            "nextIds": [
+              201310010
+            ],
+            "kind": "System"
+          },
+          "201310010": {
+            "type": "Text",
+            "id": 201310010,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "Your friend Gallagher has come online",
+            "option": null,
+            "nextIds": [
+              201310011
+            ],
+            "kind": "System"
+          },
+          "201310011": {
+            "type": "Text",
+            "id": 201310011,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Right. Should be fine now. It's just that this new pet's been giving me some trumball",
+            "option": null,
+            "nextIds": [
+              201310012
+            ],
+            "kind": "NPC"
+          },
+          "201310012": {
+            "type": "Text",
+            "id": 201310012,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Trooble",
+            "option": null,
+            "nextIds": [
+              201310013
+            ],
+            "kind": "NPC"
+          },
+          "201310013": {
+            "type": "Text",
+            "id": 201310013,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Trabblawe",
+            "option": null,
+            "nextIds": [
+              201310014
+            ],
+            "kind": "NPC"
+          },
+          "201310014": {
+            "type": "Text",
+            "id": 201310014,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Looks like it's still buggy",
+            "option": null,
+            "nextIds": [
+              201310015
+            ],
+            "kind": "NPC"
+          },
+          "201310015": {
+            "type": "Text",
+            "id": 201310015,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "Yeah, sure looks trumball-some",
+            "option": "Yeah, sure looks trumball-some",
+            "nextIds": [
+              201310016
+            ],
+            "kind": "Player"
+          },
+          "201310016": {
+            "type": "Text",
+            "id": 201310016,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Whatever",
+            "option": null,
+            "nextIds": [
+              201310017
+            ],
+            "kind": "NPC"
+          },
+          "201310017": {
+            "type": "Text",
+            "id": 201310017,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "My phone can be figgsed, but the pet I saved off the street's gotta be taken care of. No matter what",
+            "option": null,
+            "nextIds": [
+              201310018,
+              201310021
+            ],
+            "kind": "NPC"
+          },
+          "201310018": {
+            "type": "Text",
+            "id": 201310018,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "I wanna see what kind of pet can break a phone like this...",
+            "option": "I wanna see your pet",
+            "nextIds": [
+              201310019
+            ],
+            "kind": "Player"
+          },
+          "201310019": {
+            "type": "Text",
+            "id": 201310019,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Sure. Wait a mmt",
+            "option": null,
+            "nextIds": [
+              201310020
+            ],
+            "kind": "NPC"
+          },
+          "201310020": {
+            "type": "Text",
+            "id": 201310020,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "...Agh. The phone's xamera fuktion is damaged too. The pet... is sorta a big one. Quite active but sampole-minded. Just think of it as a robo-dog",
+            "option": null,
+            "nextIds": [
+              201310024
+            ],
+            "kind": "NPC"
+          },
+          "201310024": {
+            "type": "Text",
+            "id": 201310024,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Can't quite recall the exact date. I was out doin patrol round the streets when I stumbled upon it in this dodgy ol' alley. It was brawling with a few other dogs.",
+            "option": null,
+            "nextIds": [
+              201310025
+            ],
+            "kind": "NPC"
+          },
+          "201310025": {
+            "type": "Text",
+            "id": 201310025,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "I ain't usually one to meddle in these affairs. Fights over turf and whatnot, they're just way too common",
+            "option": null,
+            "nextIds": [
+              201310026
+            ],
+            "kind": "NPC"
+          },
+          "201310026": {
+            "type": "Text",
+            "id": 201310026,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "But then I saw it keep going. Throwing itself forward and struggling on the brink of death over and over without giving up. In the end, it won, but was wounded all over, so I figured why not. Took it back to the lounge and fixed it up",
+            "option": null,
+            "nextIds": [
+              201310027
+            ],
+            "kind": "NPC"
+          },
+          "201310027": {
+            "type": "Text",
+            "id": 201310027,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "Sounds like a movie script starring a robotic dog",
+            "option": "Sounds like a movie script",
+            "nextIds": [
+              201310028
+            ],
+            "kind": "Player"
+          },
+          "201310028": {
+            "type": "Text",
+            "id": 201310028,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "If a movie studio's interested, this guy might be turning in a mega-strrr real soon",
+            "option": null,
+            "nextIds": [
+              201310029
+            ],
+            "kind": "NPC"
+          },
+          "201310029": {
+            "type": "Text",
+            "id": 201310029,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Aside from being a bit of a troublemaker, its pretty clever about stuff. Doesn't matter if it's learning to bite or heeding commands",
+            "option": null,
+            "nextIds": [
+              201310030
+            ],
+            "kind": "NPC"
+          },
+          "201310030": {
+            "type": "Text",
+            "id": 201310030,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Right, I've been trying to come up with a name for this one. I've been calling it \"hey, you\" constantly and sometimes it deliberately ignores me",
+            "option": null,
+            "nextIds": [
+              201310031,
+              201310033,
+              201310035
+            ],
+            "kind": "NPC"
+          },
+          "201310031": {
+            "type": "Text",
+            "id": 201310031,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "Bingo! Because it can learn anything! Whether it's stuff that should be learned or not",
+            "option": "Bingo",
+            "nextIds": [
+              201310032
+            ],
+            "kind": "Player"
+          },
+          "201310032": {
+            "type": "Text",
+            "id": 201310032,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Yeah. That name does suit it pretty weil. Let's use that",
+            "option": null,
+            "nextIds": [
+              201310038
+            ],
+            "kind": "NPC"
+          },
+          "201310038": {
+            "type": "Text",
+            "id": 201310038,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Thanks for your help with the naming. I'll take a picture of it once I figgs my phone",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201310033": {
+            "type": "Text",
+            "id": 201310033,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "Pika! Like the sound of Pika White Grape Soda! People will know it's your dog immediately",
+            "option": "Pika",
+            "nextIds": [
+              201310034
+            ],
+            "kind": "Player"
+          },
+          "201310034": {
+            "type": "Text",
+            "id": 201310034,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "That's a pretty unique name! I like it. I'll use it",
+            "option": null,
+            "nextIds": [
+              201310038
+            ],
+            "kind": "NPC"
+          },
+          "201310035": {
+            "type": "Text",
+            "id": 201310035,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "\"Hey, You\"",
+            "option": "\"Hey, You\"",
+            "nextIds": [
+              201310036
+            ],
+            "kind": "Player"
+          },
+          "201310036": {
+            "type": "Text",
+            "id": 201310036,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              201310037
+            ],
+            "kind": "NPC"
+          },
+          "201310037": {
+            "type": "Text",
+            "id": 201310037,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Looks like there's nothing suitable... I'll just call it that for now",
+            "option": null,
+            "nextIds": [
+              201310038
+            ],
+            "kind": "NPC"
+          },
+          "201310021": {
+            "type": "Text",
+            "id": 201310021,
+            "sectionId": 2013100,
+            "senderId": null,
+            "text": "If it can break your phone that badly, it might just be pretty smart",
+            "option": "Maybe it's really smart",
+            "nextIds": [
+              201310022
+            ],
+            "kind": "Player"
+          },
+          "201310022": {
+            "type": "Text",
+            "id": 201310022,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "Bitin the couucth, smashin up the newly mixed dringgs, usin my ties as a tooth grindr... After a few days of that, I'm pretty much used to these things",
+            "option": null,
+            "nextIds": [
+              201310023
+            ],
+            "kind": "NPC"
+          },
+          "201310023": {
+            "type": "Text",
+            "id": 201310023,
+            "sectionId": 2013100,
+            "senderId": 1301,
+            "text": "It's a big 'un. But sampole-middded. Just think of it as a robo-dog",
+            "option": null,
+            "nextIds": [
+              201310024
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2013200,
+        "startIds": [
+          201320000
+        ],
+        "messages": {
+          "201320000": {
+            "type": "Text",
+            "id": 201320000,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "*sigh* ...",
+            "option": null,
+            "nextIds": [
+              201320001,
+              201320004
+            ],
+            "kind": "NPC"
+          },
+          "201320001": {
+            "type": "Text",
+            "id": 201320001,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "Don't sigh. It makes you sound old",
+            "option": "Don't sigh. It makes you sound old",
+            "nextIds": [
+              201320002
+            ],
+            "kind": "Player"
+          },
+          "201320002": {
+            "type": "Text",
+            "id": 201320002,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "I doubt it. This hound's already gray",
+            "option": null,
+            "nextIds": [
+              201320003
+            ],
+            "kind": "NPC"
+          },
+          "201320003": {
+            "type": "Text",
+            "id": 201320003,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "*sigh* ...",
+            "option": "*sigh* ...",
+            "nextIds": [
+              201320008
+            ],
+            "kind": "Player"
+          },
+          "201320008": {
+            "type": "Text",
+            "id": 201320008,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "Actually, I just saw another patron who made me a bit sentimental",
+            "option": null,
+            "nextIds": [
+              201320009
+            ],
+            "kind": "NPC"
+          },
+          "201320009": {
+            "type": "Text",
+            "id": 201320009,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "He is someone whose thoughts are always concerned with reality but is determined to live out the rest of his life in the dreamscape",
+            "option": null,
+            "nextIds": [
+              201320010
+            ],
+            "kind": "NPC"
+          },
+          "201320010": {
+            "type": "Text",
+            "id": 201320010,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "There are so many of them here in Penacony",
+            "option": null,
+            "nextIds": [
+              201320011,
+              201320016
+            ],
+            "kind": "NPC"
+          },
+          "201320011": {
+            "type": "Text",
+            "id": 201320011,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "Maybe reality is too harsh, so he'd rather stay inside the dream",
+            "option": "Maybe reality is too harsh",
+            "nextIds": [
+              201320012
+            ],
+            "kind": "Player"
+          },
+          "201320012": {
+            "type": "Text",
+            "id": 201320012,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "Yes. He suffers from a terminal condition of no known cause. His body would slowly become uncontrollable, turning stiff and painful, until he can't even move his finger",
+            "option": null,
+            "nextIds": [
+              201320013
+            ],
+            "kind": "NPC"
+          },
+          "201320013": {
+            "type": "Text",
+            "id": 201320013,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "Unless his brain completely dies, otherwise...",
+            "option": null,
+            "nextIds": [
+              201320014
+            ],
+            "kind": "NPC"
+          },
+          "201320014": {
+            "type": "Text",
+            "id": 201320014,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "Would such suffering disappear in the dream?",
+            "option": null,
+            "nextIds": [
+              201320015
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201320015": {
+            "type": "Text",
+            "id": 201320015,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "Yes. Not only that, he would be able to earn enough money for his treatment and life extension in this way",
+            "option": null,
+            "nextIds": [
+              201320019
+            ],
+            "kind": "NPC"
+          },
+          "201320019": {
+            "type": "Text",
+            "id": 201320019,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "If we pin everything on illness, then the existence of sweet dreams can indeed be a cure",
+            "option": null,
+            "nextIds": [
+              201320020
+            ],
+            "kind": "NPC"
+          },
+          "201320020": {
+            "type": "Text",
+            "id": 201320020,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "However, if dreams shatter one day, where would these people go, when they are already running away from troubles of their real life?",
+            "option": null,
+            "nextIds": [
+              201320021,
+              201320024
+            ],
+            "kind": "NPC"
+          },
+          "201320021": {
+            "type": "Text",
+            "id": 201320021,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "This sure is deep... My brain hurts",
+            "option": "Sounds so deep. I don't get it",
+            "nextIds": [
+              201320022
+            ],
+            "kind": "Player"
+          },
+          "201320022": {
+            "type": "Text",
+            "id": 201320022,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "Haha, that's the charm of a midnight tavern",
+            "option": null,
+            "nextIds": [
+              201320023
+            ],
+            "kind": "NPC"
+          },
+          "201320023": {
+            "type": "Text",
+            "id": 201320023,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "Burrow into any corner and listen, and all you'll hear are the unfathomable joys of reunion and aches of parting",
+            "option": null,
+            "nextIds": [
+              201320026
+            ],
+            "kind": "NPC"
+          },
+          "201320026": {
+            "type": "Text",
+            "id": 201320026,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "You seem to have a lot to say today",
+            "option": "You're real talkative today",
+            "nextIds": [
+              201320027
+            ],
+            "kind": "Player"
+          },
+          "201320027": {
+            "type": "Text",
+            "id": 201320027,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "Just wanna ask... Did you add a lot of SoulGlad to your drink today?",
+            "option": null,
+            "nextIds": [
+              201320028
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201320028": {
+            "type": "Text",
+            "id": 201320028,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "No no",
+            "option": null,
+            "nextIds": [
+              201320029
+            ],
+            "kind": "NPC"
+          },
+          "201320029": {
+            "type": "Text",
+            "id": 201320029,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "SoulGlad hasn't been the right drink for me for a long while...",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201320024": {
+            "type": "Text",
+            "id": 201320024,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "There's always a way. We'll cross that bridge when we get to it",
+            "option": "There's always a way",
+            "nextIds": [
+              201320025
+            ],
+            "kind": "Player"
+          },
+          "201320025": {
+            "type": "Text",
+            "id": 201320025,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "Hehe, true. Life is full of possibilities. Let those who should worry, worry",
+            "option": null,
+            "nextIds": [
+              201320026
+            ],
+            "kind": "NPC"
+          },
+          "201320016": {
+            "type": "Text",
+            "id": 201320016,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "He chose his life. I guess it counts as one way of living",
+            "option": "He chose this life",
+            "nextIds": [
+              201320017
+            ],
+            "kind": "Player"
+          },
+          "201320017": {
+            "type": "Text",
+            "id": 201320017,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "Yes. For someone who suffers terminal illness, choosing the dreamscape can be a form of rebirth",
+            "option": null,
+            "nextIds": [
+              201320018
+            ],
+            "kind": "NPC"
+          },
+          "201320018": {
+            "type": "Text",
+            "id": 201320018,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "On the flip side... Even though the dreamscape can shield him from the sensory aspects of reality and temporarily remove him from physical pain, the longing for his loved ones in the real world and the anxiety of facing a lonely death remain genuine sources of mental anguish",
+            "option": null,
+            "nextIds": [
+              201320019
+            ],
+            "kind": "NPC"
+          },
+          "201320004": {
+            "type": "Text",
+            "id": 201320004,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "*sigh* ...",
+            "option": "*sigh* ...",
+            "nextIds": [
+              201320005
+            ],
+            "kind": "Player"
+          },
+          "201320005": {
+            "type": "Text",
+            "id": 201320005,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              201320006
+            ],
+            "kind": "NPC"
+          },
+          "201320006": {
+            "type": "Text",
+            "id": 201320006,
+            "sectionId": 2013200,
+            "senderId": 1301,
+            "text": "What's wrong? Bad mood?",
+            "option": null,
+            "nextIds": [
+              201320007
+            ],
+            "kind": "NPC"
+          },
+          "201320007": {
+            "type": "Text",
+            "id": 201320007,
+            "sectionId": 2013200,
+            "senderId": null,
+            "text": "I was just worried that you're in a bad mood",
+            "option": "I was worried about you",
+            "nextIds": [
+              201320008
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1301,
+    "name": "Gallagher",
+    "signature": "Penaconian Dog",
+    "iconPath": "icon/avatar/1301.png",
+    "type": 1,
+    "camp": 11
+  }
+}

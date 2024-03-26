@@ -557,7 +557,7 @@
             "id": 121900020,
             "sectionId": 1219000,
             "senderId": 18,
-            "text": "*sighs* I really hate these imbecilic pests sit in high places and do nothing.",
+            "text": "*sighs* I really hate these imbecilic pests who sit in high places and do nothing.",
             "option": null,
             "nextIds": [
               121900021
@@ -1239,7 +1239,7 @@
             "id": 122230010,
             "sectionId": 1222300,
             "senderId": 17,
-            "text": "That line of thoughts do have some merit...",
+            "text": "That line of thought does have some merit...",
             "option": null,
             "nextIds": [
               122230011

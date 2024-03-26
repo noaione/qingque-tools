@@ -1,0 +1,63 @@
+{
+  "id": 145,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1307200,
+        "startIds": [
+          130720000
+        ],
+        "messages": {
+          "130720000": {
+            "type": "Text",
+            "id": 130720000,
+            "sectionId": 1307200,
+            "senderId": 145,
+            "text": "Greetings, are you interested in earning a little extra something?",
+            "option": null,
+            "nextIds": [
+              130720001
+            ],
+            "kind": "NPC"
+          },
+          "130720001": {
+            "type": "Text",
+            "id": 130720001,
+            "sectionId": 1307200,
+            "senderId": 145,
+            "text": "Due to recent incidents in Penacony, The Family is short-staffed and is now hiring Dreamchasers with exceptional skills as temporary security officers. Applicants who have annihilated memes will be given preference.",
+            "option": null,
+            "nextIds": [
+              130720002
+            ],
+            "kind": "NPC"
+          },
+          "130720002": {
+            "type": "Text",
+            "id": 130720002,
+            "sectionId": 1307200,
+            "senderId": 145,
+            "text": "If you are interested, please contact me and proceed to Dewlight Pavilion for an on-site interview. It's first come, first served.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 8021402,
+          "name": "Outsourcer",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 145,
+    "name": "Bloodhound Contractor",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 11
+  }
+}

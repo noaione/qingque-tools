@@ -1542,7 +1542,7 @@
             "sectionId": 1213500,
             "senderId": null,
             "text": "Why didn't you ask her at the Seat of Divine Foresight?",
-            "option": "You didn't mention this at the Seat of Divine Foresight?",
+            "option": "You didn't mention this earlier?",
             "nextIds": [
               121350012
             ],

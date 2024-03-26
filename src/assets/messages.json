@@ -575,6 +575,22 @@
     "type": 1,
     "camp": 11
   },
+  "1301": {
+    "id": 1301,
+    "name": "Gallagher",
+    "signature": "Penaconian Dog",
+    "iconPath": "icon/avatar/1301.png",
+    "type": 1,
+    "camp": 11
+  },
+  "1304": {
+    "id": 1304,
+    "name": "Aventurine",
+    "signature": "Always open to pull for your game account",
+    "iconPath": "icon/avatar/1304.png",
+    "type": 1,
+    "camp": 6
+  },
   "42": {
     "id": 42,
     "name": "Dahao",
@@ -1028,6 +1044,46 @@
     "name": "Tizocic III",
     "signature": "Kindness should be paid forward",
     "iconPath": "icon/avatar/DesolaTheSecond.png",
+    "type": 2,
+    "camp": 11
+  },
+  "140": {
+    "id": 140,
+    "name": "Blast it! We're surrounded by fools!",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 11
+  },
+  "136": {
+    "id": 136,
+    "name": "Mr. Bigwig",
+    "signature": null,
+    "iconPath": "icon/avatar/Monster_3002030.png",
+    "type": 2,
+    "camp": 11
+  },
+  "141": {
+    "id": 141,
+    "name": "Billboard Investigator",
+    "signature": null,
+    "iconPath": "icon/avatar/AdvertBoard.png",
+    "type": 2,
+    "camp": 11
+  },
+  "145": {
+    "id": 145,
+    "name": "Bloodhound Contractor",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 11
+  },
+  "146": {
+    "id": 146,
+    "name": "Clock Studios Customer Service",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
     "type": 2,
     "camp": 11
   }

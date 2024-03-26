@@ -1323,7 +1323,7 @@
             "id": 122050002,
             "sectionId": 1220500,
             "senderId": null,
-            "text": "I accommodate them in the space station",
+            "text": "I accommodated them in the space station",
             "option": "I left it in the space station",
             "nextIds": [
               122050003
@@ -1555,7 +1555,7 @@
             "id": 122050007,
             "sectionId": 1220500,
             "senderId": null,
-            "text": "I accommodate them in the space station",
+            "text": "I accommodated them in the space station",
             "option": null,
             "nextIds": [
               122050008

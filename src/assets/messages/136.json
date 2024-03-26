@@ -1,0 +1,70 @@
+{
+  "id": 136,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1306000,
+        "startIds": [
+          130600000
+        ],
+        "messages": {
+          "130600000": {
+            "type": "Text",
+            "id": 130600000,
+            "sectionId": 1306000,
+            "senderId": 136,
+            "text": "Woof! You got some time now?",
+            "option": null,
+            "nextIds": [
+              130600001
+            ],
+            "kind": "NPC"
+          },
+          "130600001": {
+            "type": "Text",
+            "id": 130600001,
+            "sectionId": 1306000,
+            "senderId": 136,
+            "text": "You promised to meet up with Siobhan. Let's get going!",
+            "option": null,
+            "nextIds": [
+              130600002
+            ],
+            "kind": "NPC"
+          },
+          "130600002": {
+            "type": "Text",
+            "id": 130600002,
+            "sectionId": 1306000,
+            "senderId": null,
+            "text": "I'm ready.",
+            "option": "Let's go.",
+            "nextIds": [
+              130600003
+            ],
+            "kind": "Player"
+          },
+          "130600003": {
+            "type": "Text",
+            "id": 130600003,
+            "sectionId": 1306000,
+            "senderId": 136,
+            "text": "See you at the bar!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 136,
+    "name": "Mr. Bigwig",
+    "signature": null,
+    "iconPath": "icon/avatar/Monster_3002030.png",
+    "type": 2,
+    "camp": 11
+  }
+}

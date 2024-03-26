@@ -1,0 +1,227 @@
+{
+  "id": 140,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1305800,
+        "startIds": [
+          130580000
+        ],
+        "messages": {
+          "130580000": {
+            "type": "Text",
+            "id": 130580000,
+            "sectionId": 1305800,
+            "senderId": 136,
+            "text": "Woof! That Alarm Clock took the bait! It's going to drink that beverage!",
+            "option": null,
+            "nextIds": [
+              130580001
+            ],
+            "kind": "NPC"
+          },
+          "130580001": {
+            "type": "Text",
+            "id": 130580001,
+            "sectionId": 1305800,
+            "senderId": 138,
+            "text": "Thankfully I'm good at pretending. You almost let it slip.",
+            "option": null,
+            "nextIds": [
+              130580002
+            ],
+            "kind": "NPC"
+          },
+          "130580002": {
+            "type": "Text",
+            "id": 130580002,
+            "sectionId": 1305800,
+            "senderId": 136,
+            "text": "I do want to make it mad! I did nothing wrong, woof!",
+            "option": null,
+            "nextIds": [
+              130580003
+            ],
+            "kind": "NPC"
+          },
+          "130580003": {
+            "type": "Text",
+            "id": 130580003,
+            "sectionId": 1305800,
+            "senderId": 137,
+            "text": "Hey! It's just a rugged piece of metal with a bigger head, and it thinks it's nobler than everyone here. Gah!",
+            "option": null,
+            "nextIds": [
+              130580004
+            ],
+            "kind": "NPC"
+          },
+          "130580004": {
+            "type": "Text",
+            "id": 130580004,
+            "sectionId": 1305800,
+            "senderId": 137,
+            "text": "Knock it flat! And let's play kick the can!",
+            "option": null,
+            "nextIds": [
+              130580005
+            ],
+            "kind": "NPC"
+          },
+          "130580005": {
+            "type": "Text",
+            "id": 130580005,
+            "sectionId": 1305800,
+            "senderId": 133,
+            "text": "I'll get {NICKNAME} in here.",
+            "option": null,
+            "nextIds": [
+              130580006
+            ],
+            "kind": "NPC"
+          },
+          "130580006": {
+            "type": "Text",
+            "id": 130580006,
+            "sectionId": 1305800,
+            "senderId": null,
+            "text": "Siobhan invited you into the group chat.",
+            "option": null,
+            "nextIds": [
+              130580007
+            ],
+            "kind": "System"
+          },
+          "130580007": {
+            "type": "Text",
+            "id": 130580007,
+            "sectionId": 1305800,
+            "senderId": 136,
+            "text": "Come and help us, newbie drinksmith!",
+            "option": null,
+            "nextIds": [
+              130580008
+            ],
+            "kind": "NPC"
+          },
+          "130580008": {
+            "type": "Text",
+            "id": 130580008,
+            "sectionId": 1305800,
+            "senderId": 137,
+            "text": "Gah! How should we deal with it next!? I... can't wait to start the fun!",
+            "option": null,
+            "nextIds": [
+              130580009
+            ],
+            "kind": "NPC"
+          },
+          "130580009": {
+            "type": "Text",
+            "id": 130580009,
+            "sectionId": 1305800,
+            "senderId": 138,
+            "text": "How about shoving the stir stick into its spring hole and spinning it hard!? I... I... I'm all fired up!",
+            "option": null,
+            "nextIds": [
+              130580010,
+              130580011
+            ],
+            "kind": "NPC"
+          },
+          "130580010": {
+            "type": "Text",
+            "id": 130580010,
+            "sectionId": 1305800,
+            "senderId": null,
+            "text": "I've wanted to do this since long ago.",
+            "option": "Great minds think alike.",
+            "nextIds": [
+              130580012
+            ],
+            "kind": "Player"
+          },
+          "130580012": {
+            "type": "Text",
+            "id": 130580012,
+            "sectionId": 1305800,
+            "senderId": 138,
+            "text": "Ah! Speaking of who can make my heart skip a beat, it's gonna be you!",
+            "option": null,
+            "nextIds": [
+              130580013
+            ],
+            "kind": "NPC"
+          },
+          "130580013": {
+            "type": "Text",
+            "id": 130580013,
+            "sectionId": 1305800,
+            "senderId": 139,
+            "text": "And now the moment for vengeance is at hand, we'll just wait for the curtain to rise...",
+            "option": null,
+            "nextIds": [
+              130580014
+            ],
+            "kind": "NPC"
+          },
+          "130580014": {
+            "type": "Text",
+            "id": 130580014,
+            "sectionId": 1305800,
+            "senderId": 133,
+            "text": "That beverage is on the counter across the room, and I've added some special ingredients to it. Making it drunk for a couple of hours won't be a problem.",
+            "option": null,
+            "nextIds": [
+              130580015
+            ],
+            "kind": "NPC"
+          },
+          "130580015": {
+            "type": "Text",
+            "id": 130580015,
+            "sectionId": 1305800,
+            "senderId": 133,
+            "text": "It's time to teach the disobedient child a lesson.",
+            "option": null,
+            "nextIds": [
+              130580016
+            ],
+            "kind": "NPC"
+          },
+          "130580016": {
+            "type": "Text",
+            "id": 130580016,
+            "sectionId": 1305800,
+            "senderId": 133,
+            "text": "However, this is only its imagined world. Your actions may be hindered, but let's play it by ear.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130580011": {
+            "type": "Text",
+            "id": 130580011,
+            "sectionId": 1305800,
+            "senderId": null,
+            "text": "I've wanted to do this since long ago.",
+            "option": "I agree.",
+            "nextIds": [
+              130580012
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 140,
+    "name": "Blast it! We're surrounded by fools!",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 11
+  }
+}

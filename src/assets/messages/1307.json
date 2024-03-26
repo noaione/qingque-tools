@@ -14,7 +14,7 @@
             "id": 201210000,
             "sectionId": 2012100,
             "senderId": 1307,
-            "text": "I am curious, {NICKNAME}. Having traveled so many places before, have you come encountered divination before?",
+            "text": "I am curious, {NICKNAME}. Having traveled to so many places, have you encountered divination before?",
             "option": null,
             "nextIds": [
               201210001,
@@ -813,7 +813,7 @@
             "id": 201230004,
             "sectionId": 2012300,
             "senderId": 1307,
-            "text": "No real reason, it's just that I used up all the pine incense I use during divination and a perfumer friend gave me a new box. When I lit it, I realized that the aroma seemed very familiar.",
+            "text": "You see, it's just that I used up all the pine incense I use during divination and a perfumer friend gave me a new box. When I lit it, I realized that the aroma seemed very familiar.",
             "option": null,
             "nextIds": [
               201230005

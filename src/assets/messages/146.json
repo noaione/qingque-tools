@@ -1,0 +1,424 @@
+{
+  "id": 146,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1307400,
+        "startIds": [
+          130740000
+        ],
+        "messages": {
+          "130740000": {
+            "type": "Text",
+            "id": 130740000,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "Dear visitor, according to the Bloodhound Family, Clock Studios Theme Park is currently undergoing a security check, so the main gate is temporarily closed.",
+            "option": null,
+            "nextIds": [
+              130740001
+            ],
+            "kind": "NPC"
+          },
+          "130740001": {
+            "type": "Text",
+            "id": 130740001,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "However, to satisfy our customers, we will continue providing the amusement program, \"<i>Clockie's Extras</i> Filming Experience,\" where you can enjoy fun games and learn about the creation of the animations <i>Hamster Ball Knight</i> and <i>Brother Hanu</i>.",
+            "option": null,
+            "nextIds": [
+              130740002,
+              130740006,
+              130740010
+            ],
+            "kind": "NPC"
+          },
+          "130740002": {
+            "type": "Text",
+            "id": 130740002,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "Didn't you just say the park is closed?",
+            "option": "Didn't you just say the park is closed?",
+            "nextIds": [
+              130740003
+            ],
+            "kind": "Player"
+          },
+          "130740003": {
+            "type": "Text",
+            "id": 130740003,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "Why can we still participate in the program?",
+            "option": null,
+            "nextIds": [
+              130740004
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130740004": {
+            "type": "Text",
+            "id": 130740004,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "As you may be aware, Clock Studios was not founded by The Family.",
+            "option": null,
+            "nextIds": [
+              130740005
+            ],
+            "kind": "NPC"
+          },
+          "130740005": {
+            "type": "Text",
+            "id": 130740005,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "We will operate based on our Chairman, the Watchmaker's, philosophy. We won't compromise our own interests for The Family.",
+            "option": null,
+            "nextIds": [
+              130740013
+            ],
+            "kind": "NPC"
+          },
+          "130740013": {
+            "type": "Text",
+            "id": 130740013,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "For your information, you can create your own animation in this program, and if your work is good enough, it might even get officially released in theaters!",
+            "option": null,
+            "nextIds": [
+              130740014
+            ],
+            "kind": "NPC"
+          },
+          "130740014": {
+            "type": "Text",
+            "id": 130740014,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "As a reminder to you, the ownership and intellectual property rights of the animation you produce using Clock Studios' facilities, along with related rights and interests, belong to Clock Studios. Clock Studios has the right to retain and dispose of the content, and any revenue generated from the content will belong to Clock Studios.",
+            "option": null,
+            "nextIds": [
+              130740015,
+              130740018,
+              130740022
+            ],
+            "kind": "NPC"
+          },
+          "130740015": {
+            "type": "Text",
+            "id": 130740015,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "These terms sound weird.",
+            "option": "Why do these terms sound so weird...?",
+            "nextIds": [
+              130740016
+            ],
+            "kind": "Player"
+          },
+          "130740016": {
+            "type": "Text",
+            "id": 130740016,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "Is this some kind of scam?",
+            "option": null,
+            "nextIds": [
+              130740017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130740017": {
+            "type": "Text",
+            "id": 130740017,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "Please don't worry. These are merely measures for copyright protection.",
+            "option": null,
+            "nextIds": [
+              130740024
+            ],
+            "kind": "NPC"
+          },
+          "130740024": {
+            "type": "Text",
+            "id": 130740024,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "If you are interested, please find a yellow-haired Pepeshi employee at the park entrance, and he will guide you through the program.",
+            "option": null,
+            "nextIds": [
+              130740025
+            ],
+            "kind": "NPC"
+          },
+          "130740025": {
+            "type": "Text",
+            "id": 130740025,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "Please remember the password for Dreamville. \"Hmhm! Charrrrrrge!\"",
+            "option": null,
+            "nextIds": [
+              130740026
+            ],
+            "kind": "NPC"
+          },
+          "130740026": {
+            "type": "Text",
+            "id": 130740026,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "?",
+            "option": "Wuh?",
+            "nextIds": [
+              130740027
+            ],
+            "kind": "Player"
+          },
+          "130740027": {
+            "type": "Text",
+            "id": 130740027,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "Your friend \"Clock Studios Customer Service\" is offline.",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "130740018": {
+            "type": "Text",
+            "id": 130740018,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "So, everything I create belongs to you?",
+            "option": "Are you trying to make me work for free?",
+            "nextIds": [
+              130740019
+            ],
+            "kind": "Player"
+          },
+          "130740019": {
+            "type": "Text",
+            "id": 130740019,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "Is this idea to help your animation slack off?",
+            "option": null,
+            "nextIds": [
+              130740020
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130740020": {
+            "type": "Text",
+            "id": 130740020,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "Sorry for the confusion. While we are delighted to share our animations with guests, we need to protect our studio's intellectual property.",
+            "option": null,
+            "nextIds": [
+              130740021
+            ],
+            "kind": "NPC"
+          },
+          "130740021": {
+            "type": "Text",
+            "id": 130740021,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "If your animation gets officially released in theaters, you'll get a <unbreak>1.5</unbreak>-second shout-out in the credits.",
+            "option": null,
+            "nextIds": [
+              130740024
+            ],
+            "kind": "NPC"
+          },
+          "130740022": {
+            "type": "Text",
+            "id": 130740022,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "Too long. Didn't understand a thing.",
+            "option": "I don't understand a word.",
+            "nextIds": [
+              130740023
+            ],
+            "kind": "Player"
+          },
+          "130740023": {
+            "type": "Text",
+            "id": 130740023,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "Sorry, but compared to copyright protection terms elsewhere in the universe, like those of Interastral Peace Entertainment, our terms are already quite concise and clear. Their interactive projects often require tens of thousands of words to be displayed before playing.",
+            "option": null,
+            "nextIds": [
+              130740024
+            ],
+            "kind": "NPC"
+          },
+          "130740006": {
+            "type": "Text",
+            "id": 130740006,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "Why do you recommend this?",
+            "option": "Why are you recommending this program?",
+            "nextIds": [
+              130740007
+            ],
+            "kind": "Player"
+          },
+          "130740007": {
+            "type": "Text",
+            "id": 130740007,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "Is it because the other programs aren't fun enough?",
+            "option": null,
+            "nextIds": [
+              130740008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130740008": {
+            "type": "Text",
+            "id": 130740008,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "Because this is our flagship program and has been the highest-rated one at the park for years.",
+            "option": null,
+            "nextIds": [
+              130740009
+            ],
+            "kind": "NPC"
+          },
+          "130740009": {
+            "type": "Text",
+            "id": 130740009,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "But of course, there are other reasons, but let's not get into that right now.",
+            "option": null,
+            "nextIds": [
+              130740013
+            ],
+            "kind": "NPC"
+          },
+          "130740010": {
+            "type": "Text",
+            "id": 130740010,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "I'm not interested.",
+            "option": "I'd like to try something else.",
+            "nextIds": [
+              130740011
+            ],
+            "kind": "Player"
+          },
+          "130740011": {
+            "type": "Text",
+            "id": 130740011,
+            "sectionId": 1307400,
+            "senderId": null,
+            "text": "I want to play something else.",
+            "option": null,
+            "nextIds": [
+              130740012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130740012": {
+            "type": "Text",
+            "id": 130740012,
+            "sectionId": 1307400,
+            "senderId": 146,
+            "text": "You are free to choose, of course. However, please be aware that if you encounter an accident in another program, Clock Studios Theme Park will not be held responsible.",
+            "option": null,
+            "nextIds": [
+              130740013
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 8021403,
+          "name": "Zero-Pay Director",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1307500,
+        "startIds": [
+          130750000
+        ],
+        "messages": {
+          "130750000": {
+            "type": "Text",
+            "id": 130750000,
+            "sectionId": 1307500,
+            "senderId": 146,
+            "text": "Dear valued guest, we've been informed that you've completed a significant portion of the film production experience here at Clock Studios. We sincerely appreciate your support!",
+            "option": null,
+            "nextIds": [
+              130750001
+            ],
+            "kind": "NPC"
+          },
+          "130750001": {
+            "type": "Text",
+            "id": 130750001,
+            "sectionId": 1307500,
+            "senderId": 146,
+            "text": "If you wish to continue experiencing the filming of animations, you can go to Sequel Mode any time",
+            "option": null,
+            "nextIds": [
+              130750002
+            ],
+            "kind": "NPC"
+          },
+          "130750002": {
+            "type": "Text",
+            "id": 130750002,
+            "sectionId": 1307500,
+            "senderId": 146,
+            "text": "Have gun!",
+            "option": null,
+            "nextIds": [
+              130750003
+            ],
+            "kind": "NPC"
+          },
+          "130750003": {
+            "type": "Text",
+            "id": 130750003,
+            "sectionId": 1307500,
+            "senderId": 146,
+            "text": "Sorry for the typo, have fun!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 146,
+    "name": "Clock Studios Customer Service",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 11
+  }
+}
