@@ -19,5 +19,16 @@
       />
       <NavButton title="Messages" target="/messages" description="See/interact with in-game messages" />
     </div>
+    <hr class="border-gray-500 mt-4" />
+    <footer class="mt-4 text-center">
+      <p>
+        Based on <span class="font-bold">Version {{ infoJson.versionNumber }}</span>
+      </p>
+      <small class="font-mono text-sm">{{ infoJson.version }}</small>
+    </footer>
   </main>
 </template>
+
+<script setup lang="ts">
+import infoJson from "@/assets/info.json";
+</script>
