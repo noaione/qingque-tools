@@ -51,7 +51,7 @@ const valueId = ref<string>();
 const stores = useScoresStore();
 
 const missingCharacters = computed(() => {
-  const ignoredIds = ["8002", "8003"];
+  const ignoredIds = ["8002", "8003", "8006"];
 
   const scoreIds = stores.scores.map((s) => s.id);
   const charaIds = Object.keys(characterJSON);

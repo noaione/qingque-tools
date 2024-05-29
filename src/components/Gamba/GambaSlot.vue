@@ -57,6 +57,7 @@ const charaName = computed(() => {
   if (props.character) {
     const destTb = ["8001", "8002"];
     const presTb = ["8003", "8004"];
+    const harmTb = ["8005", "8006"];
 
     let nicknamed = props.character.name.replace("{NICKNAME}", "Trailblazer");
 
@@ -64,6 +65,8 @@ const charaName = computed(() => {
       nicknamed += " (Destruction)";
     } else if (presTb.includes(props.character.id)) {
       nicknamed += " (Preservation)";
+    } else if (harmTb.includes(props.character.id)) {
+      nicknamed += " (Harmony)";
     }
 
     return nicknamed;

@@ -12,7 +12,7 @@ interface GambaStore {
 }
 
 // Remove all the other MC.
-const DUPLICATES = ["8002", "8003", "8004"];
+const DUPLICATES = ["8002", "8003", "8006"];
 const defaultActives = Object.keys(charactersModels).filter((id) => !DUPLICATES.includes(id));
 
 function setStorageData(actives: string[]) {

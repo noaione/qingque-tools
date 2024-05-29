@@ -132,8 +132,8 @@ export const useScoresStore = defineStore("scores", {
      * @param jsonData JSON data to load
      */
     fromJSON(jsonData: ScoreCharacterJSON) {
-      // Remove TB Male (Fire) and TB Fem (Phys)
-      const dedupeChars = ["8002", "8003"];
+      // Remove TB Male (Fire), TB Fem (Phys), TB Fem (Imaginary)
+      const dedupeChars = ["8002", "8003", "8006"];
       const scores: SCStore[] = Object.entries(jsonData)
         .map(([id, info]) => {
           if (dedupeChars.includes(id)) return null;

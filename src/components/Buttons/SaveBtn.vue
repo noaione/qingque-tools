@@ -43,6 +43,18 @@ function saveScores() {
           max: calculateMaximumPossibleValues(data)
         };
         break;
+      case "8005":
+        scoreJSON["8006"] = {
+          ...data,
+          max: calculateMaximumPossibleValues(data)
+        };
+        break;
+      case "8006":
+        scoreJSON["8005"] = {
+          ...data,
+          max: calculateMaximumPossibleValues(data)
+        };
+        break;
     }
   }
 
