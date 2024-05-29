@@ -1167,7 +1167,7 @@
             "id": 200460008,
             "sectionId": 2004600,
             "senderId": 1102,
-            "text": "Sigh, I don't like reading",
+            "text": "*sigh* I don't like reading",
             "option": null,
             "nextIds": [
               200460012
@@ -1203,7 +1203,7 @@
             "id": 200460011,
             "sectionId": 2004600,
             "senderId": 1102,
-            "text": "Sigh, I don't like reading",
+            "text": "*sigh* I don't like reading",
             "option": null,
             "nextIds": [
               200460012

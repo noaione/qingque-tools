@@ -1,0 +1,75 @@
+{
+  "id": 149,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1308200,
+        "startIds": [
+          130820001
+        ],
+        "messages": {
+          "130820001": {
+            "type": "Text",
+            "id": 130820001,
+            "sectionId": 1308200,
+            "senderId": 149,
+            "text": "Greetings, Trailblazer of the Express. I am a member of the Bloodhound Investigation Team.",
+            "option": null,
+            "nextIds": [
+              130820002
+            ],
+            "kind": "NPC"
+          },
+          "130820002": {
+            "type": "Text",
+            "id": 130820002,
+            "sectionId": 1308200,
+            "senderId": 149,
+            "text": "After the Sunday Incident, multiple areas of the Grand Theater fell into chaos due to the influence of the Order. Even within the entirety of the Bloodhound Family, there were scarce members capable of handling such a situation.",
+            "option": null,
+            "nextIds": [
+              130820003
+            ],
+            "kind": "NPC"
+          },
+          "130820003": {
+            "type": "Text",
+            "id": 130820003,
+            "sectionId": 1308200,
+            "senderId": 149,
+            "text": "After much deliberation, we unanimously agree to invite you to serve as an associate commissioner to participate in certain aspects of the investigation work.",
+            "option": null,
+            "nextIds": [
+              130820004
+            ],
+            "kind": "NPC"
+          },
+          "130820004": {
+            "type": "Text",
+            "id": 130820004,
+            "sectionId": 1308200,
+            "senderId": 149,
+            "text": "Due to the urgent nature of the situation, I shall be waiting for you at the Grand Theater. Compensation is negotiable.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 8021501,
+          "name": "Loothunt in Mazeville",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 149,
+    "name": "Business is Business",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 11
+  }
+}

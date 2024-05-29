@@ -1,0 +1,1484 @@
+{
+  "id": 1309,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2013600,
+        "startIds": [
+          201360000
+        ],
+        "messages": {
+          "201360000": {
+            "type": "Sticker",
+            "id": 201360000,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201360001
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          },
+          "201360001": {
+            "type": "Text",
+            "id": 201360001,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "{NICKNAME}, how's it going?",
+            "option": null,
+            "nextIds": [
+              201360002,
+              201360005
+            ],
+            "kind": "NPC"
+          },
+          "201360002": {
+            "type": "Text",
+            "id": 201360002,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "Pretty good. How about you? Been busy?",
+            "option": "Pretty good. How about you?",
+            "nextIds": [
+              201360003
+            ],
+            "kind": "Player"
+          },
+          "201360003": {
+            "type": "Text",
+            "id": 201360003,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "The preparation for my performance is almost done, so I'm free today",
+            "option": null,
+            "nextIds": [
+              201360004
+            ],
+            "kind": "NPC"
+          },
+          "201360004": {
+            "type": "Text",
+            "id": 201360004,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "Just listened to a blues instrumental called 'Flowerwild.' It's perfect for playing on the Express to help relax. Sharing it with you, hope you like it.",
+            "option": null,
+            "nextIds": [
+              201360009,
+              201360012
+            ],
+            "kind": "NPC"
+          },
+          "201360009": {
+            "type": "Text",
+            "id": 201360009,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "What's the song like?",
+            "option": "What's the song like?",
+            "nextIds": [
+              201360010
+            ],
+            "kind": "Player"
+          },
+          "201360010": {
+            "type": "Text",
+            "id": 201360010,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "Hmm... It's a song that carries some floral scents",
+            "option": null,
+            "nextIds": [
+              201360011
+            ],
+            "kind": "NPC"
+          },
+          "201360011": {
+            "type": "Text",
+            "id": 201360011,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "If you listen closely to this piece, it's as if you're amidst a sea of flowers... with windmills turning in the distance and sunlight casting over a maiden's skirt. Truly wondrous",
+            "option": null,
+            "nextIds": [
+              201360016,
+              201360019,
+              201360022
+            ],
+            "kind": "NPC"
+          },
+          "201360016": {
+            "type": "Text",
+            "id": 201360016,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "Your songs are great too. There's something inspiring about them",
+            "option": "Your songs are great too",
+            "nextIds": [
+              201360017
+            ],
+            "kind": "Player"
+          },
+          "201360017": {
+            "type": "Text",
+            "id": 201360017,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "Thank you! Actually... I often struggle with how to convey my truest emotions to the audience when singing",
+            "option": null,
+            "nextIds": [
+              201360018
+            ],
+            "kind": "NPC"
+          },
+          "201360018": {
+            "type": "Text",
+            "id": 201360018,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "Hearing you say that puts me at ease. I'll keep pushing forward",
+            "option": null,
+            "nextIds": [
+              201360025
+            ],
+            "kind": "NPC"
+          },
+          "201360025": {
+            "type": "Text",
+            "id": 201360025,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "By the way, there's something important I need to tell you... It might come as a surprise to you",
+            "option": null,
+            "nextIds": [
+              201360026
+            ],
+            "kind": "NPC"
+          },
+          "201360026": {
+            "type": "Sticker",
+            "id": 201360026,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201360027
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "201360027": {
+            "type": "Text",
+            "id": 201360027,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "The location of my upcoming concert isn't far from Penacony, so I took the liberty of having the butler send some VIP concert tickets to the Express Crew...",
+            "option": null,
+            "nextIds": [
+              201360028
+            ],
+            "kind": "NPC"
+          },
+          "201360028": {
+            "type": "Text",
+            "id": 201360028,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "Because of my tight rehearsal schedule, I didn't give you a heads-up beforehand. Please forgive me",
+            "option": null,
+            "nextIds": [
+              201360029,
+              201360030,
+              201360031
+            ],
+            "kind": "NPC"
+          },
+          "201360029": {
+            "type": "Text",
+            "id": 201360029,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "Thanks, Miss Robin! I wouldn't mind at all!",
+            "option": "I don't mind at all",
+            "nextIds": [
+              201360032
+            ],
+            "kind": "Player"
+          },
+          "201360032": {
+            "type": "Text",
+            "id": 201360032,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "I'll be looking forward to seeing you when I'm onstage",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201360030": {
+            "type": "Text",
+            "id": 201360030,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "Thanks, Miss Robin! I'll make time for it!",
+            "option": "I'll make time for it!",
+            "nextIds": [
+              201360032
+            ],
+            "kind": "Player"
+          },
+          "201360031": {
+            "type": "Text",
+            "id": 201360031,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "Thanks, Miss Robin! Now everyone's going to be too excited to sleep!",
+            "option": "Now everyone is gonna lose sleep!",
+            "nextIds": [
+              201360032
+            ],
+            "kind": "Player"
+          },
+          "201360019": {
+            "type": "Text",
+            "id": 201360019,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "Love the music! Please keep the recommendations coming",
+            "option": "Please keep the recommendations coming",
+            "nextIds": [
+              201360020
+            ],
+            "kind": "Player"
+          },
+          "201360020": {
+            "type": "Text",
+            "id": 201360020,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "Of course!",
+            "option": null,
+            "nextIds": [
+              201360021
+            ],
+            "kind": "NPC"
+          },
+          "201360021": {
+            "type": "Text",
+            "id": 201360021,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "Next time I come across some good music, I'll make sure to share it with you",
+            "option": null,
+            "nextIds": [
+              201360025
+            ],
+            "kind": "NPC"
+          },
+          "201360022": {
+            "type": "Text",
+            "id": 201360022,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "I'm eager to give songwriting a shot as well!",
+            "option": "I too wanna write songs",
+            "nextIds": [
+              201360023
+            ],
+            "kind": "Player"
+          },
+          "201360023": {
+            "type": "Sticker",
+            "id": 201360023,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201360024
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "201360024": {
+            "type": "Text",
+            "id": 201360024,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "No problem! We can do it together if you don't mind",
+            "option": null,
+            "nextIds": [
+              201360025
+            ],
+            "kind": "NPC"
+          },
+          "201360012": {
+            "type": "Text",
+            "id": 201360012,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "It rings a bell",
+            "option": "It rings a bell",
+            "nextIds": [
+              201360013
+            ],
+            "kind": "Player"
+          },
+          "201360013": {
+            "type": "Text",
+            "id": 201360013,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "The Phonograph on the Express has played the song before. The conductor said they caught the scent of flowers after listening to it!",
+            "option": null,
+            "nextIds": [
+              201360014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201360014": {
+            "type": "Text",
+            "id": 201360014,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "That's right! I feel the same way",
+            "option": null,
+            "nextIds": [
+              201360015
+            ],
+            "kind": "NPC"
+          },
+          "201360015": {
+            "type": "Text",
+            "id": 201360015,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "Listen closely to this piece, and it's as if you're amidst a sea of flowers... with windmills turning in the distance and sunlight casting over a maiden's skirt. Truly wondrous",
+            "option": null,
+            "nextIds": [
+              201360016,
+              201360019,
+              201360022
+            ],
+            "kind": "NPC"
+          },
+          "201360005": {
+            "type": "Text",
+            "id": 201360005,
+            "sectionId": 2013600,
+            "senderId": null,
+            "text": "Wow! A message from a superstar! I'm truly honored!",
+            "option": "A superstar is texting me!",
+            "nextIds": [
+              201360006
+            ],
+            "kind": "Player"
+          },
+          "201360006": {
+            "type": "Sticker",
+            "id": 201360006,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201360007
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20008,
+              "path": "icon/emoji/20008.png",
+              "keywords": "Shocked"
+            }
+          },
+          "201360007": {
+            "type": "Text",
+            "id": 201360007,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "I'll take that as a joke. There's no need for us to be so formal with each other, right?",
+            "option": null,
+            "nextIds": [
+              201360008
+            ],
+            "kind": "NPC"
+          },
+          "201360008": {
+            "type": "Text",
+            "id": 201360008,
+            "sectionId": 2013600,
+            "senderId": 1309,
+            "text": "Just listened to a blues instrumental called 'Flowerwild.' It's perfect for playing on the Express to help relax. Sharing it with you, hope you like it.",
+            "option": null,
+            "nextIds": [
+              201360009,
+              201360012
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2013700,
+        "startIds": [
+          201370000
+        ],
+        "messages": {
+          "201370000": {
+            "type": "Text",
+            "id": 201370000,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "{NICKNAME}, do you think... a bird with broken wings still has a chance to fly?",
+            "option": null,
+            "nextIds": [
+              201370001,
+              201370005
+            ],
+            "kind": "NPC"
+          },
+          "201370001": {
+            "type": "Text",
+            "id": 201370001,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "There's hope as long as it's alive",
+            "option": "There's hope as long as it's alive",
+            "nextIds": [
+              201370002
+            ],
+            "kind": "Player"
+          },
+          "201370002": {
+            "type": "Text",
+            "id": 201370002,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Yes, your thought echoes mine",
+            "option": null,
+            "nextIds": [
+              201370003
+            ],
+            "kind": "NPC"
+          },
+          "201370003": {
+            "type": "Text",
+            "id": 201370003,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "I saw a little bird with one of its wings broken on the panorama floor a few days ago. My heart went out to it",
+            "option": null,
+            "nextIds": [
+              201370004
+            ],
+            "kind": "NPC"
+          },
+          "201370004": {
+            "type": "Text",
+            "id": 201370004,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "I brought it back home, hoping it would make a fast recovery",
+            "option": null,
+            "nextIds": [
+              201370010
+            ],
+            "kind": "NPC"
+          },
+          "201370010": {
+            "type": "Text",
+            "id": 201370010,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Has my brother told you the story of a little Charmony Dove?",
+            "option": null,
+            "nextIds": [
+              201370011
+            ],
+            "kind": "NPC"
+          },
+          "201370011": {
+            "type": "Text",
+            "id": 201370011,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "That poor Charmony Dove formed a big part of our childhood and taught us about \"making choices\" for the first time",
+            "option": null,
+            "nextIds": [
+              201370012,
+              201370013
+            ],
+            "kind": "NPC"
+          },
+          "201370012": {
+            "type": "Text",
+            "id": 201370012,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "I remember the story. It's a tragic one",
+            "option": "I remember the story",
+            "nextIds": [
+              201370015
+            ],
+            "kind": "Player"
+          },
+          "201370015": {
+            "type": "Text",
+            "id": 201370015,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Looking back now, I realize we only gave it the right to live when we were little, but we had no clue how to ensure its survival thereafter",
+            "option": null,
+            "nextIds": [
+              201370016
+            ],
+            "kind": "NPC"
+          },
+          "201370016": {
+            "type": "Text",
+            "id": 201370016,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "But then again, who can truly define the rules of life?",
+            "option": null,
+            "nextIds": [
+              201370017
+            ],
+            "kind": "NPC"
+          },
+          "201370017": {
+            "type": "Text",
+            "id": 201370017,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Compared to the Charmony Dove which had to learn how to fly from scratch, this little bird is luckier",
+            "option": null,
+            "nextIds": [
+              201370018
+            ],
+            "kind": "NPC"
+          },
+          "201370018": {
+            "type": "Text",
+            "id": 201370018,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Hm? Hold on",
+            "option": null,
+            "nextIds": [
+              201370019
+            ],
+            "kind": "NPC"
+          },
+          "201370019": {
+            "type": "Text",
+            "id": 201370019,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "Your friend Robin has gone offline",
+            "option": null,
+            "nextIds": [
+              201370020,
+              201370021,
+              201370022
+            ],
+            "kind": "System"
+          },
+          "201370020": {
+            "type": "Text",
+            "id": 201370020,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "What's wrong",
+            "option": "What's wrong",
+            "nextIds": [
+              201370023
+            ],
+            "kind": "Player"
+          },
+          "201370023": {
+            "type": "Text",
+            "id": 201370023,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "Your friend Robin has come online",
+            "option": null,
+            "nextIds": [
+              201370024
+            ],
+            "kind": "System"
+          },
+          "201370024": {
+            "type": "Text",
+            "id": 201370024,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "So sorry about that! I was so excited when I saw the little bird flap its wings just now, so I immediately rushed over and observed it for a while",
+            "option": null,
+            "nextIds": [
+              201370025
+            ],
+            "kind": "NPC"
+          },
+          "201370025": {
+            "type": "Text",
+            "id": 201370025,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Seeing the little bird get better gradually fills me with joy",
+            "option": null,
+            "nextIds": [
+              201370026
+            ],
+            "kind": "NPC"
+          },
+          "201370026": {
+            "type": "Text",
+            "id": 201370026,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "It feels like I've resolved a regret from my childhood",
+            "option": null,
+            "nextIds": [
+              201370027,
+              201370029
+            ],
+            "kind": "NPC"
+          },
+          "201370027": {
+            "type": "Text",
+            "id": 201370027,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "I'll remember this day! Truly a memorable one",
+            "option": "I'll remember this",
+            "nextIds": [
+              201370028
+            ],
+            "kind": "Player"
+          },
+          "201370028": {
+            "type": "Text",
+            "id": 201370028,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Thank you! Without your encouraging words, I'm afraid I would have stopped believing in the little bird's recovery already",
+            "option": null,
+            "nextIds": [
+              201370031
+            ],
+            "kind": "NPC"
+          },
+          "201370031": {
+            "type": "Text",
+            "id": 201370031,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "I've got to go take care of this little bird now",
+            "option": null,
+            "nextIds": [
+              201370032
+            ],
+            "kind": "NPC"
+          },
+          "201370032": {
+            "type": "Text",
+            "id": 201370032,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Just wait for my good news~",
+            "option": null,
+            "nextIds": [
+              201370033
+            ],
+            "kind": "NPC"
+          },
+          "201370033": {
+            "type": "Sticker",
+            "id": 201370033,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "201370029": {
+            "type": "Text",
+            "id": 201370029,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "The bird seems happy too. Perhaps, it has its own wishes too",
+            "option": "The bird seems happy too",
+            "nextIds": [
+              201370030
+            ],
+            "kind": "Player"
+          },
+          "201370030": {
+            "type": "Text",
+            "id": 201370030,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Indeed, I hope the little bird can fly high again. Thanks for your words of encouragement, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201370031
+            ],
+            "kind": "NPC"
+          },
+          "201370021": {
+            "type": "Text",
+            "id": 201370021,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "Did something happen to the little bird?",
+            "option": "Something happened to the bird?",
+            "nextIds": [
+              201370023
+            ],
+            "kind": "Player"
+          },
+          "201370022": {
+            "type": "Text",
+            "id": 201370022,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "Please get back to me! I'm begging you",
+            "option": "I'm still waiting",
+            "nextIds": [
+              201370023
+            ],
+            "kind": "Player"
+          },
+          "201370013": {
+            "type": "Text",
+            "id": 201370013,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "I have no recollection of it whatsoever",
+            "option": "No recollection of it whatsoever",
+            "nextIds": [
+              201370014
+            ],
+            "kind": "Player"
+          },
+          "201370014": {
+            "type": "Text",
+            "id": 201370014,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Don't worry about it",
+            "option": null,
+            "nextIds": [
+              201370015
+            ],
+            "kind": "NPC"
+          },
+          "201370005": {
+            "type": "Text",
+            "id": 201370005,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "It's hard to say. I need to look at it in more detail",
+            "option": "Hard to say",
+            "nextIds": [
+              201370006
+            ],
+            "kind": "Player"
+          },
+          "201370006": {
+            "type": "Text",
+            "id": 201370006,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "Is that so... You are not wrong to think that way. After all, fate isn't predetermined, and a brief occurrence doesn't shape the future",
+            "option": null,
+            "nextIds": [
+              201370007
+            ],
+            "kind": "NPC"
+          },
+          "201370007": {
+            "type": "Text",
+            "id": 201370007,
+            "sectionId": 2013700,
+            "senderId": null,
+            "text": "Did something happen?",
+            "option": "Did something happen?",
+            "nextIds": [
+              201370008
+            ],
+            "kind": "Player"
+          },
+          "201370008": {
+            "type": "Text",
+            "id": 201370008,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "I saw a little bird with a broken wing on the panorama floor a few days ago. My heart went out to it",
+            "option": null,
+            "nextIds": [
+              201370009
+            ],
+            "kind": "NPC"
+          },
+          "201370009": {
+            "type": "Text",
+            "id": 201370009,
+            "sectionId": 2013700,
+            "senderId": 1309,
+            "text": "I brought it back home, hoping it would make a fast recovery",
+            "option": null,
+            "nextIds": [
+              201370010
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2013800,
+        "startIds": [
+          201380000
+        ],
+        "messages": {
+          "201380000": {
+            "type": "Text",
+            "id": 201380000,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "I discovered a fascinating accessory shop! Ice cream necklaces, raccoon brooches, sunflower glasses, and monster hairclips~",
+            "option": null,
+            "nextIds": [
+              201380001
+            ],
+            "kind": "NPC"
+          },
+          "201380001": {
+            "type": "Text",
+            "id": 201380001,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "There are tons of adorable items, some of which are perfect for the Express Crew. If possible... I'd love to pick some for you all",
+            "option": null,
+            "nextIds": [
+              201380002,
+              201380004,
+              201380006
+            ],
+            "kind": "NPC"
+          },
+          "201380002": {
+            "type": "Text",
+            "id": 201380002,
+            "sectionId": 2013800,
+            "senderId": null,
+            "text": "Yay! Let's be cute together!",
+            "option": "Let's be cute together!",
+            "nextIds": [
+              201380003
+            ],
+            "kind": "Player"
+          },
+          "201380003": {
+            "type": "Sticker",
+            "id": 201380003,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201380009
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "201380009": {
+            "type": "Text",
+            "id": 201380009,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "A baseball bat cheering stick, a clover leaf hairpin with lights, a book-shaped storage box, a mini chef's hat, a vintage paper handbag, and a Clockie mech badge.",
+            "option": null,
+            "nextIds": [
+              201380010
+            ],
+            "kind": "NPC"
+          },
+          "201380010": {
+            "type": "Text",
+            "id": 201380010,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "{NICKNAME}, what do you think of these?",
+            "option": null,
+            "nextIds": [
+              201380011,
+              201380014,
+              201380018
+            ],
+            "kind": "NPC"
+          },
+          "201380011": {
+            "type": "Text",
+            "id": 201380011,
+            "sectionId": 2013800,
+            "senderId": null,
+            "text": "Trust me, everyone's going to love them!",
+            "option": "Everyone's going to love them",
+            "nextIds": [
+              201380012
+            ],
+            "kind": "Player"
+          },
+          "201380012": {
+            "type": "Text",
+            "id": 201380012,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "Seems like I know a thing or two about the Express Crew now!",
+            "option": null,
+            "nextIds": [
+              201380013
+            ],
+            "kind": "NPC"
+          },
+          "201380013": {
+            "type": "Sticker",
+            "id": 201380013,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201380021
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "201380021": {
+            "type": "Text",
+            "id": 201380021,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "I'm on my way to posting the gifts to you now. Remember to check your mail",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201380014": {
+            "type": "Text",
+            "id": 201380014,
+            "sectionId": 2013800,
+            "senderId": null,
+            "text": "The chef's hat is...",
+            "option": "The chef's hat is...",
+            "nextIds": [
+              201380015
+            ],
+            "kind": "Player"
+          },
+          "201380015": {
+            "type": "Text",
+            "id": 201380015,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "It's for the conductor",
+            "option": null,
+            "nextIds": [
+              201380016
+            ],
+            "kind": "NPC"
+          },
+          "201380016": {
+            "type": "Text",
+            "id": 201380016,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "During your time on Penacony, Miss March once told me your conductor. She said the conductor always kept the Express in good order",
+            "option": null,
+            "nextIds": [
+              201380017
+            ],
+            "kind": "NPC"
+          },
+          "201380017": {
+            "type": "Text",
+            "id": 201380017,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "Most importantly, the conductor can make incredibly tasty dishes and desserts. That's why it didn't take me long to choose the mini chef's hat for the conductor",
+            "option": null,
+            "nextIds": [
+              201380021
+            ],
+            "kind": "NPC"
+          },
+          "201380018": {
+            "type": "Text",
+            "id": 201380018,
+            "sectionId": 2013800,
+            "senderId": null,
+            "text": "I'm surprised the store sells baseball bats",
+            "option": "They sell baseball bats?",
+            "nextIds": [
+              201380019
+            ],
+            "kind": "Player"
+          },
+          "201380019": {
+            "type": "Text",
+            "id": 201380019,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "Actually, I got the store owner to customize it for me",
+            "option": null,
+            "nextIds": [
+              201380020
+            ],
+            "kind": "NPC"
+          },
+          "201380020": {
+            "type": "Text",
+            "id": 201380020,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "When chatting and flipping through photos, we talked about baseball bats. He thought turning one into a cheer stick was a fun idea, so he agreed to help make one on the spot.",
+            "option": null,
+            "nextIds": [
+              201380021
+            ],
+            "kind": "NPC"
+          },
+          "201380004": {
+            "type": "Text",
+            "id": 201380004,
+            "sectionId": 2013800,
+            "senderId": null,
+            "text": "I appreciate your generosity!",
+            "option": "I appreciate your generosity!",
+            "nextIds": [
+              201380005
+            ],
+            "kind": "Player"
+          },
+          "201380005": {
+            "type": "Text",
+            "id": 201380005,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "No worries. These accessories are all unique and make perfect gifts",
+            "option": null,
+            "nextIds": [
+              201380009
+            ],
+            "kind": "NPC"
+          },
+          "201380006": {
+            "type": "Text",
+            "id": 201380006,
+            "sectionId": 2013800,
+            "senderId": null,
+            "text": "Save the cutest one for Mr. Yang!",
+            "option": "Save the cutest one for Mr. Yang!",
+            "nextIds": [
+              201380007
+            ],
+            "kind": "Player"
+          },
+          "201380007": {
+            "type": "Text",
+            "id": 201380007,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "So Mr. Yang's into cutey stuff deep down, huh?",
+            "option": null,
+            "nextIds": [
+              201380008
+            ],
+            "kind": "NPC"
+          },
+          "201380008": {
+            "type": "Text",
+            "id": 201380008,
+            "sectionId": 2013800,
+            "senderId": 1309,
+            "text": "I have a rough idea of what to pick now!",
+            "option": null,
+            "nextIds": [
+              201380009
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1308600,
+        "startIds": [
+          130860000
+        ],
+        "messages": {
+          "130860000": {
+            "type": "Text",
+            "id": 130860000,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "{NICKNAME}, are you still on Penacony?",
+            "option": null,
+            "nextIds": [
+              130860001
+            ],
+            "kind": "NPC"
+          },
+          "130860001": {
+            "type": "Text",
+            "id": 130860001,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "I have a favor to ask...",
+            "option": null,
+            "nextIds": [
+              130860002,
+              130860004
+            ],
+            "kind": "NPC"
+          },
+          "130860002": {
+            "type": "Text",
+            "id": 130860002,
+            "sectionId": 1308600,
+            "senderId": null,
+            "text": "I am",
+            "option": "Do tell.",
+            "nextIds": [
+              130860003
+            ],
+            "kind": "Player"
+          },
+          "130860003": {
+            "type": "Text",
+            "id": 130860003,
+            "sectionId": 1308600,
+            "senderId": null,
+            "text": "What is it?",
+            "option": null,
+            "nextIds": [
+              130860006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130860006": {
+            "type": "Text",
+            "id": 130860006,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "Ah, actually... it's about the Grand Theater",
+            "option": null,
+            "nextIds": [
+              130860007
+            ],
+            "kind": "NPC"
+          },
+          "130860007": {
+            "type": "Text",
+            "id": 130860007,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "You may have heard about the Oak Family's past proclamation that guests will be absolutely safe — that is all thanks to Order's power",
+            "option": null,
+            "nextIds": [
+              130860008
+            ],
+            "kind": "NPC"
+          },
+          "130860008": {
+            "type": "Text",
+            "id": 130860008,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "But this strength has since almost dissipated on Penacony, which also means that in the present dreams, \"death\" is not an impossibility",
+            "option": null,
+            "nextIds": [
+              130860009
+            ],
+            "kind": "NPC"
+          },
+          "130860009": {
+            "type": "Text",
+            "id": 130860009,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "When my older brother and I crashed onto the land back then, I was thrust into unconscious darkness... But when I awoke, I was surrounded by nurses, and my brother was nowhere to be seen",
+            "option": null,
+            "nextIds": [
+              130860010
+            ],
+            "kind": "NPC"
+          },
+          "130860010": {
+            "type": "Text",
+            "id": 130860010,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "I wanted to know if he was safe, but they refused to tell me... It is out of desperation that I would ask you if you could look for my brother in the Grand Theater",
+            "option": null,
+            "nextIds": [
+              130860011
+            ],
+            "kind": "NPC"
+          },
+          "130860011": {
+            "type": "Text",
+            "id": 130860011,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "Even a tiny clue would be assuring",
+            "option": null,
+            "nextIds": [
+              130860012
+            ],
+            "kind": "NPC"
+          },
+          "130860012": {
+            "type": "Text",
+            "id": 130860012,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "I'm now, really",
+            "option": null,
+            "nextIds": [
+              130860013
+            ],
+            "kind": "NPC"
+          },
+          "130860013": {
+            "type": "Text",
+            "id": 130860013,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "really afraid",
+            "option": null,
+            "nextIds": [
+              130860014,
+              130860017
+            ],
+            "kind": "NPC"
+          },
+          "130860014": {
+            "type": "Text",
+            "id": 130860014,
+            "sectionId": 1308600,
+            "senderId": null,
+            "text": "Understood",
+            "option": "Don't worry. Leave it to me.",
+            "nextIds": [
+              130860015
+            ],
+            "kind": "Player"
+          },
+          "130860015": {
+            "type": "Text",
+            "id": 130860015,
+            "sectionId": 1308600,
+            "senderId": null,
+            "text": "Leave it to me. I'll think of something",
+            "option": null,
+            "nextIds": [
+              130860016
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130860016": {
+            "type": "Text",
+            "id": 130860016,
+            "sectionId": 1308600,
+            "senderId": null,
+            "text": "I'm sure he's fine",
+            "option": null,
+            "nextIds": [
+              130860020
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130860020": {
+            "type": "Text",
+            "id": 130860020,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              130860021
+            ],
+            "kind": "NPC"
+          },
+          "130860021": {
+            "type": "Text",
+            "id": 130860021,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "Thank you, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              130860022
+            ],
+            "kind": "NPC"
+          },
+          "130860022": {
+            "type": "Text",
+            "id": 130860022,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "I'm eternally thankful",
+            "option": null,
+            "nextIds": [
+              130860023
+            ],
+            "kind": "NPC"
+          },
+          "130860023": {
+            "type": "Text",
+            "id": 130860023,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "If you find anything, look for me near the ticketing booth",
+            "option": null,
+            "nextIds": [
+              130860024
+            ],
+            "kind": "NPC"
+          },
+          "130860024": {
+            "type": "Text",
+            "id": 130860024,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "I'll be disguised as an Intellitron dressed in blue formal attire, to avoid the Hounds' noses",
+            "option": null,
+            "nextIds": [
+              130860025
+            ],
+            "kind": "NPC"
+          },
+          "130860025": {
+            "type": "Text",
+            "id": 130860025,
+            "sectionId": 1308600,
+            "senderId": 1309,
+            "text": "Please...",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130860017": {
+            "type": "Text",
+            "id": 130860017,
+            "sectionId": 1308600,
+            "senderId": null,
+            "text": "Got it. I'll help",
+            "option": "Prepare for the worst...",
+            "nextIds": [
+              130860018
+            ],
+            "kind": "Player"
+          },
+          "130860018": {
+            "type": "Text",
+            "id": 130860018,
+            "sectionId": 1308600,
+            "senderId": null,
+            "text": "But I can't guarantee results",
+            "option": null,
+            "nextIds": [
+              130860019
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130860019": {
+            "type": "Text",
+            "id": 130860019,
+            "sectionId": 1308600,
+            "senderId": null,
+            "text": "You'll have to prepare for the worst...",
+            "option": null,
+            "nextIds": [
+              130860020
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130860004": {
+            "type": "Text",
+            "id": 130860004,
+            "sectionId": 1308600,
+            "senderId": null,
+            "text": "I'm not there right now",
+            "option": "Not there right now.",
+            "nextIds": [
+              130860005
+            ],
+            "kind": "Player"
+          },
+          "130860005": {
+            "type": "Text",
+            "id": 130860005,
+            "sectionId": 1308600,
+            "senderId": null,
+            "text": "Wait for me to return if it's not urgent",
+            "option": null,
+            "nextIds": [
+              130860006
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1309,
+    "name": "Robin",
+    "signature": "Let's share our wings with one another.",
+    "iconPath": "icon/avatar/1309.png",
+    "type": 1,
+    "camp": 11
+  }
+}

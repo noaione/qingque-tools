@@ -81,6 +81,612 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1308400,
+        "startIds": [
+          130840001
+        ],
+        "messages": {
+          "130840001": {
+            "type": "Text",
+            "id": 130840001,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "Dear guest, you have collected all the <i>Hanu's Adventure</i> storybooks. That's impressive!",
+            "option": null,
+            "nextIds": [
+              130840002
+            ],
+            "kind": "NPC"
+          },
+          "130840002": {
+            "type": "Text",
+            "id": 130840002,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "Since the game is implemented into Dreamscape, you are the only player who has completed the collection mission.",
+            "option": null,
+            "nextIds": [
+              130840003,
+              130840004
+            ],
+            "kind": "NPC"
+          },
+          "130840003": {
+            "type": "Text",
+            "id": 130840003,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "Is that true?",
+            "option": "Is that true?",
+            "nextIds": [
+              130840006
+            ],
+            "kind": "Player"
+          },
+          "130840006": {
+            "type": "Text",
+            "id": 130840006,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "Of course, you are the one and only",
+            "option": null,
+            "nextIds": [
+              130840007
+            ],
+            "kind": "NPC"
+          },
+          "130840007": {
+            "type": "Text",
+            "id": 130840007,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "This is because...",
+            "option": null,
+            "nextIds": [
+              130840008
+            ],
+            "kind": "NPC"
+          },
+          "130840008": {
+            "type": "Text",
+            "id": 130840008,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "Signal jamming detected.",
+            "option": null,
+            "nextIds": [
+              130840009
+            ],
+            "kind": "System"
+          },
+          "130840009": {
+            "type": "Text",
+            "id": 130840009,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>I deliberately placed many challenges in places that ordinary people cannot reach.</color>",
+            "option": null,
+            "nextIds": [
+              130840010
+            ],
+            "kind": "NPC"
+          },
+          "130840010": {
+            "type": "Text",
+            "id": 130840010,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>You must be someone extraordinary, dear guest.</color>",
+            "option": null,
+            "nextIds": [
+              130840011,
+              130840013,
+              130840015
+            ],
+            "kind": "NPC"
+          },
+          "130840011": {
+            "type": "Text",
+            "id": 130840011,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "Actually, I'm not super extraordinary",
+            "option": "I'm not",
+            "nextIds": [
+              130840012
+            ],
+            "kind": "Player"
+          },
+          "130840012": {
+            "type": "Text",
+            "id": 130840012,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "How could you tell?",
+            "option": null,
+            "nextIds": [
+              130840017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130840017": {
+            "type": "Text",
+            "id": 130840017,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>Sorry, this is the only way I can communicate with you. After all, there is no privacy in dream communication</color>",
+            "option": null,
+            "nextIds": [
+              130840018
+            ],
+            "kind": "NPC"
+          },
+          "130840018": {
+            "type": "Text",
+            "id": 130840018,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>Since you've made it this far, I'm sure you've already noticed some clues, haven't you?</color>",
+            "option": null,
+            "nextIds": [
+              130840019
+            ],
+            "kind": "NPC"
+          },
+          "130840019": {
+            "type": "Text",
+            "id": 130840019,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>Can you tell what kind of story <i>Lil' Brother Hanu</i> is?</color>",
+            "option": null,
+            "nextIds": [
+              130840020,
+              130840021,
+              130840022
+            ],
+            "kind": "NPC"
+          },
+          "130840020": {
+            "type": "Text",
+            "id": 130840020,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "It's about Penacony's past, isn't it?",
+            "option": "Is it Penacony's past?",
+            "nextIds": [
+              130840024
+            ],
+            "kind": "Player"
+          },
+          "130840024": {
+            "type": "Text",
+            "id": 130840024,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>Hehe, I'm sure you have your own answers in mind, as well as lingering doubts that haven't been resolved</color>",
+            "option": null,
+            "nextIds": [
+              130840025
+            ],
+            "kind": "NPC"
+          },
+          "130840025": {
+            "type": "Text",
+            "id": 130840025,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>Then let our game continue, remarkable guest~</color>",
+            "option": null,
+            "nextIds": [
+              130840026
+            ],
+            "kind": "NPC"
+          },
+          "130840026": {
+            "type": "Text",
+            "id": 130840026,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "Signal restored.",
+            "option": null,
+            "nextIds": [
+              130840027
+            ],
+            "kind": "System"
+          },
+          "130840027": {
+            "type": "Text",
+            "id": 130840027,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "It is because you are a premium user carefully selected by Clock Studios!",
+            "option": null,
+            "nextIds": [
+              130840028
+            ],
+            "kind": "NPC"
+          },
+          "130840028": {
+            "type": "Text",
+            "id": 130840028,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "As a token of respect for the achievements you've made, we've carefully crafted a <color=#dbc291ff>finale stage</color> for you, narrating the concluding chapter of Brother Hanu's story.",
+            "option": null,
+            "nextIds": [
+              130840029
+            ],
+            "kind": "NPC"
+          },
+          "130840029": {
+            "type": "Text",
+            "id": 130840029,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "Go give it a try. You won't be disappointed!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130840021": {
+            "type": "Text",
+            "id": 130840021,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "It's about that Hanunue, isn't it?",
+            "option": "Is it Hanunue's story?",
+            "nextIds": [
+              130840024
+            ],
+            "kind": "Player"
+          },
+          "130840022": {
+            "type": "Text",
+            "id": 130840022,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "It's little Brother Hanu's story, of course!",
+            "option": "It's little Brother Hanu's story!",
+            "nextIds": [
+              130840023
+            ],
+            "kind": "Player"
+          },
+          "130840023": {
+            "type": "Text",
+            "id": 130840023,
+            "sectionId": 1308400,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>Urm, that's one way to put it</color>",
+            "option": null,
+            "nextIds": [
+              130840024
+            ],
+            "kind": "NPC"
+          },
+          "130840013": {
+            "type": "Text",
+            "id": 130840013,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "You're being too kind",
+            "option": "You're too kind",
+            "nextIds": [
+              130840014
+            ],
+            "kind": "Player"
+          },
+          "130840014": {
+            "type": "Text",
+            "id": 130840014,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "I'm trying to keep it on the down-low",
+            "option": null,
+            "nextIds": [
+              130840017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130840015": {
+            "type": "Text",
+            "id": 130840015,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "What is going on?",
+            "option": "Don't play with me",
+            "nextIds": [
+              130840016
+            ],
+            "kind": "Player"
+          },
+          "130840016": {
+            "type": "Text",
+            "id": 130840016,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "Don't you try anything",
+            "option": null,
+            "nextIds": [
+              130840017
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130840004": {
+            "type": "Text",
+            "id": 130840004,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "Wow wee!",
+            "option": "I'm so awesome!",
+            "nextIds": [
+              130840005
+            ],
+            "kind": "Player"
+          },
+          "130840005": {
+            "type": "Text",
+            "id": 130840005,
+            "sectionId": 1308400,
+            "senderId": null,
+            "text": "Check me out! I'm so awesome!",
+            "option": null,
+            "nextIds": [
+              130840006
+            ],
+            "kind": "PlayerAuto"
+          }
+        },
+        "mission": {
+          "id": 8021502,
+          "name": "Hanu's End",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1308500,
+        "startIds": [
+          130850001
+        ],
+        "messages": {
+          "130850001": {
+            "type": "Text",
+            "id": 130850001,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "Dear guest, you have completed the ending of <i>Hanu's Adventure</i>",
+            "option": null,
+            "nextIds": [
+              130850002
+            ],
+            "kind": "NPC"
+          },
+          "130850002": {
+            "type": "Text",
+            "id": 130850002,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "Even though our little Brother Hanu did not return to his original form, nor has he made up with his friends, he still protected Dreamville in the end",
+            "option": null,
+            "nextIds": [
+              130850003,
+              130850004
+            ],
+            "kind": "NPC"
+          },
+          "130850003": {
+            "type": "Text",
+            "id": 130850003,
+            "sectionId": 1308500,
+            "senderId": null,
+            "text": "That's it?",
+            "option": "That's it?",
+            "nextIds": [
+              130850005
+            ],
+            "kind": "Player"
+          },
+          "130850005": {
+            "type": "Text",
+            "id": 130850005,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "Affirmative, this is the ending of <i>Lil' Brother Hanu</i>",
+            "option": null,
+            "nextIds": [
+              130850006
+            ],
+            "kind": "NPC"
+          },
+          "130850006": {
+            "type": "Text",
+            "id": 130850006,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "But please rest assured that Brother Hanu will still make appearances in the Clockie series in the future!",
+            "option": null,
+            "nextIds": [
+              130850007
+            ],
+            "kind": "NPC"
+          },
+          "130850007": {
+            "type": "Text",
+            "id": 130850007,
+            "sectionId": 1308500,
+            "senderId": null,
+            "text": "Signal jamming detected.",
+            "option": null,
+            "nextIds": [
+              130850008
+            ],
+            "kind": "System"
+          },
+          "130850008": {
+            "type": "Text",
+            "id": 130850008,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>However, in reality, \"Brother Hanu\" isn't as fortunate</color>",
+            "option": null,
+            "nextIds": [
+              130850009
+            ],
+            "kind": "NPC"
+          },
+          "130850009": {
+            "type": "Text",
+            "id": 130850009,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>The rebellious wolf was wounded on the fringes of the stars, perishing in the wilderness of dreams, forgotten by those within the dream</color>",
+            "option": null,
+            "nextIds": [
+              130850010
+            ],
+            "kind": "NPC"
+          },
+          "130850010": {
+            "type": "Text",
+            "id": 130850010,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>Even as his clock friend roams far and wide to inscribe his name among the ranks of the festive superstars, his story remains unheeded</color>",
+            "option": null,
+            "nextIds": [
+              130850011,
+              130850013
+            ],
+            "kind": "NPC"
+          },
+          "130850011": {
+            "type": "Text",
+            "id": 130850011,
+            "sectionId": 1308500,
+            "senderId": null,
+            "text": "Who are you?",
+            "option": "Who are you?",
+            "nextIds": [
+              130850012
+            ],
+            "kind": "Player"
+          },
+          "130850012": {
+            "type": "Text",
+            "id": 130850012,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>Who I am is not important, dear guest</color>",
+            "option": null,
+            "nextIds": [
+              130850015
+            ],
+            "kind": "NPC"
+          },
+          "130850015": {
+            "type": "Text",
+            "id": 130850015,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>I am but an ordinary person who shall remain nameless, but I refuse to let heroes who deserve recognition be forgotten.</color>",
+            "option": null,
+            "nextIds": [
+              130850016
+            ],
+            "kind": "NPC"
+          },
+          "130850016": {
+            "type": "Text",
+            "id": 130850016,
+            "sectionId": 1308500,
+            "senderId": null,
+            "text": "Signal restored.",
+            "option": null,
+            "nextIds": [
+              130850017
+            ],
+            "kind": "System"
+          },
+          "130850017": {
+            "type": "Text",
+            "id": 130850017,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "Alright, dear guest, I won't bother you any longer",
+            "option": null,
+            "nextIds": [
+              130850018
+            ],
+            "kind": "NPC"
+          },
+          "130850018": {
+            "type": "Text",
+            "id": 130850018,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "For your support, Clock Studios will present you with an \"Aideen Token (Golden Limited Edition)\" as a token of appreciation.",
+            "option": null,
+            "nextIds": [
+              130850019
+            ],
+            "kind": "NPC"
+          },
+          "130850019": {
+            "type": "Text",
+            "id": 130850019,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "We wish you a pleasant Dreamscape journey, and may we meet again!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130850013": {
+            "type": "Text",
+            "id": 130850013,
+            "sectionId": 1308500,
+            "senderId": null,
+            "text": "What on earth are you trying to say?",
+            "option": "What do you mean?",
+            "nextIds": [
+              130850014
+            ],
+            "kind": "Player"
+          },
+          "130850014": {
+            "type": "Text",
+            "id": 130850014,
+            "sectionId": 1308500,
+            "senderId": 9,
+            "text": "<color=#dbc291ff>Nothing, I just wanted to tell you this story</color>",
+            "option": null,
+            "nextIds": [
+              130850015
+            ],
+            "kind": "NPC"
+          },
+          "130850004": {
+            "type": "Text",
+            "id": 130850004,
+            "sectionId": 1308500,
+            "senderId": null,
+            "text": "Is that the end?",
+            "option": "Is that the end?",
+            "nextIds": [
+              130850005
+            ],
+            "kind": "Player"
+          }
+        }
+      }
     ]
   ],
   "info": {

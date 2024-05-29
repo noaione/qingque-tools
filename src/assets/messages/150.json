@@ -1,0 +1,148 @@
+{
+  "id": 150,
+  "sections": [
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1308300,
+        "startIds": [
+          130830000
+        ],
+        "messages": {
+          "130830000": {
+            "type": "Text",
+            "id": 130830000,
+            "sectionId": 1308300,
+            "senderId": 150,
+            "text": "Oh, {F#Miss}{M#Mr.} {NICKNAME}, my dearest festive superstar, how have you been recently?",
+            "option": null,
+            "nextIds": [
+              130830001
+            ],
+            "kind": "NPC"
+          },
+          "130830001": {
+            "type": "Text",
+            "id": 130830001,
+            "sectionId": 1308300,
+            "senderId": 150,
+            "text": "Your performance at the venue was so spectacular. It broke our festival's viewership record that endured for half an Amber Era!",
+            "option": null,
+            "nextIds": [
+              130830002
+            ],
+            "kind": "NPC"
+          },
+          "130830002": {
+            "type": "Text",
+            "id": 130830002,
+            "sectionId": 1308300,
+            "senderId": 150,
+            "text": "As a token of our admiration, we've prepared a special gift for you",
+            "option": null,
+            "nextIds": [
+              130830003
+            ],
+            "kind": "NPC"
+          },
+          "130830003": {
+            "type": "Text",
+            "id": 130830003,
+            "sectionId": 1308300,
+            "senderId": 150,
+            "text": "Unfortunately, this gift just caused an incident, and we really need your help. Do you have time to come along?",
+            "option": null,
+            "nextIds": [
+              130830004,
+              130830006
+            ],
+            "kind": "NPC"
+          },
+          "130830004": {
+            "type": "Text",
+            "id": 130830004,
+            "sectionId": 1308300,
+            "senderId": null,
+            "text": "Gifts!",
+            "option": "I'll come right along",
+            "nextIds": [
+              130830005
+            ],
+            "kind": "Player"
+          },
+          "130830005": {
+            "type": "Text",
+            "id": 130830005,
+            "sectionId": 1308300,
+            "senderId": null,
+            "text": "Hold on. I'm coming!",
+            "option": null,
+            "nextIds": [
+              130830009
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130830009": {
+            "type": "Text",
+            "id": 130830009,
+            "sectionId": 1308300,
+            "senderId": 150,
+            "text": "I'll be at the Scorchsand Live Studio awaiting your arrival",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130830006": {
+            "type": "Text",
+            "id": 130830006,
+            "sectionId": 1308300,
+            "senderId": null,
+            "text": "An incident?",
+            "option": "I'll have to decline then",
+            "nextIds": [
+              130830007
+            ],
+            "kind": "Player"
+          },
+          "130830007": {
+            "type": "Text",
+            "id": 130830007,
+            "sectionId": 1308300,
+            "senderId": null,
+            "text": "Sounds dangerous, I don't want it then",
+            "option": null,
+            "nextIds": [
+              130830008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130830008": {
+            "type": "Text",
+            "id": 130830008,
+            "sectionId": 1308300,
+            "senderId": 150,
+            "text": "Please don't worry. It was just an insignificant accident",
+            "option": null,
+            "nextIds": [
+              130830009
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 8022401,
+          "name": "Scorchsand Vacation",
+          "type": "Branch"
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 150,
+    "name": "Aideen",
+    "signature": null,
+    "iconPath": "icon/avatar/Aideen.png",
+    "type": 2,
+    "camp": 11
+  }
+}

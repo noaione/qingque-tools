@@ -196,6 +196,1207 @@
     [
       {
         "type": "Message",
+        "id": 2013400,
+        "startIds": [
+          201340000
+        ],
+        "messages": {
+          "201340000": {
+            "type": "Text",
+            "id": 201340000,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Sorry, I only just saw your message",
+            "option": null,
+            "nextIds": [
+              201340001
+            ],
+            "kind": "NPC"
+          },
+          "201340001": {
+            "type": "Text",
+            "id": 201340001,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Now that my mission on Penacony has come to an end, I can finally use my phone in the open",
+            "option": null,
+            "nextIds": [
+              201340002
+            ],
+            "kind": "NPC"
+          },
+          "201340002": {
+            "type": "Text",
+            "id": 201340002,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "It felt like I was in jail",
+            "option": null,
+            "nextIds": [
+              201340003,
+              201340005,
+              201340007
+            ],
+            "kind": "NPC"
+          },
+          "201340003": {
+            "type": "Text",
+            "id": 201340003,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Glad to see you're safe and sound",
+            "option": "I'm glad you're okay",
+            "nextIds": [
+              201340004
+            ],
+            "kind": "Player"
+          },
+          "201340004": {
+            "type": "Text",
+            "id": 201340004,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Haha, you're so kind",
+            "option": null,
+            "nextIds": [
+              201340009
+            ],
+            "kind": "NPC"
+          },
+          "201340009": {
+            "type": "Text",
+            "id": 201340009,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Since we've got nothing else going on, how about we play a simple dice game to keep our senses sharp?",
+            "option": null,
+            "nextIds": [
+              201340010
+            ],
+            "kind": "NPC"
+          },
+          "201340010": {
+            "type": "Text",
+            "id": 201340010,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "If the number you roll is greater than or equal to mine, I'll tell you something that happened after the theme park incident",
+            "option": null,
+            "nextIds": [
+              201340011,
+              201340054
+            ],
+            "kind": "NPC"
+          },
+          "201340011": {
+            "type": "Text",
+            "id": 201340011,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Sounds good. Let's begin!",
+            "option": "Sounds good. Let's begin!",
+            "nextIds": [
+              201340012
+            ],
+            "kind": "Player"
+          },
+          "201340012": {
+            "type": "Text",
+            "id": 201340012,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Let's do it",
+            "option": null,
+            "nextIds": [
+              201340013
+            ],
+            "kind": "NPC"
+          },
+          "201340013": {
+            "type": "Text",
+            "id": 201340013,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "[Aventurine] rolls a 3.",
+            "option": null,
+            "nextIds": [
+              201340014
+            ],
+            "kind": "System"
+          },
+          "201340014": {
+            "type": "Text",
+            "id": 201340014,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Your turn. Your chances seem good",
+            "option": null,
+            "nextIds": [
+              201340015,
+              201340022
+            ],
+            "kind": "NPC"
+          },
+          "201340015": {
+            "type": "Text",
+            "id": 201340015,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Doesn't matter to me anyway",
+            "option": "Casually roll the dice",
+            "nextIds": [
+              201340016
+            ],
+            "kind": "Player"
+          },
+          "201340016": {
+            "type": "Text",
+            "id": 201340016,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "[{NICKNAME}] rolls a 2.",
+            "option": null,
+            "nextIds": [
+              201340017
+            ],
+            "kind": "System"
+          },
+          "201340017": {
+            "type": "Text",
+            "id": 201340017,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "How about one more round? Nothing in the rules says we can't have a do-over",
+            "option": null,
+            "nextIds": [
+              201340018
+            ],
+            "kind": "NPC"
+          },
+          "201340018": {
+            "type": "Text",
+            "id": 201340018,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Let's do it again then",
+            "option": "Roll again",
+            "nextIds": [
+              201340019
+            ],
+            "kind": "Player"
+          },
+          "201340019": {
+            "type": "Text",
+            "id": 201340019,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "[{NICKNAME}] rolls a 6.",
+            "option": null,
+            "nextIds": [
+              201340020
+            ],
+            "kind": "System"
+          },
+          "201340020": {
+            "type": "Text",
+            "id": 201340020,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Spill it",
+            "option": null,
+            "nextIds": [
+              201340021
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201340021": {
+            "type": "Text",
+            "id": 201340021,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "How lucky",
+            "option": null,
+            "nextIds": [
+              201340025
+            ],
+            "kind": "NPC"
+          },
+          "201340025": {
+            "type": "Text",
+            "id": 201340025,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "After taking that one strike from that Emanator's blade, I waded into a river wider than any I've seen in my life",
+            "option": null,
+            "nextIds": [
+              201340026
+            ],
+            "kind": "NPC"
+          },
+          "201340026": {
+            "type": "Text",
+            "id": 201340026,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "I thought I had reached the end of my life",
+            "option": null,
+            "nextIds": [
+              201340027
+            ],
+            "kind": "NPC"
+          },
+          "201340027": {
+            "type": "Text",
+            "id": 201340027,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "But... as you can see, I'm still alive, and I'm happy about that",
+            "option": null,
+            "nextIds": [
+              201340028
+            ],
+            "kind": "NPC"
+          },
+          "201340028": {
+            "type": "Text",
+            "id": 201340028,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "[Aventurine] rolls a 1.",
+            "option": null,
+            "nextIds": [
+              201340029
+            ],
+            "kind": "System"
+          },
+          "201340029": {
+            "type": "Text",
+            "id": 201340029,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Your turn",
+            "option": null,
+            "nextIds": [
+              201340030,
+              201340033
+            ],
+            "kind": "NPC"
+          },
+          "201340030": {
+            "type": "Text",
+            "id": 201340030,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "I think I'm in luck",
+            "option": "Casually roll the dice",
+            "nextIds": [
+              201340031
+            ],
+            "kind": "Player"
+          },
+          "201340031": {
+            "type": "Text",
+            "id": 201340031,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "[{NICKNAME}] rolls a 5.",
+            "option": null,
+            "nextIds": [
+              201340032
+            ],
+            "kind": "System"
+          },
+          "201340032": {
+            "type": "Text",
+            "id": 201340032,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "...And?",
+            "option": null,
+            "nextIds": [
+              201340036
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201340036": {
+            "type": "Text",
+            "id": 201340036,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "When you guys were unraveling the secrets beneath the Penacony's surface, I already fell into the Primordial Dreamscape. The Preservation's Cornerstone shielded me from the contamination of the Nihility, but in doing so, it completely shattered to smithereens.",
+            "option": null,
+            "nextIds": [
+              201340037
+            ],
+            "kind": "NPC"
+          },
+          "201340037": {
+            "type": "Text",
+            "id": 201340037,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Fortunately, I met a Knight of Beauty and narrowly escaped death with his help.",
+            "option": null,
+            "nextIds": [
+              201340038
+            ],
+            "kind": "NPC"
+          },
+          "201340038": {
+            "type": "Text",
+            "id": 201340038,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "[Aventurine] rolls a 1.",
+            "option": null,
+            "nextIds": [
+              201340039
+            ],
+            "kind": "System"
+          },
+          "201340039": {
+            "type": "Text",
+            "id": 201340039,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "It's your turn. We gotta follow through with this game",
+            "option": null,
+            "nextIds": [
+              201340040,
+              201340043
+            ],
+            "kind": "NPC"
+          },
+          "201340040": {
+            "type": "Text",
+            "id": 201340040,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Easy-peasy",
+            "option": "Casually roll the dice",
+            "nextIds": [
+              201340041
+            ],
+            "kind": "Player"
+          },
+          "201340041": {
+            "type": "Text",
+            "id": 201340041,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "[{NICKNAME}] rolls a 2.",
+            "option": null,
+            "nextIds": [
+              201340042
+            ],
+            "kind": "System"
+          },
+          "201340042": {
+            "type": "Text",
+            "id": 201340042,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Luck is on your side",
+            "option": null,
+            "nextIds": [
+              201340046
+            ],
+            "kind": "NPC"
+          },
+          "201340046": {
+            "type": "Text",
+            "id": 201340046,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Then, thanks to you lot, all the truths came to light. Topaz and Jade took over the affairs on Penacony, and now I get to enjoy some time off",
+            "option": null,
+            "nextIds": [
+              201340047
+            ],
+            "kind": "NPC"
+          },
+          "201340047": {
+            "type": "Text",
+            "id": 201340047,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "But I've been having various nightmares these past few days, waking up drenched in sweat every single time",
+            "option": null,
+            "nextIds": [
+              201340048
+            ],
+            "kind": "NPC"
+          },
+          "201340048": {
+            "type": "Text",
+            "id": 201340048,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Thankfully, the IPC has arranged for a Doctor of Chaos to give me a thorough examination, and things have improved",
+            "option": null,
+            "nextIds": [
+              201340049
+            ],
+            "kind": "NPC"
+          },
+          "201340049": {
+            "type": "Text",
+            "id": 201340049,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "That's about it. You're really lucky to get me to tell the whole story",
+            "option": null,
+            "nextIds": [
+              201340050,
+              201340051
+            ],
+            "kind": "NPC"
+          },
+          "201340050": {
+            "type": "Text",
+            "id": 201340050,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "I knew you were losing on purpose from the get-go. There's no way you're that unlucky",
+            "option": "Are you losing on purpose?",
+            "nextIds": [
+              201340052
+            ],
+            "kind": "Player"
+          },
+          "201340052": {
+            "type": "Text",
+            "id": 201340052,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "The Dreamscape may be a bustling place, but there aren't many 'friends'. I gotta find ways to make do, wouldn't you say?",
+            "option": null,
+            "nextIds": [
+              201340053
+            ],
+            "kind": "NPC"
+          },
+          "201340053": {
+            "type": "Text",
+            "id": 201340053,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Thanks for helping me through the tough times. Hope I wasn't a bother",
+            "option": null,
+            "nextIds": [
+              201340057
+            ],
+            "kind": "NPC"
+          },
+          "201340057": {
+            "type": "Text",
+            "id": 201340057,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Guess I'll find fun somewhere else, see ya",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201340051": {
+            "type": "Text",
+            "id": 201340051,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Happy losing, huh? You've tricked me again",
+            "option": "Enjoy losing much?",
+            "nextIds": [
+              201340052
+            ],
+            "kind": "Player"
+          },
+          "201340043": {
+            "type": "Text",
+            "id": 201340043,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "What happened after that?",
+            "option": "Aggressively roll the dice",
+            "nextIds": [
+              201340044
+            ],
+            "kind": "Player"
+          },
+          "201340044": {
+            "type": "Text",
+            "id": 201340044,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "[{NICKNAME}] rolls a 6.",
+            "option": null,
+            "nextIds": [
+              201340045
+            ],
+            "kind": "System"
+          },
+          "201340045": {
+            "type": "Text",
+            "id": 201340045,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "You're doing great, my friend",
+            "option": null,
+            "nextIds": [
+              201340046
+            ],
+            "kind": "NPC"
+          },
+          "201340033": {
+            "type": "Text",
+            "id": 201340033,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "This is surely a win, right?",
+            "option": "Aggressively roll the dice",
+            "nextIds": [
+              201340034
+            ],
+            "kind": "Player"
+          },
+          "201340034": {
+            "type": "Text",
+            "id": 201340034,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "[{NICKNAME}] rolls a 6.",
+            "option": null,
+            "nextIds": [
+              201340035
+            ],
+            "kind": "System"
+          },
+          "201340035": {
+            "type": "Text",
+            "id": 201340035,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "What happened next?",
+            "option": null,
+            "nextIds": [
+              201340036
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201340022": {
+            "type": "Text",
+            "id": 201340022,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Give me a big one!",
+            "option": "Aggressively roll the dice",
+            "nextIds": [
+              201340023
+            ],
+            "kind": "Player"
+          },
+          "201340023": {
+            "type": "Text",
+            "id": 201340023,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "[{NICKNAME}] rolls a 4.",
+            "option": null,
+            "nextIds": [
+              201340024
+            ],
+            "kind": "System"
+          },
+          "201340024": {
+            "type": "Text",
+            "id": 201340024,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Mine's bigger, now spill it",
+            "option": null,
+            "nextIds": [
+              201340025
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201340054": {
+            "type": "Text",
+            "id": 201340054,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "I'll pass",
+            "option": "I'll pass",
+            "nextIds": [
+              201340055
+            ],
+            "kind": "Player"
+          },
+          "201340055": {
+            "type": "Text",
+            "id": 201340055,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Oh, that's too bad, I thought you'd like it.",
+            "option": null,
+            "nextIds": [
+              201340056
+            ],
+            "kind": "NPC"
+          },
+          "201340056": {
+            "type": "Text",
+            "id": 201340056,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Never mind, it's not that important anyway",
+            "option": null,
+            "nextIds": [
+              201340057
+            ],
+            "kind": "NPC"
+          },
+          "201340005": {
+            "type": "Text",
+            "id": 201340005,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Where have you been?",
+            "option": "Where have you been?",
+            "nextIds": [
+              201340006
+            ],
+            "kind": "Player"
+          },
+          "201340006": {
+            "type": "Text",
+            "id": 201340006,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Long story. Let's save it for next time",
+            "option": null,
+            "nextIds": [
+              201340009
+            ],
+            "kind": "NPC"
+          },
+          "201340007": {
+            "type": "Text",
+            "id": 201340007,
+            "sectionId": 2013400,
+            "senderId": null,
+            "text": "Rest in peace! Guess it's over at last",
+            "option": "Rest in peace",
+            "nextIds": [
+              201340008
+            ],
+            "kind": "Player"
+          },
+          "201340008": {
+            "type": "Text",
+            "id": 201340008,
+            "sectionId": 2013400,
+            "senderId": 1304,
+            "text": "Haha, this sounds more like you!",
+            "option": null,
+            "nextIds": [
+              201340009
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2013500,
+        "startIds": [
+          201350000
+        ],
+        "messages": {
+          "201350000": {
+            "type": "Text",
+            "id": 201350000,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Hey, friend. How's life treating you lately?",
+            "option": null,
+            "nextIds": [
+              201350001
+            ],
+            "kind": "NPC"
+          },
+          "201350001": {
+            "type": "Text",
+            "id": 201350001,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "There's a new store that opened up on Penacony — Cosmic Star. I'm checking the place out",
+            "option": null,
+            "nextIds": [
+              201350002
+            ],
+            "kind": "NPC"
+          },
+          "201350002": {
+            "type": "Text",
+            "id": 201350002,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Lots of fun stuff here",
+            "option": null,
+            "nextIds": [
+              201350003,
+              201350035
+            ],
+            "kind": "NPC"
+          },
+          "201350003": {
+            "type": "Text",
+            "id": 201350003,
+            "sectionId": 2013500,
+            "senderId": null,
+            "text": "Oh? Are you getting me something?",
+            "option": "Oh? You getting me something?",
+            "nextIds": [
+              201350004
+            ],
+            "kind": "Player"
+          },
+          "201350004": {
+            "type": "Text",
+            "id": 201350004,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "First, let's see if there's something that tickles your fancy",
+            "option": null,
+            "nextIds": [
+              201350005
+            ],
+            "kind": "NPC"
+          },
+          "201350005": {
+            "type": "Text",
+            "id": 201350005,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Cosmic Star houses treasures from all over the universe. Every item is crafted by top-notch designers",
+            "option": null,
+            "nextIds": [
+              201350006
+            ],
+            "kind": "NPC"
+          },
+          "201350006": {
+            "type": "Text",
+            "id": 201350006,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Most importantly, the items are of excellent quality and made of fine materials. They are nothing like the luxury goods that are all show and no substance",
+            "option": null,
+            "nextIds": [
+              201350007
+            ],
+            "kind": "NPC"
+          },
+          "201350007": {
+            "type": "Text",
+            "id": 201350007,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "For example, this \"Horizon\" series pajama is made with a material so light it feels like nothing, warm in winter, cool in summer, and extremely comfortable",
+            "option": null,
+            "nextIds": [
+              201350008
+            ],
+            "kind": "NPC"
+          },
+          "201350008": {
+            "type": "Text",
+            "id": 201350008,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Wearing it to sleep should considerably lessen the fatigue from travel",
+            "option": null,
+            "nextIds": [
+              201350009
+            ],
+            "kind": "NPC"
+          },
+          "201350009": {
+            "type": "Text",
+            "id": 201350009,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Take, for another example, these \"Night Diamond\" series gloves, the last masterpiece by the deceased design master Van Jagh. They're handcrafted and limited to ninety pairs galaxy-wide, perfect for parties and special occasions.",
+            "option": null,
+            "nextIds": [
+              201350010
+            ],
+            "kind": "NPC"
+          },
+          "201350010": {
+            "type": "Text",
+            "id": 201350010,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Of course, they are highly recommended for long-distance trips too. They are gorgeous and are sure to turn heads!",
+            "option": null,
+            "nextIds": [
+              201350011
+            ],
+            "kind": "NPC"
+          },
+          "201350011": {
+            "type": "Text",
+            "id": 201350011,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "And then there's this windbreaker from the \"Unmanned Flight\" series — a timeless classic!",
+            "option": null,
+            "nextIds": [
+              201350012
+            ],
+            "kind": "NPC"
+          },
+          "201350012": {
+            "type": "Text",
+            "id": 201350012,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "You can wear it and stand on the edge of a cliff, listening to the flapping of its hem when the cosmic storm hits... It's because of that scene in the movie, \"Unmanned Flight\" has now become the go-to choice for a generation of the Nameless and their followers.",
+            "option": null,
+            "nextIds": [
+              201350013
+            ],
+            "kind": "NPC"
+          },
+          "201350013": {
+            "type": "Text",
+            "id": 201350013,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Which one do you like?",
+            "option": null,
+            "nextIds": [
+              201350014
+            ],
+            "kind": "NPC"
+          },
+          "201350014": {
+            "type": "Text",
+            "id": 201350014,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "I'm heading to the checkout now, so I'll pick up your stuff and pay together",
+            "option": null,
+            "nextIds": [
+              201350015,
+              201350028,
+              201350032
+            ],
+            "kind": "NPC"
+          },
+          "201350015": {
+            "type": "Text",
+            "id": 201350015,
+            "sectionId": 2013500,
+            "senderId": null,
+            "text": "I'll choose one then",
+            "option": "Choose one",
+            "nextIds": [
+              201350016,
+              201350020,
+              201350024
+            ],
+            "kind": "Player"
+          },
+          "201350016": {
+            "type": "Text",
+            "id": 201350016,
+            "sectionId": 2013500,
+            "senderId": null,
+            "text": "The \"Horizon\" pajamas then",
+            "option": "Pajamas",
+            "nextIds": [
+              201350017
+            ],
+            "kind": "Player"
+          },
+          "201350017": {
+            "type": "Text",
+            "id": 201350017,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Done",
+            "option": null,
+            "nextIds": [
+              201350018
+            ],
+            "kind": "NPC"
+          },
+          "201350018": {
+            "type": "Text",
+            "id": 201350018,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "I'll have them deliver it to you",
+            "option": null,
+            "nextIds": [
+              201350019
+            ],
+            "kind": "NPC"
+          },
+          "201350019": {
+            "type": "Text",
+            "id": 201350019,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "In the long cosmic nights, may your every dream be sweet and fancy",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201350020": {
+            "type": "Text",
+            "id": 201350020,
+            "sectionId": 2013500,
+            "senderId": null,
+            "text": "The \"Night Diamond\" gloves then",
+            "option": "Gloves",
+            "nextIds": [
+              201350021
+            ],
+            "kind": "Player"
+          },
+          "201350021": {
+            "type": "Text",
+            "id": 201350021,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Done",
+            "option": null,
+            "nextIds": [
+              201350022
+            ],
+            "kind": "NPC"
+          },
+          "201350022": {
+            "type": "Text",
+            "id": 201350022,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "I'll have them deliver it to you",
+            "option": null,
+            "nextIds": [
+              201350023
+            ],
+            "kind": "NPC"
+          },
+          "201350023": {
+            "type": "Text",
+            "id": 201350023,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "I hope they make everyone envious of you",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201350024": {
+            "type": "Text",
+            "id": 201350024,
+            "sectionId": 2013500,
+            "senderId": null,
+            "text": "The \"Unmanned Flight\" windbreaker then",
+            "option": "Windbreaker",
+            "nextIds": [
+              201350025
+            ],
+            "kind": "Player"
+          },
+          "201350025": {
+            "type": "Text",
+            "id": 201350025,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Done",
+            "option": null,
+            "nextIds": [
+              201350026
+            ],
+            "kind": "NPC"
+          },
+          "201350026": {
+            "type": "Text",
+            "id": 201350026,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "I'll have them deliver it to you",
+            "option": null,
+            "nextIds": [
+              201350027
+            ],
+            "kind": "NPC"
+          },
+          "201350027": {
+            "type": "Text",
+            "id": 201350027,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "I'm sure you'll look cool in it. Remember to take a picture for me!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201350028": {
+            "type": "Text",
+            "id": 201350028,
+            "sectionId": 2013500,
+            "senderId": null,
+            "text": "I want them all",
+            "option": "I want them all",
+            "nextIds": [
+              201350029
+            ],
+            "kind": "Player"
+          },
+          "201350029": {
+            "type": "Text",
+            "id": 201350029,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "Cool! That's what friends are for!",
+            "option": null,
+            "nextIds": [
+              201350030
+            ],
+            "kind": "NPC"
+          },
+          "201350030": {
+            "type": "Text",
+            "id": 201350030,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "All done",
+            "option": null,
+            "nextIds": [
+              201350031
+            ],
+            "kind": "NPC"
+          },
+          "201350031": {
+            "type": "Text",
+            "id": 201350031,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "They will all come in handy during your many travels",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201350032": {
+            "type": "Text",
+            "id": 201350032,
+            "sectionId": 2013500,
+            "senderId": null,
+            "text": "No thanks. I'm not interested in any of them",
+            "option": "Nah, not interested in any of them",
+            "nextIds": [
+              201350033
+            ],
+            "kind": "Player"
+          },
+          "201350033": {
+            "type": "Text",
+            "id": 201350033,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "What a pity... but I've already bought them all",
+            "option": null,
+            "nextIds": [
+              201350034
+            ],
+            "kind": "NPC"
+          },
+          "201350034": {
+            "type": "Text",
+            "id": 201350034,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "If you change your mind, just let me know anytime",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201350035": {
+            "type": "Text",
+            "id": 201350035,
+            "sectionId": 2013500,
+            "senderId": null,
+            "text": "Are they related to me? They aren't my cup of tea at all",
+            "option": "Not interested, bye",
+            "nextIds": [
+              201350036
+            ],
+            "kind": "Player"
+          },
+          "201350036": {
+            "type": "Text",
+            "id": 201350036,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "I see",
+            "option": null,
+            "nextIds": [
+              201350037
+            ],
+            "kind": "NPC"
+          },
+          "201350037": {
+            "type": "Text",
+            "id": 201350037,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "We can do some shopping here together next time. It's going to be a blast!",
+            "option": null,
+            "nextIds": [
+              201350038
+            ],
+            "kind": "NPC"
+          },
+          "201350038": {
+            "type": "Text",
+            "id": 201350038,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "I'll get out of your hair for now",
+            "option": null,
+            "nextIds": [
+              201350039
+            ],
+            "kind": "NPC"
+          },
+          "201350039": {
+            "type": "Sticker",
+            "id": 201350039,
+            "sectionId": 2013500,
+            "senderId": 1304,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
         "id": 1302200,
         "startIds": [
           130220000
@@ -352,7 +1553,7 @@
             "id": 130220016,
             "sectionId": 1302200,
             "senderId": 1304,
-            "text": "I'll take my leave for now. And I look forward to outstanding performance from you guys!",
+            "text": "I'll take my leave for now. And I look forward to an outstanding performance from you guys!",
             "option": null,
             "nextIds": [],
             "kind": "NPC"

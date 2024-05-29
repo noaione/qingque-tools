@@ -1,0 +1,1014 @@
+{
+  "id": 1315,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2013900,
+        "startIds": [
+          201390000
+        ],
+        "messages": {
+          "201390000": {
+            "type": "Text",
+            "id": 201390000,
+            "sectionId": 2013900,
+            "senderId": 1315,
+            "text": "Well butter my fudge and call me a biscuit, I'm askin' ya somethin'. You got some fudgin' cotton in them ears, boy? I need that freighter's ID number, and unless ya want a lead headache, best hurry it up. Dagnabbit, you lil' forker, ya really think ya can fudgin' swing at me? You're cruisin' for a bruisin', ya dimwit, I swear I'll fudge you up so good today. [Noise detected, unable to identify]",
+            "option": null,
+            "nextIds": [
+              201390001
+            ],
+            "kind": "NPC"
+          },
+          "201390001": {
+            "type": "Text",
+            "id": 201390001,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201390002,
+              201390003,
+              201390004
+            ],
+            "kind": "System"
+          },
+          "201390002": {
+            "type": "Text",
+            "id": 201390002,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "? What's this",
+            "option": "What is this",
+            "nextIds": [
+              201390005
+            ],
+            "kind": "Player"
+          },
+          "201390005": {
+            "type": "Text",
+            "id": 201390005,
+            "sectionId": 2013900,
+            "senderId": 1315,
+            "text": "Ah, ain't nothin'. Reckon my phone got triggered by mistake, them tight jeans, you know how it is. All's well, no harm done. Muddle-fudger, you're as stubborn as a mule, ain't ya? Go choke on some shirtballs, ya hear me? [Noise detected, unable to recognize]",
+            "option": null,
+            "nextIds": [
+              201390006
+            ],
+            "kind": "NPC"
+          },
+          "201390006": {
+            "type": "Text",
+            "id": 201390006,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201390007
+            ],
+            "kind": "System"
+          },
+          "201390007": {
+            "type": "Text",
+            "id": 201390007,
+            "sectionId": 2013900,
+            "senderId": 1315,
+            "text": "What in tarnation are ya? A dadgum fudgehead! Yer yappin' like you're callin' folks out, huh? Aight, aight, aight, been itchin' for a tussle, ya shirt-for-brains. Fine, I'll show ya somethin' big, lil' forkers. Hahahahahahahaha [Noise detected, unable to recognize]",
+            "option": null,
+            "nextIds": [
+              201390008
+            ],
+            "kind": "NPC"
+          },
+          "201390008": {
+            "type": "Text",
+            "id": 201390008,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201390009,
+              201390011,
+              201390013
+            ],
+            "kind": "System"
+          },
+          "201390009": {
+            "type": "Text",
+            "id": 201390009,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Got it. You're doing a livestream, aren't you?",
+            "option": "Is this a livestream?",
+            "nextIds": [
+              201390010
+            ],
+            "kind": "Player"
+          },
+          "201390010": {
+            "type": "Text",
+            "id": 201390010,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "I'll tip you <unbreak>50</unbreak> cents if you can drop some more dope lines",
+            "option": null,
+            "nextIds": [
+              201390014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201390014": {
+            "type": "Text",
+            "id": 201390014,
+            "sectionId": 2013900,
+            "senderId": 1315,
+            "text": "Aw shucks, ma bad. Apologies. Was just chattin' with a pal. Nothing to see here. Mighty sorry 'bout that. Later I'll rob a new phone real quick... Um, I mean \"buy\" a new phone. Hopefully, that'll fix things up, hahaha.",
+            "option": null,
+            "nextIds": [
+              201390015
+            ],
+            "kind": "NPC"
+          },
+          "201390015": {
+            "type": "Text",
+            "id": 201390015,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201390016,
+              201390020
+            ],
+            "kind": "System"
+          },
+          "201390016": {
+            "type": "Text",
+            "id": 201390016,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Ahem, I know your whole deal is basically being an outlaw",
+            "option": "Please abide by the law for once",
+            "nextIds": [
+              201390017
+            ],
+            "kind": "Player"
+          },
+          "201390017": {
+            "type": "Text",
+            "id": 201390017,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "But it's probably better to pay for a new phone",
+            "option": null,
+            "nextIds": [
+              201390018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201390018": {
+            "type": "Text",
+            "id": 201390018,
+            "sectionId": 2013900,
+            "senderId": 1315,
+            "text": "Well, shoot, who's talkin' 'bout robin'? You heard wrong, haha. Gonna buy it fair and square, can't do it any other way.",
+            "option": null,
+            "nextIds": [
+              201390019
+            ],
+            "kind": "NPC"
+          },
+          "201390019": {
+            "type": "Text",
+            "id": 201390019,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201390024
+            ],
+            "kind": "System"
+          },
+          "201390024": {
+            "type": "Text",
+            "id": 201390024,
+            "sectionId": 2013900,
+            "senderId": 1315,
+            "text": "Gotta cut this short, pardner. I'm off to hunt some varmints, busy as a bee in a bloom. I mean, catchin' up with \"an old friend\", it's been a coon's age, haha. Till we meet again, adios.",
+            "option": null,
+            "nextIds": [
+              201390025
+            ],
+            "kind": "NPC"
+          },
+          "201390025": {
+            "type": "Text",
+            "id": 201390025,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "201390020": {
+            "type": "Text",
+            "id": 201390020,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Why do you always send voice messages?",
+            "option": "Why the constant voice messages?",
+            "nextIds": [
+              201390021
+            ],
+            "kind": "Player"
+          },
+          "201390021": {
+            "type": "Text",
+            "id": 201390021,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "I'm a very shy introvert. Can't handle people yapping at me",
+            "option": null,
+            "nextIds": [
+              201390022
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201390022": {
+            "type": "Text",
+            "id": 201390022,
+            "sectionId": 2013900,
+            "senderId": 1315,
+            "text": "Well, it's just, uh, you know. Didn't hit the books much when I was knee-high to a grasshopper, so, well, yappin' in voice messages comes easier, haha. Don't you be followin' my trail now, ya hear? Gotta hold them reins tight on yer own life.",
+            "option": null,
+            "nextIds": [
+              201390023
+            ],
+            "kind": "NPC"
+          },
+          "201390023": {
+            "type": "Text",
+            "id": 201390023,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201390024
+            ],
+            "kind": "System"
+          },
+          "201390011": {
+            "type": "Text",
+            "id": 201390011,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "...That's a lot of butt dialing",
+            "option": "Butt dialing again, huh?",
+            "nextIds": [
+              201390012
+            ],
+            "kind": "Player"
+          },
+          "201390012": {
+            "type": "Text",
+            "id": 201390012,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Just get a new pair of jeans, bro. Or a new phone",
+            "option": null,
+            "nextIds": [
+              201390014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201390013": {
+            "type": "Text",
+            "id": 201390013,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Fudge? I love it!",
+            "option": "Fudge?",
+            "nextIds": [
+              201390014
+            ],
+            "kind": "Player"
+          },
+          "201390003": {
+            "type": "Text",
+            "id": 201390003,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "? Why are you cussing outta nowhere",
+            "option": "Why cussing outta nowhere",
+            "nextIds": [
+              201390005
+            ],
+            "kind": "Player"
+          },
+          "201390004": {
+            "type": "Text",
+            "id": 201390004,
+            "sectionId": 2013900,
+            "senderId": null,
+            "text": "Fudge? I love it!",
+            "option": "Fudge?",
+            "nextIds": [
+              201390005
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2014000,
+        "startIds": [
+          201400000
+        ],
+        "messages": {
+          "201400000": {
+            "type": "Text",
+            "id": 201400000,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "[No voice detected]",
+            "option": null,
+            "nextIds": [
+              201400001
+            ],
+            "kind": "NPC"
+          },
+          "201400001": {
+            "type": "Text",
+            "id": 201400001,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400002
+            ],
+            "kind": "System"
+          },
+          "201400002": {
+            "type": "Text",
+            "id": 201400002,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "[No voice detected]",
+            "option": null,
+            "nextIds": [
+              201400003
+            ],
+            "kind": "NPC"
+          },
+          "201400003": {
+            "type": "Text",
+            "id": 201400003,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400004,
+              201400005
+            ],
+            "kind": "System"
+          },
+          "201400004": {
+            "type": "Text",
+            "id": 201400004,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Say something, or I'm giving up on you",
+            "option": "Why radio silent now?",
+            "nextIds": [
+              201400006
+            ],
+            "kind": "Player"
+          },
+          "201400006": {
+            "type": "Text",
+            "id": 201400006,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "Haha, no sirree. I'm campin' near the lonesome stretches of the Kata Desert. When night falls quiet, you can hear the wind, the critters chirpin', and the rustle of wild beasts clear as a bell. Got a nice feel to it, so I reckoned I'd capture a bit of that and shoot it your way to have a listen.",
+            "option": null,
+            "nextIds": [
+              201400007
+            ],
+            "kind": "NPC"
+          },
+          "201400007": {
+            "type": "Text",
+            "id": 201400007,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400008
+            ],
+            "kind": "System"
+          },
+          "201400008": {
+            "type": "Text",
+            "id": 201400008,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "Too bad my stupid phone has such a fudgin' poor recording function. Boy, what a waste. Tell you what, the vibe here is really something. Forkin' awesome. Seriously.",
+            "option": null,
+            "nextIds": [
+              201400009
+            ],
+            "kind": "NPC"
+          },
+          "201400009": {
+            "type": "Text",
+            "id": 201400009,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400010,
+              201400013
+            ],
+            "kind": "System"
+          },
+          "201400010": {
+            "type": "Text",
+            "id": 201400010,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "I've had enough. Send me the coordinates. I'll teleport there right away",
+            "option": "Send me the coordinates",
+            "nextIds": [
+              201400011
+            ],
+            "kind": "Player"
+          },
+          "201400011": {
+            "type": "Text",
+            "id": 201400011,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "Ha, well ain't that a hoot. Too bad I've scoped it out, 'round these parts ain't no sign of y'all's Nameless shenanigans— What's it called? Space Encore? Nope, Space Anchor! It's no man's land here, ya catch my drift?",
+            "option": null,
+            "nextIds": [
+              201400012
+            ],
+            "kind": "NPC"
+          },
+          "201400012": {
+            "type": "Text",
+            "id": 201400012,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400016
+            ],
+            "kind": "System"
+          },
+          "201400016": {
+            "type": "Text",
+            "id": 201400016,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "Holy forkeroni, this weather, it's downright beautiful. These stars, like flour sprinkled on a coat. Tsk, mighty pretty, truly fine. Far from home, seldom see stars like these. Real pretty sight, tsk tsk.",
+            "option": null,
+            "nextIds": [
+              201400017
+            ],
+            "kind": "NPC"
+          },
+          "201400017": {
+            "type": "Text",
+            "id": 201400017,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400018
+            ],
+            "kind": "System"
+          },
+          "201400018": {
+            "type": "Text",
+            "id": 201400018,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "Well, I'll be forked. Suddenly got a hankerin' for home, forkin' hell.",
+            "option": null,
+            "nextIds": [
+              201400019
+            ],
+            "kind": "NPC"
+          },
+          "201400019": {
+            "type": "Text",
+            "id": 201400019,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400020,
+              201400024
+            ],
+            "kind": "System"
+          },
+          "201400020": {
+            "type": "Text",
+            "id": 201400020,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "You've never mentioned home before",
+            "option": "Your home?",
+            "nextIds": [
+              201400021
+            ],
+            "kind": "Player"
+          },
+          "201400021": {
+            "type": "Text",
+            "id": 201400021,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "What's your home like?",
+            "option": null,
+            "nextIds": [
+              201400022
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201400022": {
+            "type": "Text",
+            "id": 201400022,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "My home, ha. Long gone, yep. Long gone. Ain't much to say 'bout that.",
+            "option": null,
+            "nextIds": [
+              201400023
+            ],
+            "kind": "NPC"
+          },
+          "201400023": {
+            "type": "Text",
+            "id": 201400023,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400028
+            ],
+            "kind": "System"
+          },
+          "201400028": {
+            "type": "Text",
+            "id": 201400028,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "Shame though, real fudgin' shame. My old homestead's grasslands, not to boast, but lying there was heaven on earth. Not even the top-notch steer in camp could match that grass for comfort. A real pity, that. And that creek, clean as a whistle, I tell ya. Them little fish in it looked like they were just floating in the air, no foolin'.",
+            "option": null,
+            "nextIds": [
+              201400029
+            ],
+            "kind": "NPC"
+          },
+          "201400029": {
+            "type": "Text",
+            "id": 201400029,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400030
+            ],
+            "kind": "System"
+          },
+          "201400030": {
+            "type": "Text",
+            "id": 201400030,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "Come nightfall, you'd plop down in the grasslands, find yerself a rock, face the breeze and strum a guitar or wail on a harmonica — that's the slice of paradise, crisp and sweet. Darn shame, no chance for that no more. Tut-tut, can't go back no more. Cannot go back anymore.",
+            "option": null,
+            "nextIds": [
+              201400031
+            ],
+            "kind": "NPC"
+          },
+          "201400031": {
+            "type": "Text",
+            "id": 201400031,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400032
+            ],
+            "kind": "System"
+          },
+          "201400032": {
+            "type": "Text",
+            "id": 201400032,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "When the time comes, I'll show ya what I got, haha. Ain't no boastin', but in the whole camp, I strum the guitar finest. Harmonica too, true story, no fibbin'. Ah, the moon's dip'n low. Time I hit the trail, catch ya later. Thanks for chewin' the fat with me, much obliged.",
+            "option": null,
+            "nextIds": [
+              201400033
+            ],
+            "kind": "NPC"
+          },
+          "201400033": {
+            "type": "Text",
+            "id": 201400033,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "201400024": {
+            "type": "Text",
+            "id": 201400024,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Boys can cry too, you know, crying isn't a crime",
+            "option": "Cry if you feel like it.",
+            "nextIds": [
+              201400025
+            ],
+            "kind": "Player"
+          },
+          "201400025": {
+            "type": "Text",
+            "id": 201400025,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Just don't send me a voice message of it",
+            "option": null,
+            "nextIds": [
+              201400026
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201400026": {
+            "type": "Text",
+            "id": 201400026,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "Ain't near 'bout bawlin' my eyes out. I reckon I don't even have that function no more. Means, I can't cry no more. Missing home, well, that's as common as dirt, ha.",
+            "option": null,
+            "nextIds": [
+              201400027
+            ],
+            "kind": "NPC"
+          },
+          "201400027": {
+            "type": "Text",
+            "id": 201400027,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400028
+            ],
+            "kind": "System"
+          },
+          "201400013": {
+            "type": "Text",
+            "id": 201400013,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Sounds so enjoyable. I'm green with envy",
+            "option": "I do envy you",
+            "nextIds": [
+              201400014
+            ],
+            "kind": "Player"
+          },
+          "201400014": {
+            "type": "Text",
+            "id": 201400014,
+            "sectionId": 2014000,
+            "senderId": 1315,
+            "text": "Ha, true enough. If you're cut out for this kind of life, then it sure is snug as a bug. Ain't kiddin', these sorts of camps ain't easy to stumble upon. Luck's on my side today, mighty comfortable.",
+            "option": null,
+            "nextIds": [
+              201400015
+            ],
+            "kind": "NPC"
+          },
+          "201400015": {
+            "type": "Text",
+            "id": 201400015,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201400016
+            ],
+            "kind": "System"
+          },
+          "201400005": {
+            "type": "Text",
+            "id": 201400005,
+            "sectionId": 2014000,
+            "senderId": null,
+            "text": "Huh? Wrong recipient?",
+            "option": "Wrong recipient?",
+            "nextIds": [
+              201400006
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2014100,
+        "startIds": [
+          201410000
+        ],
+        "messages": {
+          "201410000": {
+            "type": "Text",
+            "id": 201410000,
+            "sectionId": 2014100,
+            "senderId": 1315,
+            "text": "Hey, {NICKNAME}. I rustled up some goods, you interested?",
+            "option": null,
+            "nextIds": [
+              201410001
+            ],
+            "kind": "NPC"
+          },
+          "201410001": {
+            "type": "Text",
+            "id": 201410001,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201410002
+            ],
+            "kind": "System"
+          },
+          "201410002": {
+            "type": "Text",
+            "id": 201410002,
+            "sectionId": 2014100,
+            "senderId": 1315,
+            "text": "Lemme tell ya, it's mighty fine, lit as fudge. Just crackin' open the pack, the scent hits yer noggin straight away. Then ya start droolin' like a hound, ya catch my drift. Just a whiff's enough to make ya giddy on cloud nine, taste it, and you're shootin' straight to the moon, hahahaha.",
+            "option": null,
+            "nextIds": [
+              201410003
+            ],
+            "kind": "NPC"
+          },
+          "201410003": {
+            "type": "Text",
+            "id": 201410003,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201410004
+            ],
+            "kind": "System"
+          },
+          "201410004": {
+            "type": "Text",
+            "id": 201410004,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "Sounds fishy. What sorta stuff is that?",
+            "option": "What sorta stuff is that?",
+            "nextIds": [
+              201410005
+            ],
+            "kind": "Player"
+          },
+          "201410005": {
+            "type": "Text",
+            "id": 201410005,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "Where did you get it from?",
+            "option": null,
+            "nextIds": [
+              201410006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201410006": {
+            "type": "Text",
+            "id": 201410006,
+            "sectionId": 2014100,
+            "senderId": 1315,
+            "text": "Don't go prying. Just know that it took me a heap of elbow grease. Fork it, ya've no idea how many sons of benches have been eyein' this, but today, I finally snagged it. Later, I'll have those lil' forkers hammer away at it, then seal it in a barrel and bury it deep for fermentin', else the purity would never fudgin' cut it. This here's some fine goods, can't let it be squandered on them shirt-for-brains, heh heh heh",
+            "option": null,
+            "nextIds": [
+              201410007
+            ],
+            "kind": "NPC"
+          },
+          "201410007": {
+            "type": "Text",
+            "id": 201410007,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201410008,
+              201410009
+            ],
+            "kind": "System"
+          },
+          "201410008": {
+            "type": "Text",
+            "id": 201410008,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "Where did you get these goodies!? Hand them over now!",
+            "option": "Hand the goodies over now!",
+            "nextIds": [
+              201410010
+            ],
+            "kind": "Player"
+          },
+          "201410010": {
+            "type": "Text",
+            "id": 201410010,
+            "sectionId": 2014100,
+            "senderId": 1315,
+            "text": "Fudge, I'll be hornswoggled. What in tarnation do I gain from givin' it to ya, huh? Have I got bats in my belfry or what? You takin' me for a born fool? Heh, I forkin' reckon not!",
+            "option": null,
+            "nextIds": [
+              201410011
+            ],
+            "kind": "NPC"
+          },
+          "201410011": {
+            "type": "Text",
+            "id": 201410011,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201410012
+            ],
+            "kind": "System"
+          },
+          "201410012": {
+            "type": "Text",
+            "id": 201410012,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "I'm calling the cops then",
+            "option": "I'm calling the cops then",
+            "nextIds": [
+              201410013
+            ],
+            "kind": "Player"
+          },
+          "201410013": {
+            "type": "Sticker",
+            "id": 201410013,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201410014
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 103004,
+              "path": "icon/emoji/103004.png",
+              "keywords": "Melon"
+            }
+          },
+          "201410014": {
+            "type": "Text",
+            "id": 201410014,
+            "sectionId": 2014100,
+            "senderId": 1315,
+            "text": "You fudgin' threatenin' me, pardner? Pullin' this stunt, huh? Well, shirt, I be forked. Aight, aight, you've got spunk, I like that. A ranger oughta shoot straight, not dilly-dally with all that fudgin' horsefeathers, hahahaha.",
+            "option": null,
+            "nextIds": [
+              201410015
+            ],
+            "kind": "NPC"
+          },
+          "201410015": {
+            "type": "Text",
+            "id": 201410015,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201410016
+            ],
+            "kind": "System"
+          },
+          "201410016": {
+            "type": "Text",
+            "id": 201410016,
+            "sectionId": 2014100,
+            "senderId": 1315,
+            "text": "Alrighty, it's yers. Shucks. Be here sharp at three system hours tonight, just ya, nobody else. I'll shoot ya the coordinates later.",
+            "option": null,
+            "nextIds": [
+              201410017
+            ],
+            "kind": "NPC"
+          },
+          "201410017": {
+            "type": "Text",
+            "id": 201410017,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [
+              201410018
+            ],
+            "kind": "System"
+          },
+          "201410018": {
+            "type": "Text",
+            "id": 201410018,
+            "sectionId": 2014100,
+            "senderId": 1315,
+            "text": "Don't you dare waste it, y'hear, or we're gonna have words. This here's malt juice squeezed from premium Lufur watermelon, and in an entire Amber Era, ya be lucky to harvest two yields at best. Don't go wastin' it now. Saved myself just one bottle. Not a drop to spare, you got me? Ugh, shucks.",
+            "option": null,
+            "nextIds": [
+              201410019
+            ],
+            "kind": "NPC"
+          },
+          "201410019": {
+            "type": "Text",
+            "id": 201410019,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "Voice message converted to text",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "201410009": {
+            "type": "Text",
+            "id": 201410009,
+            "sectionId": 2014100,
+            "senderId": null,
+            "text": "This is too suspicious. Get rid of them, now!",
+            "option": "Sounds suspicious...",
+            "nextIds": [
+              201410010
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1315,
+    "name": "Boothill",
+    "signature": "Pier Point Standard Heist (LFG 3/4)",
+    "iconPath": "icon/avatar/1315.png",
+    "type": 1,
+    "camp": 6
+  }
+}
