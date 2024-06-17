@@ -197,7 +197,7 @@
             "sectionId": 1307400,
             "senderId": null,
             "text": "So, everything I create belongs to you?",
-            "option": "Are you trying to make me work for free?",
+            "option": "Trying to make me work for free?",
             "nextIds": [
               130740019
             ],
@@ -208,7 +208,7 @@
             "id": 130740019,
             "sectionId": 1307400,
             "senderId": null,
-            "text": "Is this idea to help your animation slack off?",
+            "text": "Is this idea to help your animation team slack off?",
             "option": null,
             "nextIds": [
               130740020

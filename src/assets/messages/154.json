@@ -1,0 +1,264 @@
+{
+  "id": 154,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2099800,
+        "startIds": [
+          209980000
+        ],
+        "messages": {
+          "209980000": {
+            "type": "Text",
+            "id": 209980000,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "Hello, {NICKNAME}!",
+            "option": null,
+            "nextIds": [
+              209980001
+            ],
+            "kind": "NPC"
+          },
+          "209980001": {
+            "type": "Text",
+            "id": 209980001,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "Great news! Just a few moments ago, Miss Kaimee's calculations showed that the memoria loss at Dreamflux Reef has stopped entirely.",
+            "option": null,
+            "nextIds": [
+              209980002
+            ],
+            "kind": "NPC"
+          },
+          "209980002": {
+            "type": "Text",
+            "id": 209980002,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "The work you've put into the Dreamscape is deeply appreciated. I can't thank you enough.",
+            "option": null,
+            "nextIds": [
+              209980003,
+              209980004
+            ],
+            "kind": "NPC"
+          },
+          "209980003": {
+            "type": "Text",
+            "id": 209980003,
+            "sectionId": 2099800,
+            "senderId": null,
+            "text": "That's fantastic news! I'm sure Dreamflux Reef will recover soon enough",
+            "option": "That's fantastic news!",
+            "nextIds": [
+              209980005
+            ],
+            "kind": "Player"
+          },
+          "209980005": {
+            "type": "Text",
+            "id": 209980005,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "Gallagher and Mikhail would've wanted to express their appreciation too, but I guess now I must convey it on their behalf.",
+            "option": null,
+            "nextIds": [
+              209980006
+            ],
+            "kind": "NPC"
+          },
+          "209980006": {
+            "type": "Text",
+            "id": 209980006,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "I remember when you all first arrived in Penacony, Gallagher was so nervous and hopeful after hearing of it. It's not every day that he gets that way.",
+            "option": null,
+            "nextIds": [
+              209980007
+            ],
+            "kind": "NPC"
+          },
+          "209980007": {
+            "type": "Text",
+            "id": 209980007,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "Don't let his laid-back demeanor deceive you. Every time he spoke with you, he'd carefully think through his words beforehand.",
+            "option": null,
+            "nextIds": [
+              209980008
+            ],
+            "kind": "NPC"
+          },
+          "209980008": {
+            "type": "Text",
+            "id": 209980008,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "Mikhail was the same way. If he could see how outstanding the younger generation is, he'd be thrilled.",
+            "option": null,
+            "nextIds": [
+              209980009,
+              209980011
+            ],
+            "kind": "NPC"
+          },
+          "209980009": {
+            "type": "Text",
+            "id": 209980009,
+            "sectionId": 2099800,
+            "senderId": null,
+            "text": "I didn't expect to see that side of Mr. Gallagher!",
+            "option": "Is that so...",
+            "nextIds": [
+              209980010
+            ],
+            "kind": "Player"
+          },
+          "209980010": {
+            "type": "Text",
+            "id": 209980010,
+            "sectionId": 2099800,
+            "senderId": null,
+            "text": "If only they were still here...",
+            "option": null,
+            "nextIds": [
+              209980013
+            ],
+            "kind": "PlayerAuto"
+          },
+          "209980013": {
+            "type": "Text",
+            "id": 209980013,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "But there's no need to feel so down about it.",
+            "option": null,
+            "nextIds": [
+              209980014
+            ],
+            "kind": "NPC"
+          },
+          "209980014": {
+            "type": "Text",
+            "id": 209980014,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "Mikhail's wish has been fulfilled, and Gallagher kept his promise after a long and seemingly endless wait.",
+            "option": null,
+            "nextIds": [
+              209980015
+            ],
+            "kind": "NPC"
+          },
+          "209980015": {
+            "type": "Text",
+            "id": 209980015,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "The dream shouldn't rest on the shoulders of one person when it's a vision we all share.",
+            "option": null,
+            "nextIds": [
+              209980016
+            ],
+            "kind": "NPC"
+          },
+          "209980016": {
+            "type": "Text",
+            "id": 209980016,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "From Mikhail's grandfather, to Mikhail, to Gallagher, and now to you guys...",
+            "option": null,
+            "nextIds": [
+              209980017
+            ],
+            "kind": "NPC"
+          },
+          "209980017": {
+            "type": "Text",
+            "id": 209980017,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "They may have left us, but the dream of the Nameless continues to thrive. That's the greatest solace we can offer them.",
+            "option": null,
+            "nextIds": [
+              209980018
+            ],
+            "kind": "NPC"
+          },
+          "209980018": {
+            "type": "Text",
+            "id": 209980018,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "Eventually, you'll embark on a new journey. When you do, may you connect with more worlds and carry the dream of trailblazing across the Cosmos.",
+            "option": null,
+            "nextIds": [
+              209980019
+            ],
+            "kind": "NPC"
+          },
+          "209980019": {
+            "type": "Text",
+            "id": 209980019,
+            "sectionId": 2099800,
+            "senderId": 154,
+            "text": "Please take this token of our appreciation.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "209980011": {
+            "type": "Text",
+            "id": 209980011,
+            "sectionId": 2099800,
+            "senderId": null,
+            "text": "Their dream has come true, but they can no longer see it themselves...",
+            "option": "That's truly unfortunate...",
+            "nextIds": [
+              209980012
+            ],
+            "kind": "Player"
+          },
+          "209980012": {
+            "type": "Text",
+            "id": 209980012,
+            "sectionId": 2099800,
+            "senderId": null,
+            "text": "That's truly unfortunate...",
+            "option": null,
+            "nextIds": [
+              209980013
+            ],
+            "kind": "PlayerAuto"
+          },
+          "209980004": {
+            "type": "Text",
+            "id": 209980004,
+            "sectionId": 2099800,
+            "senderId": null,
+            "text": "All in a day's work for the Nameless",
+            "option": "It was nothing",
+            "nextIds": [
+              209980005
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 154,
+    "name": "Micah",
+    "signature": null,
+    "iconPath": "icon/avatar/Micah.png",
+    "type": 2,
+    "camp": 99
+  }
+}

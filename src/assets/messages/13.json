@@ -1799,6 +1799,1670 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1223300,
+        "startIds": [
+          122330000
+        ],
+        "messages": {
+          "122330000": {
+            "type": "Text",
+            "id": 122330000,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "Is everyone there?",
+            "option": null,
+            "nextIds": [
+              122330001
+            ],
+            "kind": "NPC"
+          },
+          "122330001": {
+            "type": "Text",
+            "id": 122330001,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "I have something important to announce",
+            "option": null,
+            "nextIds": [
+              122330002,
+              122330008,
+              122330012
+            ],
+            "kind": "NPC"
+          },
+          "122330002": {
+            "type": "Text",
+            "id": 122330002,
+            "sectionId": 1223300,
+            "senderId": null,
+            "text": "We're going to be getting wages after this? Awesome!",
+            "option": "We're getting wages?",
+            "nextIds": [
+              122330003
+            ],
+            "kind": "Player"
+          },
+          "122330003": {
+            "type": "Text",
+            "id": 122330003,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "Sadly, no. That's not been planned yet",
+            "option": null,
+            "nextIds": [
+              122330004
+            ],
+            "kind": "NPC"
+          },
+          "122330004": {
+            "type": "Text",
+            "id": 122330004,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "The budget for the Nameless' expenditures will still be managed solely by the navigator for the time being. If there is a need among individual passengers, however, you can come to apply for an additional allowance from me",
+            "option": null,
+            "nextIds": [
+              122330005
+            ],
+            "kind": "NPC"
+          },
+          "122330005": {
+            "type": "Text",
+            "id": 122330005,
+            "sectionId": 1223300,
+            "senderId": 1001,
+            "text": "Speaking of which, why doesn't Mr. Yang ever seem to worry about money...",
+            "option": null,
+            "nextIds": [
+              122330006
+            ],
+            "kind": "NPC"
+          },
+          "122330006": {
+            "type": "Text",
+            "id": 122330006,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "Mr. Yang is an exception~",
+            "option": null,
+            "nextIds": [
+              122330007
+            ],
+            "kind": "NPC"
+          },
+          "122330007": {
+            "type": "Text",
+            "id": 122330007,
+            "sectionId": 1223300,
+            "senderId": 1004,
+            "text": "Be envious, young one.",
+            "option": null,
+            "nextIds": [
+              122330017
+            ],
+            "kind": "NPC"
+          },
+          "122330017": {
+            "type": "Text",
+            "id": 122330017,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "Ahem. To business. The thing I wanted to tell everyone is that the Astral Express will soon be one of the shareholders of the Penacony Conglomerate",
+            "option": null,
+            "nextIds": [
+              122330018
+            ],
+            "kind": "NPC"
+          },
+          "122330018": {
+            "type": "Text",
+            "id": 122330018,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "The Family and the IPC will begin formal negotiations soon regarding the Dreamscape's reconstruction plans and commercial projects for the future",
+            "option": null,
+            "nextIds": [
+              122330019
+            ],
+            "kind": "NPC"
+          },
+          "122330019": {
+            "type": "Text",
+            "id": 122330019,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "After this round of investments, the IPC will hold <unbreak>30%</unbreak> of Penacony's shares",
+            "option": null,
+            "nextIds": [
+              122330020
+            ],
+            "kind": "NPC"
+          },
+          "122330020": {
+            "type": "Text",
+            "id": 122330020,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "And the Strategic Investment Department managed to secure a significant boon for us: When the financing is done, the IPC will transfer 5% of the stocks to the Astral Express to express their sincerity in developing a long-term partnership with the Nameless",
+            "option": null,
+            "nextIds": [
+              122330021
+            ],
+            "kind": "NPC"
+          },
+          "122330021": {
+            "type": "Text",
+            "id": 122330021,
+            "sectionId": 1223300,
+            "senderId": 1001,
+            "text": "Woah",
+            "option": null,
+            "nextIds": [
+              122330022
+            ],
+            "kind": "NPC"
+          },
+          "122330022": {
+            "type": "Text",
+            "id": 122330022,
+            "sectionId": 1223300,
+            "senderId": 1001,
+            "text": "Though I don't know much about shares or options... It sounds pretty great!",
+            "option": null,
+            "nextIds": [
+              122330023
+            ],
+            "kind": "NPC"
+          },
+          "122330023": {
+            "type": "Text",
+            "id": 122330023,
+            "sectionId": 1223300,
+            "senderId": 1004,
+            "text": "I'm more curious about how future dividends will be calculated?",
+            "option": null,
+            "nextIds": [
+              122330024,
+              122330026
+            ],
+            "kind": "NPC"
+          },
+          "122330024": {
+            "type": "Text",
+            "id": 122330024,
+            "sectionId": 1223300,
+            "senderId": null,
+            "text": "So, does that mean we're gonna get financial independence and early retirement soon?",
+            "option": "Are we gonna be rich?",
+            "nextIds": [
+              122330025
+            ],
+            "kind": "Player"
+          },
+          "122330025": {
+            "type": "Text",
+            "id": 122330025,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "Oh, my. Have you been living in poverty this entire time, {NICKNAME}? You must have had it rough",
+            "option": null,
+            "nextIds": [
+              122330029
+            ],
+            "kind": "NPC"
+          },
+          "122330029": {
+            "type": "Text",
+            "id": 122330029,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "As the ceaselessly trailblazing Nameless, we got another responsibility to shoulder regarding this agreement",
+            "option": null,
+            "nextIds": [
+              122330030
+            ],
+            "kind": "NPC"
+          },
+          "122330030": {
+            "type": "Text",
+            "id": 122330030,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "As shareholders of the Penacony Conglomerate, we must bear the duty of being brand ambassadors and ensure the Planet of Festivities will no longer depart from the proper path of Harmony",
+            "option": null,
+            "nextIds": [
+              122330031,
+              122330039
+            ],
+            "kind": "NPC"
+          },
+          "122330031": {
+            "type": "Text",
+            "id": 122330031,
+            "sectionId": 1223300,
+            "senderId": null,
+            "text": "It's time to make everyone submit",
+            "option": "Time to wield my shareholder power!",
+            "nextIds": [
+              122330032
+            ],
+            "kind": "Player"
+          },
+          "122330032": {
+            "type": "Text",
+            "id": 122330032,
+            "sectionId": 1223300,
+            "senderId": null,
+            "text": "Wait, no",
+            "option": null,
+            "nextIds": [
+              122330033
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122330033": {
+            "type": "Text",
+            "id": 122330033,
+            "sectionId": 1223300,
+            "senderId": null,
+            "text": "It's time for everyone to remember our name!",
+            "option": null,
+            "nextIds": [
+              122330034
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122330034": {
+            "type": "Text",
+            "id": 122330034,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "Oh, it seems like {NICKNAME} is full of energy!",
+            "option": null,
+            "nextIds": [
+              122330035
+            ],
+            "kind": "NPC"
+          },
+          "122330035": {
+            "type": "Text",
+            "id": 122330035,
+            "sectionId": 1223300,
+            "senderId": 1001,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              122330036
+            ],
+            "kind": "NPC"
+          },
+          "122330036": {
+            "type": "Text",
+            "id": 122330036,
+            "sectionId": 1223300,
+            "senderId": 1001,
+            "text": "Hey, what are you doing?",
+            "option": null,
+            "nextIds": [
+              122330037
+            ],
+            "kind": "NPC"
+          },
+          "122330037": {
+            "type": "Text",
+            "id": 122330037,
+            "sectionId": 1223300,
+            "senderId": 1002,
+            "text": "Let {F#her}{M#him} be, March.",
+            "option": null,
+            "nextIds": [
+              122330038
+            ],
+            "kind": "NPC"
+          },
+          "122330038": {
+            "type": "Text",
+            "id": 122330038,
+            "sectionId": 1223300,
+            "senderId": 1002,
+            "text": "I can tell {F#her}{M#his} determination from the words {F#she}{M#he} typed. We can't stop {F#her}{M#him}.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122330039": {
+            "type": "Text",
+            "id": 122330039,
+            "sectionId": 1223300,
+            "senderId": null,
+            "text": "It's time to make everyone submit",
+            "option": "Penacony, your {F#girl}{M#boy}boss is here!",
+            "nextIds": [
+              122330032
+            ],
+            "kind": "Player"
+          },
+          "122330026": {
+            "type": "Text",
+            "id": 122330026,
+            "sectionId": 1223300,
+            "senderId": null,
+            "text": "Hey, it's only 5%",
+            "option": "Only 5%?",
+            "nextIds": [
+              122330027
+            ],
+            "kind": "Player"
+          },
+          "122330027": {
+            "type": "Text",
+            "id": 122330027,
+            "sectionId": 1223300,
+            "senderId": 1002,
+            "text": "Clearly, your financial acumen is about on par with March 7th's.",
+            "option": null,
+            "nextIds": [
+              122330028
+            ],
+            "kind": "NPC"
+          },
+          "122330028": {
+            "type": "Text",
+            "id": 122330028,
+            "sectionId": 1223300,
+            "senderId": 1001,
+            "text": "Hey!",
+            "option": null,
+            "nextIds": [
+              122330029
+            ],
+            "kind": "NPC"
+          },
+          "122330008": {
+            "type": "Text",
+            "id": 122330008,
+            "sectionId": 1223300,
+            "senderId": null,
+            "text": "The food options on the dining menu are about to be updated? The day has finally come!",
+            "option": "We getting better food?",
+            "nextIds": [
+              122330009
+            ],
+            "kind": "Player"
+          },
+          "122330009": {
+            "type": "Text",
+            "id": 122330009,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "Does Passenger {NICKNAME} have some points of dissatisfaction to raise about the current menu?",
+            "option": null,
+            "nextIds": [
+              122330010
+            ],
+            "kind": "NPC"
+          },
+          "122330010": {
+            "type": "Text",
+            "id": 122330010,
+            "sectionId": 1223300,
+            "senderId": 1001,
+            "text": "I guess {F#she}{M#he} is probably about to complain about the pre-made meals again!",
+            "option": null,
+            "nextIds": [
+              122330011
+            ],
+            "kind": "NPC"
+          },
+          "122330011": {
+            "type": "Text",
+            "id": 122330011,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "Then, let me give a piece of personal advice: Stop scrolling through food blogger videos",
+            "option": null,
+            "nextIds": [
+              122330017
+            ],
+            "kind": "NPC"
+          },
+          "122330012": {
+            "type": "Text",
+            "id": 122330012,
+            "sectionId": 1223300,
+            "senderId": null,
+            "text": "Alright, I'll spill. It is I who borrowed away Dan Heng's neck massager",
+            "option": "I confess...",
+            "nextIds": [
+              122330013
+            ],
+            "kind": "Player"
+          },
+          "122330013": {
+            "type": "Text",
+            "id": 122330013,
+            "sectionId": 1223300,
+            "senderId": 1002,
+            "text": "So it was you.",
+            "option": null,
+            "nextIds": [
+              122330014
+            ],
+            "kind": "NPC"
+          },
+          "122330014": {
+            "type": "Text",
+            "id": 122330014,
+            "sectionId": 1223300,
+            "senderId": 1002,
+            "text": "By the way, \"borrowing\" is when you let someone know. If you don't, that's called \"stealing.\"",
+            "option": null,
+            "nextIds": [
+              122330015
+            ],
+            "kind": "NPC"
+          },
+          "122330015": {
+            "type": "Text",
+            "id": 122330015,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "It's just a massager. If {NICKNAME} wants one, we can order one",
+            "option": null,
+            "nextIds": [
+              122330016
+            ],
+            "kind": "NPC"
+          },
+          "122330016": {
+            "type": "Text",
+            "id": 122330016,
+            "sectionId": 1223300,
+            "senderId": 1003,
+            "text": "I checked the price as well. Let's leave the bill with {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              122330017
+            ],
+            "kind": "NPC"
+          }
+        },
+        "mission": {
+          "id": 2030601,
+          "name": "Checking Out",
+          "type": "Branch"
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1223500,
+        "startIds": [
+          122350000
+        ],
+        "messages": {
+          "122350000": {
+            "type": "Text",
+            "id": 122350000,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "I just received a gift. It got sent to {TEXTJOIN#87}",
+            "option": "(Tell them about the gift)",
+            "nextIds": [
+              122350001
+            ],
+            "kind": "Player"
+          },
+          "122350001": {
+            "type": "Text",
+            "id": 122350001,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "Aventurine sent it. This was inside",
+            "option": null,
+            "nextIds": [
+              122350002
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122350002": {
+            "type": "Image",
+            "id": 122350002,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "[icon of the Express model]",
+            "option": null,
+            "nextIds": [
+              122350003
+            ],
+            "kind": "PlayerAuto",
+            "image": {
+              "id": 10043,
+              "path": "image/messages/140500.png"
+            }
+          },
+          "122350003": {
+            "type": "Text",
+            "id": 122350003,
+            "sectionId": 1223500,
+            "senderId": 1004,
+            "text": "Oh, it's a model. That brand is renowned for making quality products. If I'm not mistaken, this is a limited edition.",
+            "option": null,
+            "nextIds": [
+              122350004
+            ],
+            "kind": "NPC"
+          },
+          "122350004": {
+            "type": "Sticker",
+            "id": 122350004,
+            "sectionId": 1223500,
+            "senderId": 1001,
+            "text": "[image] [gift]",
+            "option": null,
+            "nextIds": [
+              122350005
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 107002,
+              "path": "icon/emoji/107002.png",
+              "keywords": "Gift"
+            }
+          },
+          "122350005": {
+            "type": "Text",
+            "id": 122350005,
+            "sectionId": 1223500,
+            "senderId": 1001,
+            "text": "{NICKNAME}, open the windows! Are there figures of us inside?",
+            "option": null,
+            "nextIds": [
+              122350006
+            ],
+            "kind": "NPC"
+          },
+          "122350006": {
+            "type": "Text",
+            "id": 122350006,
+            "sectionId": 1223500,
+            "senderId": 1002,
+            "text": "This is a miniature of the Express. Looking at the exterior, I don't think it's designed to be opened.",
+            "option": null,
+            "nextIds": [
+              122350007
+            ],
+            "kind": "NPC"
+          },
+          "122350007": {
+            "type": "Text",
+            "id": 122350007,
+            "sectionId": 1223500,
+            "senderId": 1004,
+            "text": "I used to collect models back home. Based on my experience, if there are additional accessories, they are usually displayed separately.",
+            "option": null,
+            "nextIds": [
+              122350008
+            ],
+            "kind": "NPC"
+          },
+          "122350008": {
+            "type": "Text",
+            "id": 122350008,
+            "sectionId": 1223500,
+            "senderId": 1000,
+            "text": "Wow! Where did you get that? It's so pretty! I want one too. Shouldn't there be one for the conductor?",
+            "option": null,
+            "nextIds": [
+              122350009
+            ],
+            "kind": "NPC"
+          },
+          "122350009": {
+            "type": "Text",
+            "id": 122350009,
+            "sectionId": 1223500,
+            "senderId": 1003,
+            "text": "You'll have to ask @{NICKNAME} about that",
+            "option": null,
+            "nextIds": [
+              122350010
+            ],
+            "kind": "NPC"
+          },
+          "122350010": {
+            "type": "Text",
+            "id": 122350010,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "Doesn't seem like it. There are only some other snacks and beverages in the package",
+            "option": null,
+            "nextIds": [
+              122350011
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122350011": {
+            "type": "Text",
+            "id": 122350011,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "Maybe your packages are still on the way... I only received this one",
+            "option": null,
+            "nextIds": [
+              122350012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122350012": {
+            "type": "Text",
+            "id": 122350012,
+            "sectionId": 1223500,
+            "senderId": 1001,
+            "text": "I don't have a package tracking number...",
+            "option": null,
+            "nextIds": [
+              122350013
+            ],
+            "kind": "NPC"
+          },
+          "122350013": {
+            "type": "Text",
+            "id": 122350013,
+            "sectionId": 1223500,
+            "senderId": 1004,
+            "text": "I didn't receive anything either. Looks like {NICKNAME} is the only one who got it.",
+            "option": null,
+            "nextIds": [
+              122350014
+            ],
+            "kind": "NPC"
+          },
+          "122350014": {
+            "type": "Text",
+            "id": 122350014,
+            "sectionId": 1223500,
+            "senderId": 1000,
+            "text": "I'll take the snacks if you don't want them!",
+            "option": null,
+            "nextIds": [
+              122350015
+            ],
+            "kind": "NPC"
+          },
+          "122350015": {
+            "type": "Text",
+            "id": 122350015,
+            "sectionId": 1223500,
+            "senderId": 1002,
+            "text": "We shouldn't give the conductor too much junk food. We'll be in trouble if they get the runs.",
+            "option": null,
+            "nextIds": [
+              122350016
+            ],
+            "kind": "NPC"
+          },
+          "122350016": {
+            "type": "Sticker",
+            "id": 122350016,
+            "sectionId": 1223500,
+            "senderId": 1003,
+            "text": "(image) [laugh]",
+            "option": null,
+            "nextIds": [
+              122350017
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 102002,
+              "path": "icon/emoji/102002.png",
+              "keywords": "Smiling"
+            }
+          },
+          "122350017": {
+            "type": "Text",
+            "id": 122350017,
+            "sectionId": 1223500,
+            "senderId": 1003,
+            "text": "Jokes aside, this looks like it's specially prepared for {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              122350018
+            ],
+            "kind": "NPC"
+          },
+          "122350018": {
+            "type": "Text",
+            "id": 122350018,
+            "sectionId": 1223500,
+            "senderId": 1003,
+            "text": "When we did the handover for {TEXTJOIN#87} with The Family, we came to a consensus that the ownership of the ship should belong to the Express passenger who contributed the most to Penacony",
+            "option": null,
+            "nextIds": [
+              122350019
+            ],
+            "kind": "NPC"
+          },
+          "122350019": {
+            "type": "Text",
+            "id": 122350019,
+            "sectionId": 1223500,
+            "senderId": 1003,
+            "text": "In other words, {TEXTJOIN#87} only has one owner right now, and that is {NICKNAME}. This gift is just for you",
+            "option": null,
+            "nextIds": [
+              122350020,
+              122350022,
+              122350025
+            ],
+            "kind": "NPC"
+          },
+          "122350020": {
+            "type": "Text",
+            "id": 122350020,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "Ah? Then I'll gladly accept it!",
+            "option": "Thanks! Don't mind if I do!",
+            "nextIds": [
+              122350021
+            ],
+            "kind": "Player"
+          },
+          "122350021": {
+            "type": "Text",
+            "id": 122350021,
+            "sectionId": 1223500,
+            "senderId": 1002,
+            "text": "Take it. It's what you deserve.",
+            "option": null,
+            "nextIds": [
+              122350030
+            ],
+            "kind": "NPC"
+          },
+          "122350030": {
+            "type": "Sticker",
+            "id": 122350030,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "[image] [Pom-Pom cries]",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "122350022": {
+            "type": "Text",
+            "id": 122350022,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "Huh? For real?",
+            "option": "Whoa, really?",
+            "nextIds": [
+              122350023
+            ],
+            "kind": "Player"
+          },
+          "122350023": {
+            "type": "Text",
+            "id": 122350023,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "Hang on, I'm going to get a lottery ticket now. We'll share the winnings among us",
+            "option": null,
+            "nextIds": [
+              122350024
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122350024": {
+            "type": "Text",
+            "id": 122350024,
+            "sectionId": 1223500,
+            "senderId": 1001,
+            "text": "Even if we win the grand prize, you're more than deserving of it!",
+            "option": null,
+            "nextIds": [
+              122350030
+            ],
+            "kind": "NPC"
+          },
+          "122350025": {
+            "type": "Text",
+            "id": 122350025,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "I think... it'll be more suitable if we give this to Pom-Pom.",
+            "option": "We should give it to Pom-Pom instead.",
+            "nextIds": [
+              122350026
+            ],
+            "kind": "Player"
+          },
+          "122350026": {
+            "type": "Text",
+            "id": 122350026,
+            "sectionId": 1223500,
+            "senderId": null,
+            "text": "Pom-Pom is the conductor after all, and the conductor should be in charge of the Express.",
+            "option": null,
+            "nextIds": [
+              122350027
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122350027": {
+            "type": "Sticker",
+            "id": 122350027,
+            "sectionId": 1223500,
+            "senderId": 1000,
+            "text": "[image] [Pom-Pom refuses]",
+            "option": null,
+            "nextIds": [
+              122350028
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "122350028": {
+            "type": "Text",
+            "id": 122350028,
+            "sectionId": 1223500,
+            "senderId": 1000,
+            "text": "Pom-Pom doesn't want it! It's yours. Pom-Pom is just happy to be with all you passengers.",
+            "option": null,
+            "nextIds": [
+              122350029
+            ],
+            "kind": "NPC"
+          },
+          "122350029": {
+            "type": "Text",
+            "id": 122350029,
+            "sectionId": 1223500,
+            "senderId": 1004,
+            "text": "Hehe. Keep it, {NICKNAME}.",
+            "option": null,
+            "nextIds": [
+              122350030
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1224000,
+        "startIds": [
+          122400001
+        ],
+        "messages": {
+          "122400001": {
+            "type": "Text",
+            "id": 122400001,
+            "sectionId": 1224000,
+            "senderId": null,
+            "text": "Hey fam... I won a prize!",
+            "option": "I got a souvenir from a game I played.",
+            "nextIds": [
+              122400002
+            ],
+            "kind": "Player"
+          },
+          "122400002": {
+            "type": "Text",
+            "id": 122400002,
+            "sectionId": 1224000,
+            "senderId": null,
+            "text": "Actually, it's a souvenir I got from a game I played. It's some kind of television!",
+            "option": null,
+            "nextIds": [
+              122400003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122400003": {
+            "type": "Text",
+            "id": 122400003,
+            "sectionId": 1224000,
+            "senderId": null,
+            "text": "Who wants to see it? I'll carry it into the Parlor Car right now!",
+            "option": null,
+            "nextIds": [
+              122400007
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122400007": {
+            "type": "Text",
+            "id": 122400007,
+            "sectionId": 1224000,
+            "senderId": 1004,
+            "text": "Congratulations to {NICKNAME} for winning a television",
+            "option": null,
+            "nextIds": [
+              122400008
+            ],
+            "kind": "NPC"
+          },
+          "122400008": {
+            "type": "Text",
+            "id": 122400008,
+            "sectionId": 1224000,
+            "senderId": 1003,
+            "text": "Looks like you've reaped quite a few rewards from Penacony",
+            "option": null,
+            "nextIds": [
+              122400009
+            ],
+            "kind": "NPC"
+          },
+          "122400009": {
+            "type": "Sticker",
+            "id": 122400009,
+            "sectionId": 1224000,
+            "senderId": 1003,
+            "text": "(image) [laugh]",
+            "option": null,
+            "nextIds": [
+              122400010
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 102002,
+              "path": "icon/emoji/102002.png",
+              "keywords": "Smiling"
+            }
+          },
+          "122400010": {
+            "type": "Text",
+            "id": 122400010,
+            "sectionId": 1224000,
+            "senderId": 1001,
+            "text": "Wait. Why haven't I experienced anything like this? I was at Penacony too! You're just too lucky, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              122400011
+            ],
+            "kind": "NPC"
+          },
+          "122400011": {
+            "type": "Text",
+            "id": 122400011,
+            "sectionId": 1224000,
+            "senderId": 1001,
+            "text": "Do you want to place it in the Parlor Car? Once do you do, let me know. I wanna touch it. See if I smooch some luck off you",
+            "option": null,
+            "nextIds": [
+              122400012
+            ],
+            "kind": "NPC"
+          },
+          "122400012": {
+            "type": "Text",
+            "id": 122400012,
+            "sectionId": 1224000,
+            "senderId": 1000,
+            "text": "Congratulations, Passenger {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              122400013
+            ],
+            "kind": "NPC"
+          },
+          "122400013": {
+            "type": "Text",
+            "id": 122400013,
+            "sectionId": 1224000,
+            "senderId": 1000,
+            "text": "Wait! Hold on! You can't put this in the Parlor Car!",
+            "option": null,
+            "nextIds": [
+              122400014
+            ],
+            "kind": "NPC"
+          },
+          "122400014": {
+            "type": "Sticker",
+            "id": 122400014,
+            "sectionId": 1224000,
+            "senderId": 1000,
+            "text": "(image) [no]",
+            "option": null,
+            "nextIds": [
+              122400015
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20003,
+              "path": "icon/emoji/20003.png",
+              "keywords": "No No"
+            }
+          },
+          "122400015": {
+            "type": "Sticker",
+            "id": 122400015,
+            "sectionId": 1224000,
+            "senderId": 1001,
+            "text": "(image) [suspicion]",
+            "option": null,
+            "nextIds": [
+              122400016
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20007,
+              "path": "icon/emoji/20007.png",
+              "keywords": "Puzzled"
+            }
+          },
+          "122400016": {
+            "type": "Text",
+            "id": 122400016,
+            "sectionId": 1224000,
+            "senderId": 1001,
+            "text": "Why not? Won't it be good for everyone to watch some TV on the couch?",
+            "option": null,
+            "nextIds": [
+              122400017
+            ],
+            "kind": "NPC"
+          },
+          "122400017": {
+            "type": "Text",
+            "id": 122400017,
+            "sectionId": 1224000,
+            "senderId": 1003,
+            "text": "Hmm. TV and coffee. That just might bring out the taste of home",
+            "option": null,
+            "nextIds": [
+              122400018
+            ],
+            "kind": "NPC"
+          },
+          "122400018": {
+            "type": "Text",
+            "id": 122400018,
+            "sectionId": 1224000,
+            "senderId": 1002,
+            "text": "The Parlor Car is a place to enjoy the stellar view. Pom-Pom has strict rules and regulations for every section of the Express. If we put the TV there, then it'll be the entertainment car, and that clashes with the enjoyment of scenery.",
+            "option": null,
+            "nextIds": [
+              122400019
+            ],
+            "kind": "NPC"
+          },
+          "122400019": {
+            "type": "Text",
+            "id": 122400019,
+            "sectionId": 1224000,
+            "senderId": 1000,
+            "text": "That's right. If we do this, the Parlor Car will have the Phonograph and a TV. It'll start disturbing everyone else",
+            "option": null,
+            "nextIds": [
+              122400020,
+              122400023
+            ],
+            "kind": "NPC"
+          },
+          "122400020": {
+            "type": "Text",
+            "id": 122400020,
+            "sectionId": 1224000,
+            "senderId": null,
+            "text": "Alright... If even the Passengers don't think this is a good idea, {NICKNAME} just won't leave it there! That should do it, right?",
+            "option": "{NICKNAME} won't leave it there then.",
+            "nextIds": [
+              122400021
+            ],
+            "kind": "Player"
+          },
+          "122400021": {
+            "type": "Text",
+            "id": 122400021,
+            "sectionId": 1224000,
+            "senderId": 1000,
+            "text": "Don't mock the conductor, Passenger {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              122400022
+            ],
+            "kind": "NPC"
+          },
+          "122400022": {
+            "type": "Text",
+            "id": 122400022,
+            "sectionId": 1224000,
+            "senderId": 1004,
+            "text": "Pom-Pom's speech pattern is not that exaggerated. Anyway, this isn't what's important",
+            "option": null,
+            "nextIds": [
+              122400029
+            ],
+            "kind": "NPC"
+          },
+          "122400029": {
+            "type": "Text",
+            "id": 122400029,
+            "sectionId": 1224000,
+            "senderId": 1000,
+            "text": "You can put it straight in the Passenger Cabin, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              122400030
+            ],
+            "kind": "NPC"
+          },
+          "122400030": {
+            "type": "Text",
+            "id": 122400030,
+            "sectionId": 1224000,
+            "senderId": 1000,
+            "text": "It's where the long corridor leads to that armchair. You can place it on the cabinet nearby so everyone can watch it",
+            "option": null,
+            "nextIds": [
+              122400031
+            ],
+            "kind": "NPC"
+          },
+          "122400031": {
+            "type": "Text",
+            "id": 122400031,
+            "sectionId": 1224000,
+            "senderId": 1001,
+            "text": "I see... You planned this out already, Pom-Pom. No wonder you're the conductor",
+            "option": null,
+            "nextIds": [
+              122400032
+            ],
+            "kind": "NPC"
+          },
+          "122400032": {
+            "type": "Sticker",
+            "id": 122400032,
+            "sectionId": 1224000,
+            "senderId": 1000,
+            "text": "(image) [sob]",
+            "option": null,
+            "nextIds": [
+              122400033
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "122400033": {
+            "type": "Text",
+            "id": 122400033,
+            "sectionId": 1224000,
+            "senderId": 1004,
+            "text": "If we get the chance, we can have a movie night with the television every now and then",
+            "option": null,
+            "nextIds": [
+              122400034
+            ],
+            "kind": "NPC"
+          },
+          "122400034": {
+            "type": "Text",
+            "id": 122400034,
+            "sectionId": 1224000,
+            "senderId": 1004,
+            "text": "You can watch some of the animations I've made in my homeworld. Some of the content is better viewed on a screen",
+            "option": null,
+            "nextIds": [
+              122400035
+            ],
+            "kind": "NPC"
+          },
+          "122400035": {
+            "type": "Text",
+            "id": 122400035,
+            "sectionId": 1224000,
+            "senderId": 1001,
+            "text": "Mr. Yang... Please don't fall asleep again...",
+            "option": null,
+            "nextIds": [
+              122400036
+            ],
+            "kind": "NPC"
+          },
+          "122400036": {
+            "type": "Sticker",
+            "id": 122400036,
+            "sectionId": 1224000,
+            "senderId": 1000,
+            "text": "(Image) [Like]",
+            "option": null,
+            "nextIds": [
+              122400037
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "122400037": {
+            "type": "Sticker",
+            "id": 122400037,
+            "sectionId": 1224000,
+            "senderId": 1003,
+            "text": "(Image) [Like]",
+            "option": null,
+            "nextIds": [
+              122400038
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "122400038": {
+            "type": "Text",
+            "id": 122400038,
+            "sectionId": 1224000,
+            "senderId": 1002,
+            "text": "Hm. I'm curious about the television, too. Penacony's devices have some special properties. I don't know if they can still persist beyond memoria-infused environments.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122400023": {
+            "type": "Sticker",
+            "id": 122400023,
+            "sectionId": 1224000,
+            "senderId": null,
+            "text": "(image) [sob]",
+            "option": "You're too strict, Pom-Pom...",
+            "nextIds": [
+              122400024
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "122400024": {
+            "type": "Text",
+            "id": 122400024,
+            "sectionId": 1224000,
+            "senderId": null,
+            "text": "Alright, Pom-Pom... You're so strict. I won't put it there",
+            "option": null,
+            "nextIds": [
+              122400029
+            ],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1309200,
+        "startIds": [
+          130920000
+        ],
+        "messages": {
+          "130920000": {
+            "type": "Text",
+            "id": 130920000,
+            "sectionId": 1309200,
+            "senderId": 1003,
+            "text": "Guys, let's make our way to the Radiant Feldspar",
+            "option": null,
+            "nextIds": [
+              130920001
+            ],
+            "kind": "NPC"
+          },
+          "130920001": {
+            "type": "Text",
+            "id": 130920001,
+            "sectionId": 1309200,
+            "senderId": 1003,
+            "text": "I'll wrap things up soon. Let's meet at the Aft Pool in the stern",
+            "option": null,
+            "nextIds": [
+              130920002
+            ],
+            "kind": "NPC"
+          },
+          "130920002": {
+            "type": "Text",
+            "id": 130920002,
+            "sectionId": 1309200,
+            "senderId": 1002,
+            "text": "Roger",
+            "option": null,
+            "nextIds": [
+              130920003
+            ],
+            "kind": "NPC"
+          },
+          "130920003": {
+            "type": "Text",
+            "id": 130920003,
+            "sectionId": 1309200,
+            "senderId": 1004,
+            "text": "Catch you later.",
+            "option": null,
+            "nextIds": [
+              130920004,
+              130920006
+            ],
+            "kind": "NPC"
+          },
+          "130920004": {
+            "type": "Text",
+            "id": 130920004,
+            "sectionId": 1309200,
+            "senderId": null,
+            "text": "I'll lead the charge!",
+            "option": "I'm on my way.",
+            "nextIds": [
+              130920005
+            ],
+            "kind": "Player"
+          },
+          "130920005": {
+            "type": "Text",
+            "id": 130920005,
+            "sectionId": 1309200,
+            "senderId": 1001,
+            "text": "By the way, what are you doing on the Radiant Feldspar, Miss Himeko?",
+            "option": null,
+            "nextIds": [
+              130920008
+            ],
+            "kind": "NPC"
+          },
+          "130920008": {
+            "type": "Sticker",
+            "id": 130920008,
+            "sectionId": 1309200,
+            "senderId": 1003,
+            "text": "[image] Himeko smiles",
+            "option": null,
+            "nextIds": [
+              130920009
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 102002,
+              "path": "icon/emoji/102002.png",
+              "keywords": "Smiling"
+            }
+          },
+          "130920009": {
+            "type": "Text",
+            "id": 130920009,
+            "sectionId": 1309200,
+            "senderId": 1003,
+            "text": "It's a secret for now",
+            "option": null,
+            "nextIds": [
+              130920010
+            ],
+            "kind": "NPC"
+          },
+          "130920010": {
+            "type": "Text",
+            "id": 130920010,
+            "sectionId": 1309200,
+            "senderId": 1003,
+            "text": "Be patient, you'll find out at the opening ceremony",
+            "option": null,
+            "nextIds": [
+              130920011
+            ],
+            "kind": "NPC"
+          },
+          "130920011": {
+            "type": "Text",
+            "id": 130920011,
+            "sectionId": 1309200,
+            "senderId": 1001,
+            "text": "Hey...",
+            "option": null,
+            "nextIds": [
+              130920012
+            ],
+            "kind": "NPC"
+          },
+          "130920012": {
+            "type": "Text",
+            "id": 130920012,
+            "sectionId": 1309200,
+            "senderId": 1001,
+            "text": "I can't wait!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130920006": {
+            "type": "Text",
+            "id": 130920006,
+            "sectionId": 1309200,
+            "senderId": null,
+            "text": "By the way, what have you been up to lately, Miss Himeko?",
+            "option": "What have you been up to lately, Miss Himeko?",
+            "nextIds": [
+              130920007
+            ],
+            "kind": "Player"
+          },
+          "130920007": {
+            "type": "Text",
+            "id": 130920007,
+            "sectionId": 1309200,
+            "senderId": 1001,
+            "text": "Hey! I was about to ask the same thing!",
+            "option": null,
+            "nextIds": [
+              130920008
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1309300,
+        "startIds": [
+          130930000
+        ],
+        "messages": {
+          "130930000": {
+            "type": "Text",
+            "id": 130930000,
+            "sectionId": 1309300,
+            "senderId": 1003,
+            "text": "Guys, let's make our way to the Radiant Feldspar",
+            "option": null,
+            "nextIds": [
+              130930001
+            ],
+            "kind": "NPC"
+          },
+          "130930001": {
+            "type": "Text",
+            "id": 130930001,
+            "sectionId": 1309300,
+            "senderId": 1003,
+            "text": "I'll wrap things up soon. Let's meet at the Aft Pool in the stern",
+            "option": null,
+            "nextIds": [
+              130930002
+            ],
+            "kind": "NPC"
+          },
+          "130930002": {
+            "type": "Text",
+            "id": 130930002,
+            "sectionId": 1309300,
+            "senderId": 1002,
+            "text": "Roger",
+            "option": null,
+            "nextIds": [
+              130930003
+            ],
+            "kind": "NPC"
+          },
+          "130930003": {
+            "type": "Text",
+            "id": 130930003,
+            "sectionId": 1309300,
+            "senderId": 1004,
+            "text": "Catch you later.",
+            "option": null,
+            "nextIds": [
+              130930004,
+              130930006
+            ],
+            "kind": "NPC"
+          },
+          "130930004": {
+            "type": "Text",
+            "id": 130930004,
+            "sectionId": 1309300,
+            "senderId": null,
+            "text": "I'll lead the charge!",
+            "option": "I'm on my way.",
+            "nextIds": [
+              130930005
+            ],
+            "kind": "Player"
+          },
+          "130930005": {
+            "type": "Text",
+            "id": 130930005,
+            "sectionId": 1309300,
+            "senderId": 1001,
+            "text": "By the way, what are you doing on the Radiant Feldspar, Miss Himeko?",
+            "option": null,
+            "nextIds": [
+              130930008
+            ],
+            "kind": "NPC"
+          },
+          "130930008": {
+            "type": "Sticker",
+            "id": 130930008,
+            "sectionId": 1309300,
+            "senderId": 1003,
+            "text": "[image] Himeko smiles",
+            "option": null,
+            "nextIds": [
+              130930009
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 102002,
+              "path": "icon/emoji/102002.png",
+              "keywords": "Smiling"
+            }
+          },
+          "130930009": {
+            "type": "Text",
+            "id": 130930009,
+            "sectionId": 1309300,
+            "senderId": 1003,
+            "text": "It's a secret for now",
+            "option": null,
+            "nextIds": [
+              130930010
+            ],
+            "kind": "NPC"
+          },
+          "130930010": {
+            "type": "Text",
+            "id": 130930010,
+            "sectionId": 1309300,
+            "senderId": 1003,
+            "text": "Be patient, you'll find out at the opening ceremony",
+            "option": null,
+            "nextIds": [
+              130930011
+            ],
+            "kind": "NPC"
+          },
+          "130930011": {
+            "type": "Text",
+            "id": 130930011,
+            "sectionId": 1309300,
+            "senderId": 1001,
+            "text": "Hey...",
+            "option": null,
+            "nextIds": [
+              130930012
+            ],
+            "kind": "NPC"
+          },
+          "130930012": {
+            "type": "Text",
+            "id": 130930012,
+            "sectionId": 1309300,
+            "senderId": 1001,
+            "text": "I can't wait!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130930006": {
+            "type": "Text",
+            "id": 130930006,
+            "sectionId": 1309300,
+            "senderId": null,
+            "text": "By the way, what have you been up to lately, Miss Himeko?",
+            "option": "What have you been up to lately, Miss Himeko?",
+            "nextIds": [
+              130930007
+            ],
+            "kind": "Player"
+          },
+          "130930007": {
+            "type": "Text",
+            "id": 130930007,
+            "sectionId": 1309300,
+            "senderId": 1001,
+            "text": "Hey! I was about to ask the same thing!",
+            "option": null,
+            "nextIds": [
+              130930008
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
     ]
   ],
   "info": {

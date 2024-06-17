@@ -1923,6 +1923,265 @@
           }
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1223600,
+        "startIds": [
+          122360001
+        ],
+        "messages": {
+          "122360001": {
+            "type": "Text",
+            "id": 122360001,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              122360002
+            ],
+            "kind": "NPC"
+          },
+          "122360002": {
+            "type": "Text",
+            "id": 122360002,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "Help... Help!",
+            "option": null,
+            "nextIds": [
+              122360003,
+              122360005
+            ],
+            "kind": "NPC"
+          },
+          "122360003": {
+            "type": "Text",
+            "id": 122360003,
+            "sectionId": 1223600,
+            "senderId": null,
+            "text": "What happened?",
+            "option": "What's wrong?",
+            "nextIds": [
+              122360004
+            ],
+            "kind": "Player"
+          },
+          "122360004": {
+            "type": "Text",
+            "id": 122360004,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "It's bad. The situation is bad!",
+            "option": null,
+            "nextIds": [
+              122360007
+            ],
+            "kind": "NPC"
+          },
+          "122360007": {
+            "type": "Text",
+            "id": 122360007,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "Argh! I blame my greed",
+            "option": null,
+            "nextIds": [
+              122360008
+            ],
+            "kind": "NPC"
+          },
+          "122360008": {
+            "type": "Text",
+            "id": 122360008,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "I should have been more careful",
+            "option": null,
+            "nextIds": [
+              122360009
+            ],
+            "kind": "NPC"
+          },
+          "122360009": {
+            "type": "Text",
+            "id": 122360009,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "Anyway, {NICKNAME}, come save me! I don't have any other friends here apart from you, my bestie.",
+            "option": null,
+            "nextIds": [
+              122360010
+            ],
+            "kind": "NPC"
+          },
+          "122360010": {
+            "type": "Text",
+            "id": 122360010,
+            "sectionId": 1223600,
+            "senderId": null,
+            "text": "Where are you?",
+            "option": "Where are you?",
+            "nextIds": [
+              122360011
+            ],
+            "kind": "Player"
+          },
+          "122360011": {
+            "type": "Text",
+            "id": 122360011,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "I'm at... Where's this place again?",
+            "option": null,
+            "nextIds": [
+              122360012
+            ],
+            "kind": "NPC"
+          },
+          "122360012": {
+            "type": "Text",
+            "id": 122360012,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "Oh, I heard them saying that this is the hotel in the Dreamscape.",
+            "option": null,
+            "nextIds": [
+              122360013
+            ],
+            "kind": "NPC"
+          },
+          "122360013": {
+            "type": "Text",
+            "id": 122360013,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "Hurry! Otherwise I might really be a goner.",
+            "option": null,
+            "nextIds": [
+              122360014
+            ],
+            "kind": "NPC"
+          },
+          "122360014": {
+            "type": "Text",
+            "id": 122360014,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "Hurry!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122360005": {
+            "type": "Text",
+            "id": 122360005,
+            "sectionId": 1223600,
+            "senderId": null,
+            "text": "You've lost everything in such a short amount of time?",
+            "option": "You've lost everything so quickly?",
+            "nextIds": [
+              122360006
+            ],
+            "kind": "Player"
+          },
+          "122360006": {
+            "type": "Text",
+            "id": 122360006,
+            "sectionId": 1223600,
+            "senderId": 1201,
+            "text": "Not really... But my current situation is worse!",
+            "option": null,
+            "nextIds": [
+              122360007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1223700,
+        "startIds": [
+          122370001
+        ],
+        "messages": {
+          "122370001": {
+            "type": "Text",
+            "id": 122370001,
+            "sectionId": 1223700,
+            "senderId": 1201,
+            "text": "{NICKNAME}",
+            "option": null,
+            "nextIds": [
+              122370002
+            ],
+            "kind": "NPC"
+          },
+          "122370002": {
+            "type": "Text",
+            "id": 122370002,
+            "sectionId": 1223700,
+            "senderId": 1201,
+            "text": "Oh, shoot!",
+            "option": null,
+            "nextIds": [
+              122370003
+            ],
+            "kind": "NPC"
+          },
+          "122370003": {
+            "type": "Text",
+            "id": 122370003,
+            "sectionId": 1223700,
+            "senderId": 1201,
+            "text": "It looks like they're going to force me to be part of some strange ritual",
+            "option": null,
+            "nextIds": [
+              122370004
+            ],
+            "kind": "NPC"
+          },
+          "122370004": {
+            "type": "Text",
+            "id": 122370004,
+            "sectionId": 1223700,
+            "senderId": 1201,
+            "text": "Help!",
+            "option": null,
+            "nextIds": [
+              122370005
+            ],
+            "kind": "NPC"
+          },
+          "122370005": {
+            "type": "Text",
+            "id": 122370005,
+            "sectionId": 1223700,
+            "senderId": null,
+            "text": "Qingque?",
+            "option": "Qingque?",
+            "nextIds": [
+              122370006
+            ],
+            "kind": "Player"
+          },
+          "122370006": {
+            "type": "Text",
+            "id": 122370006,
+            "sectionId": 1223700,
+            "senderId": null,
+            "text": "Qingque? What's going on? Who are \"they\"?",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto"
+          }
+        }
+      }
     ]
   ],
   "info": {

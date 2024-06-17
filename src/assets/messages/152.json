@@ -1,0 +1,275 @@
+{
+  "id": 152,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1223800,
+        "startIds": [
+          122380001
+        ],
+        "messages": {
+          "122380001": {
+            "type": "Text",
+            "id": 122380001,
+            "sectionId": 1223800,
+            "senderId": null,
+            "text": "Hey",
+            "option": "Anyone there?",
+            "nextIds": [
+              122380002
+            ],
+            "kind": "Player"
+          },
+          "122380002": {
+            "type": "Text",
+            "id": 122380002,
+            "sectionId": 1223800,
+            "senderId": null,
+            "text": "You there?",
+            "option": null,
+            "nextIds": [
+              122380003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122380003": {
+            "type": "Text",
+            "id": 122380003,
+            "sectionId": 1223800,
+            "senderId": 1302,
+            "text": "What's the matter, my friend?",
+            "option": null,
+            "nextIds": [
+              122380004
+            ],
+            "kind": "NPC"
+          },
+          "122380004": {
+            "type": "Text",
+            "id": 122380004,
+            "sectionId": 1223800,
+            "senderId": null,
+            "text": "Where's Boothill?",
+            "option": null,
+            "nextIds": [
+              122380005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122380005": {
+            "type": "Text",
+            "id": 122380005,
+            "sectionId": 1223800,
+            "senderId": null,
+            "text": "I need something from the both of you urgently",
+            "option": null,
+            "nextIds": [
+              122380006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122380006": {
+            "type": "Text",
+            "id": 122380006,
+            "sectionId": 1223800,
+            "senderId": 1302,
+            "text": "Boothill is here too",
+            "option": null,
+            "nextIds": [
+              122380007
+            ],
+            "kind": "NPC"
+          },
+          "122380007": {
+            "type": "Text",
+            "id": 122380007,
+            "sectionId": 1223800,
+            "senderId": 1302,
+            "text": "But you might have to wait a little. Someone just stole his hat",
+            "option": null,
+            "nextIds": [
+              122380008,
+              122380009
+            ],
+            "kind": "NPC"
+          },
+          "122380008": {
+            "type": "Text",
+            "id": 122380008,
+            "sectionId": 1223800,
+            "senderId": null,
+            "text": "Can he handle it? I'm in a rush",
+            "option": "Can he handle it?",
+            "nextIds": [
+              122380010
+            ],
+            "kind": "Player"
+          },
+          "122380010": {
+            "type": "Text",
+            "id": 122380010,
+            "sectionId": 1223800,
+            "senderId": 1302,
+            "text": "Calm down, my friend",
+            "option": null,
+            "nextIds": [
+              122380011
+            ],
+            "kind": "NPC"
+          },
+          "122380011": {
+            "type": "Text",
+            "id": 122380011,
+            "sectionId": 1223800,
+            "senderId": 1302,
+            "text": "I can see him returning with his hat",
+            "option": null,
+            "nextIds": [
+              122380012
+            ],
+            "kind": "NPC"
+          },
+          "122380012": {
+            "type": "Text",
+            "id": 122380012,
+            "sectionId": 1223800,
+            "senderId": 1315,
+            "text": "Fudge me! This street is such a mess",
+            "option": null,
+            "nextIds": [
+              122380013
+            ],
+            "kind": "NPC"
+          },
+          "122380013": {
+            "type": "Text",
+            "id": 122380013,
+            "sectionId": 1223800,
+            "senderId": 1315,
+            "text": "You're telling me. Some people really don't know the concept of \"order\"",
+            "option": null,
+            "nextIds": [
+              122380014
+            ],
+            "kind": "NPC"
+          },
+          "122380014": {
+            "type": "Text",
+            "id": 122380014,
+            "sectionId": 1223800,
+            "senderId": null,
+            "text": "Enough with the chit-chat",
+            "option": null,
+            "nextIds": [
+              122380015
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122380015": {
+            "type": "Text",
+            "id": 122380015,
+            "sectionId": 1223800,
+            "senderId": null,
+            "text": "I might have found the \"organization\" that you mentioned",
+            "option": null,
+            "nextIds": [
+              122380016
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122380016": {
+            "type": "Text",
+            "id": 122380016,
+            "sectionId": 1223800,
+            "senderId": 1315,
+            "text": "What? Where? Tell me!",
+            "option": null,
+            "nextIds": [
+              122380017
+            ],
+            "kind": "NPC"
+          },
+          "122380017": {
+            "type": "Text",
+            "id": 122380017,
+            "sectionId": 1223800,
+            "senderId": null,
+            "text": "It's a long story. Hurry over to the hotel in the Dreamscape",
+            "option": null,
+            "nextIds": [
+              122380018
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122380018": {
+            "type": "Text",
+            "id": 122380018,
+            "sectionId": 1223800,
+            "senderId": null,
+            "text": "My friend is being threatened by them. It doesn't look good",
+            "option": null,
+            "nextIds": [
+              122380019
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122380019": {
+            "type": "Text",
+            "id": 122380019,
+            "sectionId": 1223800,
+            "senderId": 1315,
+            "text": "The hotel in the Dreamscape? I got it. We're on our way",
+            "option": null,
+            "nextIds": [
+              122380020
+            ],
+            "kind": "NPC"
+          },
+          "122380020": {
+            "type": "Text",
+            "id": 122380020,
+            "sectionId": 1223800,
+            "senderId": 1302,
+            "text": "A friend of yours is one of ours too",
+            "option": null,
+            "nextIds": [
+              122380021
+            ],
+            "kind": "NPC"
+          },
+          "122380021": {
+            "type": "Text",
+            "id": 122380021,
+            "sectionId": 1223800,
+            "senderId": 1302,
+            "text": "I will come along to help settle the problem, my friend",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122380009": {
+            "type": "Text",
+            "id": 122380009,
+            "sectionId": 1223800,
+            "senderId": null,
+            "text": "It's a really urgent matter",
+            "option": "It's really urgent",
+            "nextIds": [
+              122380010
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 152,
+    "name": "The Three Treasures",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 99
+  }
+}

@@ -14,7 +14,7 @@
             "id": 201390000,
             "sectionId": 2013900,
             "senderId": 1315,
-            "text": "Well butter my fudge and call me a biscuit, I'm askin' ya somethin'. You got some fudgin' cotton in them ears, boy? I need that freighter's ID number, and unless ya want a lead headache, best hurry it up. Dagnabbit, you lil' forker, ya really think ya can fudgin' swing at me? You're cruisin' for a bruisin', ya dimwit, I swear I'll fudge you up so good today. [Noise detected, unable to identify]",
+            "text": "Well butter my fudge and call me a biscuit, I'm askin' ya somethin'. You got some fudgin' cotton in them ears, boy? I need that freighter's ID number, and unless ya want a lead headache, best hurry it up. Dagnabbit, you lil' forker, ya really think ya can fudgin' swing at me? You're cruisin' for a bruisin', ya dimwit, I swear I'll dog your cats so good today. [Noise detected, unable to identify]",
             "option": null,
             "nextIds": [
               201390001
@@ -199,7 +199,7 @@
             "id": 201390024,
             "sectionId": 2013900,
             "senderId": 1315,
-            "text": "Gotta cut this short, pardner. I'm off to hunt some varmints, busy as a bee in a bloom. I mean, catchin' up with \"an old friend\", it's been a coon's age, haha. Till we meet again, adios.",
+            "text": "Gotta cut this short, pardner. I'm off to hunt some varmints, busy as a bee. I mean, catchin' up with \"an old friend,\" it's been ages, haha. Till we meet again, adios.",
             "option": null,
             "nextIds": [
               201390025
@@ -293,7 +293,7 @@
             "id": 201390013,
             "sectionId": 2013900,
             "senderId": null,
-            "text": "Fudge? I love it!",
+            "text": "Fudge fudge fudge fudge fudge",
             "option": "Fudge?",
             "nextIds": [
               201390014
@@ -317,7 +317,7 @@
             "id": 201390004,
             "sectionId": 2013900,
             "senderId": null,
-            "text": "Fudge? I love it!",
+            "text": "Fudge?",
             "option": "Fudge?",
             "nextIds": [
               201390005
@@ -946,7 +946,7 @@
             "id": 201410016,
             "sectionId": 2014100,
             "senderId": 1315,
-            "text": "Alrighty, it's yers. Shucks. Be here sharp at three system hours tonight, just ya, nobody else. I'll shoot ya the coordinates later.",
+            "text": "Alrighty, it's yers. Shucks. Be here sharp at three system hours tonight, just you, nobody else. I'll shoot ya the coordinates later.",
             "option": null,
             "nextIds": [
               201410017
@@ -1009,6 +1009,6 @@
     "signature": "Pier Point Standard Heist (LFG 3/4)",
     "iconPath": "icon/avatar/1315.png",
     "type": 1,
-    "camp": 6
+    "camp": 12
   }
 }

@@ -450,7 +450,7 @@
             "sectionId": 2011600,
             "senderId": null,
             "text": "Madam Hanya is very pretty. I'm sure you won't go wrong with getting her some nice clothing or beauty products",
-            "option": "Things like fancy clothing, or beauty products",
+            "option": "Fancy clothing, beauty products etc.",
             "nextIds": [
               201160009
             ],
@@ -933,7 +933,7 @@
             "sectionId": 2011700,
             "senderId": null,
             "text": "This feels kind of odd, but I'm now fine with you using them",
-            "option": "You know what, I'm now fine with you using them",
+            "option": "I'm now fine with you using them",
             "nextIds": [
               201170029
             ],

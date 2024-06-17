@@ -1017,7 +1017,7 @@
             "id": 122070011,
             "sectionId": 1220700,
             "senderId": 1210,
-            "text": "Where's your \"Yay\", Sushang?",
+            "text": "Where's your \"Yay,\" Sushang?",
             "option": null,
             "nextIds": [
               122070012
@@ -3178,8 +3178,8 @@
             "id": 130200321,
             "sectionId": 1302003,
             "senderId": null,
-            "text": "What do you mean \"What!?\", Sushang? Aren't you the one who told us this",
-            "option": "What do you mean \"WHAT!?\", Sushang?",
+            "text": "What do you mean \"What!?\" Sushang? Aren't you the one who told us this",
+            "option": "What do you mean \"WHAT!?\" Sushang?",
             "nextIds": [
               130200322
             ],
@@ -3226,7 +3226,7 @@
             "id": 130200309,
             "sectionId": 1302003,
             "senderId": null,
-            "text": "Could you have misheard them, Sushang? Maybe they were saying something else instead, like \"goodnight fam\", not \"Guinaifen\"?",
+            "text": "Could you have misheard them, Sushang? Maybe they were saying something else instead, like \"goodnight fam,\" not \"Guinaifen\"?",
             "option": "Must've misheard",
             "nextIds": [
               130200310

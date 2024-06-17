@@ -1,0 +1,919 @@
+{
+  "id": 1308,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2014800,
+        "startIds": [
+          201480000
+        ],
+        "messages": {
+          "201480000": {
+            "type": "Text",
+            "id": 201480000,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "This is my contact info",
+            "option": null,
+            "nextIds": [
+              201480001,
+              201480004
+            ],
+            "kind": "NPC"
+          },
+          "201480001": {
+            "type": "Text",
+            "id": 201480001,
+            "sectionId": 2014800,
+            "senderId": null,
+            "text": "Hello!",
+            "option": "Hello!",
+            "nextIds": [
+              201480002
+            ],
+            "kind": "Player"
+          },
+          "201480002": {
+            "type": "Text",
+            "id": 201480002,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "Hello",
+            "option": null,
+            "nextIds": [
+              201480003
+            ],
+            "kind": "NPC"
+          },
+          "201480003": {
+            "type": "Text",
+            "id": 201480003,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "It's been a while since I heard such a normal greeting, it's really comforting",
+            "option": null,
+            "nextIds": [
+              201480007
+            ],
+            "kind": "NPC"
+          },
+          "201480007": {
+            "type": "Text",
+            "id": 201480007,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "Before coming to Penacony, I thought it would be just a regular trip",
+            "option": null,
+            "nextIds": [
+              201480008
+            ],
+            "kind": "NPC"
+          },
+          "201480008": {
+            "type": "Text",
+            "id": 201480008,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "To fulfill a dead man's wish and take him back to a place he could never return to",
+            "option": null,
+            "nextIds": [
+              201480009
+            ],
+            "kind": "NPC"
+          },
+          "201480009": {
+            "type": "Text",
+            "id": 201480009,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "But before I knew it, this world became so vibrant and colorful",
+            "option": null,
+            "nextIds": [
+              201480010
+            ],
+            "kind": "NPC"
+          },
+          "201480010": {
+            "type": "Text",
+            "id": 201480010,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "And I've become a part of it",
+            "option": null,
+            "nextIds": [
+              201480011,
+              201480015
+            ],
+            "kind": "NPC"
+          },
+          "201480011": {
+            "type": "Text",
+            "id": 201480011,
+            "sectionId": 2014800,
+            "senderId": null,
+            "text": "You played a crucial role!",
+            "option": "You played a crucial role!",
+            "nextIds": [
+              201480012
+            ],
+            "kind": "Player"
+          },
+          "201480012": {
+            "type": "Sticker",
+            "id": 201480012,
+            "sectionId": 2014800,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201480013
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "201480013": {
+            "type": "Text",
+            "id": 201480013,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "Oh, it was nothing, really",
+            "option": null,
+            "nextIds": [
+              201480014
+            ],
+            "kind": "NPC"
+          },
+          "201480014": {
+            "type": "Text",
+            "id": 201480014,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "It's all thanks to you, Nameless, and the other Pathstriders",
+            "option": null,
+            "nextIds": [
+              201480019
+            ],
+            "kind": "NPC"
+          },
+          "201480019": {
+            "type": "Text",
+            "id": 201480019,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "As this journey comes to an end, let's wake up and embrace tomorrow",
+            "option": null,
+            "nextIds": [
+              201480020
+            ],
+            "kind": "NPC"
+          },
+          "201480020": {
+            "type": "Text",
+            "id": 201480020,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "May we all appreciate the beauty of the world on a larger vista",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201480015": {
+            "type": "Text",
+            "id": 201480015,
+            "sectionId": 2014800,
+            "senderId": null,
+            "text": "I'm a part of it too!",
+            "option": "I'm a part of it too!",
+            "nextIds": [
+              201480016
+            ],
+            "kind": "Player"
+          },
+          "201480016": {
+            "type": "Sticker",
+            "id": 201480016,
+            "sectionId": 2014800,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201480017
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 121016,
+              "path": "icon/emoji/121016.png",
+              "keywords": "Cheers"
+            }
+          },
+          "201480017": {
+            "type": "Text",
+            "id": 201480017,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "Exactly",
+            "option": null,
+            "nextIds": [
+              201480018
+            ],
+            "kind": "NPC"
+          },
+          "201480018": {
+            "type": "Sticker",
+            "id": 201480018,
+            "sectionId": 2014800,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201480019
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 121016,
+              "path": "icon/emoji/121016.png",
+              "keywords": "Cheers"
+            }
+          },
+          "201480004": {
+            "type": "Text",
+            "id": 201480004,
+            "sectionId": 2014800,
+            "senderId": null,
+            "text": "That's totally unexpected",
+            "option": "I'm surprised",
+            "nextIds": [
+              201480005
+            ],
+            "kind": "Player"
+          },
+          "201480005": {
+            "type": "Text",
+            "id": 201480005,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "Haha, really?",
+            "option": null,
+            "nextIds": [
+              201480006
+            ],
+            "kind": "NPC"
+          },
+          "201480006": {
+            "type": "Text",
+            "id": 201480006,
+            "sectionId": 2014800,
+            "senderId": 1308,
+            "text": "Well, discovering the \"unknown\" is also the essence of journeys",
+            "option": null,
+            "nextIds": [
+              201480007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2014900,
+        "startIds": [
+          201490000
+        ],
+        "messages": {
+          "201490000": {
+            "type": "Text",
+            "id": 201490000,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "Are you a gourmet, {NICKNAME}?",
+            "option": null,
+            "nextIds": [
+              201490001
+            ],
+            "kind": "NPC"
+          },
+          "201490001": {
+            "type": "Text",
+            "id": 201490001,
+            "sectionId": 2014900,
+            "senderId": null,
+            "text": "<Grand Melodie Golden Hour>",
+            "option": null,
+            "nextIds": [
+              201490002
+            ],
+            "kind": "System"
+          },
+          "201490002": {
+            "type": "Text",
+            "id": 201490002,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "Earlier, I helped this lady in Penacony without realizing she's actually a chef at a fancy restaurant. This is her restaurant",
+            "option": null,
+            "nextIds": [
+              201490003
+            ],
+            "kind": "NPC"
+          },
+          "201490003": {
+            "type": "Text",
+            "id": 201490003,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "She'll be launching a special menu with a \"peach\" theme soon, and I highly recommend it",
+            "option": null,
+            "nextIds": [
+              201490004,
+              201490005,
+              201490007
+            ],
+            "kind": "NPC"
+          },
+          "201490004": {
+            "type": "Text",
+            "id": 201490004,
+            "sectionId": 2014900,
+            "senderId": null,
+            "text": "I'm definitely giving it a shot!",
+            "option": "I'm definitely giving it a shot!",
+            "nextIds": [
+              201490009
+            ],
+            "kind": "Player"
+          },
+          "201490009": {
+            "type": "Text",
+            "id": 201490009,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "Cooking... well, it brings back memories. I used to love it",
+            "option": null,
+            "nextIds": [
+              201490010
+            ],
+            "kind": "NPC"
+          },
+          "201490010": {
+            "type": "Text",
+            "id": 201490010,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "However, it's hard to enjoy dishes when you can't really taste anything",
+            "option": null,
+            "nextIds": [
+              201490011,
+              201490012
+            ],
+            "kind": "NPC"
+          },
+          "201490011": {
+            "type": "Text",
+            "id": 201490011,
+            "sectionId": 2014900,
+            "senderId": null,
+            "text": "Do you still cook now?",
+            "option": "Do you still cook now?",
+            "nextIds": [
+              201490014
+            ],
+            "kind": "Player"
+          },
+          "201490014": {
+            "type": "Text",
+            "id": 201490014,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "Sometimes, I still cook up some food, but it's a shame that I can't taste much anymore",
+            "option": null,
+            "nextIds": [
+              201490015
+            ],
+            "kind": "NPC"
+          },
+          "201490015": {
+            "type": "Text",
+            "id": 201490015,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "Still, there are some workarounds. For example, you can make ice cream out of snow",
+            "option": null,
+            "nextIds": [
+              201490016
+            ],
+            "kind": "NPC"
+          },
+          "201490016": {
+            "type": "Text",
+            "id": 201490016,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "It's cool, moist, and creamy... a flavor that I'll never forget",
+            "option": null,
+            "nextIds": [
+              201490017
+            ],
+            "kind": "NPC"
+          },
+          "201490017": {
+            "type": "Text",
+            "id": 201490017,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "I'll treat you to it when I get the chance",
+            "option": null,
+            "nextIds": [
+              201490018
+            ],
+            "kind": "NPC"
+          },
+          "201490018": {
+            "type": "Text",
+            "id": 201490018,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "And don't forget to try the peach dishes too",
+            "option": null,
+            "nextIds": [
+              201490019
+            ],
+            "kind": "NPC"
+          },
+          "201490019": {
+            "type": "Sticker",
+            "id": 201490019,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 131004,
+              "path": "icon/emoji/131004.png",
+              "keywords": "Eat Peach"
+            }
+          },
+          "201490012": {
+            "type": "Text",
+            "id": 201490012,
+            "sectionId": 2014900,
+            "senderId": null,
+            "text": "Is this caused by the Nihility?",
+            "option": "Is this caused by the Nihility?",
+            "nextIds": [
+              201490013
+            ],
+            "kind": "Player"
+          },
+          "201490013": {
+            "type": "Text",
+            "id": 201490013,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "Perhaps",
+            "option": null,
+            "nextIds": [
+              201490014
+            ],
+            "kind": "NPC"
+          },
+          "201490005": {
+            "type": "Text",
+            "id": 201490005,
+            "sectionId": 2014900,
+            "senderId": null,
+            "text": "Aren't you coming?",
+            "option": "Aren't you coming?",
+            "nextIds": [
+              201490006
+            ],
+            "kind": "Player"
+          },
+          "201490006": {
+            "type": "Text",
+            "id": 201490006,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "I've already tried it",
+            "option": null,
+            "nextIds": [
+              201490009
+            ],
+            "kind": "NPC"
+          },
+          "201490007": {
+            "type": "Text",
+            "id": 201490007,
+            "sectionId": 2014900,
+            "senderId": null,
+            "text": "Sounds \"avant-garde\", maybe something on the dark side of the cooking...",
+            "option": "Sounds \"avant-garde\"...",
+            "nextIds": [
+              201490008
+            ],
+            "kind": "Player"
+          },
+          "201490008": {
+            "type": "Text",
+            "id": 201490008,
+            "sectionId": 2014900,
+            "senderId": 1308,
+            "text": "Dark side...? Does that mean there is a light side of the cooking as well?",
+            "option": null,
+            "nextIds": [
+              201490009
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2015000,
+        "startIds": [
+          201500000
+        ],
+        "messages": {
+          "201500000": {
+            "type": "Text",
+            "id": 201500000,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "Oh, by the way, I came across something cute recently",
+            "option": null,
+            "nextIds": [
+              201500001
+            ],
+            "kind": "NPC"
+          },
+          "201500001": {
+            "type": "Text",
+            "id": 201500001,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "As I was passing by the COLORS store, the store clerk asked for my autograph",
+            "option": null,
+            "nextIds": [
+              201500002,
+              201500005,
+              201500007
+            ],
+            "kind": "NPC"
+          },
+          "201500002": {
+            "type": "Text",
+            "id": 201500002,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "Well, you're totally a celebrity now with everything you've done!",
+            "option": "You're famous now!",
+            "nextIds": [
+              201500003
+            ],
+            "kind": "Player"
+          },
+          "201500003": {
+            "type": "Sticker",
+            "id": 201500003,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201500004
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "201500004": {
+            "type": "Text",
+            "id": 201500004,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "It was all a misunderstanding",
+            "option": null,
+            "nextIds": [
+              201500010
+            ],
+            "kind": "NPC"
+          },
+          "201500010": {
+            "type": "Text",
+            "id": 201500010,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "Miss Robin's makeup in the COLORS ad \"Mien of Vesper\" bears a resemblance to the attire of young girls from my hometown, leaving even me momentarily lost in nostalgia",
+            "option": null,
+            "nextIds": [
+              201500011
+            ],
+            "kind": "NPC"
+          },
+          "201500011": {
+            "type": "Text",
+            "id": 201500011,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "And now that I think about it, I miss how those girls would worry about their makeup getting ruined in frequent thunderstorms",
+            "option": null,
+            "nextIds": [
+              201500012
+            ],
+            "kind": "NPC"
+          },
+          "201500012": {
+            "type": "Text",
+            "id": 201500012,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "Oh, speaking of COLORS, I found some awesome products there, so I bought them as a small token of my appreciation",
+            "option": null,
+            "nextIds": [
+              201500013
+            ],
+            "kind": "NPC"
+          },
+          "201500013": {
+            "type": "Text",
+            "id": 201500013,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "I think Miss Himeko will love this rose-colored lipstick",
+            "option": null,
+            "nextIds": [
+              201500014
+            ],
+            "kind": "NPC"
+          },
+          "201500014": {
+            "type": "Text",
+            "id": 201500014,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "And this \"Spring Scenery\" eyeshadow will be perfect for Miss March",
+            "option": null,
+            "nextIds": [
+              201500015
+            ],
+            "kind": "NPC"
+          },
+          "201500015": {
+            "type": "Text",
+            "id": 201500015,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "Not only that, they have some hydrating and cleansing products that people are raving about",
+            "option": null,
+            "nextIds": [
+              201500016,
+              201500018
+            ],
+            "kind": "NPC"
+          },
+          "201500016": {
+            "type": "Text",
+            "id": 201500016,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "Thank you! I'll spread the word!",
+            "option": "Thanks!",
+            "nextIds": [
+              201500017
+            ],
+            "kind": "Player"
+          },
+          "201500017": {
+            "type": "Text",
+            "id": 201500017,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "You're welcome.",
+            "option": null,
+            "nextIds": [
+              201500020
+            ],
+            "kind": "NPC"
+          },
+          "201500020": {
+            "type": "Text",
+            "id": 201500020,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "I'll mail them to you before I forget",
+            "option": null,
+            "nextIds": [
+              201500021
+            ],
+            "kind": "NPC"
+          },
+          "201500021": {
+            "type": "Text",
+            "id": 201500021,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "Your friend is offline",
+            "option": null,
+            "nextIds": [
+              201500022
+            ],
+            "kind": "System"
+          },
+          "201500022": {
+            "type": "Text",
+            "id": 201500022,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "Your friend is online",
+            "option": null,
+            "nextIds": [
+              201500023
+            ],
+            "kind": "System"
+          },
+          "201500023": {
+            "type": "Text",
+            "id": 201500023,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "Oh, sorry",
+            "option": null,
+            "nextIds": [
+              201500024
+            ],
+            "kind": "NPC"
+          },
+          "201500024": {
+            "type": "Text",
+            "id": 201500024,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "By the way, do you know where the post office is?",
+            "option": null,
+            "nextIds": [
+              201500025,
+              201500026
+            ],
+            "kind": "NPC"
+          },
+          "201500025": {
+            "type": "Text",
+            "id": 201500025,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "I knew it...",
+            "option": "I knew it...",
+            "nextIds": [
+              201500027
+            ],
+            "kind": "Player"
+          },
+          "201500027": {
+            "type": "Text",
+            "id": 201500027,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "Oh, found it",
+            "option": null,
+            "nextIds": [
+              201500028
+            ],
+            "kind": "NPC"
+          },
+          "201500028": {
+            "type": "Text",
+            "id": 201500028,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "It's right behind me",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "201500026": {
+            "type": "Text",
+            "id": 201500026,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "Do you need my help?",
+            "option": "Do you need my help?",
+            "nextIds": [
+              201500027
+            ],
+            "kind": "Player"
+          },
+          "201500018": {
+            "type": "Text",
+            "id": 201500018,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "Didn't expect you to know so much about makeup",
+            "option": "Didn't expect you to know about makeup",
+            "nextIds": [
+              201500019
+            ],
+            "kind": "Player"
+          },
+          "201500019": {
+            "type": "Text",
+            "id": 201500019,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "Took you by surprise, huh?",
+            "option": null,
+            "nextIds": [
+              201500020
+            ],
+            "kind": "NPC"
+          },
+          "201500005": {
+            "type": "Text",
+            "id": 201500005,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "Was it a misunderstanding or something...?",
+            "option": "Was it a misunderstanding or...?",
+            "nextIds": [
+              201500006
+            ],
+            "kind": "Player"
+          },
+          "201500006": {
+            "type": "Text",
+            "id": 201500006,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "Yes",
+            "option": null,
+            "nextIds": [
+              201500010
+            ],
+            "kind": "NPC"
+          },
+          "201500007": {
+            "type": "Text",
+            "id": 201500007,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "Your autograph? I want one too!",
+            "option": "Your autograph? I want one too!",
+            "nextIds": [
+              201500008
+            ],
+            "kind": "Player"
+          },
+          "201500008": {
+            "type": "Sticker",
+            "id": 201500008,
+            "sectionId": 2015000,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201500009
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "201500009": {
+            "type": "Text",
+            "id": 201500009,
+            "sectionId": 2015000,
+            "senderId": 1308,
+            "text": "It was all a misunderstanding",
+            "option": null,
+            "nextIds": [
+              201500010
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1308,
+    "name": "Acheron",
+    "signature": "Time for Departure",
+    "iconPath": "icon/avatar/1308.png",
+    "type": 1,
+    "camp": 13
+  }
+}

@@ -1,0 +1,1509 @@
+{
+  "id": 143,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1306500,
+        "startIds": [
+          130650000
+        ],
+        "messages": {
+          "130650000": {
+            "type": "Text",
+            "id": 130650000,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "There's progress with the bomb situation",
+            "option": null,
+            "nextIds": [
+              130650001
+            ],
+            "kind": "NPC"
+          },
+          "130650001": {
+            "type": "Text",
+            "id": 130650001,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "I've got good news and bad news",
+            "option": null,
+            "nextIds": [
+              130650002
+            ],
+            "kind": "NPC"
+          },
+          "130650002": {
+            "type": "Text",
+            "id": 130650002,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "Which one would you like first?",
+            "option": null,
+            "nextIds": [
+              130650003,
+              130650007,
+              130650011
+            ],
+            "kind": "NPC"
+          },
+          "130650003": {
+            "type": "Text",
+            "id": 130650003,
+            "sectionId": 1306500,
+            "senderId": null,
+            "text": "The good news first",
+            "option": "Good news.",
+            "nextIds": [
+              130650004
+            ],
+            "kind": "Player"
+          },
+          "130650004": {
+            "type": "Sticker",
+            "id": 130650004,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "(Crystal ball scrying sticker)",
+            "option": null,
+            "nextIds": [
+              130650005
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 121003,
+              "path": "icon/emoji/121003.png",
+              "keywords": "Divination"
+            }
+          },
+          "130650005": {
+            "type": "Text",
+            "id": 130650005,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "The good news is, I've found <unbreak>131</unbreak> bombs",
+            "option": null,
+            "nextIds": [
+              130650006
+            ],
+            "kind": "NPC"
+          },
+          "130650006": {
+            "type": "Text",
+            "id": 130650006,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "The bad news is, none of them are real bombs",
+            "option": null,
+            "nextIds": [
+              130650014
+            ],
+            "kind": "NPC"
+          },
+          "130650014": {
+            "type": "Text",
+            "id": 130650014,
+            "sectionId": 1306500,
+            "senderId": 1001,
+            "text": "The Masked Fools really know how to pull a stunt...",
+            "option": null,
+            "nextIds": [
+              130650015
+            ],
+            "kind": "NPC"
+          },
+          "130650015": {
+            "type": "Text",
+            "id": 130650015,
+            "sectionId": 1306500,
+            "senderId": 1003,
+            "text": "Don't worry. Process of elimination is also a problem-solving tactic",
+            "option": null,
+            "nextIds": [
+              130650016
+            ],
+            "kind": "NPC"
+          },
+          "130650016": {
+            "type": "Text",
+            "id": 130650016,
+            "sectionId": 1306500,
+            "senderId": 1309,
+            "text": "The evacuation of The Family is underway here. The Bloodhounds are hot on the investigative trail",
+            "option": null,
+            "nextIds": [
+              130650017
+            ],
+            "kind": "NPC"
+          },
+          "130650017": {
+            "type": "Text",
+            "id": 130650017,
+            "sectionId": 1306500,
+            "senderId": 1309,
+            "text": "Keep it up, everyone!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130650007": {
+            "type": "Text",
+            "id": 130650007,
+            "sectionId": 1306500,
+            "senderId": null,
+            "text": "Tell me the bad news",
+            "option": "Bad news.",
+            "nextIds": [
+              130650008
+            ],
+            "kind": "Player"
+          },
+          "130650008": {
+            "type": "Sticker",
+            "id": 130650008,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "(Crystal ball scrying sticker)",
+            "option": null,
+            "nextIds": [
+              130650009
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 121003,
+              "path": "icon/emoji/121003.png",
+              "keywords": "Divination"
+            }
+          },
+          "130650009": {
+            "type": "Text",
+            "id": 130650009,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "The bad news is, I've found <unbreak>131</unbreak> bombs",
+            "option": null,
+            "nextIds": [
+              130650010
+            ],
+            "kind": "NPC"
+          },
+          "130650010": {
+            "type": "Text",
+            "id": 130650010,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "The good news is, none of them are real bombs",
+            "option": null,
+            "nextIds": [
+              130650014
+            ],
+            "kind": "NPC"
+          },
+          "130650011": {
+            "type": "Text",
+            "id": 130650011,
+            "sectionId": 1306500,
+            "senderId": null,
+            "text": "??? What are you doing in the group chat?",
+            "option": "You're in here too?",
+            "nextIds": [
+              130650012
+            ],
+            "kind": "Player"
+          },
+          "130650012": {
+            "type": "Sticker",
+            "id": 130650012,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "(Crystal ball scrying sticker)",
+            "option": null,
+            "nextIds": [
+              130650013
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 121003,
+              "path": "icon/emoji/121003.png",
+              "keywords": "Divination"
+            }
+          },
+          "130650013": {
+            "type": "Text",
+            "id": 130650013,
+            "sectionId": 1306500,
+            "senderId": 1307,
+            "text": "Simply put, I've found <unbreak>131</unbreak> bombs that aren't real bombs",
+            "option": null,
+            "nextIds": [
+              130650014
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1306600,
+        "startIds": [
+          130660000
+        ],
+        "messages": {
+          "130660000": {
+            "type": "Text",
+            "id": 130660000,
+            "sectionId": 1306600,
+            "senderId": 1315,
+            "text": "Dadgum Wubbaboo! I give up",
+            "option": null,
+            "nextIds": [
+              130660001
+            ],
+            "kind": "NPC"
+          },
+          "130660001": {
+            "type": "Text",
+            "id": 130660001,
+            "sectionId": 1306600,
+            "senderId": 1302,
+            "text": "What's wrong, silver cowboy?",
+            "option": null,
+            "nextIds": [
+              130660002
+            ],
+            "kind": "NPC"
+          },
+          "130660002": {
+            "type": "Text",
+            "id": 130660002,
+            "sectionId": 1306600,
+            "senderId": 1315,
+            "text": "I found <unbreak>217</unbreak>",
+            "option": null,
+            "nextIds": [
+              130660003
+            ],
+            "kind": "NPC"
+          },
+          "130660003": {
+            "type": "Text",
+            "id": 130660003,
+            "sectionId": 1306600,
+            "senderId": 1315,
+            "text": "talking dolls",
+            "option": null,
+            "nextIds": [
+              130660004
+            ],
+            "kind": "NPC"
+          },
+          "130660004": {
+            "type": "Image",
+            "id": 130660004,
+            "sectionId": 1306600,
+            "senderId": 1315,
+            "text": "(Image) Sparkle doll photo",
+            "option": null,
+            "nextIds": [
+              130660005
+            ],
+            "kind": "NPC",
+            "image": {
+              "id": 10044,
+              "path": "image/messages/10021.png"
+            }
+          },
+          "130660005": {
+            "type": "Text",
+            "id": 130660005,
+            "sectionId": 1306600,
+            "senderId": 1315,
+            "text": "Haha",
+            "option": null,
+            "nextIds": [
+              130660006
+            ],
+            "kind": "NPC"
+          },
+          "130660006": {
+            "type": "Text",
+            "id": 130660006,
+            "sectionId": 1306600,
+            "senderId": 1307,
+            "text": "Haha",
+            "option": null,
+            "nextIds": [
+              130660007
+            ],
+            "kind": "NPC"
+          },
+          "130660007": {
+            "type": "Text",
+            "id": 130660007,
+            "sectionId": 1306600,
+            "senderId": 1001,
+            "text": "Haha",
+            "option": null,
+            "nextIds": [
+              130660008
+            ],
+            "kind": "NPC"
+          },
+          "130660008": {
+            "type": "Text",
+            "id": 130660008,
+            "sectionId": 1306600,
+            "senderId": 1315,
+            "text": "And that's after I got help from the Hounds and that man with plaster head",
+            "option": null,
+            "nextIds": [
+              130660009
+            ],
+            "kind": "NPC"
+          },
+          "130660009": {
+            "type": "Text",
+            "id": 130660009,
+            "sectionId": 1306600,
+            "senderId": 1315,
+            "text": "Who knows when we'd find them all if we looked for them ourselves",
+            "option": null,
+            "nextIds": [
+              130660010
+            ],
+            "kind": "NPC"
+          },
+          "130660010": {
+            "type": "Text",
+            "id": 130660010,
+            "sectionId": 1306600,
+            "senderId": 1004,
+            "text": "That's a shame... Knowing that Fool's habits, I'm afraid we're going to have to keep filtering through the wrong answers.",
+            "option": null,
+            "nextIds": [
+              130660011
+            ],
+            "kind": "NPC"
+          },
+          "130660011": {
+            "type": "Text",
+            "id": 130660011,
+            "sectionId": 1306600,
+            "senderId": 1302,
+            "text": "Don't fret. The Beauty will guide us!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1306700,
+        "startIds": [
+          130670000
+        ],
+        "messages": {
+          "130670000": {
+            "type": "Text",
+            "id": 130670000,
+            "sectionId": 1306700,
+            "senderId": 1302,
+            "text": "My friends, I bring saddening news",
+            "option": null,
+            "nextIds": [
+              130670001
+            ],
+            "kind": "NPC"
+          },
+          "130670001": {
+            "type": "Text",
+            "id": 130670001,
+            "sectionId": 1306700,
+            "senderId": 1112,
+            "text": "Tell us about it",
+            "option": null,
+            "nextIds": [
+              130670002
+            ],
+            "kind": "NPC"
+          },
+          "130670002": {
+            "type": "Text",
+            "id": 130670002,
+            "sectionId": 1306700,
+            "senderId": 1302,
+            "text": "This trial of Beauty is especially dangerous",
+            "option": null,
+            "nextIds": [
+              130670003
+            ],
+            "kind": "NPC"
+          },
+          "130670003": {
+            "type": "Text",
+            "id": 130670003,
+            "sectionId": 1306700,
+            "senderId": 1302,
+            "text": "I've found <unbreak>145</unbreak> adorable dolls, but thought they were the Fools' bombs",
+            "option": null,
+            "nextIds": [
+              130670004
+            ],
+            "kind": "NPC"
+          },
+          "130670004": {
+            "type": "Text",
+            "id": 130670004,
+            "sectionId": 1306700,
+            "senderId": 1001,
+            "text": "Is this really not a trial of Elation or something...?",
+            "option": null,
+            "nextIds": [
+              130670005
+            ],
+            "kind": "NPC"
+          },
+          "130670005": {
+            "type": "Text",
+            "id": 130670005,
+            "sectionId": 1306700,
+            "senderId": 1302,
+            "text": "No matter what, please be patient, everyone",
+            "option": null,
+            "nextIds": [
+              130670006
+            ],
+            "kind": "NPC"
+          },
+          "130670006": {
+            "type": "Text",
+            "id": 130670006,
+            "sectionId": 1306700,
+            "senderId": 1302,
+            "text": "I have a feeling that as long as our virtuous patience can persuade Idrila with sincere conviction, even the most difficult of problems will be resolved",
+            "option": null,
+            "nextIds": [
+              130670007
+            ],
+            "kind": "NPC"
+          },
+          "130670007": {
+            "type": "Text",
+            "id": 130670007,
+            "sectionId": 1306700,
+            "senderId": 1003,
+            "text": "Mr. Argenti is right. Everyone, don't let your guard down",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1306800,
+        "startIds": [
+          130680000
+        ],
+        "messages": {
+          "130680000": {
+            "type": "Text",
+            "id": 130680000,
+            "sectionId": 1306800,
+            "senderId": 1112,
+            "text": "The IPC's Special Investigations Team is wrapping up here",
+            "option": null,
+            "nextIds": [
+              130680001
+            ],
+            "kind": "NPC"
+          },
+          "130680001": {
+            "type": "Text",
+            "id": 130680001,
+            "sectionId": 1306800,
+            "senderId": 1112,
+            "text": "We found a total of <unbreak>329</unbreak> dolls, but no bomb",
+            "option": null,
+            "nextIds": [
+              130680002
+            ],
+            "kind": "NPC"
+          },
+          "130680002": {
+            "type": "Text",
+            "id": 130680002,
+            "sectionId": 1306800,
+            "senderId": 1112,
+            "text": "Thought I'd drop this update with you guys",
+            "option": null,
+            "nextIds": [
+              130680003
+            ],
+            "kind": "NPC"
+          },
+          "130680003": {
+            "type": "Text",
+            "id": 130680003,
+            "sectionId": 1306800,
+            "senderId": 1315,
+            "text": "Even you guys can't do anything about it?",
+            "option": null,
+            "nextIds": [
+              130680004
+            ],
+            "kind": "NPC"
+          },
+          "130680004": {
+            "type": "Text",
+            "id": 130680004,
+            "sectionId": 1306800,
+            "senderId": 1315,
+            "text": "Holy forkin' shirtballs, this is going to be a killer",
+            "option": null,
+            "nextIds": [
+              130680005
+            ],
+            "kind": "NPC"
+          },
+          "130680005": {
+            "type": "Text",
+            "id": 130680005,
+            "sectionId": 1306800,
+            "senderId": 1001,
+            "text": "Don't give up! We're so close to <unbreak>999</unbreak>",
+            "option": null,
+            "nextIds": [
+              130680006
+            ],
+            "kind": "NPC"
+          },
+          "130680006": {
+            "type": "Text",
+            "id": 130680006,
+            "sectionId": 1306800,
+            "senderId": 1001,
+            "text": "The Express Crew is also about to be done!",
+            "option": null,
+            "nextIds": [
+              130680007
+            ],
+            "kind": "NPC"
+          },
+          "130680007": {
+            "type": "Text",
+            "id": 130680007,
+            "sectionId": 1306800,
+            "senderId": 1112,
+            "text": "Keep up the good work, everyone. I'll be taking over the evac team now",
+            "option": null,
+            "nextIds": [
+              130680008
+            ],
+            "kind": "NPC"
+          },
+          "130680008": {
+            "type": "Text",
+            "id": 130680008,
+            "sectionId": 1306800,
+            "senderId": 1112,
+            "text": "Good luck, everyone",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1306900,
+        "startIds": [
+          130690000
+        ],
+        "messages": {
+          "130690000": {
+            "type": "Text",
+            "id": 130690000,
+            "sectionId": 1306900,
+            "senderId": 1001,
+            "text": "Good news!",
+            "option": null,
+            "nextIds": [
+              130690001
+            ],
+            "kind": "NPC"
+          },
+          "130690001": {
+            "type": "Text",
+            "id": 130690001,
+            "sectionId": 1306900,
+            "senderId": 1001,
+            "text": "We've found the remaining <unbreak>172</unbreak> dolls here",
+            "option": null,
+            "nextIds": [
+              130690002
+            ],
+            "kind": "NPC"
+          },
+          "130690002": {
+            "type": "Text",
+            "id": 130690002,
+            "sectionId": 1306900,
+            "senderId": 1001,
+            "text": "But",
+            "option": null,
+            "nextIds": [
+              130690003
+            ],
+            "kind": "NPC"
+          },
+          "130690003": {
+            "type": "Text",
+            "id": 130690003,
+            "sectionId": 1306900,
+            "senderId": 1002,
+            "text": "They're also just dolls",
+            "option": null,
+            "nextIds": [
+              130690004
+            ],
+            "kind": "NPC"
+          },
+          "130690004": {
+            "type": "Text",
+            "id": 130690004,
+            "sectionId": 1306900,
+            "senderId": 1315,
+            "text": "What's going on? That girly pulling a fast one on us?",
+            "option": null,
+            "nextIds": [
+              130690005
+            ],
+            "kind": "NPC"
+          },
+          "130690005": {
+            "type": "Text",
+            "id": 130690005,
+            "sectionId": 1306900,
+            "senderId": null,
+            "text": "\"From Where to View Fireworks\" has joined the chat",
+            "option": null,
+            "nextIds": [
+              130690006
+            ],
+            "kind": "System"
+          },
+          "130690006": {
+            "type": "Text",
+            "id": 130690006,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "Long time no see everyone!",
+            "option": null,
+            "nextIds": [
+              130690007
+            ],
+            "kind": "NPC"
+          },
+          "130690007": {
+            "type": "Sticker",
+            "id": 130690007,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "(Door opening sticker)",
+            "option": null,
+            "nextIds": [
+              130690008
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 121008,
+              "path": "icon/emoji/121008.png",
+              "keywords": "I Am Here"
+            }
+          },
+          "130690008": {
+            "type": "Text",
+            "id": 130690008,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "Miss Sparkle is delighted that everyone is busying themselves over her!",
+            "option": null,
+            "nextIds": [
+              130690009
+            ],
+            "kind": "NPC"
+          },
+          "130690009": {
+            "type": "Text",
+            "id": 130690009,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "And so, she's had me deliver a message!",
+            "option": null,
+            "nextIds": [
+              130690010,
+              130690012
+            ],
+            "kind": "NPC"
+          },
+          "130690010": {
+            "type": "Text",
+            "id": 130690010,
+            "sectionId": 1306900,
+            "senderId": null,
+            "text": "??? I didn't add you to the group",
+            "option": "Why're you here again?",
+            "nextIds": [
+              130690011
+            ],
+            "kind": "Player"
+          },
+          "130690011": {
+            "type": "Text",
+            "id": 130690011,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "That's Miss Sparkle for you. She doesn't need an invite",
+            "option": null,
+            "nextIds": [
+              130690014
+            ],
+            "kind": "NPC"
+          },
+          "130690014": {
+            "type": "Text",
+            "id": 130690014,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "All right, enough jokes! Miss Sparkle says this message is super important, so listen up",
+            "option": null,
+            "nextIds": [
+              130690015
+            ],
+            "kind": "NPC"
+          },
+          "130690015": {
+            "type": "Text",
+            "id": 130690015,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "There are actually <unbreak>1000</unbreak> dolls on the Radiant Feldspar — to reward everyone's efforts, Miss Sparkle has decided to be magnanimous: She will give the coordinates of the final doll with the bomb to everyone!",
+            "option": null,
+            "nextIds": [
+              130690016
+            ],
+            "kind": "NPC"
+          },
+          "130690016": {
+            "type": "Text",
+            "id": 130690016,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "The time I've allotted to everyone far exceeds ten minutes, but let's all try to hurry up, eh? Something major's going down if you're slowpokes!",
+            "option": null,
+            "nextIds": [
+              130690017
+            ],
+            "kind": "NPC"
+          },
+          "130690017": {
+            "type": "Text",
+            "id": 130690017,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "@Robin I'm sure you don't want everyone to know that \"The Family's protection over Penacony has been rendered useless,\" do you...",
+            "option": null,
+            "nextIds": [
+              130690018
+            ],
+            "kind": "NPC"
+          },
+          "130690018": {
+            "type": "Text",
+            "id": 130690018,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "Hurry up and move out, world-saving heroes!",
+            "option": null,
+            "nextIds": [
+              130690019
+            ],
+            "kind": "NPC"
+          },
+          "130690019": {
+            "type": "Sticker",
+            "id": 130690019,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "(Lighter sticker)",
+            "option": null,
+            "nextIds": [
+              130690020
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 121007,
+              "path": "icon/emoji/121007.png",
+              "keywords": "Lighter"
+            }
+          },
+          "130690020": {
+            "type": "Text",
+            "id": 130690020,
+            "sectionId": 1306900,
+            "senderId": null,
+            "text": "\"From Where to View Fireworks\" has left the chat",
+            "option": null,
+            "nextIds": [
+              130690021
+            ],
+            "kind": "System"
+          },
+          "130690021": {
+            "type": "Text",
+            "id": 130690021,
+            "sectionId": 1306900,
+            "senderId": 1309,
+            "text": "Everyone, don't be misdirected by her appalling prank",
+            "option": null,
+            "nextIds": [
+              130690022
+            ],
+            "kind": "NPC"
+          },
+          "130690022": {
+            "type": "Text",
+            "id": 130690022,
+            "sectionId": 1306900,
+            "senderId": 1309,
+            "text": "We'll gather at the coordinates",
+            "option": null,
+            "nextIds": [
+              130690023
+            ],
+            "kind": "NPC"
+          },
+          "130690023": {
+            "type": "Text",
+            "id": 130690023,
+            "sectionId": 1306900,
+            "senderId": 1001,
+            "text": "When we catch her... we'll definitely teach her a lesson she won't soon forget!",
+            "option": null,
+            "nextIds": [
+              130690024
+            ],
+            "kind": "NPC"
+          },
+          "130690024": {
+            "type": "Sticker",
+            "id": 130690024,
+            "sectionId": 1306900,
+            "senderId": 1001,
+            "text": "(Angry sticker)",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30006,
+              "path": "icon/emoji/30006.png",
+              "keywords": "Angry"
+            }
+          },
+          "130690012": {
+            "type": "Text",
+            "id": 130690012,
+            "sectionId": 1306900,
+            "senderId": null,
+            "text": "I knew this matter wouldn't be so simple...",
+            "option": "I knew it...",
+            "nextIds": [
+              130690013
+            ],
+            "kind": "Player"
+          },
+          "130690013": {
+            "type": "Text",
+            "id": 130690013,
+            "sectionId": 1306900,
+            "senderId": 144,
+            "text": "You've grown some brain cells, Gray Hair! Miss Sparkle is pleased",
+            "option": null,
+            "nextIds": [
+              130690014
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1307100,
+        "startIds": [
+          130710000
+        ],
+        "messages": {
+          "130710000": {
+            "type": "Text",
+            "id": 130710000,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "We've got a problem, friends",
+            "option": "Report the situation about the bomb.",
+            "nextIds": [
+              130710001
+            ],
+            "kind": "Player"
+          },
+          "130710001": {
+            "type": "Text",
+            "id": 130710001,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "There's an imaginary neutron bomb on this ship",
+            "option": null,
+            "nextIds": [
+              130710002
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130710002": {
+            "type": "Text",
+            "id": 130710002,
+            "sectionId": 1307100,
+            "senderId": 1001,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              130710003
+            ],
+            "kind": "NPC"
+          },
+          "130710003": {
+            "type": "Text",
+            "id": 130710003,
+            "sectionId": 1307100,
+            "senderId": 1004,
+            "text": "What's happening?",
+            "option": null,
+            "nextIds": [
+              130710004
+            ],
+            "kind": "NPC"
+          },
+          "130710004": {
+            "type": "Text",
+            "id": 130710004,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "It's all thanks to that Masked Fool",
+            "option": "Keep reporting about the bomb.",
+            "nextIds": [
+              130710005
+            ],
+            "kind": "Player"
+          },
+          "130710005": {
+            "type": "Text",
+            "id": 130710005,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "\"From Where to View Fireworks\" has joined the chat",
+            "option": null,
+            "nextIds": [
+              130710006
+            ],
+            "kind": "System"
+          },
+          "130710006": {
+            "type": "Text",
+            "id": 130710006,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "Miss Sparkle will explain the situation personally!",
+            "option": null,
+            "nextIds": [
+              130710007
+            ],
+            "kind": "NPC"
+          },
+          "130710007": {
+            "type": "Sticker",
+            "id": 130710007,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "(Impish lady sticker)",
+            "option": null,
+            "nextIds": [
+              130710008,
+              130710010,
+              130710012
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 121006,
+              "path": "icon/emoji/121006.png",
+              "keywords": "Heh Heh"
+            }
+          },
+          "130710008": {
+            "type": "Text",
+            "id": 130710008,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "??? I didn't add you to the group",
+            "option": "How did you get into the group?",
+            "nextIds": [
+              130710009
+            ],
+            "kind": "Player"
+          },
+          "130710009": {
+            "type": "Text",
+            "id": 130710009,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "That's Miss Sparkle for you. She doesn't need an invite",
+            "option": null,
+            "nextIds": [
+              130710015
+            ],
+            "kind": "NPC"
+          },
+          "130710015": {
+            "type": "Text",
+            "id": 130710015,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "All right, down to business!",
+            "option": null,
+            "nextIds": [
+              130710016
+            ],
+            "kind": "NPC"
+          },
+          "130710016": {
+            "type": "Text",
+            "id": 130710016,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "Is everyone flabbergasted yet? Weren't Miss Sparkle's buttons all confiscated already? Why is the bomb timer still active?",
+            "option": null,
+            "nextIds": [
+              130710017
+            ],
+            "kind": "NPC"
+          },
+          "130710017": {
+            "type": "Text",
+            "id": 130710017,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "Actually, all credit goes to our brave Hounds! Thanks to their meticulous efforts in gathering the buttons, Miss Sparkle was able to press all of them one by one~",
+            "option": null,
+            "nextIds": [
+              130710018
+            ],
+            "kind": "NPC"
+          },
+          "130710018": {
+            "type": "Text",
+            "id": 130710018,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "Miss Sparkle's certainly worked her finger to the bone... Pressing through a whopping <unbreak>100,000</unbreak> buttons, she spent a whole <unbreak>48</unbreak> system hours on it!",
+            "option": null,
+            "nextIds": [
+              130710019
+            ],
+            "kind": "NPC"
+          },
+          "130710019": {
+            "type": "Sticker",
+            "id": 130710019,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "(Crying mask sticker)",
+            "option": null,
+            "nextIds": [
+              130710020
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 121005,
+              "path": "icon/emoji/121005.png",
+              "keywords": "Akanbe"
+            }
+          },
+          "130710020": {
+            "type": "Text",
+            "id": 130710020,
+            "sectionId": 1307100,
+            "senderId": 1001,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              130710021
+            ],
+            "kind": "NPC"
+          },
+          "130710021": {
+            "type": "Text",
+            "id": 130710021,
+            "sectionId": 1307100,
+            "senderId": 1002,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              130710022
+            ],
+            "kind": "NPC"
+          },
+          "130710022": {
+            "type": "Text",
+            "id": 130710022,
+            "sectionId": 1307100,
+            "senderId": 1315,
+            "text": "What the fridge is wrong with you???",
+            "option": null,
+            "nextIds": [
+              130710023
+            ],
+            "kind": "NPC"
+          },
+          "130710023": {
+            "type": "Text",
+            "id": 130710023,
+            "sectionId": 1307100,
+            "senderId": 1302,
+            "text": "Do not be crass, my silver cowboy!",
+            "option": null,
+            "nextIds": [
+              130710024,
+              130710025
+            ],
+            "kind": "NPC"
+          },
+          "130710024": {
+            "type": "Text",
+            "id": 130710024,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "...",
+            "option": "...",
+            "nextIds": [
+              130710026
+            ],
+            "kind": "Player"
+          },
+          "130710026": {
+            "type": "Text",
+            "id": 130710026,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "Your appreciation is received! Of course, it was still down to Miss Sparkle's luck",
+            "option": null,
+            "nextIds": [
+              130710027
+            ],
+            "kind": "NPC"
+          },
+          "130710027": {
+            "type": "Text",
+            "id": 130710027,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "I don't know why, but there were a total of <unbreak>16,537</unbreak> esteemed Dreamchasers who volunteered to help Mistress Sparkle bear her burden... Girls who like to smile are always the ones with decent luck~",
+            "option": null,
+            "nextIds": [
+              130710028
+            ],
+            "kind": "NPC"
+          },
+          "130710028": {
+            "type": "Text",
+            "id": 130710028,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "Anyway, the bomb Miss Sparkle placed on the cruise ship is hidden among <unbreak>999</unbreak> dolls",
+            "option": null,
+            "nextIds": [
+              130710029
+            ],
+            "kind": "NPC"
+          },
+          "130710029": {
+            "type": "Text",
+            "id": 130710029,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "You bright-eyed people will surely find where the real bomb is hidden. Good luck!",
+            "option": null,
+            "nextIds": [
+              130710030
+            ],
+            "kind": "NPC"
+          },
+          "130710030": {
+            "type": "Text",
+            "id": 130710030,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "\"From Where to View Fireworks\" has left the chat",
+            "option": null,
+            "nextIds": [
+              130710031
+            ],
+            "kind": "System"
+          },
+          "130710031": {
+            "type": "Text",
+            "id": 130710031,
+            "sectionId": 1307100,
+            "senderId": 1001,
+            "text": "How many???",
+            "option": null,
+            "nextIds": [
+              130710032
+            ],
+            "kind": "NPC"
+          },
+          "130710032": {
+            "type": "Text",
+            "id": 130710032,
+            "sectionId": 1307100,
+            "senderId": 1003,
+            "text": "Don't panic. We'll deal with this together",
+            "option": null,
+            "nextIds": [
+              130710033
+            ],
+            "kind": "NPC"
+          },
+          "130710033": {
+            "type": "Text",
+            "id": 130710033,
+            "sectionId": 1307100,
+            "senderId": 1309,
+            "text": "Everyone, please don't make any commotion to cause unnecessary panic",
+            "option": null,
+            "nextIds": [
+              130710034
+            ],
+            "kind": "NPC"
+          },
+          "130710034": {
+            "type": "Text",
+            "id": 130710034,
+            "sectionId": 1307100,
+            "senderId": 1309,
+            "text": "I will arrange for The Family members to prep for evac. But we'll still have to rely on you all to find and defuse the bomb",
+            "option": null,
+            "nextIds": [
+              130710035
+            ],
+            "kind": "NPC"
+          },
+          "130710035": {
+            "type": "Text",
+            "id": 130710035,
+            "sectionId": 1307100,
+            "senderId": 1309,
+            "text": "The Oak Family has always relied on the strength of Order to guarantee everyone that \"death never occurs in dreams\"",
+            "option": null,
+            "nextIds": [
+              130710036
+            ],
+            "kind": "NPC"
+          },
+          "130710036": {
+            "type": "Text",
+            "id": 130710036,
+            "sectionId": 1307100,
+            "senderId": 1309,
+            "text": "But the blessings of Order are now lost... Its consequences may be unimaginably detrimental",
+            "option": null,
+            "nextIds": [
+              130710037
+            ],
+            "kind": "NPC"
+          },
+          "130710037": {
+            "type": "Text",
+            "id": 130710037,
+            "sectionId": 1307100,
+            "senderId": 1002,
+            "text": "I agree. If anyone finds anything, please update the group promptly.",
+            "option": null,
+            "nextIds": [
+              130710038
+            ],
+            "kind": "NPC"
+          },
+          "130710038": {
+            "type": "Text",
+            "id": 130710038,
+            "sectionId": 1307100,
+            "senderId": 1302,
+            "text": "The Beauty is duty-bound!",
+            "option": null,
+            "nextIds": [
+              130710039
+            ],
+            "kind": "NPC"
+          },
+          "130710039": {
+            "type": "Text",
+            "id": 130710039,
+            "sectionId": 1307100,
+            "senderId": 1112,
+            "text": "The IPC will lend our aid too. Don't worry, everyone",
+            "option": null,
+            "nextIds": [
+              130710040
+            ],
+            "kind": "NPC"
+          },
+          "130710040": {
+            "type": "Text",
+            "id": 130710040,
+            "sectionId": 1307100,
+            "senderId": 1304,
+            "text": "Wanna bet who will survive this?",
+            "option": null,
+            "nextIds": [
+              130710041
+            ],
+            "kind": "NPC"
+          },
+          "130710041": {
+            "type": "Text",
+            "id": 130710041,
+            "sectionId": 1307100,
+            "senderId": 1305,
+            "text": "k",
+            "option": null,
+            "nextIds": [
+              130710042
+            ],
+            "kind": "NPC"
+          },
+          "130710042": {
+            "type": "Text",
+            "id": 130710042,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "Dr. Ratio has left the chat",
+            "option": null,
+            "nextIds": [
+              130710043
+            ],
+            "kind": "System"
+          },
+          "130710043": {
+            "type": "Text",
+            "id": 130710043,
+            "sectionId": 1307100,
+            "senderId": 1315,
+            "text": "Let's gooooooo!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130710025": {
+            "type": "Text",
+            "id": 130710025,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "All the other things you could've done with this level of patience...",
+            "option": "That sure is hard work...",
+            "nextIds": [
+              130710026
+            ],
+            "kind": "Player"
+          },
+          "130710010": {
+            "type": "Text",
+            "id": 130710010,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "Fine, spill it then",
+            "option": "Explain.",
+            "nextIds": [
+              130710011
+            ],
+            "kind": "Player"
+          },
+          "130710011": {
+            "type": "Text",
+            "id": 130710011,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "You're good at reading the room. I like that!",
+            "option": null,
+            "nextIds": [
+              130710015
+            ],
+            "kind": "NPC"
+          },
+          "130710012": {
+            "type": "Text",
+            "id": 130710012,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "How dare you show yourself in this group???",
+            "option": "Turning yourself in, huh?",
+            "nextIds": [
+              130710013
+            ],
+            "kind": "Player"
+          },
+          "130710013": {
+            "type": "Text",
+            "id": 130710013,
+            "sectionId": 1307100,
+            "senderId": null,
+            "text": "Time for us to teach you a lesson!",
+            "option": null,
+            "nextIds": [
+              130710014
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130710014": {
+            "type": "Text",
+            "id": 130710014,
+            "sectionId": 1307100,
+            "senderId": 144,
+            "text": "Sure! Then come through the internet and try to catch me",
+            "option": null,
+            "nextIds": [
+              130710015
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 143,
+    "name": "<unbreak>1111111111</unbreak>",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 99
+  }
+}

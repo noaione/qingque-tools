@@ -2481,6 +2481,238 @@
           "type": "Branch"
         }
       }
+    ],
+    [
+      {
+        "type": "MissionMessage",
+        "id": 1309600,
+        "startIds": [
+          130960000
+        ],
+        "messages": {
+          "130960000": {
+            "type": "Text",
+            "id": 130960000,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "Beep beep beep beep",
+            "option": null,
+            "nextIds": [
+              130960001
+            ],
+            "kind": "NPC"
+          },
+          "130960001": {
+            "type": "Text",
+            "id": 130960001,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "Boop boop boop boop",
+            "option": null,
+            "nextIds": [
+              130960002,
+              130960003
+            ],
+            "kind": "NPC"
+          },
+          "130960002": {
+            "type": "Text",
+            "id": 130960002,
+            "sectionId": 1309600,
+            "senderId": null,
+            "text": "Hey! Hey, hey! Beep beep boop boop! Say something!",
+            "option": "Tick-tock, tick-tock, tick-tock!",
+            "nextIds": [
+              130960005
+            ],
+            "kind": "Player"
+          },
+          "130960005": {
+            "type": "Text",
+            "id": 130960005,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "I just found out that the customer service, medical, catering, and entertainment departments now belong to you",
+            "option": null,
+            "nextIds": [
+              130960006
+            ],
+            "kind": "NPC"
+          },
+          "130960006": {
+            "type": "Text",
+            "id": 130960006,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "You already overcame the Formidable Four... my subordinates",
+            "option": null,
+            "nextIds": [
+              130960007
+            ],
+            "kind": "NPC"
+          },
+          "130960007": {
+            "type": "Text",
+            "id": 130960007,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "Head to the top of the airship next. I will be waiting for you in the secret room",
+            "option": null,
+            "nextIds": [
+              130960008,
+              130960012
+            ],
+            "kind": "NPC"
+          },
+          "130960008": {
+            "type": "Text",
+            "id": 130960008,
+            "sectionId": 1309600,
+            "senderId": null,
+            "text": "...What? What's with the mystery?",
+            "option": "What are you? Trying for a fight?",
+            "nextIds": [
+              130960009
+            ],
+            "kind": "Player"
+          },
+          "130960009": {
+            "type": "Text",
+            "id": 130960009,
+            "sectionId": 1309600,
+            "senderId": null,
+            "text": "Are you trying to schedule a fight with me? Send me the location. I'll come and smash you",
+            "option": null,
+            "nextIds": [
+              130960010
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130960010": {
+            "type": "Text",
+            "id": 130960010,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              130960011
+            ],
+            "kind": "NPC"
+          },
+          "130960011": {
+            "type": "Text",
+            "id": 130960011,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "What? No, that's not what I mean. Never mind. You'll understand when you get here",
+            "option": null,
+            "nextIds": [
+              130960015
+            ],
+            "kind": "NPC"
+          },
+          "130960015": {
+            "type": "Text",
+            "id": 130960015,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "The airship's scenery is great, but just a shame that only the strong are worthy of treading upon the deck",
+            "option": null,
+            "nextIds": [
+              130960016
+            ],
+            "kind": "NPC"
+          },
+          "130960016": {
+            "type": "Text",
+            "id": 130960016,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "Can you hear the tick-tocking? Only the strongest clock will make the mightiest sound",
+            "option": null,
+            "nextIds": [
+              130960017
+            ],
+            "kind": "NPC"
+          },
+          "130960017": {
+            "type": "Text",
+            "id": 130960017,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "I can hear the ticking within your heart. Come quick, I'll be waiting for you in the room where the gifts were hidden",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130960012": {
+            "type": "Text",
+            "id": 130960012,
+            "sectionId": 1309600,
+            "senderId": null,
+            "text": "I think I've seen this on TV before... Based on the plot, might you be the president of the Music Club?",
+            "option": "Are you the Music Club president?",
+            "nextIds": [
+              130960013
+            ],
+            "kind": "Player"
+          },
+          "130960013": {
+            "type": "Text",
+            "id": 130960013,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "?",
+            "option": null,
+            "nextIds": [
+              130960014
+            ],
+            "kind": "NPC"
+          },
+          "130960014": {
+            "type": "Text",
+            "id": 130960014,
+            "sectionId": 1309600,
+            "senderId": 129,
+            "text": "What's that?",
+            "option": null,
+            "nextIds": [
+              130960015
+            ],
+            "kind": "NPC"
+          },
+          "130960003": {
+            "type": "Text",
+            "id": 130960003,
+            "sectionId": 1309600,
+            "senderId": null,
+            "text": "?",
+            "option": "Speak human plz",
+            "nextIds": [
+              130960004
+            ],
+            "kind": "Player"
+          },
+          "130960004": {
+            "type": "Text",
+            "id": 130960004,
+            "sectionId": 1309600,
+            "senderId": null,
+            "text": "Please explain in human words?",
+            "option": null,
+            "nextIds": [
+              130960005
+            ],
+            "kind": "PlayerAuto"
+          }
+        },
+        "mission": {
+          "id": 4015503,
+          "name": "Dreams and the Art of Clock Maintenance (II)",
+          "type": "Branch"
+        }
+      }
     ]
   ],
   "info": {

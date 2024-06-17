@@ -1,0 +1,683 @@
+{
+  "id": 156,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1309400,
+        "startIds": [
+          130940000
+        ],
+        "messages": {
+          "130940000": {
+            "type": "Text",
+            "id": 130940000,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "The Message Doll has initiated a temporary conversation.",
+            "option": null,
+            "nextIds": [
+              130940001
+            ],
+            "kind": "System"
+          },
+          "130940001": {
+            "type": "Text",
+            "id": 130940001,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Cool",
+            "option": null,
+            "nextIds": [
+              130940002
+            ],
+            "kind": "NPC"
+          },
+          "130940002": {
+            "type": "Text",
+            "id": 130940002,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "That feels so cool, don't you think?",
+            "option": null,
+            "nextIds": [
+              130940003,
+              130940008,
+              130940013
+            ],
+            "kind": "NPC"
+          },
+          "130940003": {
+            "type": "Text",
+            "id": 130940003,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Huh? More bombs to defuse?",
+            "option": "Wait, more bombs?",
+            "nextIds": [
+              130940004
+            ],
+            "kind": "Player"
+          },
+          "130940004": {
+            "type": "Text",
+            "id": 130940004,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Just give me the coordinates, and I'll defuse the bomb",
+            "option": null,
+            "nextIds": [
+              130940005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130940005": {
+            "type": "Text",
+            "id": 130940005,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Well, there are only <unbreak>1,000</unbreak> bombs. Miss Sparkle never breaks her words~",
+            "option": null,
+            "nextIds": [
+              130940006
+            ],
+            "kind": "NPC"
+          },
+          "130940006": {
+            "type": "Sticker",
+            "id": 130940006,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "[image] Crying mask sticker",
+            "option": null,
+            "nextIds": [
+              130940007
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 121005,
+              "path": "icon/emoji/121005.png",
+              "keywords": "Akanbe"
+            }
+          },
+          "130940007": {
+            "type": "Text",
+            "id": 130940007,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "I'm just here to spill the beans on Miss Sparkle's motive, got it?",
+            "option": null,
+            "nextIds": [
+              130940017,
+              130940018
+            ],
+            "kind": "NPC"
+          },
+          "130940017": {
+            "type": "Text",
+            "id": 130940017,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Explain",
+            "option": "Do tell.",
+            "nextIds": [
+              130940021
+            ],
+            "kind": "Player"
+          },
+          "130940021": {
+            "type": "Text",
+            "id": 130940021,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Do you remember the prophesied \"three deaths\"?",
+            "option": null,
+            "nextIds": [
+              130940022
+            ],
+            "kind": "NPC"
+          },
+          "130940022": {
+            "type": "Text",
+            "id": 130940022,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "What's that got to do with you?",
+            "option": null,
+            "nextIds": [
+              130940023
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130940023": {
+            "type": "Text",
+            "id": 130940023,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Who knows? All I can say is that someone paid a hefty sum to hire Miss Sparkle as the director at Penacony.",
+            "option": null,
+            "nextIds": [
+              130940024
+            ],
+            "kind": "NPC"
+          },
+          "130940024": {
+            "type": "Text",
+            "id": 130940024,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Seems like it's a friend she made while gaming. The client told Miss Sparkle to make sure the \"three deaths\" happen in the safest way possible",
+            "option": null,
+            "nextIds": [
+              130940025
+            ],
+            "kind": "NPC"
+          },
+          "130940025": {
+            "type": "Text",
+            "id": 130940025,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "In return, they shared their \"script\" with Miss Sparkle",
+            "option": null,
+            "nextIds": [
+              130940026
+            ],
+            "kind": "NPC"
+          },
+          "130940026": {
+            "type": "Text",
+            "id": 130940026,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "And what happened next... Well, a smart cookie like you can surely guess, Gray Hair!",
+            "option": null,
+            "nextIds": [
+              130940027
+            ],
+            "kind": "NPC"
+          },
+          "130940027": {
+            "type": "Text",
+            "id": 130940027,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "However, Miss Sparkle isn't some control freak. She let the actors decide how the story would unfold for themselves",
+            "option": null,
+            "nextIds": [
+              130940028
+            ],
+            "kind": "NPC"
+          },
+          "130940028": {
+            "type": "Text",
+            "id": 130940028,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Surprise question! Did you press the \"Mutually Assured Destruction Button\" that Miss Sparkle gave you?",
+            "option": null,
+            "nextIds": [
+              130940029,
+              130940031,
+              130940034
+            ],
+            "kind": "NPC"
+          },
+          "130940029": {
+            "type": "Text",
+            "id": 130940029,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Yeah, I literally mashed it",
+            "option": "Yeah, I did.",
+            "nextIds": [
+              130940030
+            ],
+            "kind": "Player"
+          },
+          "130940030": {
+            "type": "Text",
+            "id": 130940030,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Well, congratulations! You're the one who reshaped the third death!",
+            "option": null,
+            "nextIds": [
+              130940037
+            ],
+            "kind": "NPC"
+          },
+          "130940037": {
+            "type": "Text",
+            "id": 130940037,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "She soared up in the sky and set off the most epic fireworks Penacony had ever seen, giving a grand finale to this beautiful dream",
+            "option": null,
+            "nextIds": [
+              130940038
+            ],
+            "kind": "NPC"
+          },
+          "130940038": {
+            "type": "Text",
+            "id": 130940038,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "And she herself was safe and sound! Happiest ending ever!",
+            "option": null,
+            "nextIds": [
+              130940039
+            ],
+            "kind": "NPC"
+          },
+          "130940039": {
+            "type": "Text",
+            "id": 130940039,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "So, congrats, Gray Hair. After all, you're the one who made the call and actually saved that firefly girl",
+            "option": null,
+            "nextIds": [
+              130940040
+            ],
+            "kind": "NPC"
+          },
+          "130940040": {
+            "type": "Text",
+            "id": 130940040,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "And that means Miss Sparkle will get paid as promised!",
+            "option": null,
+            "nextIds": [
+              130940041
+            ],
+            "kind": "NPC"
+          },
+          "130940041": {
+            "type": "Text",
+            "id": 130940041,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Oh",
+            "option": null,
+            "nextIds": [
+              130940042
+            ],
+            "kind": "NPC"
+          },
+          "130940042": {
+            "type": "Text",
+            "id": 130940042,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "By the way, to celebrate the successful grand finale, Miss Sparkle has decided to share another secret with you, Gray Hair",
+            "option": null,
+            "nextIds": [
+              130940043,
+              130940044
+            ],
+            "kind": "NPC"
+          },
+          "130940043": {
+            "type": "Text",
+            "id": 130940043,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "What is it?",
+            "option": "What is it?",
+            "nextIds": [
+              130940045
+            ],
+            "kind": "Player"
+          },
+          "130940045": {
+            "type": "Text",
+            "id": 130940045,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "You know what?",
+            "option": null,
+            "nextIds": [
+              130940046
+            ],
+            "kind": "NPC"
+          },
+          "130940046": {
+            "type": "Text",
+            "id": 130940046,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Actually...",
+            "option": null,
+            "nextIds": [
+              130940047
+            ],
+            "kind": "NPC"
+          },
+          "130940047": {
+            "type": "Text",
+            "id": 130940047,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Dr. Primitive is a huge fan of bananas",
+            "option": null,
+            "nextIds": [
+              130940048,
+              130940049,
+              130940050
+            ],
+            "kind": "NPC"
+          },
+          "130940048": {
+            "type": "Text",
+            "id": 130940048,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Huh?",
+            "option": "Huh?",
+            "nextIds": [
+              130940051
+            ],
+            "kind": "Player"
+          },
+          "130940051": {
+            "type": "Text",
+            "id": 130940051,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Message failed to send.",
+            "option": null,
+            "nextIds": [
+              130940052
+            ],
+            "kind": "System"
+          },
+          "130940052": {
+            "type": "Text",
+            "id": 130940052,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "This account has been deleted.",
+            "option": null,
+            "nextIds": [],
+            "kind": "System"
+          },
+          "130940049": {
+            "type": "Text",
+            "id": 130940049,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "What do you mean?",
+            "option": "What do you mean?",
+            "nextIds": [
+              130940051
+            ],
+            "kind": "Player"
+          },
+          "130940050": {
+            "type": "Text",
+            "id": 130940050,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Go on.",
+            "option": "Go on.",
+            "nextIds": [
+              130940051
+            ],
+            "kind": "Player"
+          },
+          "130940044": {
+            "type": "Text",
+            "id": 130940044,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Alright, I'm all ears!",
+            "option": "More juicy gossip? Tell me more.",
+            "nextIds": [
+              130940045
+            ],
+            "kind": "Player"
+          },
+          "130940031": {
+            "type": "Text",
+            "id": 130940031,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "No, that button seems way too suspicious",
+            "option": "No, I didn't.",
+            "nextIds": [
+              130940032
+            ],
+            "kind": "Player"
+          },
+          "130940032": {
+            "type": "Text",
+            "id": 130940032,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Hmhm, you're a cautious one, huh?",
+            "option": null,
+            "nextIds": [
+              130940033
+            ],
+            "kind": "NPC"
+          },
+          "130940033": {
+            "type": "Text",
+            "id": 130940033,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "But no worries. Since more than half of the actors pressed the button, the third death went exactly as planned!",
+            "option": null,
+            "nextIds": [
+              130940037
+            ],
+            "kind": "NPC"
+          },
+          "130940034": {
+            "type": "Text",
+            "id": 130940034,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "I didn't even get the button!",
+            "option": "I couldn't do it at all.",
+            "nextIds": [
+              130940035
+            ],
+            "kind": "Player"
+          },
+          "130940035": {
+            "type": "Text",
+            "id": 130940035,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Oh, really? Well, good luck scoring a ticket next time then!",
+            "option": null,
+            "nextIds": [
+              130940036
+            ],
+            "kind": "NPC"
+          },
+          "130940036": {
+            "type": "Text",
+            "id": 130940036,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "But no worries. Since more than half of the actors pressed the button, the third death went exactly as planned!",
+            "option": null,
+            "nextIds": [
+              130940037
+            ],
+            "kind": "NPC"
+          },
+          "130940018": {
+            "type": "Text",
+            "id": 130940018,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "I'm going offline, catch you later",
+            "option": "Not interested.",
+            "nextIds": [
+              130940019
+            ],
+            "kind": "Player"
+          },
+          "130940019": {
+            "type": "Text",
+            "id": 130940019,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "No, don't go offline! Please! Please!",
+            "option": null,
+            "nextIds": [
+              130940020
+            ],
+            "kind": "NPC"
+          },
+          "130940020": {
+            "type": "Text",
+            "id": 130940020,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Heh, just kidding~ Let's get back to business!",
+            "option": null,
+            "nextIds": [
+              130940021
+            ],
+            "kind": "NPC"
+          },
+          "130940008": {
+            "type": "Text",
+            "id": 130940008,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Come on!",
+            "option": "Please, just leave me alone.",
+            "nextIds": [
+              130940009
+            ],
+            "kind": "Player"
+          },
+          "130940009": {
+            "type": "Text",
+            "id": 130940009,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Don't text me anymore. I don't want Pom-Pom to get the wrong idea",
+            "option": null,
+            "nextIds": [
+              130940010
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130940010": {
+            "type": "Text",
+            "id": 130940010,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Think you can mess with me? Well, you just stepped on chewing gum. I'll stick to you forever!",
+            "option": null,
+            "nextIds": [
+              130940011
+            ],
+            "kind": "NPC"
+          },
+          "130940011": {
+            "type": "Sticker",
+            "id": 130940011,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "[image] Naughty smile sticker",
+            "option": null,
+            "nextIds": [
+              130940012
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 121006,
+              "path": "icon/emoji/121006.png",
+              "keywords": "Heh Heh"
+            }
+          },
+          "130940012": {
+            "type": "Text",
+            "id": 130940012,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "By the way, Miss Sparkle hasn't even revealed her motive yet! Aren't you curious?",
+            "option": null,
+            "nextIds": [
+              130940017,
+              130940018
+            ],
+            "kind": "NPC"
+          },
+          "130940013": {
+            "type": "Text",
+            "id": 130940013,
+            "sectionId": 1309400,
+            "senderId": null,
+            "text": "Fireworks! Cool!",
+            "option": "Cool.",
+            "nextIds": [
+              130940014
+            ],
+            "kind": "Player"
+          },
+          "130940014": {
+            "type": "Text",
+            "id": 130940014,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "Yeah! You're getting the hang of it, aren't you?",
+            "option": null,
+            "nextIds": [
+              130940015
+            ],
+            "kind": "NPC"
+          },
+          "130940015": {
+            "type": "Text",
+            "id": 130940015,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "So, are you curious about why Miss Sparkle is doing all this?",
+            "option": null,
+            "nextIds": [
+              130940016
+            ],
+            "kind": "NPC"
+          },
+          "130940016": {
+            "type": "Sticker",
+            "id": 130940016,
+            "sectionId": 1309400,
+            "senderId": 156,
+            "text": "[image] Lighter sticker",
+            "option": null,
+            "nextIds": [
+              130940017,
+              130940018
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 121007,
+              "path": "icon/emoji/121007.png",
+              "keywords": "Lighter"
+            }
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 156,
+    "name": "Message Doll",
+    "signature": null,
+    "iconPath": "icon/avatar/202017.png",
+    "type": 2,
+    "camp": 11
+  }
+}

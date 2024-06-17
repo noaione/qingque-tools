@@ -87,7 +87,7 @@
             "id": 201330007,
             "sectionId": 2013300,
             "senderId": 1304,
-            "text": "But who knows, sometimes I too have my share of setbacks",
+            "text": "But who knows? Sometimes, I, too have my share of setbacks",
             "option": null,
             "nextIds": [
               201330008
@@ -343,7 +343,7 @@
             "sectionId": 2013400,
             "senderId": null,
             "text": "Doesn't matter to me anyway",
-            "option": "Casually roll the dice",
+            "option": "Casually roll the die",
             "nextIds": [
               201340016
             ],
@@ -488,7 +488,7 @@
             "sectionId": 2013400,
             "senderId": null,
             "text": "I think I'm in luck",
-            "option": "Casually roll the dice",
+            "option": "Casually roll the die",
             "nextIds": [
               201340031
             ],
@@ -573,7 +573,7 @@
             "sectionId": 2013400,
             "senderId": null,
             "text": "Easy-peasy",
-            "option": "Casually roll the dice",
+            "option": "Casually roll the die",
             "nextIds": [
               201340041
             ],
@@ -716,7 +716,7 @@
             "sectionId": 2013400,
             "senderId": null,
             "text": "What happened after that?",
-            "option": "Aggressively roll the dice",
+            "option": "Aggressively roll the die",
             "nextIds": [
               201340044
             ],
@@ -752,7 +752,7 @@
             "sectionId": 2013400,
             "senderId": null,
             "text": "This is surely a win, right?",
-            "option": "Aggressively roll the dice",
+            "option": "Aggressively roll the die",
             "nextIds": [
               201340034
             ],
@@ -788,7 +788,7 @@
             "sectionId": 2013400,
             "senderId": null,
             "text": "Give me a big one!",
-            "option": "Aggressively roll the dice",
+            "option": "Aggressively roll the die",
             "nextIds": [
               201340023
             ],

@@ -192,7 +192,7 @@
         },
         "mission": {
           "id": 2010905,
-          "name": "Rarely Affectionate (Part 1)",
+          "name": "Rarely Affectionate (I)",
           "type": "Companion"
         }
       }
@@ -303,7 +303,7 @@
         },
         "mission": {
           "id": 2010906,
-          "name": "Rarely Affectionate (Part 2)",
+          "name": "Rarely Affectionate (II)",
           "type": "Companion"
         }
       }

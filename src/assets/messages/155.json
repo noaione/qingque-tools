@@ -1,0 +1,120 @@
+{
+  "id": 155,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1309100,
+        "startIds": [
+          130910000
+        ],
+        "messages": {
+          "130910000": {
+            "type": "Text",
+            "id": 130910000,
+            "sectionId": 1309100,
+            "senderId": 155,
+            "text": "Hello, dear user! Current data suggests you have collected three arcade machines. Can you provide a quick review based on your gaming experience?",
+            "option": null,
+            "nextIds": [
+              130910001,
+              130910003,
+              130910005
+            ],
+            "kind": "NPC"
+          },
+          "130910001": {
+            "type": "Text",
+            "id": 130910001,
+            "sectionId": 1309100,
+            "senderId": null,
+            "text": "It's okay. Nothing too surprising, but not bad either.",
+            "option": "It's okay.",
+            "nextIds": [
+              130910002
+            ],
+            "kind": "Player"
+          },
+          "130910002": {
+            "type": "Text",
+            "id": 130910002,
+            "sectionId": 1309100,
+            "senderId": 155,
+            "text": "Thank you for your review! We will continue to adjust and optimize the game's content based on the feedback you have given for this test. Stay tuned!",
+            "option": null,
+            "nextIds": [
+              130910007
+            ],
+            "kind": "NPC"
+          },
+          "130910007": {
+            "type": "Text",
+            "id": 130910007,
+            "sectionId": 1309100,
+            "senderId": 155,
+            "text": "We will be offering generous rewards for the players involved in this test. Please complete the rest of your progress.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130910003": {
+            "type": "Text",
+            "id": 130910003,
+            "sectionId": 1309100,
+            "senderId": null,
+            "text": "Pretty interesting. You guys keep it up.",
+            "option": "Yeah, it's pretty fun.",
+            "nextIds": [
+              130910004
+            ],
+            "kind": "Player"
+          },
+          "130910004": {
+            "type": "Text",
+            "id": 130910004,
+            "sectionId": 1309100,
+            "senderId": 155,
+            "text": "Thank you for your review! Your support is our greatest motivation!",
+            "option": null,
+            "nextIds": [
+              130910007
+            ],
+            "kind": "NPC"
+          },
+          "130910005": {
+            "type": "Text",
+            "id": 130910005,
+            "sectionId": 1309100,
+            "senderId": null,
+            "text": "As for the game's quality, well, I'd rather play something else these days...",
+            "option": "Ain't that good",
+            "nextIds": [
+              130910006
+            ],
+            "kind": "Player"
+          },
+          "130910006": {
+            "type": "Text",
+            "id": 130910006,
+            "sectionId": 1309100,
+            "senderId": 155,
+            "text": "Thank you for your review! We are sorry that you are unsatisfied with your experience. We will do our best to adjust and optimize all aspects of the game as soon as possible.",
+            "option": null,
+            "nextIds": [
+              130910007
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 155,
+    "name": "Tinah",
+    "signature": null,
+    "iconPath": "icon/avatar/Tina.png",
+    "type": 2,
+    "camp": 11
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "id": 153,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1223900,
+        "startIds": [
+          122390001
+        ],
+        "messages": {
+          "122390001": {
+            "type": "Text",
+            "id": 122390001,
+            "sectionId": 1223900,
+            "senderId": null,
+            "text": "Dennis",
+            "option": null,
+            "nextIds": [
+              122390002
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122390002": {
+            "type": "Text",
+            "id": 122390002,
+            "sectionId": 1223900,
+            "senderId": null,
+            "text": "Dennis?",
+            "option": null,
+            "nextIds": [
+              122390003
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122390003": {
+            "type": "Text",
+            "id": 122390003,
+            "sectionId": 1223900,
+            "senderId": 153,
+            "text": "Not lobby manager Dennis but partygoer Dancy! Keep the difference in mind, my friend!",
+            "option": null,
+            "nextIds": [
+              122390004
+            ],
+            "kind": "NPC"
+          },
+          "122390004": {
+            "type": "Text",
+            "id": 122390004,
+            "sectionId": 1223900,
+            "senderId": 153,
+            "text": "So, {F#Ms.}{M#Mr.} {NICKNAME}, how's everything at work going?",
+            "option": null,
+            "nextIds": [
+              122390005,
+              122390011
+            ],
+            "kind": "NPC"
+          },
+          "122390005": {
+            "type": "Text",
+            "id": 122390005,
+            "sectionId": 1223900,
+            "senderId": null,
+            "text": "I'm done with it. Being a lobby manager is harder than I thought",
+            "option": "I'm done with this.",
+            "nextIds": [
+              122390006
+            ],
+            "kind": "Player"
+          },
+          "122390006": {
+            "type": "Text",
+            "id": 122390006,
+            "sectionId": 1223900,
+            "senderId": null,
+            "text": "Can you take over my shift? I'm clocking out",
+            "option": null,
+            "nextIds": [
+              122390007
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122390007": {
+            "type": "Text",
+            "id": 122390007,
+            "sectionId": 1223900,
+            "senderId": null,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              122390008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122390008": {
+            "type": "Text",
+            "id": 122390008,
+            "sectionId": 1223900,
+            "senderId": null,
+            "text": "Hey, Dennis? ...Dancy?",
+            "option": null,
+            "nextIds": [
+              122390009
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122390009": {
+            "type": "Text",
+            "id": 122390009,
+            "sectionId": 1223900,
+            "senderId": null,
+            "text": "...",
+            "option": null,
+            "nextIds": [
+              122390010
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122390010": {
+            "type": "Text",
+            "id": 122390010,
+            "sectionId": 1223900,
+            "senderId": null,
+            "text": "Just you wait! I'm coming for you!",
+            "option": null,
+            "nextIds": [],
+            "kind": "PlayerAuto"
+          },
+          "122390011": {
+            "type": "Text",
+            "id": 122390011,
+            "sectionId": 1223900,
+            "senderId": null,
+            "text": "I'm done with it. Being a lobby manager is harder than I thought",
+            "option": "I've quit.",
+            "nextIds": [
+              122390006
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 153,
+    "name": "Dancy",
+    "signature": null,
+    "iconPath": "icon/avatar/Dennis.png",
+    "type": 2,
+    "camp": 99
+  }
+}

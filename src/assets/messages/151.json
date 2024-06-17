@@ -1,0 +1,228 @@
+{
+  "id": 151,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 1223400,
+        "startIds": [
+          122340000
+        ],
+        "messages": {
+          "122340000": {
+            "type": "Text",
+            "id": 122340000,
+            "sectionId": 1223400,
+            "senderId": 151,
+            "text": "I hope this is the right number.",
+            "option": null,
+            "nextIds": [
+              122340001
+            ],
+            "kind": "NPC"
+          },
+          "122340001": {
+            "type": "Text",
+            "id": 122340001,
+            "sectionId": 1223400,
+            "senderId": 151,
+            "text": "Hello, are you {NICKNAME}?",
+            "option": null,
+            "nextIds": [
+              122340002,
+              122340003
+            ],
+            "kind": "NPC"
+          },
+          "122340002": {
+            "type": "Text",
+            "id": 122340002,
+            "sectionId": 1223400,
+            "senderId": null,
+            "text": "Yes, that's me. Did you need something?",
+            "option": "Yes, that's me.",
+            "nextIds": [
+              122340004
+            ],
+            "kind": "Player"
+          },
+          "122340004": {
+            "type": "Text",
+            "id": 122340004,
+            "sectionId": 1223400,
+            "senderId": 151,
+            "text": "Hello. This is your delivery person. You have a package that's been delivered to the {TEXTJOIN#87} logistics hub",
+            "option": null,
+            "nextIds": [
+              122340005,
+              122340010
+            ],
+            "kind": "NPC"
+          },
+          "122340005": {
+            "type": "Text",
+            "id": 122340005,
+            "sectionId": 1223400,
+            "senderId": null,
+            "text": "What package?",
+            "option": "Haven't ordered anything online",
+            "nextIds": [
+              122340006
+            ],
+            "kind": "Player"
+          },
+          "122340006": {
+            "type": "Text",
+            "id": 122340006,
+            "sectionId": 1223400,
+            "senderId": null,
+            "text": "That's strange. I haven't ordered anything online recently.",
+            "option": null,
+            "nextIds": [
+              122340007
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122340007": {
+            "type": "Text",
+            "id": 122340007,
+            "sectionId": 1223400,
+            "senderId": null,
+            "text": "Do you know what's inside?",
+            "option": null,
+            "nextIds": [
+              122340008
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122340008": {
+            "type": "Text",
+            "id": 122340008,
+            "sectionId": 1223400,
+            "senderId": 151,
+            "text": "The package is sealed. To protect your privacy, I'm not able to check the contents",
+            "option": null,
+            "nextIds": [
+              122340009
+            ],
+            "kind": "NPC"
+          },
+          "122340009": {
+            "type": "Text",
+            "id": 122340009,
+            "sectionId": 1223400,
+            "senderId": 151,
+            "text": "You should open it up yourself",
+            "option": null,
+            "nextIds": [
+              122340014
+            ],
+            "kind": "NPC"
+          },
+          "122340014": {
+            "type": "Text",
+            "id": 122340014,
+            "sectionId": 1223400,
+            "senderId": 151,
+            "text": "The first mate says that he'll take it to the Captain's Quarters for you",
+            "option": null,
+            "nextIds": [
+              122340015
+            ],
+            "kind": "NPC"
+          },
+          "122340015": {
+            "type": "Text",
+            "id": 122340015,
+            "sectionId": 1223400,
+            "senderId": 151,
+            "text": "Thanks for coming over, please sign for your delivery",
+            "option": null,
+            "nextIds": [
+              122340016
+            ],
+            "kind": "NPC"
+          },
+          "122340016": {
+            "type": "Text",
+            "id": 122340016,
+            "sectionId": 1223400,
+            "senderId": 151,
+            "text": "Before you sign, please check that the package is not damaged. If anything is missing, or if there are problems with product quality, please contact me at any time. If there are no other issues, please give me a five-star rating. Thank you very much!",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "122340010": {
+            "type": "Text",
+            "id": 122340010,
+            "sectionId": 1223400,
+            "senderId": null,
+            "text": "Who could be sending me a gift?",
+            "option": "Who's the sender?",
+            "nextIds": [
+              122340011
+            ],
+            "kind": "Player"
+          },
+          "122340011": {
+            "type": "Text",
+            "id": 122340011,
+            "sectionId": 1223400,
+            "senderId": null,
+            "text": "What is the name of the sender?",
+            "option": null,
+            "nextIds": [
+              122340012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "122340012": {
+            "type": "Text",
+            "id": 122340012,
+            "sectionId": 1223400,
+            "senderId": 151,
+            "text": "Hold on, let me have a look",
+            "option": null,
+            "nextIds": [
+              122340013
+            ],
+            "kind": "NPC"
+          },
+          "122340013": {
+            "type": "Text",
+            "id": 122340013,
+            "sectionId": 1223400,
+            "senderId": 151,
+            "text": "It says the sender is a \"Mr. Aventurine\"",
+            "option": null,
+            "nextIds": [
+              122340014
+            ],
+            "kind": "NPC"
+          },
+          "122340003": {
+            "type": "Text",
+            "id": 122340003,
+            "sectionId": 1223400,
+            "senderId": null,
+            "text": "Uh, it's the right number. I'm {NICKNAME}. Who am I speaking to?",
+            "option": "...Who am I speaking to?",
+            "nextIds": [
+              122340004
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 151,
+    "name": "Delivery Person",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 11
+  }
+}

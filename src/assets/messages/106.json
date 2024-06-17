@@ -100,6 +100,460 @@
           "type": "Companion"
         }
       }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1308900,
+        "startIds": [
+          130890001
+        ],
+        "messages": {
+          "130890001": {
+            "type": "Text",
+            "id": 130890001,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "Hello, {F#Ms.}{M#Mr.} {NICKNAME}! Did I catch you at a good time? I'm developing a new collaborative project for my humble store. The psychoanalysis chart suggests that you may be interested in this.",
+            "option": null,
+            "nextIds": [
+              130890002
+            ],
+            "kind": "NPC"
+          },
+          "130890002": {
+            "type": "Text",
+            "id": 130890002,
+            "sectionId": 1308900,
+            "senderId": null,
+            "text": "Who are you, big eyes?",
+            "option": "Who are you?",
+            "nextIds": [
+              130890003
+            ],
+            "kind": "Player"
+          },
+          "130890003": {
+            "type": "Text",
+            "id": 130890003,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "You can call me Dr. Edward! I run the Dreamscape Sales Store on Penacony.",
+            "option": null,
+            "nextIds": [
+              130890004
+            ],
+            "kind": "NPC"
+          },
+          "130890004": {
+            "type": "Text",
+            "id": 130890004,
+            "sectionId": 1308900,
+            "senderId": null,
+            "text": "Dreamscape Sales Store? You can buy Dreamscapes now?",
+            "option": null,
+            "nextIds": [
+              130890005
+            ],
+            "kind": "PlayerAuto"
+          },
+          "130890005": {
+            "type": "Text",
+            "id": 130890005,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "Experiencing different Dreamscapes is as good as living out different lives! Exciting Dreamscapes can of course be sold as products.",
+            "option": null,
+            "nextIds": [
+              130890006
+            ],
+            "kind": "NPC"
+          },
+          "130890006": {
+            "type": "Text",
+            "id": 130890006,
+            "sectionId": 1308900,
+            "senderId": null,
+            "text": "Enough of this Dreamscape talk for now. I'm more interested in knowing how you got my number",
+            "option": "How did you get my number?",
+            "nextIds": [
+              130890007
+            ],
+            "kind": "Player"
+          },
+          "130890007": {
+            "type": "Text",
+            "id": 130890007,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "It's just some simple psychoanalysis, my dear friend.",
+            "option": null,
+            "nextIds": [
+              130890008
+            ],
+            "kind": "NPC"
+          },
+          "130890008": {
+            "type": "Text",
+            "id": 130890008,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "My store will be launching several thrilling dream bubbles. We're tentatively calling it the \"Apocalyptic Shadow\" series.",
+            "option": null,
+            "nextIds": [
+              130890009
+            ],
+            "kind": "NPC"
+          },
+          "130890009": {
+            "type": "Text",
+            "id": 130890009,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "The selling point of this series is to place the user in the middle of an apocalypse and have them personally feel the despair of watching on helplessly as the world collapses.",
+            "option": null,
+            "nextIds": [
+              130890010
+            ],
+            "kind": "NPC"
+          },
+          "130890010": {
+            "type": "Text",
+            "id": 130890010,
+            "sectionId": 1308900,
+            "senderId": null,
+            "text": "Despair? That's the selling point? Who would want that?",
+            "option": "Who would want to feel despair?",
+            "nextIds": [
+              130890011
+            ],
+            "kind": "Player"
+          },
+          "130890011": {
+            "type": "Text",
+            "id": 130890011,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "You may not know this, but being in a happy and harmonious environment for too long can numb one's spirit, and soon, nothing will be able to evoke joy anymore. This is where we come in — to offer a small stimulus of sorts.",
+            "option": null,
+            "nextIds": [
+              130890012
+            ],
+            "kind": "NPC"
+          },
+          "130890012": {
+            "type": "Text",
+            "id": 130890012,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "My secret partner hopes that you, dear {F#Ms.}{M#Mr.} {NICKNAME}, can help to give her a little push in this.",
+            "option": null,
+            "nextIds": [
+              130890013
+            ],
+            "kind": "NPC"
+          },
+          "130890013": {
+            "type": "Text",
+            "id": 130890013,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "If you can make the mass production and serialization of the Apocalyptic Shadow series a reality, you can be sure that you'll be offered generous material rewards as recompense.",
+            "option": null,
+            "nextIds": [
+              130890014,
+              130890016,
+              130890018
+            ],
+            "kind": "NPC"
+          },
+          "130890014": {
+            "type": "Text",
+            "id": 130890014,
+            "sectionId": 1308900,
+            "senderId": null,
+            "text": "Why is your secret partner specifically looking for my help?",
+            "option": "Why me?",
+            "nextIds": [
+              130890015
+            ],
+            "kind": "Player"
+          },
+          "130890015": {
+            "type": "Text",
+            "id": 130890015,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "I'd love to answer you, but I'm not privy to that information. She has the right to keep trade secrets, well, a secret, and I understand and respect that.",
+            "option": null,
+            "nextIds": [
+              130890020
+            ],
+            "kind": "NPC"
+          },
+          "130890020": {
+            "type": "Text",
+            "id": 130890020,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "Do meet with her to discuss the details of your collaboration when you have the time. From what I know, she should be in \"a city chiseled out of the Primordial Dreamscape\" now.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130890016": {
+            "type": "Text",
+            "id": 130890016,
+            "sectionId": 1308900,
+            "senderId": null,
+            "text": "Who is this secret partner of yours?",
+            "option": "Who is \"her\"?",
+            "nextIds": [
+              130890017
+            ],
+            "kind": "Player"
+          },
+          "130890017": {
+            "type": "Text",
+            "id": 130890017,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "I'd love to answer you, but I'm not privy to that information. She has the right to keep trade secrets, well, a secret, and I understand and respect that.",
+            "option": null,
+            "nextIds": [
+              130890020
+            ],
+            "kind": "NPC"
+          },
+          "130890018": {
+            "type": "Text",
+            "id": 130890018,
+            "sectionId": 1308900,
+            "senderId": null,
+            "text": "Sorry, this isn't a good time.",
+            "option": "Now's not a good time.",
+            "nextIds": [
+              130890019
+            ],
+            "kind": "Player"
+          },
+          "130890019": {
+            "type": "Text",
+            "id": 130890019,
+            "sectionId": 1308900,
+            "senderId": 106,
+            "text": "No problem. We're happy to wait till you're available.",
+            "option": null,
+            "nextIds": [
+              130890020
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1309000,
+        "startIds": [
+          130900001
+        ],
+        "messages": {
+          "130900001": {
+            "type": "Text",
+            "id": 130900001,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "Hello, {F#Ms.}{M#Mr.} {NICKNAME}! Did I catch you at a good time? I'm developing a new collaborative project for my humble store. The psychoanalysis chart suggests that you may be interested in this.",
+            "option": null,
+            "nextIds": [
+              130900002
+            ],
+            "kind": "NPC"
+          },
+          "130900002": {
+            "type": "Text",
+            "id": 130900002,
+            "sectionId": 1309000,
+            "senderId": null,
+            "text": "What is it? Got another Dreamscape that'd be perfect for me?",
+            "option": "Got another Dreamscape for me?",
+            "nextIds": [
+              130900003
+            ],
+            "kind": "Player"
+          },
+          "130900003": {
+            "type": "Text",
+            "id": 130900003,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "I'm not here to promote my products this time, but to discuss a collaboration.",
+            "option": null,
+            "nextIds": [
+              130900004
+            ],
+            "kind": "NPC"
+          },
+          "130900004": {
+            "type": "Text",
+            "id": 130900004,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "My store will be launching several thrilling dream bubbles. We're tentatively calling it the \"Apocalyptic Shadow\" series.",
+            "option": null,
+            "nextIds": [
+              130900005
+            ],
+            "kind": "NPC"
+          },
+          "130900005": {
+            "type": "Text",
+            "id": 130900005,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "The selling point of this series is to place the user in the middle of an apocalypse and have them personally feel the despair of watching on helplessly as the world collapses.",
+            "option": null,
+            "nextIds": [
+              130900006
+            ],
+            "kind": "NPC"
+          },
+          "130900006": {
+            "type": "Text",
+            "id": 130900006,
+            "sectionId": 1309000,
+            "senderId": null,
+            "text": "Despair? That's the selling point? Who would want that?",
+            "option": "Who would want to feel despair?",
+            "nextIds": [
+              130900007
+            ],
+            "kind": "Player"
+          },
+          "130900007": {
+            "type": "Text",
+            "id": 130900007,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "You may not know this, but being in a happy and harmonious environment for too long can numb one's spirit, and soon, nothing will be able to evoke joy anymore. This is where we come in — to offer a small stimulus of sorts.",
+            "option": null,
+            "nextIds": [
+              130900008
+            ],
+            "kind": "NPC"
+          },
+          "130900008": {
+            "type": "Text",
+            "id": 130900008,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "My secret partner hopes that you, dear {F#Ms.}{M#Mr.} {NICKNAME}, can help to give her a little push in this.",
+            "option": null,
+            "nextIds": [
+              130900009
+            ],
+            "kind": "NPC"
+          },
+          "130900009": {
+            "type": "Text",
+            "id": 130900009,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "If you can make the mass production and serialization of the Apocalyptic Shadow series a reality, you can be sure that you'll be offered generous material rewards as recompense.",
+            "option": null,
+            "nextIds": [
+              130900010,
+              130900012,
+              130900014
+            ],
+            "kind": "NPC"
+          },
+          "130900010": {
+            "type": "Text",
+            "id": 130900010,
+            "sectionId": 1309000,
+            "senderId": null,
+            "text": "Why is your secret partner specifically looking for my help?",
+            "option": "Why me?",
+            "nextIds": [
+              130900011
+            ],
+            "kind": "Player"
+          },
+          "130900011": {
+            "type": "Text",
+            "id": 130900011,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "I'd love to answer you, but I'm not privy to that information. She has the right to keep trade secrets, well, a secret, and I understand and respect that.",
+            "option": null,
+            "nextIds": [
+              130900016
+            ],
+            "kind": "NPC"
+          },
+          "130900016": {
+            "type": "Text",
+            "id": 130900016,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "Do meet with her to discuss the details of your collaboration when you have the time. From what I know, she should be in \"a city chiseled out of the Primordial Dreamscape\" now.",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC"
+          },
+          "130900012": {
+            "type": "Text",
+            "id": 130900012,
+            "sectionId": 1309000,
+            "senderId": null,
+            "text": "Who is this secret partner of yours?",
+            "option": "Who is \"her\"?",
+            "nextIds": [
+              130900013
+            ],
+            "kind": "Player"
+          },
+          "130900013": {
+            "type": "Text",
+            "id": 130900013,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "I'd love to answer you, but I'm not privy to that information. She has the right to keep trade secrets, well, a secret, and I understand and respect that.",
+            "option": null,
+            "nextIds": [
+              130900016
+            ],
+            "kind": "NPC"
+          },
+          "130900014": {
+            "type": "Text",
+            "id": 130900014,
+            "sectionId": 1309000,
+            "senderId": null,
+            "text": "Sorry, this isn't a good time.",
+            "option": "Now's not a good time.",
+            "nextIds": [
+              130900015
+            ],
+            "kind": "Player"
+          },
+          "130900015": {
+            "type": "Text",
+            "id": 130900015,
+            "sectionId": 1309000,
+            "senderId": 106,
+            "text": "No problem. We're happy to wait till you're available.",
+            "option": null,
+            "nextIds": [
+              130900016
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
     ]
   ],
   "info": {

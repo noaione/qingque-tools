@@ -354,7 +354,7 @@
   "1308": {
     "id": 1308,
     "name": "Acheron",
-    "signature": null,
+    "signature": "Time for Departure",
     "iconPath": "icon/avatar/1308.png",
     "type": 1,
     "camp": 13
@@ -375,13 +375,21 @@
     "type": 1,
     "camp": 11
   },
+  "1314": {
+    "id": 1314,
+    "name": "Jade",
+    "signature": "You are always welcome to Bonajade Exchange.",
+    "iconPath": "icon/avatar/1314.png",
+    "type": 1,
+    "camp": 6
+  },
   "1315": {
     "id": 1315,
     "name": "Boothill",
     "signature": "Pier Point Standard Heist (LFG 3/4)",
     "iconPath": "icon/avatar/1315.png",
     "type": 1,
-    "camp": 6
+    "camp": 12
   },
   "8000": {
     "id": 8000,
@@ -1450,10 +1458,26 @@
   "142": {
     "id": 142,
     "name": "Acheron",
-    "signature": null,
+    "signature": "Time for Departure",
     "iconPath": "icon/avatar/1308.png",
     "type": 1,
     "camp": 12
+  },
+  "143": {
+    "id": 143,
+    "name": "<unbreak>1111111111</unbreak>",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 99
+  },
+  "144": {
+    "id": 144,
+    "name": "From Where to View Fireworks",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 1,
+    "camp": 9
   },
   "145": {
     "id": 145,
@@ -1492,6 +1516,54 @@
     "name": "Aideen",
     "signature": null,
     "iconPath": "icon/avatar/Aideen.png",
+    "type": 2,
+    "camp": 11
+  },
+  "151": {
+    "id": 151,
+    "name": "Delivery Person",
+    "signature": null,
+    "iconPath": "icon/avatar/Anonymous.png",
+    "type": 2,
+    "camp": 11
+  },
+  "152": {
+    "id": 152,
+    "name": "The Three Treasures",
+    "signature": null,
+    "iconPath": "icon/avatar/GroupDefault.png",
+    "type": 3,
+    "camp": 99
+  },
+  "153": {
+    "id": 153,
+    "name": "Dancy",
+    "signature": null,
+    "iconPath": "icon/avatar/Dennis.png",
+    "type": 2,
+    "camp": 99
+  },
+  "154": {
+    "id": 154,
+    "name": "Micah",
+    "signature": null,
+    "iconPath": "icon/avatar/Micah.png",
+    "type": 2,
+    "camp": 99
+  },
+  "155": {
+    "id": 155,
+    "name": "Tinah",
+    "signature": null,
+    "iconPath": "icon/avatar/Tina.png",
+    "type": 2,
+    "camp": 11
+  },
+  "156": {
+    "id": 156,
+    "name": "Message Doll",
+    "signature": null,
+    "iconPath": "icon/avatar/202017.png",
     "type": 2,
     "camp": 11
   }
