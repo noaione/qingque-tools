@@ -6,9 +6,10 @@
       <p class="text-lg mt-2 text-center">
         See/interact with in-game messages<span v-if="messageData">
           from
-          <span class="font-semibold glowy-text">
-            {{ messageData.info.name.replace("{NICKNAME}", "Trailblazer") }}
-          </span>
+          <span
+            class="font-semibold glowy-text"
+            v-html="purifyTextMessage(formatTextMessage(messageData.info.name))"
+          />
         </span>
       </p>
       <p v-if="importError" class="mt-1 text-center text-red-300">
@@ -28,7 +29,10 @@
     <div v-if="ready">
       <div v-if="messageData && !isNone(activeMessageIdx)" class="flex flex-col w-full">
         <div class="flex flex-col bg-neutral-800 py-6 px-4">
-          <span class="font-bold text-2xl">{{ formatTextMessage(messageData.info.name) }}</span>
+          <span
+            class="font-bold text-2xl"
+            v-html="purifyTextMessage(formatTextMessage(messageData.info.name))"
+          />
           <span class="text-base font-semibold mt-1" v-if="messageData.info.signature">
             {{ messageData.info.signature }}
           </span>
@@ -62,7 +66,7 @@
 
 <script setup lang="ts">
 import type { MessageGroup, MessageSections } from "@/models/messages";
-import { formatTextMessage, isNone } from "@/utils";
+import { formatTextMessage, isNone, purifyTextMessage } from "@/utils";
 
 type ParamInput = { charaId: string };
 

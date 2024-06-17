@@ -103,7 +103,7 @@
 </template>
 
 <script setup lang="ts">
-import type { MessageAuthorInfo, MessageContentVideo, MessageContents } from "@/models/messages";
+import type { MessageAuthorInfo, MessageContents, MessageContentVideo } from "@/models/messages";
 import { formatTextMessage, renderTextMessage, useMessageConfigStorage } from "@/utils/messages";
 
 const trailblazerName = useMessageConfigStorage("tbName", "Trailblazer");

@@ -95,6 +95,14 @@ export function formatTextMessage(
   return replaceNewline ? text.replace(/\\n/g, "<br/>") : text;
 }
 
+export function purifyTextMessage(content: string, stripHtml: boolean = false) {
+  return DOMPurify.sanitize(content, {
+    USE_PROFILES: {
+      html: stripHtml ? false : true
+    }
+  });
+}
+
 export function renderTextMessage(content: string, stripHtml: boolean = false) {
   const html = marked
     .use({
@@ -104,11 +112,7 @@ export function renderTextMessage(content: string, stripHtml: boolean = false) {
     .parse(content, {
       async: false
     }) as string;
-  return DOMPurify.sanitize(html, {
-    USE_PROFILES: {
-      html: stripHtml ? false : true
-    }
-  });
+  return purifyTextMessage(html, stripHtml);
 }
 
 export function getVideoAndAudioUrl(message: MessageContentVideo): MessageVideoUrl {

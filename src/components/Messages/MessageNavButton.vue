@@ -12,9 +12,10 @@
         />
       </div>
       <div class="flex flex-col w-full">
-        <div class="my-1 font-bold text-left text-xl mb-1">
-          {{ formatTextMessage(author, trailblazerGender, trailblazerName) }}
-        </div>
+        <div
+          class="my-1 font-bold text-left text-xl mb-1"
+          v-html="purifyTextMessage(formatTextMessage(author, trailblazerGender, trailblazerName))"
+        />
         <div class="max-w-xs text-left text-sm mb-1">{{ signature ?? `ID: ${target}` }}</div>
       </div>
     </div>
@@ -22,7 +23,7 @@
 </template>
 
 <script setup lang="ts">
-import { formatTextMessage, useMessageConfigStorage } from "@/utils";
+import { formatTextMessage, purifyTextMessage, useMessageConfigStorage } from "@/utils";
 
 const trailblazerName = useMessageConfigStorage("tbName", "Trailblazer");
 const trailblazerGender = useMessageConfigStorage("tbGender", "M");
