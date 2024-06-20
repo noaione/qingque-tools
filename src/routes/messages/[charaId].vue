@@ -97,7 +97,8 @@ function makePreviewMessage(section: MessageSections) {
 
   const fallbackMessage = hasSystem ? "[System Message]" : messagesMap[0].option ?? "[...]";
 
-  const stickerKeyword = npcMessage?.type === "Sticker" ? `[${npcMessage.sticker.keywords}] ` : "[Sticker]";
+  const stickerKeyword =
+    npcMessage?.type === "Sticker" ? `[${npcMessage.sticker.keywords}] ` : npcMessage?.text;
 
   return (npcMessage?.text || stickerKeyword) ?? fallbackMessage;
 }
