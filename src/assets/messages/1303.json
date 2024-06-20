@@ -1610,7 +1610,8 @@
             "kind": "PlayerAuto",
             "image": {
               "id": 10037,
-              "path": "image/messages/31008.png"
+              "m_path": "image/messages/31008.png",
+              "f_path": "image/messages/31008.png"
             }
           },
           "122170002": {

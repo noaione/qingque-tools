@@ -117,7 +117,8 @@
             "kind": "NPC",
             "image": {
               "id": 10007,
-              "path": "image/messages/10007.png"
+              "m_path": "image/messages/10007.png",
+              "f_path": "image/messages/10007.png"
             }
           },
           "101200002": {
@@ -145,7 +146,8 @@
             "kind": "NPC",
             "image": {
               "id": 10006,
-              "path": "image/messages/10006.png"
+              "m_path": "image/messages/10006.png",
+              "f_path": "image/messages/10006.png"
             }
           },
           "101200004": {
@@ -171,7 +173,8 @@
             "kind": "NPC",
             "image": {
               "id": 10005,
-              "path": "image/messages/10005.png"
+              "m_path": "image/messages/10005.png",
+              "f_path": "image/messages/10005.png"
             }
           }
         },

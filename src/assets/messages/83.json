@@ -133,7 +133,8 @@
             "kind": "NPC",
             "image": {
               "id": 10204,
-              "path": "image/messages/10014.png"
+              "m_path": "image/messages/10014.png",
+              "f_path": "image/messages/10014.png"
             }
           },
           "121650017": {
@@ -417,7 +418,8 @@
             "kind": "NPC",
             "image": {
               "id": 10205,
-              "path": "image/messages/10015.png"
+              "m_path": "image/messages/10015.png",
+              "f_path": "image/messages/10015.png"
             }
           },
           "121660013": {

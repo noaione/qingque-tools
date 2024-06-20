@@ -872,7 +872,8 @@
             "kind": "NPC",
             "image": {
               "id": 10012,
-              "path": "image/messages/10012.png"
+              "m_path": "image/messages/10012.png",
+              "f_path": "image/messages/10012.png"
             }
           },
           "200750003": {
@@ -1180,7 +1181,8 @@
             "kind": "PlayerAuto",
             "image": {
               "id": 10033,
-              "path": "image/messages/31004.png"
+              "m_path": "image/messages/31004.png",
+              "f_path": "image/messages/31004.png"
             }
           },
           "122250008": {

@@ -36,7 +36,8 @@ export interface MessageContentSticker extends MessageContent {
 
 export interface MessageImage {
   id: number;
-  path: string;
+  m_path: string;
+  f_path: string;
 }
 
 export interface MessageContentImage extends MessageContent {

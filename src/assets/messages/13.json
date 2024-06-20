@@ -22,7 +22,8 @@
             "kind": "PlayerAuto",
             "image": {
               "id": 30103,
-              "path": "image/messages/30103.png"
+              "m_path": "image/messages/30103.png",
+              "f_path": "image/messages/30103.png"
             }
           },
           "115080001": {
@@ -1342,7 +1343,8 @@
             "kind": "NPC",
             "image": {
               "id": 10301,
-              "path": "image/messages/10020.png"
+              "m_path": "image/messages/10020.png",
+              "f_path": "image/messages/10020.png"
             }
           },
           "130640001": {
@@ -2343,7 +2345,8 @@
             "kind": "PlayerAuto",
             "image": {
               "id": 10043,
-              "path": "image/messages/140500.png"
+              "m_path": "image/messages/140500.png",
+              "f_path": "image/messages/140500.png"
             }
           },
           "122350003": {

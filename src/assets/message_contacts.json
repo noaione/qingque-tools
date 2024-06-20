@@ -359,6 +359,14 @@
     "type": 1,
     "camp": 13
   },
+  "1310": {
+    "id": 1310,
+    "name": "Firefly",
+    "signature": "I will find my dreams...",
+    "iconPath": "icon/avatar/1310.png",
+    "type": 1,
+    "camp": 5
+  },
   "1312": {
     "id": 1312,
     "name": "Misha",

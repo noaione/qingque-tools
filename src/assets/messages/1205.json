@@ -1224,7 +1224,8 @@
             "kind": "PlayerAuto",
             "image": {
               "id": 10036,
-              "path": "image/messages/31007.png"
+              "m_path": "image/messages/31007.png",
+              "f_path": "image/messages/31007.png"
             }
           },
           "122190002": {

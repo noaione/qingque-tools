@@ -157,7 +157,8 @@
             "kind": "PlayerAuto",
             "image": {
               "id": 10002,
-              "path": "image/messages/10002.png"
+              "m_path": "image/messages/10002.png",
+              "f_path": "image/messages/10002.png"
             }
           },
           "115100001": {
@@ -218,7 +219,8 @@
             "kind": "PlayerAuto",
             "image": {
               "id": 10004,
-              "path": "image/messages/10004.png"
+              "m_path": "image/messages/10004.png",
+              "f_path": "image/messages/10004.png"
             }
           },
           "115110001": {
@@ -291,7 +293,8 @@
             "kind": "PlayerAuto",
             "image": {
               "id": 10003,
-              "path": "image/messages/10003.png"
+              "m_path": "image/messages/10003.png",
+              "f_path": "image/messages/10003.png"
             }
           },
           "115120001": {
@@ -1133,7 +1136,8 @@
             "kind": "NPC",
             "image": {
               "id": 10010,
-              "path": "image/messages/10010.png"
+              "m_path": "image/messages/10010.png",
+              "f_path": "image/messages/10010.png"
             }
           },
           "200100012": {
@@ -1844,7 +1848,8 @@
             "kind": "PlayerAuto",
             "image": {
               "id": 10001,
-              "path": "image/messages/10001.png"
+              "m_path": "image/messages/10001.png",
+              "f_path": "image/messages/10001.png"
             }
           },
           "115030001": {

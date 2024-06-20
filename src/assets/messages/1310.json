@@ -1,0 +1,1711 @@
+{
+  "id": 1310,
+  "sections": [
+    [
+      {
+        "type": "Message",
+        "id": 2014200,
+        "startIds": [
+          201420000
+        ],
+        "messages": {
+          "201420000": {
+            "type": "Text",
+            "id": 201420000,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "Image failed to send",
+            "option": null,
+            "nextIds": [
+              201420001
+            ],
+            "kind": "System"
+          },
+          "201420001": {
+            "type": "Text",
+            "id": 201420001,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "Image failed to send",
+            "option": null,
+            "nextIds": [
+              201420002
+            ],
+            "kind": "System"
+          },
+          "201420002": {
+            "type": "Text",
+            "id": 201420002,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "Almost forgot. Have I sent this to you yet?",
+            "option": null,
+            "nextIds": [
+              201420003,
+              201420004
+            ],
+            "kind": "NPC"
+          },
+          "201420003": {
+            "type": "Text",
+            "id": 201420003,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "It didn't send. I can't see anything...",
+            "option": "What is it?",
+            "nextIds": [
+              201420005
+            ],
+            "kind": "Player"
+          },
+          "201420005": {
+            "type": "Text",
+            "id": 201420005,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "Weird... Is the image too big? Or just the signal acting up?",
+            "option": null,
+            "nextIds": [
+              201420006
+            ],
+            "kind": "NPC"
+          },
+          "201420006": {
+            "type": "Image",
+            "id": 201420006,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201420007
+            ],
+            "kind": "NPC",
+            "image": {
+              "id": 10041,
+              "m_path": "image/messages/10022_m.png",
+              "f_path": "image/messages/10022_f.png"
+            }
+          },
+          "201420007": {
+            "type": "Image",
+            "id": 201420007,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201420008
+            ],
+            "kind": "NPC",
+            "image": {
+              "id": 10041,
+              "m_path": "image/messages/10022_m.png",
+              "f_path": "image/messages/10022_f.png"
+            }
+          },
+          "201420008": {
+            "type": "Image",
+            "id": 201420008,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201420009
+            ],
+            "kind": "NPC",
+            "image": {
+              "id": 10041,
+              "m_path": "image/messages/10022_m.png",
+              "f_path": "image/messages/10022_f.png"
+            }
+          },
+          "201420009": {
+            "type": "Image",
+            "id": 201420009,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201420010
+            ],
+            "kind": "NPC",
+            "image": {
+              "id": 10041,
+              "m_path": "image/messages/10022_m.png",
+              "f_path": "image/messages/10022_f.png"
+            }
+          },
+          "201420010": {
+            "type": "Text",
+            "id": 201420010,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "Umm, sorry...",
+            "option": null,
+            "nextIds": [
+              201420011
+            ],
+            "kind": "NPC"
+          },
+          "201420011": {
+            "type": "Sticker",
+            "id": 201420011,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201420012,
+              201420016
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "201420012": {
+            "type": "Text",
+            "id": 201420012,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "So many pics! Are the expressions different in all of them?",
+            "option": "So many pics!",
+            "nextIds": [
+              201420013
+            ],
+            "kind": "Player"
+          },
+          "201420013": {
+            "type": "Text",
+            "id": 201420013,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "They're actually all the same",
+            "option": null,
+            "nextIds": [
+              201420014
+            ],
+            "kind": "NPC"
+          },
+          "201420014": {
+            "type": "Text",
+            "id": 201420014,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "It wouldn't send, so I ended up spamming the \"Send\" button...",
+            "option": null,
+            "nextIds": [
+              201420015
+            ],
+            "kind": "NPC"
+          },
+          "201420015": {
+            "type": "Sticker",
+            "id": 201420015,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201420020
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "201420020": {
+            "type": "Text",
+            "id": 201420020,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "BTW, {NICKNAME}, you seem like a pro at taking selfies",
+            "option": null,
+            "nextIds": [
+              201420021
+            ],
+            "kind": "NPC"
+          },
+          "201420021": {
+            "type": "Text",
+            "id": 201420021,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "Any framing tips or expression recommendations for selfies? Please teach me your ways!",
+            "option": null,
+            "nextIds": [
+              201420022,
+              201420027,
+              201420031
+            ],
+            "kind": "NPC"
+          },
+          "201420022": {
+            "type": "Sticker",
+            "id": 201420022,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201420023
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 106003,
+              "path": "icon/emoji/106003.png",
+              "keywords": "Bliss"
+            }
+          },
+          "201420023": {
+            "type": "Text",
+            "id": 201420023,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "Try this",
+            "option": null,
+            "nextIds": [
+              201420024
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201420024": {
+            "type": "Text",
+            "id": 201420024,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "That's adorable!",
+            "option": null,
+            "nextIds": [
+              201420025
+            ],
+            "kind": "NPC"
+          },
+          "201420025": {
+            "type": "Text",
+            "id": 201420025,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "But can I really pull off this expression? Should I practice it first?",
+            "option": null,
+            "nextIds": [
+              201420026
+            ],
+            "kind": "NPC"
+          },
+          "201420026": {
+            "type": "Text",
+            "id": 201420026,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "Plus, I've never seen this expression on you either, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201420036
+            ],
+            "kind": "NPC"
+          },
+          "201420036": {
+            "type": "Text",
+            "id": 201420036,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "Let's take a group photo together next time!",
+            "option": null,
+            "nextIds": [
+              201420037
+            ],
+            "kind": "NPC"
+          },
+          "201420037": {
+            "type": "Sticker",
+            "id": 201420037,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20002,
+              "path": "icon/emoji/20002.png",
+              "keywords": "Finger Heart"
+            }
+          },
+          "201420027": {
+            "type": "Sticker",
+            "id": 201420027,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201420028
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 121014,
+              "path": "icon/emoji/121014.png",
+              "keywords": "Caution"
+            }
+          },
+          "201420028": {
+            "type": "Text",
+            "id": 201420028,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "Try this",
+            "option": null,
+            "nextIds": [
+              201420029
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201420029": {
+            "type": "Text",
+            "id": 201420029,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "It doesn't look like there's much of an expression here...",
+            "option": null,
+            "nextIds": [
+              201420030
+            ],
+            "kind": "NPC"
+          },
+          "201420030": {
+            "type": "Text",
+            "id": 201420030,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "But the pose isn't hard to mimic. I'll try practicing it",
+            "option": null,
+            "nextIds": [
+              201420036
+            ],
+            "kind": "NPC"
+          },
+          "201420031": {
+            "type": "Sticker",
+            "id": 201420031,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201420032
+            ],
+            "kind": "Player",
+            "sticker": {
+              "id": 131016,
+              "path": "icon/emoji/131016.png",
+              "keywords": "Embarrassed"
+            }
+          },
+          "201420032": {
+            "type": "Text",
+            "id": 201420032,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "Try this",
+            "option": null,
+            "nextIds": [
+              201420033
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201420033": {
+            "type": "Text",
+            "id": 201420033,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "I think I've seen props like this in Penacony before...",
+            "option": null,
+            "nextIds": [
+              201420034
+            ],
+            "kind": "NPC"
+          },
+          "201420034": {
+            "type": "Text",
+            "id": 201420034,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "Oh, sunglasses!",
+            "option": null,
+            "nextIds": [
+              201420035
+            ],
+            "kind": "NPC"
+          },
+          "201420035": {
+            "type": "Text",
+            "id": 201420035,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "Looks cool, I'll try that out!",
+            "option": null,
+            "nextIds": [
+              201420036
+            ],
+            "kind": "NPC"
+          },
+          "201420016": {
+            "type": "Text",
+            "id": 201420016,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "Awesome! I'm saving them all!",
+            "option": "I'mma save them all!",
+            "nextIds": [
+              201420017
+            ],
+            "kind": "Player"
+          },
+          "201420017": {
+            "type": "Text",
+            "id": 201420017,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "No, no. You don't need to. They're all the same",
+            "option": null,
+            "nextIds": [
+              201420018
+            ],
+            "kind": "NPC"
+          },
+          "201420018": {
+            "type": "Text",
+            "id": 201420018,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "It wouldn't send, so I ended up spamming the \"Send\" button...",
+            "option": null,
+            "nextIds": [
+              201420019
+            ],
+            "kind": "NPC"
+          },
+          "201420019": {
+            "type": "Sticker",
+            "id": 201420019,
+            "sectionId": 2014200,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201420020
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "201420004": {
+            "type": "Text",
+            "id": 201420004,
+            "sectionId": 2014200,
+            "senderId": null,
+            "text": "What is it? Show me plz",
+            "option": "Show me! Quick!",
+            "nextIds": [
+              201420005
+            ],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2014300,
+        "startIds": [
+          201430000
+        ],
+        "messages": {
+          "201430000": {
+            "type": "Text",
+            "id": 201430000,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "{NICKNAME}, you there?",
+            "option": null,
+            "nextIds": [
+              201430001
+            ],
+            "kind": "NPC"
+          },
+          "201430001": {
+            "type": "Text",
+            "id": 201430001,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "I'm at Oti Mall now",
+            "option": null,
+            "nextIds": [
+              201430002
+            ],
+            "kind": "NPC"
+          },
+          "201430002": {
+            "type": "Text",
+            "id": 201430002,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Kafka wants me to grab some Penacony souvenirs for her, but she didn't say what",
+            "option": null,
+            "nextIds": [
+              201430003
+            ],
+            "kind": "NPC"
+          },
+          "201430003": {
+            "type": "Text",
+            "id": 201430003,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Would you happen to have any ideas?",
+            "option": null,
+            "nextIds": [
+              201430004,
+              201430008,
+              201430012
+            ],
+            "kind": "NPC"
+          },
+          "201430004": {
+            "type": "Text",
+            "id": 201430004,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "Leave it to me",
+            "option": "Leave it to me",
+            "nextIds": [
+              201430005
+            ],
+            "kind": "Player"
+          },
+          "201430005": {
+            "type": "Text",
+            "id": 201430005,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "Kafka and I did exchange a few blows before, after all",
+            "option": null,
+            "nextIds": [
+              201430006
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201430006": {
+            "type": "Text",
+            "id": 201430006,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "That's fantastic news!",
+            "option": null,
+            "nextIds": [
+              201430007
+            ],
+            "kind": "NPC"
+          },
+          "201430007": {
+            "type": "Sticker",
+            "id": 201430007,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201430019
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "201430019": {
+            "type": "Text",
+            "id": 201430019,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "All I can think of are coats, lipsticks, sunglasses, and so on... But she seems to have plenty of those already",
+            "option": null,
+            "nextIds": [
+              201430020
+            ],
+            "kind": "NPC"
+          },
+          "201430020": {
+            "type": "Text",
+            "id": 201430020,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "Just pick any of those three types",
+            "option": "Just pick from those three",
+            "nextIds": [
+              201430021
+            ],
+            "kind": "Player"
+          },
+          "201430021": {
+            "type": "Text",
+            "id": 201430021,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "Gifts are nice, but it's still the thought that counts in the end",
+            "option": null,
+            "nextIds": [
+              201430022,
+              201430026,
+              201430028
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201430022": {
+            "type": "Text",
+            "id": 201430022,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "A lipstick is a great choice",
+            "option": "Lipstick",
+            "nextIds": [
+              201430023
+            ],
+            "kind": "Player"
+          },
+          "201430023": {
+            "type": "Text",
+            "id": 201430023,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Kafka once gave me a lipstick",
+            "option": null,
+            "nextIds": [
+              201430024
+            ],
+            "kind": "NPC"
+          },
+          "201430024": {
+            "type": "Text",
+            "id": 201430024,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "A light pink with a peach scent, just like jelly. She said it suited me perfectly",
+            "option": null,
+            "nextIds": [
+              201430025
+            ],
+            "kind": "NPC"
+          },
+          "201430025": {
+            "type": "Text",
+            "id": 201430025,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Come to think of it, a lipstick would make a great gift in return",
+            "option": null,
+            "nextIds": [
+              201430030
+            ],
+            "kind": "NPC"
+          },
+          "201430030": {
+            "type": "Text",
+            "id": 201430030,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "Things in Penacony are pretty pricey, though. How's your wallet holding up?",
+            "option": "How's your wallet holding up?",
+            "nextIds": [
+              201430031
+            ],
+            "kind": "Player"
+          },
+          "201430031": {
+            "type": "Text",
+            "id": 201430031,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Kafka gave me her credit card and said I can use it as much as I want, but it feels weird spending somebody else's money, so I never did...",
+            "option": null,
+            "nextIds": [
+              201430032,
+              201430035
+            ],
+            "kind": "NPC"
+          },
+          "201430032": {
+            "type": "Text",
+            "id": 201430032,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "Are the Stellaron Hunters still hiring?",
+            "option": "Are the Stellaron Hunters still hiring?",
+            "nextIds": [
+              201430033
+            ],
+            "kind": "Player"
+          },
+          "201430033": {
+            "type": "Text",
+            "id": 201430033,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "You'll break Pom-Pom's heart if you say that",
+            "option": null,
+            "nextIds": [
+              201430034
+            ],
+            "kind": "NPC"
+          },
+          "201430034": {
+            "type": "Sticker",
+            "id": 201430034,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20005,
+              "path": "icon/emoji/20005.png",
+              "keywords": "Crying"
+            }
+          },
+          "201430035": {
+            "type": "Text",
+            "id": 201430035,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "The Astral Express does also give me plenty of perks...",
+            "option": "My Express job also comes with some perks",
+            "nextIds": [
+              201430036
+            ],
+            "kind": "Player"
+          },
+          "201430036": {
+            "type": "Text",
+            "id": 201430036,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "Alright, enough chitchat. I'm going to look for Pom-Pom",
+            "option": null,
+            "nextIds": [
+              201430037
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201430037": {
+            "type": "Text",
+            "id": 201430037,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Sounds great!",
+            "option": null,
+            "nextIds": [
+              201430038
+            ],
+            "kind": "NPC"
+          },
+          "201430038": {
+            "type": "Sticker",
+            "id": 201430038,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "201430026": {
+            "type": "Text",
+            "id": 201430026,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "A coat is a great choice",
+            "option": "Coat",
+            "nextIds": [
+              201430027
+            ],
+            "kind": "Player"
+          },
+          "201430027": {
+            "type": "Text",
+            "id": 201430027,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "A coat, huh... If it's a handcrafted piece from Penacony, I bet Kafka would love it",
+            "option": null,
+            "nextIds": [
+              201430030
+            ],
+            "kind": "NPC"
+          },
+          "201430028": {
+            "type": "Text",
+            "id": 201430028,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "Sunglasses are a great choice",
+            "option": "Sunglasses",
+            "nextIds": [
+              201430029
+            ],
+            "kind": "Player"
+          },
+          "201430029": {
+            "type": "Text",
+            "id": 201430029,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Kafka once mentioned that sunglasses don't take up much space, so she'd buy lots of them, no matter the style",
+            "option": null,
+            "nextIds": [
+              201430030
+            ],
+            "kind": "NPC"
+          },
+          "201430008": {
+            "type": "Text",
+            "id": 201430008,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "Why not ask Silver Wolf, though? She can probably give you a ton of ideas",
+            "option": "Why not ask Silver Wolf, though?",
+            "nextIds": [
+              201430009
+            ],
+            "kind": "Player"
+          },
+          "201430009": {
+            "type": "Text",
+            "id": 201430009,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "I did",
+            "option": null,
+            "nextIds": [
+              201430010
+            ],
+            "kind": "NPC"
+          },
+          "201430010": {
+            "type": "Text",
+            "id": 201430010,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "She said that Kafka would love anything I pick",
+            "option": null,
+            "nextIds": [
+              201430011
+            ],
+            "kind": "NPC"
+          },
+          "201430011": {
+            "type": "Sticker",
+            "id": 201430011,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201430019
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 107007,
+              "path": "icon/emoji/107007.png",
+              "keywords": "Shy"
+            }
+          },
+          "201430012": {
+            "type": "Text",
+            "id": 201430012,
+            "sectionId": 2014300,
+            "senderId": null,
+            "text": "Sorry, I don't really know her that well...",
+            "option": "Sorry, I don't really know her that well...",
+            "nextIds": [
+              201430013
+            ],
+            "kind": "Player"
+          },
+          "201430013": {
+            "type": "Text",
+            "id": 201430013,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Is that so?",
+            "option": null,
+            "nextIds": [
+              201430014
+            ],
+            "kind": "NPC"
+          },
+          "201430014": {
+            "type": "Text",
+            "id": 201430014,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Kafka talks about you all the time, so I thought you knew each other well",
+            "option": null,
+            "nextIds": [
+              201430015
+            ],
+            "kind": "NPC"
+          },
+          "201430015": {
+            "type": "Text",
+            "id": 201430015,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Sorry, I didn't mean to put you on the spot",
+            "option": null,
+            "nextIds": [
+              201430016
+            ],
+            "kind": "NPC"
+          },
+          "201430016": {
+            "type": "Text",
+            "id": 201430016,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "But I'd still love to hear any suggestions you may have, {NICKNAME}",
+            "option": null,
+            "nextIds": [
+              201430017
+            ],
+            "kind": "NPC"
+          },
+          "201430017": {
+            "type": "Text",
+            "id": 201430017,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "Please!",
+            "option": null,
+            "nextIds": [
+              201430018
+            ],
+            "kind": "NPC"
+          },
+          "201430018": {
+            "type": "Sticker",
+            "id": 201430018,
+            "sectionId": 2014300,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201430019
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20001,
+              "path": "icon/emoji/20001.png",
+              "keywords": "Hey"
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 2014400,
+        "startIds": [
+          201440000
+        ],
+        "messages": {
+          "201440000": {
+            "type": "Text",
+            "id": 201440000,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "Image sent",
+            "option": null,
+            "nextIds": [
+              201440001
+            ],
+            "kind": "System"
+          },
+          "201440001": {
+            "type": "Text",
+            "id": 201440001,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "Check this out! I'm on a planet famous for its island resorts!",
+            "option": null,
+            "nextIds": [
+              201440002
+            ],
+            "kind": "NPC"
+          },
+          "201440002": {
+            "type": "Text",
+            "id": 201440002,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "It's only <unbreak>05</unbreak>:<unbreak>00</unbreak> system hour here, still early in the morning, but there are already a bunch of people out surfing!",
+            "option": null,
+            "nextIds": [
+              201440003
+            ],
+            "kind": "NPC"
+          },
+          "201440003": {
+            "type": "Text",
+            "id": 201440003,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "You know, when the ocean mirrors the sky, it's hard to tell if they're right in front of me or far off in the distance. It's almost like they're soaring on the horizon",
+            "option": null,
+            "nextIds": [
+              201440004
+            ],
+            "kind": "NPC"
+          },
+          "201440004": {
+            "type": "Text",
+            "id": 201440004,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "Have you ever had that feeling?",
+            "option": null,
+            "nextIds": [
+              201440005,
+              201440007,
+              201440009
+            ],
+            "kind": "NPC"
+          },
+          "201440005": {
+            "type": "Text",
+            "id": 201440005,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "Yes, when I couldn't sleep",
+            "option": "Yes, when I couldn't sleep",
+            "nextIds": [
+              201440006
+            ],
+            "kind": "Player"
+          },
+          "201440006": {
+            "type": "Text",
+            "id": 201440006,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "Still... It's 5 AM. Why are you up so early?",
+            "option": null,
+            "nextIds": [
+              201440012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201440012": {
+            "type": "Text",
+            "id": 201440012,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "I was born without the ability to dream, and I sleep much less than most. A quick rest is enough to fill me with energy",
+            "option": null,
+            "nextIds": [
+              201440013
+            ],
+            "kind": "NPC"
+          },
+          "201440013": {
+            "type": "Text",
+            "id": 201440013,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "That's why I love climbing to high places at the break of dawn",
+            "option": null,
+            "nextIds": [
+              201440014
+            ],
+            "kind": "NPC"
+          },
+          "201440014": {
+            "type": "Text",
+            "id": 201440014,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "Whether it's by the ocean, in the forest, or up in the mountains, I just love watching the sunrise and feeling the start of a new day in every world",
+            "option": null,
+            "nextIds": [
+              201440015
+            ],
+            "kind": "NPC"
+          },
+          "201440015": {
+            "type": "Text",
+            "id": 201440015,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "It's an incredible feeling. Give it a go when you can!",
+            "option": null,
+            "nextIds": [
+              201440016,
+              201440020,
+              201440024
+            ],
+            "kind": "NPC"
+          },
+          "201440016": {
+            "type": "Text",
+            "id": 201440016,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "Sounds amazing. Take me with you next time!",
+            "option": "I'd love to",
+            "nextIds": [
+              201440017
+            ],
+            "kind": "Player"
+          },
+          "201440017": {
+            "type": "Text",
+            "id": 201440017,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "Really? Awesome!",
+            "option": null,
+            "nextIds": [
+              201440018
+            ],
+            "kind": "NPC"
+          },
+          "201440018": {
+            "type": "Sticker",
+            "id": 201440018,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201440019
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 107004,
+              "path": "icon/emoji/107004.png",
+              "keywords": "Yay"
+            }
+          },
+          "201440019": {
+            "type": "Text",
+            "id": 201440019,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "I was worried that you might say no!",
+            "option": null,
+            "nextIds": [
+              201440028
+            ],
+            "kind": "NPC"
+          },
+          "201440028": {
+            "type": "Text",
+            "id": 201440028,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "But there are so many bugs outdoors sometimes, and they always seem to find me...",
+            "option": null,
+            "nextIds": [
+              201440029,
+              201440034,
+              201440037
+            ],
+            "kind": "NPC"
+          },
+          "201440029": {
+            "type": "Text",
+            "id": 201440029,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "They're just bugs. Nothing to be scared of",
+            "option": "They're just bugs",
+            "nextIds": [
+              201440030
+            ],
+            "kind": "Player"
+          },
+          "201440030": {
+            "type": "Sticker",
+            "id": 201440030,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201440031
+            ],
+            "kind": "PlayerAuto",
+            "sticker": {
+              "id": 114013,
+              "path": "icon/emoji/114014.png",
+              "keywords": "Bliss"
+            }
+          },
+          "201440031": {
+            "type": "Text",
+            "id": 201440031,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "Yeah, you're right",
+            "option": null,
+            "nextIds": [
+              201440032
+            ],
+            "kind": "NPC"
+          },
+          "201440032": {
+            "type": "Text",
+            "id": 201440032,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "Plus, I can just stay back",
+            "option": null,
+            "nextIds": [
+              201440033
+            ],
+            "kind": "NPC"
+          },
+          "201440033": {
+            "type": "Sticker",
+            "id": 201440033,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30018,
+              "path": "icon/emoji/115004.png",
+              "keywords": "Attack"
+            }
+          },
+          "201440034": {
+            "type": "Text",
+            "id": 201440034,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "Bugs totally freak me out! Just seeing them makes me cringe",
+            "option": "Bugs totally freak me out!",
+            "nextIds": [
+              201440035
+            ],
+            "kind": "Player"
+          },
+          "201440035": {
+            "type": "Text",
+            "id": 201440035,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "Haha, I've got a great trick to keep the bugs away. Leave it to me!",
+            "option": null,
+            "nextIds": [
+              201440036
+            ],
+            "kind": "NPC"
+          },
+          "201440036": {
+            "type": "Sticker",
+            "id": 201440036,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30018,
+              "path": "icon/emoji/115004.png",
+              "keywords": "Attack"
+            }
+          },
+          "201440037": {
+            "type": "Text",
+            "id": 201440037,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "Is your trick what I think it is?",
+            "option": "Don't tell me that trick is...",
+            "nextIds": [
+              201440038
+            ],
+            "kind": "Player"
+          },
+          "201440038": {
+            "type": "Text",
+            "id": 201440038,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "I will...",
+            "option": null,
+            "nextIds": [
+              201440039
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201440039": {
+            "type": "Text",
+            "id": 201440039,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "set the seas",
+            "option": null,
+            "nextIds": [
+              201440040
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201440040": {
+            "type": "Text",
+            "id": 201440040,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "ablaze!",
+            "option": null,
+            "nextIds": [
+              201440041
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201440041": {
+            "type": "Text",
+            "id": 201440041,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "You guessed right",
+            "option": null,
+            "nextIds": [
+              201440042
+            ],
+            "kind": "NPC"
+          },
+          "201440042": {
+            "type": "Text",
+            "id": 201440042,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "Cool!",
+            "option": null,
+            "nextIds": [
+              201440043
+            ],
+            "kind": "NPC"
+          },
+          "201440043": {
+            "type": "Sticker",
+            "id": 201440043,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30018,
+              "path": "icon/emoji/115004.png",
+              "keywords": "Attack"
+            }
+          },
+          "201440020": {
+            "type": "Text",
+            "id": 201440020,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "I'm not really a morning person...",
+            "option": "I'm not a morning person",
+            "nextIds": [
+              201440021
+            ],
+            "kind": "Player"
+          },
+          "201440021": {
+            "type": "Text",
+            "id": 201440021,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "The trailblazing expedition can get really intense. But if you can wake me up early...",
+            "option": null,
+            "nextIds": [
+              201440022
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201440022": {
+            "type": "Text",
+            "id": 201440022,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "I can try. I'll let the conductor know that I'll be dropping by the Express at that time",
+            "option": null,
+            "nextIds": [
+              201440023
+            ],
+            "kind": "NPC"
+          },
+          "201440023": {
+            "type": "Sticker",
+            "id": 201440023,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201440028
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "201440024": {
+            "type": "Text",
+            "id": 201440024,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "I'm super busy in the morning. I have training at 4 AM",
+            "option": "I have training at 4 AM",
+            "nextIds": [
+              201440025
+            ],
+            "kind": "Player"
+          },
+          "201440025": {
+            "type": "Text",
+            "id": 201440025,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "Ever seen the Astral Express at 4 AM?",
+            "option": null,
+            "nextIds": [
+              201440026
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201440026": {
+            "type": "Text",
+            "id": 201440026,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "Wow! That's some impressive willpower",
+            "option": null,
+            "nextIds": [
+              201440027
+            ],
+            "kind": "NPC"
+          },
+          "201440027": {
+            "type": "Sticker",
+            "id": 201440027,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "",
+            "option": null,
+            "nextIds": [
+              201440028
+            ],
+            "kind": "NPC",
+            "sticker": {
+              "id": 20006,
+              "path": "icon/emoji/20006.png",
+              "keywords": "Like"
+            }
+          },
+          "201440007": {
+            "type": "Text",
+            "id": 201440007,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "I'm up early every day. Bet you didn't expect that!",
+            "option": "I'm an early bird",
+            "nextIds": [
+              201440008
+            ],
+            "kind": "Player"
+          },
+          "201440008": {
+            "type": "Text",
+            "id": 201440008,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "But you're up really early too",
+            "option": null,
+            "nextIds": [
+              201440012
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201440009": {
+            "type": "Text",
+            "id": 201440009,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "I don't need sleep. Bet you didn't expect that!",
+            "option": "I don't need sleep",
+            "nextIds": [
+              201440010
+            ],
+            "kind": "Player"
+          },
+          "201440010": {
+            "type": "Text",
+            "id": 201440010,
+            "sectionId": 2014400,
+            "senderId": null,
+            "text": "Nah, just kidding",
+            "option": null,
+            "nextIds": [
+              201440011
+            ],
+            "kind": "PlayerAuto"
+          },
+          "201440011": {
+            "type": "Text",
+            "id": 201440011,
+            "sectionId": 2014400,
+            "senderId": 1310,
+            "text": "Ah, that's me, actually",
+            "option": null,
+            "nextIds": [
+              201440012
+            ],
+            "kind": "NPC"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1300400,
+        "startIds": [
+          130040000
+        ],
+        "messages": {
+          "130040000": {
+            "type": "Text",
+            "id": 130040000,
+            "sectionId": 1300400,
+            "senderId": null,
+            "text": "",
+            "option": null,
+            "nextIds": [],
+            "kind": "Player"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "Message",
+        "id": 1307000,
+        "startIds": [
+          130700000
+        ],
+        "messages": {
+          "130700000": {
+            "type": "Text",
+            "id": 130700000,
+            "sectionId": 1307000,
+            "senderId": 1310,
+            "text": "It's me, Firefly",
+            "option": null,
+            "nextIds": [
+              130700001
+            ],
+            "kind": "NPC"
+          },
+          "130700001": {
+            "type": "Text",
+            "id": 130700001,
+            "sectionId": 1307000,
+            "senderId": 1310,
+            "text": "I'm got it all handled",
+            "option": null,
+            "nextIds": [
+              130700002
+            ],
+            "kind": "NPC"
+          },
+          "130700002": {
+            "type": "Text",
+            "id": 130700002,
+            "sectionId": 1307000,
+            "senderId": 1310,
+            "text": "Don't worry. I didn't do anything rash. I've hidden myself away",
+            "option": null,
+            "nextIds": [
+              130700003
+            ],
+            "kind": "NPC"
+          },
+          "130700003": {
+            "type": "Text",
+            "id": 130700003,
+            "sectionId": 1307000,
+            "senderId": 1310,
+            "text": "It's a pity I won't be able to see Miss Robin perform...",
+            "option": null,
+            "nextIds": [
+              130700004
+            ],
+            "kind": "NPC"
+          },
+          "130700004": {
+            "type": "Sticker",
+            "id": 130700004,
+            "sectionId": 1307000,
+            "senderId": 1310,
+            "text": "(Firefly sticker)",
+            "option": null,
+            "nextIds": [],
+            "kind": "NPC",
+            "sticker": {
+              "id": 30017,
+              "path": "icon/emoji/115003.png",
+              "keywords": "Pretty Good"
+            }
+          }
+        }
+      }
+    ]
+  ],
+  "info": {
+    "id": 1310,
+    "name": "Firefly",
+    "signature": "I will find my dreams...",
+    "iconPath": "icon/avatar/1310.png",
+    "type": 1,
+    "camp": 5
+  }
+}

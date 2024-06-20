@@ -229,7 +229,8 @@
             "kind": "NPC",
             "image": {
               "id": 10206,
-              "path": "image/messages/10202.png"
+              "m_path": "image/messages/10202.png",
+              "f_path": "image/messages/10202.png"
             }
           },
           "121180007": {

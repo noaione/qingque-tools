@@ -42,7 +42,9 @@
           <div v-else-if="message.type === 'Image'" class="flex flex-wrap pb-2 mt-2">
             <img
               class="object-contain h-[10rem] w-[20rem] shadow-md"
-              :src="`/assets/${message.image.path.replace('.png', '.webp')}`"
+              :src="
+                trailblazerGender === 'F' ? getImage(message.image.f_path) : getImage(message.image.m_path)
+              "
               :alt="message.text"
             />
           </div>
@@ -50,7 +52,7 @@
             <img
               class="object-contain h-[10rem] w-[20rem] shadow-md"
               alt="Video Thumbnail"
-              :src="`/assets/${message.video.path.replace('.png', '.webp')}`"
+              :src="getImage(message.video.path)"
             />
             <div class="absolute w-full h-full flex items-center justify-center">
               <i-mdi-play-circle-outline
@@ -62,7 +64,7 @@
           <div v-else-if="message.type === 'Sticker'" class="flex flex-wrap pb-1 mt-2">
             <img
               class="object-contain h-36 w-36"
-              :src="`/assets/${message.sticker.path.replace('.png', '.webp')}`"
+              :src="getImage(message.sticker.path)"
               :alt="message.sticker.keywords + ' Emoji'"
               :title="message.text"
             />
@@ -70,7 +72,7 @@
           <div v-else-if="message.type === 'Link'" class="flex flex-wrap flex-col items-center pb-1 mt-2">
             <img
               class="object-contain h-36 w-36"
-              :src="`/assets/${message.link.image.replace('.png', '.webp')}`"
+              :src="getImage(message.link.image)"
               :alt="message.link.name"
               :title="message.text"
             />
@@ -82,7 +84,7 @@
           >
             <img
               class="object-contain h-40 mt-2 w-auto items-center"
-              :src="`/assets/${message.raid.image.replace('.png', '.webp')}`"
+              :src="getImage(message.raid.image)"
               :alt="message.raid.name + ' Raid'"
             />
             <span class="mt-2 text-purple-300 text-lg font-semibold">Mission</span>
@@ -156,6 +158,10 @@ const senderAvatar = computed(() => {
 
   return `/assets/icon/avatar/${tbProfile}`;
 });
+
+function getImage(imagePath: string) {
+  return `/assets/${imagePath.replace(".png", ".webp")}`;
+}
 
 onMounted(() => {
   showTrans.value = true;
